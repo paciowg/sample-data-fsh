@@ -1,0 +1,76 @@
+# ╭─────────────────────────Commonly Used ImplementationGuide Properties───────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. The most commonly   │
+# │  used properties are included. For a list of all supported properties and their functions,     │
+# │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: fhir.paciosampledata
+canonical: http://mitre.org/paciowg
+name: PACIOSampleData
+title: PACIO Sample Data Depot
+description: Repository of sample data for the PACIO project
+status: draft # draft | active | retired | unknown
+version: 0.1.0
+fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
+copyrightYear: 2023+
+releaseLabel: draft # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
+# license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
+# jurisdiction: urn:iso:std:iso:3166#US "United States of America" # https://www.hl7.org/fhir/valueset-jurisdiction.html
+
+publisher:
+  name: MITRE
+  url: http://www.mitre.org
+
+dependencies:
+  hl7.fhir.us.core: 6.1.0
+#  hl7.fhir.uv.extensions: current
+  hl7.terminology: 5.4.0
+  us.nlm.vsac:
+    uri: 'http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac'
+    version: 0.15.0
+    id: vsac
+  # hl7.fhir.us.pacio-pfe:
+  #   id: pacio-pfe
+  #   uri: http://hl7.org/fhir/us/pacio-pfe
+  #   version: 2.0.0-ballot
+  hl7.fhir.us.smp:
+    id: smp
+    uri: http://hl7.org/fhir/us/smp/ImplementationGuide/hl7.fhir.us.smp
+    version: 1.0.0
+  hl7.fhir.us.mcode:
+    id: mcode
+    uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode
+    version: 3.0.0
+
+parameters:
+   excludettl: true
+
+menu:
+  Home: index.html
+  Artifacts: artifacts.html
+  Example Guidance:
+    Style Guide: style_guide.html
+  Use Case Examples: 
+    Integration - Cancer: pacio_int_cancer_jm1.html
+    Integration - Stroke: pacio_int_stroke_bsj1.html
+
+pages:
+  index.md:
+    title: PACIO Sample Data Repository
+  style_guide.md:
+    title: Examples Style Guide
+  pacio_int_cancer_jm1.md:
+    title: PACIO Integration Track - Cancer Use Case
+  pacio_int_stroke_bsj1.md:
+    title: PACIO Integration Track - Stroke Use Case
+
+
+contact:
+  - name: May Terry
+    telecom:
+      - system: email # phone | fax | email | pager | url | sms | other
+        value: mayT@mitre.org
+        use: work
+
+instanceOptions:
+  manualSliceOrdering: true # true | false
+  
