@@ -10,7 +10,7 @@ This is a workbook project to create and manage sample data used in PACIO Connec
 
 ### Assumptions and Caveats
 
-* TBD
+* All examples are based in FHIR 4.0.1 and share the same IG dependencies.
 
 ### Credits
 
