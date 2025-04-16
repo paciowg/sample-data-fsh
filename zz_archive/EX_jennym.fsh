@@ -1,3 +1,9 @@
+/********** ALIASES ***********/
+
+Alias: $sct = http://snomed.info/sct
+Alias: $condition-clinical = http://terminology.hl7.org/CodeSystem/condition-clinical
+Alias: $VerStatus = http://terminology.hl7.org/CodeSystem/condition-ver-status
+Alias: $icf = http://hl7.org/fhir/sid/icf
 Alias: $sct = http://snomed.info/sct
 
 /********** ACTORS ***********/
@@ -64,7 +70,7 @@ Usage: #example
 * relationship = $v3-RoleCode#PUNCLE "paternal uncle"
 * deceasedBoolean = true
 * condition.code.coding.version = "http://snomed.info/sct/900000000000207008"
-* condition.code.coding = $SCT#363418001 "Malignant tumor of pancreas (disorder)"
+* condition.code.coding = $SCT#363418001 "Malignant neoplasm of pancreas (disorder)"
 * condition.contributedToDeath = true
 
 Instance: jennymosley01-familymemberhistory-sister
@@ -78,6 +84,8 @@ Usage: #example
 * condition.contributedToDeath = false
 * condition.onsetAge = 64 'a'
 
+
+/********** CONDITION ***********/
 
 Instance: jennymosley01-condition-depression-01
 InstanceOf: USCoreCondition
@@ -101,12 +109,6 @@ Description: "Extended example: example showing comorbid condition (hypertension
 * onsetDateTime = "2012-07-22"
 * asserter = Reference(practitioner-owenoncologist01)
 
-Alias: $condition-clinical = http://terminology.hl7.org/CodeSystem/condition-clinical
-Alias: $VerStatus = http://terminology.hl7.org/CodeSystem/condition-ver-status
-Alias: $icf = http://hl7.org/fhir/sid/icf
-Alias: $condition-category = http://hl7.org/fhir/us/core/CodeSystem/condition-category
-Alias: $sct = http://snomed.info/sct
-
 Instance: jennymosley01-condition-anxiety-01
 InstanceOf: Condition
 Description: "Extended example: example showing comorbid condition (anxiety)"
@@ -115,7 +117,7 @@ Usage: #example
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $VerStatus#confirmed
 * category[0] = $icf#b152 "Emotional functions"
-* category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
+* category[+] = $uscore-condition-category#encounter-diagnosis "Encounter Diagnosis"
 * code = $SCT#197480006 "Anxiety Disorder (disorder)"
 * subject = Reference(Patient/jennymosley01-patient)
 * onsetDateTime = "2011-08"

@@ -46,3 +46,5 @@ Alias:   $MedReqCat = 	http://terminology.hl7.org/CodeSystem/medicationrequest-c
 Alias:   $RefMeaning = http://terminology.hl7.org/CodeSystem/referencerange-meaning
 Alias:   $AbsentReason = http://terminology.hl7.org/CodeSystem/data-absent-reason
 Alias:   $ResourceType = http://hl7.org/fhir/fhir-types
+
+Alias: $taxonomy = http://nucc.org/provider-taxonomy
