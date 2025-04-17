@@ -60,9 +60,6 @@ Usage: #example
 * dosage.route.coding = $sct#47625008 "Intravenous route (qualifier value)"
 * dosage.dose = 272.01 'mg' "mg"
 
-Alias: $sct = http://snomed.info/sct
-Alias: $medicationrequest-category = http://terminology.hl7.org/CodeSystem/medicationrequest-category
-Alias: $rxnorm = http://www.nlm.nih.gov/research/umls/rxnorm
 
 Instance: cancer-related-medication-request-anastrozole-jenny-m
 InstanceOf: MedicationRequest
@@ -86,9 +83,6 @@ Usage: #example
 * dosageInstruction.maxDosePerPeriod.numerator.value = 1
 * dosageInstruction.maxDosePerPeriod.denominator = 1 'd' "day"
 
-Alias: $sct = http://snomed.info/sct
-Alias: $medicationrequest-category = http://terminology.hl7.org/CodeSystem/medicationrequest-category
-Alias: $rxnorm = http://www.nlm.nih.gov/research/umls/rxnorm
 
 Instance: cancer-related-medication-request-cyclophosphamide-jenny-m
 InstanceOf: MedicationRequest

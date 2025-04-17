@@ -38,7 +38,7 @@ Usage: #example
 * intent = #order
 * category = $medicationrequest-category#community
 * priority = #routine
-* medicationCodeableConcept = $rxnorm#892531 "morphine sulfate 10 MG/ML"
+* medicationCodeableConcept = $rxnorm#892531 "morphine sulfate 10 MG/ML Injectable Solution"
 * medicationCodeableConcept.text = "morphine sulfate 10 MG/ML"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * authoredOn = "2024-12-28T19:25:00-08:00"
@@ -132,7 +132,7 @@ InstanceOf: MedicationStatement
 Usage: #example
 * basedOn = Reference(MedicationRequest/MedicationRequest-MorphinePCA)
 * status = #active
-* medicationCodeableConcept = $rxnorm#892531 "morphine sulfate 10 MG/ML"
+* medicationCodeableConcept = $rxnorm#892531 "morphine sulfate 10 MG/ML Injectable Solution"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * informationSource = Reference(Organization/Org-Hospice-Suquamish) "Suquamish Hospice"
 * reasonCode.coding.version = "http://snomed.info/sct/731000124108"

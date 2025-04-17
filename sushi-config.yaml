@@ -44,6 +44,10 @@ dependencies:
     id: pfe
     uri: http://hl7.org/fhir/us/pacio-pfe/ImplementationGuide/hl7.fhir.us.pacio-pfe
     version: 2.0.0-ballot
+  hl7.fhir.us.pacio-toc:
+    id: toc
+    uri: http://hl7.org/fhir/us/pacio-toc/ImplementationGuide/hl7.fhir.us.pacio-toc
+    version: 1.0.0-ballot
 
 parameters:
    excludettl: true
