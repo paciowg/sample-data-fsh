@@ -1,4 +1,6 @@
-Instance: org-Loc-Everyday-Community-Pharm
+Alias: $organization-type = http://terminology.hl7.org/CodeSystem/organization-type
+
+Instance: org-Loc-Everyday-Community-Pharm-01
 InstanceOf: Location
 Usage: #example
 * status = #active
@@ -34,7 +36,7 @@ Usage: #example
 * address.country = "US"
 * address.text = "13131 SE 240th St, Kent, WA 98031"
 
-Instance: org-Loc-NED-Contract-Pharm
+Instance: org-Loc-NED-Contract-Pharm-01
 InstanceOf: Location
 Usage: #example
 * status = #active
@@ -58,7 +60,7 @@ Usage: #example
 * address.country = "US"
 * address.text = "31858 Pacific Highway S, Federal Way, WA 98003"
 
-Instance: org-Loc-SNF-Happy-Nursing-Facility
+Instance: org-Loc-SNF-Happy-Nursing-Facility-01
 InstanceOf: Location
 Usage: #example
 * status = #active
@@ -153,4 +155,22 @@ Usage: #example
 * address.postalCode = "98003"
 * address.country = "US"
 * address.text = "32935 1st Ave S, Federal Way, WA 98003"
+
+Instance: us-core-organization-physician-services-inc
+InstanceOf: Organization
+Usage: #example
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
+* identifier.system = "http://hl7.org/fhir/sid/us-npi"
+* identifier.value = "0499342208"
+* active = true
+* type = $organization-type#prov "Healthcare Provider"
+* name = "Physician Services, Inc."
+* telecom.system = #phone
+* telecom.value = "999-999-9999"
+* telecom.use = #work
+* address.line = "123 Corporate Drive"
+* address.city = "Anytown"
+* address.state = "WA"
+* address.postalCode = "12345"
+* address.country = "US"
 

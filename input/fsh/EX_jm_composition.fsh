@@ -9,9 +9,9 @@ Usage: #example
 * type = $loinc#81218-0 "Discharge summary - recommended C-CDA R2.1 sections"
 * subject = Reference(Patient/patientJM1)
 * date = "2024-09-20T12:30:58.313-04:00"
-* author = Reference(Practitioner/Practitioner-GeraldPark)
+* author = Reference(Practitioner/Practitioner-GeraldPark-01)
 * title = "Transitions of Care Document for Jenny Mosley"
-* custodian = Reference(Organization/org-Onc-Hosp-Puget-Sound)
+* custodian = Reference(Organization/Org-Onc-Hosp-Puget-Sound)
 * section[0].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Information sections for the transitions of care for Jenny Mosley from the hospital to the skilled nursing facility</div>"
 * section[+].title = "List of allergies for Jenny Mosley"
@@ -36,7 +36,7 @@ Usage: #example
 * section[=].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of problem conditions and observations for Jenny Mosley</div>"
 * section[=].entry[0] = Reference(Condition/JM1-AnxietyDiagnosis)
-* section[=].entry[+] = Reference(Condition/JM1-Hyperlipidemia)
+* section[=].entry[+] = Reference(Condition/JM1-HyperlipidemiaDiagnosis)
 * section[=].entry[+] = Reference(Condition/JM1-HypertensionDiagnosis)
 * section[=].entry[+] = Reference(Condition/primary-cancer-condition-jenny-m)
 * section[=].entry[+] = Reference(Condition/us-core-condition-anxiety-jenny-m)
@@ -57,7 +57,7 @@ Usage: #example
 * type = $loinc#81218-0 "Discharge summary - recommended C-CDA R2.1 sections"
 * subject = Reference(Patient/patientJM1)
 * date = "2024-09-20T12:30:58.313-04:00"
-* author = Reference(Practitioner/Practitioner-GeraldPark)
+* author = Reference(Practitioner/Practitioner-GeraldPark-01)
 * title = "Transitions of Care Document for Jenny Mosley"
 * custodian = Reference(Organization/org-SNF-Happy-Nursing-Facility)
 * section[0].text.status = #additional
@@ -96,7 +96,7 @@ Usage: #example
 * section[=].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of problem conditions and observations for Jenny Mosley</div>"
 * section[=].entry[0] = Reference(Condition/JM1-AnxietyDiagnosis)
-* section[=].entry[+] = Reference(Condition/JM1-Hyperlipidemia)
+* section[=].entry[+] = Reference(Condition/JM1-HyperlipidemiaDiagnosis)
 * section[=].entry[+] = Reference(Condition/JM1-HypertensionDiagnosis)
 * section[=].entry[+] = Reference(Condition/primary-cancer-condition-jenny-m)
 * section[=].entry[+] = Reference(Condition/us-core-condition-anxiety-jenny-m)

@@ -13,5 +13,5 @@ Usage: #example
 * code = $rxnorm#7980 "Penicillin G"
 * patient = Reference(Patient/patientJM1)
 * recordedDate = "2016-09-22"
-* recorder = Reference(Practitioner/us-core-practitioner-owen-oncologist)
+* recorder = Reference(Practitioner/Practitioner-owen-oncologist-01)
 * reaction.manifestation = $sct#247472004 "Hives"

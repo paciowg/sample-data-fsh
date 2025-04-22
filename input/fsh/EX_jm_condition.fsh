@@ -17,7 +17,7 @@ Usage: #example
 * subject = Reference(Patient/patientJM1)
 * onsetDateTime = "2011-08"
 * recordedDate = "2011-09-17"
-* asserter = Reference(PractitionerRole/Role-IMMD-AnitaChu)
+* asserter = Reference(PractitionerRole/Role-IMMD-AnitaChu-01)
 
 Alias: $condition-clinical = http://terminology.hl7.org/CodeSystem/condition-clinical
 Alias: $condition-ver-status = http://terminology.hl7.org/CodeSystem/condition-ver-status
@@ -38,7 +38,7 @@ Usage: #example
 * subject = Reference(Patient/patientJM1)
 * onsetDateTime = "2011-08"
 * recordedDate = "2011-09-17"
-* asserter = Reference(PractitionerRole/Role-IMMD-AnitaChu)
+* asserter = Reference(PractitionerRole/Role-IMMD-AnitaChu-01)
 
 Alias: $condition-clinical = http://terminology.hl7.org/CodeSystem/condition-clinical
 Alias: $condition-ver-status = http://terminology.hl7.org/CodeSystem/condition-ver-status
@@ -57,5 +57,5 @@ Usage: #example
 * subject = Reference(Patient/patientJM1)
 * onsetDateTime = "2011-08"
 * recordedDate = "2011-09-17"
-* asserter = Reference(PractitionerRole/Role-IMMD-AnitaChu)
+* asserter = Reference(PractitionerRole/Role-IMMD-AnitaChu-01)
 

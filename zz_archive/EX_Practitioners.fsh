@@ -17,7 +17,7 @@ Description: "Extended example: example practitioner"
 * qualification.code = http://terminology.hl7.org/CodeSystem/v2-0360#MD
 * qualification.code.coding[0].version = "2.7"
 
-Instance: practitioner-anitachu01
+Instance: Practitioner-AnitaChu-01
 InstanceOf: Practitioner
 Usage: #example
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
@@ -143,11 +143,11 @@ Usage: #example
 
 
 
-Instance: Role-IMMD-AnitaChu
+Instance: Role-IMMD-AnitaChu-01
 InstanceOf: PractitionerRole
 Usage: #example
 * active = true
 * code = $taxonomy#207R00000X "Internal Medicine Physician"
-* practitioner = Reference(Practitioner/practitioner-anitachu01) "Dr. Anita Chu"
+* practitioner = Reference(Practitioner/Practitioner-AnitaChu-01) "Dr. Anita Chu"
 * organization = Reference(Organization/org-PC-Primary-Care-FederalWay) "Washington Primary Health Care Associates"
 * location = Reference(Location/org-Loc-PC-Primary-Care-FederalWay)

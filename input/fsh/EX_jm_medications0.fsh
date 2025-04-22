@@ -73,7 +73,7 @@ Usage: #example
 * medicationCodeableConcept = $rxnorm#199224 "anastrozole 1 MG Oral Tablet"
 * subject = Reference(Patient/patientJM1)
 * authoredOn = "2018-09-21"
-* requester = Reference(Practitioner/us-core-practitioner-owen-oncologist)
+* requester = Reference(Practitioner/Practitioner-owen-oncologist-01)
 * reasonReference = Reference(Condition/primary-cancer-condition-jenny-m)
 * dosageInstruction.text = "1mg orally once daily"
 * dosageInstruction.timing.repeat.boundsPeriod.start = "2018-09-30"
@@ -96,7 +96,7 @@ Usage: #example
 * medicationCodeableConcept = $rxnorm#2644738 "2 ML cyclophosphamide 500 MG/ML Injection"
 * subject = Reference(Patient/patientJM1)
 * authoredOn = "2018-04-12"
-* requester = Reference(Practitioner/us-core-practitioner-owen-oncologist)
+* requester = Reference(Practitioner/Practitioner-owen-oncologist-01)
 * reasonReference = Reference(Condition/primary-cancer-condition-jenny-m)
 * dosageInstruction.text = "cyclophosphamide (600 mg/m² IV), 932.59mg"
 * dosageInstruction.timing.repeat.boundsPeriod.start = "2018-04-01"
@@ -118,7 +118,7 @@ Usage: #example
 * medicationCodeableConcept = $rxnorm#1790102 "doxorubicin hydrochloride 10 MG"
 * subject = Reference(Patient/patientJM1)
 * authoredOn = "2018-04-12"
-* requester = Reference(Practitioner/us-core-practitioner-owen-oncologist)
+* requester = Reference(Practitioner/Practitioner-owen-oncologist-01)
 * reasonReference = Reference(Condition/primary-cancer-condition-jenny-m)
 * dosageInstruction.text = "doxorubicin (60 mg/m² IV)"
 * dosageInstruction.timing.repeat.boundsPeriod.start = "2018-04-01"
@@ -139,7 +139,7 @@ Usage: #example
 * medicationCodeableConcept = $rxnorm#1583214 "paclitaxel 100 MG Injection"
 * subject = Reference(Patient/patientJM1)
 * authoredOn = "2018-04-12"
-* requester = Reference(Practitioner/us-core-practitioner-owen-oncologist)
+* requester = Reference(Practitioner/Practitioner-owen-oncologist-01)
 * reasonReference = Reference(Condition/primary-cancer-condition-jenny-m)
 * dosageInstruction.text = "PACLitaxel (175 mg/m² IV), 272.01mg"
 * dosageInstruction.timing.repeat.boundsPeriod.start = "2018-04-12"
@@ -147,6 +147,31 @@ Usage: #example
 * dosageInstruction.doseAndRate.doseQuantity = 272.01 'mg' "mg"
 * dosageInstruction.maxDosePerPeriod.numerator.value = 1
 * dosageInstruction.maxDosePerPeriod.denominator = 3 'wk' "week"
+
+
+Instance: cancer-related-medication-request-palbociclib-jenny-m
+InstanceOf: MedicationRequest
+Usage: #example
+* meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-related-medication-request"
+* extension.url = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-procedure-intent"
+* extension.valueCodeableConcept.coding.version = "http://snomed.info/sct/900000000000207008"
+* extension.valueCodeableConcept.coding = $sct#373808002 "Curative - procedure intent (qualifier value)"
+* status = #active
+* intent = #order
+* category = $medicationrequest-category#outpatient
+* medicationCodeableConcept = $rxnorm#2284105 "palbociclib 125 MG Oral Tablet"
+* subject = Reference(Patient/patientJM1)
+* authoredOn = "2024-10-21"
+* requester = Reference(Practitioner/us-core-practitioner-owen-oncologist)
+* reasonReference = Reference(Condition/primary-cancer-condition-jenny-m)
+* note.text = "Each cycle is 28 days: Days 1-21: Palbociclib 125 mg daily, Days 22-28: No treatment (7-day break). Repeat until discontinuation."
+* dosageInstruction.text = "palbociclib 125 mg oral tablet"
+* dosageInstruction.timing.event = "2024-10-19"
+* dosageInstruction.timing.repeat.frequency = 1
+* dosageInstruction.timing.repeat.period = 1
+* dosageInstruction.timing.repeat.periodUnit = #d
+* dosageInstruction.route.coding.version = "http://snomed.info/sct/900000000000207008"
+* dosageInstruction.route.coding = $sct#26643006 "Oral route (qualifier value)"
 
 
 Instance: SMP-MedStmt-anastrozole-primary
@@ -236,7 +261,7 @@ Usage: #example
 * medicationCodeableConcept.text = "alprazolam 0.5 MG Oral Tablet"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * authoredOn = "2019-02-12"
-* requester = Reference(Practitioner/Practitioner-AnitaChu) "Anita Chu"
+* requester = Reference(Practitioner/Practitioner-AnitaChu-01) "Anita Chu"
 * reasonCode.coding.version = "http://snomed.info/sct/731000124108"
 * reasonCode.coding = $sct#197480006 "Anxiety disorder (disorder)"
 * reasonCode.text = "Anxiety disorder"
@@ -262,7 +287,7 @@ Usage: #example
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * authoredOn = "2024-08-17"
-* requester = Reference(Practitioner/Practitioner-AnitaChu) "Anita Chu"
+* requester = Reference(Practitioner/Practitioner-AnitaChu-01) "Anita Chu"
 * reasonCode = $sct#55822004 "Hyperlipidemia"
 * dosageInstruction.text = "40 mg tablet by mouth every day"
 * dosageInstruction.timing.repeat.boundsPeriod.start = "2024-08-17"
@@ -288,7 +313,7 @@ Usage: #example
 * medicationCodeableConcept.text = "metoprolol tartrate 50 MG Oral Tablet"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * authoredOn = "2024-08-13"
-* requester = Reference(Practitioner/Practitioner-AnitaChu) "Anita Chu"
+* requester = Reference(Practitioner/Practitioner-AnitaChu-01) "Anita Chu"
 * reasonCode.coding.version = "http://snomed.info/sct/731000124108"
 * reasonCode.coding = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
 * reasonCode.text = "Hypertension"

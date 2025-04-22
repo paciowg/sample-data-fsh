@@ -122,4 +122,4 @@ Usage: #example
 * subject = Reference(Patient/jennymosley01-patient)
 * onsetDateTime = "2011-08"
 * recordedDate = "2011-09-17"
-* asserter = Reference(PractitionerRole/Role-IMMD-AnitaChu)
+* asserter = Reference(PractitionerRole/Role-IMMD-AnitaChu-01)

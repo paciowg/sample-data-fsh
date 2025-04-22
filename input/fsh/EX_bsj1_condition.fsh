@@ -1,0 +1,332 @@
+Alias: $condition-clinical = http://terminology.hl7.org/CodeSystem/condition-clinical
+Alias: $condition-ver-status = http://terminology.hl7.org/CodeSystem/condition-ver-status
+Alias: $sct = http://snomed.info/sct
+Alias: $icf = http://hl7.org/fhir/sid/icf
+Alias: $uscore-condition-category = http://hl7.org/fhir/us/core/CodeSystem/condition-category
+
+Instance: BSJ-AnemiaDiagnosis
+InstanceOf: Condition
+Usage: #example
+* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
+* clinicalStatus = $condition-clinical#active
+* verificationStatus = $condition-ver-status#confirmed
+* code = $sct#691421000119108 "Anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)"
+* subject = Reference(Patient/patientBSJ1)
+* category[0] = $icf#b539 "Functions related to the digestive system, other specified and unspecified"
+* category[+] = $uscore-condition-category#encounter-diagnosis "Encounter Diagnosis"
+* bodySite = $sct#113257007 "Structure of cardiovascular system"
+* extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
+* extension.valueDateTime = "2024-08-27T13:15:00-04:00"
+* recordedDate = "2024-08-27T13:15:00-04:00"
+* note.text = "See lab"
+
+
+Instance: encounter-diagnosis-BreastCancer
+InstanceOf: Condition
+Usage: #example
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
+* extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
+* extension.valueDateTime = "2022-10-12"
+* clinicalStatus = $condition-clinical#remission "Remission"
+* clinicalStatus.text = "Remission"
+* verificationStatus = $condition-ver-status#confirmed "Confirmed"
+* verificationStatus.text = "Confirmed"
+* category = $uscore-condition-category#encounter-diagnosis "Encounter Diagnosis"
+* category.text = "Encounter Diagnosis"
+* code.coding.version = "http://snomed.info/sct/731000124108"
+* code.coding = $sct#417181009 " Hormone receptor positive malignant neoplasm of breast (disorder)"
+* code.text = " Hormone receptor positive malignant neoplasm of breast (disorder)"
+* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
+* onsetDateTime = "2022-10-12"
+* abatementDateTime = "2023-07-16"
+* recordedDate = "2022-10-12T14:15:07-04:00"
+
+
+Instance: BSJ-Constipation
+InstanceOf: Condition
+Usage: #example
+* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
+* clinicalStatus = $condition-clinical#active
+* verificationStatus = $condition-ver-status#confirmed
+* code = $sct#21782001 "Drug-induced constipation (disorder)"
+* subject = Reference(Patient/patientBSJ1)
+* recordedDate = "2020-11-05"
+* category[0] = $icf#b5252 "Frequency of defecation"
+* category[+] = $uscore-condition-category#encounter-diagnosis "Encounter Diagnosis"
+* bodySite = $sct#71854001 "Colon structure"
+* extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
+* extension.valueDateTime = "2020-11"
+* asserter = Reference(PractitionerRole/Role-IMMD-AnitaChu)
+
+Instance: BSJ-DepressionDiagnosis
+InstanceOf: Condition
+Usage: #example
+* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
+* clinicalStatus = $condition-clinical#active
+* verificationStatus = $condition-ver-status#confirmed
+* code = $sct#35489007 "Depressive disorder (disorder)"
+* subject = Reference(Patient/patientBSJ1)
+* recordedDate = "2005-02-12"
+* category[0] = $icf#b152 "Emotional functions"
+* category[+] = $uscore-condition-category#encounter-diagnosis "Encounter Diagnosis"
+* bodySite = $sct#12738006 "Brain structure"
+* extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
+* extension.valueDateTime = "2005-02"
+
+Instance: BSJ-DiabetesDiagnosis
+InstanceOf: Condition
+Usage: #example
+* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
+* clinicalStatus = $condition-clinical#active
+* verificationStatus = $condition-ver-status#confirmed
+* code = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
+* subject = Reference(Patient/patientBSJ1)
+* category[0] = $icf#b5401 "Carbohydrate metabolism"
+* category[+] = $uscore-condition-category#encounter-diagnosis "Encounter Diagnosis"
+* bodySite = $sct#113331007 "Structure of endocrine system"
+* extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
+* extension.valueDateTime = "2017-06"
+* onsetDateTime = "2017-06"
+* recordedDate = "2017-06-05"
+* asserter = Reference(PractitionerRole/Role-IMMD-AnitaChu)
+
+Instance: BSJ-DressingConcern
+InstanceOf: Condition
+Usage: #example
+* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns"
+* clinicalStatus = $condition-clinical#active
+* verificationStatus = $condition-ver-status#confirmed
+* code = $sct#284972002 "Difficulty performing dressing activity (finding)"
+* subject = Reference(Patient/patientBSJ1)
+* category[0] = $icf#b7601 "control of complex voluntary movements"
+* category[+] = $uscore-condition-category#health-concern "Health Concern"
+* category[+] = $us-core-category#functional-status "Functional Status"
+* recordedDate = "2024-08-31T15:40:00-04:00"
+* asserter = Reference(PractitionerRole/Role-OT-JenCadbury)
+* note.text = "Betsy is frustrated, embarrassed, and worried about not being able to dress herself"
+
+Instance: BSJ-HeartDiseaseDiagnosis
+InstanceOf: Condition
+Usage: #example
+* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
+* clinicalStatus = $condition-clinical#active
+* verificationStatus = $condition-ver-status#confirmed
+* code = $sct#414545008 "Ischemic heart disease (disorder)"
+* subject = Reference(Patient/patientBSJ1)
+* category[0] = $icf#b415 "Blood vessel functions"
+* category[+] = $uscore-condition-category#encounter-diagnosis "Encounter Diagnosis"
+* bodySite = $sct#113257007 "Structure of cardiovascular system"
+* extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
+* extension.valueDateTime = "2019-06"
+* recordedDate = "2019-06-08T14:15:00-04:00"
+* asserter = Reference(PractitionerRole/Role-IMMD-AnitaChu)
+
+Instance: BSJ-HemiparesisDiagnosis
+InstanceOf: Condition
+Usage: #example
+* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
+* clinicalStatus = $condition-clinical#active
+* verificationStatus = $condition-ver-status#confirmed
+* code = $sct#278286009 "Right hemiparesis (disorder)"
+* subject = Reference(Patient/patientBSJ1)
+* category[0] = $icf#b7302 "Power of muscles on one side of the body"
+* category[+] = $uscore-condition-category#encounter-diagnosis "Encounter Diagnosis"
+* bodySite = $sct#368209003 "Entire Right Arm"
+* extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
+* extension.valueDateTime = "2024-08-21T16:25:00-04:00"
+* onsetDateTime = "2024-08-21T15:40:00-04:00"
+* recordedDate = "2024-08-21T16:40:00-04:00"
+* asserter = Reference(PractitionerRole/Role-Neuro-NuraMekel)
+* note.text = "Patient began experiencing right sided weakness, primarily in arm and shoulder. There was no facial droop, but patient reports \"tingling\" in R face / numbness along R brow. Symptoms in face resolved post tPA administration. Strength improved in shoulder, weakness did not fully resolve. Demonstrates R arm weakness and lack of coordination. Fine motor skills significantly degraded and have not improved post tPA."
+
+Instance: BSJ-Hyperlipidemia
+InstanceOf: Condition
+Usage: #example
+* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
+* clinicalStatus = $condition-clinical#active
+* verificationStatus = $condition-ver-status#confirmed
+* code = $sct#55822004 "Hyperlipidemia (disorder)"
+* subject = Reference(Patient/patientBSJ1)
+* recordedDate = "2018-06-06"
+* category[0] = $icf#b5403 "Fat metabolism"
+* category[+] = $uscore-condition-category#encounter-diagnosis "Encounter Diagnosis"
+* bodySite = $sct#113257007 "Structure of cardiovascular system"
+* extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
+* extension.valueDateTime = "2018-06"
+* asserter = Reference(PractitionerRole/Role-IMMD-AnitaChu)
+
+Instance: BSJ-HypertensionDiagnosis
+InstanceOf: Condition
+Usage: #example
+* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
+* clinicalStatus = $condition-clinical#active
+* verificationStatus = $condition-ver-status#confirmed
+* code = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
+* subject = Reference(Patient/patientBSJ1)
+* category[0] = $icf#b4202 "Maintenance of blood pressure"
+* category[+] = $uscore-condition-category#encounter-diagnosis "Encounter Diagnosis"
+* bodySite = $sct#113257007 "Structure of cardiovascular system"
+* extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
+* extension.valueDateTime = "2011-09"
+* onsetDateTime = "2011-08"
+* recordedDate = "2011-09-17"
+* asserter = Reference(PractitionerRole/Role-IMMD-AnitaChu)
+
+Instance: BSJ-KidneyDisease
+InstanceOf: Condition
+Usage: #example
+* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
+* clinicalStatus = $condition-clinical#active
+* verificationStatus = $condition-ver-status#confirmed
+* code = $sct#731000119105 "Chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)"
+* subject = Reference(Patient/patientBSJ1)
+* category[0] = $icf#b610 "Urinary excretory functions"
+* category[+] = $uscore-condition-category#encounter-diagnosis "Encounter Diagnosis"
+* bodySite = $sct#17373004 "Both kidneys"
+* extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
+* extension.valueDateTime = "2021-04-10"
+* recordedDate = "2021-04-10T15:00:00-04:00"
+* asserter = Reference(PractitionerRole/Role-IMMD-AnitaChu)
+
+Instance: BSJ-NauseaAndVomiting
+InstanceOf: Condition
+Usage: #example
+* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
+* clinicalStatus = $condition-clinical#active
+* verificationStatus = $condition-ver-status#confirmed
+* code = $sct#16932000 "Nausea and Vomiting (disorder)"
+* subject = Reference(Patient/patientBSJ1)
+* category[0] = $icf#b5350 "Sensation of nausea"
+* category[+] = $uscore-condition-category#encounter-diagnosis "Encounter Diagnosis"
+* extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
+* extension.valueDateTime = "2024-08-22T16:30:00-04:00"
+* onsetDateTime = "2024-08-22T16:30:00-04:00"
+* recordedDate = "2024-08-22T16:30:00-04:00"
+* note.text = "Patient pressed call button for vomiting. She reports she started feeling nauseated about ten minutes ago."
+
+Instance: BSJ-Osteoarthritis
+InstanceOf: Condition
+Usage: #example
+* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
+* clinicalStatus = $condition-clinical#active
+* verificationStatus = $condition-ver-status#confirmed
+* code = $sct#396275006 "Osteoarthritis (disorder)"
+* subject = Reference(Patient/patientBSJ1)
+* recordedDate = "2020-07-11"
+* category[0] = $icf#b299 "Sensory functions and pain, unspecified"
+* category[+] = $icf#b7101 "Mobility of several joints"
+* category[+] = $uscore-condition-category#encounter-diagnosis "Encounter Diagnosis"
+* bodySite = $sct#40927001 "Both lower legs"
+* extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
+* extension.valueDateTime = "2020-07"
+* asserter = Reference(PractitionerRole/Role-IMMD-AnitaChu)
+
+Instance: BSJ-Osteopenia
+InstanceOf: Condition
+Usage: #example
+* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
+* clinicalStatus = $condition-clinical#active
+* verificationStatus = $condition-ver-status#confirmed
+* code = $sct#312894000 "Osteopenia (disorder)"
+* subject = Reference(Patient/patientBSJ1)
+* category[0] = $icf#b729 "Functions of the joints and bones, other specified and unspecified"
+* category[+] = $uscore-condition-category#encounter-diagnosis "Encounter Diagnosis"
+* bodySite = $sct#113192009 "Skeletal system structure"
+* extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
+* extension.valueDateTime = "2015-01"
+* asserter = Reference(PractitionerRole/Role-IMMD-AnitaChu)
+
+
+Instance: BSJ-StrokeDiagnosis
+InstanceOf: Condition
+Usage: #example
+* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
+* clinicalStatus = $condition-clinical#active
+* verificationStatus = $condition-ver-status#confirmed
+* code = $sct#422504002 "Ischemic Stroke (disorder)"
+* subject = Reference(Patient/patientBSJ1)
+* category[0] = $icf#s11009 "Structure of cortical lobes, unspecified"
+* category[+] = $uscore-condition-category#encounter-diagnosis "Encounter Diagnosis"
+* bodySite[0] = $sct#414722000 "Structure of middle cerebral artery M1 segment"
+* bodySite[+] = $sct#7771000 "Left"
+* extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
+* extension.valueDateTime = "2024-08-21T15:40:00-04:00"
+* onsetDateTime = "2024-08-21T15:40:00-04:00"
+* recordedDate = "2024-08-21T15:40:00-04:00"
+* asserter = Reference(PractitionerRole/Role-Neuro-NuraMekel)
+* note.text = "Partial occlusion of MCA. Stroke event witnessed. EMS response / patient arrived within 45 minutes of symptom onset. Verified by CT with contrast. tPA administered within 2 hours of symptom onset."
+
+Instance: BSJ-UndressingConcern
+InstanceOf: Condition
+Usage: #example
+* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns"
+* clinicalStatus = $condition-clinical#active
+* verificationStatus = $condition-ver-status#confirmed
+* code = $sct#284989005 "Difficulty undressing (finding)"
+* subject = Reference(Patient/patientBSJ1)
+* category[0] = $icf#b7602 "Coordination of voluntary movements"
+* category[+] = $uscore-condition-category#health-concern "Health Concern"
+* category[+] = $us-core-category#functional-status "Functional Status"
+* recordedDate = "2024-08-31T15:40:00-04:00"
+* asserter = Reference(PractitionerRole/Role-OT-JenCadbury)
+* note.text = "Betsy is frustrated, embarrassed, and worried about not being able to undress herself"
+
+Instance: OT-ProblemList-Decondition
+InstanceOf: Condition
+Usage: #example
+* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns"
+* clinicalStatus = $condition-clinical#active
+* verificationStatus = $condition-ver-status#confirmed
+* code = $sct#31031000119102 "Physical deconditioning (finding)"
+* subject = Reference(Patient/patientBSJ1)
+* category[0] = $icf#b7303 "Power of muscles in lower half of the body"
+* category[+] = $uscore-condition-category#problem-list-item "Problem List Item"
+* category[+] = $us-core-category#functional-status "Functional Status"
+* bodySite = $sct#362875007 "Entire lower body"
+* extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
+* extension.valueDateTime = "2024-09-03T15:40:00-04:00"
+* onsetDateTime = "2024-08-30T15:40:00-04:00"
+* recordedDate = "2024-09-03T15:40:00-04:00"
+* evidence[0].detail = Reference(Observation/BSJ-MDS-ShortWalk1)
+* evidence[+].detail = Reference(Observation/BSJ-MDS-SitStand1)
+* evidence[+].detail = Reference(Observation/BSJ-MDS-SitUp1)
+* asserter = Reference(PractitionerRole/Role-OT-JenCadbury)
+* note.text = "The weakness in the patient's lower extremities is secondary to deconditioning. According to the report from Neurology, patient did not have motor or sensory deficits below upper chest. High rehab potential."
+
+Instance: OT-ProblemList-RightWeak
+InstanceOf: Condition
+Usage: #example
+* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns"
+* clinicalStatus = $condition-clinical#active
+* verificationStatus = $condition-ver-status#confirmed
+* code = $sct#570961000124101 "Weakness of right upper limb (finding)"
+* subject = Reference(Patient/patientBSJ1)
+* category[0] = $icf#b7301 "Power of muscles of one limb"
+* category[+] = $uscore-condition-category#problem-list-item "Problem List Item"
+* category[+] = $us-core-category#functional-status "Functional Status"
+* bodySite = $sct#368209003 "Entire Right Arm"
+* extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
+* extension.valueDateTime = "2024-08-21T15:40:00-04:00"
+* recordedDate = "2024-08-31T15:40:00-04:00"
+* evidence.detail = Reference(Condition/BSJ-HemiparesisDiagnosis)
+* asserter = Reference(PractitionerRole/Role-OT-JenCadbury)
+* note.text = "The weakness and lack of coordination in the patient's right shoulder, arm, and hand are secondary to the stroke. PT/OT from SNF report improvements to rotator cuff strength over last month."
+
+Instance: health-concern-complexregime
+InstanceOf: Condition
+Usage: #example
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns"
+* extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
+* extension.valueDateTime = "2024-09-20"
+* clinicalStatus = $condition-clinical#active "Active"
+* clinicalStatus.text = "Active"
+* verificationStatus = $condition-ver-status#confirmed "Confirmed"
+* verificationStatus.text = "Confirmed"
+* category = $uscore-condition-category#health-concern "Health Concern"
+* category.text = "Health Concern"
+* code.coding.version = "http://snomed.info/sct"
+* code.coding = $sct#1137439008 "On complex medication regime (finding)"
+* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
+* recordedDate = "2024-09-20"
+* asserter = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
+

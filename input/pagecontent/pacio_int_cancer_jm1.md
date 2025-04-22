@@ -21,5 +21,5 @@ This use case describes a cancer related use case for demonstrating a PACIO inte
 | **Instance Description** | **FHIR profile or base resource** |
 | ------------ | ---------------- |
 | [`Patient Jenny Mosley`](Patient-patientJM1.html)| Patient |
-| [`Practitioner Owen Oncologist`](Practitioner-us-core-practitioner-owen-oncologist.html)| Practitioner |
+| [`Practitioner Owen Oncologist`](Practitioner-Practitioner-owen-oncologist-01.html)| Practitioner |
 | [`Condition Anxiety`](Condition-JM1-AnxietyDiagnosis.html)| Condition |

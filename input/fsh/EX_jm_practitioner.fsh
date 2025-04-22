@@ -1,9 +1,9 @@
-Instance: Practitioner-AlexanderKuikhoff
+Instance: Practitioner-AlexanderKuikhoff-01
 InstanceOf: Practitioner
 Usage: #example
 * meta.versionId = "4"
 * meta.lastUpdated = "2024-09-21T14:14:58.000+00:00"
-* meta.source = "#7DEapuGTyPa8JExC"
+// * meta.source = "#7DEapuGTyPa8JExC"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "5229180976"
 * active = true
@@ -22,12 +22,12 @@ Usage: #example
 * address.text = "32935 1st Ave S, Federal Way, WA 98003"
 * gender = #male
 
-Instance: Practitioner-AnitaChu
+Instance: Practitioner-AnitaChu-01
 InstanceOf: Practitioner
 Usage: #example
 * meta.versionId = "4"
 * meta.lastUpdated = "2024-09-20T19:03:21.000+00:00"
-* meta.source = "#S7gHLyFgHVToyfil"
+// * meta.source = "#S7gHLyFgHVToyfil"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "2346547890"
 * active = true
@@ -46,12 +46,12 @@ Usage: #example
 * address.text = "31858 Pacific Highway S, Federal Way, WA 98003"
 * gender = #female
 
-Instance: Practitioner-EmilyCarter
+Instance: Practitioner-EmilyCarter-01
 InstanceOf: Practitioner
 Usage: #example
 * meta.versionId = "4"
 * meta.lastUpdated = "2024-09-21T14:14:58.000+00:00"
-* meta.source = "#7DEapuGTyPa8JExC"
+// * meta.source = "#7DEapuGTyPa8JExC"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "6636517735"
 * active = true
@@ -70,12 +70,12 @@ Usage: #example
 * address.country = "US"
 * gender = #female
 
-Instance: Practitioner-GeraldPark
+Instance: Practitioner-GeraldPark-01
 InstanceOf: Practitioner
 Usage: #example
 * meta.versionId = "2"
 * meta.lastUpdated = "2024-09-21T14:20:39.000+00:00"
-* meta.source = "#uLpgpufbAOK8WsVT"
+// * meta.source = "#uLpgpufbAOK8WsVT"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "3820583019"
 * active = true
@@ -94,12 +94,12 @@ Usage: #example
 * address.country = "US"
 * gender = #male
 
-Instance: Practitioner-JacksonReese
+Instance: Practitioner-JacksonReese-01
 InstanceOf: Practitioner
 Usage: #example
 * meta.versionId = "4"
 * meta.lastUpdated = "2024-12-24T14:11:15.000+00:00"
-* meta.source = "#V6qO71UpaFWv7GXQ"
+// * meta.source = "#V6qO71UpaFWv7GXQ"
 * active = true
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "3579378498"
@@ -118,12 +118,12 @@ Usage: #example
 * address.text = "13131 SE 240th St, Kent, WA 98031"
 * gender = #male
 
-Instance: Practitioner-JenCadbury
+Instance: Practitioner-JenCadbury-01
 InstanceOf: Practitioner
 Usage: #example
 * meta.versionId = "5"
 * meta.lastUpdated = "2024-09-21T14:16:50.000+00:00"
-* meta.source = "#DEWzr3FAeLp88UUB"
+// * meta.source = "#DEWzr3FAeLp88UUB"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "1928374650"
 * active = true
@@ -142,12 +142,12 @@ Usage: #example
 * address.country = "US"
 * gender = #female
 
-Instance: Practitioner-JosephYasher
+Instance: Practitioner-JosephYasher-01
 InstanceOf: Practitioner
 Usage: #example
 * meta.versionId = "2"
 * meta.lastUpdated = "2024-12-31T14:20:39.000+00:00"
-* meta.source = "#uLpgpufbAOK8WsVT"
+// * meta.source = "#uLpgpufbAOK8WsVT"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "9470559417"
 * active = true
@@ -166,12 +166,12 @@ Usage: #example
 * address.country = "US"
 * gender = #male
 
-Instance: Practitioner-LorettaWinkler
+Instance: Practitioner-LorettaWinkler-01
 InstanceOf: Practitioner
 Usage: #example
 * meta.versionId = "2"
 * meta.lastUpdated = "2024-12-31T14:20:39.000+00:00"
-* meta.source = "#uLpgpufbAOK8WsVT"
+// * meta.source = "#uLpgpufbAOK8WsVT"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "5328288142"
 * active = true
@@ -190,12 +190,12 @@ Usage: #example
 * address.country = "US"
 * gender = #male
 
-Instance: Practitioner-LunaBaskins
+Instance: Practitioner-LunaBaskins-01
 InstanceOf: Practitioner
 Usage: #example
 * meta.versionId = "4"
 * meta.lastUpdated = "2024-09-21T14:13:25.000+00:00"
-* meta.source = "#t1IJv2gvYZdDhhSz"
+// * meta.source = "#t1IJv2gvYZdDhhSz"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "5459712308"
 * active = true
@@ -214,12 +214,12 @@ Usage: #example
 * address.country = "US"
 * gender = #other
 
-Instance: Practitioner-NancyNurse
+Instance: Practitioner-NancyNurse-01
 InstanceOf: Practitioner
 Usage: #example
 * meta.versionId = "2"
 * meta.lastUpdated = "2024-12-31T14:20:39.000+00:00"
-* meta.source = "#uLpgpufbAOK8WsVT"
+// * meta.source = "#uLpgpufbAOK8WsVT"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "6325515701"
 * active = true
@@ -238,12 +238,12 @@ Usage: #example
 * address.country = "US"
 * gender = #male
 
-Instance: Practitioner-NuraMekel
+Instance: Practitioner-NuraMekel-01
 InstanceOf: Practitioner
 Usage: #example
 * meta.versionId = "4"
 * meta.lastUpdated = "2024-09-21T14:11:15.000+00:00"
-* meta.source = "#V6qO71UpaFWv7GXQ"
+// * meta.source = "#V6qO71UpaFWv7GXQ"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "9395820218"
 * active = true
@@ -262,12 +262,12 @@ Usage: #example
 * address.country = "US"
 * gender = #female
 
-Instance: Practitioner-PeterPathologist
+Instance: Practitioner-PeterPathologist-01
 InstanceOf: Practitioner
 Usage: #example
 * meta.versionId = "4"
 * meta.lastUpdated = "2024-12-24T14:11:15.000+00:00"
-* meta.source = "#V6qO71UpaFWv7GXQ"
+// * meta.source = "#V6qO71UpaFWv7GXQ"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "5739311426"
 * active = true
@@ -286,12 +286,12 @@ Usage: #example
 * address.country = "US"
 * gender = #male
 
-Instance: Practitioner-RodericCurie
+Instance: Practitioner-RodericCurie-01
 InstanceOf: Practitioner
 Usage: #example
 * meta.versionId = "4"
 * meta.lastUpdated = "2024-12-24T14:11:15.000+00:00"
-* meta.source = "#V6qO71UpaFWv7GXQ"
+// * meta.source = "#V6qO71UpaFWv7GXQ"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "2554086464"
 * active = true
@@ -310,12 +310,12 @@ Usage: #example
 * address.country = "US"
 * gender = #male
 
-Instance: Practitioner-RudyBranch
+Instance: Practitioner-RudyBranch-01
 InstanceOf: Practitioner
 Usage: #example
 * meta.versionId = "4"
 * meta.lastUpdated = "2024-12-24T14:11:15.000+00:00"
-* meta.source = "#V6qO71UpaFWv7GXQ"
+// * meta.source = "#V6qO71UpaFWv7GXQ"
 * active = true
 * name.text = "Rudy Branch"
 * name.family = "Branch"
@@ -334,7 +334,7 @@ Usage: #example
 
 Alias: $v2-0360 = http://terminology.hl7.org/CodeSystem/v2-0360
 
-Instance: us-core-practitioner-owen-oncologist
+Instance: Practitioner-owen-oncologist-01
 InstanceOf: Practitioner
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"
@@ -353,6 +353,142 @@ Usage: #example
 * address.city = "Seattle"
 * address.state = "WA"
 * address.postalCode = "98104"
+* address.country = "US"
+* gender = #male
+* qualification.code.coding.version = "2.7"
+* qualification.code.coding = $v2-0360#MD
+
+// ******** mCODE data ********
+Instance: DrEmilyJohnson
+InstanceOf: Practitioner
+Usage: #example
+* identifier.system = "http://hl7.org/fhir/sid/us-npi"
+* identifier.value = "1234567890"
+* name.family = "Johnson"
+* name.given = "Emily"
+* telecom[0].system = #phone
+* telecom[=].value = "(555) 123-4567"
+* telecom[+].system = #fax
+* telecom[=].value = "(555) 987-6543"
+
+Instance: DrMichaelJohnson
+InstanceOf: Practitioner
+Usage: #example
+* identifier.system = "http://hl7.org/fhir/sid/us-npi"
+* identifier.value = "1234567890"
+* name.family = "Johnson"
+* name.given = "Michael"
+* telecom[0].system = #phone
+* telecom[=].value = "(555) 123-4567"
+* telecom[+].system = #fax
+* telecom[=].value = "(555) 987-6543"
+
+Instance: DrSarahChen
+InstanceOf: Practitioner
+Usage: #example
+* identifier.system = "http://hl7.org/fhir/sid/us-npi"
+* identifier.value = "2154879635"
+* name.family = "Chen"
+* name.given = "Sarah"
+* telecom[0].system = #phone
+* telecom[=].value = "(555) 223-4568"
+* telecom[+].system = #fax
+* telecom[=].value = "(555) 287-6545"
+
+
+Instance: us-core-practitioner-jane-radiotech
+InstanceOf: Practitioner
+Usage: #example
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"
+* identifier.system = "http://hl7.org/fhir/sid/us-npi"
+* identifier.value = "2345123675"
+* name.family = "Radiologist"
+* name.given = "Jane"
+* name.prefix = "Dr."
+* address.use = #work
+* address.line = "704 Terry Avenue"
+* address.city = "Seattle"
+* address.state = "WA"
+* address.postalCode = "98104"
+* address.country = "US"
+* gender = #female
+* qualification.code.coding.version = "2.7"
+* qualification.code.coding = $v2-0360#MD
+
+Alias: $v2-0360 = http://terminology.hl7.org/CodeSystem/v2-0360
+
+Instance: us-core-practitioner-kyle-anydoc
+InstanceOf: Practitioner
+Usage: #example
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"
+* identifier.system = "http://hl7.org/fhir/sid/us-npi"
+* identifier.value = "9988776651"
+* name.family = "Anydoc"
+* name.given = "Kyle"
+* name.prefix = "Dr."
+* address.use = #home
+* address.line = "567 Healthcare Drive"
+* address.city = "Anytown"
+* address.state = "WA"
+* address.postalCode = "12345"
+* address.country = "US"
+* gender = #male
+* qualification.code = $v2-0360#MD "Doctor of Medicine"
+
+
+Instance: us-core-practitioner-mary-obgyn
+InstanceOf: Practitioner
+Usage: #example
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"
+* identifier.system = "http://hl7.org/fhir/sid/us-npi"
+* identifier.value = "2345123675"
+* name.family = "Obgyn"
+* name.given = "Mary"
+* name.prefix = "Dr."
+* address.use = #work
+* address.line = "123 Primary Drive"
+* address.city = "Anytown"
+* address.state = "WA"
+* address.postalCode = "12345"
+* address.country = "US"
+* gender = #female
+* qualification.code.coding.version = "2.7"
+* qualification.code.coding = $v2-0360#MD
+
+
+Instance: us-core-practitioner-nancy-oncology-nurse
+InstanceOf: Practitioner
+Usage: #example
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"
+* identifier.system = "http://hl7.org/fhir/sid/us-npi"
+* identifier.value = "5566778895"
+* name.family = "Nurse"
+* name.given = "Nancy"
+* name.prefix = "Ms."
+* address.use = #work
+* address.line = "704 Terry Avenue"
+* address.city = "Seattle"
+* address.state = "WA"
+* address.postalCode = "98104"
+* address.country = "US"
+* gender = #female
+* qualification.code.coding.version = "2.7"
+* qualification.code.coding = $v2-0360#RN
+
+Instance: us-core-practitioner-peter-pathologist
+InstanceOf: Practitioner
+Usage: #example
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"
+* identifier.system = "http://hl7.org/fhir/sid/us-npi"
+* identifier.value = "9817951939"
+* name.family = "Pathologist"
+* name.given = "Peter"
+* name.prefix = "Dr."
+* address.use = #work
+* address.line = "123 Corporate Drive"
+* address.city = "Anytown"
+* address.state = "WA"
+* address.postalCode = "12345"
 * address.country = "US"
 * gender = #male
 * qualification.code.coding.version = "2.7"

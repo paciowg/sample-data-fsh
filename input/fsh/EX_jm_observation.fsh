@@ -13,13 +13,13 @@ Usage: #example
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#b16700 "Reception of spoken language"
-* code = $loinc#\t\n99841-9 "How often does the individual understand complex messages, as expected for chronological age, in HIGH demand situations?"
+* code = $loinc#99841-9 "How often does the individual understand complex messages, as expected for chronological age, in HIGH demand situations?"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * effectiveDateTime = "2024-12-28T23:30:00-08:00"
-* performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff)
+* performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff-01)
 * valueCodeableConcept = $loinc#LA33175-3 "0-25% of the time (rarely)"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
-* extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
+* extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility-01)
 
 
 Instance: JM-FCM-Rec-Partner
@@ -30,13 +30,14 @@ Usage: #example
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#d350 "Conversation"
-* code = $loinc#\t\n99842-7 "How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner?"
+* code = $loinc#99842-7 "Frequency of participating in spoken language comprehension communication without assistance"
+* code.text = "How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner?"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * effectiveDateTime = "2024-12-28T23:30:00-08:00"
-* performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff)
+* performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff-01)
 * valueCodeableConcept = $loinc#LA33175-3 "0-25% of the time (rarely)"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
-* extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
+* extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility-01)
 
 
 Instance: JM-FCM-Rec-SafeHigh
@@ -48,13 +49,13 @@ Usage: #example
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#d5 "Self Care"
 * category[+] = $pfe-category-cs#b16700 "Reception of spoken language"
-* code = $loinc#\t\n99841-9 "How often does the individual function safely WITHOUT additional supervision/assistance (in excess of chronological age expectations) due to comprehension deficits?"
+* code = $loinc#99841-9 "How often does the individual function safely WITHOUT additional supervision/assistance (in excess of chronological age expectations) due to comprehension deficits?"
 * subject = Reference(Patient/patientJM1)
 * effectiveDateTime = "2024-12-28T23:30:00-08:00"
-* performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff)
+* performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff-01)
 * valueCodeableConcept = $loinc#LA33175-3 "0-25% of the time (rarely)"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
-* extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
+* extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility-01)
 
 
 Instance: JM-FCM-Speak-ContHigh
@@ -66,13 +67,13 @@ Usage: #example
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#b16710 "Expression of Spoken Language"
 * category[+] = $pfe-category-cs#d350 "Conversation"
-* code = $loinc#\t\n99850-0 "How often does the individual produce verbal messages with appropriate CONTENT in HIGH demand situations?"
+* code = $loinc#99850-0 "How often does the individual produce verbal messages with appropriate CONTENT in HIGH demand situations?"
 * subject = Reference(Patient/patientJM1)
 * effectiveDateTime = "2024-12-28T23:30:00-08:00"
-* performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff)
+* performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff-01)
 * valueCodeableConcept = $loinc#LA33175-3 "0-25% of the time (rarely)"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
-* extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
+* extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility-01)
 
 
 Instance: JM-FCM-Speak-FormHigh
@@ -84,13 +85,13 @@ Usage: #example
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#b16710 "Expression of Spoken Language"
 * category[+] = $pfe-category-cs#d350 "Conversation"
-* code = $loinc#\t\n99850-0 "How often does the individual produce verbal messages with appropriate FORM in HIGH demand situations?"
+* code = $loinc#99850-0 "How often does the individual produce verbal messages with appropriate FORM in HIGH demand situations?"
 * subject = Reference(Patient/patientJM1)
 * effectiveDateTime = "2024-12-28T23:30:00-08:00"
-* performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff)
+* performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff-01)
 * valueCodeableConcept = $loinc#LA33175-3 "0-25% of the time (rarely)"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
-* extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
+* extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility-01)
 
 
 Instance: JM-FCMRec-Collection
@@ -106,12 +107,12 @@ Usage: #example
 * code = $loinc#99836-9 "Functional Communication Measure - Spoken Language Comprehension ages 6 or older panel [ASHA NOMS]"
 * subject = Reference(Patient/patientJM1)
 * effectiveDateTime = "2024-12-28T23:30:00-08:00"
-* performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff)
+* performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff-01)
 * hasMember[0] = Reference(Observation/JM-FCM-Rec-Partner)
 * hasMember[+] = Reference(Observation/JM-FCM-Rec-SafeHigh)
 * hasMember[+] = Reference(Observation/JM-FCM-Rec-ContHigh)
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
-* extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
+* extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility-01)
 
 
 Instance: JM-FCMSpeak-Collection
@@ -127,11 +128,11 @@ Usage: #example
 * code = $loinc#99844-3 "Functional Communication Measure - Spoken Language Expression ages 6 or older panel [ASHA NOMS]"
 * subject = Reference(Patient/patientJM1)
 * effectiveDateTime = "2024-12-28T23:30:00-08:00"
-* performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff)
+* performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff-01)
 * hasMember[0] = Reference(Observation/JM-FCM-Speak-FormHigh)
 * hasMember[+] = Reference(Observation/JM-FCM-Speak-ContHigh)
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
-* extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
+* extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility-01)
 
 
 Instance: JM-FCM-Rec-ContHigh-Palliative
@@ -142,13 +143,13 @@ Usage: #example
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#b16700 "Reception of spoken language"
-* code = $loinc#\t\n99841-9 "How often does the individual understand complex messages, as expected for chronological age, in HIGH demand situations?"
+* code = $loinc#99841-9 "How often does the individual understand complex messages, as expected for chronological age, in HIGH demand situations?"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * effectiveDateTime = "2024-10-23T23:30:00-08:00"
-* performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff)
+* performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff-01)
 * valueCodeableConcept = $loinc#LA33177-9 "50-75% of the time (often)"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
-* extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
+* extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility-01)
 
 
 Instance: JM-FCM-Rec-Partner-Palliative
@@ -159,13 +160,14 @@ Usage: #example
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#d350 "Conversation"
-* code = $loinc#\t\n99842-7 "How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner?"
+* code = $loinc#99842-7 "Frequency of participating in spoken language comprehension communication without assistance"
+* code.text = "How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner?"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * effectiveDateTime = "2024-10-23T23:30:00-08:00"
-* performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff)
+* performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff-01)
 * valueCodeableConcept = $loinc#LA33177-9 "50-75% of the time (often)"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
-* extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
+* extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility-01)
 
 
 Instance: JM-FCM-Rec-SafeHigh-Palliative
@@ -177,13 +179,13 @@ Usage: #example
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#d5 "Self Care"
 * category[+] = $pfe-category-cs#b16700 "Reception of spoken language"
-* code = $loinc#\t\n99841-9 "How often does the individual function safely WITHOUT additional supervision/assistance (in excess of chronological age expectations) due to comprehension deficits?"
+* code = $loinc#99841-9 "How often does the individual function safely WITHOUT additional supervision/assistance (in excess of chronological age expectations) due to comprehension deficits?"
 * subject = Reference(Patient/patientJM1)
 * effectiveDateTime = "2024-10-23T23:30:00-08:00"
-* performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff)
+* performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff-01)
 * valueCodeableConcept = $loinc#LA33177-9 "50-75% of the time (often)"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
-* extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
+* extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility-01)
 
 
 Instance: JM-FCM-Speak-ContHigh-Palliative
@@ -195,13 +197,13 @@ Usage: #example
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#b16710 "Expression of Spoken Language"
 * category[+] = $pfe-category-cs#d350 "Conversation"
-* code = $loinc#\t\n99850-0 "How often does the individual produce verbal messages with appropriate CONTENT in HIGH demand situations?"
+* code = $loinc#99850-0 "How often does the individual produce verbal messages with appropriate CONTENT in HIGH demand situations?"
 * subject = Reference(Patient/patientJM1)
 * effectiveDateTime = "2024-10-23T23:30:00-08:00"
-* performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff)
+* performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff-01)
 * valueCodeableConcept = $loinc#LA33177-9 "50-75% of the time (often)"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
-* extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
+* extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility-01)
 
 
 Instance: JM-FCM-Speak-FormHigh-Palliative
@@ -213,13 +215,13 @@ Usage: #example
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#b16710 "Expression of Spoken Language"
 * category[+] = $pfe-category-cs#d350 "Conversation"
-* code = $loinc#\t\n99850-0 "How often does the individual produce verbal messages with appropriate FORM in HIGH demand situations?"
+* code = $loinc#99850-0 "How often does the individual produce verbal messages with appropriate FORM in HIGH demand situations?"
 * subject = Reference(Patient/patientJM1)
 * effectiveDateTime = "2024-10-23T23:30:00-08:00"
-* performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff)
+* performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff-01)
 * valueCodeableConcept = $loinc#LA33177-9 "50-75% of the time (often)"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
-* extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
+* extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility-01)
 
 
 Instance: JM-FCMRec-Collection-Palliative
@@ -235,12 +237,12 @@ Usage: #example
 * code = $loinc#99836-9 "Functional Communication Measure - Spoken Language Comprehension ages 6 or older panel [ASHA NOMS]"
 * subject = Reference(Patient/patientJM1)
 * effectiveDateTime = "2024-10-23T23:30:00-08:00"
-* performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff)
+* performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff-01)
 * hasMember[0] = Reference(Observation/JM-FCM-Rec-Partner-Palliative)
 * hasMember[+] = Reference(Observation/JM-FCM-Rec-SafeHigh-Palliative)
 * hasMember[+] = Reference(Observation/JM-FCM-Rec-ContHigh-Palliative)
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
-* extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
+* extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility-01)
 
 
 Instance: JM-FCMSpeak-Collection-Palliative
@@ -256,11 +258,11 @@ Usage: #example
 * code = $loinc#99844-3 "Functional Communication Measure - Spoken Language Expression ages 6 or older panel [ASHA NOMS]"
 * subject = Reference(Patient/patientJM1)
 * effectiveDateTime = "2024-10-23T23:30:00-08:00"
-* performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff)
+* performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff-01)
 * hasMember[0] = Reference(Observation/JM-FCM-Speak-FormHigh-Palliative)
 * hasMember[+] = Reference(Observation/JM-FCM-Speak-ContHigh-Palliative)
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
-* extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
+* extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility-01)
 
 
 Instance: simple-observation-gait-jenny-m
@@ -272,7 +274,7 @@ Usage: #example
 * code = $loinc#62825-5 "PhenX - physical functioning - objective protocol 150501"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * effectiveDateTime = "2024-11-06T15:29:46-08:00"
-* performer = Reference(Practitioner/Practitioner-LunaBaskins) "Luna Baskins"
+* performer = Reference(Practitioner/Practitioner-LunaBaskins-01) "Luna Baskins"
 * valueCodeableConcept = $loinc#LA24083-0 "Severe disturbance of gait, requiring assistance"
 * valueCodeableConcept.text = "Severe disturbance of gait, requiring assistance"
 * derivedFrom = Reference(DocumentReference/us-core-DocumentReference-gait-jenny-m)
