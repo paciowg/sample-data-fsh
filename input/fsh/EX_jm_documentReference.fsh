@@ -1,5 +1,3 @@
-// ********* Document Reference ***************
-
 Alias: $loinc = http://loinc.org
 Alias: $us-core-documentreference-category = http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category
 

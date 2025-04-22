@@ -5,6 +5,7 @@ Alias: $v3-RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode
 Instance: patientJM1
 InstanceOf: Patient
 Usage: #example
+Description: "Example Patient: Jenny Mosley"
 * meta.lastUpdated = "2024-11-13T21:54:34.001-05:00"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
 * language = #en-US
