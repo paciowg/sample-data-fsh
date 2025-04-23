@@ -6,6 +6,7 @@ Alias: $rxnorm = http://www.nlm.nih.gov/research/umls/rxnorm
 Instance: BSJ-AllergyACE
 InstanceOf: AllergyIntolerance
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-allergyintolerance"
 * code = $sct#372733002 "Substance with angiotensin-converting enzyme inhibitor mechanism of action (substance)"
 * patient = Reference(Patient/patientBSJ1)

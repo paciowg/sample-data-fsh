@@ -2,18 +2,18 @@ Alias: $condition-clinical = http://terminology.hl7.org/CodeSystem/condition-cli
 Alias: $condition-ver-status = http://terminology.hl7.org/CodeSystem/condition-ver-status
 Alias: $sct = http://snomed.info/sct
 Alias: $icf = http://hl7.org/fhir/sid/icf
-Alias: $uscore-condition-category = http://hl7.org/fhir/us/core/CodeSystem/condition-category
 
 Instance: BSJ-AnemiaDiagnosis
 InstanceOf: Condition
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#691421000119108 "Anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)"
 * subject = Reference(Patient/patientBSJ1)
-* category[0] = $icf#b539 "Functions related to the digestive system, other specified and unspecified"
-* category[+] = $uscore-condition-category#encounter-diagnosis "Encounter Diagnosis"
+* category[0] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
+* category[+] = $icf#b539 "Functions related to the digestive system, other specified and unspecified"
 * bodySite = $sct#113257007 "Structure of cardiovascular system"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2024-08-27T13:15:00-04:00"
@@ -24,6 +24,7 @@ Usage: #example
 Instance: encounter-diagnosis-BreastCancer
 InstanceOf: Condition
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2022-10-12"
@@ -31,7 +32,7 @@ Usage: #example
 * clinicalStatus.text = "Remission"
 * verificationStatus = $condition-ver-status#confirmed "Confirmed"
 * verificationStatus.text = "Confirmed"
-* category = $uscore-condition-category#encounter-diagnosis "Encounter Diagnosis"
+* category = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * category.text = "Encounter Diagnosis"
 * code.coding.version = "http://snomed.info/sct/731000124108"
 * code.coding = $sct#417181009 " Hormone receptor positive malignant neoplasm of breast (disorder)"
@@ -45,14 +46,15 @@ Usage: #example
 Instance: BSJ-Constipation
 InstanceOf: Condition
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#21782001 "Drug-induced constipation (disorder)"
 * subject = Reference(Patient/patientBSJ1)
 * recordedDate = "2020-11-05"
-* category[0] = $icf#b5252 "Frequency of defecation"
-* category[+] = $uscore-condition-category#encounter-diagnosis "Encounter Diagnosis"
+* category = $icf#b5252 "Frequency of defecation"
+* category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * bodySite = $sct#71854001 "Colon structure"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2020-11"
@@ -61,14 +63,15 @@ Usage: #example
 Instance: BSJ-DepressionDiagnosis
 InstanceOf: Condition
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#35489007 "Depressive disorder (disorder)"
 * subject = Reference(Patient/patientBSJ1)
 * recordedDate = "2005-02-12"
-* category[0] = $icf#b152 "Emotional functions"
-* category[+] = $uscore-condition-category#encounter-diagnosis "Encounter Diagnosis"
+* category[0] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
+* category[+] = $icf#b152 "Emotional functions"
 * bodySite = $sct#12738006 "Brain structure"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2005-02"
@@ -76,13 +79,14 @@ Usage: #example
 Instance: BSJ-DiabetesDiagnosis
 InstanceOf: Condition
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
 * subject = Reference(Patient/patientBSJ1)
 * category[0] = $icf#b5401 "Carbohydrate metabolism"
-* category[+] = $uscore-condition-category#encounter-diagnosis "Encounter Diagnosis"
+* category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * bodySite = $sct#113331007 "Structure of endocrine system"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2017-06"
@@ -93,13 +97,14 @@ Usage: #example
 Instance: BSJ-DressingConcern
 InstanceOf: Condition
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#284972002 "Difficulty performing dressing activity (finding)"
 * subject = Reference(Patient/patientBSJ1)
 * category[0] = $icf#b7601 "control of complex voluntary movements"
-* category[+] = $uscore-condition-category#health-concern "Health Concern"
+* category[+] = $condition-category#health-concern "Health Concern"
 * category[+] = $us-core-category#functional-status "Functional Status"
 * recordedDate = "2024-08-31T15:40:00-04:00"
 * asserter = Reference(PractitionerRole/Role-OT-JenCadbury)
@@ -108,13 +113,14 @@ Usage: #example
 Instance: BSJ-HeartDiseaseDiagnosis
 InstanceOf: Condition
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#414545008 "Ischemic heart disease (disorder)"
 * subject = Reference(Patient/patientBSJ1)
 * category[0] = $icf#b415 "Blood vessel functions"
-* category[+] = $uscore-condition-category#encounter-diagnosis "Encounter Diagnosis"
+* category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * bodySite = $sct#113257007 "Structure of cardiovascular system"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2019-06"
@@ -124,13 +130,14 @@ Usage: #example
 Instance: BSJ-HemiparesisDiagnosis
 InstanceOf: Condition
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#278286009 "Right hemiparesis (disorder)"
 * subject = Reference(Patient/patientBSJ1)
 * category[0] = $icf#b7302 "Power of muscles on one side of the body"
-* category[+] = $uscore-condition-category#encounter-diagnosis "Encounter Diagnosis"
+* category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * bodySite = $sct#368209003 "Entire Right Arm"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2024-08-21T16:25:00-04:00"
@@ -142,6 +149,7 @@ Usage: #example
 Instance: BSJ-Hyperlipidemia
 InstanceOf: Condition
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
@@ -149,7 +157,7 @@ Usage: #example
 * subject = Reference(Patient/patientBSJ1)
 * recordedDate = "2018-06-06"
 * category[0] = $icf#b5403 "Fat metabolism"
-* category[+] = $uscore-condition-category#encounter-diagnosis "Encounter Diagnosis"
+* category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * bodySite = $sct#113257007 "Structure of cardiovascular system"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2018-06"
@@ -158,13 +166,14 @@ Usage: #example
 Instance: BSJ-HypertensionDiagnosis
 InstanceOf: Condition
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
 * subject = Reference(Patient/patientBSJ1)
 * category[0] = $icf#b4202 "Maintenance of blood pressure"
-* category[+] = $uscore-condition-category#encounter-diagnosis "Encounter Diagnosis"
+* category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * bodySite = $sct#113257007 "Structure of cardiovascular system"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2011-09"
@@ -175,13 +184,14 @@ Usage: #example
 Instance: BSJ-KidneyDisease
 InstanceOf: Condition
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#731000119105 "Chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)"
 * subject = Reference(Patient/patientBSJ1)
-* category[0] = $icf#b610 "Urinary excretory functions"
-* category[+] = $uscore-condition-category#encounter-diagnosis "Encounter Diagnosis"
+* category[0] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
+* category[+] = $icf#b610 "Urinary excretory functions"
 * bodySite = $sct#17373004 "Both kidneys"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2021-04-10"
@@ -191,13 +201,14 @@ Usage: #example
 Instance: BSJ-NauseaAndVomiting
 InstanceOf: Condition
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#16932000 "Nausea and Vomiting (disorder)"
 * subject = Reference(Patient/patientBSJ1)
 * category[0] = $icf#b5350 "Sensation of nausea"
-* category[+] = $uscore-condition-category#encounter-diagnosis "Encounter Diagnosis"
+* category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2024-08-22T16:30:00-04:00"
 * onsetDateTime = "2024-08-22T16:30:00-04:00"
@@ -207,6 +218,7 @@ Usage: #example
 Instance: BSJ-Osteoarthritis
 InstanceOf: Condition
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
@@ -215,7 +227,7 @@ Usage: #example
 * recordedDate = "2020-07-11"
 * category[0] = $icf#b299 "Sensory functions and pain, unspecified"
 * category[+] = $icf#b7101 "Mobility of several joints"
-* category[+] = $uscore-condition-category#encounter-diagnosis "Encounter Diagnosis"
+* category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * bodySite = $sct#40927001 "Both lower legs"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2020-07"
@@ -224,13 +236,14 @@ Usage: #example
 Instance: BSJ-Osteopenia
 InstanceOf: Condition
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#312894000 "Osteopenia (disorder)"
 * subject = Reference(Patient/patientBSJ1)
 * category[0] = $icf#b729 "Functions of the joints and bones, other specified and unspecified"
-* category[+] = $uscore-condition-category#encounter-diagnosis "Encounter Diagnosis"
+* category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * bodySite = $sct#113192009 "Skeletal system structure"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2015-01"
@@ -240,13 +253,14 @@ Usage: #example
 Instance: BSJ-StrokeDiagnosis
 InstanceOf: Condition
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#422504002 "Ischemic Stroke (disorder)"
 * subject = Reference(Patient/patientBSJ1)
 * category[0] = $icf#s11009 "Structure of cortical lobes, unspecified"
-* category[+] = $uscore-condition-category#encounter-diagnosis "Encounter Diagnosis"
+* category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * bodySite[0] = $sct#414722000 "Structure of middle cerebral artery M1 segment"
 * bodySite[+] = $sct#7771000 "Left"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
@@ -259,13 +273,14 @@ Usage: #example
 Instance: BSJ-UndressingConcern
 InstanceOf: Condition
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#284989005 "Difficulty undressing (finding)"
 * subject = Reference(Patient/patientBSJ1)
 * category[0] = $icf#b7602 "Coordination of voluntary movements"
-* category[+] = $uscore-condition-category#health-concern "Health Concern"
+* category[+] = $condition-category#health-concern "Health Concern"
 * category[+] = $us-core-category#functional-status "Functional Status"
 * recordedDate = "2024-08-31T15:40:00-04:00"
 * asserter = Reference(PractitionerRole/Role-OT-JenCadbury)
@@ -274,13 +289,14 @@ Usage: #example
 Instance: OT-ProblemList-Decondition
 InstanceOf: Condition
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#31031000119102 "Physical deconditioning (finding)"
 * subject = Reference(Patient/patientBSJ1)
 * category[0] = $icf#b7303 "Power of muscles in lower half of the body"
-* category[+] = $uscore-condition-category#problem-list-item "Problem List Item"
+* category[+] = $condition-category#problem-list-item "Problem List Item"
 * category[+] = $us-core-category#functional-status "Functional Status"
 * bodySite = $sct#362875007 "Entire lower body"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
@@ -296,13 +312,14 @@ Usage: #example
 Instance: OT-ProblemList-RightWeak
 InstanceOf: Condition
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#570961000124101 "Weakness of right upper limb (finding)"
 * subject = Reference(Patient/patientBSJ1)
 * category[0] = $icf#b7301 "Power of muscles of one limb"
-* category[+] = $uscore-condition-category#problem-list-item "Problem List Item"
+* category[+] = $condition-category#problem-list-item "Problem List Item"
 * category[+] = $us-core-category#functional-status "Functional Status"
 * bodySite = $sct#368209003 "Entire Right Arm"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
@@ -315,6 +332,7 @@ Usage: #example
 Instance: health-concern-complexregime
 InstanceOf: Condition
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2024-09-20"
@@ -322,7 +340,7 @@ Usage: #example
 * clinicalStatus.text = "Active"
 * verificationStatus = $condition-ver-status#confirmed "Confirmed"
 * verificationStatus.text = "Confirmed"
-* category = $uscore-condition-category#health-concern "Health Concern"
+* category = $condition-category#health-concern "Health Concern"
 * category.text = "Health Concern"
 * code.coding.version = "http://snomed.info/sct"
 * code.coding = $sct#1137439008 "On complex medication regime (finding)"

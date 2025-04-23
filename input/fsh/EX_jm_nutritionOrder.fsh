@@ -3,6 +3,7 @@
 Instance: JM1-HospitalDiet
 InstanceOf: NutritionOrder
 Usage: #example
+Description: "Example"
 * status = #active
 * intent = #order
 * patient = Reference(Patient/patientJM1)
@@ -28,6 +29,7 @@ Usage: #example
 Instance: JM1-UlcerDiet
 InstanceOf: NutritionOrder
 Usage: #example
+Description: "Example"
 * status = #active
 * intent = #order
 * patient = Reference(Patient/patientJM1)
@@ -53,6 +55,7 @@ Usage: #example
 Instance: JM1-CognitionDiet
 InstanceOf: NutritionOrder
 Usage: #example
+Description: "Example"
 * status = #active
 * intent = #order
 * patient = Reference(Patient/patientJM1)

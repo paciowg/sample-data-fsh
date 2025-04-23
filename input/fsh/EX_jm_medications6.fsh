@@ -6,6 +6,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: MedicationRequest-Lorazepam
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -33,6 +34,7 @@ Usage: #example
 Instance: MedicationRequest-MorphinePCA
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -61,6 +63,7 @@ Usage: #example
 Instance: MedicationRequest-OndansetronHospice
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -89,6 +92,7 @@ Usage: #example
 Instance: MedicationRequest-OralMorphineRescue
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -116,6 +120,7 @@ Usage: #example
 Instance: SMP-MedStmt-Lorazepam
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-Lorazepam)
 * status = #active
 * medicationCodeableConcept = $rxnorm#316171 "LORazepam 2 MG/ML"
@@ -130,6 +135,7 @@ Usage: #example
 Instance: SMP-MedStmt-MorphinePCA
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-MorphinePCA)
 * status = #active
 * medicationCodeableConcept = $rxnorm#892531 "morphine sulfate 10 MG/ML Injectable Solution"
@@ -144,6 +150,7 @@ Usage: #example
 Instance: SMP-MedStmt-OndansetronHospice
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-OndansetronHospice)
 * status = #active
 * medicationCodeableConcept = $rxnorm#312087 "ondansetron 8 MG Disintegrating Oral Tablet"
@@ -160,6 +167,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: SMP-MedStmt-OralMorphineRescue
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-OralMorphineRescue)
 * status = #active
 * medicationCodeableConcept = $rxnorm#894780 "morphine sulfate 4 MG/ML"
@@ -174,6 +182,7 @@ Usage: #example
 Instance: SMP-MedList-Hospice
 InstanceOf: List
 Usage: #example
+Description: "Example"
 * status = #current
 * mode = #working
 * title = "Hospice Administration List"

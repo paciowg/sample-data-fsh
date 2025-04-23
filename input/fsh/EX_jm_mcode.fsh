@@ -6,6 +6,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: human-specimen-left-breast-jenny-m
 InstanceOf: Specimen
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-human-specimen"
 * status = #available
 * type = $v2-0487#TISS
@@ -22,6 +23,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: tumor-specimen-left-breast-jenny-m
 InstanceOf: Specimen
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-human-specimen"
 * identifier.use = #usual
 * identifier.type = $resource-types#BodyStructure
@@ -41,9 +43,10 @@ Alias: $sct = http://snomed.info/sct
 Instance: primary-cancer-condition-jenny-m
 InstanceOf: Condition
 Usage: #example
+Description: "Example"
 * clinicalStatus = $condition-clinical#remission
 * verificationStatus = $condition-ver-status#confirmed
-* category = $uscore-condition-category#problem-list-item
+* category = $condition-category#problem-list-item "Problem List Item"
 * code.coding.version = "http://snomed.info/sct/900000000000207008"
 * code.coding = $sct#254837009 "Malignant neoplasm of breast (disorder)"
 * subject = Reference(Patient/patientJM1)
@@ -53,10 +56,11 @@ Usage: #example
 Instance: us-core-condition-anxiety-jenny-m
 InstanceOf: Condition
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns"
 * clinicalStatus = $condition-clinical#active "Active"
 * verificationStatus = $condition-ver-status#confirmed "Confirmed"
-* category = $uscore-condition-category#problem-list-item "Problem List Item"
+* category = $condition-category#problem-list-item "Problem List Item"
 * code.coding.version = "http://snomed.info/sct/900000000000207008"
 * code.coding = $sct#48694002 "Anxiety (finding)"
 * subject = Reference(Patient/patientJM1)
@@ -66,10 +70,11 @@ Usage: #example
 Instance: us-core-condition-depression-jenny-m
 InstanceOf: Condition
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
-* category = $uscore-condition-category#problem-list-item "Problem List Item"
+* category = $condition-category#problem-list-item "Problem List Item"
 * code.coding.version = "http://snomed.info/sct/900000000000207008"
 * code.coding = $sct#35489007 "Depressive disorder (disorder)"
 * subject = Reference(Patient/patientJM1)
@@ -79,10 +84,11 @@ Usage: #example
 Instance: us-core-condition-hypertension-jenny-m
 InstanceOf: Condition
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
-* category = $uscore-condition-category#problem-list-item "Problem List Item"
+* category = $condition-category#problem-list-item "Problem List Item"
 * code.coding.version = "http://snomed.info/sct/900000000000207008"
 * code.coding = $sct#77970009 "Benign hypertensive heart disease without congestive heart failure (disorder)"
 * subject = Reference(Patient/patientJM1)
@@ -95,6 +101,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: family-member-history-aunt-jenny-m
 InstanceOf: FamilyMemberHistory
 Usage: #example
+Description: "Example"
 * status = #completed
 * patient = Reference(Patient/patientJM1)
 * relationship = $v3-RoleCode#MAUNT "maternal aunt"
@@ -106,6 +113,7 @@ Usage: #example
 Instance: family-member-history-sister-jenny-m
 InstanceOf: FamilyMemberHistory
 Usage: #example
+Description: "Example"
 * status = #completed
 * patient = Reference(Patient/patientJM1)
 * relationship = $v3-RoleCode#NSIS "natural sister"
@@ -117,6 +125,7 @@ Usage: #example
 Instance: family-member-history-uncle-jenny-m
 InstanceOf: FamilyMemberHistory
 Usage: #example
+Description: "Example"
 * status = #completed
 * patient = Reference(Patient/patientJM1)
 * relationship = $v3-RoleCode#PUNCLE "paternal uncle"
@@ -136,6 +145,7 @@ Alias: $us-core-observation-category = http://hl7.org/fhir/us/core/CodeSystem/us
 Instance: bodyheight-jenny-m-2018-03-06
 InstanceOf: $bodyheight
 Usage: #example
+Description: "Example"
 * status = #final
 // * category = $observation-category#vital-signs
 * code = $loinc#8302-2
@@ -147,6 +157,7 @@ Usage: #example
 Instance: bodyweight-jenny-m-2018-03-06
 InstanceOf: $bodyweight
 Usage: #example
+Description: "Example"
 * status = #final
 // * category = $observation-category#vital-signs
 * code = $loinc#29463-7
@@ -158,6 +169,7 @@ Usage: #example
 Instance: bodyweight-jenny-m-2018-03-16
 InstanceOf: $bodyweight
 Usage: #example
+Description: "Example"
 * status = #final
 // * category = $observation-category#vital-signs
 * code = $loinc#29463-7
@@ -169,6 +181,7 @@ Usage: #example
 Instance: bodyweight-jenny-m-2018-04-22
 InstanceOf: $bodyweight
 Usage: #example
+Description: "Example"
 * status = #final
 // * category = $observation-category#vital-signs
 * code = $loinc#29463-7
@@ -180,6 +193,7 @@ Usage: #example
 Instance: cancer-disease-status-jenny-m
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-disease-status"
 * extension.url = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-disease-status-evidence-type"
 * extension.valueCodeableConcept.coding.version = "http://snomed.info/sct/900000000000207008"
@@ -197,6 +211,7 @@ Usage: #example
 Instance: ecog-performance-status-jenny-m
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-ecog-performance-status"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -213,6 +228,7 @@ Usage: #example
 Instance: observation-smoking-pack-years-jenny-m
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * status = #final
 * category = $observation-category#social-history "Social History"
 * code.coding.version = "http://snomed.info/sct/900000000000207008"
@@ -225,6 +241,7 @@ Usage: #example
 Instance: tnm-clinical-distant-metastases-category-jenny-m
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * status = #final
 * category = $observation-category#laboratory "Laboratory"
 * code.coding.version = "http://snomed.info/sct/900000000000207008"
@@ -238,6 +255,7 @@ Usage: #example
 Instance: tnm-clinical-primary-tumor-category-jenny-m
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * status = #final
 * category = $observation-category#laboratory "Laboratory"
 * code.coding.version = "http://snomed.info/sct/900000000000207008"
@@ -251,6 +269,7 @@ Usage: #example
 Instance: tnm-clinical-regional-nodes-category-jenny-m
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * status = #final
 * category = $observation-category#laboratory "Laboratory"
 * code.coding.version = "http://snomed.info/sct/900000000000207008"
@@ -264,6 +283,7 @@ Usage: #example
 Instance: tnm-clinical-stage-group-jenny-m
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * status = #final
 * category = $observation-category#laboratory "Laboratory"
 * code.coding.version = "http://snomed.info/sct/900000000000207008"
@@ -282,6 +302,7 @@ Alias: $data-absent-reason = http://terminology.hl7.org/CodeSystem/data-absent-r
 Instance: tnm-pathologic-distant-metastases-category-jenny-m
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * status = #final
 * category = $observation-category#laboratory "Laboratory"
 * code.coding.version = "http://snomed.info/sct/900000000000207008"
@@ -297,6 +318,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: tnm-pathologic-primary-tumor-category-jenny-m
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * status = #final
 * category = $observation-category#laboratory "Laboratory"
 * code.coding.version = "http://snomed.info/sct/900000000000207008"
@@ -311,6 +333,7 @@ Usage: #example
 Instance: tnm-pathologic-regional-nodes-category-jenny-m
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * status = #final
 * category = $observation-category#laboratory "Laboratory"
 * code.coding.version = "http://snomed.info/sct/900000000000207008"
@@ -324,6 +347,7 @@ Usage: #example
 Instance: tnm-pathologic-stage-group-jenny-m
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * status = #final
 * category = $observation-category#laboratory "Laboratory"
 * code.coding.version = "http://snomed.info/sct/900000000000207008"
@@ -338,6 +362,7 @@ Usage: #example
 Instance: tumor-marker-test-er-jenny-m
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-tumor-marker-test"
 * status = #final
 * category = $observation-category#laboratory
@@ -350,6 +375,7 @@ Usage: #example
 Instance: tumor-marker-test-her2-jenny-m
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-tumor-marker-test"
 * status = #final
 * category = $observation-category#laboratory
@@ -366,6 +392,7 @@ Alias: $v3-ObservationInterpretation = http://terminology.hl7.org/CodeSystem/v3-
 Instance: tumor-marker-test-oncotype-dx-jenny-m
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-tumor-marker-test"
 * status = #final
 * category = $observation-category#laboratory
@@ -380,6 +407,7 @@ Usage: #example
 Instance: tumor-marker-test-pr-jenny-m
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-tumor-marker-test"
 * status = #final
 * category = $observation-category#laboratory
@@ -396,6 +424,7 @@ Alias: $referencerange-meaning = http://terminology.hl7.org/CodeSystem/reference
 Instance: us-core-observation-lab-neutrophils-jenny-m
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
 * status = #final
 * category = $observation-category#laboratory
@@ -412,6 +441,7 @@ Usage: #example
 Instance: us-core-observation-lab-tumor-grade-jenny-m
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
 * status = #final
 * category = $observation-category#laboratory
@@ -426,6 +456,7 @@ Usage: #example
 Instance: us-core-smokingstatus-jenny-m
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus"
 * status = #final
 * category = $observation-category#social-history
@@ -441,6 +472,7 @@ Usage: #example
 Instance: cancer-related-surgical-procedure-jenny-m
 InstanceOf: Procedure
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-related-surgical-procedure"
 * extension.url = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-procedure-intent"
 * extension.valueCodeableConcept.coding.version = "http://snomed.info/sct/900000000000207008"
@@ -458,6 +490,7 @@ Usage: #example
 Instance: us-core-procedure-biopsy-jenny-m
 InstanceOf: Procedure
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
 * status = #completed
 * code.coding.version = "http://snomed.info/sct/900000000000207008"
@@ -473,6 +506,7 @@ Usage: #example
 Instance: us-core-procedure-mammogram-jenny-m
 InstanceOf: Procedure
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
 * status = #completed
 * code.coding.version = "http://snomed.info/sct/900000000000207008"
@@ -489,6 +523,7 @@ Usage: #example
 // Instance: cancer-related-medication-admin-cyclophosphamide-jenny-m
 // InstanceOf: MedicationAdministration
 // Usage: #example
+// Description: "Example"
 // * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-related-medication-administration"
 // * extension.url = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-procedure-intent"
 // * extension.valueCodeableConcept.coding.version = "http://snomed.info/sct/900000000000207008"
@@ -511,6 +546,7 @@ Usage: #example
 // Instance: cancer-related-medication-admin-doxorubicin-jenny-m
 // InstanceOf: MedicationAdministration
 // Usage: #example
+// Description: "Example"
 // * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-related-medication-administration"
 // * status = #completed
 // * category = $medicationrequest-category#outpatient
@@ -530,6 +566,7 @@ Usage: #example
 // Instance: cancer-related-medication-admin-paclitaxel-jenny-m
 // InstanceOf: MedicationAdministration
 // Usage: #example
+// Description: "Example"
 // * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-related-medication-administration"
 // * extension.url = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-procedure-intent"
 // * extension.valueCodeableConcept.coding.version = "http://snomed.info/sct/900000000000207008"
@@ -554,6 +591,7 @@ Usage: #example
 // Instance: cancer-related-medication-request-anastrozole-jenny-m
 // InstanceOf: MedicationRequest
 // Usage: #example
+// Description: "Example"
 // * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-related-medication-request"
 // * extension.url = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-procedure-intent"
 // * extension.valueCodeableConcept.coding.version = "http://snomed.info/sct/900000000000207008"
@@ -577,6 +615,7 @@ Usage: #example
 // Instance: cancer-related-medication-request-cyclophosphamide-jenny-m
 // InstanceOf: MedicationRequest
 // Usage: #example
+// Description: "Example"
 // * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-related-medication-request"
 // * extension.url = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-procedure-intent"
 // * extension.valueCodeableConcept.coding.version = "http://snomed.info/sct/900000000000207008"

@@ -1,6 +1,7 @@
 Instance: TOC-JM1-Hosp-to-SNF
 InstanceOf: Composition
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-toc/StructureDefinition/TOC-Composition"
 * language = #en-US
 * identifier.system = "http://id.example.org/TOC-JM1-Hosp-to-SNF"
@@ -49,6 +50,7 @@ Usage: #example
 Instance: TOC-JM1-SNF-to-Hospice
 InstanceOf: Composition
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-toc/StructureDefinition/TOC-Composition"
 * language = #en-US
 * identifier.system = "http://id.example.org/TOC-JM1-Hosp-to-SNF"

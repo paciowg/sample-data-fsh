@@ -3,6 +3,7 @@
 Instance: MedicationRequest-AcetaminophenHosp2
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -31,6 +32,7 @@ Usage: #example
 Instance: medicationrequest-AlprazolamHosp2
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -59,6 +61,7 @@ Usage: #example
 Instance: MedicationRequest-AtorvastatinHosp2
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
@@ -81,6 +84,7 @@ Usage: #example
 Instance: medicationrequest-DexamethasoneHosp2
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -109,6 +113,7 @@ Usage: #example
 Instance: MedicationRequest-GabapentinHosp2
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -132,6 +137,7 @@ Usage: #example
 Instance: MedicationRequest-MetoclopramideHosp2
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -160,6 +166,7 @@ Usage: #example
 Instance: medicationrequest-MetoprololHosp2
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -188,6 +195,7 @@ Usage: #example
 Instance: MedicationRequest-OndansetronHosp2
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -216,6 +224,7 @@ Usage: #example
 Instance: MedicationRequest-PalbociclibHosp2
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -244,6 +253,7 @@ Usage: #example
 Instance: SMP-MedStmt-AcetaminophenHosp2
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-AcetaminophenHosp2)
 * status = #active
 * medicationCodeableConcept = $rxnorm#198440 "acetaminophen 500 MG Oral Tablet"
@@ -257,6 +267,7 @@ Usage: #example
 Instance: SMP-MedStmt-AlprazolamHosp2
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/medicationrequest-AlprazolamHosp2)
 * status = #active
 * medicationCodeableConcept = $rxnorm#308048 "ALPRAZolam 0.5 MG Oral Tablet"
@@ -270,6 +281,7 @@ Usage: #example
 Instance: SMP-MedStmt-AtorvastatinHosp2
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-AtorvastatinHosp2)
 * status = #active
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
@@ -283,6 +295,7 @@ Usage: #example
 Instance: SMP-MedStmt-DexamethasoneHosp2
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/medicationrequest-DexamethasoneHosp2)
 * status = #active
 * medicationCodeableConcept = $rxnorm#197582 "dexAMETHasone 4 MG Oral Tablet"
@@ -296,6 +309,7 @@ Usage: #example
 Instance: SMP-MedStmt-GabapentinHosp2
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-GabapentinHosp2)
 * status = #active
 * medicationCodeableConcept = $rxnorm#310431 "gabapentin 300 MG Oral Capsule"
@@ -309,6 +323,7 @@ Usage: #example
 Instance: SMP-MedStmt-MetoclopramideHosp2
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-MetoclopramideHosp2)
 * status = #active
 * medicationCodeableConcept = $rxnorm#311666 "metoclopromide 10 MG Oral Tablet"
@@ -322,6 +337,7 @@ Usage: #example
 Instance: SMP-MedStmt-MetoprololHosp2
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/medicationrequest-MetoprololHosp2)
 * status = #active
 * medicationCodeableConcept = $rxnorm#866514 "metoprolol tartrate 50 MG Oral Tablet"
@@ -335,6 +351,7 @@ Usage: #example
 Instance: SMP-MedStmt-OndansetronHosp2
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-OndansetronHosp2)
 * status = #active
 * medicationCodeableConcept = $rxnorm#312087 "ondansetron 8 MG Disintegrating Oral Tablet"
@@ -348,6 +365,7 @@ Usage: #example
 Instance: SMP-MedStmt-PalbociclibHosp2
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-PalbociclibHosp2)
 * status = #active
 * medicationCodeableConcept = $rxnorm#2284105 "palbociclib 125 MG Oral Tablet"
@@ -362,6 +380,7 @@ Alias: $loinc = http://loinc.org
 Instance: SMP-MedList-Hosp2
 InstanceOf: List
 Usage: #example
+Description: "Example"
 * status = #current
 * mode = #working
 * title = "Hospital Discharge List"

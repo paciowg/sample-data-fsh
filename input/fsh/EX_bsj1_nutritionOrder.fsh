@@ -2,6 +2,7 @@
 Instance: BSJ-SNFDischargeDiet
 InstanceOf: NutritionOrder
 Usage: #example
+Description: "Example"
 * status = #active
 * intent = #order
 * patient = Reference(Patient/patientBSJ1)

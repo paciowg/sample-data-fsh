@@ -6,6 +6,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: MedicationRequest-AcetaminophenSNFdischarge
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -36,6 +37,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: medicationrequest-AlprazolamSNFdischarge
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -66,6 +68,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: MedicationRequest-AtorvastatinSNFdischarge
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
@@ -88,6 +91,7 @@ Usage: #example
 Instance: medicationrequest-DexamethasoneSNFdischarge
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -116,6 +120,7 @@ Usage: #example
 Instance: MedicationRequest-GabapentinSNFdischarge
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -141,6 +146,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: MedicationRequest-MetoclopramideSNFdischarge
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -171,6 +177,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: medicationrequest-MetoprololSNFdischarge
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -201,6 +208,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: MedicationRequest-OndansetronSNFdischarge
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -231,6 +239,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: MedicationRequest-OralMorphineSNFdischarge
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -260,6 +269,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: MedicationRequest-PolyethyleneGlycolSNFdischarge
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * status = #active
 * intent = #order
 * priority = #routine
@@ -275,6 +285,7 @@ Usage: #example
 Instance: SMP-MedStmt-AcetaminophenSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-AcetaminophenSNFdischarge)
 * status = #active
 * medicationCodeableConcept = $rxnorm#198440 "acetaminophen 500 MG Oral Tablet"
@@ -287,6 +298,7 @@ Usage: #example
 Instance: SMP-MedStmt-AlprazolamSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/medicationrequest-AlprazolamSNFdischarge)
 * status = #active
 * medicationCodeableConcept = $rxnorm#308048 "ALPRAZolam 0.5 MG Oral Tablet"
@@ -299,6 +311,7 @@ Usage: #example
 Instance: SMP-MedStmt-AtorvastatinSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-AtorvastatinSNFdischarge)
 * status = #active
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
@@ -311,6 +324,7 @@ Usage: #example
 Instance: SMP-MedStmt-DexamethasoneSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/medicationrequest-DexamethasoneSNFdischarge)
 * status = #active
 * medicationCodeableConcept = $rxnorm#197582 "dexAMETHasone 4 MG Oral Tablet"
@@ -324,6 +338,7 @@ Usage: #example
 Instance: SMP-MedStmt-GabapentinSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-GabapentinSNFdischarge)
 * status = #active
 * medicationCodeableConcept = $rxnorm#310431 "gabapentin 300 MG Oral Capsule"
@@ -336,6 +351,7 @@ Usage: #example
 Instance: SMP-MedStmt-MetoclopramideSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-MetoclopramideSNFdischarge)
 * status = #active
 * medicationCodeableConcept = $rxnorm#311666 "metoclopromide 10 MG Oral Tablet"
@@ -349,6 +365,7 @@ Usage: #example
 Instance: SMP-MedStmt-MetoprololSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/medicationrequest-MetoprololSNFdischarge)
 * status = #active
 * medicationCodeableConcept = $rxnorm#866514 "metoprolol tartrate 50 MG Oral Tablet"
@@ -362,6 +379,7 @@ Usage: #example
 Instance: SMP-MedStmt-OndansetronSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-OndansetronSNFdischarge)
 * status = #active
 * medicationCodeableConcept = $rxnorm#312087 "ondansetron 8 MG Disintegrating Oral Tablet"
@@ -374,6 +392,7 @@ Usage: #example
 Instance: SMP-MedStmt-OralMorphineSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-OralMorphineSNFdischarge)
 * status = #active
 * medicationCodeableConcept = $rxnorm#894780 "morphine sulfate 4 MG/ML"
@@ -387,6 +406,7 @@ Usage: #example
 Instance: SMP-MedStmt-PolyethyleneGlycolSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-PolyethyleneGlycolSNFdischarge)
 * status = #active
 * medicationCodeableConcept = $rxnorm#876193 "Polyethylene glycol 3350 (Miralax)"
@@ -400,6 +420,7 @@ Usage: #example
 Instance: SMP-MedList-SNFdischarge
 InstanceOf: List
 Usage: #example
+Description: "Example"
 * status = #current
 * mode = #working
 * title = "SNF Discharge List"

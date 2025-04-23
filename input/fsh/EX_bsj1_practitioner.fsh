@@ -1,6 +1,7 @@
 Instance: Practioner-GeraldPark
 InstanceOf: Practitioner
 Usage: #example
+Description: "Example"
 * meta.versionId = "2"
 * meta.lastUpdated = "2024-09-21T14:20:39.000+00:00"
 // * meta.source = "#uLpgpufbAOK8WsVT"
@@ -25,6 +26,7 @@ Usage: #example
 Instance: Practitioner-AlexanderKuikhoff
 InstanceOf: Practitioner
 Usage: #example
+Description: "Example"
 * meta.versionId = "4"
 * meta.lastUpdated = "2024-09-21T14:14:58.000+00:00"
 // * meta.source = "#7DEapuGTyPa8JExC"
@@ -47,6 +49,7 @@ Usage: #example
 Instance: Practitioner-AnitaChu
 InstanceOf: Practitioner
 Usage: #example
+Description: "Example"
 * meta.versionId = "4"
 * meta.lastUpdated = "2024-09-20T19:03:21.000+00:00"
 // * meta.source = "#S7gHLyFgHVToyfil"
@@ -71,6 +74,7 @@ Usage: #example
 Instance: Practitioner-JenCadbury
 InstanceOf: Practitioner
 Usage: #example
+Description: "Example"
 * meta.versionId = "5"
 * meta.lastUpdated = "2024-09-21T14:16:50.000+00:00"
 // * meta.source = "#DEWzr3FAeLp88UUB"
@@ -95,6 +99,7 @@ Usage: #example
 Instance: Practitioner-LunaBaskins
 InstanceOf: Practitioner
 Usage: #example
+Description: "Example"
 * meta.versionId = "4"
 * meta.lastUpdated = "2024-09-21T14:13:25.000+00:00"
 // * meta.source = "#t1IJv2gvYZdDhhSz"
@@ -117,6 +122,7 @@ Usage: #example
 Instance: Practitioner-NuraMekel
 InstanceOf: Practitioner
 Usage: #example
+Description: "Example"
 * meta.versionId = "4"
 * meta.lastUpdated = "2024-09-21T14:11:15.000+00:00"
 // * meta.source = "#V6qO71UpaFWv7GXQ"
@@ -141,6 +147,7 @@ Usage: #example
 Instance: Practitioner-Phil-Chekhov
 InstanceOf: Practitioner
 Usage: #example
+Description: "Example"
 * name.given = "Phil"
 * name.family = "Chekhov"
 * name.text = "Phil Chekhov"
@@ -160,6 +167,7 @@ Usage: #example
 Instance: Practitioner-Tracy-Count
 InstanceOf: Practitioner
 Usage: #example
+Description: "Example"
 * name.given = "Tracy"
 * name.family = "Count"
 * name.text = "Tracy Count"

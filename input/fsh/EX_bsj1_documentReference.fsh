@@ -1,9 +1,10 @@
 Instance: 31612
 InstanceOf: DocumentReference
 Usage: #example
+Description: "Example"
 * meta.versionId = "1"
 * meta.lastUpdated = "2024-09-21T15:19:03.000+00:00"
-* meta.source = "#dZ4YP9y7xurWGXyo"
+// * meta.source = "#dZ4YP9y7xurWGXyo"
 * status = #current
 * type.coding.display = "Patient summary document"
 * subject = Reference(Patient/patientBSJ1)

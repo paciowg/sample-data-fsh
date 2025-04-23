@@ -65,6 +65,7 @@ Instance: jennymosley01-familymemberhistory-uncle
 InstanceOf: FamilyMemberHistory
 Description: "Jenny Mosley - Family Member History: Uncle"
 Usage: #example
+Description: "Example"
 * status = #completed
 * patient = Reference(Patient/jennymosley01-patient)
 * relationship = $v3-RoleCode#PUNCLE "paternal uncle"
@@ -76,6 +77,7 @@ Usage: #example
 Instance: jennymosley01-familymemberhistory-sister
 InstanceOf: FamilyMemberHistory
 Usage: #example
+Description: "Example"
 * status = #completed
 * patient = Reference(Patient/jennymosley01-patient)
 * relationship = $v3-RoleCode#NSIS "natural sister"
@@ -113,6 +115,7 @@ Instance: jennymosley01-condition-anxiety-01
 InstanceOf: Condition
 Description: "Extended example: example showing comorbid condition (anxiety)"
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $VerStatus#confirmed

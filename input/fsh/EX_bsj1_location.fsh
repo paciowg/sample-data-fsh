@@ -1,6 +1,8 @@
+// ******** MLT Note: Locations removed since they already existed in jm1 sample data *********
 // Instance: org-Loc-Everyday-Community-Pharm
 // InstanceOf: Location
 // Usage: #example
+// Description: "Example"
 // * status = #active
 // * name = "Everyday Community Pharmacy"
 // * address.line = "125 Yew St"
@@ -13,6 +15,7 @@
 // Instance: org-Loc-NED-Contract-Pharm
 // InstanceOf: Location
 // Usage: #example
+// Description: "Example"
 // * status = #active
 // * name = "Not Every Day Contract Pharmacy"
 // * address.line = "155 Light Commercial Ave"
@@ -25,6 +28,7 @@
 // Instance: org-Loc-Neuro-Care-Inc
 // InstanceOf: Location
 // Usage: #example
+// Description: "Example"
 // * status = #active
 // * name = "Neuro Care Inc."
 // * address.line = "177 Branching Tree Blvd"
@@ -37,6 +41,7 @@
 // Instance: org-Loc-PC-Primary-Care-Michigan
 // InstanceOf: Location
 // Usage: #example
+// Description: "Example"
 // * status = #active
 // * name = "Michigan Primary Health Care Associates"
 // * address.line = "123 Spruce Dr"
@@ -49,6 +54,7 @@
 // Instance: org-Loc-SNF-Happy-Nursing-Facility
 // InstanceOf: Location
 // Usage: #example
+// Description: "Example"
 // * status = #active
 // * name = "Happy Nursing Facility"
 // * address.line = "8100 Pinebrook Dr"

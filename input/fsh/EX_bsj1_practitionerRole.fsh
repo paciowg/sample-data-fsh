@@ -2,6 +2,7 @@
 Instance: Role-IMMD-AnitaChu
 InstanceOf: PractitionerRole
 Usage: #example
+Description: "Example"
 * active = true
 * code = $taxonomy#207R00000X "Internal Medicine Physician"
 * practitioner = Reference(Practitioner/Practitioner-AnitaChu) "Dr. Anita Chu"
@@ -11,6 +12,7 @@ Usage: #example
 Instance: Role-Neuro-NuraMekel
 InstanceOf: PractitionerRole
 Usage: #example
+Description: "Example"
 * active = true
 * code = $taxonomy#2084N0400X "Neurology Physician"
 * practitioner = Reference(Practitioner/Practitioner-NuraMekel) "Nura Mekel"
@@ -20,6 +22,7 @@ Usage: #example
 Instance: Role-OT-JenCadbury
 InstanceOf: PractitionerRole
 Usage: #example
+Description: "Example"
 * active = true
 * code = $taxonomy#225X00000X "Occupational Therapist"
 * practitioner = Reference(Practitioner/Practitioner-JenCadbury) "Jen Cadbury"
@@ -30,6 +33,7 @@ Usage: #example
 Instance: Role-Pharm-PhilChekhov
 InstanceOf: PractitionerRole
 Usage: #example
+Description: "Example"
 * active = true
 * code = $taxonomy#183500000X "Pharmacist"
 * practitioner = Reference(Practitioner/Practitioner-Phil-Chekhov) "Phil Chekhov"
@@ -39,6 +43,7 @@ Usage: #example
 Instance: Role-Pharm-TracyCount
 InstanceOf: PractitionerRole
 Usage: #example
+Description: "Example"
 * active = true
 * code = $taxonomy#183500000X "Pharmacist"
 * practitioner = Reference(Practitioner/Practitioner-Tracy-Count) "Tracy Count"
@@ -48,6 +53,7 @@ Usage: #example
 Instance: Role-PT-LunaBaskins
 InstanceOf: PractitionerRole
 Usage: #example
+Description: "Example"
 * active = true
 * code = $taxonomy#225100000X "Physical Therapist"
 * practitioner = Reference(Practitioner/Practitioner-LunaBaskins) "Luna Baskins"
@@ -57,6 +63,7 @@ Usage: #example
 Instance: Role-SLP-AlexanderKuikhoff
 InstanceOf: PractitionerRole
 Usage: #example
+Description: "Example"
 * active = true
 * code = $taxonomy#235Z00000X "Speech Language Pathologist"
 * practitioner = Reference(Practitioner/Practitioner-AlexanderKuikhoff) "Alexander Kuikhoff"
@@ -66,6 +73,7 @@ Usage: #example
 Instance: Role-SNFDoc-GeraldPark
 InstanceOf: PractitionerRole
 Usage: #example
+Description: "Example"
 * active = true
 * code = $taxonomy#207QG0300X "Geriatric Medicine Physician"
 * practitioner = Reference(Practitioner/Practioner-GeraldPark) "Gerald Park"

@@ -20,6 +20,7 @@ Description: "Extended example: example practitioner"
 Instance: Practitioner-AnitaChu-01
 InstanceOf: Practitioner
 Usage: #example
+Description: "Example"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "2346547890"
 * active = true
@@ -43,6 +44,7 @@ Usage: #example
 Instance: Org-Hospice-Suquamish
 InstanceOf: Organization
 Usage: #example
+Description: "Example"
 * active = true
 * name = "Suquamish Hospice"
 * telecom.system = #phone
@@ -57,6 +59,7 @@ Usage: #example
 Instance: Org-Onc-Hosp-Puget-Sound
 InstanceOf: Organization
 Usage: #example
+Description: "Example"
 * active = true
 * name = "Puget Sound Cancer Center"
 * telecom.system = #phone
@@ -71,6 +74,7 @@ Usage: #example
 Instance: org-PC-Primary-Care-FederalWay
 InstanceOf: Organization
 Usage: #example
+Description: "Example"
 * active = true
 * name = "Washington Primary Health Care Associates"
 * telecom.system = #phone
@@ -85,6 +89,7 @@ Usage: #example
 Instance: org-Pharm-Everyday-Community-Pharm
 InstanceOf: Organization
 Usage: #example
+Description: "Example"
 * active = true
 * name = "Everyday Community Pharmacy"
 * telecom.system = #phone
@@ -99,6 +104,7 @@ Usage: #example
 Instance: org-Pharm-NED-Contract-Pharm
 InstanceOf: Organization
 Usage: #example
+Description: "Example"
 * active = true
 * name = "Not Every Day Contract Pharmacy"
 * telecom.system = #phone
@@ -113,6 +119,7 @@ Usage: #example
 Instance: Org-SNF-Happy-Nursing-Facility
 InstanceOf: Organization
 Usage: #example
+Description: "Example"
 * active = true
 * name = "Happy Nursing Facility"
 * telecom.system = #phone
@@ -129,6 +136,7 @@ Usage: #example
 Instance: org-Loc-PC-Primary-Care-FederalWay
 InstanceOf: Location
 Usage: #example
+Description: "Example"
 * status = #active
 * name = "Washington Primary Health Care Associates"
 * address.line = "31858 Pacific Highway S"
@@ -146,6 +154,7 @@ Usage: #example
 Instance: Role-IMMD-AnitaChu-01
 InstanceOf: PractitionerRole
 Usage: #example
+Description: "Example"
 * active = true
 * code = $taxonomy#207R00000X "Internal Medicine Physician"
 * practitioner = Reference(Practitioner/Practitioner-AnitaChu-01) "Dr. Anita Chu"

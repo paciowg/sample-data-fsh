@@ -6,6 +6,7 @@ Alias: $rxnorm = http://www.nlm.nih.gov/research/umls/rxnorm
 Instance: cancer-related-medication-admin-cyclophosphamide-jenny-m
 InstanceOf: MedicationAdministration
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-related-medication-administration"
 * extension.url = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-procedure-intent"
 * extension.valueCodeableConcept.coding = $sct#373808002 "Curative - procedure intent (qualifier value)"
@@ -26,6 +27,7 @@ Usage: #example
 Instance: cancer-related-medication-admin-doxorubicin-jenny-m
 InstanceOf: MedicationAdministration
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-related-medication-administration"
 * status = #completed
 * category = $medicationrequest-category#outpatient
@@ -44,6 +46,7 @@ Usage: #example
 Instance: cancer-related-medication-admin-paclitaxel-jenny-m
 InstanceOf: MedicationAdministration
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-related-medication-administration"
 * extension.url = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-procedure-intent"
 * extension.valueCodeableConcept.coding = $sct#373808002 "Curative - procedure intent (qualifier value)"
@@ -64,6 +67,7 @@ Usage: #example
 Instance: cancer-related-medication-request-anastrozole-jenny-m
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-related-medication-request"
 * extension.url = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-procedure-intent"
 * extension.valueCodeableConcept.coding = $sct#373808002 "Curative - procedure intent (qualifier value)"
@@ -87,6 +91,7 @@ Usage: #example
 Instance: cancer-related-medication-request-cyclophosphamide-jenny-m
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-related-medication-request"
 * extension.url = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-procedure-intent"
 * extension.valueCodeableConcept.coding = $sct#373808002 "Curative - procedure intent (qualifier value)"
@@ -109,6 +114,7 @@ Usage: #example
 Instance: cancer-related-medication-request-doxorubicin-jenny-m
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-related-medication-request"
 * extension.url = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-procedure-intent"
 * extension.valueCodeableConcept.coding = $sct#373808002 "Curative - procedure intent (qualifier value)"
@@ -130,6 +136,7 @@ Usage: #example
 Instance: cancer-related-medication-request-paclitaxel-jenny-m
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-related-medication-request"
 * extension.url = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-procedure-intent"
 * extension.valueCodeableConcept.coding = $sct#373808002 "Curative - procedure intent (qualifier value)"
@@ -152,6 +159,7 @@ Usage: #example
 Instance: cancer-related-medication-request-palbociclib-jenny-m
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-related-medication-request"
 * extension.url = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-procedure-intent"
 * extension.valueCodeableConcept.coding.version = "http://snomed.info/sct/900000000000207008"
@@ -177,6 +185,7 @@ Usage: #example
 Instance: SMP-MedStmt-anastrozole-primary
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(cancer-related-medication-request-anastrozole-jenny-m)
 * status = #active
 * medicationCodeableConcept = $rxnorm#84857 "anastrozole"
@@ -190,6 +199,7 @@ Usage: #example
 Instance: SMP-MedStmt-cyclophosphamide-primary
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(cancer-related-medication-request-cyclophosphamide-jenny-m)
 * status = #active
 * medicationCodeableConcept = $rxnorm#3002 "cyclophosphamide"
@@ -203,6 +213,7 @@ Usage: #example
 Instance: SMP-MedStmt-doxorubicin-primary
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(cancer-related-medication-request-doxorubicin-jenny-m)
 * status = #active
 * medicationCodeableConcept = $rxnorm#3639 "DOXOrubicin"
@@ -216,6 +227,7 @@ Usage: #example
 Instance: SMP-MedStmt-paclitaxel-primary
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(cancer-related-medication-request-paclitaxel-jenny-m)
 * status = #active
 * medicationCodeableConcept = $rxnorm#56946 "PACLitaxel"
@@ -230,6 +242,7 @@ Alias: $loinc = http://loinc.org
 Instance: SMP-DiscontinuedCA-Medlist
 InstanceOf: List
 Usage: #example
+Description: "Example"
 * status = #retired
 * mode = #working
 * title = "Completed Course of Therapy"
@@ -252,6 +265,7 @@ Usage: #example
 Instance: medicationrequest-AlprazolamHome
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -282,6 +296,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: MedicationRequest-AtorvastatinHome
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
@@ -304,6 +319,7 @@ Usage: #example
 Instance: medicationrequest-MetoprololHome
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -332,6 +348,7 @@ Usage: #example
 Instance: SMP-MedStmt-AlprazolamHome
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/medicationrequest-AlprazolamHome)
 * status = #active
 * medicationCodeableConcept = $rxnorm#308048 "ALPRAZolam 0.5 MG Oral Tablet"
@@ -345,6 +362,7 @@ Usage: #example
 Instance: SMP-MedStmt-AtorvastatinHome
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-AtorvastatinHome)
 * status = #active
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
@@ -358,6 +376,7 @@ Usage: #example
 Instance: SMP-MedStmt-MetoprololHome
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/medicationrequest-MetoprololHome)
 * status = #active
 * medicationCodeableConcept = $rxnorm#866514 "metoprolol tartrate 50 MG Oral Tablet"
@@ -372,6 +391,7 @@ Alias: $loinc = http://loinc.org
 Instance: SMP-Home-MedList
 InstanceOf: List
 Usage: #example
+Description: "Example"
 * status = #current
 * mode = #working
 * title = "Home Medication List"

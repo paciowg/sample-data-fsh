@@ -3,6 +3,7 @@ Alias: $organization-type = http://terminology.hl7.org/CodeSystem/organization-t
 Instance: org-Loc-Everyday-Community-Pharm-01
 InstanceOf: Location
 Usage: #example
+Description: "Example"
 * status = #active
 * name = "Everyday Community Pharmacy"
 * address.line = "1405 S 348th St."
@@ -15,6 +16,7 @@ Usage: #example
 Instance: org-Loc-Hosp-Puget-Sound
 InstanceOf: Location
 Usage: #example
+Description: "Example"
 * status = #active
 * name = "Puget Sound Cancer Center"
 * address.line = "704 Terry Avenue"
@@ -27,6 +29,7 @@ Usage: #example
 Instance: org-Loc-Hospice-Suquamish
 InstanceOf: Location
 Usage: #example
+Description: "Example"
 * status = #active
 * name = "Suquamish Hospice"
 * address.line = "13131 SE 240th St"
@@ -39,6 +42,7 @@ Usage: #example
 Instance: org-Loc-NED-Contract-Pharm-01
 InstanceOf: Location
 Usage: #example
+Description: "Example"
 * status = #active
 * name = "Not Every Day Contract Pharmacy"
 * address.line = "8103 8th Ave S"
@@ -51,6 +55,7 @@ Usage: #example
 Instance: org-Loc-PC-Primary-Care-FederalWay
 InstanceOf: Location
 Usage: #example
+Description: "Example"
 * status = #active
 * name = "Washington Primary Health Care Associates"
 * address.line = "31858 Pacific Highway S"
@@ -63,6 +68,7 @@ Usage: #example
 Instance: org-Loc-SNF-Happy-Nursing-Facility-01
 InstanceOf: Location
 Usage: #example
+Description: "Example"
 * status = #active
 * name = "Happy Nursing Facility"
 * address.line = "32935 1st Ave S"
@@ -75,6 +81,7 @@ Usage: #example
 Instance: Org-Hospice-Suquamish
 InstanceOf: Organization
 Usage: #example
+Description: "Example"
 * active = true
 * name = "Suquamish Hospice"
 * telecom.system = #phone
@@ -89,6 +96,7 @@ Usage: #example
 Instance: Org-Onc-Hosp-Puget-Sound
 InstanceOf: Organization
 Usage: #example
+Description: "Example"
 * active = true
 * name = "Puget Sound Cancer Center"
 * telecom.system = #phone
@@ -103,6 +111,7 @@ Usage: #example
 Instance: org-PC-Primary-Care-FederalWay
 InstanceOf: Organization
 Usage: #example
+Description: "Example"
 * active = true
 * name = "Washington Primary Health Care Associates"
 * telecom.system = #phone
@@ -117,6 +126,7 @@ Usage: #example
 Instance: org-Pharm-Everyday-Community-Pharm
 InstanceOf: Organization
 Usage: #example
+Description: "Example"
 * active = true
 * name = "Everyday Community Pharmacy"
 * telecom.system = #phone
@@ -131,6 +141,7 @@ Usage: #example
 Instance: org-Pharm-NED-Contract-Pharm
 InstanceOf: Organization
 Usage: #example
+Description: "Example"
 * active = true
 * name = "Not Every Day Contract Pharmacy"
 * telecom.system = #phone
@@ -145,6 +156,7 @@ Usage: #example
 Instance: Org-SNF-Happy-Nursing-Facility
 InstanceOf: Organization
 Usage: #example
+Description: "Example"
 * active = true
 * name = "Happy Nursing Facility"
 * telecom.system = #phone
@@ -159,6 +171,7 @@ Usage: #example
 Instance: us-core-organization-physician-services-inc
 InstanceOf: Organization
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-organization"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "0499342208"

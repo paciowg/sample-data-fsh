@@ -8,6 +8,7 @@ Alias: $loinc = http://loinc.org
 Instance: JM-FCM-Rec-ContHigh
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -25,6 +26,7 @@ Usage: #example
 Instance: JM-FCM-Rec-Partner
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -43,6 +45,7 @@ Usage: #example
 Instance: JM-FCM-Rec-SafeHigh
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -61,6 +64,7 @@ Usage: #example
 Instance: JM-FCM-Speak-ContHigh
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -79,6 +83,7 @@ Usage: #example
 Instance: JM-FCM-Speak-FormHigh
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -97,6 +102,7 @@ Usage: #example
 Instance: JM-FCMRec-Collection
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-collection"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -118,6 +124,7 @@ Usage: #example
 Instance: JM-FCMSpeak-Collection
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-collection"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -138,6 +145,7 @@ Usage: #example
 Instance: JM-FCM-Rec-ContHigh-Palliative
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -155,6 +163,7 @@ Usage: #example
 Instance: JM-FCM-Rec-Partner-Palliative
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -173,6 +182,7 @@ Usage: #example
 Instance: JM-FCM-Rec-SafeHigh-Palliative
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -191,6 +201,7 @@ Usage: #example
 Instance: JM-FCM-Speak-ContHigh-Palliative
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -209,6 +220,7 @@ Usage: #example
 Instance: JM-FCM-Speak-FormHigh-Palliative
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -227,6 +239,7 @@ Usage: #example
 Instance: JM-FCMRec-Collection-Palliative
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-collection"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -248,6 +261,7 @@ Usage: #example
 Instance: JM-FCMSpeak-Collection-Palliative
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-collection"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -268,6 +282,7 @@ Usage: #example
 Instance: simple-observation-gait-jenny-m
 InstanceOf: Observation
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation"
 * status = #final
 * category = $us-core-category#functional-status "Functional Status"

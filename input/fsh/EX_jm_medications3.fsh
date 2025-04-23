@@ -3,6 +3,7 @@
 Instance: MedicationRequest-AcetaminophenSNFstart
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -31,6 +32,7 @@ Usage: #example
 Instance: medicationrequest-AlprazolamSNFstart
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -59,6 +61,7 @@ Usage: #example
 Instance: MedicationRequest-AtorvastatinSNFstart
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
@@ -81,6 +84,7 @@ Usage: #example
 Instance: medicationrequest-DexamethasoneSNFstart
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -111,6 +115,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: MedicationRequest-GabapentinSNFstart
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -134,6 +139,7 @@ Usage: #example
 Instance: MedicationRequest-MetoclopramideSNFstart
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -162,6 +168,7 @@ Usage: #example
 Instance: medicationrequest-MetoprololSNFstart
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -190,6 +197,7 @@ Usage: #example
 Instance: MedicationRequest-OndansetronSNFstart
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -218,6 +226,7 @@ Usage: #example
 Instance: MedicationRequest-PalbociclibSNFstart
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -245,6 +254,7 @@ Usage: #example
 Instance: SMP-MedStmt-AcetaminophenSNFstart
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-AcetaminophenSNFstart)
 * status = #active
 * medicationCodeableConcept = $rxnorm#198440 "acetaminophen 500 MG Oral Tablet"
@@ -257,6 +267,7 @@ Usage: #example
 Instance: SMP-MedStmt-AlprazolamSNFstart
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/medicationrequest-AlprazolamSNFstart)
 * status = #active
 * medicationCodeableConcept = $rxnorm#308048 "ALPRAZolam 0.5 MG Oral Tablet"
@@ -269,6 +280,7 @@ Usage: #example
 Instance: SMP-MedStmt-AtorvastatinSNFstart
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-AtorvastatinSNFstart)
 * status = #active
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
@@ -281,6 +293,7 @@ Usage: #example
 Instance: SMP-MedStmt-DexamethasoneSNFstart
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/medicationrequest-DexamethasoneSNFstart)
 * status = #active
 * medicationCodeableConcept = $rxnorm#197582 "dexAMETHasone 4 MG Oral Tablet"
@@ -293,6 +306,7 @@ Usage: #example
 Instance: SMP-MedStmt-GabapentinSNFstart
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-GabapentinSNFstart)
 * status = #active
 * medicationCodeableConcept = $rxnorm#310431 "gabapentin 300 MG Oral Capsule"
@@ -306,6 +320,7 @@ Usage: #example
 Instance: SMP-MedStmt-MetoclopramideSNFstart
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-MetoclopramideSNFstart)
 * status = #active
 * medicationCodeableConcept = $rxnorm#311666 "metoclopromide 10 MG Oral Tablet"
@@ -319,6 +334,7 @@ Usage: #example
 Instance: SMP-MedStmt-MetoprololSNFstart
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/medicationrequest-MetoprololSNFstart)
 * status = #active
 * medicationCodeableConcept = $rxnorm#866514 "metoprolol tartrate 50 MG Oral Tablet"
@@ -332,6 +348,7 @@ Usage: #example
 Instance: SMP-MedStmt-OndansetronSNFstart
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-OndansetronSNFstart)
 * status = #active
 * medicationCodeableConcept = $rxnorm#312087 "ondansetron 8 MG Disintegrating Oral Tablet"
@@ -344,6 +361,7 @@ Usage: #example
 Instance: SMP-MedStmt-PalbociclibSNFstart
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-PalbociclibSNFstart)
 * status = #active
 * medicationCodeableConcept = $rxnorm#2284105 "palbociclib 125 MG Oral Tablet"
@@ -357,6 +375,7 @@ Usage: #example
 Instance: SMP-MedList-SNFstart
 InstanceOf: List
 Usage: #example
+Description: "Example"
 * status = #current
 * mode = #working
 * title = "SNF Administration List"

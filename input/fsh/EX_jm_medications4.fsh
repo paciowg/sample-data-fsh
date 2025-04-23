@@ -6,6 +6,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: MedicationRequest-AcetaminophenSNFpalliative
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -34,6 +35,7 @@ Usage: #example
 Instance: medicationrequest-AlprazolamSNFpalliative
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -62,6 +64,7 @@ Usage: #example
 Instance: MedicationRequest-AtorvastatinSNFpalliative
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * status = #active
 * intent = #order
 * priority = #routine
@@ -86,6 +89,7 @@ Usage: #example
 Instance: medicationrequest-DexamethasoneSNFpalliative
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -114,6 +118,7 @@ Usage: #example
 Instance: MedicationRequest-GabapentinSNFpalliative
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -137,6 +142,7 @@ Usage: #example
 Instance: MedicationRequest-MetoclopramideSNFpalliative
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -165,6 +171,7 @@ Usage: #example
 Instance: medicationrequest-MetoprololSNFpalliative
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -195,6 +202,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: MedicationRequest-OndansetronSNFpalliative
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -223,6 +231,7 @@ Usage: #example
 Instance: MedicationRequest-OralMorphinePalliative
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -252,6 +261,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: MedicationRequest-PalbociclibSNFpalliative
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
 * status = #active
 * intent = #order
@@ -280,6 +290,7 @@ Usage: #example
 Instance: MedicationRequest-PolyethyleneGlycolPalliative
 InstanceOf: MedicationRequest
 Usage: #example
+Description: "Example"
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#876193 "Polyethylene glycol 3350 (Miralax)"
@@ -294,6 +305,7 @@ Usage: #example
 Instance: SMP-MedStmt-AcetaminophenSNFpalliative
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-AcetaminophenSNFpalliative)
 * status = #active
 * medicationCodeableConcept = $rxnorm#198440 "acetaminophen 500 MG Oral Tablet"
@@ -306,6 +318,7 @@ Usage: #example
 Instance: SMP-MedStmt-AlprazolamSNFpalliative
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/medicationrequest-AlprazolamSNFpalliative)
 * status = #active
 * medicationCodeableConcept = $rxnorm#308048 "ALPRAZolam 0.5 MG Oral Tablet"
@@ -321,6 +334,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: SMP-MedStmt-AtorvastatinSNFpalliative
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-AtorvastatinSNFpalliative)
 * status = #active
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
@@ -333,6 +347,7 @@ Usage: #example
 Instance: SMP-MedStmt-DexamethasoneSNFpalliative
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/medicationrequest-DexamethasoneSNFpalliative)
 * status = #active
 * medicationCodeableConcept = $rxnorm#197582 "dexAMETHasone 4 MG Oral Tablet"
@@ -345,6 +360,7 @@ Usage: #example
 Instance: SMP-MedStmt-GabapentinSNFpalliative
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-GabapentinSNFpalliative)
 * status = #active
 * medicationCodeableConcept = $rxnorm#310431 "gabapentin 300 MG Oral Capsule"
@@ -358,6 +374,7 @@ Usage: #example
 Instance: SMP-MedStmt-MetoclopramideSNFpalliative
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-MetoclopramideSNFpalliative)
 * status = #active
 * medicationCodeableConcept = $rxnorm#311666 "metoclopromide 10 MG Oral Tablet"
@@ -371,6 +388,7 @@ Usage: #example
 Instance: SMP-MedStmt-MetoprololSNFpalliative
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/medicationrequest-MetoprololSNFpalliative)
 * status = #active
 * medicationCodeableConcept = $rxnorm#866514 "metoprolol tartrate 50 MG Oral Tablet"
@@ -384,6 +402,7 @@ Usage: #example
 Instance: SMP-MedStmt-OndansetronSNFpalliative
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-OndansetronSNFpalliative)
 * status = #active
 * medicationCodeableConcept = $rxnorm#312087 "ondansetron 8 MG Disintegrating Oral Tablet"
@@ -397,6 +416,7 @@ Usage: #example
 Instance: SMP-MedStmt-OralMorphinepalliative
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-OralMorphinePalliative)
 * status = #active
 * medicationCodeableConcept = $rxnorm#894780 "morphine sulfate 4 MG/ML"
@@ -410,6 +430,7 @@ Usage: #example
 Instance: SMP-MedStmt-PalbociclibSNFpalliative
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-PalbociclibSNFpalliative)
 * status = #active
 * medicationCodeableConcept = $rxnorm#2284105 "palbociclib 125 MG Oral Tablet"
@@ -425,6 +446,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: SMP-MedStmt-PolyethyleneGlycolPalliative
 InstanceOf: MedicationStatement
 Usage: #example
+Description: "Example"
 * basedOn = Reference(MedicationRequest/MedicationRequest-PolyethyleneGlycolPalliative)
 * status = #active
 * medicationCodeableConcept = $rxnorm#876193 "Polyethylene glycol 3350 (Miralax)"
@@ -438,6 +460,7 @@ Usage: #example
 Instance: SMP-MedList-SNFpalliative
 InstanceOf: List
 Usage: #example
+Description: "Example"
 * status = #current
 * mode = #working
 * title = "SNF + Pallative Care Administration List"

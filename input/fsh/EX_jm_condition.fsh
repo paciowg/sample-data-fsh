@@ -8,6 +8,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: JM1-AnxietyDiagnosis
 InstanceOf: Condition
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
@@ -27,6 +28,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: JM1-HyperlipidemiaDiagnosis
 InstanceOf: Condition
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
@@ -48,6 +50,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: JM1-HypertensionDiagnosis
 InstanceOf: Condition
 Usage: #example
+Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
