@@ -123,7 +123,7 @@ Description: "Example"
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#b16700 "Reception of spoken language"
-* code = $loinc#\t\n99841-9 "How often does the individual understand complex messages, as expected for chronological age, in HIGH demand situations?"
+* code = $loinc#99841-9 "How often does the individual understand complex messages, as expected for chronological age, in HIGH demand situations?"
 * subject = Reference(Patient/patientBSJ1)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff)
@@ -140,7 +140,7 @@ Description: "Example"
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#d350 "Conversation"
-* code = $loinc#\t\n99842-7 "How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner?"
+* code = $loinc#99842-7 "How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner?"
 * subject = Reference(Patient/patientBSJ1)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff)
@@ -158,7 +158,7 @@ Description: "Example"
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#d5 "Self Care"
 * category[+] = $pfe-category-cs#b16700 "Reception of spoken language"
-* code = $loinc#\t\n99841-9 "How often does the individual function safely WITHOUT additional supervision/assistance (in excess of chronological age expectations) due to comprehension deficits?"
+* code = $loinc#99841-9 "How often does the individual function safely WITHOUT additional supervision/assistance (in excess of chronological age expectations) due to comprehension deficits?"
 * subject = Reference(Patient/patientBSJ1)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff)
@@ -176,7 +176,7 @@ Description: "Example"
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#b16710 "Expression of Spoken Language"
 * category[+] = $pfe-category-cs#d350 "Conversation"
-* code = $loinc#\t\n99850-0 "How often does the individual produce verbal messages with appropriate CONTENT in HIGH demand situations?"
+* code = $loinc#99850-0 "How often does the individual produce verbal messages with appropriate CONTENT in HIGH demand situations?"
 * subject = Reference(Patient/patientBSJ1)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff)
@@ -194,7 +194,7 @@ Description: "Example"
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#b16710 "Expression of Spoken Language"
 * category[+] = $pfe-category-cs#d350 "Conversation"
-* code = $loinc#\t\n99850-0 "How often does the individual produce verbal messages with appropriate FORM in HIGH demand situations?"
+* code = $loinc#99850-0 "How often does the individual produce verbal messages with appropriate FORM in HIGH demand situations?"
 * subject = Reference(Patient/patientBSJ1)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff)
@@ -304,7 +304,7 @@ Description: "Example"
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#functional-status "Functional Status"
 * category[+] = $pfe-category-cs#d5401 "Taking Off Clothes"
-* code = $loinc#89387-5 "\t\nSelf-care (discharge performance) - upper body dressing"
+* code = $loinc#89387-5 "Self-care (discharge performance) - upper body dressing"
 * subject = Reference(Patient/patientBSJ1)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-OT-JenCadbury)
@@ -321,7 +321,7 @@ Description: "Example"
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#functional-status "Functional Status"
 * category[+] = $pfe-category-cs#d5400 "Putting On Clothes"
-* code = $loinc#"\t\n89406-3" "Self-care (discharge performance) - lower body dressing"
+* code = $loinc#"89406-3" "Self-care (discharge performance) - lower body dressing"
 * subject = Reference(Patient/patientBSJ1)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-OT-JenCadbury)
@@ -357,7 +357,7 @@ Description: "Example"
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#functional-status "Functional Status"
 * category[+] = $pfe-category-cs#d4600 "Moving Around Within the Home"
-* code = $loinc#89381-8 "\t\nMobility (discharge performance) - walk 50 feet w/2 turns "
+* code = $loinc#89381-8 "Mobility (discharge performance) - walk 50 feet w/2 turns "
 * subject = Reference(Patient/patientBSJ1)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-OT-JenCadbury)
@@ -374,7 +374,7 @@ Description: "Example"
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#functional-status "Functional Status"
 * category[+] = $pfe-category-cs#d4014 "Standing"
-* code = $loinc#"\t\n89392-5" "Mobility (discharge performance) - sit to stand"
+* code = $loinc#"89392-5" "Mobility (discharge performance) - sit to stand"
 * subject = Reference(Patient/patientBSJ1)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-OT-JenCadbury)
@@ -391,7 +391,7 @@ Description: "Example"
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#functional-status "Functional Status"
 * category[+] = $pfe-category-cs#d4100 "Lying Down"
-* code = $loinc#"\t\n85927-2" "Mobility (discharge performance) - lying to sitting on side of bed"
+* code = $loinc#"85927-2" "Mobility (discharge performance) - lying to sitting on side of bed"
 * subject = Reference(Patient/patientBSJ1)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-OT-JenCadbury)

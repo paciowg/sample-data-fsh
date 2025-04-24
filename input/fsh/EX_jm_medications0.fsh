@@ -52,7 +52,7 @@ Description: "Example"
 * extension.valueCodeableConcept.coding = $sct#373808002 "Curative - procedure intent (qualifier value)"
 * status = #completed
 * category = $medicationrequest-category#outpatient
-* medicationCodeableConcept = $rxnorm#1583214 "paclitaxel 100 MG Injection"
+* medicationCodeableConcept = $rxnorm#583214 "paclitaxel 100 MG Injection"
 * subject = Reference(Patient/patientJM1)
 * effectiveDateTime = "2018-04-22"
 * performer.actor = Reference(Practitioner/us-core-practitioner-nancy-oncology-nurse)
@@ -143,7 +143,7 @@ Description: "Example"
 * status = #active
 * intent = #order
 * category = $medicationrequest-category#outpatient
-* medicationCodeableConcept = $rxnorm#1583214 "paclitaxel 100 MG Injection"
+* medicationCodeableConcept = $rxnorm#583214 "paclitaxel 100 MG Injection"
 * subject = Reference(Patient/patientJM1)
 * authoredOn = "2018-04-12"
 * requester = Reference(Practitioner/Practitioner-owen-oncologist-01)
