@@ -242,7 +242,7 @@ InstanceOf: MedicationAdministration
 Usage: #example
 Description: "Example"
 * status = #completed
-* medicationCodeableConcept = $rxnorm#312940 "sertraline 25 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#312940 "Sertraline 25 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * effectiveDateTime = "2024-08-21"
 * reasonCode = $sct#35489007 "Depressive disorder (disorder)"
@@ -253,7 +253,7 @@ InstanceOf: MedicationAdministration
 Usage: #example
 Description: "Example"
 * status = #completed
-* medicationCodeableConcept = $rxnorm#310429 "furosemide 20 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#310429 "Furosemide 20 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * effectiveDateTime = "2024-08-21"
 * reasonCode = $sct#731000119105 "Chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)"
@@ -264,7 +264,7 @@ InstanceOf: MedicationAdministration
 Usage: #example
 Description: "Example"
 * status = #completed
-* medicationCodeableConcept = $rxnorm#1545658 "empagliflozin 10 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#1545658 "Empagliflozin (Jardiance) 10mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * effectiveDateTime = "2024-08-21"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
@@ -275,7 +275,7 @@ InstanceOf: MedicationAdministration
 Usage: #example
 Description: "Example"
 * status = #completed
-* medicationCodeableConcept = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#309362 "Clopidogrel 75mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * effectiveDateTime = "2024-08-21"
 * reasonCode = $sct#422504002 "Ischemic Stroke (disorder)"
@@ -286,7 +286,7 @@ InstanceOf: MedicationAdministration
 Usage: #example
 Description: "Example"
 * status = #completed
-* medicationCodeableConcept = $rxnorm#314073 "Losartan 50 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#314073 "Losartan 50mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * effectiveDateTime = "2024-08-21"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
@@ -297,7 +297,7 @@ InstanceOf: MedicationAdministration
 Usage: #example
 Description: "Example"
 * status = #completed
-* medicationCodeableConcept = $rxnorm#312941 "sertraline 50 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#312941 "Sertraline 50mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * effectiveDateTime = "2024-08-26"
 * reasonCode = $sct#35489007 "Depressive disorder (disorder)"
@@ -308,7 +308,7 @@ InstanceOf: MedicationAdministration
 Usage: #example
 Description: "Example"
 * status = #completed
-* medicationCodeableConcept = $rxnorm#200031 "carvedilol 6.25 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#200031 "Carvedilol 6.25mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * effectiveDateTime = "2024-08-26"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
@@ -319,7 +319,7 @@ InstanceOf: MedicationAdministration
 Usage: #example
 Description: "Example"
 * status = #completed
-* medicationCodeableConcept = $rxnorm#311570 "Metformin 500 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#311570 "Metformin 500mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * effectiveDateTime = "2024-08-26"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
@@ -330,7 +330,7 @@ InstanceOf: MedicationAdministration
 Usage: #example
 Description: "Example"
 * status = #completed
-* medicationCodeableConcept = $rxnorm#1545658 "empagliflozin 10 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#1545658 "Empagliflozin (Jardiance) 10mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * effectiveDateTime = "2024-08-26"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
@@ -341,7 +341,7 @@ InstanceOf: MedicationAdministration
 Usage: #example
 Description: "Example"
 * status = #completed
-* medicationCodeableConcept = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#309362 "Clopidogrel 75mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * effectiveDateTime = "2024-08-26"
 * reasonCode = $sct#422504002 "Ischemic Stroke (disorder)"
@@ -352,7 +352,7 @@ InstanceOf: MedicationAdministration
 Usage: #example
 Description: "Example"
 * status = #completed
-* medicationCodeableConcept = $rxnorm#313782 "acetaminophen 325 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#313782 "Acetaminophen 325mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * effectiveDateTime = "2024-08-26"
 * reasonCode = $sct#396275006 "Osteoarthritis (disorder)"
@@ -364,7 +364,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#617311 "Atorvastatin 40 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-08-11"
 * reasonCode = $sct#55822004 "Hyperlipidemia"
@@ -377,7 +377,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#312940 "sertraline 25 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#312940 "Sertraline 25 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-08-11"
 * reasonCode = $sct#35489007 "Depressive disorder (disorder)"
@@ -390,7 +390,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#310429 "furosemide 20 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#310429 "Furosemide 20 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-08-11"
 * reasonCode = $sct#731000119105 "Chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)"
@@ -403,7 +403,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#200031 "carvedilol 6.25 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#200031 "Carvedilol 6.25 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-08-11"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
@@ -416,7 +416,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#310489 "24 HR glipizide 2.5 MG Extended Release Oral Tablet"
+* medicationCodeableConcept = $rxnorm#310489 "Glipizide 2.5 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-08-11"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
@@ -429,7 +429,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#859424 "rosuvastatin calcium 5 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#859424 "Calcium 500 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-08-11"
 * reasonCode = $sct#312894000 "Osteopenia"
@@ -442,7 +442,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#198444 "acetaminophen 650 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#198444 "Tylenol (Acetaminophen) 650 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-08-11"
 * reasonCode = $sct#396275006 "Osteoarthritis (disorder)"
@@ -455,7 +455,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#310325 "ferrous sulfate 325 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#310325 "Ferrous Sulfate 325 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-08-11"
 * reasonCode = $sct#691421000119108 "Anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)"
@@ -468,7 +468,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#617311 "Atorvastatin 40 mg po"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-08-21"
 * reasonCode = $sct#55822004 "Hyperlipidemia"
@@ -481,7 +481,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#200031 "carvedilol 6.25 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#200031 "Carvedilol to 6.25mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-08-21"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
@@ -494,7 +494,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#428759 "metformin 250 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#428759 "Metformin 250mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-08-21"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
@@ -507,7 +507,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#244210 "ferrous gluconate 325 MG Oral Capsule"
+* medicationCodeableConcept = $rxnorm#244210 "Ferrous Gluconate 325mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-08-21"
 * reasonCode = $sct#691421000119108 "Anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)"
@@ -520,7 +520,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#857002 "acetaminophen 325 MG / hydrocodone bitartrate 5 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#857002 "Hydrocodone/APAP 5/325mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-08-21"
 * reasonCode = $sct#396275006 "Osteoarthritis (disorder)"
@@ -533,7 +533,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
+* medicationCodeableConcept = $rxnorm#876193 "Polyethylene glycol 3350 17g po daily prn constipation"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-08-21"
 * reasonCode = $sct#21782001 "Drug-induced constipation"
@@ -546,7 +546,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#1099279 "docusate sodium 100 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#1099279 "Docusate Soldium"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-08-21"
 * reasonCode = $sct#21782001 "Drug-induced constipation"
@@ -559,7 +559,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#198052 "ondansetron 4 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#198052 "Ondansetron 4mg tablet"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-08-21"
 * reasonCode = $sct#16932000 "Nausea and vomiting"
@@ -572,7 +572,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#847205 "3 ML insulin, regular, human 100 UNT/ML Prefilled Syringe [Novolin R]"
+* medicationCodeableConcept = $rxnorm#847205 "Novolin-R Sliding scale insulin protocol"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-08-21"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
@@ -598,7 +598,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#617311 "Atorvastatin 40 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-08-26"
 * reasonCode = $sct#55822004 "Hyperlipidemia"
@@ -611,7 +611,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#310429 "furosemide 20 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#310429 "Furosemide 20 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-08-26"
 * reasonCode = $sct#731000119105 "Chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)"
@@ -624,7 +624,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#314073 "Losartan 50 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#314073 "Losartan 50mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-08-26"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
@@ -637,7 +637,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#244210 "ferrous gluconate 325 MG Oral Capsule"
+* medicationCodeableConcept = $rxnorm#244210 "Ferrous Gluconate 325mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-08-26"
 * reasonCode = $sct#691421000119108 "Anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)"
@@ -650,7 +650,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
+* medicationCodeableConcept = $rxnorm#876193 "Polyethylene glycol 3350 17g"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-08-26"
 * reasonCode = $sct#21782001 "Drug-induced constipation"
@@ -663,7 +663,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#617311 "Atorvastatin 40 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-09-19"
 * reasonCode = $sct#55822004 "Hyperlipidemia"
@@ -676,7 +676,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#312941 "sertraline 50 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#312941 "Sertraline 50 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-09-19"
 * reasonCode = $sct#35489007 "Depressive disorder (disorder)"
@@ -689,7 +689,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#310429 "furosemide 20 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#310429 "Furosemide 20 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-09-19"
 * reasonCode = $sct#731000119105 "Chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)"
@@ -702,7 +702,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#311570 "Metformin 500 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#311570 "Metformin 500mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-09-19"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
@@ -715,7 +715,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#1545658 "empagliflozin 10 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#1545658 "Empagliflozin (Jardiance) 10mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-09-19"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
@@ -728,7 +728,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#309362 "Clopidogrel 75mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-09-19"
 * reasonCode = $sct#422504002 "Ischemic Stroke (disorder)"
@@ -741,7 +741,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#314073 "Losartan 50 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#314073 "Losartan 50mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-09-19"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
@@ -754,7 +754,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#244210 "ferrous gluconate 325 MG Oral Capsule"
+* medicationCodeableConcept = $rxnorm#244210 "Ferrous Gluconate 325mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-09-19"
 * reasonCode = $sct#691421000119108 "Anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)"
@@ -767,7 +767,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#313782 "acetaminophen 325 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#313782 "Acetaminophen (Tylenol) 325mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-09-19"
 * reasonCode = $sct#396275006 "Osteoarthritis (disorder)"
@@ -780,7 +780,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
+* medicationCodeableConcept = $rxnorm#876193 "Polyethylene glycol 3350 (Miralax)"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-09-19"
 * reasonCode = $sct#21782001 "Drug-induced constipation"
@@ -793,7 +793,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#617311 "Atorvastatin 40 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-09-20"
 * reasonCode = $sct#55822004 "Hyperlipidemia"
@@ -806,7 +806,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#312941 "sertraline 50 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#312941 "Sertraline 50 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-09-20"
 * reasonCode = $sct#35489007 "Depressive disorder (disorder)"
@@ -819,7 +819,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#310429 "furosemide 20 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#310429 "Furosemide 20 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-09-20"
 * reasonCode = $sct#731000119105 "Chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)"
@@ -832,7 +832,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#311570 "Metformin 500 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#311570 "Metformin 500mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-09-20"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
@@ -845,7 +845,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#1545658 "empagliflozin 10 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#1545658 "Empagliflozin (Jardiance) 10mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-09-20"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
@@ -858,7 +858,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#309362 "Clopidogrel 75mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-09-20"
 * reasonCode = $sct#422504002 "Ischemic Stroke (disorder)"
@@ -871,7 +871,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#314073 "Losartan 50 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#314073 "Losartan 50mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-09-20"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
@@ -884,7 +884,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#244210 "ferrous gluconate 325 MG Oral Capsule"
+* medicationCodeableConcept = $rxnorm#244210 "Ferrous Gluconate 325mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-09-20"
 * reasonCode = $sct#691421000119108 "Anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)"
@@ -897,7 +897,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#313782 "acetaminophen 325 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#313782 "Acetaminophen (Tylenol) 325mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-09-20"
 * reasonCode = $sct#396275006 "Osteoarthritis (disorder)"
@@ -910,7 +910,7 @@ Usage: #example
 Description: "Example"
 * status = #active
 * intent = #order
-* medicationCodeableConcept = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
+* medicationCodeableConcept = $rxnorm#876193 "Polyethylene glycol 3350 (Miralax)"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * authoredOn = "2024-09-20"
 * reasonCode = $sct#21782001 "Drug-induced constipation"
@@ -923,7 +923,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-1-1)
 * status = #active
-* medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#617311 "Atorvastatin 40 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-11"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
@@ -937,7 +937,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-1-2)
 * status = #active
-* medicationCodeableConcept = $rxnorm#312940 "sertraline 25 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#312940 "Sertraline 25 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-11"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
@@ -951,7 +951,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-1-3)
 * status = #active
-* medicationCodeableConcept = $rxnorm#310429 "furosemide 20 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#310429 "Furosemide 20 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-11"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
@@ -965,7 +965,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-1-4)
 * status = #active
-* medicationCodeableConcept = $rxnorm#200031 "carvedilol 6.25 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#200031 "Carvedilol 6.25 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-11"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
@@ -979,7 +979,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-1-5)
 * status = #active
-* medicationCodeableConcept = $rxnorm#310489 "24 HR glipizide 2.5 MG Extended Release Oral Tablet"
+* medicationCodeableConcept = $rxnorm#310489 "Glipizide 2.5 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-11"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
@@ -993,7 +993,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-1-6)
 * status = #active
-* medicationCodeableConcept = $rxnorm#859424 "rosuvastatin calcium 5 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#859424 "Calcium 500 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-11"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
@@ -1006,7 +1006,7 @@ InstanceOf: MedicationStatement
 Usage: #example
 Description: "Example"
 * status = #intended
-* medicationCodeableConcept = $rxnorm#1426128 "Calcium Carbonate 1500 MG / Vitamin D 800 UNT Oral Tablet"
+* medicationCodeableConcept = $rxnorm#1426128 "Vitamin D 800 IU"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-11"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
@@ -1020,7 +1020,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-1-8)
 * status = #active
-* medicationCodeableConcept = $rxnorm#198444 "acetaminophen 650 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#198444 "Tylenol (Acetaminophen) 650 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-11"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
@@ -1034,7 +1034,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-1-9)
 * status = #active
-* medicationCodeableConcept = $rxnorm#310325 "ferrous sulfate 325 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#310325 "Ferrous Sulfate 325 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-11"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
@@ -1048,7 +1048,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-2-10)
 * status = #active
-* medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#617311 "Atorvastatin 40 mg po"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-21"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
@@ -1062,7 +1062,7 @@ Usage: #example
 Description: "Example"
 * partOf = Reference(smp-medadm-2-11)
 * status = #active
-* medicationCodeableConcept = $rxnorm#312940 "sertraline 25 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#312940 "Sertraline 25 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-21"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
@@ -1076,7 +1076,7 @@ Usage: #example
 Description: "Example"
 * partOf = Reference(smp-medadm-2-12)
 * status = #active
-* medicationCodeableConcept = $rxnorm#310429 "furosemide 20 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#310429 "Furosemide 20 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-21"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
@@ -1090,7 +1090,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-2-13)
 * status = #active
-* medicationCodeableConcept = $rxnorm#200031 "carvedilol 6.25 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#200031 "Carvedilol to 6.25mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-21"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
@@ -1105,7 +1105,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-2-14)
 * status = #active
-* medicationCodeableConcept = $rxnorm#428759 "metformin 250 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#428759 "Metformin 250mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-21"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
@@ -1119,7 +1119,7 @@ Usage: #example
 Description: "Example"
 * partOf = Reference(smp-medadm-2-15)
 * status = #active
-* medicationCodeableConcept = $rxnorm#1545658 "empagliflozin 10 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#1545658 "Empagliflozin (Jardiance) 10mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-21"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
@@ -1133,7 +1133,7 @@ Usage: #example
 Description: "Example"
 * partOf = Reference(smp-medadm-2-16)
 * status = #active
-* medicationCodeableConcept = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#309362 "Clopidogrel 75mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-21"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
@@ -1147,7 +1147,7 @@ Usage: #example
 Description: "Example"
 * partOf = Reference(smp-medadm-2-17)
 * status = #active
-* medicationCodeableConcept = $rxnorm#314073 "Losartan 50 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#314073 "Losartan 50mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-21"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
@@ -1161,7 +1161,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-2-18)
 * status = #active
-* medicationCodeableConcept = $rxnorm#244210 "ferrous gluconate 325 MG Oral Capsule"
+* medicationCodeableConcept = $rxnorm#244210 "Ferrous Gluconate 325mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-21"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
@@ -1175,7 +1175,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-2-19)
 * status = #active
-* medicationCodeableConcept = $rxnorm#857002 "acetaminophen 325 MG / hydrocodone bitartrate 5 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#857002 "Hydrocodone/APAP 5/325mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-21"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
@@ -1190,7 +1190,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-2-21)
 * status = #active
-* medicationCodeableConcept = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
+* medicationCodeableConcept = $rxnorm#876193 "Polyethylene glycol 3350 17g po daily prn constipation"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-21"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
@@ -1204,7 +1204,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-2-22)
 * status = #active
-* medicationCodeableConcept = $rxnorm#1099279 "docusate sodium 100 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#1099279 "Docusate Soldium"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-21"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
@@ -1218,7 +1218,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-2-23)
 * status = #active
-* medicationCodeableConcept = $rxnorm#198052 "ondansetron 4 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#198052 "Ondansetron 4mg tablet"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-21"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
@@ -1232,7 +1232,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-2-24)
 * status = #active
-* medicationCodeableConcept = $rxnorm#847205 "3 ML insulin, regular, human 100 UNT/ML Prefilled Syringe [Novolin R]"
+* medicationCodeableConcept = $rxnorm#847205 "Novolin-R Sliding scale insulin protocol"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-21"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
@@ -1259,7 +1259,7 @@ InstanceOf: MedicationStatement
 Usage: #example
 Description: "Example"
 * status = #intended
-* medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#617311 "Atorvastatin 40 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
@@ -1272,7 +1272,7 @@ InstanceOf: MedicationStatement
 Usage: #example
 Description: "Example"
 * status = #intended
-* medicationCodeableConcept = $rxnorm#312940 "sertraline 25 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#312940 "Sertraline 25 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
@@ -1285,7 +1285,7 @@ InstanceOf: MedicationStatement
 Usage: #example
 Description: "Example"
 * status = #intended
-* medicationCodeableConcept = $rxnorm#310429 "furosemide 20 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#310429 "Furosemide 20 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
@@ -1298,7 +1298,7 @@ InstanceOf: MedicationStatement
 Usage: #example
 Description: "Example"
 * status = #intended
-* medicationCodeableConcept = $rxnorm#200031 "carvedilol 6.25 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#200031 "Carvedilol 6.5mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
@@ -1312,7 +1312,7 @@ InstanceOf: MedicationStatement
 Usage: #example
 Description: "Example"
 * status = #intended
-* medicationCodeableConcept = $rxnorm#311570 "Metformin 500 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#311570 "Metformin 500mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
@@ -1325,7 +1325,7 @@ InstanceOf: MedicationStatement
 Usage: #example
 Description: "Example"
 * status = #intended
-* medicationCodeableConcept = $rxnorm#1545658 "empagliflozin 10 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#1545658 "Empagliflozin (Jardiance) 10mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
@@ -1338,7 +1338,7 @@ InstanceOf: MedicationStatement
 Usage: #example
 Description: "Example"
 * status = #intended
-* medicationCodeableConcept = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#309362 "Clopidogrel 75mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
@@ -1351,7 +1351,7 @@ InstanceOf: MedicationStatement
 Usage: #example
 Description: "Example"
 * status = #intended
-* medicationCodeableConcept = $rxnorm#314073 "Losartan 50 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#314073 "Losartan 50mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
@@ -1365,7 +1365,7 @@ InstanceOf: MedicationStatement
 Usage: #example
 Description: "Example"
 * status = #intended
-* medicationCodeableConcept = $rxnorm#244210 "ferrous gluconate 325 MG Oral Capsule"
+* medicationCodeableConcept = $rxnorm#244210 "Ferrous Gluconate 325mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
@@ -1378,7 +1378,7 @@ InstanceOf: MedicationStatement
 Usage: #example
 Description: "Example"
 * status = #intended
-* medicationCodeableConcept = $rxnorm#313782 "acetaminophen 325 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#313782 "Acetaminophen 325mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
@@ -1391,7 +1391,7 @@ InstanceOf: MedicationStatement
 Usage: #example
 Description: "Example"
 * status = #intended
-* medicationCodeableConcept = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
+* medicationCodeableConcept = $rxnorm#876193 "Polyethylene glycol 3350 17g"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
@@ -1404,7 +1404,7 @@ InstanceOf: MedicationStatement
 Usage: #example
 Description: "Example"
 * status = #intended
-* medicationCodeableConcept = $rxnorm#1099279 "docusate sodium 100 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#1099279 "Docusate 100mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
@@ -1417,7 +1417,7 @@ InstanceOf: MedicationStatement
 Usage: #example
 Description: "Example"
 * status = #intended
-* medicationCodeableConcept = $rxnorm#198052 "ondansetron 4 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#198052 "Ondansetron 4mg tablet"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
@@ -1430,7 +1430,7 @@ InstanceOf: MedicationStatement
 Usage: #example
 Description: "Example"
 * status = #intended
-* medicationCodeableConcept = $rxnorm#847205 "3 ML insulin, regular, human 100 UNT/ML Prefilled Syringe [Novolin R]"
+* medicationCodeableConcept = $rxnorm#847205 "Novolin-R Sliding scale insulin protocol"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
@@ -1444,7 +1444,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-3-41)
 * status = #active
-* medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#617311 "Atorvastatin 40 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
@@ -1458,7 +1458,7 @@ Usage: #example
 Description: "Example"
 * partOf = Reference(smp-medadm-3-42)
 * status = #active
-* medicationCodeableConcept = $rxnorm#312941 "sertraline 50 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#312941 "Sertraline 50mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
@@ -1472,7 +1472,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-3-43)
 * status = #active
-* medicationCodeableConcept = $rxnorm#310429 "furosemide 20 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#310429 "Furosemide 20 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
@@ -1486,7 +1486,7 @@ Usage: #example
 Description: "Example"
 * partOf = Reference(smp-medadm-3-44)
 * status = #active
-* medicationCodeableConcept = $rxnorm#200031 "carvedilol 6.25 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#200031 "Carvedilol 6.25mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
@@ -1500,7 +1500,7 @@ Usage: #example
 Description: "Example"
 * partOf = Reference(smp-medadm-3-45)
 * status = #active
-* medicationCodeableConcept = $rxnorm#311570 "Metformin 500 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#311570 "Metformin 500mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
@@ -1514,7 +1514,7 @@ Usage: #example
 Description: "Example"
 * partOf = Reference(smp-medadm-3-46)
 * status = #active
-* medicationCodeableConcept = $rxnorm#1545658 "empagliflozin 10 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#1545658 "Empagliflozin (Jardiance) 10mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
@@ -1528,7 +1528,7 @@ Usage: #example
 Description: "Example"
 * partOf = Reference(smp-medadm-3-47)
 * status = #active
-* medicationCodeableConcept = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#309362 "Clopidogrel 75mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
@@ -1542,7 +1542,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-3-48)
 * status = #active
-* medicationCodeableConcept = $rxnorm#314073 "Losartan 50 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#314073 "Losartan 50mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
@@ -1556,7 +1556,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-3-49)
 * status = #active
-* medicationCodeableConcept = $rxnorm#244210 "ferrous gluconate 325 MG Oral Capsule"
+* medicationCodeableConcept = $rxnorm#244210 "Ferrous Gluconate 325mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
@@ -1570,7 +1570,7 @@ Usage: #example
 Description: "Example"
 * partOf = Reference(smp-medadm-3-50)
 * status = #active
-* medicationCodeableConcept = $rxnorm#313782 "acetaminophen 325 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#313782 "Acetaminophen 325mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
@@ -1584,7 +1584,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-3-52)
 * status = #active
-* medicationCodeableConcept = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
+* medicationCodeableConcept = $rxnorm#876193 "Polyethylene glycol 3350 17g"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
@@ -1597,7 +1597,7 @@ InstanceOf: MedicationStatement
 Usage: #example
 Description: "Example"
 * status = #intended
-* medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#617311 "Atorvastatin 40 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-09-18"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
@@ -1610,7 +1610,7 @@ InstanceOf: MedicationStatement
 Usage: #example
 Description: "Example"
 * status = #intended
-* medicationCodeableConcept = $rxnorm#312941 "sertraline 50 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#312941 "Sertraline 50 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-09-18"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
@@ -1623,7 +1623,7 @@ InstanceOf: MedicationStatement
 Usage: #example
 Description: "Example"
 * status = #intended
-* medicationCodeableConcept = $rxnorm#310429 "furosemide 20 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#310429 "Furosemide 20 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-09-18"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
@@ -1636,7 +1636,7 @@ InstanceOf: MedicationStatement
 Usage: #example
 Description: "Example"
 * status = #intended
-* medicationCodeableConcept = $rxnorm#311570 "Metformin 500 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#311570 "Metformin 500mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-09-18"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
@@ -1649,7 +1649,7 @@ InstanceOf: MedicationStatement
 Usage: #example
 Description: "Example"
 * status = #intended
-* medicationCodeableConcept = $rxnorm#1545658 "empagliflozin 10 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#1545658 "Empagliflozin (Jardiance) 10mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-09-18"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
@@ -1662,7 +1662,7 @@ InstanceOf: MedicationStatement
 Usage: #example
 Description: "Example"
 * status = #intended
-* medicationCodeableConcept = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#309362 "Clopidogrel 75mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-09-18"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
@@ -1675,7 +1675,7 @@ InstanceOf: MedicationStatement
 Usage: #example
 Description: "Example"
 * status = #intended
-* medicationCodeableConcept = $rxnorm#314073 "Losartan 50 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#314073 "Losartan 50mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-09-18"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
@@ -1688,7 +1688,7 @@ InstanceOf: MedicationStatement
 Usage: #example
 Description: "Example"
 * status = #intended
-* medicationCodeableConcept = $rxnorm#244210 "ferrous gluconate 325 MG Oral Capsule"
+* medicationCodeableConcept = $rxnorm#244210 "Ferrous Gluconate 325mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-09-18"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
@@ -1701,7 +1701,7 @@ InstanceOf: MedicationStatement
 Usage: #example
 Description: "Example"
 * status = #intended
-* medicationCodeableConcept = $rxnorm#313782 "acetaminophen 325 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#313782 "Acetaminophen 325mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-09-18"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
@@ -1714,7 +1714,7 @@ InstanceOf: MedicationStatement
 Usage: #example
 Description: "Example"
 * status = #intended
-* medicationCodeableConcept = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
+* medicationCodeableConcept = $rxnorm#876193 "Polyethylene glycol 3350 (Miralax)"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-09-18"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
@@ -1728,7 +1728,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-4-64)
 * status = #active
-* medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#617311 "Atorvastatin 40 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-09-19"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
@@ -1742,7 +1742,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-4-65)
 * status = #active
-* medicationCodeableConcept = $rxnorm#312941 "sertraline 50 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#312941 "Sertraline 50 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-09-19"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
@@ -1756,7 +1756,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-4-66)
 * status = #active
-* medicationCodeableConcept = $rxnorm#310429 "furosemide 20 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#310429 "Furosemide 20 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-09-19"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
@@ -1770,7 +1770,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-4-67)
 * status = #active
-* medicationCodeableConcept = $rxnorm#311570 "Metformin 500 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#311570 "Metformin 500mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-09-19"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
@@ -1784,7 +1784,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-4-68)
 * status = #active
-* medicationCodeableConcept = $rxnorm#1545658 "empagliflozin 10 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#1545658 "Empagliflozin (Jardiance) 10mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-09-19"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
@@ -1798,7 +1798,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-4-69)
 * status = #active
-* medicationCodeableConcept = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#309362 "Clopidogrel 75mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-09-19"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
@@ -1812,7 +1812,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-4-70)
 * status = #active
-* medicationCodeableConcept = $rxnorm#314073 "Losartan 50 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#314073 "Losartan 50mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-09-19"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
@@ -1826,7 +1826,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-4-71)
 * status = #active
-* medicationCodeableConcept = $rxnorm#244210 "ferrous gluconate 325 MG Oral Capsule"
+* medicationCodeableConcept = $rxnorm#244210 "Ferrous Gluconate 325mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-09-19"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
@@ -1840,7 +1840,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-4-72)
 * status = #active
-* medicationCodeableConcept = $rxnorm#313782 "acetaminophen 325 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#313782 "Acetaminophen (Tylenol) 325mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-09-19"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
@@ -1854,7 +1854,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-4-74)
 * status = #active
-* medicationCodeableConcept = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
+* medicationCodeableConcept = $rxnorm#876193 "Polyethylene glycol 3350 (Miralax)"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-09-19"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
@@ -1868,7 +1868,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-5-75)
 * status = #active
-* medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#617311 "Atorvastatin 40 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-09-20"
 * informationSource = Reference(Organization/org-Pharm-Everyday-Community-Pharm) "Everyday Community Pharmacy"
@@ -1882,7 +1882,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-5-76)
 * status = #active
-* medicationCodeableConcept = $rxnorm#312941 "sertraline 50 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#312941 "Sertraline 50 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-09-20"
 * informationSource = Reference(Organization/org-Pharm-Everyday-Community-Pharm) "Everyday Community Pharmacy"
@@ -1896,7 +1896,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-5-77)
 * status = #active
-* medicationCodeableConcept = $rxnorm#310429 "furosemide 20 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#310429 "Furosemide 20 mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-09-20"
 * informationSource = Reference(Organization/org-Pharm-Everyday-Community-Pharm) "Everyday Community Pharmacy"
@@ -1910,7 +1910,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-5-78)
 * status = #active
-* medicationCodeableConcept = $rxnorm#311570 "Metformin 500 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#311570 "Metformin 500mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-09-20"
 * informationSource = Reference(Organization/org-Pharm-Everyday-Community-Pharm) "Everyday Community Pharmacy"
@@ -1924,7 +1924,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-5-79)
 * status = #active
-* medicationCodeableConcept = $rxnorm#1545658 "empagliflozin 10 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#1545658 "Empagliflozin (Jardiance) 10mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-09-20"
 * informationSource = Reference(Organization/org-Pharm-Everyday-Community-Pharm) "Everyday Community Pharmacy"
@@ -1938,7 +1938,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-5-80)
 * status = #active
-* medicationCodeableConcept = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#309362 "Clopidogrel 75mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-09-20"
 * informationSource = Reference(Organization/org-Pharm-Everyday-Community-Pharm) "Everyday Community Pharmacy"
@@ -1952,7 +1952,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-5-81)
 * status = #active
-* medicationCodeableConcept = $rxnorm#314073 "Losartan 50 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#314073 "Losartan 50mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-09-20"
 * informationSource = Reference(Organization/org-Pharm-Everyday-Community-Pharm) "Everyday Community Pharmacy"
@@ -1966,7 +1966,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-5-82)
 * status = #active
-* medicationCodeableConcept = $rxnorm#244210 "ferrous gluconate 325 MG Oral Capsule"
+* medicationCodeableConcept = $rxnorm#244210 "Ferrous Gluconate 325mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-09-20"
 * informationSource = Reference(Organization/org-Pharm-Everyday-Community-Pharm) "Everyday Community Pharmacy"
@@ -1980,7 +1980,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-5-83)
 * status = #active
-* medicationCodeableConcept = $rxnorm#313782 "acetaminophen 325 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#313782 "Acetaminophen (Tylenol) 325mg"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-09-20"
 * informationSource = Reference(Organization/org-Pharm-Everyday-Community-Pharm) "Everyday Community Pharmacy"
@@ -1994,7 +1994,7 @@ Usage: #example
 Description: "Example"
 * basedOn = Reference(smp-medrx-5-85)
 * status = #active
-* medicationCodeableConcept = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
+* medicationCodeableConcept = $rxnorm#876193 "Polyethylene glycol 3350 (Miralax)"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-09-20"
 * informationSource = Reference(Organization/org-Pharm-Everyday-Community-Pharm) "Everyday Community Pharmacy"
