@@ -7,7 +7,7 @@ Instance: cancer-related-medication-admin-cyclophosphamide-jenny-m
 InstanceOf: MedicationAdministration
 Usage: #example
 Description: "Example"
-* meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-related-medication-administration"
+// * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-related-medication-administration"
 * extension.url = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-procedure-intent"
 * extension.valueCodeableConcept.coding = $sct#373808002 "Curative - procedure intent (qualifier value)"
 * status = #completed
@@ -28,7 +28,7 @@ Instance: cancer-related-medication-admin-doxorubicin-jenny-m
 InstanceOf: MedicationAdministration
 Usage: #example
 Description: "Example"
-* meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-related-medication-administration"
+// * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-related-medication-administration"
 * status = #completed
 * category = $medicationrequest-category#outpatient
 * medicationCodeableConcept = $rxnorm#1790099 "10 ML doxorubicin hydrochloride 2 MG/ML Injection"
@@ -47,7 +47,7 @@ Instance: cancer-related-medication-admin-paclitaxel-jenny-m
 InstanceOf: MedicationAdministration
 Usage: #example
 Description: "Example"
-* meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-related-medication-administration"
+// * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-related-medication-administration"
 * extension.url = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-procedure-intent"
 * extension.valueCodeableConcept.coding = $sct#373808002 "Curative - procedure intent (qualifier value)"
 * status = #completed
@@ -266,7 +266,7 @@ Instance: medicationrequest-AlprazolamHome
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Example"
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
+
 * status = #active
 * intent = #order
 * category = $medicationrequest-category#community
@@ -320,7 +320,7 @@ Instance: medicationrequest-MetoprololHome
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Example"
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
+
 * status = #active
 * intent = #order
 * category = $medicationrequest-category#community

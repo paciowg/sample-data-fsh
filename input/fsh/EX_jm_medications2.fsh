@@ -4,7 +4,7 @@ Instance: MedicationRequest-AcetaminophenHosp2
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Example"
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
+
 * status = #active
 * intent = #order
 * category = $medicationrequest-category#inpatient
@@ -33,7 +33,7 @@ Instance: medicationrequest-AlprazolamHosp2
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Example"
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
+
 * status = #active
 * intent = #order
 * category = $medicationrequest-category#community
@@ -85,7 +85,7 @@ Instance: medicationrequest-DexamethasoneHosp2
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Example"
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
+
 * status = #active
 * intent = #order
 * category = $medicationrequest-category#inpatient
@@ -114,7 +114,7 @@ Instance: MedicationRequest-GabapentinHosp2
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Example"
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
+
 * status = #active
 * intent = #order
 * category = $medicationrequest-category#inpatient
@@ -138,7 +138,7 @@ Instance: MedicationRequest-MetoclopramideHosp2
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Example"
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
+
 * status = #active
 * intent = #order
 * category = $medicationrequest-category#inpatient
@@ -167,7 +167,7 @@ Instance: medicationrequest-MetoprololHosp2
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Example"
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
+
 * status = #active
 * intent = #order
 * category = $medicationrequest-category#community
@@ -196,7 +196,7 @@ Instance: MedicationRequest-OndansetronHosp2
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Example"
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
+
 * status = #active
 * intent = #order
 * category = $medicationrequest-category#inpatient
@@ -225,7 +225,7 @@ Instance: MedicationRequest-PalbociclibHosp2
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Example"
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
+
 * status = #active
 * intent = #order
 * category = $medicationrequest-category#inpatient

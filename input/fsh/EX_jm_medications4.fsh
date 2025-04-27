@@ -7,7 +7,7 @@ Instance: MedicationRequest-AcetaminophenSNFpalliative
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Example"
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
+
 * status = #active
 * intent = #order
 * category = $medicationrequest-category#inpatient
@@ -36,7 +36,7 @@ Instance: medicationrequest-AlprazolamSNFpalliative
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Example"
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
+
 * status = #active
 * intent = #order
 * category = $medicationrequest-category#community
@@ -90,7 +90,7 @@ Instance: medicationrequest-DexamethasoneSNFpalliative
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Example"
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
+
 * status = #active
 * intent = #order
 * category = $medicationrequest-category#inpatient
@@ -119,7 +119,7 @@ Instance: MedicationRequest-GabapentinSNFpalliative
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Example"
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
+
 * status = #active
 * intent = #order
 * category = $medicationrequest-category#inpatient
@@ -143,7 +143,7 @@ Instance: MedicationRequest-MetoclopramideSNFpalliative
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Example"
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
+
 * status = #active
 * intent = #order
 * category = $medicationrequest-category#inpatient
@@ -172,7 +172,7 @@ Instance: medicationrequest-MetoprololSNFpalliative
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Example"
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
+
 * status = #active
 * intent = #order
 * category = $medicationrequest-category#community
@@ -203,7 +203,7 @@ Instance: MedicationRequest-OndansetronSNFpalliative
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Example"
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
+
 * status = #active
 * intent = #order
 * category = $medicationrequest-category#inpatient
@@ -232,13 +232,13 @@ Instance: MedicationRequest-OralMorphinePalliative
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Example"
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
+
 * status = #active
 * intent = #order
 * category = $medicationrequest-category#community
 * priority = #routine
 * medicationCodeableConcept = $rxnorm#894780 "morphine sulfate 4 MG/ML"
-* medicationCodeableConcept.text = "morphine sulfate 4 MG/ML"
+* medicationCodeableConcept.text = "morphine sulfate 4 MG/ML Oral Solution"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * authoredOn = "2024-09-21T19:25:00-08:00"
 * requester = Reference(Practitioner/Practitioner-GeraldPark-01) "Gerald Park"
@@ -262,7 +262,7 @@ Instance: MedicationRequest-PalbociclibSNFpalliative
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Example"
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-medicationrequest|6.1.0"
+
 * status = #active
 * intent = #order
 * category = $medicationrequest-category#inpatient
