@@ -86,7 +86,7 @@ Description: "Example"
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#b140 "Attention Functions"
 * category[+] = $pfe-category-cs#b1641 "Organization and planning"
-* code = $sct#311465003 "Cognitive functions (observable entity) "
+* code = $sct#311465003 "Cognitive functions (observable entity)"
 * subject = Reference(Patient/patientBSJ1)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-PT-LunaBaskins)
@@ -357,7 +357,7 @@ Description: "Example"
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#functional-status "Functional Status"
 * category[+] = $pfe-category-cs#d4600 "Moving Around Within the Home"
-* code = $loinc#89381-8 "Mobility (discharge performance) - walk 50 feet w/2 turns "
+* code = $loinc#89381-8 "Mobility (discharge performance) - walk 50 feet w/2 turns"
 * subject = Reference(Patient/patientBSJ1)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-OT-JenCadbury)

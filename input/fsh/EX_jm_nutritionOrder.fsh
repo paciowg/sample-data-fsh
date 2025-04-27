@@ -11,7 +11,7 @@ Description: "Example"
 * orderer = Reference(PractitionerRole/Role-Onc-OwenOncologist-01)
 * excludeFoodModifier = $sct#228020007 "Hot food (substance)"
 * oralDiet.type.coding[0] = $sct#228019001 "Cold food (substance)"
-* oralDiet.type.coding[+] = $sct#439101000124101 " Easy to chew diet (regime/therapy)"
+* oralDiet.type.coding[+] = $sct#439101000124101 "Easy to chew diet (regime/therapy)"
 * oralDiet.schedule.repeat.boundsPeriod.start = "2024-09-27"
 * oralDiet.schedule.repeat.frequency = 3
 * oralDiet.schedule.repeat.frequencyMax = 4

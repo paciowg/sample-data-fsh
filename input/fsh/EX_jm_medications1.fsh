@@ -232,7 +232,7 @@ Description: "Example"
 * category = $medicationrequest-category#inpatient
 * priority = #routine
 * medicationCodeableConcept = $rxnorm#2284105 "palbociclib 125 MG Oral Tablet"
-* medicationCodeableConcept.text = "palbociclib 125 MG Oral Tablet "
+* medicationCodeableConcept.text = "palbociclib 125 MG Oral Tablet"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * authoredOn = "2024-09-25T19:25:00-08:00"
 * requester = Reference(Practitioner/Practitioner-owen-oncologist-01) "Owen Oncologist"

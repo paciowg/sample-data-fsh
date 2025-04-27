@@ -65,7 +65,8 @@ InstanceOf: PractitionerRole
 Usage: #example
 Description: "Example"
 * active = true
-* code = $taxonomy#235Z00000X "Speech Language Pathologist"
+* code = $taxonomy#235Z00000X "Speech-Language Pathologist" 
+* code.text = "Speech Language Pathologist"
 * practitioner = Reference(Practitioner/Practitioner-AlexanderKuikhoff) "Alexander Kuikhoff"
 * organization = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
 * location = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
@@ -75,7 +76,8 @@ InstanceOf: PractitionerRole
 Usage: #example
 Description: "Example"
 * active = true
-* code = $taxonomy#207QG0300X "Geriatric Medicine Physician"
+* code = $taxonomy#207QG0300X "Geriatric Medicine (Family Medicine) Physician"
+* code.text = "Geriatric Medicine Physician"
 * practitioner = Reference(Practitioner/Practioner-GeraldPark) "Gerald Park"
 * organization = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
 * location = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)

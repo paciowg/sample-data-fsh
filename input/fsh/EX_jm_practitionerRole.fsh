@@ -5,7 +5,8 @@ InstanceOf: PractitionerRole
 Usage: #example
 Description: "Example"
 * active = true
-* code = $taxonomy#171M00000X "Case Manager / Care Coordinator"
+* code = $taxonomy#171M00000X "Case Manager/Care Coordinator"
+* code.text = "Case Manager / Care Coordinator"
 * practitioner = Reference(Practitioner/Practitioner-RudyBranch-01) "Rudy Branch"
 * organization = Reference(Organization/Org-Onc-Hosp-Puget-Sound) "Puget Sound Cancer Center"
 * location = Reference(Location/org-Loc-Hosp-Puget-Sound)
@@ -161,7 +162,8 @@ InstanceOf: PractitionerRole
 Usage: #example
 Description: "Example"
 * active = true
-* code = $taxonomy#235Z00000X "Speech Language Pathologist"
+* code = $taxonomy#235Z00000X "Speech-Language Pathologist" 
+* code.text = "Speech Language Pathologist"
 * practitioner = Reference(Practitioner/Practitioner-AlexanderKuikhoff-01) "Alexander Kuikhoff"
 * organization = Reference(Organization/Org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
 * location = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility-01)
@@ -173,7 +175,8 @@ InstanceOf: PractitionerRole
 Usage: #example
 Description: "Example"
 * active = true
-* code = $taxonomy#207QG0300X "Geriatric Medicine Physician"
+* code = $taxonomy#207QG0300X "Geriatric Medicine (Family Medicine) Physician"
+* code.text = "Geriatric Medicine Physician"
 * practitioner = Reference(Practitioner/Practitioner-GeraldPark-01) "Gerald Park"
 * organization = Reference(Organization/Org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
 * location = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility-01)

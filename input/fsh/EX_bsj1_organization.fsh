@@ -34,6 +34,15 @@ Description: "Example"
 * address.country = "US"
 * address.text = "123 Spruce Dr. Grand Rapids, MI 49503"
 
+Instance: org-HH-Sky-Harbor-Home-Health
+InstanceOf: Organization
+Usage: #example
+Description: "Example"
+* active = true
+* name = "Sky Harbor Home Health Services"
+
+/******* mlt: entries below were commented out because they were already being used by Jenny Mosley. *********/
+
 // Instance: org-Pharm-Everyday-Community-Pharm
 // InstanceOf: Organization
 // Usage: #example
