@@ -6,13 +6,13 @@ Alias: $sct = http://snomed.info/sct
 Instance: MedicationRequest-Lorazepam
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley has an active MedicationRequest for Lorazepam 2 MG/ML to be administered at 1 MG (0.5 mL) every 8 hours."
 
 * status = #active
 * intent = #order
 * category = $medicationrequest-category#community
 * priority = #routine
-* medicationCodeableConcept = $rxnorm#316171 "LORazepam 2 MG/ML"
+* medicationCodeableConcept = $rxnorm#316171 "lorazepam 2 MG/ML"
 * medicationCodeableConcept.text = "LORazepam 2 MG/ML"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * authoredOn = "2024-12-28T19:25:00-08:00"
@@ -34,7 +34,7 @@ Description: "Example"
 Instance: MedicationRequest-MorphinePCA
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley has an active MedicationRequest for morphine sulfate 10 MG/ML Injectable Solution via PCA pump, with a maximum dosage of 1.5 MG every 2 hours. Contact hospice if needed."
 
 * status = #active
 * intent = #order
@@ -63,7 +63,7 @@ Description: "Example"
 Instance: MedicationRequest-OndansetronHospice
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley has an active MedicationRequest for ondansetron 8 MG Disintegrating Oral Tablet to be taken every 8 hours by holding in mouth and allowing to dissolve, even if not."
 
 * status = #active
 * intent = #order
@@ -92,13 +92,13 @@ Description: "Example"
 Instance: MedicationRequest-OralMorphineRescue
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley has an active MedicationRequest for morphine sulfate 4 MG/ML to administer 10 MG (2.5 ML) for breakthrough pain episodes. Contact Hospice staff for three or more episodes."
 
 * status = #active
 * intent = #order
 * category = $medicationrequest-category#community
 * priority = #routine
-* medicationCodeableConcept = $rxnorm#894780 "morphine sulfate 4 MG/ML"
+* medicationCodeableConcept = $rxnorm#894780 "morphine sulfate 4 MG/ML Oral Solution"
 * medicationCodeableConcept.text = "morphine sulfate 4 MG/ML Oral Solution"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * authoredOn = "2024-12-28T19:25:00-08:00"
@@ -120,10 +120,10 @@ Description: "Example"
 Instance: SMP-MedStmt-Lorazepam
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley is actively taking Lorazepam 2mg/ml, 1mg (0.5ml) every 8 hours orally, as prescribed by Suquamish Hospice."
 * basedOn = Reference(MedicationRequest/MedicationRequest-Lorazepam)
 * status = #active
-* medicationCodeableConcept = $rxnorm#316171 "LORazepam 2 MG/ML"
+* medicationCodeableConcept = $rxnorm#316171 "lorazepam 2 MG/ML"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * informationSource = Reference(Organization/Org-Hospice-Suquamish) "Suquamish Hospice"
 * reasonCode.coding.version = "http://snomed.info/sct/731000124108"
@@ -135,7 +135,7 @@ Description: "Example"
 Instance: SMP-MedStmt-MorphinePCA
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley is receiving morphine sulfate 10 MG/ML Injectable Solution for pain management via SubCue patch, with a rescue dose available if needed. Suquamish Hospice is the information source."
 * basedOn = Reference(MedicationRequest/MedicationRequest-MorphinePCA)
 * status = #active
 * medicationCodeableConcept = $rxnorm#892531 "morphine sulfate 10 MG/ML Injectable Solution"
@@ -150,7 +150,7 @@ Description: "Example"
 Instance: SMP-MedStmt-OndansetronHospice
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley is actively taking ondansetron 8mg disintegrating tablets every 8 hours for nausea, as prescribed by Suquamish Hospice."
 * basedOn = Reference(MedicationRequest/MedicationRequest-OndansetronHospice)
 * status = #active
 * medicationCodeableConcept = $rxnorm#312087 "ondansetron 8 MG Disintegrating Oral Tablet"
@@ -167,10 +167,10 @@ Alias: $sct = http://snomed.info/sct
 Instance: SMP-MedStmt-OralMorphineRescue
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley is prescribed morphine sulfate 4 MG/ML for breakthrough pain. Administer 10 MG for each episode, contact Hospice staff for frequent episodes."
 * basedOn = Reference(MedicationRequest/MedicationRequest-OralMorphineRescue)
 * status = #active
-* medicationCodeableConcept = $rxnorm#894780 "morphine sulfate 4 MG/ML"
+* medicationCodeableConcept = $rxnorm#894780 "morphine sulfate 4 MG/ML Oral Solution"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * informationSource = Reference(Organization/Org-Hospice-Suquamish) "Suquamish Hospice"
 * reasonCode.coding.version = "http://snomed.info/sct/731000124108"
@@ -182,7 +182,7 @@ Description: "Example"
 Instance: SMP-MedList-Hospice
 InstanceOf: List
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's Hospice Administration List includes medications like Lorazepam, Morphine Sulfate, and Ondansetron for symptom management."
 * status = #current
 * mode = #working
 * title = "Hospice Administration List"

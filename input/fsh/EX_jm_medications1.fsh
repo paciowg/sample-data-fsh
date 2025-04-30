@@ -4,7 +4,7 @@
 Instance: MedicationRequest-AcetaminophenHosp1
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley has an active MedicationRequest for acetaminophen 500mg tablets, to be taken two tablets every 6 hours, up to 4 times a day."
 
 * status = #active
 * intent = #order
@@ -33,13 +33,13 @@ Description: "Example"
 Instance: medicationrequest-AlprazolamHosp1
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley has an active MedicationRequest for ALPRAZolam 0.5 MG Oral Tablet, to be taken up to three times daily as needed."
 
 * status = #active
 * intent = #order
 * category = $medicationrequest-category#community
 * priority = #routine
-* medicationCodeableConcept = $rxnorm#308048 "ALPRAZolam 0.5 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#308048 "alprazolam 0.5 MG Oral Tablet"
 * medicationCodeableConcept.text = "alprazolam 0.5 MG Oral Tablet"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * authoredOn = "2024-09-25T19:25:00-08:00"
@@ -62,7 +62,7 @@ Description: "Example"
 Instance: MedicationRequest-AtorvastatinHosp1
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley has an active MedicationRequest for atorvastatin 40mg tablet to be taken daily for hyperlipidemia. (27 words)."
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
@@ -85,13 +85,13 @@ Description: "Example"
 Instance: medicationrequest-DexamethasoneHosp1
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley has an active MedicationRequest for dexAMETHasone 4 MG Oral Tablet to be taken daily during chemotherapy. (27 words)."
 
 * status = #active
 * intent = #order
 * category = $medicationrequest-category#inpatient
 * priority = #routine
-* medicationCodeableConcept = $rxnorm#197582 "dexAMETHasone 4 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#197582 "dexamethasone 4 MG Oral Tablet"
 * medicationCodeableConcept.text = "dexAMETHasone 4 MG Oral Tablet"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * authoredOn = "2024-09-25T19:25:00-08:00"
@@ -114,7 +114,7 @@ Description: "Example"
 Instance: MedicationRequest-GabapentinHosp1
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley has an active MedicationRequest for gabapentin 300mg oral capsules, starting at 300mg daily and increasing to 900mg daily over two weeks."
 
 * status = #active
 * intent = #order
@@ -138,13 +138,13 @@ Description: "Example"
 Instance: MedicationRequest-MetoclopramideHosp1
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley has an active MedicationRequest for metoclopromide 10 MG Oral Tablet to be taken three times daily for nausea if Ondansetron is ineffective."
 
 * status = #active
 * intent = #order
 * category = $medicationrequest-category#inpatient
 * priority = #routine
-* medicationCodeableConcept = $rxnorm#311666 "metoclopromide 10 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#311666 "metoclopramide 10 MG Oral Tablet"
 * medicationCodeableConcept.text = "metoclopromide 10 MG Oral Tablet"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * authoredOn = "2024-09-25T19:25:00-08:00"
@@ -167,7 +167,7 @@ Description: "Example"
 Instance: medicationrequest-MetoprololHosp1
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley has an active MedicationRequest for metoprolol tartrate 50mg oral tablets to be taken twice daily for a specified reason."
 
 * status = #active
 * intent = #order
@@ -196,7 +196,7 @@ Description: "Example"
 Instance: MedicationRequest-OndansetronHosp1
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley has an active MedicationRequest for ondansetron 8mg disintegrating tablets to be taken every 8 hours by dissolving in the mouth, even if not nauseated."
 
 * status = #active
 * intent = #order
@@ -225,7 +225,7 @@ Description: "Example"
 Instance: MedicationRequest-PalbociclibHosp1
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley has an active MedicationRequest for palbociclib 125 MG Oral Tablet to be taken once daily for 21 days followed by a 7-day break, starting on September 25, 2024."
 
 * status = #active
 * intent = #order
@@ -254,7 +254,7 @@ Description: "Example"
 Instance: SMP-MedStmt-AcetaminophenHosp1
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley is taking acetaminophen 500 MG Oral Tablet every 6 hours for headaches related to an intracranial neoplasm, as per Puget Sound Cancer Center."
 * basedOn = Reference(MedicationRequest/MedicationRequest-AcetaminophenHosp1)
 * status = #active
 * medicationCodeableConcept = $rxnorm#198440 "acetaminophen 500 MG Oral Tablet"
@@ -268,10 +268,10 @@ Description: "Example"
 Instance: SMP-MedStmt-AlprazolamHosp1
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley is taking ALPRAZolam 0.5 MG Oral Tablet for anxiety disorder, with a dosage of up to three tablets per day as needed. (28 words)."
 * basedOn = Reference(MedicationRequest/medicationrequest-AlprazolamHosp1)
 * status = #active
-* medicationCodeableConcept = $rxnorm#308048 "ALPRAZolam 0.5 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#308048 "alprazolam 0.5 MG Oral Tablet"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * informationSource = Reference(Organization/Org-Onc-Hosp-Puget-Sound) "Pugent Sound Cancer Center"
 * reasonCode = $sct#197480006 "Anxiety Disorder"
@@ -282,7 +282,7 @@ Description: "Example"
 Instance: SMP-MedStmt-AtorvastatinHosp1
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley is actively taking atorvastatin 40mg tablet orally nightly for hyperlipidemia, as prescribed by Puget Sound Cancer Center."
 * basedOn = Reference(MedicationRequest/MedicationRequest-AtorvastatinHosp1)
 * status = #active
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
@@ -296,10 +296,10 @@ Description: "Example"
 Instance: SMP-MedStmt-DexamethasoneHosp1
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley is actively taking dexAMETHasone 4 MG Oral Tablet once daily for metastatic malignant neoplasm to the brain, as per Puget Sound Cancer Center."
 * basedOn = Reference(MedicationRequest/medicationrequest-DexamethasoneHosp1)
 * status = #active
-* medicationCodeableConcept = $rxnorm#197582 "dexAMETHasone 4 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#197582 "dexamethasone 4 MG Oral Tablet"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * informationSource = Reference(Organization/Org-Onc-Hosp-Puget-Sound) "Pugent Sound Cancer Center"
 * reasonCode = $sct#94225005 "Metastatic malignant neoplasm to brain"
@@ -310,7 +310,7 @@ Description: "Example"
 Instance: SMP-MedStmt-GabapentinHosp1
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley is taking gabapentin 300mg capsules for neoplastic pain as per Pugent Sound Cancer Center. Dosage: 1 capsule day 1, 2 capsules day 2, 3 capsules thereafter."
 * basedOn = Reference(MedicationRequest/MedicationRequest-GabapentinHosp1)
 * status = #active
 * medicationCodeableConcept = $rxnorm#310431 "gabapentin 300 MG Oral Capsule"
@@ -324,10 +324,10 @@ Description: "Example"
 Instance: SMP-MedStmt-MetoclopramideHosp1
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley is actively taking metoclopramide 10mg tablets 3 times daily before meals for chemotherapy-induced nausea and vomiting. Do not discontinue Ondansetron."
 * basedOn = Reference(MedicationRequest/MedicationRequest-MetoclopramideHosp1)
 * status = #active
-* medicationCodeableConcept = $rxnorm#311666 "metoclopromide 10 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#311666 "metoclopramide 10 MG Oral Tablet"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * informationSource = Reference(Organization/Org-Onc-Hosp-Puget-Sound) "Pugent Sound Cancer Center"
 * reasonCode = $sct#18846006 "Chemotherapy-induced nausea and vomiting (disorder)"
@@ -338,7 +338,7 @@ Description: "Example"
 Instance: SMP-MedStmt-MetoprololHosp1
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley is actively taking metoprolol tartrate 50 MG Oral Tablet for systemic arterial hypertension, prescribed by Puget Sound Cancer Center."
 * basedOn = Reference(MedicationRequest/medicationrequest-MetoprololHosp1)
 * status = #active
 * medicationCodeableConcept = $rxnorm#866514 "metoprolol tartrate 50 MG Oral Tablet"
@@ -352,7 +352,7 @@ Description: "Example"
 Instance: SMP-MedStmt-OndansetronHosp1
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley is actively taking ondansetron 8mg tablets every 8 hours for chemotherapy-induced nausea and vomiting, as prescribed by Puget Sound Cancer Center."
 * basedOn = Reference(MedicationRequest/MedicationRequest-OndansetronHosp1)
 * status = #active
 * medicationCodeableConcept = $rxnorm#312087 "ondansetron 8 MG Disintegrating Oral Tablet"
@@ -366,7 +366,7 @@ Description: "Example"
 Instance: SMP-MedStmt-PalbociclibHosp1
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley is actively taking palbociclib 125 MG Oral Tablet daily for metastatic malignant neoplasm to the brain, as prescribed by Puget Sound Cancer Center."
 * basedOn = Reference(MedicationRequest/MedicationRequest-PalbociclibHosp1)
 * status = #active
 * medicationCodeableConcept = $rxnorm#2284105 "palbociclib 125 MG Oral Tablet"
@@ -380,7 +380,7 @@ Description: "Example"
 Instance: SMP-MedList-Hosp1
 InstanceOf: List
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's Hospital Administration List includes 8 medication entries, such as Atorvastatin 40 mg and Alprazolam 0.5 mg, for her current episode of care."
 * status = #current
 * mode = #working
 * title = "Hospital Administration List"

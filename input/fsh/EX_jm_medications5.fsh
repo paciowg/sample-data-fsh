@@ -6,7 +6,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: MedicationRequest-AcetaminophenSNFdischarge
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley has an active MedicationRequest for acetaminophen 500mg tablets, to be taken 2 tablets every 6 hours, up to 4 times a day."
 
 * status = #active
 * intent = #order
@@ -37,13 +37,13 @@ Alias: $sct = http://snomed.info/sct
 Instance: medicationrequest-AlprazolamSNFdischarge
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley has an active MedicationRequest for ALPRAZolam 0.5 MG Oral Tablet, to be taken up to three times daily as needed."
 
 * status = #active
 * intent = #order
 * category = $medicationrequest-category#community
 * priority = #routine
-* medicationCodeableConcept = $rxnorm#308048 "ALPRAZolam 0.5 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#308048 "alprazolam 0.5 MG Oral Tablet"
 * medicationCodeableConcept.text = "alprazolam 0.5 MG Oral Tablet"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * authoredOn = "2024-12-28T15:30:00-08:00"
@@ -68,7 +68,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: MedicationRequest-AtorvastatinSNFdischarge
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley has an active MedicationRequest for atorvastatin 40mg tablet to be taken daily for hyperlipidemia. Order was placed on 2024-12-28."
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
@@ -91,13 +91,13 @@ Description: "Example"
 Instance: medicationrequest-DexamethasoneSNFdischarge
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley has an active MedicationRequest for dexAMETHasone 4 MG Oral Tablet to be taken daily during chemotherapy. (28 words)."
 
 * status = #active
 * intent = #order
 * category = $medicationrequest-category#community
 * priority = #routine
-* medicationCodeableConcept = $rxnorm#197582 "dexAMETHasone 4 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#197582 "dexamethasone 4 MG Oral Tablet"
 * medicationCodeableConcept.text = "dexAMETHasone 4 MG Oral Tablet"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * authoredOn = "2024-12-28T15:30:00-08:00"
@@ -120,7 +120,7 @@ Description: "Example"
 Instance: MedicationRequest-GabapentinSNFdischarge
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley has an active MedicationRequest for gabapentin 300mg oral capsules, with a dosage starting at 300mg and increasing to 900mg over 14 days, to be taken with the evening."
 
 * status = #active
 * intent = #order
@@ -146,13 +146,13 @@ Alias: $sct = http://snomed.info/sct
 Instance: MedicationRequest-MetoclopramideSNFdischarge
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley has an active MedicationRequest for metoclopromide 10mg oral tablets to be taken three times daily for nausea if Ondansetron is ineffective."
 
 * status = #active
 * intent = #order
 * category = $medicationrequest-category#community
 * priority = #routine
-* medicationCodeableConcept = $rxnorm#311666 "metoclopromide 10 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#311666 "metoclopramide 10 MG Oral Tablet"
 * medicationCodeableConcept.text = "metoclopromide 10 MG Oral Tablet"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * authoredOn = "2024-12-28T15:30:00-08:00"
@@ -177,7 +177,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: medicationrequest-MetoprololSNFdischarge
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley has an active MedicationRequest for metoprolol tartrate 50mg oral tablet, to be taken twice daily for a specified reason."
 
 * status = #active
 * intent = #order
@@ -208,7 +208,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: MedicationRequest-OndansetronSNFdischarge
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley has an active MedicationRequest for ondansetron 8 MG Disintegrating Oral Tablet to be taken every 8 hours by dissolving in the mouth, even if not nauseated."
 
 * status = #active
 * intent = #order
@@ -239,13 +239,13 @@ Alias: $sct = http://snomed.info/sct
 Instance: MedicationRequest-OralMorphineSNFdischarge
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley has an active MedicationRequest for morphine sulfate 4 MG/ML. Administer 10 MG every 4 hours for pain, with an additional rescue dose if needed."
 
 * status = #active
 * intent = #order
 * category = $medicationrequest-category#community
 * priority = #routine
-* medicationCodeableConcept = $rxnorm#894780 "morphine sulfate 4 MG/ML"
+* medicationCodeableConcept = $rxnorm#894780 "morphine sulfate 4 MG/ML Oral Solution"
 * medicationCodeableConcept.text = "morphine sulfate 4 MG/ML Oral Solution"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * authoredOn = "2024-09-21T19:25:00-08:00"
@@ -269,12 +269,12 @@ Alias: $sct = http://snomed.info/sct
 Instance: MedicationRequest-PolyethyleneGlycolSNFdischarge
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley has an active MedicationRequest for Polyethylene glycol 3350 (Miralax) 17g daily as needed for drug-induced constipation."
 * status = #active
 * intent = #order
 * priority = #routine
 * category = $medicationrequest-category#community
-* medicationCodeableConcept = $rxnorm#876193 "Polyethylene glycol 3350 (Miralax)"
+* medicationCodeableConcept = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * authoredOn = "2024-09-21T19:25:00-08:00"
 * requester = Reference(Practitioner/Practitioner-GeraldPark-01) "Gerald Park"
@@ -285,7 +285,7 @@ Description: "Example"
 Instance: SMP-MedStmt-AcetaminophenSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley is actively taking acetaminophen 500 MG Oral Tablet every 6 hours for headaches related to an intracranial neoplasm, as per Happy Nursing Facility."
 * basedOn = Reference(MedicationRequest/MedicationRequest-AcetaminophenSNFdischarge)
 * status = #active
 * medicationCodeableConcept = $rxnorm#198440 "acetaminophen 500 MG Oral Tablet"
@@ -298,10 +298,10 @@ Description: "Example"
 Instance: SMP-MedStmt-AlprazolamSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley is taking ALPRAZolam 0.5 MG Oral Tablet for anxiety disorder, as prescribed by Happy Nursing Facility. Take up to three tablets daily as needed."
 * basedOn = Reference(MedicationRequest/medicationrequest-AlprazolamSNFdischarge)
 * status = #active
-* medicationCodeableConcept = $rxnorm#308048 "ALPRAZolam 0.5 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#308048 "alprazolam 0.5 MG Oral Tablet"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * informationSource = Reference(Organization/Org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#197480006 "Anxiety Disorder"
@@ -311,7 +311,7 @@ Description: "Example"
 Instance: SMP-MedStmt-AtorvastatinSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley is taking atorvastatin 40mg tablet orally nightly for hyperlipidemia, as per Happy Nursing Facility. (28 words)."
 * basedOn = Reference(MedicationRequest/MedicationRequest-AtorvastatinSNFdischarge)
 * status = #active
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
@@ -324,10 +324,10 @@ Description: "Example"
 Instance: SMP-MedStmt-DexamethasoneSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley is taking dexAMETHasone 4 MG Oral Tablet daily for brain metastases, as prescribed by Happy Nursing Facility."
 * basedOn = Reference(MedicationRequest/medicationrequest-DexamethasoneSNFdischarge)
 * status = #active
-* medicationCodeableConcept = $rxnorm#197582 "dexAMETHasone 4 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#197582 "dexamethasone 4 MG Oral Tablet"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * informationSource = Reference(Organization/Org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#94225005 "Metastatic malignant neoplasm to brain"
@@ -338,7 +338,7 @@ Description: "Example"
 Instance: SMP-MedStmt-GabapentinSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley is taking gabapentin for neoplastic pain, with a dosage starting at 1 capsule and increasing to 3 capsules daily. (28 words)."
 * basedOn = Reference(MedicationRequest/MedicationRequest-GabapentinSNFdischarge)
 * status = #active
 * medicationCodeableConcept = $rxnorm#310431 "gabapentin 300 MG Oral Capsule"
@@ -351,10 +351,10 @@ Description: "Example"
 Instance: SMP-MedStmt-MetoclopramideSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley is taking metoclopramide 10mg tablets three times a day before meals for nausea. Do not discontinue Ondansetron. (26 words)."
 * basedOn = Reference(MedicationRequest/MedicationRequest-MetoclopramideSNFdischarge)
 * status = #active
-* medicationCodeableConcept = $rxnorm#311666 "metoclopromide 10 MG Oral Tablet"
+* medicationCodeableConcept = $rxnorm#311666 "metoclopramide 10 MG Oral Tablet"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * informationSource = Reference(Organization/Org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode.coding.version = "http://snomed.info/sct/731000124108"
@@ -365,7 +365,7 @@ Description: "Example"
 Instance: SMP-MedStmt-MetoprololSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley is actively taking metoprolol tartrate 50 MG Oral Tablet for systemic arterial hypertension, as prescribed by Happy Nursing Facility."
 * basedOn = Reference(MedicationRequest/medicationrequest-MetoprololSNFdischarge)
 * status = #active
 * medicationCodeableConcept = $rxnorm#866514 "metoprolol tartrate 50 MG Oral Tablet"
@@ -379,7 +379,7 @@ Description: "Example"
 Instance: SMP-MedStmt-OndansetronSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley is actively taking ondansetron 8mg orally every 8 hours for chemotherapy-induced nausea and vomiting, as prescribed by Happy Nursing Facility."
 * basedOn = Reference(MedicationRequest/MedicationRequest-OndansetronSNFdischarge)
 * status = #active
 * medicationCodeableConcept = $rxnorm#312087 "ondansetron 8 MG Disintegrating Oral Tablet"
@@ -392,10 +392,12 @@ Description: "Example"
 Instance: SMP-MedStmt-OralMorphineSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Example"
+Description: "Patient: Jenny Mosley
+Resource: MedicationStatement
+Morphine sulfate 4 MG/ML administered every 4 hours for neoplastic pain at Happy Nursing Facility."
 * basedOn = Reference(MedicationRequest/MedicationRequest-OralMorphineSNFdischarge)
 * status = #active
-* medicationCodeableConcept = $rxnorm#894780 "morphine sulfate 4 MG/ML"
+* medicationCodeableConcept = $rxnorm#894780 "morphine sulfate 4 MG/ML Oral Solution"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * informationSource = Reference(Organization/Org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#735935009 "Pain due to neoplastic disease (finding)"
@@ -406,10 +408,10 @@ Description: "Example"
 Instance: SMP-MedStmt-PolyethyleneGlycolSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley is actively taking Polyethylene glycol 3350 (Miralax) at Happy Nursing Facility for drug-induced constipation. She should take 1 capful daily mixed with liquid and drink plenty of water."
 * basedOn = Reference(MedicationRequest/MedicationRequest-PolyethyleneGlycolSNFdischarge)
 * status = #active
-* medicationCodeableConcept = $rxnorm#876193 "Polyethylene glycol 3350 (Miralax)"
+* medicationCodeableConcept = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * informationSource = Reference(Organization/Org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#21782001 "Drug-induced constipation"
@@ -420,7 +422,7 @@ Description: "Example"
 Instance: SMP-MedList-SNFdischarge
 InstanceOf: List
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's SNF Discharge List includes 9 medications such as Atorvastatin, Alprazolam, and Metoprolol. Last updated on 2024-12-28."
 * status = #current
 * mode = #working
 * title = "SNF Discharge List"
