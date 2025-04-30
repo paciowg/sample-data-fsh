@@ -6,12 +6,13 @@ Alias: $icf = http://hl7.org/fhir/sid/icf
 Instance: BSJ-AnemiaDiagnosis
 InstanceOf: Condition
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of anemia co-occurrent and due to chronic kidney disease stage 3 (disorder) affecting structure of cardiovascular system."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
-* code = $sct#691421000119108 "Anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)"
-* subject = Reference(Patient/patientBSJ1)
+* code = $sct#691421000119108 "Anemia co-occurrent and due to chronic kidney disease stage 3"
+* code.text = "Anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)"
+* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
 * category[0] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * category[+] = $icf#b539 "Functions related to the digestive system, other specified and unspecified"
 * bodySite = $sct#113257007 "Structure of cardiovascular system"
@@ -24,7 +25,7 @@ Description: "Example"
 Instance: encounter-diagnosis-BreastCancer
 InstanceOf: Condition
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of hormone receptor positive malignant neoplasm of breast (disorder)."
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-encounter-diagnosis"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2022-10-12"
@@ -46,12 +47,13 @@ Description: "Example"
 Instance: BSJ-Constipation
 InstanceOf: Condition
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of drug-induced constipation (disorder) affecting colon structure."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
-* code = $sct#21782001 "Drug-induced constipation (disorder)"
-* subject = Reference(Patient/patientBSJ1)
+* code = $sct#21782001 "Drug-induced constipation"
+* code.text = "Drug-induced constipation (disorder)"
+* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
 * recordedDate = "2020-11-05"
 * category = $icf#b5252 "Frequency of defecation"
 * category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
@@ -63,12 +65,13 @@ Description: "Example"
 Instance: BSJ-DepressionDiagnosis
 InstanceOf: Condition
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of depressive disorder (disorder) affecting brain structure."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
-* code = $sct#35489007 "Depressive disorder (disorder)"
-* subject = Reference(Patient/patientBSJ1)
+* code = $sct#35489007 "Depressive disorder"
+* code.text = "Depressive disorder (disorder)"
+* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
 * recordedDate = "2005-02-12"
 * category[0] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * category[+] = $icf#b152 "Emotional functions"
@@ -79,12 +82,13 @@ Description: "Example"
 Instance: BSJ-DiabetesDiagnosis
 InstanceOf: Condition
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of diabetes mellitus type 2 in nonobese (disorder) affecting structure of endocrine system."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
-* code = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
-* subject = Reference(Patient/patientBSJ1)
+* code = $sct#359642000 "Type 2 diabetes mellitus in nonobese"
+* code.text = "Diabetes mellitus type 2 in nonobese (disorder)"
+* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
 * category[0] = $icf#b5401 "Carbohydrate metabolism"
 * category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * bodySite = $sct#113331007 "Structure of endocrine system"
@@ -97,12 +101,13 @@ Description: "Example"
 Instance: BSJ-DressingConcern
 InstanceOf: Condition
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of difficulty performing dressing activity (finding)."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
-* code = $sct#284972002 "Difficulty performing dressing activity (finding)"
-* subject = Reference(Patient/patientBSJ1)
+* code = $sct#284972002 "Difficulty performing dressing activity"
+* code.text = "Difficulty performing dressing activity (finding)"
+* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
 * category[0] = $icf#b7601 "control of complex voluntary movements"
 * category[+] = $condition-category#health-concern "Health Concern"
 * category[+] = $us-core-category#functional-status "Functional Status"
@@ -113,12 +118,13 @@ Description: "Example"
 Instance: BSJ-HeartDiseaseDiagnosis
 InstanceOf: Condition
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of ischemic heart disease (disorder) affecting structure of cardiovascular system."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
-* code = $sct#414545008 "Ischemic heart disease (disorder)"
-* subject = Reference(Patient/patientBSJ1)
+* code = $sct#414545008 "Ischemic heart disease"
+* code.text = "Ischemic heart disease (disorder)"
+* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
 * category[0] = $icf#b415 "Blood vessel functions"
 * category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * bodySite = $sct#113257007 "Structure of cardiovascular system"
@@ -130,12 +136,13 @@ Description: "Example"
 Instance: BSJ-HemiparesisDiagnosis
 InstanceOf: Condition
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of right hemiparesis (disorder) affecting entire right arm."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
-* code = $sct#278286009 "Right hemiparesis (disorder)"
-* subject = Reference(Patient/patientBSJ1)
+* code = $sct#278286009 "Right hemiparesis"
+* code.text = "Right hemiparesis (disorder)"
+* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
 * category[0] = $icf#b7302 "Power of muscles on one side of the body"
 * category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * bodySite = $sct#368209003 "Entire Right Arm"
@@ -149,12 +156,13 @@ Description: "Example"
 Instance: BSJ-Hyperlipidemia
 InstanceOf: Condition
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of hyperlipidemia (disorder) affecting structure of cardiovascular system."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
-* code = $sct#55822004 "Hyperlipidemia (disorder)"
-* subject = Reference(Patient/patientBSJ1)
+* code = $sct#55822004 "Hyperlipidemia"
+* code.text = "Hyperlipidemia (disorder)"
+* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
 * recordedDate = "2018-06-06"
 * category[0] = $icf#b5403 "Fat metabolism"
 * category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
@@ -166,12 +174,13 @@ Description: "Example"
 Instance: BSJ-HypertensionDiagnosis
 InstanceOf: Condition
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of hypertensive disorder, systemic arterial (disorder) affecting structure of cardiovascular system."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
-* code = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
-* subject = Reference(Patient/patientBSJ1)
+* code = $sct#38341003 "Hypertensive disorder"
+* code.text = "Hypertensive disorder, systemic arterial (disorder)"
+* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
 * category[0] = $icf#b4202 "Maintenance of blood pressure"
 * category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * bodySite = $sct#113257007 "Structure of cardiovascular system"
@@ -184,12 +193,13 @@ Description: "Example"
 Instance: BSJ-KidneyDisease
 InstanceOf: Condition
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder) affecting both kidneys."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
-* code = $sct#731000119105 "Chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)"
-* subject = Reference(Patient/patientBSJ1)
+* code = $sct#731000119105 "Chronic kidney disease stage 3 due to type 2 diabetes mellitus"
+* code.text = "Chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)"
+* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
 * category[0] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * category[+] = $icf#b610 "Urinary excretory functions"
 * bodySite = $sct#17373004 "Both kidneys"
@@ -201,12 +211,13 @@ Description: "Example"
 Instance: BSJ-NauseaAndVomiting
 InstanceOf: Condition
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of nausea and vomiting (disorder)."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
-* code = $sct#16932000 "Nausea and Vomiting (disorder)"
-* subject = Reference(Patient/patientBSJ1)
+* code = $sct#16932000 "Nausea and vomiting"
+* code.text = "Nausea and Vomiting (disorder)"
+* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
 * category[0] = $icf#b5350 "Sensation of nausea"
 * category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
@@ -218,12 +229,13 @@ Description: "Example"
 Instance: BSJ-Osteoarthritis
 InstanceOf: Condition
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of osteoarthritis (disorder) affecting both lower legs."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
-* code = $sct#396275006 "Osteoarthritis (disorder)"
-* subject = Reference(Patient/patientBSJ1)
+* code = $sct#396275006 "Osteoarthritis"
+* code.text = "Osteoarthritis (disorder)"
+* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
 * recordedDate = "2020-07-11"
 * category[0] = $icf#b299 "Sensory functions and pain, unspecified"
 * category[+] = $icf#b7101 "Mobility of several joints"
@@ -236,12 +248,13 @@ Description: "Example"
 Instance: BSJ-Osteopenia
 InstanceOf: Condition
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of osteopenia (disorder) affecting skeletal system structure."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
-* code = $sct#312894000 "Osteopenia (disorder)"
-* subject = Reference(Patient/patientBSJ1)
+* code = $sct#312894000 "Osteopenia"
+* code.text = "Osteopenia (disorder)"
+* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
 * category[0] = $icf#b729 "Functions of the joints and bones, other specified and unspecified"
 * category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * bodySite = $sct#113192009 "Skeletal system structure"
@@ -253,12 +266,13 @@ Description: "Example"
 Instance: BSJ-StrokeDiagnosis
 InstanceOf: Condition
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of ischemic stroke (disorder)."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
-* code = $sct#422504002 "Ischemic Stroke (disorder)"
-* subject = Reference(Patient/patientBSJ1)
+* code = $sct#422504002 "Ischemic stroke"
+* code.text = "Ischemic Stroke (disorder)"
+* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
 * category[0] = $icf#s11009 "Structure of cortical lobes, unspecified"
 * category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * bodySite[0] = $sct#414722000 "Structure of middle cerebral artery M1 segment"
@@ -273,12 +287,13 @@ Description: "Example"
 Instance: BSJ-UndressingConcern
 InstanceOf: Condition
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of difficulty undressing (finding)."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
-* code = $sct#284989005 "Difficulty undressing (finding)"
-* subject = Reference(Patient/patientBSJ1)
+* code = $sct#284989005 "Difficulty undressing"
+* code.text = "Difficulty undressing (finding)"
+* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
 * category[0] = $icf#b7602 "Coordination of voluntary movements"
 * category[+] = $condition-category#health-concern "Health Concern"
 * category[+] = $us-core-category#functional-status "Functional Status"
@@ -289,12 +304,13 @@ Description: "Example"
 Instance: OT-ProblemList-Decondition
 InstanceOf: Condition
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of physical deconditioning (finding) affecting entire lower body."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
-* code = $sct#31031000119102 "Physical deconditioning (finding)"
-* subject = Reference(Patient/patientBSJ1)
+* code = $sct#31031000119102 "Physical deconditioning"
+* code.text = "Physical deconditioning (finding)"
+* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
 * category[0] = $icf#b7303 "Power of muscles in lower half of the body"
 * category[+] = $condition-category#problem-list-item "Problem List Item"
 * category[+] = $us-core-category#functional-status "Functional Status"
@@ -312,12 +328,13 @@ Description: "Example"
 Instance: OT-ProblemList-RightWeak
 InstanceOf: Condition
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of weakness of right upper limb (finding) affecting entire right arm."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
-* code = $sct#570961000124101 "Weakness of right upper limb (finding)"
-* subject = Reference(Patient/patientBSJ1)
+* code = $sct#570961000124101 "Weakness of right upper limb"
+* code.text = "Weakness of right upper limb (finding)"
+* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
 * category[0] = $icf#b7301 "Power of muscles of one limb"
 * category[+] = $condition-category#problem-list-item "Problem List Item"
 * category[+] = $us-core-category#functional-status "Functional Status"
@@ -332,7 +349,7 @@ Description: "Example"
 Instance: health-concern-complexregime
 InstanceOf: Condition
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of unknown condition."
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2024-09-20"
@@ -347,4 +364,3 @@ Description: "Example"
 * subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
 * recordedDate = "2024-09-20"
 * asserter = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
-

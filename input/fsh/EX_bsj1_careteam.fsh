@@ -7,7 +7,7 @@ Description: "Example"
 // * meta.source = "#cY4v0HwHBVnRmDhK"
 * status = #active
 * name = "Post Discharge to Home Care Team"
-* subject = Reference(Patient/patientBSJ1)
+* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
 * subject.type = "Patient"
 * period.start = "2024-09-20T05:00:00.000Z"
 * participant[0].role = $sct#446050000 "Primary Care Physician"

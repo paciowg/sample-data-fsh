@@ -9,7 +9,7 @@ Description: "Example"
 * intent = #plan
 * category[0] = $sct#736055001
 * category[+] = $careplan-category#assess-plan
-* subject = Reference(Patient/patientBSJ1)
+* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
 * activity[0].reference = Reference(NutritionOrder/BSJ-SNFDischargeDiet)
 * activity[+].reference = Reference(ServiceRequest/BSJ-PCPFollowUp)
 * activity[+].reference = Reference(ServiceRequest/BSJ-SNFDischargeCallOrder)

@@ -3,7 +3,7 @@
 Instance: JM1-HospitalDiet
 InstanceOf: NutritionOrder
 Usage: #example
-Description: "Example"
+Description: "Unknown Patient nutritionorder record."
 * status = #active
 * intent = #order
 * patient = Reference(Patient/patientJM1)
@@ -29,7 +29,7 @@ Description: "Example"
 Instance: JM1-UlcerDiet
 InstanceOf: NutritionOrder
 Usage: #example
-Description: "Example"
+Description: "Unknown Patient nutritionorder record."
 * status = #active
 * intent = #order
 * patient = Reference(Patient/patientJM1)
@@ -55,7 +55,7 @@ Description: "Example"
 Instance: JM1-CognitionDiet
 InstanceOf: NutritionOrder
 Usage: #example
-Description: "Example"
+Description: "Unknown Patient nutritionorder record."
 * status = #active
 * intent = #order
 * patient = Reference(Patient/patientJM1)
@@ -76,4 +76,3 @@ Description: "Example"
 * supplement.schedule.repeat.period = 1
 * supplement.schedule.repeat.periodUnit = #d
 * supplement.schedule.repeat.when = #MORN
-

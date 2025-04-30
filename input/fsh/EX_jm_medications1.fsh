@@ -62,7 +62,7 @@ Description: "Jenny Mosley has an active MedicationRequest for ALPRAZolam 0.5 MG
 Instance: MedicationRequest-AtorvastatinHosp1
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "Jenny Mosley has an active MedicationRequest for atorvastatin 40mg tablet to be taken daily for hyperlipidemia. (27 words)."
+Description: "Jenny Mosley has an active MedicationRequest for atorvastatin 40mg tablet to be taken daily for hyperlipidemia."
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
@@ -85,7 +85,7 @@ Description: "Jenny Mosley has an active MedicationRequest for atorvastatin 40mg
 Instance: medicationrequest-DexamethasoneHosp1
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "Jenny Mosley has an active MedicationRequest for dexAMETHasone 4 MG Oral Tablet to be taken daily during chemotherapy. (27 words)."
+Description: "Jenny Mosley has an active MedicationRequest for dexAMETHasone 4 MG Oral Tablet to be taken daily during chemotherapy."
 
 * status = #active
 * intent = #order
@@ -268,7 +268,7 @@ Description: "Jenny Mosley is taking acetaminophen 500 MG Oral Tablet every 6 ho
 Instance: SMP-MedStmt-AlprazolamHosp1
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Jenny Mosley is taking ALPRAZolam 0.5 MG Oral Tablet for anxiety disorder, with a dosage of up to three tablets per day as needed. (28 words)."
+Description: "Jenny Mosley is taking ALPRAZolam 0.5 MG Oral Tablet for anxiety disorder, with a dosage of up to three tablets per day as needed."
 * basedOn = Reference(MedicationRequest/medicationrequest-AlprazolamHosp1)
 * status = #active
 * medicationCodeableConcept = $rxnorm#308048 "alprazolam 0.5 MG Oral Tablet"

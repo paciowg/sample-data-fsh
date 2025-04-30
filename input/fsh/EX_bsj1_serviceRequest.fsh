@@ -1,7 +1,7 @@
 Instance: BSJ-MedRecOrder
 InstanceOf: ServiceRequest
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's service request for medication reconciliation (procedure)."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request"
 * status = #active
 * intent = #order
@@ -17,7 +17,7 @@ Description: "Example"
 Instance: BSJ-PCPFollowUp
 InstanceOf: ServiceRequest
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's service request for follow-up visit (procedure)."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request"
 * status = #active
 * intent = #order
@@ -32,7 +32,7 @@ Description: "Example"
 Instance: BSJ-SNFDischargeCallOTRefer
 InstanceOf: ServiceRequest
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's service request for occupational therapy assessment (procedure."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request"
 * status = #active
 * intent = #order
@@ -48,7 +48,7 @@ Description: "Example"
 Instance: BSJ-SNFDischargeCallOrder
 InstanceOf: ServiceRequest
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's service request for informing doctor (procedure)."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request"
 * status = #active
 * intent = #order
@@ -63,7 +63,7 @@ Description: "Example"
 Instance: BSJ-SNFDischargeCallSLPRefer
 InstanceOf: ServiceRequest
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's service request for speech therapy assessment (procedure)."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request"
 * status = #active
 * intent = #order
@@ -78,7 +78,7 @@ Description: "Example"
 Instance: BSJ-SNFDischargeLabOrderBMP
 InstanceOf: ServiceRequest
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's service request for blood chemistry (procedure)."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request"
 * status = #active
 * intent = #order
@@ -97,7 +97,7 @@ Description: "Example"
 Instance: BSJ-SNFDischargeLabOrderCBC
 InstanceOf: ServiceRequest
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's service request for complete blood count without differential (procedure)."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request"
 * status = #active
 * intent = #order
@@ -113,13 +113,13 @@ Description: "Example"
 Instance: BSJ-SNFDischargePTRefer
 InstanceOf: ServiceRequest
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's service request for physical therapy assessment (procedure)."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request"
 * status = #active
 * intent = #order
 * category = $sct#386053000 "Evaluation procedure (procedure)"
 * code = $sct#410158009 "Physical therapy assessment (procedure)"
-* subject = Reference(Patient/patientBSJ1)
+* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
 * priority = #routine
 * occurrencePeriod.start = "2024-09-20"
 * authoredOn = "2024-09-20"

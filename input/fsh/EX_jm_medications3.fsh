@@ -267,7 +267,7 @@ Description: "Jenny Mosley is actively taking acetaminophen 500mg tablets every 
 Instance: SMP-MedStmt-AlprazolamSNFstart
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Jenny Mosley is prescribed ALPRAZolam 0.5 MG Oral Tablet for anxiety disorder, to be taken up to three times daily as needed. (27 words)."
+Description: "Jenny Mosley is prescribed ALPRAZolam 0.5 MG Oral Tablet for anxiety disorder, to be taken up to three times daily as needed."
 * basedOn = Reference(MedicationRequest/medicationrequest-AlprazolamSNFstart)
 * status = #active
 * medicationCodeableConcept = $rxnorm#308048 "alprazolam 0.5 MG Oral Tablet"

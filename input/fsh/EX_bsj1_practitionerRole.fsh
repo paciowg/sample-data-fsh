@@ -2,7 +2,7 @@
 Instance: Role-IMMD-AnitaChu
 InstanceOf: PractitionerRole
 Usage: #example
-Description: "Example"
+Description: "Dr. Anita Chu's role at Michigan Primary Health Care Associates."
 * active = true
 * code = $taxonomy#207R00000X "Internal Medicine Physician"
 * practitioner = Reference(Practitioner/Practitioner-AnitaChu) "Dr. Anita Chu"
@@ -12,7 +12,7 @@ Description: "Example"
 Instance: Role-Neuro-NuraMekel
 InstanceOf: PractitionerRole
 Usage: #example
-Description: "Example"
+Description: "Nura Mekel's role at Neuro Care Inc.."
 * active = true
 * code = $taxonomy#2084N0400X "Neurology Physician"
 * practitioner = Reference(Practitioner/Practitioner-NuraMekel) "Nura Mekel"
@@ -22,7 +22,7 @@ Description: "Example"
 Instance: Role-OT-JenCadbury
 InstanceOf: PractitionerRole
 Usage: #example
-Description: "Example"
+Description: "Jen Cadbury's role at Happy Nursing Facility."
 * active = true
 * code = $taxonomy#225X00000X "Occupational Therapist"
 * practitioner = Reference(Practitioner/Practitioner-JenCadbury) "Jen Cadbury"
@@ -33,7 +33,7 @@ Description: "Example"
 Instance: Role-Pharm-PhilChekhov
 InstanceOf: PractitionerRole
 Usage: #example
-Description: "Example"
+Description: "Phil Chekhov's role at Everyday Community Pharmacy."
 * active = true
 * code = $taxonomy#183500000X "Pharmacist"
 * practitioner = Reference(Practitioner/Practitioner-Phil-Chekhov) "Phil Chekhov"
@@ -43,7 +43,7 @@ Description: "Example"
 Instance: Role-Pharm-TracyCount
 InstanceOf: PractitionerRole
 Usage: #example
-Description: "Example"
+Description: "Tracy Count's role at Not Every Day Contract Pharmacy."
 * active = true
 * code = $taxonomy#183500000X "Pharmacist"
 * practitioner = Reference(Practitioner/Practitioner-Tracy-Count) "Tracy Count"
@@ -53,7 +53,7 @@ Description: "Example"
 Instance: Role-PT-LunaBaskins
 InstanceOf: PractitionerRole
 Usage: #example
-Description: "Example"
+Description: "Luna Baskins's role at Happy Nursing Facility."
 * active = true
 * code = $taxonomy#225100000X "Physical Therapist"
 * practitioner = Reference(Practitioner/Practitioner-LunaBaskins) "Luna Baskins"
@@ -63,7 +63,7 @@ Description: "Example"
 Instance: Role-SLP-AlexanderKuikhoff
 InstanceOf: PractitionerRole
 Usage: #example
-Description: "Example"
+Description: "Alexander Kuikhoff's role at Happy Nursing Facility."
 * active = true
 * code = $taxonomy#235Z00000X "Speech-Language Pathologist" 
 * code.text = "Speech Language Pathologist"
@@ -74,7 +74,7 @@ Description: "Example"
 Instance: Role-SNFDoc-GeraldPark
 InstanceOf: PractitionerRole
 Usage: #example
-Description: "Example"
+Description: "Gerald Park's role at Happy Nursing Facility."
 * active = true
 * code = $taxonomy#207QG0300X "Geriatric Medicine (Family Medicine) Physician"
 * code.text = "Geriatric Medicine Physician"

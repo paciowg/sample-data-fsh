@@ -89,7 +89,7 @@ Description: "Jenny Mosley has an active MedicationRequest for atorvastatin 40mg
 Instance: medicationrequest-DexamethasoneSNFpalliative
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "Jenny Mosley is prescribed dexAMETHasone 4 MG Oral Tablet daily for chemotherapy. Status: active, Intent: order. (28 words)."
+Description: "Jenny Mosley is prescribed dexAMETHasone 4 MG Oral Tablet daily for chemotherapy. Status: active, Intent: order."
 
 * status = #active
 * intent = #order
@@ -318,7 +318,7 @@ Description: "Jenny Mosley is actively taking acetaminophen 500mg tablets every 
 Instance: SMP-MedStmt-AlprazolamSNFpalliative
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Jenny Mosley is taking ALPRAZolam 0.5 MG Oral Tablet for anxiety disorder, with a dosage of up to three tablets per day as needed. (29 words)."
+Description: "Jenny Mosley is taking ALPRAZolam 0.5 MG Oral Tablet for anxiety disorder, with a dosage of up to three tablets per day as needed."
 * basedOn = Reference(MedicationRequest/medicationrequest-AlprazolamSNFpalliative)
 * status = #active
 * medicationCodeableConcept = $rxnorm#308048 "alprazolam 0.5 MG Oral Tablet"
@@ -360,7 +360,7 @@ Description: "Jenny Mosley is currently taking dexAMETHasone 4 MG Oral Tablet da
 Instance: SMP-MedStmt-GabapentinSNFpalliative
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Jenny Mosley is taking gabapentin for neoplastic pain, starting with 1 capsule daily and increasing to 3 capsules in the evening. (26 words)."
+Description: "Jenny Mosley is taking gabapentin for neoplastic pain, starting with 1 capsule daily and increasing to 3 capsules in the evening."
 * basedOn = Reference(MedicationRequest/MedicationRequest-GabapentinSNFpalliative)
 * status = #active
 * medicationCodeableConcept = $rxnorm#310431 "gabapentin 300 MG Oral Capsule"

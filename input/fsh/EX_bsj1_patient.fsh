@@ -5,7 +5,7 @@ Alias: $v3-RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode
 Instance: patientBSJ1
 InstanceOf: Patient
 Usage: #example
-Description: "Example Patient: Betsy Smith-Johnson"
+Description: "Betsy Smith-Johnson's patient record, #female born on 1958-11-01."
 * meta.lastUpdated = "2021-03-29T14:25:34.001-05:00"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
 * language = #en-US
@@ -53,4 +53,3 @@ Description: "Example Patient: Betsy Smith-Johnson"
 * contact[=].address.text = "333 W. Camden St., Baltimore, MD 21201"
 * communication.language = urn:ietf:bcp:47#en "English"
 * communication.preferred = true
-

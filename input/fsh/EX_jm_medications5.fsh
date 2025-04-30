@@ -91,7 +91,7 @@ Description: "Jenny Mosley has an active MedicationRequest for atorvastatin 40mg
 Instance: medicationrequest-DexamethasoneSNFdischarge
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "Jenny Mosley has an active MedicationRequest for dexAMETHasone 4 MG Oral Tablet to be taken daily during chemotherapy. (28 words)."
+Description: "Jenny Mosley has an active MedicationRequest for dexAMETHasone 4 MG Oral Tablet to be taken daily during chemotherapy."
 
 * status = #active
 * intent = #order
@@ -311,7 +311,7 @@ Description: "Jenny Mosley is taking ALPRAZolam 0.5 MG Oral Tablet for anxiety d
 Instance: SMP-MedStmt-AtorvastatinSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Jenny Mosley is taking atorvastatin 40mg tablet orally nightly for hyperlipidemia, as per Happy Nursing Facility. (28 words)."
+Description: "Jenny Mosley is taking atorvastatin 40mg tablet orally nightly for hyperlipidemia, as per Happy Nursing Facility."
 * basedOn = Reference(MedicationRequest/MedicationRequest-AtorvastatinSNFdischarge)
 * status = #active
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
@@ -338,7 +338,7 @@ Description: "Jenny Mosley is taking dexAMETHasone 4 MG Oral Tablet daily for br
 Instance: SMP-MedStmt-GabapentinSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Jenny Mosley is taking gabapentin for neoplastic pain, with a dosage starting at 1 capsule and increasing to 3 capsules daily. (28 words)."
+Description: "Jenny Mosley is taking gabapentin for neoplastic pain, with a dosage starting at 1 capsule and increasing to 3 capsules daily."
 * basedOn = Reference(MedicationRequest/MedicationRequest-GabapentinSNFdischarge)
 * status = #active
 * medicationCodeableConcept = $rxnorm#310431 "gabapentin 300 MG Oral Capsule"
@@ -351,7 +351,7 @@ Description: "Jenny Mosley is taking gabapentin for neoplastic pain, with a dosa
 Instance: SMP-MedStmt-MetoclopramideSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Jenny Mosley is taking metoclopramide 10mg tablets three times a day before meals for nausea. Do not discontinue Ondansetron. (26 words)."
+Description: "Jenny Mosley is taking metoclopramide 10mg tablets three times a day before meals for nausea. Do not discontinue Ondansetron."
 * basedOn = Reference(MedicationRequest/MedicationRequest-MetoclopramideSNFdischarge)
 * status = #active
 * medicationCodeableConcept = $rxnorm#311666 "metoclopramide 10 MG Oral Tablet"

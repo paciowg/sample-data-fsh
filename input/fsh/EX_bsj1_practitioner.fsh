@@ -1,7 +1,7 @@
 Instance: Practioner-GeraldPark
 InstanceOf: Practitioner
 Usage: #example
-Description: "Example"
+Description: "Gerald Park's practitioner record."
 * meta.versionId = "2"
 * meta.lastUpdated = "2024-09-21T14:20:39.000+00:00"
 // * meta.source = "#uLpgpufbAOK8WsVT"
@@ -26,7 +26,7 @@ Description: "Example"
 Instance: Practitioner-AlexanderKuikhoff
 InstanceOf: Practitioner
 Usage: #example
-Description: "Example"
+Description: "Alexander Kuikhoff's practitioner record."
 * meta.versionId = "4"
 * meta.lastUpdated = "2024-09-21T14:14:58.000+00:00"
 // * meta.source = "#7DEapuGTyPa8JExC"
@@ -49,7 +49,7 @@ Description: "Example"
 Instance: Practitioner-AnitaChu
 InstanceOf: Practitioner
 Usage: #example
-Description: "Example"
+Description: "Anita Chu's practitioner record."
 * meta.versionId = "4"
 * meta.lastUpdated = "2024-09-20T19:03:21.000+00:00"
 // * meta.source = "#S7gHLyFgHVToyfil"
@@ -74,7 +74,7 @@ Description: "Example"
 Instance: Practitioner-JenCadbury
 InstanceOf: Practitioner
 Usage: #example
-Description: "Example"
+Description: "Jen Cadbury's practitioner record."
 * meta.versionId = "5"
 * meta.lastUpdated = "2024-09-21T14:16:50.000+00:00"
 // * meta.source = "#DEWzr3FAeLp88UUB"
@@ -99,7 +99,7 @@ Description: "Example"
 Instance: Practitioner-LunaBaskins
 InstanceOf: Practitioner
 Usage: #example
-Description: "Example"
+Description: "Luna Baskins's practitioner record."
 * meta.versionId = "4"
 * meta.lastUpdated = "2024-09-21T14:13:25.000+00:00"
 // * meta.source = "#t1IJv2gvYZdDhhSz"
@@ -122,7 +122,7 @@ Description: "Example"
 Instance: Practitioner-NuraMekel
 InstanceOf: Practitioner
 Usage: #example
-Description: "Example"
+Description: "Nura Mekel's practitioner record."
 * meta.versionId = "4"
 * meta.lastUpdated = "2024-09-21T14:11:15.000+00:00"
 // * meta.source = "#V6qO71UpaFWv7GXQ"
@@ -147,7 +147,7 @@ Description: "Example"
 Instance: Practitioner-Phil-Chekhov
 InstanceOf: Practitioner
 Usage: #example
-Description: "Example"
+Description: "Phil Chekhov's practitioner record."
 * name.given = "Phil"
 * name.family = "Chekhov"
 * name.text = "Phil Chekhov"
@@ -167,7 +167,7 @@ Description: "Example"
 Instance: Practitioner-Tracy-Count
 InstanceOf: Practitioner
 Usage: #example
-Description: "Example"
+Description: "Tracy Count's practitioner record."
 * name.given = "Tracy"
 * name.family = "Count"
 * name.text = "Tracy Count"

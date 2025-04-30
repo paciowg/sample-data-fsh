@@ -1,13 +1,13 @@
 Instance: org-PSC-Prism-General-Hospital
 InstanceOf: Organization
 Usage: #example
-Description: "Example"
+Description: "Prism General Hospital's organization record."
 * name = "Prism General Hospital"
 
 Instance: org-Neuro-Care-Inc
 InstanceOf: Organization
 Usage: #example
-Description: "Example"
+Description: "Neuro Care Inc.'s organization record."
 * active = true
 * name = "Neuro Care Inc."
 * telecom.system = #phone
@@ -22,7 +22,7 @@ Description: "Example"
 Instance: org-PC-Primary-Care-Michigan
 InstanceOf: Organization
 Usage: #example
-Description: "Example"
+Description: "Michigan Primary Health Care Associates's organization record."
 * active = true
 * name = "Michigan Primary Health Care Associates"
 * telecom.system = #phone
@@ -37,7 +37,7 @@ Description: "Example"
 Instance: org-HH-Sky-Harbor-Home-Health
 InstanceOf: Organization
 Usage: #example
-Description: "Example"
+Description: "Sky Harbor Home Health Services's organization record."
 * active = true
 * name = "Sky Harbor Home Health Services"
 
@@ -46,7 +46,7 @@ Description: "Example"
 // Instance: org-Pharm-Everyday-Community-Pharm
 // InstanceOf: Organization
 // Usage: #example
-// Description: "Example"
+// Description: "Everyday Community Pharmacy's organization record."
 // * active = true
 // * name = "Everyday Community Pharmacy"
 // * telecom.system = #phone
@@ -61,7 +61,7 @@ Description: "Example"
 // Instance: org-Pharm-NED-Contract-Pharm
 // InstanceOf: Organization
 // Usage: #example
-// Description: "Example"
+// Description: "Not Every Day Contract Pharmacy's organization record."
 // * active = true
 // * name = "Not Every Day Contract Pharmacy"
 // * telecom.system = #phone
@@ -76,7 +76,7 @@ Description: "Example"
 // Instance: org-SNF-Happy-Nursing-Facility
 // InstanceOf: Organization
 // Usage: #example
-// Description: "Example"
+// Description: "Happy Nursing Facility's organization record."
 // * active = true
 // * name = "Happy Nursing Facility"
 // * telecom.system = #phone

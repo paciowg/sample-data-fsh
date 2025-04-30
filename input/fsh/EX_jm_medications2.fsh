@@ -267,7 +267,7 @@ Description: "Jenny Mosley is actively taking acetaminophen 500mg tablets every 
 Instance: SMP-MedStmt-AlprazolamHosp2
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Jenny Mosley is taking ALPRAZolam 0.5 MG Oral Tablet for anxiety disorder, with a dosage of up to three tablets per day as needed. (27 words)."
+Description: "Jenny Mosley is taking ALPRAZolam 0.5 MG Oral Tablet for anxiety disorder, with a dosage of up to three tablets per day as needed."
 * basedOn = Reference(MedicationRequest/medicationrequest-AlprazolamHosp2)
 * status = #active
 * medicationCodeableConcept = $rxnorm#308048 "alprazolam 0.5 MG Oral Tablet"
@@ -309,7 +309,7 @@ Description: "Jenny Mosley is actively taking dexAMETHasone 4 MG Oral Tablet onc
 Instance: SMP-MedStmt-GabapentinHosp2
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "Jenny Mosley is taking gabapentin 300 MG for neoplastic pain, with a dosage starting at 1 capsule and increasing to 3 capsules daily. (27 words)."
+Description: "Jenny Mosley is taking gabapentin 300 MG for neoplastic pain, with a dosage starting at 1 capsule and increasing to 3 capsules daily."
 * basedOn = Reference(MedicationRequest/MedicationRequest-GabapentinHosp2)
 * status = #active
 * medicationCodeableConcept = $rxnorm#310431 "gabapentin 300 MG Oral Capsule"
