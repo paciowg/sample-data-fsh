@@ -1,7 +1,7 @@
-Instance: 31612
+Instance: BSJ1-DocumentReference-PatientSummary
 InstanceOf: DocumentReference
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's Patient summary document on 9/21/2024."
 * meta.versionId = "1"
 * meta.lastUpdated = "2024-09-21T15:19:03.000+00:00"
 // * meta.source = "#dZ4YP9y7xurWGXyo"

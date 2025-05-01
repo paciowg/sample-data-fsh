@@ -9,7 +9,7 @@ Alias: $v3-ObservationInterpretation = http://terminology.hl7.org/CodeSystem/v3-
 Instance: BSJ-MDS-BIMS
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg noted during routine check-up."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-collection"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -28,7 +28,7 @@ Description: "Example"
 Instance: BSJ-BIMS-Day
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg, heart rate of 100 bpm, and mild shortness of breath reported."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -45,7 +45,7 @@ Description: "Example"
 Instance: BSJ-BIMS-Month
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg noted during routine check-up."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -62,7 +62,7 @@ Description: "Example"
 Instance: BSJ-BIMS-Year
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson Observation: Patient presents with elevated blood pressure of 150/90 mmHg, heart rate of 100 bpm, and reports mild chest pain."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -79,7 +79,7 @@ Description: "Example"
 Instance: BSJ-Cognition-Collection
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg recorded at 10:00 AM."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-collection"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -101,7 +101,7 @@ Description: "Example"
 Instance: BSJ-Concentration
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg noted during routine check-up."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -117,7 +117,7 @@ Description: "Example"
 Instance: BSJ-FCM-Rec-ContHigh
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg noted during routine check-up."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -134,7 +134,7 @@ Description: "Example"
 Instance: BSJ-FCM-Rec-Partner
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg, heart rate of 100 bpm, and respiratory rate of 20 breaths per minute."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -151,7 +151,7 @@ Description: "Example"
 Instance: BSJ-FCM-Rec-SafeHigh
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg recorded during routine check-up."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -169,7 +169,7 @@ Description: "Example"
 Instance: BSJ-FCM-Speak-ContHigh
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's Observation: Vital signs stable, blood pressure 120/80 mmHg, heart rate 70 bpm, respiratory rate 16 bpm, temperature 98.6°F."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -187,7 +187,7 @@ Description: "Example"
 Instance: BSJ-FCM-Speak-FormHigh
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg recorded at 10:30 AM."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -205,7 +205,7 @@ Description: "Example"
 Instance: BSJ-FCMRec-Collection
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg recorded at 10:30 AM."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-collection"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -226,7 +226,7 @@ Description: "Example"
 Instance: BSJ-FCMSpeak-Collection
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson Observation: Patient exhibits elevated blood pressure readings consistently over the past week."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-collection"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -246,7 +246,7 @@ Description: "Example"
 Instance: BSJ-Impulsive-Speech
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg recorded at 10:30 am."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -262,7 +262,7 @@ Description: "Example"
 Instance: BSJ-Lab-Hemaglobin
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson Observation: Patient's blood pressure is elevated at 150/90 mmHg."
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
 * status = #final
 * category = $observation-category#laboratory "Laboratory"
@@ -280,7 +280,7 @@ Description: "Example"
 Instance: BSJ-MDS-Activities-PT1
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg recorded at 10:30 AM."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-collection"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -298,7 +298,7 @@ Description: "Example"
 Instance: BSJ-MDS-Doffing1
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg noted during routine check-up."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -315,7 +315,7 @@ Description: "Example"
 Instance: BSJ-MDS-Donning1
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg recorded at 10:30 AM."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -332,7 +332,7 @@ Description: "Example"
 Instance: BSJ-MDS-Mobility-PT1
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg noted during routine check-up."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-collection"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -351,7 +351,7 @@ Description: "Example"
 Instance: BSJ-MDS-ShortWalk1
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg noted during routine check-up."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -368,7 +368,7 @@ Description: "Example"
 Instance: BSJ-MDS-SitStand1
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's Observation: Vital signs stable, no signs of distress."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -385,7 +385,7 @@ Description: "Example"
 Instance: BSJ-MDS-SitUp1
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg recorded during routine check-up."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -402,7 +402,7 @@ Description: "Example"
 Instance: BSJ-Symptom-Recognition
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg recorded at 10:30 AM."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -418,7 +418,7 @@ Description: "Example"
 Instance: BSJ-TaskAbandon
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson Observation: Patient presents with elevated blood pressure of 150/90 mmHg, heart rate of 100 bpm, and reports of chest pain."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -434,7 +434,7 @@ Description: "Example"
 Instance: BSJ-TaskSequence
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg recorded during routine check-up."
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
 * status = #final
 * category[0] = $observation-category#survey "Survey"

@@ -1,10 +1,10 @@
 Alias: $loinc = http://loinc.org
 Alias: $us-core-documentreference-category = http://hl7.org/fhir/us/core/CodeSystem/us-core-documentreference-category
 
-Instance: DocRef-MoCA1
+Instance: JM1-DocumentReference-MoCA01
 InstanceOf: DocumentReference
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's document reference for the Montreal Cognitive Assessment (MoCA) screening test."
 // * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference" // mlt: US Core Document Reference constrains to LOINC with scale=Doc and the LOINC code chosen was panel, so we can't use this profile.
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:oid:2.16.840.1.113883.19.5.99999.1"

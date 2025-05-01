@@ -1,7 +1,7 @@
-Instance: 31674
+Instance: BSJ1-CareTeam-PostDischargeToHome
 InstanceOf: CareTeam
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's Patient Care Team - Post Discharge to Home Care"
 * meta.versionId = "1"
 * meta.lastUpdated = "2024-09-21T13:54:22.000+00:00"
 // * meta.source = "#cY4v0HwHBVnRmDhK"

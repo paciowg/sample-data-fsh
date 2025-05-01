@@ -35,7 +35,7 @@ dependencies:
   hl7.fhir.us.smp:
     id: smp
     uri: http://hl7.org/fhir/us/smp/ImplementationGuide/hl7.fhir.us.smp
-    version: 1.0.0
+    version: 1.0.0-ballot
   hl7.fhir.us.mcode:
     id: mcode
     uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode
@@ -58,8 +58,8 @@ menu:
   Example Guidance:
     Style Guide: style_guide.html
   Use Case Examples: 
-    Integration - Cancer: pacio_int_cancer_jm1.html
-    Integration - Stroke: pacio_int_stroke_bsj1.html
+    Jenny Mosley: pacio_int_cancer_jm1.html
+    Betsy Smith-Johnson: pacio_int_stroke_bsj1.html
 
 pages:
   index.md:

@@ -349,7 +349,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 Instance: health-concern-complexregime
 InstanceOf: Condition
 Usage: #example
-Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of unknown condition."
+Description: "Betsy Smith-Johnson's condition FHIR resource indicates a health concern On complex medication regime."
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2024-09-20"
