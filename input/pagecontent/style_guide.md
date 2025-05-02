@@ -1,7 +1,7 @@
 
 ### Conventions
 
-This page reviews naming conventions for the persona and examples.
+This page reviews naming conventions for the use case persona and examples.
 
 
 ### Persona

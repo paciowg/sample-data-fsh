@@ -27,7 +27,7 @@ Description: "Betsy Smith-Johnson's patient record, #female born on 1958-11-01."
 * name.family = "Smith-Johnson"
 * name.given = "Betsy"
 * gender = #female
-* birthDate = "1958-11-01"
+* birthDate = "1950-11-15"
 * telecom[0].system = #phone
 * telecom[=].value = "555-555-5555"
 * telecom[=].use = #home
