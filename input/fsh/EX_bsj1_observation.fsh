@@ -162,7 +162,7 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * status = #final
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
-* category[+] = $pfe-category-cs#d5 "Self Care"
+* category[+] = $pfe-category-cs#BlockL2-d51 "Self-care"
 * category[+] = $pfe-category-cs#b16700 "Reception of spoken language"
 * code = $loinc#99841-9 "Frequency of functioning without assistance due to comprehension deficit"
 * code.text = "How often does the individual function safely WITHOUT additional supervision/assistance (in excess of chronological age expectations) due to comprehension deficits?"
@@ -221,7 +221,7 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#d310 "Communicating with - receiving - spoken messages"
 * category[+] = $pfe-category-cs#d350 "Conversation"
-* category[+] = $pfe-category-cs#d5 "Self Care"
+* category[+] = $pfe-category-cs#BlockL2-d51 "Self-care"
 * code = $loinc#99836-9 "Functional Communication Measure - Spoken Language Comprehension ages 6 or older panel [ASHA NOMS]"
 * subject = Reference(Patient/patientBSJ1)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
