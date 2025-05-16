@@ -315,7 +315,8 @@ Description: "Jenny Mosley is taking gabapentin 300 MG for neoplastic pain, with
 * medicationCodeableConcept = $rxnorm#310431 "gabapentin 300 MG Oral Capsule"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * informationSource = Reference(Organization/Org-Onc-Hosp-Puget-Sound) "Pugent Sound Cancer Center"
-* reasonCode = $sct#735935009 "Pain due to neoplastic disease (finding)"
+* reasonCode = $sct#735935009 "Chronic pain due to malignant neoplastic disease (finding)"
+* reasonCode.text = "Pain due to neoplastic disease (finding)"
 * dosage.sequence = 1
 * dosage.text = "1 capsule po on day one, 2 capsules po day 2, 3 capsules po in the evening thereafter"
 

@@ -344,7 +344,8 @@ Description: "Jenny Mosley is taking gabapentin for neoplastic pain, with a dosa
 * medicationCodeableConcept = $rxnorm#310431 "gabapentin 300 MG Oral Capsule"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * informationSource = Reference(Organization/Org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
-* reasonCode = $sct#735935009 "Pain due to neoplastic disease (finding)"
+* reasonCode = $sct#735935009 "Chronic pain due to malignant neoplastic disease (finding)"
+* reasonCode.text = "Pain due to neoplastic disease (finding)"
 * dosage.sequence = 1
 * dosage.text = "1 capsule po on day one, 2 capsules po day 2, 3 capsules po in the evening thereafter"
 
@@ -400,7 +401,8 @@ Morphine sulfate 4 MG/ML administered every 4 hours for neoplastic pain at Happy
 * medicationCodeableConcept = $rxnorm#894780 "morphine sulfate 4 MG/ML Oral Solution"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * informationSource = Reference(Organization/Org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
-* reasonCode = $sct#735935009 "Pain due to neoplastic disease (finding)"
+* reasonCode = $sct#735935009 "Chronic pain due to malignant neoplastic disease (finding)"
+* reasonCode.text = "Pain due to neoplastic disease (finding)"
 * dosage.sequence = 1
 * dosage.text = "Administer 10 MG (2.5 ML) every 4 hours for pain"
 
