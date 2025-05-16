@@ -16,10 +16,10 @@ Description: "Betsy Smith-Johnson's Patient Care Team - Post Discharge to Home C
 * participant[+].role = $sct#56397003 "Neurologist"
 * participant[=].role.text = "Neurologist"
 * participant[=].member = Reference(Practitioner/Practitioner-NuraMekel)
-* participant[+].role = $sct#24430003 "Physical Therapist"
+* participant[+].role = $sct#24430003 "Physical medicine specialist"
 * participant[=].role.text = "Physical Therapist"
 * participant[=].member = Reference(Practitioner/Practitioner-LunaBaskins)
-* participant[+].role = $sct#159026005 "Speech Language Pathologist"
+* participant[+].role = $sct#159026005 "Speech and language therapist"
 * participant[=].role.text = "Speech Language Pathologist"
 * participant[=].member = Reference(Practitioner/Practitioner-AlexanderKuikhoff)
 * participant[+].role = $sct#80546007 "Occupational Therapist"

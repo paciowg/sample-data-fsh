@@ -34,7 +34,8 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#b1140 "Orientation to time"
-* code = $loinc#103703-5 "Able to report correct day of the week"
+* code = $loinc#103703-5 "Temporal orientation - current day of the week [CMS Assessment]"
+* code.text = "Able to report correct day of the week"
 * subject = Reference(Patient/patientBSJ1)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-OT-JenCadbury)
@@ -51,11 +52,13 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#b1140 "Orientation to time"
-* code = $loinc#103698-7 "Able to report correct month"
+* code = $loinc#103698-7 "Temporal orientation - current month during assessment period [CMS Assessment]"
+* code.text = "Able to report correct month"
 * subject = Reference(Patient/patientBSJ1)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-OT-JenCadbury)
-* valueCodeableConcept = $loinc#103698-7 "Accurate within 5 days"
+* valueCodeableConcept = $loinc#LA9960-1 "Correct"
+* valueCodeableConcept.text = "Accurate within 5 days"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
@@ -68,7 +71,8 @@ Description: "Betsy Smith-Johnson Observation: Patient presents with elevated bl
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#b1140 "Orientation to time"
-* code = $loinc#103697-9 "Able to report correct year"
+* code = $loinc#103697-9 "Temporal orientation - current year during assessment period [CMS Assessment]"
+* code.text = "Able to report correct year"
 * subject = Reference(Patient/patientBSJ1)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-OT-JenCadbury)
@@ -123,7 +127,8 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#b16700 "Reception of spoken language"
-* code = $loinc#99841-9 "How often does the individual understand complex messages, as expected for chronological age, in HIGH demand situations?"
+* code = $loinc#99841-9 "Frequency of functioning without assistance due to comprehension deficit"
+* code.text = "How often does the individual understand complex messages, as expected for chronological age, in HIGH demand situations?"
 * subject = Reference(Patient/patientBSJ1)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff)
@@ -140,7 +145,8 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#d350 "Conversation"
-* code = $loinc#99842-7 "How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner?"
+* code = $loinc#99842-7 "Frequency of participating in spoken language comprehension communication without assistance"
+* code.text = "How often does the individual participate in communication exchanges WITHOUT additional assistance from communication partner?"
 * subject = Reference(Patient/patientBSJ1)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff)
@@ -158,7 +164,8 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#d5 "Self Care"
 * category[+] = $pfe-category-cs#b16700 "Reception of spoken language"
-* code = $loinc#99841-9 "How often does the individual function safely WITHOUT additional supervision/assistance (in excess of chronological age expectations) due to comprehension deficits?"
+* code = $loinc#99841-9 "Frequency of functioning without assistance due to comprehension deficit"
+* code.text = "How often does the individual function safely WITHOUT additional supervision/assistance (in excess of chronological age expectations) due to comprehension deficits?"
 * subject = Reference(Patient/patientBSJ1)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff)
@@ -176,7 +183,8 @@ Description: "Betsy Smith-Johnson's Observation: Vital signs stable, blood press
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#b16710 "Expression of Spoken Language"
 * category[+] = $pfe-category-cs#d350 "Conversation"
-* code = $loinc#99850-0 "How often does the individual produce verbal messages with appropriate CONTENT in HIGH demand situations?"
+* code = $loinc#99850-0 "Frequency of producing verbal messages with appropriate content in high demand situations"
+* code.text = "How often does the individual produce verbal messages with appropriate CONTENT in HIGH demand situations?"
 * subject = Reference(Patient/patientBSJ1)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff)
@@ -194,7 +202,8 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#b16710 "Expression of Spoken Language"
 * category[+] = $pfe-category-cs#d350 "Conversation"
-* code = $loinc#99850-0 "How often does the individual produce verbal messages with appropriate FORM in HIGH demand situations?"
+* code = $loinc#99850-0 "Frequency of producing verbal messages with appropriate content in high demand situations"
+* code.text = "How often does the individual produce verbal messages with appropriate FORM in HIGH demand situations?"
 * subject = Reference(Patient/patientBSJ1)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff)
@@ -233,7 +242,7 @@ Description: "Betsy Smith-Johnson Observation: Patient exhibits elevated blood p
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#b16710 "Expression of spoken language"
 * category[+] = $pfe-category-cs#d3301 "Producing simple spoken messages"
-* category[+] = $pfe-category-cs#d3101 "Communicating with - receiving - complex spoken messages"
+* category[+] = $pfe-category-cs#d3101 "Communicating with - receiving - simple spoken messages"
 * code = $loinc#99844-3 "Functional Communication Measure - Spoken Language Expression ages 6 or older panel [ASHA NOMS]"
 * subject = Reference(Patient/patientBSJ1)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
@@ -304,7 +313,8 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#functional-status "Functional Status"
 * category[+] = $pfe-category-cs#d5401 "Taking Off Clothes"
-* code = $loinc#89387-5 "Self-care (discharge performance) - upper body dressing"
+* code = $loinc#89387-5 "Upper body dressing - functional goal during assessment period [CMS Assessment]"
+* code.text = "Self-care (discharge performance) - upper body dressing"
 * subject = Reference(Patient/patientBSJ1)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-OT-JenCadbury)
@@ -321,7 +331,8 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#functional-status "Functional Status"
 * category[+] = $pfe-category-cs#d5400 "Putting On Clothes"
-* code = $loinc#"89406-3" "Self-care (discharge performance) - lower body dressing"
+* code = $loinc#"89406-3" "Lower body dressing - functional goal during assessment period [CMS Assessment]"
+* code.text = "Self-care (discharge performance) - lower body dressing"
 * subject = Reference(Patient/patientBSJ1)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-OT-JenCadbury)
@@ -357,7 +368,8 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#functional-status "Functional Status"
 * category[+] = $pfe-category-cs#d4600 "Moving Around Within the Home"
-* code = $loinc#89381-8 "Mobility (discharge performance) - walk 50 feet w/2 turns"
+* code = $loinc#89381-8 "Walk 50 feet with two turns - functional goal during assessment period [CMS Assessment]"
+* code.text = "Mobility (discharge performance) - walk 50 feet w/2 turns"
 * subject = Reference(Patient/patientBSJ1)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-OT-JenCadbury)
@@ -374,7 +386,8 @@ Description: "Betsy Smith-Johnson's Observation: Vital signs stable, no signs of
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#functional-status "Functional Status"
 * category[+] = $pfe-category-cs#d4014 "Standing"
-* code = $loinc#"89392-5" "Mobility (discharge performance) - sit to stand"
+* code = $loinc#"89392-5" "Sit to stand - functional goal during assessment period [CMS Assessment]"
+* code.text = "Mobility (discharge performance) - sit to stand"
 * subject = Reference(Patient/patientBSJ1)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-OT-JenCadbury)
@@ -391,11 +404,12 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#functional-status "Functional Status"
 * category[+] = $pfe-category-cs#d4100 "Lying Down"
-* code = $loinc#"85927-2" "Mobility (discharge performance) - lying to sitting on side of bed"
+* code = $loinc#"85927-2" "Lying to sitting on side of bed - functional goal during assessment period [CMS Assessment]"
+* code.text = "Mobility (discharge performance) - lying to sitting on side of bed"
 * subject = Reference(Patient/patientBSJ1)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-OT-JenCadbury)
-* valueCodeableConcept = $loinc#LA30911-4 "Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as person completes activity. Assistance may be provided throught the activity or intermittently."
+* valueCodeableConcept = $loinc#LA30911-4 "Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as person completes activity. Assistance may be provided throughout the activity or intermittently."
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 

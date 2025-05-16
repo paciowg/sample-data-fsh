@@ -127,7 +127,7 @@ Description: "Jenny Mosley has an active MedicationRequest for gabapentin 300mg 
 * requester = Reference(Practitioner/Practitioner-owen-oncologist-01) "Owen Oncologist"
 * reasonCode.coding.version = "http://snomed.info/sct/731000124108"
 * reasonCode.coding = $sct#735935009 "Chronic pain due to malignant neoplastic disease (finding)"
-* reasonCode.text = "Pain due to neoplastic disease (finding)"
+* reasonCode.text = "Chronic pain due to malignant neoplastic disease (finding)"
 * dosageInstruction.text = "Day 1: 300 mg orally with the evening meal; Day 2: 600 mg orally with the evening meal; Days 3 through 14: 900 mg orally with the evening meal"
 * dosageInstruction.timing.repeat.boundsPeriod.start = "2024-09-25"
 * dosageInstruction.route = $sct#26643006 "Oral route (qualifier value)"
@@ -316,7 +316,8 @@ Description: "Jenny Mosley is taking gabapentin 300mg capsules for neoplastic pa
 * medicationCodeableConcept = $rxnorm#310431 "gabapentin 300 MG Oral Capsule"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * informationSource = Reference(Organization/Org-Onc-Hosp-Puget-Sound) "Pugent Sound Cancer Center"
-* reasonCode = $sct#735935009 "Pain due to neoplastic disease (finding)"
+* reasonCode = $sct#735935009 "Chronic pain due to malignant neoplastic disease (finding)"
+* reasonCode.text = "Pain due to neoplastic disease (finding)"
 * dosage.sequence = 1
 * dosage.text = "1 capsule po on day one, 2 capsules po day 2, 3 capsules po in the evening thereafter"
 

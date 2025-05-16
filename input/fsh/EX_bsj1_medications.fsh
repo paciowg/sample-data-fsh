@@ -9,7 +9,8 @@ Description: "Betsy Johnson's home medication list containing 8 medication entri
 * status = #current
 * mode = #snapshot
 * title = "Home Medication List"
-* code = $loinc#104205-0 "Standard Medication List"
+* code = $loinc#104205-0 "Patient generated medication list [Identifier] Episode Pharmacy"
+* code.text = "Standard Medication List"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * date = "2024-08-11"
 * entry[0].date = "2024-08-11"
@@ -38,7 +39,8 @@ Description: "Betsy Johnson's hospital medication administration list containing
 * status = #current
 * mode = #snapshot
 * title = "Hospital Medication Administration List"
-* code = $loinc#104207-6 "Institution Administration List"
+* code = $loinc#104207-6 "Medication administration list [Identifier] Episode Pharmacy"
+* code.text = "Institution Administration List"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * date = "2024-08-21"
 * entry[0].date = "2024-08-21"
@@ -79,7 +81,8 @@ Description: "Betsy Johnson's hospital discharge medication list containing 13 m
 * status = #current
 * mode = #snapshot
 * title = "Hospital Discharge Medication List"
-* code = $loinc#104204-3 "Institution Discharge List"
+* code = $loinc#104204-3 "Discharged medication list [Identifier] Episode Pharmacy"
+* code.text = "Institution Discharge List"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * date = "2024-08-26"
 * entry[0].date = "2024-08-26"
@@ -118,7 +121,8 @@ Description: "Betsy Johnson's snf medication  administration list containing 10 
 * status = #current
 * mode = #snapshot
 * title = "SNF Medication  Administration List"
-* code = $loinc#104207-6 "Institution Administration List"
+* code = $loinc#104207-6 "Medication administration list [Identifier] Episode Pharmacy"
+* code.text = "Institution Administration List"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * date = "2024-08-26"
 * entry[0].date = "2024-08-26"
@@ -151,7 +155,8 @@ Description: "Betsy Johnson's snf discharge medication list containing 9 medicat
 * status = #current
 * mode = #snapshot
 * title = "SNF Discharge Medication List"
-* code = $loinc#104204-3 "Institution Discharge List"
+* code = $loinc#104204-3 "Discharged medication list [Identifier] Episode Pharmacy"
+* code.text = "Institution Discharge List"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * date = "2024-09-18"
 * entry[0].date = "2024-09-18"
@@ -182,7 +187,8 @@ Description: "Betsy Johnson's home health active medication list containing 9 me
 * status = #current
 * mode = #snapshot
 * title = "Home Health Active Medication List"
-* code = $loinc#104202-7 "Active Medication List"
+* code = $loinc#104202-7 "Active medication list [Identifier] Episode Pharmacy"
+* code.text = "Active Medication List"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * date = "2024-09-19"
 * entry[0].date = "2024-09-19"
@@ -213,7 +219,8 @@ Description: "Betsy Johnson's community pharmacy reconciled medication list cont
 * status = #current
 * mode = #snapshot
 * title = "Community Pharmacy Reconciled Medication List"
-* code = $loinc#104203-5 "Reconciled Medication List"
+* code = $loinc#104203-5 "Reconciled medication list [Identifier] Episode Pharmacy"
+* code.text = "Reconciled Medication List"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * date = "2024-09-20"
 * entry[0].date = "2024-09-20"

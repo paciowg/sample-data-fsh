@@ -61,8 +61,10 @@ Description: "Jenny Mosley nutrition order record."
 * patient = Reference(Patient/patientJM1)
 * dateTime = "2024-11-07"
 * orderer = Reference(PractitionerRole/Role-SNFDoc-GeraldPark-01)
-* oralDiet.type.coding[0] = $sct#1055201009 "Supervision while eating meal (regime/therapy)"
-* oralDiet.type.coding[+] = $sct#441771000124105 "Moist (substance)"
+* oralDiet.type.coding[0] = $sct#1055201009 "Decreased protein diet"
+* oralDiet.type[0].text = "Supervision while eating meal (regime/therapy)"
+* oralDiet.type.coding[+] = $sct#441771000124105 "Moist food (substance)"
+* oralDiet.type[1].text = "Moist (substance)"
 * oralDiet.schedule.repeat.boundsPeriod.start = "2024-11-07"
 * oralDiet.schedule.repeat.frequency = 3
 * oralDiet.schedule.repeat.frequencyMax = 4

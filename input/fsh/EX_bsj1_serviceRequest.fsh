@@ -6,7 +6,8 @@ Description: "Betsy Smith-Johnson's service request for medication reconciliatio
 * status = #active
 * intent = #order
 * category = $sct#306206005 "Referral to service (procedure)"
-* code = $sct#410155007 "Medication reconciliation (procedure)"
+* code = $sct#410155007 "Occupational therapy assessment"
+* code.text = "Medication reconciliation (procedure)"
 * subject = Reference(Patient/patientBSJ1)
 * priority = #routine
 * occurrencePeriod.start = "2024-09-20"
@@ -37,7 +38,8 @@ Description: "Betsy Smith-Johnson's service request for occupational therapy ass
 * status = #active
 * intent = #order
 * category = $sct#386053000 "Evaluation procedure (procedure)"
-* code = $sct#410155007 "Occupational therapy assessment (procedure"
+* code = $sct#410155007 "Occupational therapy assessment"
+* code.text = "Occupational therapy assessment (procedure)"
 * subject = Reference(Patient/patientBSJ1)
 * priority = #routine
 * occurrencePeriod.start = "2024-09-20"
