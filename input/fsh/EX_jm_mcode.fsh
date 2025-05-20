@@ -145,7 +145,7 @@ Alias: $us-core-observation-category = http://hl7.org/fhir/us/core/CodeSystem/us
 Instance: bodyheight-jenny-m-2018-03-06
 InstanceOf: $bodyheight
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley Body Height Example"
 * status = #final
 // * category = $observation-category#vital-signs
 * code = $loinc#8302-2
@@ -157,7 +157,7 @@ Description: "Example"
 Instance: bodyweight-jenny-m-2018-03-06
 InstanceOf: $bodyweight
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley Body Height Example 01"
 * status = #final
 // * category = $observation-category#vital-signs
 * code = $loinc#29463-7
@@ -169,7 +169,7 @@ Description: "Example"
 Instance: bodyweight-jenny-m-2018-03-16
 InstanceOf: $bodyweight
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley Body Height Example 02"
 * status = #final
 // * category = $observation-category#vital-signs
 * code = $loinc#29463-7
@@ -181,7 +181,7 @@ Description: "Example"
 Instance: bodyweight-jenny-m-2018-04-22
 InstanceOf: $bodyweight
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley Body Height Example 03"
 * status = #final
 // * category = $observation-category#vital-signs
 * code = $loinc#29463-7
@@ -469,7 +469,7 @@ Description: "Example"
 * valueCodeableConcept.coding = $sct#449868002 "Smokes tobacco daily (finding)"
 
 
-Instance: cancer-related-surgical-procedure-jenny-m
+Instance: 
 InstanceOf: Procedure
 Usage: #example
 Description: "Example"

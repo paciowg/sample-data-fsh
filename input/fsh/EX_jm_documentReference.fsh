@@ -24,7 +24,7 @@ Alias: $us-core-documentreference-category = http://hl7.org/fhir/us/core/CodeSys
 Instance: DocRef-MoCA2
 InstanceOf: DocumentReference
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley Example MoCA DocumentReference"
 // * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference" // mlt: US Core Document Reference constrains to LOINC with scale=Doc and the LOINC code chosen was panel, so we can't use this profile.
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:oid:2.16.840.1.113883.19.5.99999.1"

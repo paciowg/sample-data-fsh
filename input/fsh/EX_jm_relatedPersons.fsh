@@ -3,7 +3,7 @@ Alias: $v3-RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode
 Instance: HBJamesM1
 InstanceOf: RelatedPerson
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's Related Person - James Mosley, Half-Brother"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-relatedperson"
 * active = true
 * patient = Reference(Patient/patientJM1) "Jenny Mosley"
@@ -29,7 +29,7 @@ Alias: $v3-RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode
 Instance: Friend-RosemarieCollins
 InstanceOf: RelatedPerson
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's Related Person example for friend"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-relatedperson"
 * active = true
 * patient = Reference(Patient/patientJM1) "Jenny Mosley"

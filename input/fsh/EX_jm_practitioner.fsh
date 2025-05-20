@@ -377,7 +377,7 @@ Description: "Example"
 Instance: DrEmilyJohnson
 InstanceOf: Practitioner
 Usage: #example
-Description: "Example"
+Description: "Practitioner Example - DrEmilyJohnson"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "1234567890"
 * name.family = "Johnson"
@@ -390,7 +390,7 @@ Description: "Example"
 Instance: DrMichaelJohnson
 InstanceOf: Practitioner
 Usage: #example
-Description: "Example"
+Description: ""Practitioner Example - Dr. Michael Johnson"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "1234567890"
 * name.family = "Johnson"
@@ -403,7 +403,7 @@ Description: "Example"
 Instance: DrSarahChen
 InstanceOf: Practitioner
 Usage: #example
-Description: "Example"
+Description: "Practioner Example - Dr. Sarah Chen"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "2154879635"
 * name.family = "Chen"
