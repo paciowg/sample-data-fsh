@@ -468,8 +468,7 @@ Description: "Example"
 * valueCodeableConcept.coding.version = "http://snomed.info/sct/900000000000207008"
 * valueCodeableConcept.coding = $sct#449868002 "Smokes tobacco daily (finding)"
 
-
-Instance: 
+Instance: cancer-related-surgical-procedure-jenny-m
 InstanceOf: Procedure
 Usage: #example
 Description: "Example"

@@ -390,7 +390,7 @@ Description: "Practitioner Example - DrEmilyJohnson"
 Instance: DrMichaelJohnson
 InstanceOf: Practitioner
 Usage: #example
-Description: ""Practitioner Example - Dr. Michael Johnson"
+Description: "Practitioner Example - Dr. Michael Johnson"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "1234567890"
 * name.family = "Johnson"

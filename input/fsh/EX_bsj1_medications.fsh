@@ -7,7 +7,7 @@ InstanceOf: List
 Usage: #example
 Description: "Betsy Johnson's home medication list containing 8 medication entries."
 * status = #current
-* mode = #snapshot
+* mode = #working
 * title = "Home Medication List"
 * code = $loinc#104205-0 "Patient generated medication list [Identifier] Episode Pharmacy"
 * code.text = "Standard Medication List"
@@ -37,7 +37,7 @@ InstanceOf: List
 Usage: #example
 Description: "Betsy Johnson's hospital medication administration list containing 14 medication entries."
 * status = #current
-* mode = #snapshot
+* mode = #working
 * title = "Hospital Medication Administration List"
 * code = $loinc#104207-6 "Medication administration list [Identifier] Episode Pharmacy"
 * code.text = "Institution Administration List"
@@ -79,7 +79,7 @@ InstanceOf: List
 Usage: #example
 Description: "Betsy Johnson's hospital discharge medication list containing 13 medication entries."
 * status = #current
-* mode = #snapshot
+* mode = #working
 * title = "Hospital Discharge Medication List"
 * code = $loinc#104204-3 "Discharged medication list [Identifier] Episode Pharmacy"
 * code.text = "Institution Discharge List"
@@ -119,7 +119,7 @@ InstanceOf: List
 Usage: #example
 Description: "Betsy Johnson's snf medication  administration list containing 10 medication entries."
 * status = #current
-* mode = #snapshot
+* mode = #working
 * title = "SNF Medication  Administration List"
 * code = $loinc#104207-6 "Medication administration list [Identifier] Episode Pharmacy"
 * code.text = "Institution Administration List"
@@ -153,7 +153,7 @@ InstanceOf: List
 Usage: #example
 Description: "Betsy Johnson's snf discharge medication list containing 9 medication entries."
 * status = #current
-* mode = #snapshot
+* mode = #working
 * title = "SNF Discharge Medication List"
 * code = $loinc#104204-3 "Discharged medication list [Identifier] Episode Pharmacy"
 * code.text = "Institution Discharge List"
@@ -185,7 +185,7 @@ InstanceOf: List
 Usage: #example
 Description: "Betsy Johnson's home health active medication list containing 9 medication entries."
 * status = #current
-* mode = #snapshot
+* mode = #working
 * title = "Home Health Active Medication List"
 * code = $loinc#104202-7 "Active medication list [Identifier] Episode Pharmacy"
 * code.text = "Active Medication List"
@@ -217,7 +217,7 @@ InstanceOf: List
 Usage: #example
 Description: "Betsy Johnson's community pharmacy reconciled medication list containing 9 medication entries."
 * status = #current
-* mode = #snapshot
+* mode = #working
 * title = "Community Pharmacy Reconciled Medication List"
 * code = $loinc#104203-5 "Reconciled medication list [Identifier] Episode Pharmacy"
 * code.text = "Reconciled Medication List"
