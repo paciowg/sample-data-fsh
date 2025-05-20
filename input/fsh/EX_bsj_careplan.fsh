@@ -3,7 +3,7 @@ Alias: $careplan-category = http://hl7.org/fhir/us/core/CodeSystem/careplan-cate
 Instance: BSJ-SNFDischargeCarePlan
 InstanceOf: CarePlan
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's SNF Discharge Care Plan"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan"
 * status = #active
 * intent = #plan

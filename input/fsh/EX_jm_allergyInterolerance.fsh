@@ -6,7 +6,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: allergy-pcn-jenny-m
 InstanceOf: AllergyIntolerance
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's Penicillin Allergy"
 * clinicalStatus = $allergyintolerance-clinical#active "Active"
 * verificationStatus = $allergyintolerance-verification#confirmed "Confirmed"
 * category = #medication

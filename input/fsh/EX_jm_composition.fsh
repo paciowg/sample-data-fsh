@@ -1,7 +1,7 @@
 Instance: TOC-JM1-Hosp-to-SNF
 InstanceOf: Composition
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's Transitions of Care Document"
 * meta.profile = "http://hl7.org/fhir/us/pacio-toc/StructureDefinition/TOC-Composition"
 * language = #en-US
 * identifier.system = "http://id.example.org/TOC-JM1-Hosp-to-SNF"

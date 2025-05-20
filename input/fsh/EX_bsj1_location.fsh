@@ -28,7 +28,7 @@
 Instance: org-Loc-Neuro-Care-Inc
 InstanceOf: Location
 Usage: #example
-Description: "Example"
+Description: "Organization Neuro Care Inc Example"
 * status = #active
 * name = "Neuro Care Inc."
 * address.line = "177 Branching Tree Blvd"
@@ -41,7 +41,7 @@ Description: "Example"
 Instance: org-Loc-PC-Primary-Care-Michigan
 InstanceOf: Location
 Usage: #example
-Description: "Example"
+Description: "Organization Primary Care Michigan Example"
 * status = #active
 * name = "Michigan Primary Health Care Associates"
 * address.line = "123 Spruce Dr"
@@ -54,7 +54,7 @@ Description: "Example"
 Instance: org-Loc-SNF-Happy-Nursing-Facility
 InstanceOf: Location
 Usage: #example
-Description: "Example"
+Description: "Organization Happy Nursing Facility Example"
 * status = #active
 * name = "Happy Nursing Facility"
 * address.line = "8100 Pinebrook Dr"

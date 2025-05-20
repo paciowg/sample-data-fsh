@@ -1,7 +1,7 @@
 Instance: BSJ-TOCComposition
 InstanceOf: Composition
 Usage: #example
-Description: "Example"
+Description: "Betsy Smith-Johnson's Transitions of Care Document"
 * meta.profile = "http://hl7.org/fhir/us/pacio-toc/StructureDefinition/TOC-Composition"
 * identifier.system = "urn:oid:2.16.840.1.113883.4.823.1.7125"
 * identifier.value = "20130607100315-CCDA-CCD"

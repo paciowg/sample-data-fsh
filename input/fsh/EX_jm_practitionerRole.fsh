@@ -3,7 +3,7 @@
 Instance: Role-CaseMan-RudyBranch-01
 InstanceOf: PractitionerRole
 Usage: #example
-Description: "Example"
+Description: "PractitionerRole Example - Case Manager / Care Coordinator Rudy Branch 01"
 * active = true
 * code = $taxonomy#171M00000X "Case Manager/Care Coordinator"
 * code.text = "Case Manager / Care Coordinator"
@@ -16,7 +16,7 @@ Description: "Example"
 Instance: Role-CSW-LorettaWinkler-01
 InstanceOf: PractitionerRole
 Usage: #example
-Description: "Example"
+Description: "PractitionerRole Example - Clinical Social Worker Loretta Winkler 01"
 * active = true
 * code = $taxonomy#1041C0700X "Clinical Social Worker"
 * practitioner = Reference(Practitioner/Practitioner-LorettaWinkler-01) "Loretta Winkler"
@@ -28,7 +28,7 @@ Description: "Example"
 Instance: Role-HospiceDoc-JacksonReese-01
 InstanceOf: PractitionerRole
 Usage: #example
-Description: "Example"
+Description: "PractitionerRole Example - Hospice and Palliative Medicine Jackson Reese 01"
 * active = true
 * code = $taxonomy#207RH0002X "Hospice and Palliative Medicine (Internal Medicine) Physician"
 * practitioner = Reference(Practitioner/Practitioner-JacksonReese-01) "Jackson Reese"
@@ -40,7 +40,7 @@ Description: "Example"
 Instance: Role-IMMD-AnitaChu-01
 InstanceOf: PractitionerRole
 Usage: #example
-Description: "Example"
+Description: "PractitionerRole Example - Internal Medicine Anita Chu 01"
 * active = true
 * code = $taxonomy#207R00000X "Internal Medicine Physician"
 * practitioner = Reference(Practitioner/Practitioner-AnitaChu-01) "Dr. Anita Chu"
@@ -52,7 +52,7 @@ Description: "Example"
 Instance: Role-Neuro-NuraMekel-01
 InstanceOf: PractitionerRole
 Usage: #example
-Description: "Example"
+Description: "PractitionerRole Example - Neurology Nura Mekel 01"
 * active = true
 * code = $taxonomy#2084N0400X "Neurology Physician"
 * practitioner = Reference(Practitioner/Practitioner-NuraMekel-01) "Nura Mekel"
@@ -64,7 +64,7 @@ Description: "Example"
 Instance: Role-NPsych-EmilyCarter-01
 InstanceOf: PractitionerRole
 Usage: #example
-Description: "Example"
+Description: "PractitionerRole Example - Neurology and Psychiatry Emily Carter 01"
 * active = true
 * code = $taxonomy#2084B0040X "Behavioral Neurology & Neuropsychiatry Physician"
 * practitioner = Reference(Practitioner/Practitioner-EmilyCarter-01) "Emily Carter"
@@ -76,7 +76,7 @@ Description: "Example"
 Instance: Role-Onc-OwenOncologist-01
 InstanceOf: PractitionerRole
 Usage: #example
-Description: "Example"
+Description: "PractitionerRole Example - Oncology Owen Oncologist 01"
 * active = true
 * code = $taxonomy#2086X0206X "Surgical Oncology Physician"
 * practitioner = Reference(Practitioner/Practitioner-owen-oncologist-01) "Owen Oncologist"
@@ -88,7 +88,7 @@ Description: "Example"
 Instance: Role-OT-JenCadbury-01
 InstanceOf: PractitionerRole
 Usage: #example
-Description: "Example"
+Description: "PractitionerRole Example - Occupational Therapist Jen Cadbury 01"
 * active = true
 * code = $taxonomy#225X00000X "Occupational Therapist"
 * practitioner = Reference(Practitioner/Practitioner-JenCadbury-01) "Jen Cadbury"
@@ -100,7 +100,7 @@ Description: "Example"
 Instance: Role-PA-JosephYasher-01
 InstanceOf: PractitionerRole
 Usage: #example
-Description: "Example"
+Description: "PractitionerRole Example - Physician Assistant Joseph Yasher 01"
 * active = true
 * code = $taxonomy#363A00000X "Physician Assistant"
 * practitioner = Reference(Practitioner/Practitioner-JosephYasher-01) "Joseph Yasher"
@@ -112,7 +112,7 @@ Description: "Example"
 Instance: Role-Path-PeterPathologist-01
 InstanceOf: PractitionerRole
 Usage: #example
-Description: "Example"
+Description: "PractitionerRole Example - Pathology Peter Pathologist 01"
 * active = true
 * code = $taxonomy#207ZC0500X "Cytopathology Physician"
 * practitioner = Reference(Practitioner/Practitioner-PeterPathologist-01) "Peter Pathologist"
@@ -124,7 +124,7 @@ Description: "Example"
 Instance: Role-PT-LunaBaskins-01
 InstanceOf: PractitionerRole
 Usage: #example
-Description: "Example"
+Description: "PractitionerRole Example - Physical Therapist Luna Baskins 01"
 * active = true
 * code = $taxonomy#225100000X "Physical Therapist"
 * practitioner = Reference(Practitioner/Practitioner-LunaBaskins-01) "Luna Baskins"
@@ -136,7 +136,7 @@ Description: "Example"
 Instance: Role-RadDoc-RodericCurie-01
 InstanceOf: PractitionerRole
 Usage: #example
-Description: "Example"
+Description: "PractitionerRole Example - Radiology Roderic Curie 01"
 * active = true
 * code = $taxonomy#2085R0202X "Diagnostic Radiology Physician"
 * practitioner = Reference(Practitioner/Practitioner-RodericCurie-01) "Roderic Curie"
@@ -148,7 +148,7 @@ Description: "Example"
 Instance: Role-SLP-NancyNurse-01
 InstanceOf: PractitionerRole
 Usage: #example
-Description: "Example"
+Description: "PractitionerRole Example - Speech Language Pathologist Nancy Nurse 01"
 * active = true
 * code = $taxonomy#364SL0600X "Long-Term Care Clinical Nurse Specialist"
 * practitioner = Reference(Practitioner/Practitioner-NancyNurse-01) "Nancy Nurse"
@@ -160,7 +160,7 @@ Description: "Example"
 Instance: Role-SLP-AlexanderKuikhoff-01
 InstanceOf: PractitionerRole
 Usage: #example
-Description: "Example"
+Description: "PractitionerRole Example - Speech Language Pathologist Alexander Kuikhoff 01"
 * active = true
 * code = $taxonomy#235Z00000X "Speech-Language Pathologist" 
 * code.text = "Speech Language Pathologist"
@@ -173,7 +173,7 @@ Description: "Example"
 Instance: Role-SNFDoc-GeraldPark-01
 InstanceOf: PractitionerRole
 Usage: #example
-Description: "Example"
+Description: "PractitionerRole Example - Geriatric Medicine Gerald Park 01"
 * active = true
 * code = $taxonomy#207QG0300X "Geriatric Medicine (Family Medicine) Physician"
 * code.text = "Geriatric Medicine Physician"

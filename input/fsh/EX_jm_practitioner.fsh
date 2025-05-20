@@ -1,7 +1,7 @@
 Instance: Practitioner-AlexanderKuikhoff-01
 InstanceOf: Practitioner
 Usage: #example
-Description: "Example"
+Description: "Practitioner Example - Alexander Kuikhoff"
 * meta.versionId = "4"
 * meta.lastUpdated = "2024-09-21T14:14:58.000+00:00"
 // * meta.source = "#7DEapuGTyPa8JExC"
@@ -26,7 +26,7 @@ Description: "Example"
 Instance: Practitioner-AnitaChu-01
 InstanceOf: Practitioner
 Usage: #example
-Description: "Example"
+Description: "Practitioner Example - Anita Chu"
 * meta.versionId = "4"
 * meta.lastUpdated = "2024-09-20T19:03:21.000+00:00"
 // * meta.source = "#S7gHLyFgHVToyfil"
@@ -51,7 +51,7 @@ Description: "Example"
 Instance: Practitioner-EmilyCarter-01
 InstanceOf: Practitioner
 Usage: #example
-Description: "Example"
+Description: "Practitioner Example - Emily Carter"
 * meta.versionId = "4"
 * meta.lastUpdated = "2024-09-21T14:14:58.000+00:00"
 // * meta.source = "#7DEapuGTyPa8JExC"
@@ -76,7 +76,7 @@ Description: "Example"
 Instance: Practitioner-GeraldPark-01
 InstanceOf: Practitioner
 Usage: #example
-Description: "Example"
+Description: "Practitioner Example - Gerald Park"
 * meta.versionId = "2"
 * meta.lastUpdated = "2024-09-21T14:20:39.000+00:00"
 // * meta.source = "#uLpgpufbAOK8WsVT"
@@ -101,7 +101,7 @@ Description: "Example"
 Instance: Practitioner-JacksonReese-01
 InstanceOf: Practitioner
 Usage: #example
-Description: "Example"
+Description: "Practitioner Example - Jackson Reese"
 * meta.versionId = "4"
 * meta.lastUpdated = "2024-12-24T14:11:15.000+00:00"
 // * meta.source = "#V6qO71UpaFWv7GXQ"
@@ -126,7 +126,7 @@ Description: "Example"
 Instance: Practitioner-JenCadbury-01
 InstanceOf: Practitioner
 Usage: #example
-Description: "Example"
+Description: "Practitioner Example - Jen Cadbury"
 * meta.versionId = "5"
 * meta.lastUpdated = "2024-09-21T14:16:50.000+00:00"
 // * meta.source = "#DEWzr3FAeLp88UUB"
@@ -151,7 +151,7 @@ Description: "Example"
 Instance: Practitioner-JosephYasher-01
 InstanceOf: Practitioner
 Usage: #example
-Description: "Example"
+Description: "Practitioner Example - Joseph Yasher"
 * meta.versionId = "2"
 * meta.lastUpdated = "2024-12-31T14:20:39.000+00:00"
 // * meta.source = "#uLpgpufbAOK8WsVT"
@@ -176,7 +176,7 @@ Description: "Example"
 Instance: Practitioner-LorettaWinkler-01
 InstanceOf: Practitioner
 Usage: #example
-Description: "Example"
+Description: "Practitioner Example - Loretta Winkler"
 * meta.versionId = "2"
 * meta.lastUpdated = "2024-12-31T14:20:39.000+00:00"
 // * meta.source = "#uLpgpufbAOK8WsVT"
@@ -201,7 +201,7 @@ Description: "Example"
 Instance: Practitioner-LunaBaskins-01
 InstanceOf: Practitioner
 Usage: #example
-Description: "Example"
+Description: "Practitioner Example - Luna Baskins"
 * meta.versionId = "4"
 * meta.lastUpdated = "2024-09-21T14:13:25.000+00:00"
 // * meta.source = "#t1IJv2gvYZdDhhSz"
@@ -226,7 +226,7 @@ Description: "Example"
 Instance: Practitioner-NancyNurse-01
 InstanceOf: Practitioner
 Usage: #example
-Description: "Example"
+Description: "Practitioner Example - Nancy Nurse"
 * meta.versionId = "2"
 * meta.lastUpdated = "2024-12-31T14:20:39.000+00:00"
 // * meta.source = "#uLpgpufbAOK8WsVT"
@@ -251,7 +251,7 @@ Description: "Example"
 Instance: Practitioner-NuraMekel-01
 InstanceOf: Practitioner
 Usage: #example
-Description: "Example"
+Description: "Practitioner Example - Nura Mekel"
 * meta.versionId = "4"
 * meta.lastUpdated = "2024-09-21T14:11:15.000+00:00"
 // * meta.source = "#V6qO71UpaFWv7GXQ"
@@ -276,7 +276,7 @@ Description: "Example"
 Instance: Practitioner-PeterPathologist-01
 InstanceOf: Practitioner
 Usage: #example
-Description: "Example"
+Description: "Practitioner Example - Peter Pathologist"
 * meta.versionId = "4"
 * meta.lastUpdated = "2024-12-24T14:11:15.000+00:00"
 // * meta.source = "#V6qO71UpaFWv7GXQ"
@@ -301,7 +301,7 @@ Description: "Example"
 Instance: Practitioner-RodericCurie-01
 InstanceOf: Practitioner
 Usage: #example
-Description: "Example"
+Description: "Practitioner Example - Roderic Curie 01"
 * meta.versionId = "4"
 * meta.lastUpdated = "2024-12-24T14:11:15.000+00:00"
 // * meta.source = "#V6qO71UpaFWv7GXQ"
@@ -326,7 +326,7 @@ Description: "Example"
 Instance: Practitioner-RudyBranch-01
 InstanceOf: Practitioner
 Usage: #example
-Description: "Example"
+Description: "Practitioner Example - Rudy Branch 01" 
 * meta.versionId = "4"
 * meta.lastUpdated = "2024-12-24T14:11:15.000+00:00"
 // * meta.source = "#V6qO71UpaFWv7GXQ"
@@ -351,7 +351,7 @@ Alias: $v2-0360 = http://terminology.hl7.org/CodeSystem/v2-0360
 Instance: Practitioner-owen-oncologist-01
 InstanceOf: Practitioner
 Usage: #example
-Description: "Example"
+Description: "Practitioner Example - Owen Oncologist 01"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "1166674220"
@@ -417,7 +417,7 @@ Description: "Practioner Example - Dr. Sarah Chen"
 Instance: us-core-practitioner-jane-radiotech
 InstanceOf: Practitioner
 Usage: #example
-Description: "Example"
+Description: "Practitioner Example - Jane Radiologist"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "2345123675"
@@ -439,7 +439,7 @@ Alias: $v2-0360 = http://terminology.hl7.org/CodeSystem/v2-0360
 Instance: us-core-practitioner-kyle-anydoc
 InstanceOf: Practitioner
 Usage: #example
-Description: "Example"
+Description: "Practitioner Example - Kyle Anydoc"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "9988776651"
@@ -459,7 +459,7 @@ Description: "Example"
 Instance: us-core-practitioner-mary-obgyn
 InstanceOf: Practitioner
 Usage: #example
-Description: "Example"
+Description: "Practitioner Example - Mary Obgyn"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "2345123675"
@@ -480,7 +480,7 @@ Description: "Example"
 Instance: us-core-practitioner-nancy-oncology-nurse
 InstanceOf: Practitioner
 Usage: #example
-Description: "Example"
+Description: "Practitioner Example - Nancy Oncology Nurse"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "5566778895"
@@ -500,7 +500,7 @@ Description: "Example"
 Instance: us-core-practitioner-peter-pathologist
 InstanceOf: Practitioner
 Usage: #example
-Description: "Example"
+Description: "Practitioner Example - Peter Pathologist"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "9817951939"

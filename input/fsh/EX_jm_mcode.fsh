@@ -6,7 +6,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: human-specimen-left-breast-jenny-m
 InstanceOf: Specimen
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley Left Breast Specimen Example"
 * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-human-specimen"
 * status = #available
 * type = $v2-0487#TISS
@@ -23,7 +23,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: tumor-specimen-left-breast-jenny-m
 InstanceOf: Specimen
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley Left Breast Tumor Specimen Example"
 * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-human-specimen"
 * identifier.use = #usual
 * identifier.type = $resource-types#BodyStructure
@@ -43,7 +43,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: primary-cancer-condition-jenny-m
 InstanceOf: Condition
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley Primary Cancer Condition Example"
 * clinicalStatus = $condition-clinical#remission
 * verificationStatus = $condition-ver-status#confirmed
 * category = $condition-category#problem-list-item "Problem List Item"
@@ -56,7 +56,7 @@ Description: "Example"
 Instance: us-core-condition-anxiety-jenny-m
 InstanceOf: Condition
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley Anxiety Condition Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns"
 * clinicalStatus = $condition-clinical#active "Active"
 * verificationStatus = $condition-ver-status#confirmed "Confirmed"
@@ -70,7 +70,7 @@ Description: "Example"
 Instance: us-core-condition-depression-jenny-m
 InstanceOf: Condition
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's Depression Condition Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
@@ -84,7 +84,7 @@ Description: "Example"
 Instance: us-core-condition-hypertension-jenny-m
 InstanceOf: Condition
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's Hypertension Condition Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
@@ -101,7 +101,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: family-member-history-aunt-jenny-m
 InstanceOf: FamilyMemberHistory
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's Aunt Family Member History Example"
 * status = #completed
 * patient = Reference(Patient/patientJM1)
 * relationship = $v3-RoleCode#MAUNT "maternal aunt"
@@ -113,7 +113,7 @@ Description: "Example"
 Instance: family-member-history-sister-jenny-m
 InstanceOf: FamilyMemberHistory
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's Sister Family Member History Example"
 * status = #completed
 * patient = Reference(Patient/patientJM1)
 * relationship = $v3-RoleCode#NSIS "natural sister"
@@ -125,7 +125,7 @@ Description: "Example"
 Instance: family-member-history-uncle-jenny-m
 InstanceOf: FamilyMemberHistory
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's Family Member History Example - Uncle"
 * status = #completed
 * patient = Reference(Patient/patientJM1)
 * relationship = $v3-RoleCode#PUNCLE "paternal uncle"
@@ -193,7 +193,7 @@ Description: "Jenny Mosley Body Height Example 03"
 Instance: cancer-disease-status-jenny-m
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's Cancer Disease Status Example"
 * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-disease-status"
 * extension.url = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-disease-status-evidence-type"
 * extension.valueCodeableConcept.coding.version = "http://snomed.info/sct/900000000000207008"
@@ -211,7 +211,7 @@ Description: "Example"
 Instance: ecog-performance-status-jenny-m
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's ECOG Performance Status Example"
 * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-ecog-performance-status"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -228,7 +228,7 @@ Description: "Example"
 Instance: observation-smoking-pack-years-jenny-m
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's Smoking Pack Years Example"
 * status = #final
 * category = $observation-category#social-history "Social History"
 * code.coding.version = "http://snomed.info/sct/900000000000207008"
@@ -241,7 +241,7 @@ Description: "Example"
 Instance: tnm-clinical-distant-metastases-category-jenny-m
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's Clinical Distant Metastases Category Example"
 * status = #final
 * category = $observation-category#laboratory "Laboratory"
 * code.coding.version = "http://snomed.info/sct/900000000000207008"
@@ -255,7 +255,7 @@ Description: "Example"
 Instance: tnm-clinical-primary-tumor-category-jenny-m
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's Clinical Primary Tumor Category Example"
 * status = #final
 * category = $observation-category#laboratory "Laboratory"
 * code.coding.version = "http://snomed.info/sct/900000000000207008"
@@ -269,7 +269,7 @@ Description: "Example"
 Instance: tnm-clinical-regional-nodes-category-jenny-m
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's Clinical Regional Nodes Category Example"
 * status = #final
 * category = $observation-category#laboratory "Laboratory"
 * code.coding.version = "http://snomed.info/sct/900000000000207008"
@@ -283,7 +283,7 @@ Description: "Example"
 Instance: tnm-clinical-stage-group-jenny-m
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's Clinical Stage Group Example"
 * status = #final
 * category = $observation-category#laboratory "Laboratory"
 * code.coding.version = "http://snomed.info/sct/900000000000207008"
@@ -302,7 +302,7 @@ Alias: $data-absent-reason = http://terminology.hl7.org/CodeSystem/data-absent-r
 Instance: tnm-pathologic-distant-metastases-category-jenny-m
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's Pathologic Distant Metastases Category Example"
 * status = #final
 * category = $observation-category#laboratory "Laboratory"
 * code.coding.version = "http://snomed.info/sct/900000000000207008"
@@ -318,7 +318,7 @@ Alias: $sct = http://snomed.info/sct
 Instance: tnm-pathologic-primary-tumor-category-jenny-m
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's Pathologic Primary Tumor Category Example"
 * status = #final
 * category = $observation-category#laboratory "Laboratory"
 * code.coding.version = "http://snomed.info/sct/900000000000207008"
@@ -333,7 +333,7 @@ Description: "Example"
 Instance: tnm-pathologic-regional-nodes-category-jenny-m
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's Pathologic Regional Nodes Category Example"
 * status = #final
 * category = $observation-category#laboratory "Laboratory"
 * code.coding.version = "http://snomed.info/sct/900000000000207008"
@@ -347,7 +347,7 @@ Description: "Example"
 Instance: tnm-pathologic-stage-group-jenny-m
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's Pathologic Stage Group Example"
 * status = #final
 * category = $observation-category#laboratory "Laboratory"
 * code.coding.version = "http://snomed.info/sct/900000000000207008"
@@ -362,7 +362,7 @@ Description: "Example"
 Instance: tumor-marker-test-er-jenny-m
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's Tumor Marker Test Example"
 * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-tumor-marker-test"
 * status = #final
 * category = $observation-category#laboratory
@@ -375,7 +375,7 @@ Description: "Example"
 Instance: tumor-marker-test-her2-jenny-m
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's Tumor Marker Test Example"
 * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-tumor-marker-test"
 * status = #final
 * category = $observation-category#laboratory
@@ -392,7 +392,7 @@ Alias: $v3-ObservationInterpretation = http://terminology.hl7.org/CodeSystem/v3-
 Instance: tumor-marker-test-oncotype-dx-jenny-m
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's Tumor Marker Test Example"
 * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-tumor-marker-test"
 * status = #final
 * category = $observation-category#laboratory
@@ -407,7 +407,7 @@ Description: "Example"
 Instance: tumor-marker-test-pr-jenny-m
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's Tumor Marker Test Example"
 * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-tumor-marker-test"
 * status = #final
 * category = $observation-category#laboratory
@@ -424,7 +424,7 @@ Alias: $referencerange-meaning = http://terminology.hl7.org/CodeSystem/reference
 Instance: us-core-observation-lab-neutrophils-jenny-m
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's Neutrophils Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
 * status = #final
 * category = $observation-category#laboratory
@@ -441,7 +441,7 @@ Description: "Example"
 Instance: us-core-observation-lab-tumor-grade-jenny-m
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's Tumor Grade Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
 * status = #final
 * category = $observation-category#laboratory
@@ -456,7 +456,7 @@ Description: "Example"
 Instance: us-core-smokingstatus-jenny-m
 InstanceOf: Observation
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's Smoking Status Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-smokingstatus"
 * status = #final
 * category = $observation-category#social-history
@@ -471,7 +471,7 @@ Description: "Example"
 Instance: cancer-related-surgical-procedure-jenny-m
 InstanceOf: Procedure
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's Cancer-Related Surgical Procedure Example"
 * meta.profile = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-cancer-related-surgical-procedure"
 * extension.url = "http://hl7.org/fhir/us/mcode/StructureDefinition/mcode-procedure-intent"
 * extension.valueCodeableConcept.coding.version = "http://snomed.info/sct/900000000000207008"
@@ -489,7 +489,7 @@ Description: "Example"
 Instance: us-core-procedure-biopsy-jenny-m
 InstanceOf: Procedure
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's Biopsy Procedure Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
 * status = #completed
 * code.coding.version = "http://snomed.info/sct/900000000000207008"
@@ -505,7 +505,7 @@ Description: "Example"
 Instance: us-core-procedure-mammogram-jenny-m
 InstanceOf: Procedure
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's Mammogram Procedure Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-procedure"
 * status = #completed
 * code.coding.version = "http://snomed.info/sct/900000000000207008"

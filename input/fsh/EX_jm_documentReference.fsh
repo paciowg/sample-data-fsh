@@ -42,7 +42,7 @@ Description: "Jenny Mosley Example MoCA DocumentReference"
 Instance: us-core-DocumentReference-gait-jenny-m
 InstanceOf: DocumentReference
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's FHIR DocumentReference resourc for Gait"
 // * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference" // mlt: US Core Document Reference constrains to LOINC with scale=Doc and the LOINC code chosen was panel, so we can't use this profile.
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:oid:2.16.840.1.113883.19.5.99999.1"

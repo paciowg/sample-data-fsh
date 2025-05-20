@@ -3,7 +3,7 @@ Alias: $loinc = http://loinc.org
 Instance: path-report-jenny-m
 InstanceOf: DocumentReference
 Usage: #example
-Description: "Example"
+Description: "Jenny Mosley's DocumentReference Pathology Report"
 * status = #current
 * type = $loinc#102009-8 "Clinical pathology Laboratory report"
 * subject = Reference(Patient/patientJM1)
