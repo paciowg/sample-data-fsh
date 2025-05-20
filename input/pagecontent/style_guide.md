@@ -40,7 +40,7 @@ Then add a brief summary in description field if there is a change.
 patient Jenny Mosley prescribed the medication metoprolol for the first time, will have the following representation in FSH:
 
 ```
-id: "jennymosley01-medicationrequest-metoprolol-01"
+id: "jennymosley01-MedicationRequest-Metoprolol-01"
 Description: "Patient Jenny Mosley with initial medication metoprolol prescribed."
 ```
 

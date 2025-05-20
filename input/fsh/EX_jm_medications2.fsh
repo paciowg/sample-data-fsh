@@ -81,7 +81,7 @@ Description: "Jenny Mosley has an active MedicationRequest for atorvastatin 40mg
 * dispenseRequest.expectedSupplyDuration = 1 'm' "month"
 
 
-Instance: medicationrequest-DexamethasoneHosp2
+Instance: MedicationRequest-DexamethasoneHosp2
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Jenny Mosley has an active MedicationRequest for dexAMETHasone 4 MG Oral Tablet to be taken daily during chemotherapy."
@@ -163,7 +163,7 @@ Description: "Jenny Mosley has an active MedicationRequest for metoclopromide 10
 * dispenseRequest.expectedSupplyDuration = 3 'wk' "week"
 
 
-Instance: medicationrequest-MetoprololHosp2
+Instance: MedicationRequest-MetoprololHosp2
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Jenny Mosley has an active MedicationRequest for metoprolol tartrate 50mg oral tablets to be taken twice daily for a specified reason."
@@ -296,7 +296,7 @@ Instance: SMP-MedStmt-DexamethasoneHosp2
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is actively taking dexAMETHasone 4 MG Oral Tablet once daily for metastatic malignant neoplasm to the brain, as prescribed by Puget Sound Cancer Center."
-* basedOn = Reference(MedicationRequest/medicationrequest-DexamethasoneHosp2)
+* basedOn = Reference(MedicationRequest/MedicationRequest-DexamethasoneHosp2)
 * status = #active
 * medicationCodeableConcept = $rxnorm#197582 "dexamethasone 4 MG Oral Tablet"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
@@ -339,7 +339,7 @@ Instance: SMP-MedStmt-MetoprololHosp2
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is taking metoprolol tartrate 50 MG Oral Tablet twice daily for systemic arterial hypertension, as per Puget Sound Cancer Center."
-* basedOn = Reference(MedicationRequest/medicationrequest-MetoprololHosp2)
+* basedOn = Reference(MedicationRequest/MedicationRequest-MetoprololHosp2)
 * status = #active
 * medicationCodeableConcept = $rxnorm#866514 "metoprolol tartrate 50 MG Oral Tablet"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"

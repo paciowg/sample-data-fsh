@@ -3,3 +3,13 @@
 # Add warning and/or information messages here after you've confirmed that they aren't really a problem
 # (And include comments like this justifying why)
 # See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
+
+# Changes to local code systems in the CI builds point to a canonical URI that is bound to a published version.
+%Unknown code 'd3301' in the CodeSystem 'http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs' version '2.0.0-ballot'%
+%Unknown code 'd4014' in the CodeSystem 'http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs' version '2.0.0-ballot'%
+%Unknown code 'blockl2-d51' in the CodeSystem 'http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs' version '2.0.0-ballot'%
+%Unknown code 'd2208' in the CodeSystem 'http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs' version '2.0.0-ballot'%
+Unknown code 'blockl2-d41' in the CodeSystem 'http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs' version '2.0.0-ballot'
+
+# Accepting unresolved example.org URLs since this IG is strictly for creating sample data
+%URL value 'http://hospital.smarthealthit.org' does not resolve%

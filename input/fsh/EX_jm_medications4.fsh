@@ -86,7 +86,7 @@ Description: "Jenny Mosley has an active MedicationRequest for atorvastatin 40mg
 * dispenseRequest.expectedSupplyDuration = 1 'm' "month"
 
 
-Instance: medicationrequest-DexamethasoneSNFpalliative
+Instance: MedicationRequest-DexamethasoneSNFpalliative
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Jenny Mosley is prescribed dexAMETHasone 4 MG Oral Tablet daily for chemotherapy. Status: active, Intent: order."
@@ -168,7 +168,7 @@ Description: "Jenny Mosley has an active MedicationRequest for metoclopromide 10
 * dispenseRequest.expectedSupplyDuration = 3 'wk' "week"
 
 
-Instance: medicationrequest-MetoprololSNFpalliative
+Instance: MedicationRequest-MetoprololSNFpalliative
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Jenny Mosley has an active MedicationRequest for metoprolol tartrate 50mg oral tablets to be taken twice daily for a specific medical condition."
@@ -348,7 +348,7 @@ Instance: SMP-MedStmt-DexamethasoneSNFpalliative
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is currently taking dexAMETHasone 4 MG Oral Tablet daily for metastatic malignant neoplasm to the brain, as per Happy Nursing Facility."
-* basedOn = Reference(MedicationRequest/medicationrequest-DexamethasoneSNFpalliative)
+* basedOn = Reference(MedicationRequest/MedicationRequest-DexamethasoneSNFpalliative)
 * status = #active
 * medicationCodeableConcept = $rxnorm#197582 "dexamethasone 4 MG Oral Tablet"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
@@ -390,7 +390,7 @@ Instance: SMP-MedStmt-MetoprololSNFpalliative
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is actively taking metoprolol tartrate 50mg tablets orally twice daily for systemic arterial hypertension, as per Happy Nursing Facility."
-* basedOn = Reference(MedicationRequest/medicationrequest-MetoprololSNFpalliative)
+* basedOn = Reference(MedicationRequest/MedicationRequest-MetoprololSNFpalliative)
 * status = #active
 * medicationCodeableConcept = $rxnorm#866514 "metoprolol tartrate 50 MG Oral Tablet"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"

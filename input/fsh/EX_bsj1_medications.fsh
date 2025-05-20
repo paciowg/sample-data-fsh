@@ -587,10 +587,15 @@ Description: "Betsy Johnson medication request of 3, Novolin-R Sliding scale ins
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "Novolin-R Sliding scale insulin protocol"
 
+/*
+// Commented out - This is was an incorrect representation.
+// What was being asked was a more complex conditional medication request with multiple medications and instructions. Simplified to a single medication request with a conditional reference.
+// The original code was not correct and was replaced with a more accurate representation of the medication request.
+
 Instance: smp-medrx-2-25
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "Betsy Johnson medication request of Hydralazine, Hydralazine IV 10mg q4h pen SBP>160, if Hydralazine not effective Labetalol 10mg IV q4h prn SBP>160 hold for hr if less than 55 per."
+Description: "Betsy Johnson medication request of Hydralazine, Hydralazine IV 10mg q4h pen SBP>160, if Hydralazine not effective Labetalol 10mg IV q4h prn SBP>160 hold for hr if less than 55 per hospital protocol."
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#"966570 and 202693" "Hydralazine IV 10mg q4h pen SBP>160, if Hydralazine not effective Labetalol 10mg IV q4h prn SBP>160 hold for hr if less than 55 per hospital protocol"
@@ -599,6 +604,36 @@ Description: "Betsy Johnson medication request of Hydralazine, Hydralazine IV 10
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "Hydralazine IV 10mg q4h pen SBP>160, if Hydralazine not effective Labetalol 10mg IV q4h prn SBP>160 hold for hr if less than 55 per hospital protocol"
+
+*/  // end of original commented out section
+
+// ****** Replaced smp-medrx-2-25 without conditional MedicationRequest references *****
+Alias: $rxnorm = http://www.nlm.nih.gov/research/umls/rxnorm
+
+Instance: smp-medrx-2-25
+InstanceOf: MedicationRequest
+Usage: #example
+* status = #active
+* intent = #order
+* category = $medicationrequest-category#inpatient "Inpatient"
+* priority = #routine
+* medicationCodeableConcept = $rxnorm#966571 "1 ML hydralazine hydrochloride 20 MG/ML Injection" // replaced with updated RxNorm code since original was deprecated.
+* medicationCodeableConcept.text = "Hydralazine 10 mg IV"
+* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* authoredOn = "2024-08-21"
+* requester = Reference(Practitioner/Practitioner-JenCadbury) "Dr. Jen Cadbury"
+* reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
+* dosageInstruction.sequence = 1
+* dosageInstruction.text = "Hydralazine IV 10mg q4h when SBP>160; Hold if HR less than 55 per hospital protocol"
+* dosageInstruction.timing.repeat.frequency = 1
+* dosageInstruction.timing.repeat.period = 4
+* dosageInstruction.timing.repeat.periodUnit = #h
+* dosageInstruction.asNeededCodeableConcept.text = "SBP>160"
+* dosageInstruction.route = $sct#47625008 "Intravenous route"
+* dosageInstruction.doseAndRate.type = $dose-rate-type#ordered "Ordered"
+* dosageInstruction.doseAndRate.doseQuantity = 10 'mg' "mg"
+* substitution.allowedBoolean = false
+* note.text = "If Hydralazine not effective, order Labetalol 10mg IV q4h prn SBP>160 hold for hr if less than 55 per hospital protocol"
 
 Instance: smp-medrx-3-41
 InstanceOf: MedicationRequest
@@ -1254,7 +1289,8 @@ Usage: #example
 Description: "Betsy Johnson active medication statement for Hydralazine, Hydralazine IV 10mg q4h pen SBP>160, if Hydralazine not effective Labetalol 10mg IV q4h prn SBP>160 hold for hr if less than 55."
 * basedOn = Reference(smp-medrx-2-25)
 * status = #active
-* medicationCodeableConcept = $rxnorm#"966570 and 202693" "Hydralazine IV 10mg q4h pen SBP>160, if Hydralazine not effective Labetalol 10mg IV q4h prn SBP>160 hold for hr if less than 55 per hospital protocol"
+* medicationCodeableConcept = $rxnorm#225090 "Hydralazine Hydrochloride 10 MG Intravenous Solution"
+* medicationCodeableConcept.text = "Hydralazine 10 mg IV"
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * dateAsserted = "2024-08-21"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"

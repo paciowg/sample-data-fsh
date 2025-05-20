@@ -34,7 +34,7 @@ Description: "Jenny Mosley has an active MedicationRequest for acetaminophen 500
 Alias: $rxnorm = http://www.nlm.nih.gov/research/umls/rxnorm
 Alias: $sct = http://snomed.info/sct
 
-Instance: medicationrequest-AlprazolamSNFdischarge
+Instance: MedicationRequest-AlprazolamSNFdischarge
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Jenny Mosley has an active MedicationRequest for ALPRAZolam 0.5 MG Oral Tablet, to be taken up to three times daily as needed."
@@ -88,7 +88,7 @@ Description: "Jenny Mosley has an active MedicationRequest for atorvastatin 40mg
 * dispenseRequest.expectedSupplyDuration = 1 'm' "month"
 
 
-Instance: medicationrequest-DexamethasoneSNFdischarge
+Instance: MedicationRequest-DexamethasoneSNFdischarge
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Jenny Mosley has an active MedicationRequest for dexAMETHasone 4 MG Oral Tablet to be taken daily during chemotherapy."
@@ -174,7 +174,7 @@ Description: "Jenny Mosley has an active MedicationRequest for metoclopromide 10
 Alias: $rxnorm = http://www.nlm.nih.gov/research/umls/rxnorm
 Alias: $sct = http://snomed.info/sct
 
-Instance: medicationrequest-MetoprololSNFdischarge
+Instance: MedicationRequest-MetoprololSNFdischarge
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Jenny Mosley has an active MedicationRequest for metoprolol tartrate 50mg oral tablet, to be taken twice daily for a specified reason."
@@ -299,7 +299,7 @@ Instance: SMP-MedStmt-AlprazolamSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is taking ALPRAZolam 0.5 MG Oral Tablet for anxiety disorder, as prescribed by Happy Nursing Facility. Take up to three tablets daily as needed."
-* basedOn = Reference(MedicationRequest/medicationrequest-AlprazolamSNFdischarge)
+* basedOn = Reference(MedicationRequest/MedicationRequest-AlprazolamSNFdischarge)
 * status = #active
 * medicationCodeableConcept = $rxnorm#308048 "alprazolam 0.5 MG Oral Tablet"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
@@ -325,7 +325,7 @@ Instance: SMP-MedStmt-DexamethasoneSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is taking dexAMETHasone 4 MG Oral Tablet daily for brain metastases, as prescribed by Happy Nursing Facility."
-* basedOn = Reference(MedicationRequest/medicationrequest-DexamethasoneSNFdischarge)
+* basedOn = Reference(MedicationRequest/MedicationRequest-DexamethasoneSNFdischarge)
 * status = #active
 * medicationCodeableConcept = $rxnorm#197582 "dexamethasone 4 MG Oral Tablet"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
@@ -367,7 +367,7 @@ Instance: SMP-MedStmt-MetoprololSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is actively taking metoprolol tartrate 50 MG Oral Tablet for systemic arterial hypertension, as prescribed by Happy Nursing Facility."
-* basedOn = Reference(MedicationRequest/medicationrequest-MetoprololSNFdischarge)
+* basedOn = Reference(MedicationRequest/MedicationRequest-MetoprololSNFdischarge)
 * status = #active
 * medicationCodeableConcept = $rxnorm#866514 "metoprolol tartrate 50 MG Oral Tablet"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"

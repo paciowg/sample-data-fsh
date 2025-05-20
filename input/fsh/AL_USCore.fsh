@@ -11,6 +11,8 @@ Alias:   USCoreClinicalResult = http://hl7.org/fhir/us/core/StructureDefinition/
 Alias:   USCoreVitalSigns = http://hl7.org/fhir/us/core/StructureDefinition/us-core-vital-signs
 Alias:   USCoreObservationSimple = http://hl7.org/fhir/us/core/StructureDefinition/us-core-simple-observation
 Alias:   USCoreSpecimen = http://hl7.org/fhir/us/core/StructureDefinition/us-core-specimen
+Alias:   $dose-rate-type = http://terminology.hl7.org/CodeSystem/dose-rate-type
+
 
 // Extensions
 Alias:   USCoreBirthSex = http://hl7.org/fhir/us/core/StructureDefinition/us-core-birthsex

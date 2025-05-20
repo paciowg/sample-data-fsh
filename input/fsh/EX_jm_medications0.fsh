@@ -316,7 +316,7 @@ Description: "Jenny Mosley has an active MedicationRequest for atorvastatin 40mg
 * dispenseRequest.expectedSupplyDuration = 1 'm' "month"
 
 
-Instance: medicationrequest-MetoprololHome
+Instance: MedicationRequest-MetoprololHome
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Jenny Mosley has an active MedicationRequest for metoprolol tartrate 50mg oral tablets to be taken twice daily, ordered on 2024-08-13."
@@ -377,7 +377,7 @@ Instance: SMP-MedStmt-MetoprololHome
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is actively taking metoprolol tartrate 50 MG Oral Tablet for systemic arterial hypertension, prescribed by Washington Primary Health Care Associates."
-* basedOn = Reference(MedicationRequest/medicationrequest-MetoprololHome)
+* basedOn = Reference(MedicationRequest/MedicationRequest-MetoprololHome)
 * status = #active
 * medicationCodeableConcept = $rxnorm#866514 "metoprolol tartrate 50 MG Oral Tablet"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"

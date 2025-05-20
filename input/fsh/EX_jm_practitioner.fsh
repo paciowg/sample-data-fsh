@@ -354,7 +354,7 @@ Usage: #example
 Description: "Example"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-practitioner"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
-* identifier.value = "1526389470"
+* identifier.value = "1166674220"
 * name.family = "Oncologist"
 * name.given = "Owen"
 * name.prefix = "Dr."
