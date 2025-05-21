@@ -7,7 +7,7 @@ Description: "Dr. Anita Chu's role at Michigan Primary Health Care Associates."
 * code = $taxonomy#207R00000X "Internal Medicine Physician"
 * practitioner = Reference(Practitioner/Practitioner-AnitaChu) "Dr. Anita Chu"
 * organization = Reference(Organization/org-PC-Primary-Care-Michigan) "Michigan Primary Health Care Associates"
-* location = Reference(Location/org-Loc-PC-Primary-Care-Michigan)
+* location = Reference(Location/)
 
 Instance: Role-Neuro-NuraMekel
 InstanceOf: PractitionerRole
@@ -26,7 +26,7 @@ Description: "Jen Cadbury's role at Happy Nursing Facility."
 * active = true
 * code = $taxonomy#225X00000X "Occupational Therapist"
 * practitioner = Reference(Practitioner/Practitioner-JenCadbury) "Jen Cadbury"
-* organization = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
+* organization = Reference(Organization/org-Motor-City-Nursing-Facility) "Happy Nursing Facility"
 * location = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
 
@@ -57,7 +57,7 @@ Description: "Luna Baskins's role at Happy Nursing Facility."
 * active = true
 * code = $taxonomy#225100000X "Physical Therapist"
 * practitioner = Reference(Practitioner/Practitioner-LunaBaskins) "Luna Baskins"
-* organization = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
+* organization = Reference(Organization/org-Motor-City-Nursing-Facility) "Happy Nursing Facility"
 * location = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
 Instance: Role-SLP-AlexanderKuikhoff
@@ -68,7 +68,7 @@ Description: "Alexander Kuikhoff's role at Happy Nursing Facility."
 * code = $taxonomy#235Z00000X "Speech-Language Pathologist" 
 * code.text = "Speech Language Pathologist"
 * practitioner = Reference(Practitioner/Practitioner-AlexanderKuikhoff) "Alexander Kuikhoff"
-* organization = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
+* organization = Reference(Organization/org-Motor-City-Nursing-Facility) "Happy Nursing Facility"
 * location = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
 Instance: Role-SNFDoc-GeraldPark
@@ -79,6 +79,6 @@ Description: "Gerald Park's role at Happy Nursing Facility."
 * code = $taxonomy#207QG0300X "Geriatric Medicine (Family Medicine) Physician"
 * code.text = "Geriatric Medicine Physician"
 * practitioner = Reference(Practitioner/Practioner-GeraldPark) "Gerald Park"
-* organization = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
+* organization = Reference(Organization/org-Motor-City-Nursing-Facility) "Happy Nursing Facility"
 * location = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 

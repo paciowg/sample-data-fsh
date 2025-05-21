@@ -160,7 +160,7 @@ Description: "The Vernon Center organization."
 // * address.country = "US"
 // * address.text = "155 Light Commercial Ave, Grand Rapids, MI 49509"
 
-// Instance: org-SNF-Happy-Nursing-Facility
+// Instance: org-Motor-City-Nursing-Facility
 // InstanceOf: Organization
 // Usage: #example
 // Description: "Happy Nursing Facility's organization record."
