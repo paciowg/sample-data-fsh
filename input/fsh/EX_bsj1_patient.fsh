@@ -33,23 +33,23 @@ Description: "Betsy Smith-Johnson's patient record, #female born on 1958-11-01."
 * telecom[=].use = #home
 * telecom[+].system = #phone
 * telecom[=].value = "(410) 444-5555"
-* address.line = "4885 Kensington Avenue"
+* address.line = "17040 E Warren Avenue"
 * address.city = "Detroit"
 * address.state = "MI"
 * address.postalCode = "48224"
 * address.country = "US"
 * address.period.start = "2016-12-06"
-* address.text = "4885 Kensington Avenue, Detroit, MI 48224"
+* address.text = "17040 E Warren Avenue, Detroit, MI 48224"
 * maritalStatus = $v3-NullFlavor#UNK
 * contact[0].relationship = $v3-RoleCode#SONC
 * contact[=].name.text = "Charles Johnson"
 * contact[=].telecom.system = #phone
-* contact[=].telecom.value = "(210) 222-3333"
-* contact[=].address.text = "4885 Kensington Avenue, Detroit, MI 48224"
+* contact[=].telecom.value = "(555) 453-2669"
+* contact[=].address.text = "17040 E Warren Avenue, Detroit, MI 48224"
 * contact[+].relationship = $v3-RoleCode#DAUC
 * contact[=].name.text = "Debra Johnson"
 * contact[=].telecom.system = #phone
-* contact[=].telecom.value = "(210) 222-3333"
-* contact[=].address.text = "4885 Kensington Avenue, Detroit, MI 48224"
+* contact[=].telecom.value = "(410) 444-5555"
+* contact[=].address.text = "17040 E Warren Avenue, Detroit, MI 48224"
 * communication.language = urn:ietf:bcp:47#en "English"
 * communication.preferred = true
