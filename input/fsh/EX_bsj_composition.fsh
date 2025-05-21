@@ -81,4 +81,4 @@ Description: "Betsy Smith-Johnson's Transitions of Care Document"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * date = "2024-09-20T12:30:58.313-04:00"
 * title = "Transitions of Care Document for Betsy Smith-Johnson"
-* custodian = Reference(Organization/org-SNF-Happy-Nursing-Facility)
+* custodian = Reference(Organization/org-Motor-City-Nursing-Facility)
