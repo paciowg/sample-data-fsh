@@ -55,7 +55,7 @@ Description: "Jenny Mosley's observation FHIR resource for how often does the in
 * category[+] = $pfe-category-cs#b16700 "Reception of spoken language"
 * code = $loinc#99841-9 "Frequency of functioning without assistance due to comprehension deficit"
 * code.text = "How often does the individual function safely WITHOUT additional supervision/assistance (in excess of chronological age expectations) due to comprehension deficits?"
-* subject = Reference(Patient/patientBSJ1) "Jenny Mosley"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Jenny Mosley"
 * effectiveDateTime = "2024-12-28T23:30:00-08:00"
 * performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff-01)
 * valueCodeableConcept = $loinc#LA33175-3 "0-25% of the time (rarely)"
@@ -75,7 +75,7 @@ Description: "Jenny Mosley's observation FHIR resource for how often does the in
 * category[+] = $pfe-category-cs#d350 "Conversation"
 * code = $loinc#99850-0 "Frequency of producing verbal messages with appropriate content in high demand situations"
 * code.text = "How often does the individual produce verbal messages with appropriate CONTENT in HIGH demand situations?"
-* subject = Reference(Patient/patientBSJ1) "Jenny Mosley"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Jenny Mosley"
 * effectiveDateTime = "2024-12-28T23:30:00-08:00"
 * performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff-01)
 * valueCodeableConcept = $loinc#LA33175-3 "0-25% of the time (rarely)"
@@ -95,7 +95,7 @@ Description: "Jenny Mosley's observation FHIR resource for how often does the in
 * category[+] = $pfe-category-cs#d350 "Conversation"
 * code = $loinc#99850-0 "Frequency of producing verbal messages with appropriate content in high demand situations"
 * code.text = "How often does the individual produce verbal messages with appropriate FORM in HIGH demand situations?"
-* subject = Reference(Patient/patientBSJ1) "Jenny Mosley"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Jenny Mosley"
 * effectiveDateTime = "2024-12-28T23:30:00-08:00"
 * performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff-01)
 * valueCodeableConcept = $loinc#LA33175-3 "0-25% of the time (rarely)"
@@ -116,7 +116,7 @@ Description: "Jenny Mosley's observation FHIR resource for functional communicat
 * category[+] = $pfe-category-cs#BlockL2-d51 "Self-care"
 * code = $loinc#99836-9 "Functional Communication Measure - Spoken Language Comprehension ages 6 or older panel [ASHA NOMS]"
 * code.text = "Functional Communication Measure - Spoken Language Comprehension ages 6 or older panel [ASHA NOMS]"
-* subject = Reference(Patient/patientBSJ1) "Jenny Mosley"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Jenny Mosley"
 * effectiveDateTime = "2024-12-28T23:30:00-08:00"
 * performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff-01)
 * hasMember[0] = Reference(Observation/JM-FCM-Rec-Partner)
@@ -139,7 +139,7 @@ Description: "Jenny Mosley's observation FHIR resource for functional communicat
 * category[+] = $pfe-category-cs#d3101 "Communicating with - receiving - simple spoken messages"
 * code = $loinc#99844-3 "Functional Communication Measure - Spoken Language Expression ages 6 or older panel [ASHA NOMS]"
 * code.text = "Functional Communication Measure - Spoken Language Expression ages 6 or older panel [ASHA NOMS]"
-* subject = Reference(Patient/patientBSJ1) "Jenny Mosley"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Jenny Mosley"
 * effectiveDateTime = "2024-12-28T23:30:00-08:00"
 * performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff-01)
 * hasMember[0] = Reference(Observation/JM-FCM-Speak-FormHigh)
@@ -159,7 +159,7 @@ Description: "Jenny Mosley's observation FHIR resource for how often does the in
 * category[+] = $pfe-category-cs#b16700 "Reception of spoken language"
 * code = $loinc#99841-9 "Frequency of functioning without assistance due to comprehension deficit"
 * code.text = "How often does the individual understand complex messages, as expected for chronological age, in HIGH demand situations?"
-* subject = Reference(Patient/patientBSJ1) "Jenny Mosley"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Jenny Mosley"
 * effectiveDateTime = "2024-10-23T23:30:00-08:00"
 * performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff-01)
 * valueCodeableConcept = $loinc#LA33177-9 "50-75% of the time (often)"
@@ -198,7 +198,7 @@ Description: "Jenny Mosley's observation FHIR resource for how often does the in
 * category[+] = $pfe-category-cs#b16700 "Reception of spoken language"
 * code = $loinc#99841-9 "Frequency of functioning without assistance due to comprehension deficit"
 * code.text = "How often does the individual function safely WITHOUT additional supervision/assistance (in excess of chronological age expectations) due to comprehension deficits?"
-* subject = Reference(Patient/patientBSJ1) "Jenny Mosley"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Jenny Mosley"
 * effectiveDateTime = "2024-10-23T23:30:00-08:00"
 * performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff-01)
 * valueCodeableConcept = $loinc#LA33177-9 "50-75% of the time (often)"
@@ -218,7 +218,7 @@ Description: "Jenny Mosley's observation FHIR resource for how often does the in
 * category[+] = $pfe-category-cs#d350 "Conversation"
 * code = $loinc#99850-0 "Frequency of producing verbal messages with appropriate content in high demand situations"
 * code.text = "How often does the individual produce verbal messages with appropriate CONTENT in HIGH demand situations?"
-* subject = Reference(Patient/patientBSJ1) "Jenny Mosley"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Jenny Mosley"
 * effectiveDateTime = "2024-10-23T23:30:00-08:00"
 * performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff-01)
 * valueCodeableConcept = $loinc#LA33177-9 "50-75% of the time (often)"
@@ -238,7 +238,7 @@ Description: "Jenny Mosley's observation FHIR resource for how often does the in
 * category[+] = $pfe-category-cs#d350 "Conversation"
 * code = $loinc#99850-0 "Frequency of producing verbal messages with appropriate content in high demand situations"
 * code.text = "How often does the individual produce verbal messages with appropriate FORM in HIGH demand situations?"
-* subject = Reference(Patient/patientBSJ1) "Jenny Mosley"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Jenny Mosley"
 * effectiveDateTime = "2024-10-23T23:30:00-08:00"
 * performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff-01)
 * valueCodeableConcept = $loinc#LA33177-9 "50-75% of the time (often)"
@@ -259,7 +259,7 @@ Description: "Jenny Mosley's observation FHIR resource for functional communicat
 * category[+] = $pfe-category-cs#BlockL2-d51 "Self-care"
 * code = $loinc#99836-9 "Functional Communication Measure - Spoken Language Comprehension ages 6 or older panel [ASHA NOMS]"
 * code.text = "Functional Communication Measure - Spoken Language Comprehension ages 6 or older panel [ASHA NOMS]"
-* subject = Reference(Patient/patientBSJ1) "Jenny Mosley"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Jenny Mosley"
 * effectiveDateTime = "2024-10-23T23:30:00-08:00"
 * performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff-01)
 * hasMember[0] = Reference(Observation/JM-FCM-Rec-Partner-Palliative)
@@ -282,7 +282,7 @@ Description: "Jenny Mosley's observation FHIR resource for functional communicat
 * category[+] = $pfe-category-cs#d3101 "Communicating with - receiving - simple spoken messages"
 * code = $loinc#99844-3 "Functional Communication Measure - Spoken Language Expression ages 6 or older panel [ASHA NOMS]"
 * code.text = "Functional Communication Measure - Spoken Language Expression ages 6 or older panel [ASHA NOMS]"
-* subject = Reference(Patient/patientBSJ1) "Jenny Mosley"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Jenny Mosley"
 * effectiveDateTime = "2024-10-23T23:30:00-08:00"
 * performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff-01)
 * hasMember[0] = Reference(Observation/JM-FCM-Speak-FormHigh-Palliative)

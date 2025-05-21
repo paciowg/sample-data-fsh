@@ -16,7 +16,7 @@ Description: "Jenny Mosley's condition FHIR resource indicates a diagnosis of an
 * category[+] = $icf#b152 "Emotional functions"
 * code = $sct#197480006 "Anxiety disorder"
 * code.text = "Anxiety Disorder (disorder)"
-* subject = Reference(Patient/patientBSJ1) "Jenny Mosley"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Jenny Mosley"
 * onsetDateTime = "2011-08"
 * recordedDate = "2011-09-17"
 * asserter = Reference(PractitionerRole/Role-IMMD-AnitaChu-01)
@@ -39,7 +39,7 @@ Description: "Jenny Mosley's condition FHIR resource indicates a diagnosis of hy
 * category[+] = $icf#b5403 "Fat metabolism"
 * code = $sct#55822004 "Hyperlipidemia"
 * code.text = "Hyperlipidemia (disorder)"
-* subject = Reference(Patient/patientBSJ1) "Jenny Mosley"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Jenny Mosley"
 * onsetDateTime = "2011-08"
 * recordedDate = "2011-09-17"
 * asserter = Reference(PractitionerRole/Role-IMMD-AnitaChu-01)
@@ -60,7 +60,7 @@ Description: "Jenny Mosley's condition FHIR resource indicates a diagnosis of hy
 * category[+] = $icf#b4202 "Maintenance of blood pressure"
 * code = $sct#38341003 "Hypertensive disorder"
 * code.text = "Hypertensive disorder, systemic arterial (disorder)"
-* subject = Reference(Patient/patientBSJ1) "Jenny Mosley"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Jenny Mosley"
 * onsetDateTime = "2011-08"
 * recordedDate = "2011-09-17"
 * asserter = Reference(PractitionerRole/Role-IMMD-AnitaChu-01)

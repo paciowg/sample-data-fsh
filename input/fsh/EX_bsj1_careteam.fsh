@@ -7,7 +7,7 @@ Description: "Betsy Smith-Johnson's Patient Care Team - Post Discharge to Home C
 // * meta.source = "#cY4v0HwHBVnRmDhK"
 * status = #active
 * name = "Post Discharge to Home Care Team"
-* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * subject.type = "Patient"
 * period.start = "2024-09-20T05:00:00.000Z"
 * participant[0].role = $sct#446050000 "Primary Care Physician"

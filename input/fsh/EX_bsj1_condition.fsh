@@ -11,7 +11,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#691421000119108 "Anemia co-occurrent and due to chronic kidney disease stage 3"
 * code.text = "Anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)"
-* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * category[0] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * category[+] = $icf#b539 "Functions related to the digestive system, other specified and unspecified"
 * bodySite = $sct#113257007 "Structure of cardiovascular system"
@@ -37,7 +37,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * code.coding.version = "http://snomed.info/sct/731000124108"
 * code.coding = $sct#417181009 "Hormone receptor positive malignant neoplasm of breast (disorder)"
 * code.text = "Hormone receptor positive malignant neoplasm of breast (disorder)"
-* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * onsetDateTime = "2022-10-12"
 * abatementDateTime = "2023-07-16"
 * recordedDate = "2022-10-12T14:15:07-04:00"
@@ -52,7 +52,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#21782001 "Drug-induced constipation"
 * code.text = "Drug-induced constipation (disorder)"
-* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * recordedDate = "2020-11-05"
 * category = $icf#b5252 "Frequency of defecation"
 * category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
@@ -70,7 +70,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#35489007 "Depressive disorder"
 * code.text = "Depressive disorder (disorder)"
-* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * recordedDate = "2005-02-12"
 * category[0] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * category[+] = $icf#b152 "Emotional functions"
@@ -87,7 +87,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#359642000 "Type 2 diabetes mellitus in nonobese"
 * code.text = "Diabetes mellitus type 2 in nonobese (disorder)"
-* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * category[0] = $icf#b5401 "Carbohydrate metabolism"
 * category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * bodySite = $sct#113331007 "Structure of endocrine system"
@@ -106,7 +106,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#284972002 "Difficulty performing dressing activity"
 * code.text = "Difficulty performing dressing activity (finding)"
-* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * category[0] = $icf#b7601 "control of complex voluntary movements"
 * category[+] = $condition-category#problem-list-item "Problem List Item"
 * category[+] = $us-core-category#functional-status "Functional Status"
@@ -123,7 +123,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#414545008 "Ischemic heart disease"
 * code.text = "Ischemic heart disease (disorder)"
-* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * category[0] = $icf#b415 "Blood vessel functions"
 * category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * bodySite = $sct#113257007 "Structure of cardiovascular system"
@@ -141,7 +141,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#278286009 "Right hemiparesis"
 * code.text = "Right hemiparesis (disorder)"
-* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * category[0] = $icf#b7302 "Power of muscles on one side of the body"
 * category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * bodySite = $sct#368209003 "Right upper arm"
@@ -162,7 +162,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#55822004 "Hyperlipidemia"
 * code.text = "Hyperlipidemia (disorder)"
-* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * recordedDate = "2018-06-06"
 * category[0] = $icf#b5403 "Fat metabolism"
 * category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
@@ -180,7 +180,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#38341003 "Hypertensive disorder"
 * code.text = "Hypertensive disorder, systemic arterial (disorder)"
-* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * category[0] = $icf#b4202 "Maintenance of blood pressure"
 * category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * bodySite = $sct#113257007 "Structure of cardiovascular system"
@@ -199,7 +199,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#731000119105 "Chronic kidney disease stage 3 due to type 2 diabetes mellitus"
 * code.text = "Chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)"
-* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * category[0] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * category[+] = $icf#b610 "Urinary excretory functions"
 * bodySite = $sct#17373004 "Both kidneys"
@@ -217,7 +217,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#16932000 "Nausea and vomiting"
 * code.text = "Nausea and Vomiting (disorder)"
-* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * category[0] = $icf#b5350 "Sensation of nausea"
 * category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
@@ -235,7 +235,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#396275006 "Osteoarthritis"
 * code.text = "Osteoarthritis (disorder)"
-* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * recordedDate = "2020-07-11"
 * category[0] = $icf#b299 "Sensory functions and pain, unspecified"
 * category[+] = $icf#b7101 "Mobility of several joints"
@@ -254,7 +254,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#312894000 "Osteopenia"
 * code.text = "Osteopenia (disorder)"
-* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * category[0] = $icf#b729 "Functions of the joints and bones, other specified and unspecified"
 * category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * bodySite = $sct#113192009 "Skeletal system structure"
@@ -272,7 +272,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#422504002 "Ischemic stroke"
 * code.text = "Ischemic Stroke (disorder)"
-* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * category[0] = $icf#s11009 "Structure of cortical lobes, unspecified"
 * category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * bodySite[0] = $sct#414722000 "Structure of middle cerebral artery M1 segment"
@@ -293,7 +293,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#284989005 "Difficulty undressing"
 * code.text = "Difficulty undressing (finding)"
-* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * category[0] = $icf#b7602 "Coordination of voluntary movements"
 * category[+] = $condition-category#problem-list-item "Problem List Item"
 * category[+] = $us-core-category#functional-status "Functional Status"
@@ -310,7 +310,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#31031000119102 "Physical deconditioning"
 * code.text = "Physical deconditioning (finding)"
-* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * category[0] = $icf#b7303 "Power of muscles in lower half of the body"
 * category[+] = $condition-category#problem-list-item "Problem List Item"
 * category[+] = $us-core-category#functional-status "Functional Status"
@@ -334,7 +334,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * verificationStatus = $condition-ver-status#confirmed
 * code = $sct#570961000124101 "Weakness of right upper limb (finding)"
 * code.text = "Weakness of right upper limb (finding)"
-* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * category[0] = $icf#b7301 "Power of muscles of one limb"
 * category[+] = $condition-category#problem-list-item "Problem List Item"
 * category[+] = $us-core-category#functional-status "Functional Status"
@@ -362,6 +362,6 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a health c
 * category.text = "Health Concern"
 * code.coding.version = "http://snomed.info/sct"
 * code.coding = $sct#1137439008 "On complex medication regime (finding)"
-* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * recordedDate = "2024-09-20"
 * asserter = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
