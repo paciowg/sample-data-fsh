@@ -1,7 +1,6 @@
 // ********* Transaction 5 SNF Meds ***************
 
 Alias: $rxnorm = http://www.nlm.nih.gov/research/umls/rxnorm
-Alias: $sct = http://snomed.info/sct
 
 Instance: MedicationRequest-AcetaminophenSNFdischarge
 InstanceOf: MedicationRequest
@@ -32,7 +31,7 @@ Description: "Jenny Mosley has an active MedicationRequest for acetaminophen 500
 * dispenseRequest.expectedSupplyDuration = 1 'wk' "week"
 
 Alias: $rxnorm = http://www.nlm.nih.gov/research/umls/rxnorm
-Alias: $sct = http://snomed.info/sct
+
 
 Instance: MedicationRequest-AlprazolamSNFdischarge
 InstanceOf: MedicationRequest
@@ -63,7 +62,7 @@ Description: "Jenny Mosley has an active MedicationRequest for ALPRAZolam 0.5 MG
 * dispenseRequest.expectedSupplyDuration = 1 'm' "month"
 
 Alias: $rxnorm = http://www.nlm.nih.gov/research/umls/rxnorm
-Alias: $sct = http://snomed.info/sct
+
 
 Instance: MedicationRequest-AtorvastatinSNFdischarge
 InstanceOf: MedicationRequest
@@ -141,7 +140,7 @@ Description: "Jenny Mosley has an active MedicationRequest for gabapentin 300mg 
 * dispenseRequest.expectedSupplyDuration = 2 'wk' "week"
 
 Alias: $rxnorm = http://www.nlm.nih.gov/research/umls/rxnorm
-Alias: $sct = http://snomed.info/sct
+
 
 Instance: MedicationRequest-MetoclopramideSNFdischarge
 InstanceOf: MedicationRequest
@@ -172,7 +171,7 @@ Description: "Jenny Mosley has an active MedicationRequest for metoclopromide 10
 * dispenseRequest.expectedSupplyDuration = 3 'wk' "week"
 
 Alias: $rxnorm = http://www.nlm.nih.gov/research/umls/rxnorm
-Alias: $sct = http://snomed.info/sct
+
 
 Instance: MedicationRequest-MetoprololSNFdischarge
 InstanceOf: MedicationRequest
@@ -203,7 +202,7 @@ Description: "Jenny Mosley has an active MedicationRequest for metoprolol tartra
 * dispenseRequest.expectedSupplyDuration = 1 'm' "month"
 
 Alias: $rxnorm = http://www.nlm.nih.gov/research/umls/rxnorm
-Alias: $sct = http://snomed.info/sct
+
 
 Instance: MedicationRequest-OndansetronSNFdischarge
 InstanceOf: MedicationRequest
@@ -234,7 +233,7 @@ Description: "Jenny Mosley has an active MedicationRequest for ondansetron 8 MG 
 * dispenseRequest.expectedSupplyDuration = 3 'wk' "week"
 
 Alias: $rxnorm = http://www.nlm.nih.gov/research/umls/rxnorm
-Alias: $sct = http://snomed.info/sct
+
 
 Instance: MedicationRequest-OralMorphineSNFdischarge
 InstanceOf: MedicationRequest
@@ -264,7 +263,7 @@ Description: "Jenny Mosley has an active MedicationRequest for morphine sulfate 
 * dispenseRequest.expectedSupplyDuration = 6.5 'd' "days"
 
 Alias: $rxnorm = http://www.nlm.nih.gov/research/umls/rxnorm
-Alias: $sct = http://snomed.info/sct
+
 
 Instance: MedicationRequest-PolyethyleneGlycolSNFdischarge
 InstanceOf: MedicationRequest

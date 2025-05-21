@@ -1,6 +1,5 @@
 Alias: $condition-clinical = http://terminology.hl7.org/CodeSystem/condition-clinical
 Alias: $condition-ver-status = http://terminology.hl7.org/CodeSystem/condition-ver-status
-Alias: $sct = http://snomed.info/sct
 Alias: $icf = http://hl7.org/fhir/sid/icf
 
 Instance: BSJ-AnemiaDiagnosis
@@ -109,7 +108,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * code.text = "Difficulty performing dressing activity (finding)"
 * subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
 * category[0] = $icf#b7601 "control of complex voluntary movements"
-* category[+] = $condition-category#health-concern "Health Concern"
+* category[+] = $condition-category#problem-list-item "Problem List Item"
 * category[+] = $us-core-category#functional-status "Functional Status"
 * recordedDate = "2024-08-31T15:40:00-04:00"
 * asserter = Reference(PractitionerRole/Role-OT-JenCadbury)
@@ -296,7 +295,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * code.text = "Difficulty undressing (finding)"
 * subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
 * category[0] = $icf#b7602 "Coordination of voluntary movements"
-* category[+] = $condition-category#health-concern "Health Concern"
+* category[+] = $condition-category#problem-list-item "Problem List Item"
 * category[+] = $us-core-category#functional-status "Functional Status"
 * recordedDate = "2024-08-31T15:40:00-04:00"
 * asserter = Reference(PractitionerRole/Role-OT-JenCadbury)
@@ -333,7 +332,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
-* code = $sct#570961000124101 "Weakness of right upper limb"
+* code = $sct#570961000124101 "Weakness of right upper limb (finding)"
 * code.text = "Weakness of right upper limb (finding)"
 * subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
 * category[0] = $icf#b7301 "Power of muscles of one limb"
@@ -359,7 +358,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a health c
 * clinicalStatus.text = "Active"
 * verificationStatus = $condition-ver-status#confirmed "Confirmed"
 * verificationStatus.text = "Confirmed"
-* category = $condition-category#health-concern "Health Concern"
+* category = $condition-category#problem-list-item "Problem List Item"
 * category.text = "Health Concern"
 * code.coding.version = "http://snomed.info/sct"
 * code.coding = $sct#1137439008 "On complex medication regime (finding)"

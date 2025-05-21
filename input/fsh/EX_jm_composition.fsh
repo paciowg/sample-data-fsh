@@ -2,7 +2,7 @@ Instance: TOC-JM1-Hosp-to-SNF
 InstanceOf: Composition
 Usage: #example
 Description: "Jenny Mosley's Transitions of Care Document"
-* meta.profile = "http://hl7.org/fhir/us/pacio-toc/StructureDefinition/TOC-Composition"
+// * meta.profile = "http://hl7.org/fhir/us/pacio-toc/StructureDefinition/TOC-Composition"
 * language = #en-US
 * identifier.system = "http://id.example.org/TOC-JM1-Hosp-to-SNF"
 * identifier.value = "123456"
@@ -50,8 +50,8 @@ Description: "Jenny Mosley's Transitions of Care Document"
 Instance: TOC-JM1-SNF-to-Hospice
 InstanceOf: Composition
 Usage: #example
-Description: "Example"
-* meta.profile = "http://hl7.org/fhir/us/pacio-toc/StructureDefinition/TOC-Composition"
+Description: "Jenny Mosley's Transitions of Care Document - SNF to Hospice"
+// * meta.profile = "http://hl7.org/fhir/us/pacio-toc/StructureDefinition/TOC-Composition"
 * language = #en-US
 * identifier.system = "http://id.example.org/TOC-JM1-Hosp-to-SNF"
 * identifier.value = "98765"

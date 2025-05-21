@@ -1,6 +1,6 @@
 Alias: $loinc = http://loinc.org
 Alias: $rxnorm = http://www.nlm.nih.gov/research/umls/rxnorm
-Alias: $sct = http://snomed.info/sct
+// Alias: $sct = http://snomed.info/sct|http://snomed.info/sct/731000124108 
 
 Instance: smp-med-list-1
 InstanceOf: List
@@ -253,6 +253,7 @@ Description: "Betsy Johnson received sertraline, po nightly, for depressive diso
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * effectiveDateTime = "2024-08-21"
 * reasonCode = $sct#35489007 "Depressive disorder (disorder)"
+* dosage.dose = 25 'mg' "mg"
 * dosage.text = "po nightly"
 
 Instance: smp-medadm-2-12
@@ -264,6 +265,7 @@ Description: "Betsy Johnson received furosemide, po daily, for chronic kidney di
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * effectiveDateTime = "2024-08-21"
 * reasonCode = $sct#731000119105 "Chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)"
+* dosage.dose = 20 'mg' "mg"
 * dosage.text = "po daily"
 
 Instance: smp-medadm-2-15
@@ -275,6 +277,7 @@ Description: "Betsy Johnson received empagliflozin, po qd, for diabetes mellitus
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * effectiveDateTime = "2024-08-21"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
+* dosage.dose = 10 'mg' "mg"
 * dosage.text = "po qd"
 
 Instance: smp-medadm-2-16
@@ -286,6 +289,7 @@ Description: "Betsy Johnson received clopidogrel, po daily, for ischemic stroke 
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * effectiveDateTime = "2024-08-21"
 * reasonCode = $sct#422504002 "Ischemic Stroke (disorder)"
+* dosage.dose = 75 'mg' "mg"
 * dosage.text = "po daily"
 
 Instance: smp-medadm-2-17
@@ -297,6 +301,7 @@ Description: "Betsy Johnson received Losartan, po daily (monitor Potassium), for
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * effectiveDateTime = "2024-08-21"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
+* dosage.dose = 50 'mg' "mg"
 * dosage.text = "po daily (monitor Potassium)"
 
 Instance: smp-medadm-3-42
@@ -308,6 +313,7 @@ Description: "Betsy Johnson received sertraline, 1 tablet po at bedtime, for dep
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * effectiveDateTime = "2024-08-26"
 * reasonCode = $sct#35489007 "Depressive disorder (disorder)"
+* dosage.dose = 50 'mg' "mg"
 * dosage.text = "1 tablet po at bedtime"
 
 Instance: smp-medadm-3-44
@@ -319,6 +325,7 @@ Description: "Betsy Johnson received carvedilol, 1 tablet po BID (DC when BP und
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * effectiveDateTime = "2024-08-26"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
+* dosage.dose = 1 'mg' "mg"
 * dosage.text = "1 tablet po BID (DC when BP under control)"
 
 Instance: smp-medadm-3-45
@@ -330,6 +337,7 @@ Description: "Betsy Johnson received Metformin, 1 tablet by mouth daily, for dia
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * effectiveDateTime = "2024-08-26"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
+* dosage.dose = 50 'mg' "mg"
 * dosage.text = "1 tablet by mouth daily"
 
 Instance: smp-medadm-3-46
@@ -341,6 +349,7 @@ Description: "Betsy Johnson received empagliflozin, 1 tablet by mouth daily, for
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * effectiveDateTime = "2024-08-26"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
+* dosage.dose = 10 'mg' "mg"
 * dosage.text = "1 tablet by mouth daily"
 
 Instance: smp-medadm-3-47
@@ -352,6 +361,7 @@ Description: "Betsy Johnson received clopidogrel, 1 tablet po daily, for ischemi
 * subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
 * effectiveDateTime = "2024-08-26"
 * reasonCode = $sct#422504002 "Ischemic Stroke (disorder)"
+* dosage.dose = 75 'mg' "mg"
 * dosage.text = "1 tablet po daily"
 
 Instance: smp-medadm-3-50
