@@ -8,7 +8,7 @@ Description: "Betsy Smith-Johnson's service request for medication reconciliatio
 * category = $sct#306206005 "Referral to service (procedure)"
 * code = $sct#410155007 "Occupational therapy assessment"
 * code.text = "Medication reconciliation (procedure)"
-* subject = Reference(Patient/patientBSJ1)
+* subject = Reference(Patient/patient-betsysmith-johnson01)
 * priority = #routine
 * occurrencePeriod.start = "2024-09-20"
 * authoredOn = "2024-09-20"
@@ -24,7 +24,7 @@ Description: "Betsy Smith-Johnson's service request for follow-up visit (procedu
 * intent = #order
 * category = $sct#386053000 "Evaluation procedure (procedure)"
 * code = $sct#185389009 "Follow-up visit (procedure)"
-* subject = Reference(Patient/patientBSJ1)
+* subject = Reference(Patient/patient-betsysmith-johnson01)
 * priority = #routine
 * occurrenceDateTime = "2024-10-02"
 * authoredOn = "2024-09-20"
@@ -40,7 +40,7 @@ Description: "Betsy Smith-Johnson's service request for occupational therapy ass
 * category = $sct#386053000 "Evaluation procedure (procedure)"
 * code = $sct#410155007 "Occupational therapy assessment"
 * code.text = "Occupational therapy assessment (procedure)"
-* subject = Reference(Patient/patientBSJ1)
+* subject = Reference(Patient/patient-betsysmith-johnson01)
 * priority = #routine
 * occurrencePeriod.start = "2024-09-20"
 * authoredOn = "2024-09-20"
@@ -56,7 +56,7 @@ Description: "Betsy Smith-Johnson's service request for informing doctor (proced
 * intent = #order
 * category = $sct#386053000 "Evaluation procedure (procedure)"
 * code = $sct#304562007 "Informing doctor (procedure)"
-* subject = Reference(Patient/patientBSJ1)
+* subject = Reference(Patient/patient-betsysmith-johnson01)
 * priority = #routine
 * occurrencePeriod.start = "2024-09-20"
 * authoredOn = "2024-09-20"
@@ -71,7 +71,7 @@ Description: "Betsy Smith-Johnson's service request for speech therapy assessmen
 * intent = #order
 * category = $sct#386053000 "Evaluation procedure (procedure)"
 * code = $sct#410161005 "Speech therapy assessment (procedure)"
-* subject = Reference(Patient/patientBSJ1)
+* subject = Reference(Patient/patient-betsysmith-johnson01)
 * priority = #routine
 * occurrencePeriod.start = "2024-09-20"
 * authoredOn = "2024-09-20"
@@ -86,7 +86,7 @@ Description: "Betsy Smith-Johnson's service request for blood chemistry (procedu
 * intent = #order
 * category = $sct#108252007 "Laboratory procedure"
 * code = $sct#166312007 "Blood chemistry (procedure)"
-* subject = Reference(Patient/patientBSJ1)
+* subject = Reference(Patient/patient-betsysmith-johnson01)
 * priority = #routine
 * occurrenceDateTime = "2024-10-02"
 * authoredOn = "2024-09-20"
@@ -105,7 +105,7 @@ Description: "Betsy Smith-Johnson's service request for complete blood count wit
 * intent = #order
 * category = $sct#108252007 "Laboratory procedure"
 * code = $sct#43789009 "Complete blood count without differential (procedure)"
-* subject = Reference(Patient/patientBSJ1)
+* subject = Reference(Patient/patient-betsysmith-johnson01)
 * priority = #routine
 * occurrenceDateTime = "2024-10-02"
 * authoredOn = "2024-09-20"
@@ -121,7 +121,7 @@ Description: "Betsy Smith-Johnson's service request for physical therapy assessm
 * intent = #order
 * category = $sct#386053000 "Evaluation procedure (procedure)"
 * code = $sct#410158009 "Physical therapy assessment (procedure)"
-* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * priority = #routine
 * occurrencePeriod.start = "2024-09-20"
 * authoredOn = "2024-09-20"

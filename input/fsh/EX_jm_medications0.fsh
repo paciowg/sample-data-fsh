@@ -394,7 +394,7 @@ Usage: #example
 Description: "Jenny Mosley's current working Home Medication List includes Atorvastatin 40 mg, Alprazolam 0.5 mg, and Metoprolol 50 mg."
 * status = #current
 * mode = #working
-* title = "Home Medication List"
+* title = "Jenny Mosley's Home Medication List"
 * code = $loinc#104205-0 "Patient generated medication list [Identifier] Episode Pharmacy"
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * date = "2024-09-21T16:00:00-08:00"

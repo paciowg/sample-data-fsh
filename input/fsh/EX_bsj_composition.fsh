@@ -78,7 +78,7 @@ Description: "Betsy Smith-Johnson's Transitions of Care Document"
 * language = #en-US
 * status = #final
 * type = $loinc#81218-0 "Discharge summary - recommended C-CDA R2.1 sections"
-* subject = Reference(Patient/patientBSJ1) "Betsy Smith-Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * date = "2024-09-20T12:30:58.313-04:00"
 * title = "Transitions of Care Document for Betsy Smith-Johnson"
 * custodian = Reference(Organization/org-SNF-Happy-Nursing-Facility)

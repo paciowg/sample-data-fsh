@@ -8,10 +8,10 @@ Usage: #example
 Description: "Betsy Johnson's home medication list containing 8 medication entries."
 * status = #current
 * mode = #working
-* title = "Home Medication List"
+* title = "Betsy Smith Johnson Home Medication List"
 * code = $loinc#104205-0 "Patient generated medication list [Identifier] Episode Pharmacy"
 * code.text = "Standard Medication List"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * date = "2024-08-11"
 * entry[0].date = "2024-08-11"
 * entry[=].item = Reference(smp-medstmt-1-1) "Atorvastatin 40 mg"
@@ -41,7 +41,7 @@ Description: "Betsy Johnson's hospital medication administration list containing
 * title = "Hospital Medication Administration List"
 * code = $loinc#104207-6 "Medication administration list [Identifier] Episode Pharmacy"
 * code.text = "Institution Administration List"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * date = "2024-08-21"
 * entry[0].date = "2024-08-21"
 * entry[=].item = Reference(smp-medstmt-2-10) "Atorvastatin 40 mg po"
@@ -83,7 +83,7 @@ Description: "Betsy Johnson's hospital discharge medication list containing 13 m
 * title = "Hospital Discharge Medication List"
 * code = $loinc#104204-3 "Discharged medication list [Identifier] Episode Pharmacy"
 * code.text = "Institution Discharge List"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * date = "2024-08-26"
 * entry[0].date = "2024-08-26"
 * entry[=].item = Reference(smp-medstmt-2B-26) "Atorvastatin 40 mg"
@@ -123,7 +123,7 @@ Description: "Betsy Johnson's snf medication  administration list containing 10 
 * title = "SNF Medication  Administration List"
 * code = $loinc#104207-6 "Medication administration list [Identifier] Episode Pharmacy"
 * code.text = "Institution Administration List"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * date = "2024-08-26"
 * entry[0].date = "2024-08-26"
 * entry[=].item = Reference(smp-medstmt-3-41) "Atorvastatin 40 mg"
@@ -157,7 +157,7 @@ Description: "Betsy Johnson's snf discharge medication list containing 9 medicat
 * title = "SNF Discharge Medication List"
 * code = $loinc#104204-3 "Discharged medication list [Identifier] Episode Pharmacy"
 * code.text = "Institution Discharge List"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * date = "2024-09-18"
 * entry[0].date = "2024-09-18"
 * entry[=].item = Reference(smp-medstmt-3B-53) "Atorvastatin 40 mg"
@@ -189,7 +189,7 @@ Description: "Betsy Johnson's home health active medication list containing 9 me
 * title = "Home Health Active Medication List"
 * code = $loinc#104202-7 "Active medication list [Identifier] Episode Pharmacy"
 * code.text = "Active Medication List"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * date = "2024-09-19"
 * entry[0].date = "2024-09-19"
 * entry[=].item = Reference(smp-medstmt-4-64) "Atorvastatin 40 mg"
@@ -221,7 +221,7 @@ Description: "Betsy Johnson's community pharmacy reconciled medication list cont
 * title = "Community Pharmacy Reconciled Medication List"
 * code = $loinc#104203-5 "Reconciled medication list [Identifier] Episode Pharmacy"
 * code.text = "Reconciled Medication List"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * date = "2024-09-20"
 * entry[0].date = "2024-09-20"
 * entry[=].item = Reference(smp-medstmt-5-75) "Atorvastatin 40 mg"
@@ -250,7 +250,7 @@ Usage: #example
 Description: "Betsy Johnson received sertraline, po nightly, for depressive disorder (disorder)."
 * status = #completed
 * medicationCodeableConcept = $rxnorm#312940 "sertraline 25 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * effectiveDateTime = "2024-08-21"
 * reasonCode = $sct#35489007 "Depressive disorder (disorder)"
 * dosage.dose = 25 'mg' "mg"
@@ -262,7 +262,7 @@ Usage: #example
 Description: "Betsy Johnson received furosemide, po daily, for chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)."
 * status = #completed
 * medicationCodeableConcept = $rxnorm#310429 "furosemide 20 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * effectiveDateTime = "2024-08-21"
 * reasonCode = $sct#731000119105 "Chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)"
 * dosage.dose = 20 'mg' "mg"
@@ -274,7 +274,7 @@ Usage: #example
 Description: "Betsy Johnson received empagliflozin, po qd, for diabetes mellitus type 2 in nonobese (disorder)."
 * status = #completed
 * medicationCodeableConcept = $rxnorm#1545658 "empagliflozin 10 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * effectiveDateTime = "2024-08-21"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
 * dosage.dose = 10 'mg' "mg"
@@ -286,7 +286,7 @@ Usage: #example
 Description: "Betsy Johnson received clopidogrel, po daily, for ischemic stroke (disorder)."
 * status = #completed
 * medicationCodeableConcept = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * effectiveDateTime = "2024-08-21"
 * reasonCode = $sct#422504002 "Ischemic Stroke (disorder)"
 * dosage.dose = 75 'mg' "mg"
@@ -298,7 +298,7 @@ Usage: #example
 Description: "Betsy Johnson received Losartan, po daily (monitor Potassium), for hypertensive disorder, systemic arterial (disorder)."
 * status = #completed
 * medicationCodeableConcept = $rxnorm#314073 "Losartan 50 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * effectiveDateTime = "2024-08-21"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
 * dosage.dose = 50 'mg' "mg"
@@ -310,7 +310,7 @@ Usage: #example
 Description: "Betsy Johnson received sertraline, 1 tablet po at bedtime, for depressive disorder (disorder)."
 * status = #completed
 * medicationCodeableConcept = $rxnorm#312941 "sertraline 50 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * effectiveDateTime = "2024-08-26"
 * reasonCode = $sct#35489007 "Depressive disorder (disorder)"
 * dosage.dose = 50 'mg' "mg"
@@ -322,7 +322,7 @@ Usage: #example
 Description: "Betsy Johnson received carvedilol, 1 tablet po BID (DC when BP under control), for hypertensive disorder, systemic arterial (disorder)."
 * status = #completed
 * medicationCodeableConcept = $rxnorm#200031 "carvedilol 6.25 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * effectiveDateTime = "2024-08-26"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
 * dosage.dose = 1 'mg' "mg"
@@ -334,7 +334,7 @@ Usage: #example
 Description: "Betsy Johnson received Metformin, 1 tablet by mouth daily, for diabetes mellitus type 2 in nonobese (disorder)."
 * status = #completed
 * medicationCodeableConcept = $rxnorm#311570 "Metformin 500 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * effectiveDateTime = "2024-08-26"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
 * dosage.dose = 50 'mg' "mg"
@@ -346,7 +346,7 @@ Usage: #example
 Description: "Betsy Johnson received empagliflozin, 1 tablet by mouth daily, for diabetes mellitus type 2 in nonobese (disorder)."
 * status = #completed
 * medicationCodeableConcept = $rxnorm#1545658 "empagliflozin 10 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * effectiveDateTime = "2024-08-26"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
 * dosage.dose = 10 'mg' "mg"
@@ -358,7 +358,7 @@ Usage: #example
 Description: "Betsy Johnson received clopidogrel, 1 tablet po daily, for ischemic stroke (disorder)."
 * status = #completed
 * medicationCodeableConcept = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * effectiveDateTime = "2024-08-26"
 * reasonCode = $sct#422504002 "Ischemic Stroke (disorder)"
 * dosage.dose = 75 'mg' "mg"
@@ -370,7 +370,7 @@ Usage: #example
 Description: "Betsy Johnson received acetaminophen, 2 tablets every 6 hours or as needed for mild pain, for osteoarthritis (disorder)."
 * status = #completed
 * medicationCodeableConcept = $rxnorm#313782 "acetaminophen 325 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * effectiveDateTime = "2024-08-26"
 * reasonCode = $sct#396275006 "Osteoarthritis (disorder)"
 * dosage.dose = 2 http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm#TAB "TAB"
@@ -383,7 +383,7 @@ Description: "Betsy Johnson medication request of atorvastatin, po nightly, for 
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-08-11"
 * reasonCode = $sct#55822004 "Hyperlipidemia"
 * dosageInstruction.sequence = 1
@@ -396,7 +396,7 @@ Description: "Betsy Johnson medication request of sertraline, po nightly, for tr
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#312940 "sertraline 25 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-08-11"
 * reasonCode = $sct#35489007 "Depressive disorder (disorder)"
 * dosageInstruction.sequence = 1
@@ -409,7 +409,7 @@ Description: "Betsy Johnson medication request of furosemide, po daily, for trea
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#310429 "furosemide 20 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-08-11"
 * reasonCode = $sct#731000119105 "Chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)"
 * dosageInstruction.sequence = 1
@@ -422,7 +422,7 @@ Description: "Betsy Johnson medication request of carvedilol, po twice daily, fo
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#200031 "carvedilol 6.25 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-08-11"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
 * dosageInstruction.sequence = 1
@@ -435,7 +435,7 @@ Description: "Betsy Johnson medication request of 24, daily, for treating diabet
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#310489 "24 HR glipizide 2.5 MG Extended Release Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-08-11"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
 * dosageInstruction.sequence = 1
@@ -448,7 +448,7 @@ Description: "Betsy Johnson medication request of rosuvastatin, Calcium 500 mg, 
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#859424 "rosuvastatin calcium 5 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-08-11"
 * reasonCode = $sct#312894000 "Osteopenia"
 * dosageInstruction.sequence = 1
@@ -461,7 +461,7 @@ Description: "Betsy Johnson medication request of acetaminophen, every 6 hours o
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#198444 "acetaminophen 650 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-08-11"
 * reasonCode = $sct#396275006 "Osteoarthritis (disorder)"
 * dosageInstruction.sequence = 1
@@ -474,7 +474,7 @@ Description: "Betsy Johnson medication request of ferrous, three times a day bef
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#310325 "ferrous sulfate 325 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-08-11"
 * reasonCode = $sct#691421000119108 "Anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)"
 * dosageInstruction.sequence = 1
@@ -487,7 +487,7 @@ Description: "Betsy Johnson medication request of atorvastatin, po nightly, for 
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-08-21"
 * reasonCode = $sct#55822004 "Hyperlipidemia"
 * dosageInstruction.sequence = 1
@@ -500,7 +500,7 @@ Description: "Betsy Johnson medication request of carvedilol, po twice a day, fo
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#200031 "carvedilol 6.25 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-08-21"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
 * dosageInstruction.sequence = 1
@@ -513,7 +513,7 @@ Description: "Betsy Johnson medication request of metformin, po daily, for treat
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#428759 "metformin 250 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-08-21"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
 * dosageInstruction.sequence = 1
@@ -526,7 +526,7 @@ Description: "Betsy Johnson medication request of ferrous, po daily, for treatin
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#244210 "ferrous gluconate 325 MG Oral Capsule"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-08-21"
 * reasonCode = $sct#691421000119108 "Anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)"
 * dosageInstruction.sequence = 1
@@ -539,7 +539,7 @@ Description: "Betsy Johnson medication request of acetaminophen, 1-2 tabs po eve
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#857002 "acetaminophen 325 MG / hydrocodone bitartrate 5 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-08-21"
 * reasonCode = $sct#396275006 "Osteoarthritis (disorder)"
 * dosageInstruction.sequence = 1
@@ -552,7 +552,7 @@ Description: "Betsy Johnson medication request of polyethylene, 17g po daily prn
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-08-21"
 * reasonCode = $sct#21782001 "Drug-induced constipation"
 * dosageInstruction.sequence = 1
@@ -565,7 +565,7 @@ Description: "Betsy Johnson medication request of docusate, po twice daily, for 
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#1099279 "docusate sodium 100 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-08-21"
 * reasonCode = $sct#21782001 "Drug-induced constipation"
 * dosageInstruction.sequence = 1
@@ -578,7 +578,7 @@ Description: "Betsy Johnson medication request of ondansetron, tablet po q6h prn
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#198052 "ondansetron 4 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-08-21"
 * reasonCode = $sct#16932000 "Nausea and vomiting"
 * dosageInstruction.sequence = 1
@@ -591,7 +591,7 @@ Description: "Betsy Johnson medication request of 3, Novolin-R Sliding scale ins
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#847205 "3 ML insulin, regular, human 100 UNT/ML Prefilled Syringe [Novolin R]"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-08-21"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
 * dosageInstruction.sequence = 1
@@ -609,7 +609,7 @@ Description: "Betsy Johnson medication request of Hydralazine, Hydralazine IV 10
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#"966570 and 202693" "Hydralazine IV 10mg q4h pen SBP>160, if Hydralazine not effective Labetalol 10mg IV q4h prn SBP>160 hold for hr if less than 55 per hospital protocol"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-08-21"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
 * dosageInstruction.sequence = 1
@@ -629,7 +629,7 @@ Usage: #example
 * priority = #routine
 * medicationCodeableConcept = $rxnorm#966571 "1 ML hydralazine hydrochloride 20 MG/ML Injection" // replaced with updated RxNorm code since original was deprecated.
 * medicationCodeableConcept.text = "Hydralazine 10 mg IV"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-08-21"
 * requester = Reference(Practitioner/Practitioner-JenCadbury) "Dr. Jen Cadbury"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
@@ -652,7 +652,7 @@ Description: "Betsy Johnson medication request of atorvastatin, 1 tablet po at b
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-08-26"
 * reasonCode = $sct#55822004 "Hyperlipidemia"
 * dosageInstruction.sequence = 1
@@ -665,7 +665,7 @@ Description: "Betsy Johnson medication request of furosemide, 1 tablet po daily,
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#310429 "furosemide 20 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-08-26"
 * reasonCode = $sct#731000119105 "Chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)"
 * dosageInstruction.sequence = 1
@@ -678,7 +678,7 @@ Description: "Betsy Johnson medication request of Losartan, 1 tablet po daily (m
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#314073 "Losartan 50 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-08-26"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
 * dosageInstruction.sequence = 1
@@ -691,7 +691,7 @@ Description: "Betsy Johnson medication request of ferrous, po daily, for treatin
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#244210 "ferrous gluconate 325 MG Oral Capsule"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-08-26"
 * reasonCode = $sct#691421000119108 "Anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)"
 * dosageInstruction.sequence = 1
@@ -704,7 +704,7 @@ Description: "Betsy Johnson medication request of polyethylene, 17g po daily prn
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-08-26"
 * reasonCode = $sct#21782001 "Drug-induced constipation"
 * dosageInstruction.sequence = 1
@@ -717,7 +717,7 @@ Description: "Betsy Johnson medication request of atorvastatin, 1 tablet by mout
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-09-19"
 * reasonCode = $sct#55822004 "Hyperlipidemia"
 * dosageInstruction.sequence = 1
@@ -730,7 +730,7 @@ Description: "Betsy Johnson medication request of sertraline, 1 tablet po at bed
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#312941 "sertraline 50 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-09-19"
 * reasonCode = $sct#35489007 "Depressive disorder (disorder)"
 * dosageInstruction.sequence = 1
@@ -743,7 +743,7 @@ Description: "Betsy Johnson medication request of furosemide, 1 tablet po daily,
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#310429 "furosemide 20 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-09-19"
 * reasonCode = $sct#731000119105 "Chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)"
 * dosageInstruction.sequence = 1
@@ -756,7 +756,7 @@ Description: "Betsy Johnson medication request of Metformin, 1 tablet by mouth d
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#311570 "Metformin 500 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-09-19"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
 * dosageInstruction.sequence = 1
@@ -769,7 +769,7 @@ Description: "Betsy Johnson medication request of empagliflozin, 1 tablet by mou
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#1545658 "empagliflozin 10 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-09-19"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
 * dosageInstruction.sequence = 1
@@ -782,7 +782,7 @@ Description: "Betsy Johnson medication request of clopidogrel, 1 tablet by mouth
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-09-19"
 * reasonCode = $sct#422504002 "Ischemic Stroke (disorder)"
 * dosageInstruction.sequence = 1
@@ -795,7 +795,7 @@ Description: "Betsy Johnson medication request of Losartan, 1 tablet po daily, f
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#314073 "Losartan 50 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-09-19"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
 * dosageInstruction.sequence = 1
@@ -808,7 +808,7 @@ Description: "Betsy Johnson medication request of ferrous, po daily, for treatin
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#244210 "ferrous gluconate 325 MG Oral Capsule"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-09-19"
 * reasonCode = $sct#691421000119108 "Anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)"
 * dosageInstruction.sequence = 1
@@ -821,7 +821,7 @@ Description: "Betsy Johnson medication request of acetaminophen, 2 tablets every
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#313782 "acetaminophen 325 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-09-19"
 * reasonCode = $sct#396275006 "Osteoarthritis (disorder)"
 * dosageInstruction.sequence = 1
@@ -834,7 +834,7 @@ Description: "Betsy Johnson medication request of polyethylene, 17g by mouth dai
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-09-19"
 * reasonCode = $sct#21782001 "Drug-induced constipation"
 * dosageInstruction.sequence = 1
@@ -847,7 +847,7 @@ Description: "Betsy Johnson medication request of atorvastatin, 1 tablet by mout
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-09-20"
 * reasonCode = $sct#55822004 "Hyperlipidemia"
 * dosageInstruction.sequence = 1
@@ -860,7 +860,7 @@ Description: "Betsy Johnson medication request of sertraline, 1 tablet po at bed
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#312941 "sertraline 50 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-09-20"
 * reasonCode = $sct#35489007 "Depressive disorder (disorder)"
 * dosageInstruction.sequence = 1
@@ -873,7 +873,7 @@ Description: "Betsy Johnson medication request of furosemide, 1 tablet po daily,
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#310429 "furosemide 20 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-09-20"
 * reasonCode = $sct#731000119105 "Chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)"
 * dosageInstruction.sequence = 1
@@ -886,7 +886,7 @@ Description: "Betsy Johnson medication request of Metformin, 1 tablet by mouth d
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#311570 "Metformin 500 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-09-20"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
 * dosageInstruction.sequence = 1
@@ -899,7 +899,7 @@ Description: "Betsy Johnson medication request of empagliflozin, 1 tablet by mou
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#1545658 "empagliflozin 10 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-09-20"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
 * dosageInstruction.sequence = 1
@@ -912,7 +912,7 @@ Description: "Betsy Johnson medication request of clopidogrel, 1 tablet by mouth
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-09-20"
 * reasonCode = $sct#422504002 "Ischemic Stroke (disorder)"
 * dosageInstruction.sequence = 1
@@ -925,7 +925,7 @@ Description: "Betsy Johnson medication request of Losartan, 1 tablet po daily, f
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#314073 "Losartan 50 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-09-20"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
 * dosageInstruction.sequence = 1
@@ -938,7 +938,7 @@ Description: "Betsy Johnson medication request of ferrous, po daily, for treatin
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#244210 "ferrous gluconate 325 MG Oral Capsule"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-09-20"
 * reasonCode = $sct#691421000119108 "Anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)"
 * dosageInstruction.sequence = 1
@@ -951,7 +951,7 @@ Description: "Betsy Johnson medication request of acetaminophen, 2 tablets every
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#313782 "acetaminophen 325 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-09-20"
 * reasonCode = $sct#396275006 "Osteoarthritis (disorder)"
 * dosageInstruction.sequence = 1
@@ -964,7 +964,7 @@ Description: "Betsy Johnson medication request of polyethylene, 17g by mouth dai
 * status = #active
 * intent = #order
 * medicationCodeableConcept = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * authoredOn = "2024-09-20"
 * reasonCode = $sct#21782001 "Drug-induced constipation"
 * dosageInstruction.sequence = 1
@@ -977,7 +977,7 @@ Description: "Betsy Johnson active medication statement for atorvastatin, po nig
 * basedOn = Reference(smp-medrx-1-1)
 * status = #active
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-11"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
 * reasonCode = $sct#55822004 "Hyperlipidemia"
@@ -991,7 +991,7 @@ Description: "Betsy Johnson active medication statement for sertraline, po night
 * basedOn = Reference(smp-medrx-1-2)
 * status = #active
 * medicationCodeableConcept = $rxnorm#312940 "sertraline 25 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-11"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
 * reasonCode = $sct#35489007 "Depressive disorder (disorder)"
@@ -1005,7 +1005,7 @@ Description: "Betsy Johnson active medication statement for furosemide, po daily
 * basedOn = Reference(smp-medrx-1-3)
 * status = #active
 * medicationCodeableConcept = $rxnorm#310429 "furosemide 20 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-11"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
 * reasonCode = $sct#731000119105 "Chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)"
@@ -1019,7 +1019,7 @@ Description: "Betsy Johnson active medication statement for carvedilol, po twice
 * basedOn = Reference(smp-medrx-1-4)
 * status = #active
 * medicationCodeableConcept = $rxnorm#200031 "carvedilol 6.25 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-11"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
@@ -1033,7 +1033,7 @@ Description: "Betsy Johnson active medication statement for 24, daily, to treat 
 * basedOn = Reference(smp-medrx-1-5)
 * status = #active
 * medicationCodeableConcept = $rxnorm#310489 "24 HR glipizide 2.5 MG Extended Release Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-11"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
@@ -1047,7 +1047,7 @@ Description: "Betsy Johnson active medication statement for rosuvastatin, Calciu
 * basedOn = Reference(smp-medrx-1-6)
 * status = #active
 * medicationCodeableConcept = $rxnorm#859424 "rosuvastatin calcium 5 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-11"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
 * reasonCode = $sct#312894000 "Osteopenia"
@@ -1060,7 +1060,7 @@ Usage: #example
 Description: "Betsy Johnson inactive medication statement for Calcium, Vitamin D 800 IU, to treat osteopenia."
 * status = #intended
 * medicationCodeableConcept = $rxnorm#1426128 "Calcium Carbonate 1500 MG / Vitamin D 800 UNT Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-11"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
 * reasonCode = $sct#312894000 "Osteopenia"
@@ -1074,7 +1074,7 @@ Description: "Betsy Johnson active medication statement for acetaminophen, every
 * basedOn = Reference(smp-medrx-1-8)
 * status = #active
 * medicationCodeableConcept = $rxnorm#198444 "acetaminophen 650 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-11"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
 * reasonCode = $sct#396275006 "Osteoarthritis (disorder)"
@@ -1088,7 +1088,7 @@ Description: "Betsy Johnson active medication statement for ferrous, three times
 * basedOn = Reference(smp-medrx-1-9)
 * status = #active
 * medicationCodeableConcept = $rxnorm#310325 "ferrous sulfate 325 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-11"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
 * reasonCode = $sct#691421000119108 "Anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)"
@@ -1102,7 +1102,7 @@ Description: "Betsy Johnson active medication statement for atorvastatin, po nig
 * basedOn = Reference(smp-medrx-2-10)
 * status = #active
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-21"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
 * reasonCode = $sct#55822004 "Hyperlipidemia"
@@ -1116,7 +1116,7 @@ Description: "Betsy Johnson active medication statement for sertraline, po night
 * partOf = Reference(smp-medadm-2-11)
 * status = #active
 * medicationCodeableConcept = $rxnorm#312940 "sertraline 25 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-21"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
 * reasonCode = $sct#35489007 "Depressive disorder (disorder)"
@@ -1130,7 +1130,7 @@ Description: "Betsy Johnson active medication statement for furosemide, po daily
 * partOf = Reference(smp-medadm-2-12)
 * status = #active
 * medicationCodeableConcept = $rxnorm#310429 "furosemide 20 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-21"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
 * reasonCode = $sct#731000119105 "Chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)"
@@ -1144,7 +1144,7 @@ Description: "Betsy Johnson active medication statement for carvedilol, po twice
 * basedOn = Reference(smp-medrx-2-13)
 * status = #active
 * medicationCodeableConcept = $rxnorm#200031 "carvedilol 6.25 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-21"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
@@ -1159,7 +1159,7 @@ Description: "Betsy Johnson active medication statement for metformin, po daily,
 * basedOn = Reference(smp-medrx-2-14)
 * status = #active
 * medicationCodeableConcept = $rxnorm#428759 "metformin 250 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-21"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
@@ -1173,7 +1173,7 @@ Description: "Betsy Johnson active medication statement for empagliflozin, po qd
 * partOf = Reference(smp-medadm-2-15)
 * status = #active
 * medicationCodeableConcept = $rxnorm#1545658 "empagliflozin 10 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-21"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
@@ -1187,7 +1187,7 @@ Description: "Betsy Johnson active medication statement for clopidogrel, po dail
 * partOf = Reference(smp-medadm-2-16)
 * status = #active
 * medicationCodeableConcept = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-21"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
 * reasonCode = $sct#422504002 "Ischemic Stroke (disorder)"
@@ -1201,7 +1201,7 @@ Description: "Betsy Johnson active medication statement for Losartan, po daily (
 * partOf = Reference(smp-medadm-2-17)
 * status = #active
 * medicationCodeableConcept = $rxnorm#314073 "Losartan 50 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-21"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
@@ -1215,7 +1215,7 @@ Description: "Betsy Johnson active medication statement for ferrous, po daily, t
 * basedOn = Reference(smp-medrx-2-18)
 * status = #active
 * medicationCodeableConcept = $rxnorm#244210 "ferrous gluconate 325 MG Oral Capsule"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-21"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
 * reasonCode = $sct#691421000119108 "Anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)"
@@ -1229,7 +1229,7 @@ Description: "Betsy Johnson active medication statement for acetaminophen, 1-2 t
 * basedOn = Reference(smp-medrx-2-19)
 * status = #active
 * medicationCodeableConcept = $rxnorm#857002 "acetaminophen 325 MG / hydrocodone bitartrate 5 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-21"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
 * reasonCode = $sct#396275006 "Osteoarthritis (disorder)"
@@ -1244,7 +1244,7 @@ Description: "Betsy Johnson active medication statement for polyethylene, 17g po
 * basedOn = Reference(smp-medrx-2-21)
 * status = #active
 * medicationCodeableConcept = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-21"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
 * reasonCode = $sct#21782001 "Drug-induced constipation"
@@ -1258,7 +1258,7 @@ Description: "Betsy Johnson active medication statement for docusate, po twice d
 * basedOn = Reference(smp-medrx-2-22)
 * status = #active
 * medicationCodeableConcept = $rxnorm#1099279 "docusate sodium 100 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-21"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
 * reasonCode = $sct#21782001 "Drug-induced constipation"
@@ -1272,7 +1272,7 @@ Description: "Betsy Johnson active medication statement for ondansetron, tablet 
 * basedOn = Reference(smp-medrx-2-23)
 * status = #active
 * medicationCodeableConcept = $rxnorm#198052 "ondansetron 4 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-21"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
 * reasonCode = $sct#16932000 "Nausea and vomiting"
@@ -1286,7 +1286,7 @@ Description: "Betsy Johnson active medication statement for 3, Novolin-R Sliding
 * basedOn = Reference(smp-medrx-2-24)
 * status = #active
 * medicationCodeableConcept = $rxnorm#847205 "3 ML insulin, regular, human 100 UNT/ML Prefilled Syringe [Novolin R]"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-21"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
@@ -1301,7 +1301,7 @@ Description: "Betsy Johnson active medication statement for Hydralazine, Hydrala
 * status = #active
 * medicationCodeableConcept = $rxnorm#225090 "Hydralazine Hydrochloride 10 MG Intravenous Solution"
 * medicationCodeableConcept.text = "Hydralazine 10 mg IV"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-21"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
@@ -1314,7 +1314,7 @@ Usage: #example
 Description: "Betsy Johnson inactive medication statement for atorvastatin, po nightly, to treat hyperlipidemia."
 * status = #intended
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
 * reasonCode = $sct#55822004 "Hyperlipidemia"
@@ -1327,7 +1327,7 @@ Usage: #example
 Description: "Betsy Johnson inactive medication statement for sertraline, po nightly, to treat depressive disorder (disorder)."
 * status = #intended
 * medicationCodeableConcept = $rxnorm#312940 "sertraline 25 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
 * reasonCode = $sct#35489007 "Depressive disorder (disorder)"
@@ -1340,7 +1340,7 @@ Usage: #example
 Description: "Betsy Johnson inactive medication statement for furosemide, po daily, to treat chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)."
 * status = #intended
 * medicationCodeableConcept = $rxnorm#310429 "furosemide 20 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
 * reasonCode = $sct#731000119105 "Chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)"
@@ -1353,7 +1353,7 @@ Usage: #example
 Description: "Betsy Johnson inactive medication statement for carvedilol, po twice a day, to treat hypertensive disorder, systemic arterial (disorder)."
 * status = #intended
 * medicationCodeableConcept = $rxnorm#200031 "carvedilol 6.25 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
@@ -1367,7 +1367,7 @@ Usage: #example
 Description: "Betsy Johnson inactive medication statement for Metformin, po daily, to treat diabetes mellitus type 2 in nonobese (disorder)."
 * status = #intended
 * medicationCodeableConcept = $rxnorm#311570 "Metformin 500 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
@@ -1380,7 +1380,7 @@ Usage: #example
 Description: "Betsy Johnson inactive medication statement for empagliflozin, po qd, to treat diabetes mellitus type 2 in nonobese (disorder)."
 * status = #intended
 * medicationCodeableConcept = $rxnorm#1545658 "empagliflozin 10 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
@@ -1393,7 +1393,7 @@ Usage: #example
 Description: "Betsy Johnson inactive medication statement for clopidogrel, po daily, to treat ischemic stroke (disorder)."
 * status = #intended
 * medicationCodeableConcept = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
 * reasonCode = $sct#422504002 "Ischemic Stroke (disorder)"
@@ -1406,7 +1406,7 @@ Usage: #example
 Description: "Betsy Johnson inactive medication statement for Losartan, po daily, to treat hypertensive disorder, systemic arterial (disorder)."
 * status = #intended
 * medicationCodeableConcept = $rxnorm#314073 "Losartan 50 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
@@ -1420,7 +1420,7 @@ Usage: #example
 Description: "Betsy Johnson inactive medication statement for ferrous, po daily, to treat anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)."
 * status = #intended
 * medicationCodeableConcept = $rxnorm#244210 "ferrous gluconate 325 MG Oral Capsule"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
 * reasonCode = $sct#691421000119108 "Anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)"
@@ -1433,7 +1433,7 @@ Usage: #example
 Description: "Betsy Johnson inactive medication statement for acetaminophen, 2 tablets every 6 hours or as needed for mild pain, to treat osteoarthritis (disorder)."
 * status = #intended
 * medicationCodeableConcept = $rxnorm#313782 "acetaminophen 325 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
 * reasonCode = $sct#396275006 "Osteoarthritis (disorder)"
@@ -1446,7 +1446,7 @@ Usage: #example
 Description: "Betsy Johnson inactive medication statement for polyethylene, 17g po daily prn constipation, to treat drug-induced constipation."
 * status = #intended
 * medicationCodeableConcept = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
 * reasonCode = $sct#21782001 "Drug-induced constipation"
@@ -1459,7 +1459,7 @@ Usage: #example
 Description: "Betsy Johnson inactive medication statement for docusate, po twice daily, to treat drug-induced constipation."
 * status = #intended
 * medicationCodeableConcept = $rxnorm#1099279 "docusate sodium 100 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
 * reasonCode = $sct#21782001 "Drug-induced constipation"
@@ -1472,7 +1472,7 @@ Usage: #example
 Description: "Betsy Johnson inactive medication statement for ondansetron, tablet po q6h prn nausea/vomiting, to treat nausea and vomiting."
 * status = #intended
 * medicationCodeableConcept = $rxnorm#198052 "ondansetron 4 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
 * reasonCode = $sct#16932000 "Nausea and vomiting"
@@ -1485,7 +1485,7 @@ Usage: #example
 Description: "Betsy Johnson inactive medication statement for 3, Novolin-R Sliding scale insulin protocol, to treat diabetes mellitus type 2 in nonobese (disorder)."
 * status = #intended
 * medicationCodeableConcept = $rxnorm#847205 "3 ML insulin, regular, human 100 UNT/ML Prefilled Syringe [Novolin R]"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-PSC-Prism-General-Hospital) "Prism General Hospital"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
@@ -1499,7 +1499,7 @@ Description: "Betsy Johnson active medication statement for atorvastatin, 1 tabl
 * basedOn = Reference(smp-medrx-3-41)
 * status = #active
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#55822004 "Hyperlipidemia"
@@ -1513,7 +1513,7 @@ Description: "Betsy Johnson active medication statement for sertraline, 1 tablet
 * partOf = Reference(smp-medadm-3-42)
 * status = #active
 * medicationCodeableConcept = $rxnorm#312941 "sertraline 50 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#35489007 "Depressive disorder (disorder)"
@@ -1527,7 +1527,7 @@ Description: "Betsy Johnson active medication statement for furosemide, 1 tablet
 * basedOn = Reference(smp-medrx-3-43)
 * status = #active
 * medicationCodeableConcept = $rxnorm#310429 "furosemide 20 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#731000119105 "Chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)"
@@ -1541,7 +1541,7 @@ Description: "Betsy Johnson active medication statement for carvedilol, 1 tablet
 * partOf = Reference(smp-medadm-3-44)
 * status = #active
 * medicationCodeableConcept = $rxnorm#200031 "carvedilol 6.25 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
@@ -1555,7 +1555,7 @@ Description: "Betsy Johnson active medication statement for Metformin, 1 tablet 
 * partOf = Reference(smp-medadm-3-45)
 * status = #active
 * medicationCodeableConcept = $rxnorm#311570 "Metformin 500 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
@@ -1569,7 +1569,7 @@ Description: "Betsy Johnson active medication statement for empagliflozin, 1 tab
 * partOf = Reference(smp-medadm-3-46)
 * status = #active
 * medicationCodeableConcept = $rxnorm#1545658 "empagliflozin 10 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
@@ -1583,7 +1583,7 @@ Description: "Betsy Johnson active medication statement for clopidogrel, 1 table
 * partOf = Reference(smp-medadm-3-47)
 * status = #active
 * medicationCodeableConcept = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#422504002 "Ischemic Stroke (disorder)"
@@ -1597,7 +1597,7 @@ Description: "Betsy Johnson active medication statement for Losartan, 1 tablet p
 * basedOn = Reference(smp-medrx-3-48)
 * status = #active
 * medicationCodeableConcept = $rxnorm#314073 "Losartan 50 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
@@ -1611,7 +1611,7 @@ Description: "Betsy Johnson active medication statement for ferrous, po daily, t
 * basedOn = Reference(smp-medrx-3-49)
 * status = #active
 * medicationCodeableConcept = $rxnorm#244210 "ferrous gluconate 325 MG Oral Capsule"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#691421000119108 "Anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)"
@@ -1625,7 +1625,7 @@ Description: "Betsy Johnson active medication statement for acetaminophen, 2 tab
 * partOf = Reference(smp-medadm-3-50)
 * status = #active
 * medicationCodeableConcept = $rxnorm#313782 "acetaminophen 325 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#396275006 "Osteoarthritis (disorder)"
@@ -1639,7 +1639,7 @@ Description: "Betsy Johnson active medication statement for polyethylene, 17g po
 * basedOn = Reference(smp-medrx-3-52)
 * status = #active
 * medicationCodeableConcept = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#21782001 "Drug-induced constipation"
@@ -1652,7 +1652,7 @@ Usage: #example
 Description: "Betsy Johnson inactive medication statement for atorvastatin, 1 tablet po at bedtime, to treat hyperlipidemia."
 * status = #intended
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-18"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#55822004 "Hyperlipidemia"
@@ -1665,7 +1665,7 @@ Usage: #example
 Description: "Betsy Johnson inactive medication statement for sertraline, 1 tablet po at bedtime, to treat depressive disorder (disorder)."
 * status = #intended
 * medicationCodeableConcept = $rxnorm#312941 "sertraline 50 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-18"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#35489007 "Depressive disorder (disorder)"
@@ -1678,7 +1678,7 @@ Usage: #example
 Description: "Betsy Johnson inactive medication statement for furosemide, 1 tablet po daily, to treat chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)."
 * status = #intended
 * medicationCodeableConcept = $rxnorm#310429 "furosemide 20 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-18"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#731000119105 "Chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)"
@@ -1691,7 +1691,7 @@ Usage: #example
 Description: "Betsy Johnson inactive medication statement for Metformin, 1 tablet by mouth daily, to treat diabetes mellitus type 2 in nonobese (disorder)."
 * status = #intended
 * medicationCodeableConcept = $rxnorm#311570 "Metformin 500 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-18"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
@@ -1704,7 +1704,7 @@ Usage: #example
 Description: "Betsy Johnson inactive medication statement for empagliflozin, 1 tablet by mouth daily, to treat diabetes mellitus type 2 in nonobese (disorder)."
 * status = #intended
 * medicationCodeableConcept = $rxnorm#1545658 "empagliflozin 10 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-18"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
@@ -1717,7 +1717,7 @@ Usage: #example
 Description: "Betsy Johnson inactive medication statement for clopidogrel, 1 tablet by mouth daily, to treat ischemic stroke (disorder)."
 * status = #intended
 * medicationCodeableConcept = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-18"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#422504002 "Ischemic Stroke (disorder)"
@@ -1730,7 +1730,7 @@ Usage: #example
 Description: "Betsy Johnson inactive medication statement for Losartan, 1 tablet po daily, to treat hypertensive disorder, systemic arterial (disorder)."
 * status = #intended
 * medicationCodeableConcept = $rxnorm#314073 "Losartan 50 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-18"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
@@ -1743,7 +1743,7 @@ Usage: #example
 Description: "Betsy Johnson inactive medication statement for ferrous, po daily, to treat anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)."
 * status = #intended
 * medicationCodeableConcept = $rxnorm#244210 "ferrous gluconate 325 MG Oral Capsule"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-18"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#691421000119108 "Anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)"
@@ -1756,7 +1756,7 @@ Usage: #example
 Description: "Betsy Johnson inactive medication statement for acetaminophen, 2 tablets by mouth every 6 hours or as needed for pain, to treat osteoarthritis (disorder)."
 * status = #intended
 * medicationCodeableConcept = $rxnorm#313782 "acetaminophen 325 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-18"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#396275006 "Osteoarthritis (disorder)"
@@ -1769,7 +1769,7 @@ Usage: #example
 Description: "Betsy Johnson inactive medication statement for polyethylene, 17g by mouth daily as needed for constipation, to treat drug-induced constipation."
 * status = #intended
 * medicationCodeableConcept = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-18"
 * informationSource = Reference(Organization/org-SNF-Happy-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#21782001 "Drug-induced constipation"
@@ -1783,7 +1783,7 @@ Description: "Betsy Johnson active medication statement for atorvastatin, 1 tabl
 * basedOn = Reference(smp-medrx-4-64)
 * status = #active
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-19"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
 * reasonCode = $sct#55822004 "Hyperlipidemia"
@@ -1797,7 +1797,7 @@ Description: "Betsy Johnson active medication statement for sertraline, 1 tablet
 * basedOn = Reference(smp-medrx-4-65)
 * status = #active
 * medicationCodeableConcept = $rxnorm#312941 "sertraline 50 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-19"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
 * reasonCode = $sct#35489007 "Depressive disorder (disorder)"
@@ -1811,7 +1811,7 @@ Description: "Betsy Johnson active medication statement for furosemide, 1 tablet
 * basedOn = Reference(smp-medrx-4-66)
 * status = #active
 * medicationCodeableConcept = $rxnorm#310429 "furosemide 20 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-19"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
 * reasonCode = $sct#731000119105 "Chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)"
@@ -1825,7 +1825,7 @@ Description: "Betsy Johnson active medication statement for Metformin, 1 tablet 
 * basedOn = Reference(smp-medrx-4-67)
 * status = #active
 * medicationCodeableConcept = $rxnorm#311570 "Metformin 500 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-19"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
@@ -1839,7 +1839,7 @@ Description: "Betsy Johnson active medication statement for empagliflozin, 1 tab
 * basedOn = Reference(smp-medrx-4-68)
 * status = #active
 * medicationCodeableConcept = $rxnorm#1545658 "empagliflozin 10 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-19"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
@@ -1853,7 +1853,7 @@ Description: "Betsy Johnson active medication statement for clopidogrel, 1 table
 * basedOn = Reference(smp-medrx-4-69)
 * status = #active
 * medicationCodeableConcept = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-19"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
 * reasonCode = $sct#422504002 "Ischemic Stroke (disorder)"
@@ -1867,7 +1867,7 @@ Description: "Betsy Johnson active medication statement for Losartan, 1 tablet p
 * basedOn = Reference(smp-medrx-4-70)
 * status = #active
 * medicationCodeableConcept = $rxnorm#314073 "Losartan 50 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-19"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
@@ -1881,7 +1881,7 @@ Description: "Betsy Johnson active medication statement for ferrous, po daily, t
 * basedOn = Reference(smp-medrx-4-71)
 * status = #active
 * medicationCodeableConcept = $rxnorm#244210 "ferrous gluconate 325 MG Oral Capsule"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-19"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
 * reasonCode = $sct#691421000119108 "Anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)"
@@ -1895,7 +1895,7 @@ Description: "Betsy Johnson active medication statement for acetaminophen, 2 tab
 * basedOn = Reference(smp-medrx-4-72)
 * status = #active
 * medicationCodeableConcept = $rxnorm#313782 "acetaminophen 325 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-19"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
 * reasonCode = $sct#396275006 "Osteoarthritis (disorder)"
@@ -1909,7 +1909,7 @@ Description: "Betsy Johnson active medication statement for polyethylene, 17g by
 * basedOn = Reference(smp-medrx-4-74)
 * status = #active
 * medicationCodeableConcept = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-19"
 * informationSource = Reference(Organization/org-HH-Sky-Harbor-Home-Health) "Sky Harbor Home Health Services"
 * reasonCode = $sct#21782001 "Drug-induced constipation"
@@ -1923,7 +1923,7 @@ Description: "Betsy Johnson active medication statement for atorvastatin, 1 tabl
 * basedOn = Reference(smp-medrx-5-75)
 * status = #active
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-20"
 * informationSource = Reference(Organization/org-Pharm-Everyday-Community-Pharm) "Everyday Community Pharmacy"
 * reasonCode = $sct#55822004 "Hyperlipidemia"
@@ -1937,7 +1937,7 @@ Description: "Betsy Johnson active medication statement for sertraline, 1 tablet
 * basedOn = Reference(smp-medrx-5-76)
 * status = #active
 * medicationCodeableConcept = $rxnorm#312941 "sertraline 50 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-20"
 * informationSource = Reference(Organization/org-Pharm-Everyday-Community-Pharm) "Everyday Community Pharmacy"
 * reasonCode = $sct#35489007 "Depressive disorder (disorder)"
@@ -1951,7 +1951,7 @@ Description: "Betsy Johnson active medication statement for furosemide, 1 tablet
 * basedOn = Reference(smp-medrx-5-77)
 * status = #active
 * medicationCodeableConcept = $rxnorm#310429 "furosemide 20 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-20"
 * informationSource = Reference(Organization/org-Pharm-Everyday-Community-Pharm) "Everyday Community Pharmacy"
 * reasonCode = $sct#731000119105 "Chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)"
@@ -1965,7 +1965,7 @@ Description: "Betsy Johnson active medication statement for Metformin, 1 tablet 
 * basedOn = Reference(smp-medrx-5-78)
 * status = #active
 * medicationCodeableConcept = $rxnorm#311570 "Metformin 500 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-20"
 * informationSource = Reference(Organization/org-Pharm-Everyday-Community-Pharm) "Everyday Community Pharmacy"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
@@ -1979,7 +1979,7 @@ Description: "Betsy Johnson active medication statement for empagliflozin, 1 tab
 * basedOn = Reference(smp-medrx-5-79)
 * status = #active
 * medicationCodeableConcept = $rxnorm#1545658 "empagliflozin 10 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-20"
 * informationSource = Reference(Organization/org-Pharm-Everyday-Community-Pharm) "Everyday Community Pharmacy"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
@@ -1993,7 +1993,7 @@ Description: "Betsy Johnson active medication statement for clopidogrel, 1 table
 * basedOn = Reference(smp-medrx-5-80)
 * status = #active
 * medicationCodeableConcept = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-20"
 * informationSource = Reference(Organization/org-Pharm-Everyday-Community-Pharm) "Everyday Community Pharmacy"
 * reasonCode = $sct#422504002 "Ischemic Stroke (disorder)"
@@ -2007,7 +2007,7 @@ Description: "Betsy Johnson active medication statement for Losartan, 1 tablet p
 * basedOn = Reference(smp-medrx-5-81)
 * status = #active
 * medicationCodeableConcept = $rxnorm#314073 "Losartan 50 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-20"
 * informationSource = Reference(Organization/org-Pharm-Everyday-Community-Pharm) "Everyday Community Pharmacy"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
@@ -2021,7 +2021,7 @@ Description: "Betsy Johnson active medication statement for ferrous, po daily, t
 * basedOn = Reference(smp-medrx-5-82)
 * status = #active
 * medicationCodeableConcept = $rxnorm#244210 "ferrous gluconate 325 MG Oral Capsule"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-20"
 * informationSource = Reference(Organization/org-Pharm-Everyday-Community-Pharm) "Everyday Community Pharmacy"
 * reasonCode = $sct#691421000119108 "Anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)"
@@ -2035,7 +2035,7 @@ Description: "Betsy Johnson active medication statement for acetaminophen, 2 tab
 * basedOn = Reference(smp-medrx-5-83)
 * status = #active
 * medicationCodeableConcept = $rxnorm#313782 "acetaminophen 325 MG Oral Tablet"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-20"
 * informationSource = Reference(Organization/org-Pharm-Everyday-Community-Pharm) "Everyday Community Pharmacy"
 * reasonCode = $sct#396275006 "Osteoarthritis (disorder)"
@@ -2049,7 +2049,7 @@ Description: "Betsy Johnson active medication statement for polyethylene, 17g by
 * basedOn = Reference(smp-medrx-5-85)
 * status = #active
 * medicationCodeableConcept = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
-* subject = Reference(Patient/patientBSJ1) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-20"
 * informationSource = Reference(Organization/org-Pharm-Everyday-Community-Pharm) "Everyday Community Pharmacy"
 * reasonCode = $sct#21782001 "Drug-induced constipation"

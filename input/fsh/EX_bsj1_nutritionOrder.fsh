@@ -5,7 +5,7 @@ Usage: #example
 Description: "Betsy Smith-Johnson's Nutrition Order"
 * status = #active
 * intent = #order
-* patient = Reference(Patient/patientBSJ1)
+* patient = Reference(Patient/patient-betsysmith-johnson01)
 * dateTime = "2024-09-20"
 * orderer = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
 * excludeFoodModifier = $sct#226559002 "Bread"
