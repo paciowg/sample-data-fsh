@@ -19,12 +19,22 @@ The id convention will be as such:
 `patient-jennymosley01`.
 
 **Example 2:** a provider of "Anita Chu" will have an id:
-`Practitioner-AnitaChu-0101`.
+`practitioner-AnitaChu-01`.
 
 It is recommended that any change to demographics for a person should have a different name entirely. However, if we want to keep the same person name, then ensure there is a unique number at the end. Include in the FSH `Description` field a short description of what makes this patient unique from the other initial persona.
 
 For example, if `patient-jennymosley01` was born on Feb 1, 1965 and we wanted the patient in a different scenario to be older in a different world with a new birthdate of March 15, 1950 then create a new patient identifier `patient-jennymosley02`. Then put in the description field:
 `Description: "Patient Jenny Mosley has a different birth date."`
+
+#### Locations
+
+The convention for locations will mirror the convention fo persona:
+`<resource type>`-`<concatenated location "name" and ordinal number>`
+
+The name of a location can be pulled from the name data element (renaissancepharmacy), be composed of some portion of the address (111MapleCt) or be a more general description like Jenny Mosley's home (jennymosley_home).
+ 
+ **Example 1:** a location known as "Renaissance Pharmacy" can have an id:
+ `Location-RenaissancePharmacy01`.
 
 ### Other resource identifiers
 
