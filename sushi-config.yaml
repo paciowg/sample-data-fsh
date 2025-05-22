@@ -54,18 +54,20 @@ menu:
   Example Guidance:
     Style Guide: style_guide.html
   Use Case Examples: 
-    Jenny Mosley: pacio_int_cancer_jm1.html
-    Betsy Smith-Johnson: pacio_int_stroke_bsj1.html
+    Betsy Smith-Johnson: pacio_persona_betsySmithJohnson.html
+    Jenny Mosley: pacio_persona_jennyMosley.html
   Release Notes: release_notes.html
 
 pages:
+  artifacts.md:
+    title: Sample Data Artifacts
   index.md:
     title: PACIO Sample Data Repository
   style_guide.md:
     title: Examples Style Guide
-  pacio_int_cancer_jm1.md:
+  pacio_persona_jennyMosley.md:
     title: Jenny Mosley - Cancer Use Case
-  pacio_int_stroke_bsj1.md:
+  pacio_persona_betsySmithJohnson.md:
     title: Betsy Smith-Johnson - Stroke Use Case
   release_notes.md:
     title: Release Notes
