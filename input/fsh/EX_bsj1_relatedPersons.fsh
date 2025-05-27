@@ -15,8 +15,28 @@ Description: "Betsy Smith-Johnson's son and healthcare agent"
 * telecom.value = "(555) 918-4823"
 * telecom.use = #mobile
 * address.use = #home
-* address.line = "123 Fake Street"
+* address.line = "Charles' address"
 * address.city = "Fake City"
 * address.state = "MI"
 * address.postalCode = "48001"
 
+
+Instance: relatedPerson-LisaJohnson01
+InstanceOf: RelatedPerson
+Usage: #example
+Description: "Betsy Smith-Johnson's daughter in-law, Charles' wife"
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-relatedperson"
+* active = true
+* patient = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
+* relationship = $v3-RoleCode#DAUINLAW "daughter in-law"
+* name.use = #official
+* name.family = "Johnson"
+* name.given = "Lisa"
+* telecom.system = #phone
+* telecom.value = "(555) 951-8437"
+* telecom.use = #mobile
+* address.use = #home
+* address.line = "Lisa's address"
+* address.city = "Fake City"
+* address.state = "MI"
+* address.postalCode = "48001"
