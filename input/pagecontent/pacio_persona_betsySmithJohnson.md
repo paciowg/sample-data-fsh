@@ -17,7 +17,7 @@ This use case was used to test a preliminary version of Transitions of Care (ToC
 </p>
 
 ### Scene 0: Background
-Patient background information: [Betsy Smith-Johnson](Patient-patient-betsysmith-johnson01.html) is a female over 65 years old, date of birth 11/15/1950, and eligible for Medicare.  She lives in Michigan with her son, Charles Johnson, and his family. Betsy has a history of [hypertension](Condition-BSJ-HypertensionDiagnosis.html), [hyperlipidemia](Condition-BSJ-Hyperlipidemia.html), cataracts, osteoarthritis, *etc...*
+Patient background information: [Betsy Smith-Johnson](Patient-patient-betsysmith-johnson01.html) is a female over 65 years old, date of birth 11/15/1950, and eligible for Medicare.  She lives in Michigan with her son, Charles Johnson, and his family. Betsy has a history of [hypertension](Condition-betsysmith-johnson01-HypertensionDiagnosis.html), [hyperlipidemia](Condition-betsysmith-johnson01-Hyperlipidemia.html), cataracts, osteoarthritis, *etc...*
 
 Betsy Smith-Johnson has a structured personal advance care plan (PACP) and a minimally structured mental health advance directive (MHAD) from early 2024. She has shared them with her son Charles, who is also her healthcare agent with whom she lives, to ensure he can speak for her if she is unable to do so herself at a future, potential health event.
 
@@ -29,9 +29,9 @@ After 3 weeks in the SNF, Betsy is discharged from the SNF to her home on April 
 
 #### Scene 0 Sample Data Summary
 * [Betsy Smith-Johnson](Patient-patient-betsysmith-johnson01.html)
-* [hypertension](Condition-BSJ-HypertensionDiagnosis.html)
-* [hyperlipidemia](Condition-BSJ-Hyperlipidemia.html)
-* [hypertension](Condition-BSJ-HypertensionDiagnosis.html)
+* [hypertension](Condition-betsysmith-johnson01-HypertensionDiagnosis.html)
+* [hyperlipidemia](Condition-betsysmith-johnson01-Hyperlipidemia.html)
+* [hypertension](Condition-betsysmith-johnson01-HypertensionDiagnosis.html)
 * [Metro Hospital Emergency Department (ED)](Organization-org-ED-Metro-Hospital.html)
 
 ### Scene 1: Betsy has a stroke and is admitted to Emergency Department

@@ -18,7 +18,7 @@ The id convention will be as such:
 **Example 1:** a patient name of "Jenny Mosley" will have an id:
 `patient-jennymosley01`.
 
-**Example 2:** a provider of "Anita Chu" will have an id:
+**Example 2:** a provider of "Anita M. Chu" will have an id:
 `practitioner-AnitaChu-01`.
 
 It is recommended that any change to demographics for a person should have a different name entirely. However, if we want to keep the same person name, then ensure there is a unique number at the end. Include in the FSH `Description` field a short description of what makes this patient unique from the other initial persona.

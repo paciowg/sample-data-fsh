@@ -1,5 +1,5 @@
 
-Instance: BSJ-SNFDischargeDiet
+Instance: betsysmith-johnson01-SNFDischargeDiet
 InstanceOf: NutritionOrder
 Usage: #example
 Description: "Betsy Smith-Johnson's Nutrition Order"
@@ -9,7 +9,7 @@ Description: "Betsy Smith-Johnson's Nutrition Order"
 * dateTime = "2024-09-20"
 * orderer = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
 * excludeFoodModifier = $sct#226559002 "Bread"
-* allergyIntolerance = Reference(AllergyIntolerance/BSJ-AllergyACE)
+* allergyIntolerance = Reference(AllergyIntolerance/betsysmith-johnson01-AllergyACE)
 * oralDiet.type.coding[0] = $sct#1055201009 "Decreased protein diet"
 * oralDiet.type.text = "Decreased protein and/or protein derivative diet (regime/therapy)"
 * oralDiet.type.coding[+] = $sct#437421000124105 "Decreased sodium diet (regime/therapy)"

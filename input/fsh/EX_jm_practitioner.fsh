@@ -33,7 +33,7 @@ Description: "Practitioner Example - Anita Chu"
 * identifier.system = "http://hl7.org/fhir/sid/us-npi"
 * identifier.value = "2346547890"
 * active = true
-* name.text = "Anita Chu"
+* name.text = "Anita M. Chu"
 * name.family = "Chu"
 * name.given = "Anita"
 * telecom[0].system = #phone
