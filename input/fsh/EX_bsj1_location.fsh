@@ -38,6 +38,19 @@ Description: "Organization Neuro Care Inc Example"
 * address.country = "US"
 * address.text = "177 Branching Tree Blvd, Grand Rapids, MI 49509"
 
+Instance: org-Loc-ED-Metro-Hospital
+InstanceOf: Location
+Usage: #example
+Description: "Location Metro Hospital Emergency Department"
+* status = #active
+* name = "Metro Hospital Emergency Department"
+* address.line = "22327 Moross Rd, Detroit, MI 48236"
+* address.city = "Detroit"
+* address.state = "MI"
+* address.postalCode = "48236"
+* address.country = "US"
+* address.text = "22327 Moross Rd, Detroit, MI 48236"
+
 Instance: org-Loc-PC-Primary-Care-Michigan
 InstanceOf: Location
 Usage: #example

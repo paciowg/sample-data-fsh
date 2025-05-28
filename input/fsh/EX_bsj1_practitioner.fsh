@@ -144,6 +144,30 @@ Description: "Nura Mekel's practitioner record."
 * address.country = "US"
 * gender = #female
 
+Instance: Practitioner-DavidAlbahari
+InstanceOf: Practitioner
+Usage: #example
+Description: "David Albahari's practitioner record."
+* meta.versionId = "4"
+* meta.lastUpdated = "2024-09-21T14:11:15.000+00:00"
+* identifier.system = "http://hl7.org/fhir/sid/us-npi"
+* identifier.value = "1482843718"
+* active = true
+* name.text = "David Albahari"
+* name.family = "Albahari"
+* name.given = "David"
+* telecom[0].system = #phone
+* telecom[=].value = "(555) 474-7745"
+* telecom[+].system = #email
+* telecom[=].value = "dalbahari@patientcentricsolutions.com"
+* address.text = "22327 Moross Rd, Detroit, MI 48236"
+* address.line = "22327 Moross Rd"
+* address.city = "Detroit"
+* address.state = "MI"
+* address.postalCode = "48236"
+* address.country = "US"
+* gender = #male
+
 Instance: Practitioner-Phil-Chekhov
 InstanceOf: Practitioner
 Usage: #example

@@ -19,6 +19,16 @@ Description: "Nura Mekel's role at Neuro Care Inc.."
 * organization = Reference(Organization/org-Neuro-Care-Inc) "Neuro Care Inc."
 * location = Reference(Location/org-Loc-Neuro-Care-Inc)
 
+Instance: Role-Neuro-DavidAlbahari
+InstanceOf: PractitionerRole
+Usage: #example
+Description: "David Albahari's role at the Metro Hospital Emergency Department"
+* active = true
+* code = $taxonomy#2084N0400X "Neurology Physician"
+* practitioner = Reference(Practitioner/Practitioner-DavidAlbahari) "David Albahari"
+* organization = Reference(Organization/org-ED-Metro-Hospital) "Metro Hospital Emergency Department"
+* location = Reference(Location/org-Loc-ED-Metro-Hospital)
+
 Instance: Role-OT-JenCadbury
 InstanceOf: PractitionerRole
 Usage: #example
