@@ -1,66 +1,121 @@
-// ******** MLT Note: Locations removed since they already existed in jm1 sample data *********
-// Instance: org-Loc-Everyday-Community-Pharm
+// Instance: org-Loc-Neuro-Care-Inc
 // InstanceOf: Location
 // Usage: #example
-// Description: "Example"
+// Description: "Organization Neuro Care Inc Example"
 // * status = #active
-// * name = "Everyday Community Pharmacy"
-// * address.line = "125 Yew St"
-// * address.city = "Grand Rapids"
-// * address.state = "MI"
-// * address.postalCode = "49503"
-// * address.country = "US"
-// * address.text = "125 Yew St, Grand Rapids, MI 49503"
-
-// Instance: org-Loc-NED-Contract-Pharm
-// InstanceOf: Location
-// Usage: #example
-// Description: "Example"
-// * status = #active
-// * name = "Not Every Day Contract Pharmacy"
-// * address.line = "155 Light Commercial Ave"
+// * name = "Neuro Care Inc."
+// * address.line = "177 Branching Tree Blvd"
 // * address.city = "Grand Rapids"
 // * address.state = "MI"
 // * address.postalCode = "49509"
 // * address.country = "US"
-// * address.text = "155 Light Commercial Ave, Grand Rapids, MI 49509"
+// * address.text = "177 Branching Tree Blvd, Grand Rapids, MI 49509"
 
-Instance: org-Loc-Neuro-Care-Inc
+// Instance: org-Loc-PC-Primary-Care-Michigan
+// InstanceOf: Location
+// Usage: #example
+// Description: "Organization Primary Care Michigan Example"
+// * status = #active
+// * name = "Michigan Primary Health Care Associates"
+// * address.line = "123 Spruce Dr"
+// * address.city = "Grand Rapids"
+// * address.state = "MI"
+// * address.postalCode = "49503"
+// * address.country = "US"
+// * address.text = "123 Spruce Dr. Grand Rapids, MI 49503"
+
+// Instance: org-Loc-SNF-Happy-Nursing-Facility
+// InstanceOf: Location
+// Usage: #example
+// Description: "Organization Happy Nursing Facility Example"
+// * status = #active
+// * name = "Happy Nursing Facility"
+// * address.line = "8100 Pinebrook Dr"
+// * address.city = "Grand Rapids"
+// * address.state = "MI"
+// * address.postalCode = "49504"
+// * address.country = "US"
+// * address.text = "8100 Pinebrook Dr, Grand Rapids, MI 49504"
+
+Instance: org-Loc-ED-Metro-Hospital
 InstanceOf: Location
 Usage: #example
-Description: "Organization Neuro Care Inc Example"
+Description: "Metro Hospital Emergency Department Example"
 * status = #active
-* name = "Neuro Care Inc."
-* address.line = "177 Branching Tree Blvd"
-* address.city = "Grand Rapids"
+* name = "Metro Hospital Emergency Department"
+* telecom.system = #phone
+* telecom.value = "(555) 384-4444"
+* address.line = "22327 Moross Rd, Detroit, MI 48236"
+* address.city = "Detroit"
 * address.state = "MI"
-* address.postalCode = "49509"
+* address.postalCode = "48236"
 * address.country = "US"
-* address.text = "177 Branching Tree Blvd, Grand Rapids, MI 49509"
+* address.text = "22327 Moross Rd, Detroit, MI 48236"
 
-Instance: org-Loc-PC-Primary-Care-Michigan
+Instance: org-Loc-Motor-City-Nursing-Facility
 InstanceOf: Location
 Usage: #example
-Description: "Organization Primary Care Michigan Example"
+Description: "Motor City Nursing Facility Example"
 * status = #active
-* name = "Michigan Primary Health Care Associates"
-* address.line = "123 Spruce Dr"
-* address.city = "Grand Rapids"
+* name = "Motor City Nursing Facility"
+* telecom.system = #phone
+* telecom.value = "(555) 245-7948"
+* address.line = "18051 Mack Ave"
+* address.city = "Detroit"
 * address.state = "MI"
-* address.postalCode = "49503"
+* address.postalCode = "48224"
 * address.country = "US"
-* address.text = "123 Spruce Dr. Grand Rapids, MI 49503"
 
-Instance: org-Loc-SNF-Happy-Nursing-Facility
+Instance: org-Loc-Motown-Home-Health
 InstanceOf: Location
 Usage: #example
-Description: "Organization Happy Nursing Facility Example"
+Description: "Motown Home Health Example"
 * status = #active
-* name = "Happy Nursing Facility"
-* address.line = "8100 Pinebrook Dr"
-* address.city = "Grand Rapids"
+* name = "Motown Home Health"
+* telecom.system = #phone
+* telecom.value = "(555) 834-6682"
+* address.line = "17010 Harper Ave"
+* address.city = "Detroit"
 * address.state = "MI"
-* address.postalCode = "49504"
+* address.postalCode = "48224"
 * address.country = "US"
-* address.text = "8100 Pinebrook Dr, Grand Rapids, MI 49504"
 
+Instance: org-Loc-Michigan-Primary-Health-Care-A
+InstanceOf: Location
+Usage: #example
+Description: "Michigan Primary Health Care Associates Example"
+* status = #active
+* telecom.system = #phone
+* telecom.value = "(555) 4813-3311"
+* address.line = "14820 Gratiot Ave"
+* address.city = "Detroit"
+* address.state = "MI"
+* address.postalCode = "48205"
+* address.country = "US"
+
+Instance: org-Loc-Renaissance-Pharmacy
+InstanceOf: Location
+Usage: #example
+Description: "Renaissance Pharmacy Example"
+* status = #active
+* telecom.system = #phone
+* telecom.value = "(555) 467-9087"
+* address.line = "30600 Van Dyke Ave"
+* address.city = "Warren"
+* address.state = "MI"
+* address.postalCode = "48093"
+* address.country = "US"
+
+Instance: org-Loc-The-Vernon-Center
+InstanceOf: Location
+Usage: #example
+Description: "The Vernon Center Example"
+* status = #active
+* name = "The Vernon Center"
+* telecom.system = #phone
+* telecom.value = "(555) 347-8877"
+* address.line = "9341 Agnes Street"
+* address.city = "Detroit"
+* address.state = "MI"
+* address.postalCode = "48214"
+* address.country = "US"

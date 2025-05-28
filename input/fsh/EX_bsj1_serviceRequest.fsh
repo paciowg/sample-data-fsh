@@ -1,4 +1,4 @@
-Instance: BSJ-MedRecOrder
+Instance: betsysmith-johnson01-MedRecOrder
 InstanceOf: ServiceRequest
 Usage: #example
 Description: "Betsy Smith-Johnson's service request for medication reconciliation (procedure)."
@@ -15,7 +15,7 @@ Description: "Betsy Smith-Johnson's service request for medication reconciliatio
 * requester = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
 * reasonReference = Reference(Condition/health-concern-complexregime)
 
-Instance: BSJ-PCPFollowUp
+Instance: betsysmith-johnson01-PCPFollowUp
 InstanceOf: ServiceRequest
 Usage: #example
 Description: "Betsy Smith-Johnson's service request for follow-up visit (procedure)."
@@ -30,7 +30,7 @@ Description: "Betsy Smith-Johnson's service request for follow-up visit (procedu
 * authoredOn = "2024-09-20"
 * requester = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
 
-Instance: BSJ-SNFDischargeCallOTRefer
+Instance: betsysmith-johnson01-SNFDischargeCallOTRefer
 InstanceOf: ServiceRequest
 Usage: #example
 Description: "Betsy Smith-Johnson's service request for occupational therapy assessment (procedure."
@@ -45,9 +45,9 @@ Description: "Betsy Smith-Johnson's service request for occupational therapy ass
 * occurrencePeriod.start = "2024-09-20"
 * authoredOn = "2024-09-20"
 * requester = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
-* reasonReference = Reference(Condition/BSJ-HemiparesisDiagnosis)
+* reasonReference = Reference(Condition/betsysmith-johnson01-HemiparesisDiagnosis)
 
-Instance: BSJ-SNFDischargeCallOrder
+Instance: betsysmith-johnson01-SNFDischargeCallOrder
 InstanceOf: ServiceRequest
 Usage: #example
 Description: "Betsy Smith-Johnson's service request for informing doctor (procedure)."
@@ -62,7 +62,7 @@ Description: "Betsy Smith-Johnson's service request for informing doctor (proced
 * authoredOn = "2024-09-20"
 * requester = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
 
-Instance: BSJ-SNFDischargeCallSLPRefer
+Instance: betsysmith-johnson01-SNFDischargeCallSLPRefer
 InstanceOf: ServiceRequest
 Usage: #example
 Description: "Betsy Smith-Johnson's service request for speech therapy assessment (procedure)."
@@ -77,7 +77,7 @@ Description: "Betsy Smith-Johnson's service request for speech therapy assessmen
 * authoredOn = "2024-09-20"
 * requester = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
 
-Instance: BSJ-SNFDischargeLabOrderBMP
+Instance: betsysmith-johnson01-SNFDischargeLabOrderBMP
 InstanceOf: ServiceRequest
 Usage: #example
 Description: "Betsy Smith-Johnson's service request for blood chemistry (procedure)."
@@ -91,12 +91,12 @@ Description: "Betsy Smith-Johnson's service request for blood chemistry (procedu
 * occurrenceDateTime = "2024-10-02"
 * authoredOn = "2024-09-20"
 * requester = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
-* reasonReference[0] = Reference(Condition/BSJ-AnemiaDiagnosis)
-* reasonReference[+] = Reference(Condition/BSJ-Hyperlipidemia)
-* reasonReference[+] = Reference(Condition/BSJ-KidneyDisease)
-* reasonReference[+] = Reference(Condition/BSJ-DiabetesDiagnosis)
+* reasonReference[0] = Reference(Condition/betsysmith-johnson01-AnemiaDiagnosis)
+* reasonReference[+] = Reference(Condition/betsysmith-johnson01-Hyperlipidemia)
+* reasonReference[+] = Reference(Condition/betsysmith-johnson01-KidneyDisease)
+* reasonReference[+] = Reference(Condition/betsysmith-johnson01-DiabetesDiagnosis)
 
-Instance: BSJ-SNFDischargeLabOrderCBC
+Instance: betsysmith-johnson01-SNFDischargeLabOrderCBC
 InstanceOf: ServiceRequest
 Usage: #example
 Description: "Betsy Smith-Johnson's service request for complete blood count without differential (procedure)."
@@ -110,9 +110,9 @@ Description: "Betsy Smith-Johnson's service request for complete blood count wit
 * occurrenceDateTime = "2024-10-02"
 * authoredOn = "2024-09-20"
 * requester = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
-* reasonReference = Reference(Condition/BSJ-AnemiaDiagnosis)
+* reasonReference = Reference(Condition/betsysmith-johnson01-AnemiaDiagnosis)
 
-Instance: BSJ-SNFDischargePTRefer
+Instance: betsysmith-johnson01-SNFDischargePTRefer
 InstanceOf: ServiceRequest
 Usage: #example
 Description: "Betsy Smith-Johnson's service request for physical therapy assessment (procedure)."
@@ -126,4 +126,4 @@ Description: "Betsy Smith-Johnson's service request for physical therapy assessm
 * occurrencePeriod.start = "2024-09-20"
 * authoredOn = "2024-09-20"
 * requester = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
-* reasonReference = Reference(Condition/BSJ-HemiparesisDiagnosis)
+* reasonReference = Reference(Condition/betsysmith-johnson01-HemiparesisDiagnosis)

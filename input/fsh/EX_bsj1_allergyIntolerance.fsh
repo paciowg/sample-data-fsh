@@ -3,7 +3,7 @@ Alias: $allergyintolerance-clinical = http://terminology.hl7.org/CodeSystem/alle
 Alias: $allergyintolerance-verification = http://terminology.hl7.org/CodeSystem/allergyintolerance-verification
 Alias: $rxnorm = http://www.nlm.nih.gov/research/umls/rxnorm
 
-Instance: BSJ-AllergyACE
+Instance: betsysmith-johnson01-AllergyACE
 InstanceOf: AllergyIntolerance
 Usage: #example
 Description: "Betsy Smith-Johnson allergy to ACE inhibitors"

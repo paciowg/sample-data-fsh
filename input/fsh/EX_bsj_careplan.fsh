@@ -1,6 +1,6 @@
 Alias: $careplan-category = http://hl7.org/fhir/us/core/CodeSystem/careplan-category
 
-Instance: BSJ-SNFDischargeCarePlan
+Instance: betsysmith-johnson01-SNFDischargeCarePlan
 InstanceOf: CarePlan
 Usage: #example
 Description: "Betsy Smith-Johnson's SNF Discharge Care Plan"
@@ -10,11 +10,11 @@ Description: "Betsy Smith-Johnson's SNF Discharge Care Plan"
 * category[0] = $sct#736055001
 * category[+] = $careplan-category#assess-plan
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* activity[0].reference = Reference(NutritionOrder/BSJ-SNFDischargeDiet)
-* activity[+].reference = Reference(ServiceRequest/BSJ-PCPFollowUp)
-* activity[+].reference = Reference(ServiceRequest/BSJ-SNFDischargeCallOrder)
-* activity[+].reference = Reference(ServiceRequest/BSJ-SNFDischargeCallOTRefer)
-* activity[+].reference = Reference(ServiceRequest/BSJ-SNFDischargeCallSLPRefer)
-* activity[+].reference = Reference(ServiceRequest/BSJ-SNFDischargeLabOrderBMP)
-* activity[+].reference = Reference(ServiceRequest/BSJ-SNFDischargeLabOrderCBC)
-* activity[+].reference = Reference(ServiceRequest/BSJ-SNFDischargePTRefer)
+* activity[0].reference = Reference(NutritionOrder/betsysmith-johnson01-SNFDischargeDiet)
+* activity[+].reference = Reference(ServiceRequest/betsysmith-johnson01-PCPFollowUp)
+* activity[+].reference = Reference(ServiceRequest/betsysmith-johnson01-SNFDischargeCallOrder)
+* activity[+].reference = Reference(ServiceRequest/betsysmith-johnson01-SNFDischargeCallOTRefer)
+* activity[+].reference = Reference(ServiceRequest/betsysmith-johnson01-SNFDischargeCallSLPRefer)
+* activity[+].reference = Reference(ServiceRequest/betsysmith-johnson01-SNFDischargeLabOrderBMP)
+* activity[+].reference = Reference(ServiceRequest/betsysmith-johnson01-SNFDischargeLabOrderCBC)
+* activity[+].reference = Reference(ServiceRequest/betsysmith-johnson01-SNFDischargePTRefer)
