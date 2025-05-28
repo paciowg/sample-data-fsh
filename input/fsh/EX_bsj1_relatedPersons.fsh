@@ -15,10 +15,10 @@ Description: "Betsy Smith-Johnson's son and healthcare agent"
 * telecom.value = "(555) 918-4823"
 * telecom.use = #mobile
 * address.use = #home
-* address.line = "Charles' address"
-* address.city = "Fake City"
+* address.line = "17040 E Warren Ave"
+* address.city = "Detroit"
 * address.state = "MI"
-* address.postalCode = "48001"
+* address.postalCode = "48224"
 
 
 Instance: relatedPerson-LisaJohnson01
@@ -36,7 +36,7 @@ Description: "Betsy Smith-Johnson's daughter in-law, Charles' wife"
 * telecom.value = "(555) 951-8437"
 * telecom.use = #mobile
 * address.use = #home
-* address.line = "Lisa's address"
-* address.city = "Fake City"
+* address.line = "17040 E Warren Ave"
+* address.city = "Detroit"
 * address.state = "MI"
-* address.postalCode = "48001"
+* address.postalCode = "48224"
