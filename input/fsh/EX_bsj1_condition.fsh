@@ -153,7 +153,8 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
-* code = $sct#278286009 "Right hemiparesis"
+* code.coding[0] = $ICD10CM#G83.21 "Monoplegia of upper limb affecting right dominant side"
+* code.coding[+] = $sct#278286009 "Right hemiparesis"
 * code.text = "Right hemiparesis (disorder)"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * category[0] = $icf#b7302 "Power of muscles on one side of the body"

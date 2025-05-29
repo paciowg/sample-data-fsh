@@ -28,11 +28,15 @@ During that SNF stay, as part of her admission processing,  the care team create
 After 3 weeks in the SNF, Betsy is discharged from the SNF to her home on April 22, 2025. (Note: This content was added to the scenario to support what happens later in scenes 2 and 3 to be congruent with current Medicare regulations.)
 
 #### Scene 0 Sample Data Summary
-* [Betsy Smith-Johnson](Patient-patient-betsysmith-johnson01.html)
-* [hypertension](Condition-betsysmith-johnson01-Condition-Hypertension-01.html)
-* [hyperlipidemia](Condition-betsysmith-johnson01-Condition-Hyperlipidemia-01.html)
-* [hypertension](Condition-betsysmith-johnson01-Condition-Hypertension-01.html)
-* [Metro Hospital Emergency Department (ED)](Organization-org-ED-Metro-Hospital.html)
+* [Patient: Betsy Smith-Johnson](Patient-patient-betsysmith-johnson01.html)
+* [Condition: hypertension](Condition-betsysmith-johnson01-Condition-Hypertension-01.html)
+* [Condition: hyperlipidemia](Condition-betsysmith-johnson01-Condition-Hyperlipidemia-01.html)
+* [Condition: hypertension](Condition-betsysmith-johnson01-Condition-Hypertension-01.html)
+* [List: Home Medication List](List-smp-med-list-1.html)
+* [Organization: Metro Hospital Emergency Department (ED)](Organization-org-ED-Metro-Hospital.html)
+* [DocumentReference: ED Discharge Summary 01](DocumentReference-BSJ1-documentReference-ED-dischargeSummary-01.html)
+* [DocumentReference: SNF Discharge Summary 01](DocumentReference-BSJ1-documentReference-SNF-dischargeSummary-01.html)
+
 
 ### Scene 1: Betsy has a stroke and is admitted to Emergency Department
 
@@ -51,9 +55,8 @@ Data is prepared and final reports are created by the ED for Betsy. This include
 
 
 #### Scene 1 Sample Data Summary
-* [Betsy Smith-Johnson](Patient-patient-betsysmith-johnson01.html)
-* [Metro Hospital Emergency Department (ED)](Organization-org-ED-Metro-Hospital.html)
-  
+* [Patient: Betsy Smith-Johnson](Patient-patient-betsysmith-johnson01.html)
+* [Organization: Metro Hospital Emergency Department (ED)](Organization-org-ED-Metro-Hospital.html)
 
 ### Scene 2: Betsy is discharged to SNF
 

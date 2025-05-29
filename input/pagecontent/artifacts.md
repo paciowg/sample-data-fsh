@@ -1,12 +1,13 @@
 ## Persona: Betsy Smith-Johnson Examples
 
+* [Patient: Betsy Smith-Johnson](Patient-patient-betsysmith-johnson01.html)
+
 ### Organizations
 
 #### PCP01: Detroit Primary Care Providers
-* [Prism General Hospital](Organization-org-ED-Metro-Hospital.html)
+* [Metro Emergency Department and Hospital](Organization-org-ED-Metro-Hospital.html)
 * [Neuro Care Inc](Organization-org-Neuro-Care-Inc.html)
 * [Michigan Primary Health Care Associates](Organization-org-PC-Primary-Care-Michigan.html)
-* [Metro Hospital Emergency Department](Organization-org-ED-Metro-Hospital.html)
 
 #### SNF01: Detroit Post-acute Care Providers
 * [Motor City Nursing Facility](Organization-org-Motor-City-Nursing-Facility.html)
