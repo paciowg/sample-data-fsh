@@ -1299,7 +1299,7 @@ Usage: #example
 Description: "Betsy Johnson active medication statement for Hydralazine, Hydralazine IV 10mg q4h pen SBP>160, if Hydralazine not effective Labetalol 10mg IV q4h prn SBP>160 hold for hr if less than 55."
 * basedOn = Reference(smp-medrx-2-25)
 * status = #active
-* medicationCodeableConcept = $rxnorm#225090 "Hydralazine Hydrochloride 10 MG Intravenous Solution"
+* medicationCodeableConcept = $rxnorm#966571 "1 ML hydralazine hydrochloride 20 MG/ML Injection"
 * medicationCodeableConcept.text = "Hydralazine 10 mg IV"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-21"

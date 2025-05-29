@@ -13,7 +13,7 @@ Description: "Betsy Smith-Johnson's service request for medication reconciliatio
 * occurrencePeriod.start = "2024-09-20"
 * authoredOn = "2024-09-20"
 * requester = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
-* reasonReference = Reference(Condition/health-concern-complexregime)
+* reasonReference = Reference(Condition/betsysmith-johnson01-Condition-ComplexRegime-01)
 
 Instance: betsysmith-johnson01-PCPFollowUp
 InstanceOf: ServiceRequest
@@ -45,7 +45,7 @@ Description: "Betsy Smith-Johnson's service request for occupational therapy ass
 * occurrencePeriod.start = "2024-09-20"
 * authoredOn = "2024-09-20"
 * requester = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
-* reasonReference = Reference(Condition/betsysmith-johnson01-HemiparesisDiagnosis)
+* reasonReference = Reference(Condition/betsysmith-johnson01-Condition-Hemiparesis-01-01)
 
 Instance: betsysmith-johnson01-SNFDischargeCallOrder
 InstanceOf: ServiceRequest
@@ -91,10 +91,10 @@ Description: "Betsy Smith-Johnson's service request for blood chemistry (procedu
 * occurrenceDateTime = "2024-10-02"
 * authoredOn = "2024-09-20"
 * requester = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
-* reasonReference[0] = Reference(Condition/betsysmith-johnson01-AnemiaDiagnosis)
-* reasonReference[+] = Reference(Condition/betsysmith-johnson01-Hyperlipidemia)
-* reasonReference[+] = Reference(Condition/betsysmith-johnson01-KidneyDisease)
-* reasonReference[+] = Reference(Condition/betsysmith-johnson01-DiabetesDiagnosis)
+* reasonReference[0] = Reference(Condition/betsysmith-johnson01-Condition-Anemia-01)
+* reasonReference[+] = Reference(Condition/betsysmith-johnson01-Condition-Hyperlipidemia-01)
+* reasonReference[+] = Reference(Condition/betsysmith-johnson01-Condition-KidneyDisease-01)
+* reasonReference[+] = Reference(Condition/betsysmith-johnson01-Condition-Diabetes-01)
 
 Instance: betsysmith-johnson01-SNFDischargeLabOrderCBC
 InstanceOf: ServiceRequest
@@ -110,7 +110,7 @@ Description: "Betsy Smith-Johnson's service request for complete blood count wit
 * occurrenceDateTime = "2024-10-02"
 * authoredOn = "2024-09-20"
 * requester = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
-* reasonReference = Reference(Condition/betsysmith-johnson01-AnemiaDiagnosis)
+* reasonReference = Reference(Condition/betsysmith-johnson01-Condition-Anemia-01)
 
 Instance: betsysmith-johnson01-SNFDischargePTRefer
 InstanceOf: ServiceRequest
@@ -126,4 +126,4 @@ Description: "Betsy Smith-Johnson's service request for physical therapy assessm
 * occurrencePeriod.start = "2024-09-20"
 * authoredOn = "2024-09-20"
 * requester = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
-* reasonReference = Reference(Condition/betsysmith-johnson01-HemiparesisDiagnosis)
+* reasonReference = Reference(Condition/betsysmith-johnson01-Condition-Hemiparesis-01-01)

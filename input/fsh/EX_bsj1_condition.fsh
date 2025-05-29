@@ -2,7 +2,7 @@ Alias: $condition-clinical = http://terminology.hl7.org/CodeSystem/condition-cli
 Alias: $condition-ver-status = http://terminology.hl7.org/CodeSystem/condition-ver-status
 Alias: $icf = http://hl7.org/fhir/sid/icf
 
-Instance: betsysmith-johnson01-AnemiaDiagnosis
+Instance: betsysmith-johnson01-Condition-Anemia-01
 InstanceOf: Condition
 Usage: #example
 Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of anemia co-occurrent and due to chronic kidney disease stage 3 (disorder) affecting structure of cardiovascular system."
@@ -20,8 +20,22 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * recordedDate = "2024-08-27T13:15:00-04:00"
 * note.text = "See lab"
 
+Instance: betsysmith-johnson01-Condition-Bipolar-01
+InstanceOf: Condition
+Usage: #example
+Description: "Betsy Smith-Johnson's Bipolar I disorder example."
+* clinicalStatus = $condition-clinical#active
+* verificationStatus = $condition-ver-status#confirmed
+* code = $sct#371596008 "Bipolar I disorder (disorder)"
+* code.text = "Bipolar I disorder"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
+* category[0] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
+* category[+] = $icf#b152 "Emotional functions"
+* extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
+* extension.valueDateTime = "2005-02-12"
+* recordedDate = "2024-08-27T13:15:00-04:00"
 
-Instance: encounter-diagnosis-BreastCancer
+Instance: betsysmith-johnson01-Condition-BreastCancer-01
 InstanceOf: Condition
 Usage: #example
 Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of hormone receptor positive malignant neoplasm of breast (disorder)."
@@ -43,7 +57,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * recordedDate = "2022-10-12T14:15:07-04:00"
 
 
-Instance: betsysmith-johnson01-Constipation
+Instance: betsysmith-johnson01-Condition-Constipation-01
 InstanceOf: Condition
 Usage: #example
 Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of drug-induced constipation (disorder) affecting colon structure."
@@ -61,7 +75,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * extension.valueDateTime = "2020-11"
 * asserter = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 
-Instance: betsysmith-johnson01-DepressionDiagnosis
+Instance: betsysmith-johnson01-Condition-Depression-01
 InstanceOf: Condition
 Usage: #example
 Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of depressive disorder (disorder) affecting brain structure."
@@ -78,7 +92,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2005-02"
 
-Instance: betsysmith-johnson01-DiabetesDiagnosis
+Instance: betsysmith-johnson01-Condition-Diabetes-01
 InstanceOf: Condition
 Usage: #example
 Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of diabetes mellitus type 2 in nonobese (disorder) affecting structure of endocrine system."
@@ -97,7 +111,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * recordedDate = "2017-06-05"
 * asserter = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 
-Instance: betsysmith-johnson01-DressingConcern
+Instance: betsysmith-johnson01-Condition-DressingConcern-01
 InstanceOf: Condition
 Usage: #example
 Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of difficulty performing dressing activity (finding)."
@@ -114,7 +128,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * asserter = Reference(PractitionerRole/Role-OT-JenCadbury)
 * note.text = "Betsy is frustrated, embarrassed, and worried about not being able to dress herself"
 
-Instance: betsysmith-johnson01-HeartDiseaseDiagnosis
+Instance: betsysmith-johnson01-Condition-HeartDisease-01
 InstanceOf: Condition
 Usage: #example
 Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of ischemic heart disease (disorder) affecting structure of cardiovascular system."
@@ -132,7 +146,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * recordedDate = "2019-06-08T14:15:00-04:00"
 * asserter = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 
-Instance: betsysmith-johnson01-HemiparesisDiagnosis
+Instance: betsysmith-johnson01-Condition-Hemiparesis-01-01
 InstanceOf: Condition
 Usage: #example
 Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of right hemiparesis (disorder) affecting entire right arm."
@@ -153,7 +167,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * asserter = Reference(PractitionerRole/Role-Neuro-NuraMekel)
 * note.text = "Patient began experiencing right sided weakness, primarily in arm and shoulder. There was no facial droop, but patient reports \"tingling\" in R face / numbness along R brow. Symptoms in face resolved post tPA administration. Strength improved in shoulder, weakness did not fully resolve. Demonstrates R arm weakness and lack of coordination. Fine motor skills significantly degraded and have not improved post tPA."
 
-Instance: betsysmith-johnson01-Hyperlipidemia
+Instance: betsysmith-johnson01-Condition-Hyperlipidemia-01
 InstanceOf: Condition
 Usage: #example
 Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of hyperlipidemia (disorder) affecting structure of cardiovascular system."
@@ -171,7 +185,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * extension.valueDateTime = "2018-06"
 * asserter = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 
-Instance: betsysmith-johnson01-HypertensionDiagnosis
+Instance: betsysmith-johnson01-Condition-Hypertension-01
 InstanceOf: Condition
 Usage: #example
 Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of hypertensive disorder, systemic arterial (disorder) affecting structure of cardiovascular system."
@@ -190,7 +204,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * recordedDate = "2011-09-17"
 * asserter = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 
-Instance: betsysmith-johnson01-KidneyDisease
+Instance: betsysmith-johnson01-Condition-KidneyDisease-01
 InstanceOf: Condition
 Usage: #example
 Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder) affecting both kidneys."
@@ -208,7 +222,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * recordedDate = "2021-04-10T15:00:00-04:00"
 * asserter = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 
-Instance: betsysmith-johnson01-NauseaAndVomiting
+Instance: betsysmith-johnson01-Condition-NauseaAndVomiting-01
 InstanceOf: Condition
 Usage: #example
 Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of nausea and vomiting (disorder)."
@@ -226,7 +240,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * recordedDate = "2024-08-22T16:30:00-04:00"
 * note.text = "Patient pressed call button for vomiting. She reports she started feeling nauseated about ten minutes ago."
 
-Instance: betsysmith-johnson01-Osteoarthritis
+Instance: betsysmith-johnson01-Condition-Osteoarthritis-01
 InstanceOf: Condition
 Usage: #example
 Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of osteoarthritis (disorder) affecting both lower legs."
@@ -245,7 +259,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * extension.valueDateTime = "2020-07"
 * asserter = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 
-Instance: betsysmith-johnson01-Osteopenia
+Instance: betsysmith-johnson01-Condition-Osteopenia-01
 InstanceOf: Condition
 Usage: #example
 Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of osteopenia (disorder) affecting skeletal system structure."
@@ -263,7 +277,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * asserter = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 
 
-Instance: betsysmith-johnson01-StrokeDiagnosis
+Instance: betsysmith-johnson01-Condition-Stroke-01
 InstanceOf: Condition
 Usage: #example
 Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of ischemic stroke (disorder)."
@@ -284,7 +298,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * asserter = Reference(PractitionerRole/Role-Neuro-NuraMekel)
 * note.text = "Partial occlusion of MCA. Stroke event witnessed. EMS response / patient arrived within 45 minutes of symptom onset. Verified by CT with contrast. tPA administered within 2 hours of symptom onset."
 
-Instance: betsysmith-johnson01-UndressingConcern
+Instance: betsysmith-johnson01-Condition-UndressingConcern-01
 InstanceOf: Condition
 Usage: #example
 Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of difficulty undressing (finding)."
@@ -301,7 +315,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * asserter = Reference(PractitionerRole/Role-OT-JenCadbury)
 * note.text = "Betsy is frustrated, embarrassed, and worried about not being able to undress herself"
 
-Instance: OT-ProblemList-Decondition
+Instance: betsysmith-johnson01-Condition-OTProblemListDecondition-01
 InstanceOf: Condition
 Usage: #example
 Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of physical deconditioning (finding) affecting entire lower body."
@@ -325,7 +339,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * asserter = Reference(PractitionerRole/Role-OT-JenCadbury)
 * note.text = "The weakness in the patient's lower extremities is secondary to deconditioning. According to the report from Neurology, patient did not have motor or sensory deficits below upper chest. High rehab potential."
 
-Instance: OT-ProblemList-RightWeak
+Instance: betsysmith-johnson01-Condition-OTProblemListRightWeak-01
 InstanceOf: Condition
 Usage: #example
 Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of weakness of right upper limb (finding) affecting entire right arm."
@@ -343,11 +357,11 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2024-08-21T15:40:00-04:00"
 * recordedDate = "2024-08-31T15:40:00-04:00"
-* evidence.detail = Reference(Condition/betsysmith-johnson01-HemiparesisDiagnosis)
+* evidence.detail = Reference(Condition/betsysmith-johnson01-Condition-Hemiparesis-01-01)
 * asserter = Reference(PractitionerRole/Role-OT-JenCadbury)
 * note.text = "The weakness and lack of coordination in the patient's right shoulder, arm, and hand are secondary to the stroke. PT/OT from SNF report improvements to rotator cuff strength over last month."
 
-Instance: health-concern-complexregime
+Instance: betsysmith-johnson01-Condition-ComplexRegime-01
 InstanceOf: Condition
 Usage: #example
 Description: "Betsy Smith-Johnson's condition FHIR resource indicates a health concern On complex medication regime."
