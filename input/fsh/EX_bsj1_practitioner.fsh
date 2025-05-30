@@ -122,6 +122,81 @@ Description: "Ginese Comeau's practitioner record."
 * address.country = "US"
 * gender = #female
 
+Instance: Practitioner-DeyonteDarden
+InstanceOf: Practitioner
+Usage: #example
+Description: "Deyonte Darden's practitioner record."
+* meta.versionId = "4"
+* meta.lastUpdated = "2024-09-20T19:03:21.000+00:00"
+// * meta.source = "#S7gHLyFgHVToyfil"
+* identifier.system = "http://example.org/fhir/MI-state-license"
+* identifier.value = "5601016485"
+* active = true
+* name.text = "Deyonte Darden"
+* name.family = "Darden"
+* name.given[0] = "Deyonte"
+* telecom[0].system = #phone
+* telecom[=].value = "(555) 524-3451"
+* telecom[+].system = #email
+* telecom[=].value = "ddarden@MotorCitySNF.com"
+* address.text = "18051 Mack Ave, Detroit, MI 48224"
+* address.line = "18051 Mack Ave"
+* address.city = "Detroit"
+* address.state = "MI"
+* address.postalCode = "48224"
+* address.country = "US"
+* gender = #male
+
+Instance: Practitioner-HemaOnko
+InstanceOf: Practitioner
+Usage: #example
+Description: "Hema Onko's practitioner record."
+* meta.versionId = "4"
+* meta.lastUpdated = "2024-09-20T19:03:21.000+00:00"
+// * meta.source = "#S7gHLyFgHVToyfil"
+* identifier.system = "http://hl7.org/fhir/sid/us-npi"
+* identifier.value = "4567890123"
+* active = true
+* name.text = "Hema Onko"
+* name.family = "Onko"
+* name.given[0] = "Hema"
+* telecom[0].system = #phone
+* telecom[=].value = "(555) 222-3245"
+* telecom[+].system = #email
+* telecom[=].value = "honko@MotorCitySNF.com"
+* address.text = "18051 Mack Ave, Detroit, MI 48224"
+* address.line = "18051 Mack Ave"
+* address.city = "Detroit"
+* address.state = "MI"
+* address.postalCode = "48224"
+* address.country = "US"
+* gender = #female
+
+Instance: Practitioner-JoeBukoski
+InstanceOf: Practitioner
+Usage: #example
+Description: "Joe Bukoski's practitioner record."
+* meta.versionId = "4"
+* meta.lastUpdated = "2024-09-20T19:03:21.000+00:00"
+// * meta.source = "#S7gHLyFgHVToyfil"
+* identifier.system = "http://hl7.org/fhir/sid/us-npi"
+* identifier.value = "7201016473"
+* active = true
+* name.text = "Joe Bukoski"
+* name.family = "Bukoski"
+* name.given[0] = "Joe"
+* telecom[0].system = #phone
+* telecom[=].value = "(555) 863-4411"
+* telecom[+].system = #email
+* telecom[=].value = "jbukoski@MotorCitySNF.com"
+* address.text = "18051 Mack Ave, Detroit, MI 48224"
+* address.line = "18051 Mack Ave"
+* address.city = "Detroit"
+* address.state = "MI"
+* address.postalCode = "48224"
+* address.country = "US"
+* gender = #male
+
 Instance: Practitioner-JenCadbury
 InstanceOf: Practitioner
 Usage: #example
