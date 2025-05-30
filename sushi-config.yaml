@@ -57,6 +57,7 @@ menu:
     Betsy Smith-Johnson: pacio_persona_betsySmithJohnson.html
     Jenny Mosley: pacio_persona_jennyMosley.html
   Release Notes: release_notes.html
+  Downloads: downloads.html
 
 pages:
   artifacts.md:
@@ -71,7 +72,8 @@ pages:
     title: Betsy Smith-Johnson - Stroke Use Case
   release_notes.md:
     title: Release Notes
-
+  downloads.md:
+    title: Downloads
 
 contact:
   - name: May Terry

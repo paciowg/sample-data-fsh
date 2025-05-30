@@ -6,7 +6,7 @@ Alias: $sct = http://snomed.info/sct
 Alias: $referencerange-meaning = http://terminology.hl7.org/CodeSystem/referencerange-meaning
 Alias: $v3-ObservationInterpretation = http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation
 
-Instance: BSJ-MDS-BIMS
+Instance: betsysmith-johnson01-MDS-BIMS
 InstanceOf: Observation
 Usage: #example
 Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg noted during routine check-up."
@@ -19,13 +19,13 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-OT-JenCadbury)
-* hasMember[0] = Reference(BSJ-BIMS-Day)
-* hasMember[+] = Reference(BSJ-BIMS-Month)
-* hasMember[+] = Reference(BSJ-BIMS-Year)
+* hasMember[0] = Reference(betsysmith-johnson01-BIMS-Day)
+* hasMember[+] = Reference(betsysmith-johnson01-BIMS-Month)
+* hasMember[+] = Reference(betsysmith-johnson01-BIMS-Year)
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
-Instance: BSJ-BIMS-Day
+Instance: betsysmith-johnson01-BIMS-Day
 InstanceOf: Observation
 Usage: #example
 Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg, heart rate of 100 bpm, and mild shortness of breath reported."
@@ -43,7 +43,7 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
-Instance: BSJ-BIMS-Month
+Instance: betsysmith-johnson01-BIMS-Month
 InstanceOf: Observation
 Usage: #example
 Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg noted during routine check-up."
@@ -62,7 +62,7 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
-Instance: BSJ-BIMS-Year
+Instance: betsysmith-johnson01-BIMS-Year
 InstanceOf: Observation
 Usage: #example
 Description: "Betsy Smith-Johnson Observation: Patient presents with elevated blood pressure of 150/90 mmHg, heart rate of 100 bpm, and reports mild chest pain."
@@ -80,7 +80,7 @@ Description: "Betsy Smith-Johnson Observation: Patient presents with elevated bl
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
-Instance: BSJ-Cognition-Collection
+Instance: betsysmith-johnson01-Cognition-Collection
 InstanceOf: Observation
 Usage: #example
 Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg recorded at 10:00 AM."
@@ -94,15 +94,15 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-PT-LunaBaskins)
-* hasMember[0] = Reference(BSJ-Concentration)
-* hasMember[+] = Reference(BSJ-Impulsive-Speech)
-* hasMember[+] = Reference(BSJ-Symptom-Recognition)
-* hasMember[+] = Reference(BSJ-TaskAbandon)
-* hasMember[+] = Reference(BSJ-TaskSequence)
+* hasMember[0] = Reference(betsysmith-johnson01-Concentration)
+* hasMember[+] = Reference(betsysmith-johnson01-Impulsive-Speech)
+* hasMember[+] = Reference(betsysmith-johnson01-Symptom-Recognition)
+* hasMember[+] = Reference(betsysmith-johnson01-TaskAbandon)
+* hasMember[+] = Reference(betsysmith-johnson01-TaskSequence)
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
-Instance: BSJ-Concentration
+Instance: betsysmith-johnson01-Concentration
 InstanceOf: Observation
 Usage: #example
 Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg noted during routine check-up."
@@ -118,7 +118,7 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
-Instance: BSJ-FCM-Rec-ContHigh
+Instance: betsysmith-johnson01-FCM-Rec-ContHigh
 InstanceOf: Observation
 Usage: #example
 Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg noted during routine check-up."
@@ -136,7 +136,7 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
-Instance: BSJ-FCM-Rec-Partner
+Instance: betsysmith-johnson01-FCM-Rec-Partner
 InstanceOf: Observation
 Usage: #example
 Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg, heart rate of 100 bpm, and respiratory rate of 20 breaths per minute."
@@ -154,7 +154,7 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
-Instance: BSJ-FCM-Rec-SafeHigh
+Instance: betsysmith-johnson01-FCM-Rec-SafeHigh
 InstanceOf: Observation
 Usage: #example
 Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg recorded during routine check-up."
@@ -173,7 +173,7 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
-Instance: BSJ-FCM-Speak-ContHigh
+Instance: betsysmith-johnson01-FCM-Speak-ContHigh
 InstanceOf: Observation
 Usage: #example
 Description: "Betsy Smith-Johnson's Observation: Vital signs stable, blood pressure 120/80 mmHg, heart rate 70 bpm, respiratory rate 16 bpm, temperature 98.6°F."
@@ -192,7 +192,7 @@ Description: "Betsy Smith-Johnson's Observation: Vital signs stable, blood press
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
-Instance: BSJ-FCM-Speak-FormHigh
+Instance: betsysmith-johnson01-FCM-Speak-FormHigh
 InstanceOf: Observation
 Usage: #example
 Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg recorded at 10:30 AM."
@@ -211,7 +211,7 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
-Instance: BSJ-FCMRec-Collection
+Instance: betsysmith-johnson01-FCMRec-Collection
 InstanceOf: Observation
 Usage: #example
 Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg recorded at 10:30 AM."
@@ -226,13 +226,13 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff)
-* hasMember[0] = Reference(BSJ-FCM-Rec-Partner)
-* hasMember[+] = Reference(BSJ-FCM-Rec-SafeHigh)
-* hasMember[+] = Reference(BSJ-FCM-Rec-ContHigh)
+* hasMember[0] = Reference(betsysmith-johnson01-FCM-Rec-Partner)
+* hasMember[+] = Reference(betsysmith-johnson01-FCM-Rec-SafeHigh)
+* hasMember[+] = Reference(betsysmith-johnson01-FCM-Rec-ContHigh)
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
-Instance: BSJ-FCMSpeak-Collection
+Instance: betsysmith-johnson01-FCMSpeak-Collection
 InstanceOf: Observation
 Usage: #example
 Description: "Betsy Smith-Johnson Observation: Patient exhibits elevated blood pressure readings consistently over the past week."
@@ -247,12 +247,12 @@ Description: "Betsy Smith-Johnson Observation: Patient exhibits elevated blood p
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-SLP-AlexanderKuikhoff)
-* hasMember[0] = Reference(BSJ-FCM-Speak-FormHigh)
-* hasMember[+] = Reference(BSJ-FCM-Speak-ContHigh)
+* hasMember[0] = Reference(betsysmith-johnson01-FCM-Speak-FormHigh)
+* hasMember[+] = Reference(betsysmith-johnson01-FCM-Speak-ContHigh)
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
-Instance: BSJ-Impulsive-Speech
+Instance: betsysmith-johnson01-Impulsive-Speech
 InstanceOf: Observation
 Usage: #example
 Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg recorded at 10:30 am."
@@ -268,7 +268,7 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
-Instance: BSJ-Lab-Hemaglobin
+Instance: betsysmith-johnson01-Lab-Hemaglobin
 InstanceOf: Observation
 Usage: #example
 Description: "Betsy Smith-Johnson Observation: Patient's blood pressure is elevated at 150/90 mmHg."
@@ -286,7 +286,7 @@ Description: "Betsy Smith-Johnson Observation: Patient's blood pressure is eleva
 * referenceRange.type = $referencerange-meaning#normal "Normal Range"
 * interpretation = $v3-ObservationInterpretation#L "Low"
 
-Instance: BSJ-MDS-Activities-PT1
+Instance: betsysmith-johnson01-MDS-Activities-PT1
 InstanceOf: Observation
 Usage: #example
 Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg recorded at 10:30 AM."
@@ -299,12 +299,12 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-OT-JenCadbury)
-* hasMember[0] = Reference(BSJ-MDS-Donning1)
-* hasMember[+] = Reference(BSJ-MDS-Doffing1)
+* hasMember[0] = Reference(betsysmith-johnson01-MDS-Donning1)
+* hasMember[+] = Reference(betsysmith-johnson01-MDS-Doffing1)
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
-Instance: BSJ-MDS-Doffing1
+Instance: betsysmith-johnson01-MDS-Doffing1
 InstanceOf: Observation
 Usage: #example
 Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg noted during routine check-up."
@@ -322,7 +322,7 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
-Instance: BSJ-MDS-Donning1
+Instance: betsysmith-johnson01-MDS-Donning1
 InstanceOf: Observation
 Usage: #example
 Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg recorded at 10:30 AM."
@@ -340,7 +340,7 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
-Instance: BSJ-MDS-Mobility-PT1
+Instance: betsysmith-johnson01-MDS-Mobility-PT1
 InstanceOf: Observation
 Usage: #example
 Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg noted during routine check-up."
@@ -353,13 +353,13 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-OT-JenCadbury)
-* hasMember[0] = Reference(BSJ-MDS-ShortWalk1)
-* hasMember[+] = Reference(BSJ-MDS-SitStand1)
-* hasMember[+] = Reference(BSJ-MDS-SitUp1)
+* hasMember[0] = Reference(betsysmith-johnson01-MDS-ShortWalk1)
+* hasMember[+] = Reference(betsysmith-johnson01-MDS-SitStand1)
+* hasMember[+] = Reference(betsysmith-johnson01-MDS-SitUp1)
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
-Instance: BSJ-MDS-ShortWalk1
+Instance: betsysmith-johnson01-MDS-ShortWalk1
 InstanceOf: Observation
 Usage: #example
 Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg noted during routine check-up."
@@ -377,7 +377,7 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
-Instance: BSJ-MDS-SitStand1
+Instance: betsysmith-johnson01-MDS-SitStand1
 InstanceOf: Observation
 Usage: #example
 Description: "Betsy Smith-Johnson's Observation: Vital signs stable, no signs of distress."
@@ -395,7 +395,7 @@ Description: "Betsy Smith-Johnson's Observation: Vital signs stable, no signs of
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
-Instance: BSJ-MDS-SitUp1
+Instance: betsysmith-johnson01-MDS-SitUp1
 InstanceOf: Observation
 Usage: #example
 Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg recorded during routine check-up."
@@ -413,7 +413,7 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
-Instance: BSJ-Symptom-Recognition
+Instance: betsysmith-johnson01-Symptom-Recognition
 InstanceOf: Observation
 Usage: #example
 Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg recorded at 10:30 AM."
@@ -429,7 +429,7 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
-Instance: BSJ-TaskAbandon
+Instance: betsysmith-johnson01-TaskAbandon
 InstanceOf: Observation
 Usage: #example
 Description: "Betsy Smith-Johnson Observation: Patient presents with elevated blood pressure of 150/90 mmHg, heart rate of 100 bpm, and reports of chest pain."
@@ -445,7 +445,7 @@ Description: "Betsy Smith-Johnson Observation: Patient presents with elevated bl
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
-Instance: BSJ-TaskSequence
+Instance: betsysmith-johnson01-TaskSequence
 InstanceOf: Observation
 Usage: #example
 Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg recorded during routine check-up."

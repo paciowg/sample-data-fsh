@@ -31,8 +31,6 @@ Description: "Example Patient: Jenny Mosley"
 * telecom[0].system = #phone
 * telecom[=].value = "555-555-5555"
 * telecom[=].use = #home
-* telecom[+].system = #phone
-* telecom[=].value = "(410) 444-5555"
 * address.line = "31514 25th Ln S, 101"
 * address.city = "Federal Way"
 * address.state = "Wa"
