@@ -159,7 +159,7 @@ Description: "David Albahari's practitioner record."
 * telecom[0].system = #phone
 * telecom[=].value = "(555) 474-7745"
 * telecom[+].system = #email
-* telecom[=].value = "dalbahari@patientcentricsolutions.com"
+* telecom[=].value = "dalbahari@MetroHospital.com"
 * address.text = "22327 Moross Rd, Detroit, MI 48236"
 * address.line = "22327 Moross Rd"
 * address.city = "Detroit"
@@ -183,7 +183,7 @@ Description: "Richard Risto's practitioner record."
 * telecom[0].system = #phone
 * telecom[=].value = "(555) 346-8624"
 * telecom[+].system = #email
-* telecom[=].value = "rristo@patientcentricsolutions.com"
+* telecom[=].value = "rristo@MetroHospital.com"
 * address.text = "22327 Moross Rd, Detroit, MI 48236"
 * address.line = "22327 Moross Rd"
 * address.city = "Detroit"
@@ -207,7 +207,7 @@ Description: "Paul Zawawi's practitioner record."
 * telecom[0].system = #phone
 * telecom[=].value = "(555) 663-9348"
 * telecom[+].system = #email
-* telecom[=].value = "pzawawi@patientcentricsolutions.com"
+* telecom[=].value = "pzawawi@MetroHospital.com"
 * address.text = "22327 Moross Rd, Detroit, MI 48236"
 * address.line = "22327 Moross Rd"
 * address.city = "Detroit"
@@ -231,7 +231,7 @@ Description: "Priya Sarkar's practitioner record."
 * telecom[0].system = #phone
 * telecom[=].value = "(555) 375-3777"
 * telecom[+].system = #email
-* telecom[=].value = "psarkar@patientcentricsolutions.com"
+* telecom[=].value = "psarkar@MetroHospital.com"
 * address.text = "22327 Moross Rd, Detroit, MI 48236"
 * address.line = "22327 Moross Rd"
 * address.city = "Detroit"
@@ -255,12 +255,132 @@ Description: "Sonya Nguyen's practitioner record."
 * telecom[0].system = #phone
 * telecom[=].value = "(555) 913-1150"
 * telecom[+].system = #email
-* telecom[=].value = "snguyen@patientcentricsolutions.com"
+* telecom[=].value = "snguyen@MetroHospital.com"
 * address.text = "22327 Moross Rd, Detroit, MI 48236"
 * address.line = "22327 Moross Rd"
 * address.city = "Detroit"
 * address.state = "MI"
 * address.postalCode = "48236"
+* address.country = "US"
+* gender = #female
+
+Instance: Practitioner-AlexMarkos-01
+InstanceOf: Practitioner
+Usage: #example
+Description: "Alex Markos's practitioner record."
+* meta.versionId = "4"
+* meta.lastUpdated = "2024-09-21T14:11:15.000+00:00"
+* identifier.system = "http://example.org/fhir/MI-state-license"
+* identifier.value = "1934465861"
+* active = true
+* name.text = "Alex Markos"
+* name.family = "Markos"
+* name.given = "Alex"
+* telecom[0].system = #phone
+* telecom[=].value = "(555) 454-8345"
+* telecom[+].system = #email
+* telecom[=].value = "amarkos@MotownHHA.com"
+* address.text = "17010 Harper Ave, Detroit, MI 48224"
+* address.line = "17010 Harper Ave"
+* address.city = "Detroit"
+* address.state = "MI"
+* address.postalCode = "48224"
+* address.country = "US"
+* gender = #female
+
+Instance: Practitioner-DeangeloMontes-01
+InstanceOf: Practitioner
+Usage: #example
+Description: "Deangelo Montes' practitioner record."
+* meta.versionId = "4"
+* meta.lastUpdated = "2024-09-21T14:11:15.000+00:00"
+* identifier.system = "http://example.org/fhir/MI-state-license"
+* identifier.value = "5601011630"
+* active = true
+* name.text = "Deangelo Montes"
+* name.family = "Montes"
+* name.given = "Deangelo"
+* telecom[0].system = #phone
+* telecom[=].value = "(555) 624-3552"
+* telecom[+].system = #email
+* telecom[=].value = "dmontes@MotownHHA.com"
+* address.text = "17010 Harper Ave, Detroit, MI 48224"
+* address.line = "17010 Harper Ave"
+* address.city = "Detroit"
+* address.state = "MI"
+* address.postalCode = "48224"
+* address.country = "US"
+* gender = #male
+
+Instance: Practitioner-InaKrause-01
+InstanceOf: Practitioner
+Usage: #example
+Description: "Ina Krause's practitioner record."
+* meta.versionId = "4"
+* meta.lastUpdated = "2024-09-21T14:11:15.000+00:00"
+* identifier.system = "http://example.org/fhir/MI-state-license"
+* identifier.value = "5601011630"
+* active = true
+* name.text = "Ina Krause"
+* name.family = "Krause"
+* name.given = "Ina"
+* telecom[0].system = #phone
+* telecom[=].value = "(555) 624-3552"
+* telecom[+].system = #email
+* telecom[=].value = "ikrause@MotownHHA.com"
+* address.text = "17010 Harper Ave, Detroit, MI 48224"
+* address.line = "17010 Harper Ave"
+* address.city = "Detroit"
+* address.state = "MI"
+* address.postalCode = "48224"
+* address.country = "US"
+* gender = #female
+
+Instance: Practitioner-JudySalas-01
+InstanceOf: Practitioner
+Usage: #example
+Description: "Judy Salas' practitioner record."
+* meta.versionId = "4"
+* meta.lastUpdated = "2024-09-21T14:11:15.000+00:00"
+* identifier.system = "http://example.org/fhir/MI-state-license"
+* identifier.value = "480410286"
+* active = true
+* name.text = "Judy Salas"
+* name.family = "Salas"
+* name.given = "Judy"
+* telecom[0].system = #phone
+* telecom[=].value = "(555) 944-2454"
+* telecom[+].system = #email
+* telecom[=].value = "jsalas@MotownHHA.com"
+* address.text = "17010 Harper Ave, Detroit, MI 48224"
+* address.line = "17010 Harper Ave"
+* address.city = "Detroit"
+* address.state = "MI"
+* address.postalCode = "48224"
+* address.country = "US"
+* gender = #female
+
+Instance: Practitioner-MiaRinaldi-01
+InstanceOf: Practitioner
+Usage: #example
+Description: "Mia Rinaldi's practitioner record."
+* meta.versionId = "4"
+* meta.lastUpdated = "2024-09-21T14:11:15.000+00:00"
+* identifier.system = "http://example.org/fhir/MI-state-license"
+* identifier.value = "7201018594"
+* active = true
+* name.text = "Mia Rinaldi"
+* name.family = "Rinaldi"
+* name.given = "Mia"
+* telecom[0].system = #phone
+* telecom[=].value = "(555) 466-3463"
+* telecom[+].system = #email
+* telecom[=].value = "mrinaldi@MotownHHA.com"
+* address.text = "17010 Harper Ave, Detroit, MI 48224"
+* address.line = "17010 Harper Ave"
+* address.city = "Detroit"
+* address.state = "MI"
+* address.postalCode = "48224"
 * address.country = "US"
 * gender = #female
 

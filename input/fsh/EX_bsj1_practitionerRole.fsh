@@ -19,7 +19,7 @@ Description: "Nura Mekel's role at Neuro Care Inc.."
 * organization = Reference(Organization/org-Neuro-Care-Inc) "Neuro Care Inc."
 * location = Reference(Location/org-Loc-Neuro-Care-Inc)
 
-Instance: PractitionerRole-Neuro-DavidAlbahari-01
+Instance: PractitionerRole-DavidAlbahari-01
 InstanceOf: PractitionerRole
 Usage: #example
 Description: "David Albahari's role at the Metro Hospital Emergency Department"
@@ -29,7 +29,7 @@ Description: "David Albahari's role at the Metro Hospital Emergency Department"
 * organization = Reference(Organization/org-ED-Metro-Hospital) "Metro Hospital Emergency Department"
 * location = Reference(Location/Location-MetroHospitalED01)
 
-Instance: PractitionerRole-Nurse-RichardRisto-01
+Instance: PractitionerRole-RichardRisto-01
 InstanceOf: PractitionerRole
 Usage: #example
 Description: "Richard Risto's role at the Metro Hospital Emergency Department"
@@ -39,7 +39,7 @@ Description: "Richard Risto's role at the Metro Hospital Emergency Department"
 * organization = Reference(Organization/org-ED-Metro-Hospital) "Metro Hospital Emergency Department"
 * location = Reference(Location/Location-MetroHospitalED01)
 
-Instance: PractitionerRole-Radiologist-PaulZawawi-01
+Instance: PractitionerRole-PaulZawawi-01
 InstanceOf: PractitionerRole
 Usage: #example
 Description: "Paul Zawawi's role at the Metro Hospital Emergency Department"
@@ -49,7 +49,7 @@ Description: "Paul Zawawi's role at the Metro Hospital Emergency Department"
 * organization = Reference(Organization/org-ED-Metro-Hospital) "Metro Hospital Emergency Department"
 * location = Reference(Location/Location-MetroHospitalED01)
 
-Instance: PractitionerRole-Physician-PriyaSarkar-01
+Instance: PractitionerRole-PriyaSarkar-01
 InstanceOf: PractitionerRole
 Usage: #example
 Description: "Priya Sarkar's role at the Metro Hospital Emergency Department"
@@ -59,7 +59,7 @@ Description: "Priya Sarkar's role at the Metro Hospital Emergency Department"
 * organization = Reference(Organization/org-ED-Metro-Hospital) "Metro Hospital Emergency Department"
 * location = Reference(Location/Location-MetroHospitalED01)
 
-Instance: PractitionerRole-Pharmacist-SonyaNguyen-01
+Instance: PractitionerRole-SonyaNguyen-01
 InstanceOf: PractitionerRole
 Usage: #example
 Description: "Sonya Nguyen's role at the Metro Hospital Emergency Department"
@@ -68,6 +68,56 @@ Description: "Sonya Nguyen's role at the Metro Hospital Emergency Department"
 * practitioner = Reference(Practitioner/Practitioner-SonyaNguyen) "Sonya Nguyen"
 * organization = Reference(Organization/org-ED-Metro-Hospital) "Metro Hospital Emergency Department"
 * location = Reference(Location/Location-MetroHospitalED01)
+
+Instance: PractitionerRole-AlexMarkos-01
+InstanceOf: PractitionerRole
+Usage: #example
+Description: "Alex Markos's role at the Motown Home Health Agency"
+* active = true
+* code = $taxonomy#183500000X "Pharmacist"
+* practitioner = Reference(Practitioner/Practitioner-AlexMarkos) "Alex Markos"
+* organization = Reference(Organization/org-Motown-Home-Health) "Motown Home Health Agency"
+* location = Reference(Location/Location-MotownHH01)
+
+Instance: PractitionerRole-DeangeloMontes-01
+InstanceOf: PractitionerRole
+Usage: #example
+Description: "Deangelo Montes' role at the Motown Home Health Agency"
+* active = true
+* code = $taxonomy#225100000X "Physical Therapist"
+* practitioner = Reference(Practitioner/Practitioner-DeangeloMontes) "Deangelo Montes"
+* organization = Reference(Organization/org-Motown-Home-Health) "Motown Home Health Agency"
+* location = Reference(Location/Location-MotownHH01)
+
+Instance: PractitionerRole-InaKrause-01
+InstanceOf: PractitionerRole
+Usage: #example
+Description: "Ina Krause's role at the Motown Home Health Agency"
+* active = true
+* code = $taxonomy#225X00000X "Occupational Therapist"
+* practitioner = Reference(Practitioner/Practitioner-InaKrause) "Ina Krause"
+* organization = Reference(Organization/org-Motown-Home-Health) "Motown Home Health Agency"
+* location = Reference(Location/Location-MotownHH01)
+
+Instance: PractitionerRole-Judy-Salas-01
+InstanceOf: PractitionerRole
+Usage: #example
+Description: "Judy Salas' role at the Motown Home Health Agency"
+* active = true
+* code = $taxonomy#363L00000X "Nurse Practitioner"
+* practitioner = Reference(Practitioner/Practitioner-JudySalas) "Judy Salas"
+* organization = Reference(Organization/org-Motown-Home-Health) "Motown Home Health Agency"
+* location = Reference(Location/Location-MotownHH01)
+
+Instance: PractitionerRole-Mia-Rinaldi-01
+InstanceOf: PractitionerRole
+Usage: #example
+Description: "Mia Rinaldi's role at the Motown Home Health Agency"
+* active = true
+* code = $taxonomy#235Z00000X "Speech-Language Pathologist"
+* practitioner = Reference(Practitioner/Practitioner-MiaRinaldi) "Mia Rinaldi"
+* organization = Reference(Organization/org-Motown-Home-Health) "Motown Home Health Agency"
+* location = Reference(Location/Location-MotownHH01)
 
 Instance: Role-OT-JenCadbury
 InstanceOf: PractitionerRole
