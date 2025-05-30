@@ -27,7 +27,7 @@ Description: "David Albahari's role at the Metro Hospital Emergency Department"
 * code = $taxonomy#2084N0400X "Neurology Physician"
 * practitioner = Reference(Practitioner/Practitioner-DavidAlbahari) "David Albahari"
 * organization = Reference(Organization/org-ED-Metro-Hospital) "Metro Hospital Emergency Department"
-* location = Reference(Location/org-Loc-ED-Metro-Hospital)
+* location = Reference(Location/Location-MetroHospitalED01)
 
 Instance: PractitionerRole-Nurse-RichardRisto-01
 InstanceOf: PractitionerRole
@@ -37,7 +37,7 @@ Description: "Richard Risto's role at the Metro Hospital Emergency Department"
 * code = $taxonomy#163W00000X "Registered Nurse"
 * practitioner = Reference(Practitioner/Practitioner-RichardRisto) "Richard Risto"
 * organization = Reference(Organization/org-ED-Metro-Hospital) "Metro Hospital Emergency Department"
-* location = Reference(Location/org-Loc-ED-Metro-Hospital)
+* location = Reference(Location/Location-MetroHospitalED01)
 
 Instance: PractitionerRole-Radiologist-PaulZawawi-01
 InstanceOf: PractitionerRole
@@ -47,7 +47,7 @@ Description: "Paul Zawawi's role at the Metro Hospital Emergency Department"
 * code = $taxonomy#2085N0700X "Neuroradiology"
 * practitioner = Reference(Practitioner/Practitioner-PaulZawawi) "Paul Zawawi"
 * organization = Reference(Organization/org-ED-Metro-Hospital) "Metro Hospital Emergency Department"
-* location = Reference(Location/org-Loc-ED-Metro-Hospital)
+* location = Reference(Location/Location-MetroHospitalED01)
 
 Instance: PractitionerRole-Physician-PriyaSarkar-01
 InstanceOf: PractitionerRole
@@ -57,7 +57,7 @@ Description: "Priya Sarkar's role at the Metro Hospital Emergency Department"
 * code = $taxonomy#207P00000X "Emergency Medicine"
 * practitioner = Reference(Practitioner/Practitioner-PriyaSarkar) "Priya Sarkar"
 * organization = Reference(Organization/org-ED-Metro-Hospital) "Metro Hospital Emergency Department"
-* location = Reference(Location/org-Loc-ED-Metro-Hospital)
+* location = Reference(Location/Location-MetroHospitalED01)
 
 Instance: PractitionerRole-Pharmacist-SonyaNguyen-01
 InstanceOf: PractitionerRole
@@ -67,7 +67,7 @@ Description: "Sonya Nguyen's role at the Metro Hospital Emergency Department"
 * code = $taxonomy#183500000X "Pharmacist"
 * practitioner = Reference(Practitioner/Practitioner-SonyaNguyen) "Sonya Nguyen"
 * organization = Reference(Organization/org-ED-Metro-Hospital) "Metro Hospital Emergency Department"
-* location = Reference(Location/org-Loc-ED-Metro-Hospital)
+* location = Reference(Location/Location-MetroHospitalED01)
 
 Instance: Role-OT-JenCadbury
 InstanceOf: PractitionerRole

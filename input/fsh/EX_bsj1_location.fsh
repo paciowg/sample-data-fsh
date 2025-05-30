@@ -38,7 +38,7 @@ Description: "Organization Neuro Care Inc Example"
 * address.country = "US"
 * address.text = "177 Branching Tree Blvd, Grand Rapids, MI 49509"
 
-Instance: org-Loc-ED-Metro-Hospital
+Instance: Location-MetroHospitalED01
 InstanceOf: Location
 Usage: #example
 Description: "Location Metro Hospital Emergency Department"
