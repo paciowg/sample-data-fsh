@@ -197,6 +197,106 @@ Description: "Joe Bukoski's practitioner record."
 * address.country = "US"
 * gender = #male
 
+Instance: Practitioner-MargaretReynolds
+InstanceOf: Practitioner
+Usage: #example
+Description: "Margaret Reynolds's practitioner record."
+* meta.versionId = "4"
+* meta.lastUpdated = "2024-09-20T19:03:21.000+00:00"
+// * meta.source = "#S7gHLyFgHVToyfil"
+* identifier.system = "http://example.org/fhir/MI-state-license"
+* identifier.value = "86420"
+* active = true
+* name.text = "Margaret Reynolds"
+* name.family = "Reynolds"
+* name.given[0] = "Margaret"
+* telecom[0].system = #phone
+* telecom[=].value = "(555) 391-9414"
+* telecom[+].system = #email
+* telecom[=].value = "mreynolds@MotorCitySNF.com"
+* address.text = "18051 Mack Ave, Detroit, MI 48224"
+* address.line = "18051 Mack Ave"
+* address.city = "Detroit"
+* address.state = "MI"
+* address.postalCode = "48224"
+* address.country = "US"
+* gender = #female
+
+Instance: Practitioner-SashaAhmed
+InstanceOf: Practitioner
+Usage: #example
+Description: "Sasha Ahmed's practitioner record."
+* meta.versionId = "4"
+* meta.lastUpdated = "2024-09-20T19:03:21.000+00:00"
+// * meta.source = "#S7gHLyFgHVToyfil"
+* identifier.system = "http://example.org/fhir/MI-state-license"
+* identifier.value = "1923354757"
+* active = true
+* name.text = "Sasha Ahmed"
+* name.family = "Ahmed"
+* name.given[0] = "Sasha"
+* telecom[0].system = #phone
+* telecom[=].value = "(555) 328-5252"
+* telecom[+].system = #email
+* telecom[=].value = "sahmed@MotorCitySNF.com"
+* address.text = "18051 Mack Ave, Detroit, MI 48224"
+* address.line = "18051 Mack Ave"
+* address.city = "Detroit"
+* address.state = "MI"
+* address.postalCode = "48224"
+* address.country = "US"
+* gender = #female
+
+Instance: Practitioner-SonjaValdez
+InstanceOf: Practitioner
+Usage: #example
+Description: "Sonja Valdez's practitioner record."
+* meta.versionId = "4"
+* meta.lastUpdated = "2024-09-20T19:03:21.000+00:00"
+// * meta.source = "#S7gHLyFgHVToyfil"
+* identifier.system = "http://example.org/fhir/MI-state-license"
+* identifier.value = "5301015422"
+* active = true
+* name.text = "Sonja Valdez"
+* name.family = "Valdez"
+* name.given[0] = "Sonja"
+* telecom[0].system = #phone
+* telecom[=].value = "(555) 951-9444"
+* telecom[+].system = #email
+* telecom[=].value = "svaldez@MotorCitySNF.com"
+* address.text = "18051 Mack Ave, Detroit, MI 48224"
+* address.line = "18051 Mack Ave"
+* address.city = "Detroit"
+* address.state = "MI"
+* address.postalCode = "48224"
+* address.country = "US"
+* gender = #female
+
+Instance: Practitioner-TreyvorClark
+InstanceOf: Practitioner
+Usage: #example
+Description: "Treyvor Clark's practitioner record."
+* meta.versionId = "4"
+* meta.lastUpdated = "2024-09-20T19:03:21.000+00:00"
+// * meta.source = "#S7gHLyFgHVToyfil"
+* identifier.system = "http://example.org/fhir/MI-state-license"
+* identifier.value = "4804283961"
+* active = true
+* name.text = "Treyvor Clark"
+* name.family = "Clark"
+* name.given[0] = "Treyvor"
+* telecom[0].system = #phone
+* telecom[=].value = "(555) 384-3029"
+* telecom[+].system = #email
+* telecom[=].value = "tclark@MotorCitySNF.com"
+* address.text = "18051 Mack Ave, Detroit, MI 48224"
+* address.line = "18051 Mack Ave"
+* address.city = "Detroit"
+* address.state = "MI"
+* address.postalCode = "48224"
+* address.country = "US"
+* gender = #male
+
 Instance: Practitioner-JenCadbury
 InstanceOf: Practitioner
 Usage: #example

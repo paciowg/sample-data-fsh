@@ -169,6 +169,46 @@ Description: "Joe Bukoski's role at the Motor City Skilled Nursing Facility"
 * organization = Reference(Organization/org-Motor-City-Nursing-Facility) "Motor City Skilled Nursing Facility"
 * location = Reference(Location/org-Loc-Motor-City-Nursing-Facility)
 
+Instance: PractitionerRole-MSW-MargaretReynolds
+InstanceOf: PractitionerRole
+Usage: #example
+Description: "Margaret Reynolds' role at the Motor City Skilled Nursing Facility"
+* active = true
+* code = $taxonomy#104100000X "Social Worker"
+* practitioner = Reference(Practitioner/Practitioner-MargaretReynolds) "Margaret Reynolds"
+* organization = Reference(Organization/org-Motor-City-Nursing-Facility) "Motor City Skilled Nursing Facility"
+* location = Reference(Location/org-Loc-Motor-City-Nursing-Facility)
+
+Instance: PractitionerRole-Pharm-SashaAhmed
+InstanceOf: PractitionerRole
+Usage: #example
+Description: "Sasha Ahmed's role at the Motor City Skilled Nursing Facility"
+* active = true
+* code = $taxonomy#183500000X "Pharmacist"
+* practitioner = Reference(Practitioner/Practitioner-SashaAhmed) "Sasha Ahmed"
+* organization = Reference(Organization/org-Motor-City-Nursing-Facility) "Motor City Skilled Nursing Facility"
+* location = Reference(Location/org-Loc-Motor-City-Nursing-Facility)
+
+Instance: PractitionerRole-OT-SonjaValdez
+InstanceOf: PractitionerRole
+Usage: #example
+Description: "Sonja Valdez's role at the Motor City Skilled Nursing Facility"
+* active = true
+* code = $taxonomy#225X00000X "Occupational Therapist"
+* practitioner = Reference(Practitioner/Practitioner-SonjaValdez) "Sonja Valdez"
+* organization = Reference(Organization/org-Motor-City-Nursing-Facility) "Motor City Skilled Nursing Facility"
+* location = Reference(Location/org-Loc-Motor-City-Nursing-Facility)
+
+Instance: PractitionerRole-RN-TreyvorClark
+InstanceOf: PractitionerRole
+Usage: #example
+Description: "Treyvor Clark's role at the Motor City Skilled Nursing Facility"
+* active = true
+* code = $taxonomy#163W00000X "Registered Nurse"
+* practitioner = Reference(Practitioner/Practitioner-TreyvorClark) "Treyvor Clark"
+* organization = Reference(Organization/org-Motor-City-Nursing-Facility) "Motor City Skilled Nursing Facility"
+* location = Reference(Location/org-Loc-Motor-City-Nursing-Facility)
+
 Instance: Role-OT-JenCadbury
 InstanceOf: PractitionerRole
 Usage: #example
