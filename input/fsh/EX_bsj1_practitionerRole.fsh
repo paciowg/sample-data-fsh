@@ -27,7 +27,7 @@ Description: "David Albahari's role at the Metro Hospital Emergency Department"
 * code = $taxonomy#2084N0400X "Neurology Physician"
 * practitioner = Reference(Practitioner/Practitioner-DavidAlbahari) "David Albahari"
 * organization = Reference(Organization/org-ED-Metro-Hospital) "Metro Hospital Emergency Department"
-* location = Reference(Location/Location-MetroHospitalED01)
+* location = Reference(Location/org-Loc-ED-Metro-Hospital)
 
 Instance: PractitionerRole-RN-RichardRisto-01
 InstanceOf: PractitionerRole
@@ -37,7 +37,7 @@ Description: "Richard Risto's role at the Metro Hospital Emergency Department"
 * code = $taxonomy#163W00000X "Registered Nurse"
 * practitioner = Reference(Practitioner/Practitioner-RichardRisto) "Richard Risto"
 * organization = Reference(Organization/org-ED-Metro-Hospital) "Metro Hospital Emergency Department"
-* location = Reference(Location/Location-MetroHospitalED01)
+* location = Reference(Location/org-Loc-ED-Metro-Hospital)
 
 Instance: PractitionerRole-Radiologist-PaulZawawi-01
 InstanceOf: PractitionerRole
@@ -47,7 +47,7 @@ Description: "Paul Zawawi's role at the Metro Hospital Emergency Department"
 * code = $taxonomy#2085N0700X "Neuroradiology"
 * practitioner = Reference(Practitioner/Practitioner-PaulZawawi) "Paul Zawawi"
 * organization = Reference(Organization/org-ED-Metro-Hospital) "Metro Hospital Emergency Department"
-* location = Reference(Location/Location-MetroHospitalED01)
+* location = Reference(Location/org-Loc-ED-Metro-Hospital)
 
 Instance: PractitionerRole-Physician-PriyaSarkar-01
 InstanceOf: PractitionerRole
@@ -57,7 +57,7 @@ Description: "Priya Sarkar's role at the Metro Hospital Emergency Department"
 * code = $taxonomy#207P00000X "Emergency Medicine"
 * practitioner = Reference(Practitioner/Practitioner-PriyaSarkar) "Priya Sarkar"
 * organization = Reference(Organization/org-ED-Metro-Hospital) "Metro Hospital Emergency Department"
-* location = Reference(Location/Location-MetroHospitalED01)
+* location = Reference(Location/org-Loc-ED-Metro-Hospital)
 
 Instance: PractitionerRole-Pharm-SonyaNguyen-01
 InstanceOf: PractitionerRole
@@ -67,7 +67,7 @@ Description: "Sonya Nguyen's role at the Metro Hospital Emergency Department"
 * code = $taxonomy#183500000X "Pharmacist"
 * practitioner = Reference(Practitioner/Practitioner-SonyaNguyen) "Sonya Nguyen"
 * organization = Reference(Organization/org-ED-Metro-Hospital) "Metro Hospital Emergency Department"
-* location = Reference(Location/Location-MetroHospitalED01)
+* location = Reference(Location/org-Loc-ED-Metro-Hospital)
 
 Instance: PractitionerRole-Pharm-AlexMarkos-01
 InstanceOf: PractitionerRole
@@ -77,7 +77,7 @@ Description: "Alex Markos's role at the Motown Home Health Agency"
 * code = $taxonomy#183500000X "Pharmacist"
 * practitioner = Reference(Practitioner/Practitioner-AlexMarkos) "Alex Markos"
 * organization = Reference(Organization/org-Motown-Home-Health) "Motown Home Health Agency"
-* location = Reference(Location/Location-MotownHH01)
+* location = Reference(Location/org-Loc-Motown-Home-Health)
 
 Instance: PractitionerRole-PT-DeangeloMontes-01
 InstanceOf: PractitionerRole
@@ -87,7 +87,7 @@ Description: "Deangelo Montes' role at the Motown Home Health Agency"
 * code = $taxonomy#225100000X "Physical Therapist"
 * practitioner = Reference(Practitioner/Practitioner-DeangeloMontes) "Deangelo Montes"
 * organization = Reference(Organization/org-Motown-Home-Health) "Motown Home Health Agency"
-* location = Reference(Location/Location-MotownHH01)
+* location = Reference(Location/org-Loc-Motown-Home-Health)
 
 Instance: PractitionerRole-OT-InaKrause-01
 InstanceOf: PractitionerRole
@@ -97,7 +97,7 @@ Description: "Ina Krause's role at the Motown Home Health Agency"
 * code = $taxonomy#225X00000X "Occupational Therapist"
 * practitioner = Reference(Practitioner/Practitioner-InaKrause) "Ina Krause"
 * organization = Reference(Organization/org-Motown-Home-Health) "Motown Home Health Agency"
-* location = Reference(Location/Location-MotownHH01)
+* location = Reference(Location/org-Loc-Motown-Home-Health)
 
 Instance: PractitionerRole-DNP-Judy-Salas-01
 InstanceOf: PractitionerRole
@@ -107,7 +107,7 @@ Description: "Judy Salas' role at the Motown Home Health Agency"
 * code = $taxonomy#363L00000X "Nurse Practitioner"
 * practitioner = Reference(Practitioner/Practitioner-JudySalas) "Judy Salas"
 * organization = Reference(Organization/org-Motown-Home-Health) "Motown Home Health Agency"
-* location = Reference(Location/Location-MotownHH01)
+* location = Reference(Location/org-Loc-Motown-Home-Health)
 
 Instance: PractitionerRole-SLP-Mia-Rinaldi-01
 InstanceOf: PractitionerRole
@@ -117,7 +117,7 @@ Description: "Mia Rinaldi's role at the Motown Home Health Agency"
 * code = $taxonomy#235Z00000X "Speech-Language Pathologist"
 * practitioner = Reference(Practitioner/Practitioner-MiaRinaldi) "Mia Rinaldi"
 * organization = Reference(Organization/org-Motown-Home-Health) "Motown Home Health Agency"
-* location = Reference(Location/Location-MotownHH01)
+* location = Reference(Location/org-Loc-Motown-Home-Health)
 
 Instance: Role-OT-JenCadbury
 InstanceOf: PractitionerRole
