@@ -51,6 +51,19 @@ Description: "Location Metro Hospital Emergency Department"
 * address.country = "US"
 * address.text = "22327 Moross Rd, Detroit, MI 48236"
 
+Instance: Location-MotownHH01
+InstanceOf: Location
+Usage: #example
+Description: "Location Motown Home Health"
+* status = #active
+* name = "Motown Home Health"
+* address.line = "17010 Harper Ave"
+* address.city = "Detroit"
+* address.state = "MI"
+* address.postalCode = "48224"
+* address.country = "US"
+* address.text = "17010 Harper Ave, Detroit, MI 48224"
+
 Instance: org-Loc-PC-Primary-Care-Michigan
 InstanceOf: Location
 Usage: #example
