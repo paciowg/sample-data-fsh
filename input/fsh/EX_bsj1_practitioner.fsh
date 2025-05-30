@@ -370,7 +370,7 @@ Description: "Nura Mekel's practitioner record."
 * address.country = "US"
 * gender = #female
 
-Instance: Practitioner-DavidAlbahari-01
+Instance: Practitioner-DavidAlbahari
 InstanceOf: Practitioner
 Usage: #example
 Description: "David Albahari's practitioner record."
@@ -394,7 +394,7 @@ Description: "David Albahari's practitioner record."
 * address.country = "US"
 * gender = #male
 
-Instance: Practitioner-RichardRisto-01
+Instance: Practitioner-RichardRisto
 InstanceOf: Practitioner
 Usage: #example
 Description: "Richard Risto's practitioner record."
@@ -418,7 +418,7 @@ Description: "Richard Risto's practitioner record."
 * address.country = "US"
 * gender = #male
 
-Instance: Practitioner-PaulZawawi-01
+Instance: Practitioner-PaulZawawi
 InstanceOf: Practitioner
 Usage: #example
 Description: "Paul Zawawi's practitioner record."
@@ -442,7 +442,7 @@ Description: "Paul Zawawi's practitioner record."
 * address.country = "US"
 * gender = #male
 
-Instance: Practitioner-PriyaSarkar-01
+Instance: Practitioner-PriyaSarkar
 InstanceOf: Practitioner
 Usage: #example
 Description: "Priya Sarkar's practitioner record."
@@ -466,7 +466,7 @@ Description: "Priya Sarkar's practitioner record."
 * address.country = "US"
 * gender = #female
 
-Instance: Practitioner-SonyaNguyen-01
+Instance: Practitioner-SonyaNguyen
 InstanceOf: Practitioner
 Usage: #example
 Description: "Sonya Nguyen's practitioner record."
@@ -490,7 +490,7 @@ Description: "Sonya Nguyen's practitioner record."
 * address.country = "US"
 * gender = #female
 
-Instance: Practitioner-AlexMarkos-01
+Instance: Practitioner-AlexMarkos
 InstanceOf: Practitioner
 Usage: #example
 Description: "Alex Markos's practitioner record."
@@ -514,7 +514,7 @@ Description: "Alex Markos's practitioner record."
 * address.country = "US"
 * gender = #female
 
-Instance: Practitioner-DeangeloMontes-01
+Instance: Practitioner-DeangeloMontes
 InstanceOf: Practitioner
 Usage: #example
 Description: "Deangelo Montes' practitioner record."
@@ -538,7 +538,7 @@ Description: "Deangelo Montes' practitioner record."
 * address.country = "US"
 * gender = #male
 
-Instance: Practitioner-InaKrause-01
+Instance: Practitioner-InaKrause
 InstanceOf: Practitioner
 Usage: #example
 Description: "Ina Krause's practitioner record."
@@ -562,7 +562,7 @@ Description: "Ina Krause's practitioner record."
 * address.country = "US"
 * gender = #female
 
-Instance: Practitioner-JudySalas-01
+Instance: Practitioner-JudySalas
 InstanceOf: Practitioner
 Usage: #example
 Description: "Judy Salas' practitioner record."
@@ -586,7 +586,7 @@ Description: "Judy Salas' practitioner record."
 * address.country = "US"
 * gender = #female
 
-Instance: Practitioner-MiaRinaldi-01
+Instance: Practitioner-MiaRinaldi
 InstanceOf: Practitioner
 Usage: #example
 Description: "Mia Rinaldi's practitioner record."
