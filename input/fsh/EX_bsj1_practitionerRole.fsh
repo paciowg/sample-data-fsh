@@ -9,6 +9,26 @@ Description: "Dr. Anita Chu's role at Michigan Primary Health Care Associates."
 * organization = Reference(Organization/org-PC-Primary-Care-Michigan) "Michigan Primary Health Care Associates"
 * location = Reference(Location/org-Loc-Michigan-Primary-Health-Care-A)
 
+Instance: Role-RN-GeorgeMcDuff
+InstanceOf: PractitionerRole
+Usage: #example
+Description: "George McDuff's role at Michigan Primary Health Care Associates."
+* active = true
+* code = $taxonomy#163W00000X "Registered Nurse"
+* practitioner = Reference(Practitioner/Practitioner-GeorgeMcDuff) "George McDuff"
+* organization = Reference(Organization/org-PC-Primary-Care-Michigan) "Michigan Primary Health Care Associates"
+* location = Reference(Location/org-Loc-Michigan-Primary-Health-Care-A)
+
+Instance: Role-Psych-GineseComeau
+InstanceOf: PractitionerRole
+Usage: #example
+Description: "Ginese Comeau's role at Michigan Primary Health Care Associates."
+* active = true
+* code = $taxonomy#2084P0800X "Psychiatry"
+* practitioner = Reference(Practitioner/Practitioner-GineseComeau) "Ginese Comeau"
+* organization = Reference(Organization/org-PC-Primary-Care-Michigan) "Michigan Primary Health Care Associates"
+* location = Reference(Location/org-Loc-Michigan-Primary-Health-Care-A)
+
 Instance: Role-Neuro-NuraMekel
 InstanceOf: PractitionerRole
 Usage: #example

@@ -72,6 +72,56 @@ Description: "Anita Chu's practitioner record."
 * address.country = "US"
 * gender = #female
 
+Instance: Practitioner-GeorgeMcDuff
+InstanceOf: Practitioner
+Usage: #example
+Description: "George McDuff's practitioner record."
+* meta.versionId = "4"
+* meta.lastUpdated = "2024-09-20T19:03:21.000+00:00"
+// * meta.source = "#S7gHLyFgHVToyfil"
+* identifier.system = "http://example.org/fhir/MI-state-license"
+* identifier.value = "98765"
+* active = true
+* name.text = "George McDuff"
+* name.family = "McDuff"
+* name.given[0] = "George"
+* telecom[0].system = #phone
+* telecom[=].value = "(555) 740-6423"
+* telecom[+].system = #email
+* telecom[=].value = "gmcduff@MichiganPrimaryCare.com"
+* address.text = "14820 Gratiot Ave, Detroit, MI 48205"
+* address.line = "14820 Gratiot Ave"
+* address.city = "Detroit"
+* address.state = "MI"
+* address.postalCode = "48205"
+* address.country = "US"
+* gender = #male
+
+Instance: Practitioner-GineseComeau
+InstanceOf: Practitioner
+Usage: #example
+Description: "Ginese Comeau's practitioner record."
+* meta.versionId = "4"
+* meta.lastUpdated = "2024-09-20T19:03:21.000+00:00"
+// * meta.source = "#S7gHLyFgHVToyfil"
+* identifier.system = "http://hl7.org/fhir/sid/us-npi"
+* identifier.value = "2264165894"
+* active = true
+* name.text = "Ginese Comeau"
+* name.family = "Comeau"
+* name.given[0] = "Ginese"
+* telecom[0].system = #phone
+* telecom[=].value = "(555) 643-2534"
+* telecom[+].system = #email
+* telecom[=].value = "gcomeau@MichiganPrimaryCare.com"
+* address.text = "14820 Gratiot Ave, Detroit, MI 48205"
+* address.line = "14820 Gratiot Ave"
+* address.city = "Detroit"
+* address.state = "MI"
+* address.postalCode = "48205"
+* address.country = "US"
+* gender = #female
+
 Instance: Practitioner-JenCadbury
 InstanceOf: Practitioner
 Usage: #example
