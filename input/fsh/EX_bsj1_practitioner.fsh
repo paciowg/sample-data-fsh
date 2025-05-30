@@ -61,14 +61,14 @@ Description: "Anita Chu's practitioner record."
 * name.given[0] = "Anita"
 * name.given[1] = "Marie"
 * telecom[0].system = #phone
-* telecom[=].value = "(616) 555-1212"
+* telecom[=].value = "(555) 638-1212"
 * telecom[+].system = #email
-* telecom[=].value = "achu@patientcentricsolutions.com"
-* address.text = "123 Spruce Dr. Grand Rapids, MI 49503"
-* address.line = "123 Spruce Dr"
-* address.city = "Grand Rapids"
+* telecom[=].value = "achu@MichiganPrimaryCare.com"
+* address.text = "14820 Gratiot Ave, Detroit, MI 48205"
+* address.line = "14820 Gratiot Ave"
+* address.city = "Detroit"
 * address.state = "MI"
-* address.postalCode = "49503"
+* address.postalCode = "48205"
 * address.country = "US"
 * gender = #female
 

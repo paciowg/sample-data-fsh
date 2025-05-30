@@ -7,7 +7,7 @@ Description: "Dr. Anita Chu's role at Michigan Primary Health Care Associates."
 * code = $taxonomy#207R00000X "Internal Medicine Physician"
 * practitioner = Reference(Practitioner/Practitioner-AnitaChu) "Dr. Anita Chu"
 * organization = Reference(Organization/org-PC-Primary-Care-Michigan) "Michigan Primary Health Care Associates"
-* location = Reference(Location/)
+* location = Reference(Location/org-Loc-Michigan-Primary-Health-Care-A)
 
 Instance: Role-Neuro-NuraMekel
 InstanceOf: PractitionerRole
