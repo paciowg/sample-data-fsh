@@ -19,13 +19,53 @@ Description: "Nura Mekel's role at Neuro Care Inc.."
 * organization = Reference(Organization/org-Neuro-Care-Inc) "Neuro Care Inc."
 * location = Reference(Location/org-Loc-Neuro-Care-Inc)
 
-Instance: Role-Neuro-DavidAlbahari
+Instance: PractitionerRole-Neuro-DavidAlbahari-01
 InstanceOf: PractitionerRole
 Usage: #example
 Description: "David Albahari's role at the Metro Hospital Emergency Department"
 * active = true
 * code = $taxonomy#2084N0400X "Neurology Physician"
 * practitioner = Reference(Practitioner/Practitioner-DavidAlbahari) "David Albahari"
+* organization = Reference(Organization/org-ED-Metro-Hospital) "Metro Hospital Emergency Department"
+* location = Reference(Location/org-Loc-ED-Metro-Hospital)
+
+Instance: PractitionerRole-Nurse-RichardRisto-01
+InstanceOf: PractitionerRole
+Usage: #example
+Description: "Richard Risto's role at the Metro Hospital Emergency Department"
+* active = true
+* code = $taxonomy#163W00000X "Registered Nurse"
+* practitioner = Reference(Practitioner/Practitioner-RichardRisto) "Richard Risto"
+* organization = Reference(Organization/org-ED-Metro-Hospital) "Metro Hospital Emergency Department"
+* location = Reference(Location/org-Loc-ED-Metro-Hospital)
+
+Instance: PractitionerRole-Radiologist-PaulZawawi-01
+InstanceOf: PractitionerRole
+Usage: #example
+Description: "Paul Zawawi's role at the Metro Hospital Emergency Department"
+* active = true
+* code = $taxonomy#2085N0700X "Neuroradiology"
+* practitioner = Reference(Practitioner/Practitioner-PaulZawawi) "Paul Zawawi"
+* organization = Reference(Organization/org-ED-Metro-Hospital) "Metro Hospital Emergency Department"
+* location = Reference(Location/org-Loc-ED-Metro-Hospital)
+
+Instance: PractitionerRole-Physician-PriyaSarkar-01
+InstanceOf: PractitionerRole
+Usage: #example
+Description: "Priya Sarkar's role at the Metro Hospital Emergency Department"
+* active = true
+* code = $taxonomy#207P00000X "Emergency Medicine"
+* practitioner = Reference(Practitioner/Practitioner-PriyaSarkar) "Priya Sarkar"
+* organization = Reference(Organization/org-ED-Metro-Hospital) "Metro Hospital Emergency Department"
+* location = Reference(Location/org-Loc-ED-Metro-Hospital)
+
+Instance: PractitionerRole-Pharmacist-SonyaNguyen-01
+InstanceOf: PractitionerRole
+Usage: #example
+Description: "Sonya Nguyen's role at the Metro Hospital Emergency Department"
+* active = true
+* code = $taxonomy#183500000X "Pharmacist"
+* practitioner = Reference(Practitioner/Practitioner-SonyaNguyen) "Sonya Nguyen"
 * organization = Reference(Organization/org-ED-Metro-Hospital) "Metro Hospital Emergency Department"
 * location = Reference(Location/org-Loc-ED-Metro-Hospital)
 
