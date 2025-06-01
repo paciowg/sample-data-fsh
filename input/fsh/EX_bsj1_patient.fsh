@@ -21,6 +21,10 @@ Description: "Betsy Smith-Johnson's patient record, #female born on 1958-11-01."
 * identifier[=].value = "1032702"
 * identifier[+].system = "http://hl7.org/fhir/sid/us-medicare"
 * identifier[=].value = "10A3D58WH1600"
+* identifier[=].assigner.display = "Medicare"
+* identifier[+].system = "http://hl7.org/fhir/sid/us-ssn"
+* identifier[=].value = $v2-0203#SS "123-45-9999"
+
 * active = true
 * name.use = #usual
 * name.text = "Smith-Johnson, Betsy"
@@ -29,10 +33,8 @@ Description: "Betsy Smith-Johnson's patient record, #female born on 1958-11-01."
 * gender = #female
 * birthDate = "1950-11-15"
 * telecom[0].system = #phone
-* telecom[=].value = "555-555-5555"
 * telecom[=].use = #home
-* telecom[+].system = #phone
-* telecom[=].value = "(410) 444-5555"
+* telecom[=].value = "555-555-5555"
 * address.line = "17040 E Warren Avenue"
 * address.city = "Detroit"
 * address.state = "MI"
@@ -43,13 +45,15 @@ Description: "Betsy Smith-Johnson's patient record, #female born on 1958-11-01."
 * maritalStatus = $v3-NullFlavor#UNK
 * contact[0].relationship = $v3-RoleCode#SONC
 * contact[=].name.text = "Charles Johnson"
-* contact[=].telecom.system = #phone
-* contact[=].telecom.value = "(555) 453-2669"
 * contact[=].address.text = "17040 E Warren Avenue, Detroit, MI 48224"
+* contact[=].telecom.system = #phone
+* telecom[=].use = #mobile
+* contact[=].telecom.value = "(555) 918-4823"
 * contact[+].relationship = $v3-RoleCode#DAUINLAW
 * contact[=].name.text = "Lisa Johnson"
 * contact[=].telecom.system = #phone
-* contact[=].telecom.value = "(410) 444-5555"
+* telecom[=].use = #mobile
+* contact[=].telecom.value = "(555) 951-8437"
 * contact[=].address.text = "17040 E Warren Avenue, Detroit, MI 48224"
 * communication.language = urn:ietf:bcp:47#en "English"
 * communication.preferred = true

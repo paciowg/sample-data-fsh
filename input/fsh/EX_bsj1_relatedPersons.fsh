@@ -20,7 +20,6 @@ Description: "Betsy Smith-Johnson's son and healthcare agent"
 * address.state = "MI"
 * address.postalCode = "48224"
 
-
 Instance: relatedPerson-LisaJohnson01
 InstanceOf: RelatedPerson
 Usage: #example

@@ -58,12 +58,12 @@ Description: "Metro Hospital Emergency Department organization."
 * address.country = "US"
 * address.text = "22327 Moross Rd, Detroit, MI 48236"
 
-Instance: org-Motor-City-Nursing-Facility
+Instance: org-Motor-City-Skilled-Nursing-Facility
 InstanceOf: Organization
 Usage: #example
-Description: "Motor City Nursing Facility organization."
+Description: "Motor City Skilled Nursing Facility organization."
 * active = true
-* name = "Motor City Nursing Facility"
+* name = "Motor City Skilled Nursing Facility"
 * telecom.system = #phone
 * telecom.value = "(555) 245-7948"
 * address.line = "18051 Mack Ave"

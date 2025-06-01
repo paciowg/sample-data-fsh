@@ -200,16 +200,17 @@ Description: "Joe Bukoski's practitioner record."
 Instance: Practitioner-MargaretReynolds
 InstanceOf: Practitioner
 Usage: #example
-Description: "Margaret Reynolds's practitioner record."
+Description: "Margaret Q. Reynolds's practitioner record."
 * meta.versionId = "4"
 * meta.lastUpdated = "2024-09-20T19:03:21.000+00:00"
 // * meta.source = "#S7gHLyFgHVToyfil"
 * identifier.system = "http://example.org/fhir/MI-state-license"
 * identifier.value = "86420"
 * active = true
-* name.text = "Margaret Reynolds"
+* name.text = "Margaret Q. Reynolds"
 * name.family = "Reynolds"
 * name.given[0] = "Margaret"
+* name.given[1] = "Q."
 * telecom[0].system = #phone
 * telecom[=].value = "(555) 391-9414"
 * telecom[+].system = #email
