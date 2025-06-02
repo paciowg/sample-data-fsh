@@ -4,10 +4,11 @@ InstanceOf: PractitionerRole
 Usage: #example
 Description: "Dr. Anita M. Chu's role at Michigan Primary Health Care Associates."
 * active = true
-* code = $taxonomy#207R00000X "Internal Medicine Physician"
+* code = $SCT_US#453231000124104 "Primary care provider (occupation)"
 * practitioner = Reference(Practitioner/Practitioner-AnitaChu) "Dr. Anita M. Chu"
 * organization = Reference(Organization/org-PC-Primary-Care-Michigan) "Michigan Primary Health Care Associates"
 * location = Reference(Location/org-Loc-Michigan-Primary-Health-Care-A)
+* specialty = $taxonomy#207R00000X "Internal Medicine Physician"
 
 Instance: Role-RN-GeorgeMcDuff
 InstanceOf: PractitionerRole
@@ -24,10 +25,11 @@ InstanceOf: PractitionerRole
 Usage: #example
 Description: "Ginese Comeau's role at Michigan Primary Health Care Associates."
 * active = true
-* code = $taxonomy#2084P0800X "Psychiatry"
+* code = $SCT_US#80584001 "Psychiatrist (occupation)" // modified for the US Core specified Care Team Function value set 2.16.840.1.113762.1.4.1099.30
 * practitioner = Reference(Practitioner/Practitioner-GineseComeau) "Ginese Comeau"
 * organization = Reference(Organization/org-PC-Primary-Care-Michigan) "Michigan Primary Health Care Associates"
 * location = Reference(Location/org-Loc-Michigan-Primary-Health-Care-A)
+* specialty = $taxonomy#2084P0800X "Psychiatry Physician"
 
 Instance: Role-Neuro-NuraMekel
 InstanceOf: PractitionerRole
@@ -64,7 +66,7 @@ InstanceOf: PractitionerRole
 Usage: #example
 Description: "Paul Zawawi's role at the Metro Hospital Emergency Department"
 * active = true
-* code = $taxonomy#2085N0700X "Neuroradiology"
+* code = $taxonomy#2085N0700X "Neuroradiology Physician"
 * practitioner = Reference(Practitioner/Practitioner-PaulZawawi) "Paul Zawawi"
 * organization = Reference(Organization/org-ED-Metro-Hospital) "Metro Hospital Emergency Department"
 * location = Reference(Location/org-Loc-ED-Metro-Hospital)
@@ -74,7 +76,7 @@ InstanceOf: PractitionerRole
 Usage: #example
 Description: "Priya Sarkar's role at the Metro Hospital Emergency Department"
 * active = true
-* code = $taxonomy#207P00000X "Emergency Medicine"
+* code = $taxonomy#207P00000X "Emergency Medicine Physician"
 * practitioner = Reference(Practitioner/Practitioner-PriyaSarkar) "Priya Sarkar"
 * organization = Reference(Organization/org-ED-Metro-Hospital) "Metro Hospital Emergency Department"
 * location = Reference(Location/org-Loc-ED-Metro-Hospital)
@@ -174,10 +176,11 @@ InstanceOf: PractitionerRole
 Usage: #example
 Description: "Margaret A. Reynolds' role at the Motor City Skilled Nursing Facility"
 * active = true
-* code = $taxonomy#104100000X "Social Worker"
+* code = $SCT_US#224598009 "Trained social worker counselor (occupation)" // modified for the US Core specified Care Team Function value set 2.16.840.1.113762.1.4.1099.30
 * practitioner = Reference(Practitioner/Practitioner-MargaretReynolds) "Margaret A. Reynolds"
 * organization = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Motor City Skilled Nursing Facility"
 * location = Reference(Location/org-Loc-Motor-City-Nursing-Facility)
+* specialty = $taxonomy#104100000X "Social Worker"
 
 Instance: PractitionerRole-Pharm-SashaAhmed
 InstanceOf: PractitionerRole

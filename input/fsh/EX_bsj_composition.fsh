@@ -65,7 +65,7 @@ Description: "Betsy Smith-Johnson's Transitions of Care Document"
 * section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-UndressingConcern-01)
 * section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-OTProblemListDecondition-01)
 * section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-OTProblemListRightWeak-01)
-* section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-01)
+* section[=].entry[+] = Reference(Condition/betsysmith-johnson01-condition-Dysphagia-01)
 * section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-ComplexRegime-01)
 * section[=].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of problem conditions and observations for Betsy Smith-Johnson</div>"

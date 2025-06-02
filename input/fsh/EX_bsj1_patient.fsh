@@ -20,7 +20,7 @@ Description: "Betsy Smith-Johnson's patient record, #female born on 1958-11-01."
 * identifier[=].system = "http://hospital.smarthealthit.org"
 * identifier[=].value = "1032702"
 * identifier[+].system = "http://hl7.org/fhir/sid/us-medicare"
-* identifier[=].value = "10A3D58WH1600"
+* identifier[=].value = "1PA3D58WH16"
 * identifier[=].assigner.display = "Medicare"
 * identifier[+].system = "http://hl7.org/fhir/sid/us-ssn"
 * identifier[=].value = $v2-0203#SS "123-45-9999"
@@ -35,6 +35,8 @@ Description: "Betsy Smith-Johnson's patient record, #female born on 1958-11-01."
 * telecom[0].system = #phone
 * telecom[=].use = #home
 * telecom[=].value = "555-555-5555"
+* telecom[+].system = #email
+* telecom[=].value = "Maria.moen62@jettelabs.com"
 * address.line = "17040 E Warren Avenue"
 * address.city = "Detroit"
 * address.state = "MI"

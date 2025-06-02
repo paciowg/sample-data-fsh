@@ -117,7 +117,7 @@ Description: "Betsy Johnson's hospital discharge medication list containing 13 m
 Instance: smp-med-list-3
 InstanceOf: List
 Usage: #example
-Description: "Betsy Johnson's snf medication  administration list containing 10 medication entries."
+Description: "Betsy Johnson's snf medication administration list containing 10 medication entries."
 * status = #current
 * mode = #working
 * title = "SNF Medication  Administration List"
@@ -148,7 +148,7 @@ Description: "Betsy Johnson's snf medication  administration list containing 10 
 * entry[+].date = "2024-08-26"
 * entry[=].item = Reference(smp-medstmt-3-52) "Polyethylene glycol 3350 17g"
 
-Instance: smp-med-list-3B
+Instance: betsysmith-johnson01-List-smp-med-list-3B
 InstanceOf: List
 Usage: #example
 Description: "Betsy Johnson's snf discharge medication list containing 9 medication entries."
@@ -159,6 +159,7 @@ Description: "Betsy Johnson's snf discharge medication list containing 9 medicat
 * code.text = "Institution Discharge List"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * date = "2024-09-18"
+* source = Reference(PractitionerRole/PractitionerRole-Pharm-SashaAhmed) "Sasha Ahmed, PharmD"
 * entry[0].date = "2024-09-18"
 * entry[=].item = Reference(smp-medstmt-3B-53) "Atorvastatin 40 mg"
 * entry[+].date = "2024-09-18"

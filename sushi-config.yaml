@@ -50,7 +50,9 @@ parameters:
 
 menu:
   Home: index.html
-  Artifacts: artifacts.html
+  Artifacts: 
+    Artifacts by Group: artifacts_grouping.html
+    Artifact Index: artifacts.html
   Example Guidance:
     Style Guide: style_guide.html
   Use Case Examples: 
@@ -60,8 +62,8 @@ menu:
   Downloads: downloads.html
 
 pages:
-  artifacts.md:
-    title: Sample Data Artifacts
+  artifacts_grouping.md:
+    title: Artifacts by Group Categories
   index.md:
     title: PACIO Sample Data Repository
   style_guide.md:
