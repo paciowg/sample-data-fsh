@@ -11,15 +11,16 @@ Description: "Betsy Smith-Johnson's son and healthcare agent"
 * name.use = #official
 * name.family = "Johnson"
 * name.given = "Charles"
-* telecom.system = #phone
-* telecom.value = "(555) 918-4823"
-* telecom.use = #mobile
+* telecom[0].system = #phone
+* telecom[=].value = "(555) 918-4823"
+* telecom[=].use = #mobile
+* telecom[+].system = #email
+* telecom[=].value = "Maria.moen62@jettelabs.com"
 * address.use = #home
 * address.line = "17040 E Warren Ave"
 * address.city = "Detroit"
 * address.state = "MI"
 * address.postalCode = "48224"
-
 
 Instance: relatedPerson-LisaJohnson01
 InstanceOf: RelatedPerson
@@ -32,9 +33,11 @@ Description: "Betsy Smith-Johnson's daughter in-law, Charles' wife"
 * name.use = #official
 * name.family = "Johnson"
 * name.given = "Lisa"
-* telecom.system = #phone
-* telecom.value = "(555) 951-8437"
-* telecom.use = #mobile
+* telecom[0].system = #phone
+* telecom[=].value = "(555) 951-8437"
+* telecom[=].use = #mobile
+* telecom[+].system = #email
+* telecom[=].value = "Maria.moen62@jettelabs.com"
 * address.use = #home
 * address.line = "17040 E Warren Ave"
 * address.city = "Detroit"

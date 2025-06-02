@@ -165,7 +165,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * extension.valueDateTime = "2024-08-21T16:25:00-04:00"
 * onsetDateTime = "2024-08-21T15:40:00-04:00"
 * recordedDate = "2024-08-21T16:40:00-04:00"
-* asserter = Reference(PractitionerRole/Role-Neuro-NuraMekel)
+* asserter = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
 * note.text = "Patient began experiencing right sided weakness, primarily in arm and shoulder. There was no facial droop, but patient reports \"tingling\" in R face / numbness along R brow. Symptoms in face resolved post tPA administration. Strength improved in shoulder, weakness did not fully resolve. Demonstrates R arm weakness and lack of coordination. Fine motor skills significantly degraded and have not improved post tPA."
 
 Instance: betsysmith-johnson01-Condition-Hyperlipidemia-01
@@ -347,7 +347,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-problems-health-concerns"
 * clinicalStatus = $condition-clinical#active
 * verificationStatus = $condition-ver-status#confirmed
-* code = $sct#570961000124101 "Weakness of right upper limb (finding)"
+* code = $SCT_US#570961000124101 "Weakness of right upper limb (finding)"
 * code.text = "Weakness of right upper limb (finding)"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * category[0] = $icf#b7301 "Power of muscles of one limb"
@@ -356,10 +356,10 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * bodySite = $sct#368209003 "Right upper arm"
 * bodySite.text = "Entire Right Arm"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
-* extension.valueDateTime = "2024-08-21T15:40:00-04:00"
-* recordedDate = "2024-08-31T15:40:00-04:00"
+* extension.valueDateTime = "2025-05-03T14:40:00-04:00"
+* recordedDate = "2025-05-03T14:40:00-04:00"
 * evidence.detail = Reference(Condition/betsysmith-johnson01-Condition-Hemiparesis-01-01)
-* asserter = Reference(PractitionerRole/Role-OT-JenCadbury)
+* asserter = Reference(PractitionerRole/PractitionerRole-PT-DeyonteDarden)
 * note.text = "The weakness and lack of coordination in the patient's right shoulder, arm, and hand are secondary to the stroke. PT/OT from SNF report improvements to rotator cuff strength over last month."
 
 Instance: betsysmith-johnson01-Condition-ComplexRegime-01
@@ -380,3 +380,22 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a health c
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * recordedDate = "2024-09-20"
 * asserter = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
+
+Instance: betsysmith-johnson01-condition-Dysphagia-01
+InstanceOf: Condition
+Usage: #example
+Description: "Betsy Smith-Johnson's condition FHIR resource indicates a health concern dysphagia."
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-condition-problems-health-concerns"
+* extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
+* extension.valueDateTime = "2025-05-03"
+* clinicalStatus = $condition-clinical#active "Active"
+* clinicalStatus.text = "Active"
+* verificationStatus = $condition-ver-status#confirmed "Confirmed"
+* verificationStatus.text = "Confirmed"
+* category = $condition-category#problem-list-item "Problem List Item"
+* category.text = "Health Concern"
+* code.coding.version = "http://snomed.info/sct"
+* code.coding = $sct#40739000 "Dysphagia (disorder)"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
+* recordedDate = "2024-09-20"
+* asserter = Reference(PractitionerRole-Physician-PriyaSarkar)

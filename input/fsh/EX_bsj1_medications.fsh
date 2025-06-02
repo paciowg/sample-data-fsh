@@ -117,7 +117,7 @@ Description: "Betsy Johnson's hospital discharge medication list containing 13 m
 Instance: smp-med-list-3
 InstanceOf: List
 Usage: #example
-Description: "Betsy Johnson's snf medication  administration list containing 10 medication entries."
+Description: "Betsy Johnson's snf medication administration list containing 10 medication entries."
 * status = #current
 * mode = #working
 * title = "SNF Medication  Administration List"
@@ -148,7 +148,7 @@ Description: "Betsy Johnson's snf medication  administration list containing 10 
 * entry[+].date = "2024-08-26"
 * entry[=].item = Reference(smp-medstmt-3-52) "Polyethylene glycol 3350 17g"
 
-Instance: smp-med-list-3B
+Instance: betsysmith-johnson01-List-smp-med-list-3B
 InstanceOf: List
 Usage: #example
 Description: "Betsy Johnson's snf discharge medication list containing 9 medication entries."
@@ -159,6 +159,7 @@ Description: "Betsy Johnson's snf discharge medication list containing 9 medicat
 * code.text = "Institution Discharge List"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * date = "2024-09-18"
+* source = Reference(PractitionerRole/PractitionerRole-Pharm-SashaAhmed) "Sasha Ahmed, PharmD"
 * entry[0].date = "2024-09-18"
 * entry[=].item = Reference(smp-medstmt-3B-53) "Atorvastatin 40 mg"
 * entry[+].date = "2024-09-18"
@@ -1501,7 +1502,7 @@ Description: "Betsy Johnson active medication statement for atorvastatin, 1 tabl
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
-* informationSource = Reference(Organization/org-Motor-City-Nursing-Facility) "Happy Nursing Facility"
+* informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#55822004 "Hyperlipidemia"
 * dosage.sequence = 1
 * dosage.text = "1 tablet po at bedtime"
@@ -1515,7 +1516,7 @@ Description: "Betsy Johnson active medication statement for sertraline, 1 tablet
 * medicationCodeableConcept = $rxnorm#312941 "sertraline 50 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
-* informationSource = Reference(Organization/org-Motor-City-Nursing-Facility) "Happy Nursing Facility"
+* informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#35489007 "Depressive disorder (disorder)"
 * dosage.sequence = 1
 * dosage.text = "1 tablet po at bedtime"
@@ -1529,7 +1530,7 @@ Description: "Betsy Johnson active medication statement for furosemide, 1 tablet
 * medicationCodeableConcept = $rxnorm#310429 "furosemide 20 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
-* informationSource = Reference(Organization/org-Motor-City-Nursing-Facility) "Happy Nursing Facility"
+* informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#731000119105 "Chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)"
 * dosage.sequence = 1
 * dosage.text = "1 tablet po daily"
@@ -1543,7 +1544,7 @@ Description: "Betsy Johnson active medication statement for carvedilol, 1 tablet
 * medicationCodeableConcept = $rxnorm#200031 "carvedilol 6.25 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
-* informationSource = Reference(Organization/org-Motor-City-Nursing-Facility) "Happy Nursing Facility"
+* informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
 * dosage.sequence = 1
 * dosage.text = "1 tablet po BID (DC when BP under control)"
@@ -1557,7 +1558,7 @@ Description: "Betsy Johnson active medication statement for Metformin, 1 tablet 
 * medicationCodeableConcept = $rxnorm#311570 "Metformin 500 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
-* informationSource = Reference(Organization/org-Motor-City-Nursing-Facility) "Happy Nursing Facility"
+* informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
 * dosage.sequence = 1
 * dosage.text = "1 tablet by mouth daily"
@@ -1571,7 +1572,7 @@ Description: "Betsy Johnson active medication statement for empagliflozin, 1 tab
 * medicationCodeableConcept = $rxnorm#1545658 "empagliflozin 10 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
-* informationSource = Reference(Organization/org-Motor-City-Nursing-Facility) "Happy Nursing Facility"
+* informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
 * dosage.sequence = 1
 * dosage.text = "1 tablet by mouth daily"
@@ -1585,7 +1586,7 @@ Description: "Betsy Johnson active medication statement for clopidogrel, 1 table
 * medicationCodeableConcept = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
-* informationSource = Reference(Organization/org-Motor-City-Nursing-Facility) "Happy Nursing Facility"
+* informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#422504002 "Ischemic Stroke (disorder)"
 * dosage.sequence = 1
 * dosage.text = "1 tablet po daily"
@@ -1599,7 +1600,7 @@ Description: "Betsy Johnson active medication statement for Losartan, 1 tablet p
 * medicationCodeableConcept = $rxnorm#314073 "Losartan 50 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
-* informationSource = Reference(Organization/org-Motor-City-Nursing-Facility) "Happy Nursing Facility"
+* informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
 * dosage.sequence = 1
 * dosage.text = "1 tablet po daily (monitor Potassium)"
@@ -1613,7 +1614,7 @@ Description: "Betsy Johnson active medication statement for ferrous, po daily, t
 * medicationCodeableConcept = $rxnorm#244210 "ferrous gluconate 325 MG Oral Capsule"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
-* informationSource = Reference(Organization/org-Motor-City-Nursing-Facility) "Happy Nursing Facility"
+* informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#691421000119108 "Anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)"
 * dosage.sequence = 1
 * dosage.text = "po daily"
@@ -1627,7 +1628,7 @@ Description: "Betsy Johnson active medication statement for acetaminophen, 2 tab
 * medicationCodeableConcept = $rxnorm#313782 "acetaminophen 325 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
-* informationSource = Reference(Organization/org-Motor-City-Nursing-Facility) "Happy Nursing Facility"
+* informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#396275006 "Osteoarthritis (disorder)"
 * dosage.sequence = 1
 * dosage.text = "2 tablets every 6 hours or as needed for mild pain"
@@ -1641,7 +1642,7 @@ Description: "Betsy Johnson active medication statement for polyethylene, 17g po
 * medicationCodeableConcept = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-08-26"
-* informationSource = Reference(Organization/org-Motor-City-Nursing-Facility) "Happy Nursing Facility"
+* informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#21782001 "Drug-induced constipation"
 * dosage.sequence = 1
 * dosage.text = "17g po daily prn constipation"
@@ -1654,7 +1655,7 @@ Description: "Betsy Johnson inactive medication statement for atorvastatin, 1 ta
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-18"
-* informationSource = Reference(Organization/org-Motor-City-Nursing-Facility) "Happy Nursing Facility"
+* informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#55822004 "Hyperlipidemia"
 * dosage.sequence = 1
 * dosage.text = "1 tablet po at bedtime"
@@ -1667,7 +1668,7 @@ Description: "Betsy Johnson inactive medication statement for sertraline, 1 tabl
 * medicationCodeableConcept = $rxnorm#312941 "sertraline 50 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-18"
-* informationSource = Reference(Organization/org-Motor-City-Nursing-Facility) "Happy Nursing Facility"
+* informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#35489007 "Depressive disorder (disorder)"
 * dosage.sequence = 1
 * dosage.text = "1 tablet po at bedtime"
@@ -1680,7 +1681,7 @@ Description: "Betsy Johnson inactive medication statement for furosemide, 1 tabl
 * medicationCodeableConcept = $rxnorm#310429 "furosemide 20 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-18"
-* informationSource = Reference(Organization/org-Motor-City-Nursing-Facility) "Happy Nursing Facility"
+* informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#731000119105 "Chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)"
 * dosage.sequence = 1
 * dosage.text = "1 tablet po daily"
@@ -1693,7 +1694,7 @@ Description: "Betsy Johnson inactive medication statement for Metformin, 1 table
 * medicationCodeableConcept = $rxnorm#311570 "Metformin 500 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-18"
-* informationSource = Reference(Organization/org-Motor-City-Nursing-Facility) "Happy Nursing Facility"
+* informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
 * dosage.sequence = 1
 * dosage.text = "1 tablet by mouth daily"
@@ -1706,7 +1707,7 @@ Description: "Betsy Johnson inactive medication statement for empagliflozin, 1 t
 * medicationCodeableConcept = $rxnorm#1545658 "empagliflozin 10 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-18"
-* informationSource = Reference(Organization/org-Motor-City-Nursing-Facility) "Happy Nursing Facility"
+* informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#359642000 "Diabetes mellitus type 2 in nonobese (disorder)"
 * dosage.sequence = 1
 * dosage.text = "1 tablet by mouth daily"
@@ -1719,7 +1720,7 @@ Description: "Betsy Johnson inactive medication statement for clopidogrel, 1 tab
 * medicationCodeableConcept = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-18"
-* informationSource = Reference(Organization/org-Motor-City-Nursing-Facility) "Happy Nursing Facility"
+* informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#422504002 "Ischemic Stroke (disorder)"
 * dosage.sequence = 1
 * dosage.text = "1 tablet by mouth daily"
@@ -1732,7 +1733,7 @@ Description: "Betsy Johnson inactive medication statement for Losartan, 1 tablet
 * medicationCodeableConcept = $rxnorm#314073 "Losartan 50 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-18"
-* informationSource = Reference(Organization/org-Motor-City-Nursing-Facility) "Happy Nursing Facility"
+* informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#38341003 "Hypertensive disorder, systemic arterial (disorder)"
 * dosage.sequence = 1
 * dosage.text = "1 tablet po daily"
@@ -1745,7 +1746,7 @@ Description: "Betsy Johnson inactive medication statement for ferrous, po daily,
 * medicationCodeableConcept = $rxnorm#244210 "ferrous gluconate 325 MG Oral Capsule"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-18"
-* informationSource = Reference(Organization/org-Motor-City-Nursing-Facility) "Happy Nursing Facility"
+* informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#691421000119108 "Anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)"
 * dosage.sequence = 1
 * dosage.text = "po daily"
@@ -1758,7 +1759,7 @@ Description: "Betsy Johnson inactive medication statement for acetaminophen, 2 t
 * medicationCodeableConcept = $rxnorm#313782 "acetaminophen 325 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-18"
-* informationSource = Reference(Organization/org-Motor-City-Nursing-Facility) "Happy Nursing Facility"
+* informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#396275006 "Osteoarthritis (disorder)"
 * dosage.sequence = 1
 * dosage.text = "2 tablets by mouth every 6 hours or as needed for pain"
@@ -1771,7 +1772,7 @@ Description: "Betsy Johnson inactive medication statement for polyethylene, 17g 
 * medicationCodeableConcept = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * dateAsserted = "2024-09-18"
-* informationSource = Reference(Organization/org-Motor-City-Nursing-Facility) "Happy Nursing Facility"
+* informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Happy Nursing Facility"
 * reasonCode = $sct#21782001 "Drug-induced constipation"
 * dosage.sequence = 1
 * dosage.text = "17g by mouth daily as needed for constipation"
