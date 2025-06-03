@@ -1,13 +1,13 @@
 Instance: BSJ1-documentReference-ED-dischargeSummary-01
 InstanceOf: DocumentReference
 Usage: #example
-Description: "Betsy Smith-Johnson's Emergency Department summary document on 5/4/2025."
+Description: "Betsy Smith-Johnson's hospital summary document on 5/4/2025."
 * meta.versionId = "1"
 * meta.lastUpdated = "2025-05-04T15:19:03.000+00:00"
 // * meta.source = "#dZ4YP9y7xurWGXyo"
 * status = #current
 * type = $loinc#18842-5 "Discharge summary"
-* type.text = "Emergency Department Discharge Summary"
+* type.text = "Metro Hospital Discharge Summary"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * date = "2025-05-04T15:19:03.000+00:00"
 * content.attachment.contentType = #application/pdf

@@ -2,7 +2,7 @@ Alias: $loinc = http://loinc.org
 Alias: $rxnorm = http://www.nlm.nih.gov/research/umls/rxnorm
 // Alias: $sct = http://snomed.info/sct|http://snomed.info/sct/731000124108 
 
-Instance: smp-med-list-1
+Instance: betsysmith-johnson01-smp-med-list-1
 InstanceOf: List
 Usage: #example
 Description: "Betsy Johnson's home medication list containing 8 medication entries."
@@ -14,25 +14,25 @@ Description: "Betsy Johnson's home medication list containing 8 medication entri
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * date = "2024-08-11"
 * entry[0].date = "2024-08-11"
-* entry[=].item = Reference(smp-medstmt-1-1) "Atorvastatin 40 mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-1-1) "Atorvastatin 40 mg"
 * entry[+].date = "2024-08-11"
-* entry[=].item = Reference(smp-medstmt-1-2) "Sertraline 25 mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-1-2) "Sertraline 25 mg"
 * entry[+].date = "2024-08-11"
-* entry[=].item = Reference(smp-medstmt-1-3) "Furosemide 20 mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-1-3) "Furosemide 20 mg"
 * entry[+].date = "2024-08-11"
-* entry[=].item = Reference(smp-medstmt-1-4) "Carvedilol 6.25 mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-1-4) "Carvedilol 6.25 mg"
 * entry[+].date = "2024-08-11"
-* entry[=].item = Reference(smp-medstmt-1-5) "Glipizide 2.5 mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-1-5) "Glipizide 2.5 mg"
 * entry[+].date = "2024-08-11"
-* entry[=].item = Reference(smp-medstmt-1-6) "Calcium 500 mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-1-6) "Calcium 500 mg"
 * entry[+].date = "2024-08-11"
-* entry[=].item = Reference(smp-medstmt-1-7) "Vitamin D 800 IU"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-1-7) "Vitamin D 800 IU"
 * entry[+].date = "2024-08-11"
-* entry[=].item = Reference(smp-medstmt-1-8) "Tylenol (Acetaminophen) 650 mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-1-8) "Tylenol (Acetaminophen) 650 mg"
 * entry[+].date = "2024-08-11"
-* entry[=].item = Reference(smp-medstmt-1-9) "Ferrous Sulfate 325 mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-1-9) "Ferrous Sulfate 325 mg"
 
-Instance: smp-med-list-2
+Instance: betsysmith-johnson01-smp-med-list-2
 InstanceOf: List
 Usage: #example
 Description: "Betsy Johnson's hospital medication administration list containing 14 medication entries."
@@ -44,37 +44,37 @@ Description: "Betsy Johnson's hospital medication administration list containing
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * date = "2024-08-21"
 * entry[0].date = "2024-08-21"
-* entry[=].item = Reference(smp-medstmt-2-10) "Atorvastatin 40 mg po"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-2-10) "Atorvastatin 40 mg po"
 * entry[+].date = "2024-08-21"
-* entry[=].item = Reference(smp-medstmt-2-11) "Sertraline 25 mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-2-11) "Sertraline 25 mg"
 * entry[+].date = "2024-08-21"
-* entry[=].item = Reference(smp-medstmt-2-12) "Furosemide 20 mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-2-12) "Furosemide 20 mg"
 * entry[+].date = "2024-08-21"
-* entry[=].item = Reference(smp-medstmt-2-13) "Carvedilol to 6.25mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-2-13) "Carvedilol to 6.25mg"
 * entry[+].date = "2024-08-21"
-* entry[=].item = Reference(smp-medstmt-2-14) "Metformin 250mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-2-14) "Metformin 250mg"
 * entry[+].date = "2024-08-21"
-* entry[=].item = Reference(smp-medstmt-2-15) "Empagliflozin (Jardiance) 10mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-2-15) "Empagliflozin (Jardiance) 10mg"
 * entry[+].date = "2024-08-21"
-* entry[=].item = Reference(smp-medstmt-2-16) "Clopidogrel 75mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-2-16) "Clopidogrel 75mg"
 * entry[+].date = "2024-08-21"
-* entry[=].item = Reference(smp-medstmt-2-17) "Losartan 50mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-2-17) "Losartan 50mg"
 * entry[+].date = "2024-08-21"
-* entry[=].item = Reference(smp-medstmt-2-18) "Ferrous Gluconate 325mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-2-18) "Ferrous Gluconate 325mg"
 * entry[+].date = "2024-08-21"
-* entry[=].item = Reference(smp-medstmt-2-19) "Hydrocodone/APAP 5/325mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-2-19) "Hydrocodone/APAP 5/325mg"
 * entry[+].date = "2024-08-21"
-* entry[=].item = Reference(smp-medstmt-2-21) "Polyethylene glycol 3350 17g po daily prn constipation"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-2-21) "Polyethylene glycol 3350 17g po daily prn constipation"
 * entry[+].date = "2024-08-21"
-* entry[=].item = Reference(smp-medstmt-2-22) "Docusate Soldium"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-2-22) "Docusate Soldium"
 * entry[+].date = "2024-08-21"
-* entry[=].item = Reference(smp-medstmt-2-23) "Ondansetron 4mg tablet"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-2-23) "Ondansetron 4mg tablet"
 * entry[+].date = "2024-08-21"
-* entry[=].item = Reference(smp-medstmt-2-24) "Novolin-R Sliding scale insulin protocol"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-2-24) "Novolin-R Sliding scale insulin protocol"
 * entry[+].date = "2024-08-21"
-* entry[=].item = Reference(smp-medstmt-2-25) "Hydralazine IV 10mg q4h pen SBP>160, if Hydralazine not effective Labetalol 10mg IV q4h prn SBP>160 hold for hr if less than 55 per hospital protocol"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-2-25) "Hydralazine IV 10mg q4h pen SBP>160, if Hydralazine not effective Labetalol 10mg IV q4h prn SBP>160 hold for hr if less than 55 per hospital protocol"
 
-Instance: smp-med-list-2B
+Instance: betsysmith-johnson01-smp-med-list-2B
 InstanceOf: List
 Usage: #example
 Description: "Betsy Johnson's hospital discharge medication list containing 13 medication entries."
@@ -86,35 +86,35 @@ Description: "Betsy Johnson's hospital discharge medication list containing 13 m
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * date = "2024-08-26"
 * entry[0].date = "2024-08-26"
-* entry[=].item = Reference(smp-medstmt-2B-26) "Atorvastatin 40 mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-2B-26) "Atorvastatin 40 mg"
 * entry[+].date = "2024-08-26"
-* entry[=].item = Reference(smp-medstmt-2B-27) "Sertraline 25 mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-2B-27) "Sertraline 25 mg"
 * entry[+].date = "2024-08-26"
-* entry[=].item = Reference(smp-medstmt-2B-28) "Furosemide 20 mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-2B-28) "Furosemide 20 mg"
 * entry[+].date = "2024-08-26"
-* entry[=].item = Reference(smp-medstmt-2B-29) "Carvedilol 6.5mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-2B-29) "Carvedilol 6.5mg"
 * entry[+].date = "2024-08-26"
-* entry[=].item = Reference(smp-medstmt-2B-30) "Metformin 500mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-2B-30) "Metformin 500mg"
 * entry[+].date = "2024-08-26"
-* entry[=].item = Reference(smp-medstmt-2B-31) "Empagliflozin (Jardiance) 10mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-2B-31) "Empagliflozin (Jardiance) 10mg"
 * entry[+].date = "2024-08-26"
-* entry[=].item = Reference(smp-medstmt-2B-32) "Clopidogrel 75mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-2B-32) "Clopidogrel 75mg"
 * entry[+].date = "2024-08-26"
-* entry[=].item = Reference(smp-medstmt-2B-33) "Losartan 50mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-2B-33) "Losartan 50mg"
 * entry[+].date = "2024-08-26"
-* entry[=].item = Reference(smp-medstmt-2B-34) "Ferrous Gluconate 325mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-2B-34) "Ferrous Gluconate 325mg"
 * entry[+].date = "2024-08-26"
-* entry[=].item = Reference(smp-medstmt-2B-35) "Acetaminophen 325mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-2B-35) "Acetaminophen 325mg"
 * entry[+].date = "2024-08-26"
-* entry[=].item = Reference(smp-medstmt-2B-37) "Polyethylene glycol 3350 17g"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-2B-37) "Polyethylene glycol 3350 17g"
 * entry[+].date = "2024-08-26"
-* entry[=].item = Reference(smp-medstmt-2B-38) "Docusate 100mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-2B-38) "Docusate 100mg"
 * entry[+].date = "2024-08-26"
-* entry[=].item = Reference(smp-medstmt-2B-39) "Ondansetron 4mg tablet"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-2B-39) "Ondansetron 4mg tablet"
 * entry[+].date = "2024-08-26"
-* entry[=].item = Reference(smp-medstmt-2B-40) "Novolin-R Sliding scale insulin protocol"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-2B-40) "Novolin-R Sliding scale insulin protocol"
 
-Instance: smp-med-list-3
+Instance: betsysmith-johnson01-smp-med-list-3
 InstanceOf: List
 Usage: #example
 Description: "Betsy Johnson's snf medication administration list containing 10 medication entries."
@@ -126,29 +126,29 @@ Description: "Betsy Johnson's snf medication administration list containing 10 m
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * date = "2024-08-26"
 * entry[0].date = "2024-08-26"
-* entry[=].item = Reference(smp-medstmt-3-41) "Atorvastatin 40 mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-3-41) "Atorvastatin 40 mg"
 * entry[+].date = "2024-08-26"
-* entry[=].item = Reference(smp-medstmt-3-42) "Sertraline 50mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-3-42) "Sertraline 50mg"
 * entry[+].date = "2024-08-26"
-* entry[=].item = Reference(smp-medstmt-3-43) "Furosemide 20 mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-3-43) "Furosemide 20 mg"
 * entry[+].date = "2024-08-26"
-* entry[=].item = Reference(smp-medstmt-3-44) "Carvedilol 6.25mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-3-44) "Carvedilol 6.25mg"
 * entry[+].date = "2024-08-26"
-* entry[=].item = Reference(smp-medstmt-3-45) "Metformin 500mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-3-45) "Metformin 500mg"
 * entry[+].date = "2024-08-26"
-* entry[=].item = Reference(smp-medstmt-3-46) "Empagliflozin (Jardiance) 10mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-3-46) "Empagliflozin (Jardiance) 10mg"
 * entry[+].date = "2024-08-26"
-* entry[=].item = Reference(smp-medstmt-3-47) "Clopidogrel 75mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-3-47) "Clopidogrel 75mg"
 * entry[+].date = "2024-08-26"
-* entry[=].item = Reference(smp-medstmt-3-48) "Losartan 50mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-3-48) "Losartan 50mg"
 * entry[+].date = "2024-08-26"
-* entry[=].item = Reference(smp-medstmt-3-49) "Ferrous Gluconate 325mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-3-49) "Ferrous Gluconate 325mg"
 * entry[+].date = "2024-08-26"
-* entry[=].item = Reference(smp-medstmt-3-50) "Acetaminophen 325mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-3-50) "Acetaminophen 325mg"
 * entry[+].date = "2024-08-26"
-* entry[=].item = Reference(smp-medstmt-3-52) "Polyethylene glycol 3350 17g"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-3-52) "Polyethylene glycol 3350 17g"
 
-Instance: betsysmith-johnson01-List-smp-med-list-3B
+Instance: betsysmith-johnson01-List-betsysmith-johnson01-smp-med-list-3B
 InstanceOf: List
 Usage: #example
 Description: "Betsy Johnson's snf discharge medication list containing 9 medication entries."
@@ -161,27 +161,27 @@ Description: "Betsy Johnson's snf discharge medication list containing 9 medicat
 * date = "2024-09-18"
 * source = Reference(PractitionerRole/PractitionerRole-Pharm-SashaAhmed) "Sasha Ahmed, PharmD"
 * entry[0].date = "2024-09-18"
-* entry[=].item = Reference(smp-medstmt-3B-53) "Atorvastatin 40 mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-3B-53) "Atorvastatin 40 mg"
 * entry[+].date = "2024-09-18"
-* entry[=].item = Reference(smp-medstmt-3B-54) "Sertraline 50 mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-3B-54) "Sertraline 50 mg"
 * entry[+].date = "2024-09-18"
-* entry[=].item = Reference(smp-medstmt-3B-55) "Furosemide 20 mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-3B-55) "Furosemide 20 mg"
 * entry[+].date = "2024-09-18"
-* entry[=].item = Reference(smp-medstmt-3B-56) "Metformin 500mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-3B-56) "Metformin 500mg"
 * entry[+].date = "2024-09-18"
-* entry[=].item = Reference(smp-medstmt-3B-57) "Empagliflozin (Jardiance) 10mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-3B-57) "Empagliflozin (Jardiance) 10mg"
 * entry[+].date = "2024-09-18"
-* entry[=].item = Reference(smp-medstmt-3B-58) "Clopidogrel 75mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-3B-58) "Clopidogrel 75mg"
 * entry[+].date = "2024-09-18"
-* entry[=].item = Reference(smp-medstmt-3B-59) "Losartan 50mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-3B-59) "Losartan 50mg"
 * entry[+].date = "2024-09-18"
-* entry[=].item = Reference(smp-medstmt-3B-60) "Ferrous Gluconate 325mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-3B-60) "Ferrous Gluconate 325mg"
 * entry[+].date = "2024-09-18"
-* entry[=].item = Reference(smp-medstmt-3B-61) "Acetaminophen 325mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-3B-61) "Acetaminophen 325mg"
 * entry[+].date = "2024-09-18"
-* entry[=].item = Reference(smp-medstmt-3B-63) "Polyethylene glycol 3350 (Miralax)"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-3B-63) "Polyethylene glycol 3350 (Miralax)"
 
-Instance: smp-med-list-4
+Instance: betsysmith-johnson01-smp-med-list-4
 InstanceOf: List
 Usage: #example
 Description: "Betsy Johnson's home health active medication list containing 9 medication entries."
@@ -193,27 +193,27 @@ Description: "Betsy Johnson's home health active medication list containing 9 me
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * date = "2024-09-19"
 * entry[0].date = "2024-09-19"
-* entry[=].item = Reference(smp-medstmt-4-64) "Atorvastatin 40 mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-4-64) "Atorvastatin 40 mg"
 * entry[+].date = "2024-09-19"
-* entry[=].item = Reference(smp-medstmt-4-65) "Sertraline 50 mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-4-65) "Sertraline 50 mg"
 * entry[+].date = "2024-09-19"
-* entry[=].item = Reference(smp-medstmt-4-66) "Furosemide 20 mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-4-66) "Furosemide 20 mg"
 * entry[+].date = "2024-09-19"
-* entry[=].item = Reference(smp-medstmt-4-67) "Metformin 500mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-4-67) "Metformin 500mg"
 * entry[+].date = "2024-09-19"
-* entry[=].item = Reference(smp-medstmt-4-68) "Empagliflozin (Jardiance) 10mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-4-68) "Empagliflozin (Jardiance) 10mg"
 * entry[+].date = "2024-09-19"
-* entry[=].item = Reference(smp-medstmt-4-69) "Clopidogrel 75mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-4-69) "Clopidogrel 75mg"
 * entry[+].date = "2024-09-19"
-* entry[=].item = Reference(smp-medstmt-4-70) "Losartan 50mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-4-70) "Losartan 50mg"
 * entry[+].date = "2024-09-19"
-* entry[=].item = Reference(smp-medstmt-4-71) "Ferrous Gluconate 325mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-4-71) "Ferrous Gluconate 325mg"
 * entry[+].date = "2024-09-19"
-* entry[=].item = Reference(smp-medstmt-4-72) "Acetaminophen (Tylenol) 325mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-4-72) "Acetaminophen (Tylenol) 325mg"
 * entry[+].date = "2024-09-19"
-* entry[=].item = Reference(smp-medstmt-4-74) "Polyethylene glycol 3350 (Miralax)"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-4-74) "Polyethylene glycol 3350 (Miralax)"
 
-Instance: smp-med-list-5
+Instance: betsysmith-johnson01-smp-med-list-5
 InstanceOf: List
 Usage: #example
 Description: "Betsy Johnson's community pharmacy reconciled medication list containing 9 medication entries."
@@ -225,27 +225,27 @@ Description: "Betsy Johnson's community pharmacy reconciled medication list cont
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
 * date = "2024-09-20"
 * entry[0].date = "2024-09-20"
-* entry[=].item = Reference(smp-medstmt-5-75) "Atorvastatin 40 mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-5-75) "Atorvastatin 40 mg"
 * entry[+].date = "2024-09-20"
-* entry[=].item = Reference(smp-medstmt-5-76) "Sertraline 50 mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-5-76) "Sertraline 50 mg"
 * entry[+].date = "2024-09-20"
-* entry[=].item = Reference(smp-medstmt-5-77) "Furosemide 20 mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-5-77) "Furosemide 20 mg"
 * entry[+].date = "2024-09-20"
-* entry[=].item = Reference(smp-medstmt-5-78) "Metformin 500mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-5-78) "Metformin 500mg"
 * entry[+].date = "2024-09-20"
-* entry[=].item = Reference(smp-medstmt-5-79) "Empagliflozin (Jardiance) 10mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-5-79) "Empagliflozin (Jardiance) 10mg"
 * entry[+].date = "2024-09-20"
-* entry[=].item = Reference(smp-medstmt-5-80) "Clopidogrel 75mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-5-80) "Clopidogrel 75mg"
 * entry[+].date = "2024-09-20"
-* entry[=].item = Reference(smp-medstmt-5-81) "Losartan 50mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-5-81) "Losartan 50mg"
 * entry[+].date = "2024-09-20"
-* entry[=].item = Reference(smp-medstmt-5-82) "Ferrous Gluconate 325mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-5-82) "Ferrous Gluconate 325mg"
 * entry[+].date = "2024-09-20"
-* entry[=].item = Reference(smp-medstmt-5-83) "Acetaminophen (Tylenol) 325mg"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-5-83) "Acetaminophen (Tylenol) 325mg"
 * entry[+].date = "2024-09-20"
-* entry[=].item = Reference(smp-medstmt-5-85) "Polyethylene glycol 3350 (Miralax)"
+* entry[=].item = Reference(betsysmith-johnson01-smp-medstmt-5-85) "Polyethylene glycol 3350 (Miralax)"
 
-Instance: smp-medadm-2-11
+Instance: betsysmith-johnson01-smp-medadm-2-11
 InstanceOf: MedicationAdministration
 Usage: #example
 Description: "Betsy Johnson received sertraline, po nightly, for depressive disorder (disorder)."
@@ -257,7 +257,7 @@ Description: "Betsy Johnson received sertraline, po nightly, for depressive diso
 * dosage.dose = 25 'mg' "mg"
 * dosage.text = "po nightly"
 
-Instance: smp-medadm-2-12
+Instance: betsysmith-johnson01-smp-medadm-2-12
 InstanceOf: MedicationAdministration
 Usage: #example
 Description: "Betsy Johnson received furosemide, po daily, for chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)."
@@ -269,7 +269,7 @@ Description: "Betsy Johnson received furosemide, po daily, for chronic kidney di
 * dosage.dose = 20 'mg' "mg"
 * dosage.text = "po daily"
 
-Instance: smp-medadm-2-15
+Instance: betsysmith-johnson01-smp-medadm-2-15
 InstanceOf: MedicationAdministration
 Usage: #example
 Description: "Betsy Johnson received empagliflozin, po qd, for diabetes mellitus type 2 in nonobese (disorder)."
@@ -281,7 +281,7 @@ Description: "Betsy Johnson received empagliflozin, po qd, for diabetes mellitus
 * dosage.dose = 10 'mg' "mg"
 * dosage.text = "po qd"
 
-Instance: smp-medadm-2-16
+Instance: betsysmith-johnson01-smp-medadm-2-16
 InstanceOf: MedicationAdministration
 Usage: #example
 Description: "Betsy Johnson received clopidogrel, po daily, for ischemic stroke (disorder)."
@@ -293,7 +293,7 @@ Description: "Betsy Johnson received clopidogrel, po daily, for ischemic stroke 
 * dosage.dose = 75 'mg' "mg"
 * dosage.text = "po daily"
 
-Instance: smp-medadm-2-17
+Instance: betsysmith-johnson01-smp-medadm-2-17
 InstanceOf: MedicationAdministration
 Usage: #example
 Description: "Betsy Johnson received Losartan, po daily (monitor Potassium), for hypertensive disorder, systemic arterial (disorder)."
@@ -305,7 +305,7 @@ Description: "Betsy Johnson received Losartan, po daily (monitor Potassium), for
 * dosage.dose = 50 'mg' "mg"
 * dosage.text = "po daily (monitor Potassium)"
 
-Instance: smp-medadm-3-42
+Instance: betsysmith-johnson01-smp-medadm-3-42
 InstanceOf: MedicationAdministration
 Usage: #example
 Description: "Betsy Johnson received sertraline, 1 tablet po at bedtime, for depressive disorder (disorder)."
@@ -317,7 +317,7 @@ Description: "Betsy Johnson received sertraline, 1 tablet po at bedtime, for dep
 * dosage.dose = 50 'mg' "mg"
 * dosage.text = "1 tablet po at bedtime"
 
-Instance: smp-medadm-3-44
+Instance: betsysmith-johnson01-smp-medadm-3-44
 InstanceOf: MedicationAdministration
 Usage: #example
 Description: "Betsy Johnson received carvedilol, 1 tablet po BID (DC when BP under control), for hypertensive disorder, systemic arterial (disorder)."
@@ -329,7 +329,7 @@ Description: "Betsy Johnson received carvedilol, 1 tablet po BID (DC when BP und
 * dosage.dose = 1 'mg' "mg"
 * dosage.text = "1 tablet po BID (DC when BP under control)"
 
-Instance: smp-medadm-3-45
+Instance: betsysmith-johnson01-smp-medadm-3-45
 InstanceOf: MedicationAdministration
 Usage: #example
 Description: "Betsy Johnson received Metformin, 1 tablet by mouth daily, for diabetes mellitus type 2 in nonobese (disorder)."
@@ -341,7 +341,7 @@ Description: "Betsy Johnson received Metformin, 1 tablet by mouth daily, for dia
 * dosage.dose = 50 'mg' "mg"
 * dosage.text = "1 tablet by mouth daily"
 
-Instance: smp-medadm-3-46
+Instance: betsysmith-johnson01-smp-medadm-3-46
 InstanceOf: MedicationAdministration
 Usage: #example
 Description: "Betsy Johnson received empagliflozin, 1 tablet by mouth daily, for diabetes mellitus type 2 in nonobese (disorder)."
@@ -353,7 +353,7 @@ Description: "Betsy Johnson received empagliflozin, 1 tablet by mouth daily, for
 * dosage.dose = 10 'mg' "mg"
 * dosage.text = "1 tablet by mouth daily"
 
-Instance: smp-medadm-3-47
+Instance: betsysmith-johnson01-smp-medadm-3-47
 InstanceOf: MedicationAdministration
 Usage: #example
 Description: "Betsy Johnson received clopidogrel, 1 tablet po daily, for ischemic stroke (disorder)."
@@ -365,7 +365,7 @@ Description: "Betsy Johnson received clopidogrel, 1 tablet po daily, for ischemi
 * dosage.dose = 75 'mg' "mg"
 * dosage.text = "1 tablet po daily"
 
-Instance: smp-medadm-3-50
+Instance: betsysmith-johnson01-smp-medadm-3-50
 InstanceOf: MedicationAdministration
 Usage: #example
 Description: "Betsy Johnson received acetaminophen, 2 tablets every 6 hours or as needed for mild pain, for osteoarthritis (disorder)."
@@ -377,7 +377,7 @@ Description: "Betsy Johnson received acetaminophen, 2 tablets every 6 hours or a
 * dosage.dose = 2 http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm#TAB "TAB"
 * dosage.text = "2 tablets every 6 hours or as needed for mild pain"
 
-Instance: smp-medrx-1-1
+Instance: betsysmith-johnson01-smp-medrx-1-1
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of atorvastatin, po nightly, for treating hyperlipidemia."
@@ -390,7 +390,7 @@ Description: "Betsy Johnson medication request of atorvastatin, po nightly, for 
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "po nightly"
 
-Instance: smp-medrx-1-2
+Instance: betsysmith-johnson01-smp-medrx-1-2
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of sertraline, po nightly, for treating depressive disorder (disorder)."
@@ -403,7 +403,7 @@ Description: "Betsy Johnson medication request of sertraline, po nightly, for tr
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "po nightly"
 
-Instance: smp-medrx-1-3
+Instance: betsysmith-johnson01-smp-medrx-1-3
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of furosemide, po daily, for treating chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)."
@@ -416,7 +416,7 @@ Description: "Betsy Johnson medication request of furosemide, po daily, for trea
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "po daily"
 
-Instance: smp-medrx-1-4
+Instance: betsysmith-johnson01-smp-medrx-1-4
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of carvedilol, po twice daily, for treating hypertensive disorder, systemic arterial (disorder)."
@@ -429,7 +429,7 @@ Description: "Betsy Johnson medication request of carvedilol, po twice daily, fo
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "po twice daily"
 
-Instance: smp-medrx-1-5
+Instance: betsysmith-johnson01-smp-medrx-1-5
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of 24, daily, for treating diabetes mellitus type 2 in nonobese (disorder)."
@@ -442,7 +442,7 @@ Description: "Betsy Johnson medication request of 24, daily, for treating diabet
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "daily"
 
-Instance: smp-medrx-1-6
+Instance: betsysmith-johnson01-smp-medrx-1-6
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of rosuvastatin, Calcium 500 mg, for treating osteopenia."
@@ -455,7 +455,7 @@ Description: "Betsy Johnson medication request of rosuvastatin, Calcium 500 mg, 
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "Calcium 500 mg"
 
-Instance: smp-medrx-1-8
+Instance: betsysmith-johnson01-smp-medrx-1-8
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of acetaminophen, every 6 hours or as needed for pain, for treating osteoarthritis (disorder)."
@@ -468,7 +468,7 @@ Description: "Betsy Johnson medication request of acetaminophen, every 6 hours o
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "every 6 hours or as needed for pain"
 
-Instance: smp-medrx-1-9
+Instance: betsysmith-johnson01-smp-medrx-1-9
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of ferrous, three times a day before meals, for treating anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)."
@@ -481,7 +481,7 @@ Description: "Betsy Johnson medication request of ferrous, three times a day bef
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "three times a day before meals"
 
-Instance: smp-medrx-2-10
+Instance: betsysmith-johnson01-smp-medrx-2-10
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of atorvastatin, po nightly, for treating hyperlipidemia."
@@ -494,7 +494,7 @@ Description: "Betsy Johnson medication request of atorvastatin, po nightly, for 
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "po nightly"
 
-Instance: smp-medrx-2-13
+Instance: betsysmith-johnson01-smp-medrx-2-13
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of carvedilol, po twice a day, for treating hypertensive disorder, systemic arterial (disorder)."
@@ -507,7 +507,7 @@ Description: "Betsy Johnson medication request of carvedilol, po twice a day, fo
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "po twice a day"
 
-Instance: smp-medrx-2-14
+Instance: betsysmith-johnson01-smp-medrx-2-14
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of metformin, po daily, for treating diabetes mellitus type 2 in nonobese (disorder)."
@@ -520,7 +520,7 @@ Description: "Betsy Johnson medication request of metformin, po daily, for treat
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "po daily"
 
-Instance: smp-medrx-2-18
+Instance: betsysmith-johnson01-smp-medrx-2-18
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of ferrous, po daily, for treating anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)."
@@ -533,7 +533,7 @@ Description: "Betsy Johnson medication request of ferrous, po daily, for treatin
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "po daily"
 
-Instance: smp-medrx-2-19
+Instance: betsysmith-johnson01-smp-medrx-2-19
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of acetaminophen, 1-2 tabs po every 4h prn pain (1 tab -1-5 scale; 2 tabs -6-10 scale), for treating osteoarthritis (disorder)."
@@ -546,7 +546,7 @@ Description: "Betsy Johnson medication request of acetaminophen, 1-2 tabs po eve
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "1-2 tabs po every 4h prn pain (1 tab -1-5 scale; 2 tabs -6-10 scale)"
 
-Instance: smp-medrx-2-21
+Instance: betsysmith-johnson01-smp-medrx-2-21
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of polyethylene, 17g po daily prn constipation, for treating drug-induced constipation."
@@ -559,7 +559,7 @@ Description: "Betsy Johnson medication request of polyethylene, 17g po daily prn
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "17g po daily prn constipation"
 
-Instance: smp-medrx-2-22
+Instance: betsysmith-johnson01-smp-medrx-2-22
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of docusate, po twice daily, for treating drug-induced constipation."
@@ -572,7 +572,7 @@ Description: "Betsy Johnson medication request of docusate, po twice daily, for 
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "po twice daily"
 
-Instance: smp-medrx-2-23
+Instance: betsysmith-johnson01-smp-medrx-2-23
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of ondansetron, tablet po q6h prn nausea/vomiting, for treating nausea and vomiting."
@@ -585,7 +585,7 @@ Description: "Betsy Johnson medication request of ondansetron, tablet po q6h prn
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "tablet po q6h prn nausea/vomiting"
 
-Instance: smp-medrx-2-24
+Instance: betsysmith-johnson01-smp-medrx-2-24
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of 3, Novolin-R Sliding scale insulin protocol, for treating diabetes mellitus type 2 in nonobese (disorder)."
@@ -603,7 +603,7 @@ Description: "Betsy Johnson medication request of 3, Novolin-R Sliding scale ins
 // What was being asked was a more complex conditional medication request with multiple medications and instructions. Simplified to a single medication request with a conditional reference.
 // The original code was not correct and was replaced with a more accurate representation of the medication request.
 
-Instance: smp-medrx-2-25
+Instance: betsysmith-johnson01-smp-medrx-2-25
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of Hydralazine, Hydralazine IV 10mg q4h pen SBP>160, if Hydralazine not effective Labetalol 10mg IV q4h prn SBP>160 hold for hr if less than 55 per hospital protocol."
@@ -618,10 +618,10 @@ Description: "Betsy Johnson medication request of Hydralazine, Hydralazine IV 10
 
 */  // end of original commented out section
 
-// ****** Replaced smp-medrx-2-25 without conditional MedicationRequest references *****
+// ****** Replaced betsysmith-johnson01-smp-medrx-2-25 without conditional MedicationRequest references *****
 Alias: $rxnorm = http://www.nlm.nih.gov/research/umls/rxnorm
 
-Instance: smp-medrx-2-25
+Instance: betsysmith-johnson01-smp-medrx-2-25
 InstanceOf: MedicationRequest
 Usage: #example
 * status = #active
@@ -646,7 +646,7 @@ Usage: #example
 * substitution.allowedBoolean = false
 * note.text = "If Hydralazine not effective, order Labetalol 10mg IV q4h prn SBP>160 hold for hr if less than 55 per hospital protocol"
 
-Instance: smp-medrx-3-41
+Instance: betsysmith-johnson01-smp-medrx-3-41
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of atorvastatin, 1 tablet po at bedtime, for treating hyperlipidemia."
@@ -659,7 +659,7 @@ Description: "Betsy Johnson medication request of atorvastatin, 1 tablet po at b
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "1 tablet po at bedtime"
 
-Instance: smp-medrx-3-43
+Instance: betsysmith-johnson01-smp-medrx-3-43
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of furosemide, 1 tablet po daily, for treating chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)."
@@ -672,7 +672,7 @@ Description: "Betsy Johnson medication request of furosemide, 1 tablet po daily,
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "1 tablet po daily"
 
-Instance: smp-medrx-3-48
+Instance: betsysmith-johnson01-smp-medrx-3-48
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of Losartan, 1 tablet po daily (monitor Potassium), for treating hypertensive disorder, systemic arterial (disorder)."
@@ -685,7 +685,7 @@ Description: "Betsy Johnson medication request of Losartan, 1 tablet po daily (m
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "1 tablet po daily (monitor Potassium)"
 
-Instance: smp-medrx-3-49
+Instance: betsysmith-johnson01-smp-medrx-3-49
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of ferrous, po daily, for treating anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)."
@@ -698,7 +698,7 @@ Description: "Betsy Johnson medication request of ferrous, po daily, for treatin
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "po daily"
 
-Instance: smp-medrx-3-52
+Instance: betsysmith-johnson01-smp-medrx-3-52
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of polyethylene, 17g po daily prn constipation, for treating drug-induced constipation."
@@ -711,7 +711,7 @@ Description: "Betsy Johnson medication request of polyethylene, 17g po daily prn
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "17g po daily prn constipation"
 
-Instance: smp-medrx-4-64
+Instance: betsysmith-johnson01-smp-medrx-4-64
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of atorvastatin, 1 tablet by mouth at bedtime, for treating hyperlipidemia."
@@ -724,7 +724,7 @@ Description: "Betsy Johnson medication request of atorvastatin, 1 tablet by mout
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "1 tablet by mouth at bedtime"
 
-Instance: smp-medrx-4-65
+Instance: betsysmith-johnson01-smp-medrx-4-65
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of sertraline, 1 tablet po at bedtime, for treating depressive disorder (disorder)."
@@ -737,7 +737,7 @@ Description: "Betsy Johnson medication request of sertraline, 1 tablet po at bed
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "1 tablet po at bedtime"
 
-Instance: smp-medrx-4-66
+Instance: betsysmith-johnson01-smp-medrx-4-66
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of furosemide, 1 tablet po daily, for treating chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)."
@@ -750,7 +750,7 @@ Description: "Betsy Johnson medication request of furosemide, 1 tablet po daily,
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "1 tablet po daily"
 
-Instance: smp-medrx-4-67
+Instance: betsysmith-johnson01-smp-medrx-4-67
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of Metformin, 1 tablet by mouth daily, for treating diabetes mellitus type 2 in nonobese (disorder)."
@@ -763,7 +763,7 @@ Description: "Betsy Johnson medication request of Metformin, 1 tablet by mouth d
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "1 tablet by mouth daily"
 
-Instance: smp-medrx-4-68
+Instance: betsysmith-johnson01-smp-medrx-4-68
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of empagliflozin, 1 tablet by mouth daily, for treating diabetes mellitus type 2 in nonobese (disorder)."
@@ -776,7 +776,7 @@ Description: "Betsy Johnson medication request of empagliflozin, 1 tablet by mou
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "1 tablet by mouth daily"
 
-Instance: smp-medrx-4-69
+Instance: betsysmith-johnson01-smp-medrx-4-69
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of clopidogrel, 1 tablet by mouth daily, for treating ischemic stroke (disorder)."
@@ -789,7 +789,7 @@ Description: "Betsy Johnson medication request of clopidogrel, 1 tablet by mouth
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "1 tablet by mouth daily"
 
-Instance: smp-medrx-4-70
+Instance: betsysmith-johnson01-smp-medrx-4-70
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of Losartan, 1 tablet po daily, for treating hypertensive disorder, systemic arterial (disorder)."
@@ -802,7 +802,7 @@ Description: "Betsy Johnson medication request of Losartan, 1 tablet po daily, f
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "1 tablet po daily"
 
-Instance: smp-medrx-4-71
+Instance: betsysmith-johnson01-smp-medrx-4-71
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of ferrous, po daily, for treating anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)."
@@ -815,7 +815,7 @@ Description: "Betsy Johnson medication request of ferrous, po daily, for treatin
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "po daily"
 
-Instance: smp-medrx-4-72
+Instance: betsysmith-johnson01-smp-medrx-4-72
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of acetaminophen, 2 tablets every 6 hours or as needed for pain, for treating osteoarthritis (disorder)."
@@ -828,7 +828,7 @@ Description: "Betsy Johnson medication request of acetaminophen, 2 tablets every
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "2 tablets every 6 hours or as needed for pain"
 
-Instance: smp-medrx-4-74
+Instance: betsysmith-johnson01-smp-medrx-4-74
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of polyethylene, 17g by mouth daily as needed for constipation, for treating drug-induced constipation."
@@ -841,7 +841,7 @@ Description: "Betsy Johnson medication request of polyethylene, 17g by mouth dai
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "17g by mouth daily as needed for constipation"
 
-Instance: smp-medrx-5-75
+Instance: betsysmith-johnson01-smp-medrx-5-75
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of atorvastatin, 1 tablet by mouth at bedtime, for treating hyperlipidemia."
@@ -854,7 +854,7 @@ Description: "Betsy Johnson medication request of atorvastatin, 1 tablet by mout
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "1 tablet by mouth at bedtime"
 
-Instance: smp-medrx-5-76
+Instance: betsysmith-johnson01-smp-medrx-5-76
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of sertraline, 1 tablet po at bedtime, for treating depressive disorder (disorder)."
@@ -867,7 +867,7 @@ Description: "Betsy Johnson medication request of sertraline, 1 tablet po at bed
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "1 tablet po at bedtime"
 
-Instance: smp-medrx-5-77
+Instance: betsysmith-johnson01-smp-medrx-5-77
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of furosemide, 1 tablet po daily, for treating chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)."
@@ -880,7 +880,7 @@ Description: "Betsy Johnson medication request of furosemide, 1 tablet po daily,
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "1 tablet po daily"
 
-Instance: smp-medrx-5-78
+Instance: betsysmith-johnson01-smp-medrx-5-78
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of Metformin, 1 tablet by mouth daily, for treating diabetes mellitus type 2 in nonobese (disorder)."
@@ -893,7 +893,7 @@ Description: "Betsy Johnson medication request of Metformin, 1 tablet by mouth d
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "1 tablet by mouth daily"
 
-Instance: smp-medrx-5-79
+Instance: betsysmith-johnson01-smp-medrx-5-79
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of empagliflozin, 1 tablet by mouth daily, for treating diabetes mellitus type 2 in nonobese (disorder)."
@@ -906,7 +906,7 @@ Description: "Betsy Johnson medication request of empagliflozin, 1 tablet by mou
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "1 tablet by mouth daily"
 
-Instance: smp-medrx-5-80
+Instance: betsysmith-johnson01-smp-medrx-5-80
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of clopidogrel, 1 tablet by mouth daily, for treating ischemic stroke (disorder)."
@@ -919,7 +919,7 @@ Description: "Betsy Johnson medication request of clopidogrel, 1 tablet by mouth
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "1 tablet by mouth daily"
 
-Instance: smp-medrx-5-81
+Instance: betsysmith-johnson01-smp-medrx-5-81
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of Losartan, 1 tablet po daily, for treating hypertensive disorder, systemic arterial (disorder)."
@@ -932,7 +932,7 @@ Description: "Betsy Johnson medication request of Losartan, 1 tablet po daily, f
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "1 tablet po daily"
 
-Instance: smp-medrx-5-82
+Instance: betsysmith-johnson01-smp-medrx-5-82
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of ferrous, po daily, for treating anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)."
@@ -945,7 +945,7 @@ Description: "Betsy Johnson medication request of ferrous, po daily, for treatin
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "po daily"
 
-Instance: smp-medrx-5-83
+Instance: betsysmith-johnson01-smp-medrx-5-83
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of acetaminophen, 2 tablets every 6 hours or as needed for pain, for treating osteoarthritis (disorder)."
@@ -958,7 +958,7 @@ Description: "Betsy Johnson medication request of acetaminophen, 2 tablets every
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "2 tablets every 6 hours or as needed for pain"
 
-Instance: smp-medrx-5-85
+Instance: betsysmith-johnson01-smp-medrx-5-85
 InstanceOf: MedicationRequest
 Usage: #example
 Description: "Betsy Johnson medication request of polyethylene, 17g by mouth daily as needed for constipation, for treating drug-induced constipation."
@@ -971,11 +971,11 @@ Description: "Betsy Johnson medication request of polyethylene, 17g by mouth dai
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "17g by mouth daily as needed for constipation"
 
-Instance: smp-medstmt-1-1
+Instance: betsysmith-johnson01-smp-medstmt-1-1
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for atorvastatin, po nightly, to treat hyperlipidemia."
-* basedOn = Reference(smp-medrx-1-1)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-1-1)
 * status = #active
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -985,11 +985,11 @@ Description: "Betsy Johnson active medication statement for atorvastatin, po nig
 * dosage.sequence = 1
 * dosage.text = "po nightly"
 
-Instance: smp-medstmt-1-2
+Instance: betsysmith-johnson01-smp-medstmt-1-2
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for sertraline, po nightly, to treat depressive disorder (disorder)."
-* basedOn = Reference(smp-medrx-1-2)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-1-2)
 * status = #active
 * medicationCodeableConcept = $rxnorm#312940 "sertraline 25 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -999,11 +999,11 @@ Description: "Betsy Johnson active medication statement for sertraline, po night
 * dosage.sequence = 1
 * dosage.text = "po nightly"
 
-Instance: smp-medstmt-1-3
+Instance: betsysmith-johnson01-smp-medstmt-1-3
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for furosemide, po daily, to treat chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)."
-* basedOn = Reference(smp-medrx-1-3)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-1-3)
 * status = #active
 * medicationCodeableConcept = $rxnorm#310429 "furosemide 20 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1013,11 +1013,11 @@ Description: "Betsy Johnson active medication statement for furosemide, po daily
 * dosage.sequence = 1
 * dosage.text = "po daily"
 
-Instance: smp-medstmt-1-4
+Instance: betsysmith-johnson01-smp-medstmt-1-4
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for carvedilol, po twice daily, to treat hypertensive disorder, systemic arterial (disorder)."
-* basedOn = Reference(smp-medrx-1-4)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-1-4)
 * status = #active
 * medicationCodeableConcept = $rxnorm#200031 "carvedilol 6.25 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1027,11 +1027,11 @@ Description: "Betsy Johnson active medication statement for carvedilol, po twice
 * dosage.sequence = 1
 * dosage.text = "po twice daily"
 
-Instance: smp-medstmt-1-5
+Instance: betsysmith-johnson01-smp-medstmt-1-5
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for 24, daily, to treat diabetes mellitus type 2 in nonobese (disorder)."
-* basedOn = Reference(smp-medrx-1-5)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-1-5)
 * status = #active
 * medicationCodeableConcept = $rxnorm#310489 "24 HR glipizide 2.5 MG Extended Release Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1041,11 +1041,11 @@ Description: "Betsy Johnson active medication statement for 24, daily, to treat 
 * dosage.sequence = 1
 * dosage.text = "daily"
 
-Instance: smp-medstmt-1-6
+Instance: betsysmith-johnson01-smp-medstmt-1-6
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for rosuvastatin, Calcium 500 mg, to treat osteopenia."
-* basedOn = Reference(smp-medrx-1-6)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-1-6)
 * status = #active
 * medicationCodeableConcept = $rxnorm#859424 "rosuvastatin calcium 5 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1055,7 +1055,7 @@ Description: "Betsy Johnson active medication statement for rosuvastatin, Calciu
 * dosage.sequence = 1
 * dosage.text = "Calcium 500 mg"
 
-Instance: smp-medstmt-1-7
+Instance: betsysmith-johnson01-smp-medstmt-1-7
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson inactive medication statement for Calcium, Vitamin D 800 IU, to treat osteopenia."
@@ -1068,11 +1068,11 @@ Description: "Betsy Johnson inactive medication statement for Calcium, Vitamin D
 * dosage.sequence = 1
 * dosage.text = "Vitamin D 800 IU"
 
-Instance: smp-medstmt-1-8
+Instance: betsysmith-johnson01-smp-medstmt-1-8
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for acetaminophen, every 6 hours or as needed for pain, to treat osteoarthritis (disorder)."
-* basedOn = Reference(smp-medrx-1-8)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-1-8)
 * status = #active
 * medicationCodeableConcept = $rxnorm#198444 "acetaminophen 650 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1082,11 +1082,11 @@ Description: "Betsy Johnson active medication statement for acetaminophen, every
 * dosage.sequence = 1
 * dosage.text = "every 6 hours or as needed for pain"
 
-Instance: smp-medstmt-1-9
+Instance: betsysmith-johnson01-smp-medstmt-1-9
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for ferrous, three times a day before meals, to treat anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)."
-* basedOn = Reference(smp-medrx-1-9)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-1-9)
 * status = #active
 * medicationCodeableConcept = $rxnorm#310325 "ferrous sulfate 325 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1096,11 +1096,11 @@ Description: "Betsy Johnson active medication statement for ferrous, three times
 * dosage.sequence = 1
 * dosage.text = "three times a day before meals"
 
-Instance: smp-medstmt-2-10
+Instance: betsysmith-johnson01-smp-medstmt-2-10
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for atorvastatin, po nightly, to treat hyperlipidemia."
-* basedOn = Reference(smp-medrx-2-10)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-2-10)
 * status = #active
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1110,11 +1110,11 @@ Description: "Betsy Johnson active medication statement for atorvastatin, po nig
 * dosage.sequence = 1
 * dosage.text = "po nightly"
 
-Instance: smp-medstmt-2-11
+Instance: betsysmith-johnson01-smp-medstmt-2-11
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for sertraline, po nightly, to treat depressive disorder (disorder)."
-* partOf = Reference(smp-medadm-2-11)
+* partOf = Reference(betsysmith-johnson01-smp-medadm-2-11)
 * status = #active
 * medicationCodeableConcept = $rxnorm#312940 "sertraline 25 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1124,11 +1124,11 @@ Description: "Betsy Johnson active medication statement for sertraline, po night
 * dosage.sequence = 1
 * dosage.text = "po nightly"
 
-Instance: smp-medstmt-2-12
+Instance: betsysmith-johnson01-smp-medstmt-2-12
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for furosemide, po daily, to treat chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)."
-* partOf = Reference(smp-medadm-2-12)
+* partOf = Reference(betsysmith-johnson01-smp-medadm-2-12)
 * status = #active
 * medicationCodeableConcept = $rxnorm#310429 "furosemide 20 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1138,11 +1138,11 @@ Description: "Betsy Johnson active medication statement for furosemide, po daily
 * dosage.sequence = 1
 * dosage.text = "po daily"
 
-Instance: smp-medstmt-2-13
+Instance: betsysmith-johnson01-smp-medstmt-2-13
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for carvedilol, po twice a day, to treat hypertensive disorder, systemic arterial (disorder)."
-* basedOn = Reference(smp-medrx-2-13)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-2-13)
 * status = #active
 * medicationCodeableConcept = $rxnorm#200031 "carvedilol 6.25 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1153,11 +1153,11 @@ Description: "Betsy Johnson active medication statement for carvedilol, po twice
 * dosage.text = "po twice a day"
 * note.text = "(goal to discontinue Beta Blocker when BP under control) DC at discharge"
 
-Instance: smp-medstmt-2-14
+Instance: betsysmith-johnson01-smp-medstmt-2-14
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for metformin, po daily, to treat diabetes mellitus type 2 in nonobese (disorder)."
-* basedOn = Reference(smp-medrx-2-14)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-2-14)
 * status = #active
 * medicationCodeableConcept = $rxnorm#428759 "metformin 250 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1167,11 +1167,11 @@ Description: "Betsy Johnson active medication statement for metformin, po daily,
 * dosage.sequence = 1
 * dosage.text = "po daily"
 
-Instance: smp-medstmt-2-15
+Instance: betsysmith-johnson01-smp-medstmt-2-15
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for empagliflozin, po qd, to treat diabetes mellitus type 2 in nonobese (disorder)."
-* partOf = Reference(smp-medadm-2-15)
+* partOf = Reference(betsysmith-johnson01-smp-medadm-2-15)
 * status = #active
 * medicationCodeableConcept = $rxnorm#1545658 "empagliflozin 10 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1181,11 +1181,11 @@ Description: "Betsy Johnson active medication statement for empagliflozin, po qd
 * dosage.sequence = 1
 * dosage.text = "po qd"
 
-Instance: smp-medstmt-2-16
+Instance: betsysmith-johnson01-smp-medstmt-2-16
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for clopidogrel, po daily, to treat ischemic stroke (disorder)."
-* partOf = Reference(smp-medadm-2-16)
+* partOf = Reference(betsysmith-johnson01-smp-medadm-2-16)
 * status = #active
 * medicationCodeableConcept = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1195,11 +1195,11 @@ Description: "Betsy Johnson active medication statement for clopidogrel, po dail
 * dosage.sequence = 1
 * dosage.text = "po daily"
 
-Instance: smp-medstmt-2-17
+Instance: betsysmith-johnson01-smp-medstmt-2-17
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for Losartan, po daily (monitor Potassium), to treat hypertensive disorder, systemic arterial (disorder)."
-* partOf = Reference(smp-medadm-2-17)
+* partOf = Reference(betsysmith-johnson01-smp-medadm-2-17)
 * status = #active
 * medicationCodeableConcept = $rxnorm#314073 "Losartan 50 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1209,11 +1209,11 @@ Description: "Betsy Johnson active medication statement for Losartan, po daily (
 * dosage.sequence = 1
 * dosage.text = "po daily (monitor Potassium)"
 
-Instance: smp-medstmt-2-18
+Instance: betsysmith-johnson01-smp-medstmt-2-18
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for ferrous, po daily, to treat anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)."
-* basedOn = Reference(smp-medrx-2-18)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-2-18)
 * status = #active
 * medicationCodeableConcept = $rxnorm#244210 "ferrous gluconate 325 MG Oral Capsule"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1223,11 +1223,11 @@ Description: "Betsy Johnson active medication statement for ferrous, po daily, t
 * dosage.sequence = 1
 * dosage.text = "po daily"
 
-Instance: smp-medstmt-2-19
+Instance: betsysmith-johnson01-smp-medstmt-2-19
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for acetaminophen, 1-2 tabs po every 4h prn pain (1 tab -1-5 scale; 2 tabs -6-10 scale), to treat osteoarthritis (disorder)."
-* basedOn = Reference(smp-medrx-2-19)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-2-19)
 * status = #active
 * medicationCodeableConcept = $rxnorm#857002 "acetaminophen 325 MG / hydrocodone bitartrate 5 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1238,11 +1238,11 @@ Description: "Betsy Johnson active medication statement for acetaminophen, 1-2 t
 * dosage.text = "1-2 tabs po every 4h prn pain (1 tab -1-5 scale; 2 tabs -6-10 scale)"
 * note.text = "DC at discharge"
 
-Instance: smp-medstmt-2-21
+Instance: betsysmith-johnson01-smp-medstmt-2-21
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for polyethylene, 17g po daily prn constipation, to treat drug-induced constipation."
-* basedOn = Reference(smp-medrx-2-21)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-2-21)
 * status = #active
 * medicationCodeableConcept = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1252,11 +1252,11 @@ Description: "Betsy Johnson active medication statement for polyethylene, 17g po
 * dosage.sequence = 1
 * dosage.text = "17g po daily prn constipation"
 
-Instance: smp-medstmt-2-22
+Instance: betsysmith-johnson01-smp-medstmt-2-22
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for docusate, po twice daily, to treat drug-induced constipation."
-* basedOn = Reference(smp-medrx-2-22)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-2-22)
 * status = #active
 * medicationCodeableConcept = $rxnorm#1099279 "docusate sodium 100 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1266,11 +1266,11 @@ Description: "Betsy Johnson active medication statement for docusate, po twice d
 * dosage.sequence = 1
 * dosage.text = "po twice daily"
 
-Instance: smp-medstmt-2-23
+Instance: betsysmith-johnson01-smp-medstmt-2-23
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for ondansetron, tablet po q6h prn nausea/vomiting, to treat nausea and vomiting."
-* basedOn = Reference(smp-medrx-2-23)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-2-23)
 * status = #active
 * medicationCodeableConcept = $rxnorm#198052 "ondansetron 4 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1280,11 +1280,11 @@ Description: "Betsy Johnson active medication statement for ondansetron, tablet 
 * dosage.sequence = 1
 * dosage.text = "tablet po q6h prn nausea/vomiting"
 
-Instance: smp-medstmt-2-24
+Instance: betsysmith-johnson01-smp-medstmt-2-24
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for 3, Novolin-R Sliding scale insulin protocol, to treat diabetes mellitus type 2 in nonobese (disorder)."
-* basedOn = Reference(smp-medrx-2-24)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-2-24)
 * status = #active
 * medicationCodeableConcept = $rxnorm#847205 "3 ML insulin, regular, human 100 UNT/ML Prefilled Syringe [Novolin R]"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1294,11 +1294,11 @@ Description: "Betsy Johnson active medication statement for 3, Novolin-R Sliding
 * dosage.sequence = 1
 * dosage.text = "Novolin-R Sliding scale insulin protocol"
 
-Instance: smp-medstmt-2-25
+Instance: betsysmith-johnson01-smp-medstmt-2-25
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for Hydralazine, Hydralazine IV 10mg q4h pen SBP>160, if Hydralazine not effective Labetalol 10mg IV q4h prn SBP>160 hold for hr if less than 55."
-* basedOn = Reference(smp-medrx-2-25)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-2-25)
 * status = #active
 * medicationCodeableConcept = $rxnorm#966571 "1 ML hydralazine hydrochloride 20 MG/ML Injection"
 * medicationCodeableConcept.text = "Hydralazine 10 mg IV"
@@ -1309,7 +1309,7 @@ Description: "Betsy Johnson active medication statement for Hydralazine, Hydrala
 * dosage.sequence = 1
 * dosage.text = "Hydralazine IV 10mg q4h pen SBP>160, if Hydralazine not effective Labetalol 10mg IV q4h prn SBP>160 hold for hr if less than 55 per hospital protocol"
 
-Instance: smp-medstmt-2B-26
+Instance: betsysmith-johnson01-smp-medstmt-2B-26
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson inactive medication statement for atorvastatin, po nightly, to treat hyperlipidemia."
@@ -1322,7 +1322,7 @@ Description: "Betsy Johnson inactive medication statement for atorvastatin, po n
 * dosage.sequence = 1
 * dosage.text = "po nightly"
 
-Instance: smp-medstmt-2B-27
+Instance: betsysmith-johnson01-smp-medstmt-2B-27
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson inactive medication statement for sertraline, po nightly, to treat depressive disorder (disorder)."
@@ -1335,7 +1335,7 @@ Description: "Betsy Johnson inactive medication statement for sertraline, po nig
 * dosage.sequence = 1
 * dosage.text = "po nightly"
 
-Instance: smp-medstmt-2B-28
+Instance: betsysmith-johnson01-smp-medstmt-2B-28
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson inactive medication statement for furosemide, po daily, to treat chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)."
@@ -1348,7 +1348,7 @@ Description: "Betsy Johnson inactive medication statement for furosemide, po dai
 * dosage.sequence = 1
 * dosage.text = "po daily"
 
-Instance: smp-medstmt-2B-29
+Instance: betsysmith-johnson01-smp-medstmt-2B-29
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson inactive medication statement for carvedilol, po twice a day, to treat hypertensive disorder, systemic arterial (disorder)."
@@ -1362,7 +1362,7 @@ Description: "Betsy Johnson inactive medication statement for carvedilol, po twi
 * dosage.text = "po twice a day"
 * note.text = "(goal to discontinue Beta Blocker when BP under control)) DC at discharge"
 
-Instance: smp-medstmt-2B-30
+Instance: betsysmith-johnson01-smp-medstmt-2B-30
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson inactive medication statement for Metformin, po daily, to treat diabetes mellitus type 2 in nonobese (disorder)."
@@ -1375,7 +1375,7 @@ Description: "Betsy Johnson inactive medication statement for Metformin, po dail
 * dosage.sequence = 1
 * dosage.text = "po daily"
 
-Instance: smp-medstmt-2B-31
+Instance: betsysmith-johnson01-smp-medstmt-2B-31
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson inactive medication statement for empagliflozin, po qd, to treat diabetes mellitus type 2 in nonobese (disorder)."
@@ -1388,7 +1388,7 @@ Description: "Betsy Johnson inactive medication statement for empagliflozin, po 
 * dosage.sequence = 1
 * dosage.text = "po qd"
 
-Instance: smp-medstmt-2B-32
+Instance: betsysmith-johnson01-smp-medstmt-2B-32
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson inactive medication statement for clopidogrel, po daily, to treat ischemic stroke (disorder)."
@@ -1401,7 +1401,7 @@ Description: "Betsy Johnson inactive medication statement for clopidogrel, po da
 * dosage.sequence = 1
 * dosage.text = "po daily"
 
-Instance: smp-medstmt-2B-33
+Instance: betsysmith-johnson01-smp-medstmt-2B-33
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson inactive medication statement for Losartan, po daily, to treat hypertensive disorder, systemic arterial (disorder)."
@@ -1415,7 +1415,7 @@ Description: "Betsy Johnson inactive medication statement for Losartan, po daily
 * dosage.text = "po daily"
 * note.text = "(monitor Potassium)"
 
-Instance: smp-medstmt-2B-34
+Instance: betsysmith-johnson01-smp-medstmt-2B-34
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson inactive medication statement for ferrous, po daily, to treat anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)."
@@ -1428,7 +1428,7 @@ Description: "Betsy Johnson inactive medication statement for ferrous, po daily,
 * dosage.sequence = 1
 * dosage.text = "po daily"
 
-Instance: smp-medstmt-2B-35
+Instance: betsysmith-johnson01-smp-medstmt-2B-35
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson inactive medication statement for acetaminophen, 2 tablets every 6 hours or as needed for mild pain, to treat osteoarthritis (disorder)."
@@ -1441,7 +1441,7 @@ Description: "Betsy Johnson inactive medication statement for acetaminophen, 2 t
 * dosage.sequence = 1
 * dosage.text = "2 tablets every 6 hours or as needed for mild pain"
 
-Instance: smp-medstmt-2B-37
+Instance: betsysmith-johnson01-smp-medstmt-2B-37
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson inactive medication statement for polyethylene, 17g po daily prn constipation, to treat drug-induced constipation."
@@ -1454,7 +1454,7 @@ Description: "Betsy Johnson inactive medication statement for polyethylene, 17g 
 * dosage.sequence = 1
 * dosage.text = "17g po daily prn constipation"
 
-Instance: smp-medstmt-2B-38
+Instance: betsysmith-johnson01-smp-medstmt-2B-38
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson inactive medication statement for docusate, po twice daily, to treat drug-induced constipation."
@@ -1467,7 +1467,7 @@ Description: "Betsy Johnson inactive medication statement for docusate, po twice
 * dosage.sequence = 1
 * dosage.text = "po twice daily (please add \"Sodium\")"
 
-Instance: smp-medstmt-2B-39
+Instance: betsysmith-johnson01-smp-medstmt-2B-39
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson inactive medication statement for ondansetron, tablet po q6h prn nausea/vomiting, to treat nausea and vomiting."
@@ -1480,7 +1480,7 @@ Description: "Betsy Johnson inactive medication statement for ondansetron, table
 * dosage.sequence = 1
 * dosage.text = "tablet po q6h prn nausea/vomiting"
 
-Instance: smp-medstmt-2B-40
+Instance: betsysmith-johnson01-smp-medstmt-2B-40
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson inactive medication statement for 3, Novolin-R Sliding scale insulin protocol, to treat diabetes mellitus type 2 in nonobese (disorder)."
@@ -1493,11 +1493,11 @@ Description: "Betsy Johnson inactive medication statement for 3, Novolin-R Slidi
 * dosage.sequence = 1
 * dosage.text = "Novolin-R Sliding scale insulin protocol"
 
-Instance: smp-medstmt-3-41
+Instance: betsysmith-johnson01-smp-medstmt-3-41
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for atorvastatin, 1 tablet po at bedtime, to treat hyperlipidemia."
-* basedOn = Reference(smp-medrx-3-41)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-3-41)
 * status = #active
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1507,11 +1507,11 @@ Description: "Betsy Johnson active medication statement for atorvastatin, 1 tabl
 * dosage.sequence = 1
 * dosage.text = "1 tablet po at bedtime"
 
-Instance: smp-medstmt-3-42
+Instance: betsysmith-johnson01-smp-medstmt-3-42
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for sertraline, 1 tablet po at bedtime, to treat depressive disorder (disorder)."
-* partOf = Reference(smp-medadm-3-42)
+* partOf = Reference(betsysmith-johnson01-smp-medadm-3-42)
 * status = #active
 * medicationCodeableConcept = $rxnorm#312941 "sertraline 50 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1521,11 +1521,11 @@ Description: "Betsy Johnson active medication statement for sertraline, 1 tablet
 * dosage.sequence = 1
 * dosage.text = "1 tablet po at bedtime"
 
-Instance: smp-medstmt-3-43
+Instance: betsysmith-johnson01-smp-medstmt-3-43
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for furosemide, 1 tablet po daily, to treat chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)."
-* basedOn = Reference(smp-medrx-3-43)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-3-43)
 * status = #active
 * medicationCodeableConcept = $rxnorm#310429 "furosemide 20 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1535,11 +1535,11 @@ Description: "Betsy Johnson active medication statement for furosemide, 1 tablet
 * dosage.sequence = 1
 * dosage.text = "1 tablet po daily"
 
-Instance: smp-medstmt-3-44
+Instance: betsysmith-johnson01-smp-medstmt-3-44
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for carvedilol, 1 tablet po BID (DC when BP under control), to treat hypertensive disorder, systemic arterial (disorder)."
-* partOf = Reference(smp-medadm-3-44)
+* partOf = Reference(betsysmith-johnson01-smp-medadm-3-44)
 * status = #active
 * medicationCodeableConcept = $rxnorm#200031 "carvedilol 6.25 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1549,11 +1549,11 @@ Description: "Betsy Johnson active medication statement for carvedilol, 1 tablet
 * dosage.sequence = 1
 * dosage.text = "1 tablet po BID (DC when BP under control)"
 
-Instance: smp-medstmt-3-45
+Instance: betsysmith-johnson01-smp-medstmt-3-45
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for Metformin, 1 tablet by mouth daily, to treat diabetes mellitus type 2 in nonobese (disorder)."
-* partOf = Reference(smp-medadm-3-45)
+* partOf = Reference(betsysmith-johnson01-smp-medadm-3-45)
 * status = #active
 * medicationCodeableConcept = $rxnorm#311570 "Metformin 500 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1563,11 +1563,11 @@ Description: "Betsy Johnson active medication statement for Metformin, 1 tablet 
 * dosage.sequence = 1
 * dosage.text = "1 tablet by mouth daily"
 
-Instance: smp-medstmt-3-46
+Instance: betsysmith-johnson01-smp-medstmt-3-46
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for empagliflozin, 1 tablet by mouth daily, to treat diabetes mellitus type 2 in nonobese (disorder)."
-* partOf = Reference(smp-medadm-3-46)
+* partOf = Reference(betsysmith-johnson01-smp-medadm-3-46)
 * status = #active
 * medicationCodeableConcept = $rxnorm#1545658 "empagliflozin 10 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1577,11 +1577,11 @@ Description: "Betsy Johnson active medication statement for empagliflozin, 1 tab
 * dosage.sequence = 1
 * dosage.text = "1 tablet by mouth daily"
 
-Instance: smp-medstmt-3-47
+Instance: betsysmith-johnson01-smp-medstmt-3-47
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for clopidogrel, 1 tablet po daily, to treat ischemic stroke (disorder)."
-* partOf = Reference(smp-medadm-3-47)
+* partOf = Reference(betsysmith-johnson01-smp-medadm-3-47)
 * status = #active
 * medicationCodeableConcept = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1591,11 +1591,11 @@ Description: "Betsy Johnson active medication statement for clopidogrel, 1 table
 * dosage.sequence = 1
 * dosage.text = "1 tablet po daily"
 
-Instance: smp-medstmt-3-48
+Instance: betsysmith-johnson01-smp-medstmt-3-48
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for Losartan, 1 tablet po daily (monitor Potassium), to treat hypertensive disorder, systemic arterial (disorder)."
-* basedOn = Reference(smp-medrx-3-48)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-3-48)
 * status = #active
 * medicationCodeableConcept = $rxnorm#314073 "Losartan 50 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1605,11 +1605,11 @@ Description: "Betsy Johnson active medication statement for Losartan, 1 tablet p
 * dosage.sequence = 1
 * dosage.text = "1 tablet po daily (monitor Potassium)"
 
-Instance: smp-medstmt-3-49
+Instance: betsysmith-johnson01-smp-medstmt-3-49
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for ferrous, po daily, to treat anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)."
-* basedOn = Reference(smp-medrx-3-49)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-3-49)
 * status = #active
 * medicationCodeableConcept = $rxnorm#244210 "ferrous gluconate 325 MG Oral Capsule"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1619,11 +1619,11 @@ Description: "Betsy Johnson active medication statement for ferrous, po daily, t
 * dosage.sequence = 1
 * dosage.text = "po daily"
 
-Instance: smp-medstmt-3-50
+Instance: betsysmith-johnson01-smp-medstmt-3-50
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for acetaminophen, 2 tablets every 6 hours or as needed for mild pain, to treat osteoarthritis (disorder)."
-* partOf = Reference(smp-medadm-3-50)
+* partOf = Reference(betsysmith-johnson01-smp-medadm-3-50)
 * status = #active
 * medicationCodeableConcept = $rxnorm#313782 "acetaminophen 325 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1633,11 +1633,11 @@ Description: "Betsy Johnson active medication statement for acetaminophen, 2 tab
 * dosage.sequence = 1
 * dosage.text = "2 tablets every 6 hours or as needed for mild pain"
 
-Instance: smp-medstmt-3-52
+Instance: betsysmith-johnson01-smp-medstmt-3-52
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for polyethylene, 17g po daily prn constipation, to treat drug-induced constipation."
-* basedOn = Reference(smp-medrx-3-52)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-3-52)
 * status = #active
 * medicationCodeableConcept = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1647,7 +1647,7 @@ Description: "Betsy Johnson active medication statement for polyethylene, 17g po
 * dosage.sequence = 1
 * dosage.text = "17g po daily prn constipation"
 
-Instance: smp-medstmt-3B-53
+Instance: betsysmith-johnson01-smp-medstmt-3B-53
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson inactive medication statement for atorvastatin, 1 tablet po at bedtime, to treat hyperlipidemia."
@@ -1660,7 +1660,7 @@ Description: "Betsy Johnson inactive medication statement for atorvastatin, 1 ta
 * dosage.sequence = 1
 * dosage.text = "1 tablet po at bedtime"
 
-Instance: smp-medstmt-3B-54
+Instance: betsysmith-johnson01-smp-medstmt-3B-54
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson inactive medication statement for sertraline, 1 tablet po at bedtime, to treat depressive disorder (disorder)."
@@ -1673,7 +1673,7 @@ Description: "Betsy Johnson inactive medication statement for sertraline, 1 tabl
 * dosage.sequence = 1
 * dosage.text = "1 tablet po at bedtime"
 
-Instance: smp-medstmt-3B-55
+Instance: betsysmith-johnson01-smp-medstmt-3B-55
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson inactive medication statement for furosemide, 1 tablet po daily, to treat chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)."
@@ -1686,7 +1686,7 @@ Description: "Betsy Johnson inactive medication statement for furosemide, 1 tabl
 * dosage.sequence = 1
 * dosage.text = "1 tablet po daily"
 
-Instance: smp-medstmt-3B-56
+Instance: betsysmith-johnson01-smp-medstmt-3B-56
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson inactive medication statement for Metformin, 1 tablet by mouth daily, to treat diabetes mellitus type 2 in nonobese (disorder)."
@@ -1699,7 +1699,7 @@ Description: "Betsy Johnson inactive medication statement for Metformin, 1 table
 * dosage.sequence = 1
 * dosage.text = "1 tablet by mouth daily"
 
-Instance: smp-medstmt-3B-57
+Instance: betsysmith-johnson01-smp-medstmt-3B-57
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson inactive medication statement for empagliflozin, 1 tablet by mouth daily, to treat diabetes mellitus type 2 in nonobese (disorder)."
@@ -1712,7 +1712,7 @@ Description: "Betsy Johnson inactive medication statement for empagliflozin, 1 t
 * dosage.sequence = 1
 * dosage.text = "1 tablet by mouth daily"
 
-Instance: smp-medstmt-3B-58
+Instance: betsysmith-johnson01-smp-medstmt-3B-58
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson inactive medication statement for clopidogrel, 1 tablet by mouth daily, to treat ischemic stroke (disorder)."
@@ -1725,7 +1725,7 @@ Description: "Betsy Johnson inactive medication statement for clopidogrel, 1 tab
 * dosage.sequence = 1
 * dosage.text = "1 tablet by mouth daily"
 
-Instance: smp-medstmt-3B-59
+Instance: betsysmith-johnson01-smp-medstmt-3B-59
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson inactive medication statement for Losartan, 1 tablet po daily, to treat hypertensive disorder, systemic arterial (disorder)."
@@ -1738,7 +1738,7 @@ Description: "Betsy Johnson inactive medication statement for Losartan, 1 tablet
 * dosage.sequence = 1
 * dosage.text = "1 tablet po daily"
 
-Instance: smp-medstmt-3B-60
+Instance: betsysmith-johnson01-smp-medstmt-3B-60
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson inactive medication statement for ferrous, po daily, to treat anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)."
@@ -1751,7 +1751,7 @@ Description: "Betsy Johnson inactive medication statement for ferrous, po daily,
 * dosage.sequence = 1
 * dosage.text = "po daily"
 
-Instance: smp-medstmt-3B-61
+Instance: betsysmith-johnson01-smp-medstmt-3B-61
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson inactive medication statement for acetaminophen, 2 tablets by mouth every 6 hours or as needed for pain, to treat osteoarthritis (disorder)."
@@ -1764,7 +1764,7 @@ Description: "Betsy Johnson inactive medication statement for acetaminophen, 2 t
 * dosage.sequence = 1
 * dosage.text = "2 tablets by mouth every 6 hours or as needed for pain"
 
-Instance: smp-medstmt-3B-63
+Instance: betsysmith-johnson01-smp-medstmt-3B-63
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson inactive medication statement for polyethylene, 17g by mouth daily as needed for constipation, to treat drug-induced constipation."
@@ -1777,11 +1777,11 @@ Description: "Betsy Johnson inactive medication statement for polyethylene, 17g 
 * dosage.sequence = 1
 * dosage.text = "17g by mouth daily as needed for constipation"
 
-Instance: smp-medstmt-4-64
+Instance: betsysmith-johnson01-smp-medstmt-4-64
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for atorvastatin, 1 tablet by mouth at bedtime, to treat hyperlipidemia."
-* basedOn = Reference(smp-medrx-4-64)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-4-64)
 * status = #active
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1791,11 +1791,11 @@ Description: "Betsy Johnson active medication statement for atorvastatin, 1 tabl
 * dosage.sequence = 1
 * dosage.text = "1 tablet by mouth at bedtime"
 
-Instance: smp-medstmt-4-65
+Instance: betsysmith-johnson01-smp-medstmt-4-65
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for sertraline, 1 tablet po at bedtime, to treat depressive disorder (disorder)."
-* basedOn = Reference(smp-medrx-4-65)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-4-65)
 * status = #active
 * medicationCodeableConcept = $rxnorm#312941 "sertraline 50 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1805,11 +1805,11 @@ Description: "Betsy Johnson active medication statement for sertraline, 1 tablet
 * dosage.sequence = 1
 * dosage.text = "1 tablet po at bedtime"
 
-Instance: smp-medstmt-4-66
+Instance: betsysmith-johnson01-smp-medstmt-4-66
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for furosemide, 1 tablet po daily, to treat chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)."
-* basedOn = Reference(smp-medrx-4-66)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-4-66)
 * status = #active
 * medicationCodeableConcept = $rxnorm#310429 "furosemide 20 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1819,11 +1819,11 @@ Description: "Betsy Johnson active medication statement for furosemide, 1 tablet
 * dosage.sequence = 1
 * dosage.text = "1 tablet po daily"
 
-Instance: smp-medstmt-4-67
+Instance: betsysmith-johnson01-smp-medstmt-4-67
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for Metformin, 1 tablet by mouth daily, to treat diabetes mellitus type 2 in nonobese (disorder)."
-* basedOn = Reference(smp-medrx-4-67)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-4-67)
 * status = #active
 * medicationCodeableConcept = $rxnorm#311570 "Metformin 500 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1833,11 +1833,11 @@ Description: "Betsy Johnson active medication statement for Metformin, 1 tablet 
 * dosage.sequence = 1
 * dosage.text = "1 tablet by mouth daily"
 
-Instance: smp-medstmt-4-68
+Instance: betsysmith-johnson01-smp-medstmt-4-68
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for empagliflozin, 1 tablet by mouth daily, to treat diabetes mellitus type 2 in nonobese (disorder)."
-* basedOn = Reference(smp-medrx-4-68)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-4-68)
 * status = #active
 * medicationCodeableConcept = $rxnorm#1545658 "empagliflozin 10 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1847,11 +1847,11 @@ Description: "Betsy Johnson active medication statement for empagliflozin, 1 tab
 * dosage.sequence = 1
 * dosage.text = "1 tablet by mouth daily"
 
-Instance: smp-medstmt-4-69
+Instance: betsysmith-johnson01-smp-medstmt-4-69
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for clopidogrel, 1 tablet by mouth daily, to treat ischemic stroke (disorder)."
-* basedOn = Reference(smp-medrx-4-69)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-4-69)
 * status = #active
 * medicationCodeableConcept = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1861,11 +1861,11 @@ Description: "Betsy Johnson active medication statement for clopidogrel, 1 table
 * dosage.sequence = 1
 * dosage.text = "1 tablet by mouth daily"
 
-Instance: smp-medstmt-4-70
+Instance: betsysmith-johnson01-smp-medstmt-4-70
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for Losartan, 1 tablet po daily, to treat hypertensive disorder, systemic arterial (disorder)."
-* basedOn = Reference(smp-medrx-4-70)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-4-70)
 * status = #active
 * medicationCodeableConcept = $rxnorm#314073 "Losartan 50 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1875,11 +1875,11 @@ Description: "Betsy Johnson active medication statement for Losartan, 1 tablet p
 * dosage.sequence = 1
 * dosage.text = "1 tablet po daily"
 
-Instance: smp-medstmt-4-71
+Instance: betsysmith-johnson01-smp-medstmt-4-71
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for ferrous, po daily, to treat anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)."
-* basedOn = Reference(smp-medrx-4-71)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-4-71)
 * status = #active
 * medicationCodeableConcept = $rxnorm#244210 "ferrous gluconate 325 MG Oral Capsule"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1889,11 +1889,11 @@ Description: "Betsy Johnson active medication statement for ferrous, po daily, t
 * dosage.sequence = 1
 * dosage.text = "po daily"
 
-Instance: smp-medstmt-4-72
+Instance: betsysmith-johnson01-smp-medstmt-4-72
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for acetaminophen, 2 tablets every 6 hours or as needed for pain, to treat osteoarthritis (disorder)."
-* basedOn = Reference(smp-medrx-4-72)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-4-72)
 * status = #active
 * medicationCodeableConcept = $rxnorm#313782 "acetaminophen 325 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1903,11 +1903,11 @@ Description: "Betsy Johnson active medication statement for acetaminophen, 2 tab
 * dosage.sequence = 1
 * dosage.text = "2 tablets every 6 hours or as needed for pain"
 
-Instance: smp-medstmt-4-74
+Instance: betsysmith-johnson01-smp-medstmt-4-74
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for polyethylene, 17g by mouth daily as needed for constipation, to treat drug-induced constipation."
-* basedOn = Reference(smp-medrx-4-74)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-4-74)
 * status = #active
 * medicationCodeableConcept = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1917,11 +1917,11 @@ Description: "Betsy Johnson active medication statement for polyethylene, 17g by
 * dosage.sequence = 1
 * dosage.text = "17g by mouth daily as needed for constipation"
 
-Instance: smp-medstmt-5-75
+Instance: betsysmith-johnson01-smp-medstmt-5-75
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for atorvastatin, 1 tablet by mouth at bedtime, to treat hyperlipidemia."
-* basedOn = Reference(smp-medrx-5-75)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-5-75)
 * status = #active
 * medicationCodeableConcept = $rxnorm#617311 "atorvastatin 40 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1931,11 +1931,11 @@ Description: "Betsy Johnson active medication statement for atorvastatin, 1 tabl
 * dosage.sequence = 1
 * dosage.text = "1 tablet by mouth at bedtime"
 
-Instance: smp-medstmt-5-76
+Instance: betsysmith-johnson01-smp-medstmt-5-76
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for sertraline, 1 tablet po at bedtime, to treat depressive disorder (disorder)."
-* basedOn = Reference(smp-medrx-5-76)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-5-76)
 * status = #active
 * medicationCodeableConcept = $rxnorm#312941 "sertraline 50 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1945,11 +1945,11 @@ Description: "Betsy Johnson active medication statement for sertraline, 1 tablet
 * dosage.sequence = 1
 * dosage.text = "1 tablet po at bedtime"
 
-Instance: smp-medstmt-5-77
+Instance: betsysmith-johnson01-smp-medstmt-5-77
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for furosemide, 1 tablet po daily, to treat chronic kidney disease stage 3 due to type 2 diabetes mellitus (disorder)."
-* basedOn = Reference(smp-medrx-5-77)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-5-77)
 * status = #active
 * medicationCodeableConcept = $rxnorm#310429 "furosemide 20 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1959,11 +1959,11 @@ Description: "Betsy Johnson active medication statement for furosemide, 1 tablet
 * dosage.sequence = 1
 * dosage.text = "1 tablet po daily"
 
-Instance: smp-medstmt-5-78
+Instance: betsysmith-johnson01-smp-medstmt-5-78
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for Metformin, 1 tablet by mouth daily, to treat diabetes mellitus type 2 in nonobese (disorder)."
-* basedOn = Reference(smp-medrx-5-78)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-5-78)
 * status = #active
 * medicationCodeableConcept = $rxnorm#311570 "Metformin 500 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1973,11 +1973,11 @@ Description: "Betsy Johnson active medication statement for Metformin, 1 tablet 
 * dosage.sequence = 1
 * dosage.text = "1 tablet by mouth daily"
 
-Instance: smp-medstmt-5-79
+Instance: betsysmith-johnson01-smp-medstmt-5-79
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for empagliflozin, 1 tablet by mouth daily, to treat diabetes mellitus type 2 in nonobese (disorder)."
-* basedOn = Reference(smp-medrx-5-79)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-5-79)
 * status = #active
 * medicationCodeableConcept = $rxnorm#1545658 "empagliflozin 10 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -1987,11 +1987,11 @@ Description: "Betsy Johnson active medication statement for empagliflozin, 1 tab
 * dosage.sequence = 1
 * dosage.text = "1 tablet by mouth daily"
 
-Instance: smp-medstmt-5-80
+Instance: betsysmith-johnson01-smp-medstmt-5-80
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for clopidogrel, 1 tablet by mouth daily, to treat ischemic stroke (disorder)."
-* basedOn = Reference(smp-medrx-5-80)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-5-80)
 * status = #active
 * medicationCodeableConcept = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -2001,11 +2001,11 @@ Description: "Betsy Johnson active medication statement for clopidogrel, 1 table
 * dosage.sequence = 1
 * dosage.text = "1 tablet by mouth daily"
 
-Instance: smp-medstmt-5-81
+Instance: betsysmith-johnson01-smp-medstmt-5-81
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for Losartan, 1 tablet po daily, to treat hypertensive disorder, systemic arterial (disorder)."
-* basedOn = Reference(smp-medrx-5-81)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-5-81)
 * status = #active
 * medicationCodeableConcept = $rxnorm#314073 "Losartan 50 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -2015,11 +2015,11 @@ Description: "Betsy Johnson active medication statement for Losartan, 1 tablet p
 * dosage.sequence = 1
 * dosage.text = "1 tablet po daily"
 
-Instance: smp-medstmt-5-82
+Instance: betsysmith-johnson01-smp-medstmt-5-82
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for ferrous, po daily, to treat anemia co-occurrent and due to chronic kidney disease stage 3 (disorder)."
-* basedOn = Reference(smp-medrx-5-82)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-5-82)
 * status = #active
 * medicationCodeableConcept = $rxnorm#244210 "ferrous gluconate 325 MG Oral Capsule"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -2029,11 +2029,11 @@ Description: "Betsy Johnson active medication statement for ferrous, po daily, t
 * dosage.sequence = 1
 * dosage.text = "po daily"
 
-Instance: smp-medstmt-5-83
+Instance: betsysmith-johnson01-smp-medstmt-5-83
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for acetaminophen, 2 tablets every 6 hours or as needed for pain, to treat osteoarthritis (disorder)."
-* basedOn = Reference(smp-medrx-5-83)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-5-83)
 * status = #active
 * medicationCodeableConcept = $rxnorm#313782 "acetaminophen 325 MG Oral Tablet"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
@@ -2043,11 +2043,11 @@ Description: "Betsy Johnson active medication statement for acetaminophen, 2 tab
 * dosage.sequence = 1
 * dosage.text = "2 tablets every 6 hours or as needed for pain"
 
-Instance: smp-medstmt-5-85
+Instance: betsysmith-johnson01-smp-medstmt-5-85
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Betsy Johnson active medication statement for polyethylene, 17g by mouth daily as needed for constipation, to treat drug-induced constipation."
-* basedOn = Reference(smp-medrx-5-85)
+* basedOn = Reference(betsysmith-johnson01-smp-medrx-5-85)
 * status = #active
 * medicationCodeableConcept = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"

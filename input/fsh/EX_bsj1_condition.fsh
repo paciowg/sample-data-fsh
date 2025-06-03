@@ -397,5 +397,22 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a health c
 * code.coding.version = "http://snomed.info/sct"
 * code.coding = $sct#40739000 "Dysphagia (disorder)"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* recordedDate = "2024-09-20"
+* recordedDate = "2025-05-03"
 * asserter = Reference(PractitionerRole-Physician-PriyaSarkar)
+
+Instance: betsysmith-johnson01-condition-IschemicStrokeDiagnosis-01
+InstanceOf: Condition
+Usage: #example
+Description: "Betsy Smith-Johnson's condition FHIR resource indicates an ischemic stroke diagnosis."
+* clinicalStatus = $condition-clinical#active "Active"
+* clinicalStatus.text = "Active"
+* verificationStatus = $condition-ver-status#confirmed "Confirmed"
+* verificationStatus.text = "Confirmed"
+* category = $condition-category#encounter-diagnosis "Encounter Diagnosis"
+* category.text = "Stroke Diagnosis"
+* code.coding.version = "http://snomed.info/sct"
+* code.coding = $SCT_US#422504002 "Ischemic stroke (disorder)"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
+* recordedDate = "2025-05-03"
+* asserter = Reference(PractitionerRole-Neuro-DavidAlbahari)
+

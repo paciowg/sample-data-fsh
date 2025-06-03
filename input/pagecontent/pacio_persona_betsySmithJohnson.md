@@ -57,8 +57,8 @@ Data is prepared and final reports are created by the ED for Betsy. This include
 #### Scene 1 Sample Data Summary
 * [Patient: Betsy Smith-Johnson](Patient-patient-betsysmith-johnson01.html)
 * [Organization: Metro Hospital Emergency Department (ED)](Organization-org-ED-Metro-Hospital.html)
-* [DocumentReference: Radiology Report - CT Scan #1 - at ED admission](DocumentReference-BSJ1-documentReference-ED-CTScan-01.html)
-* [DocumentReference: Radiology Report - CT Scan #2 - at Discharge](DocumentReference-BSJ1-documentReference-CTScan-02.html)
+* [DocumentReference: Radiology Report - CT Scan #1 - at ED admission](DocumentReference-betsysmith-johnson01-diagnosticReport-CTScan-01.html)
+* [DocumentReference: Radiology Report - CT Scan #2 - at Discharge](DocumentReference-betsysmith-johnson01-diagnosticReport-CTScan-02.html)
 
 ### Scene 2: Betsy is discharged to SNF
 

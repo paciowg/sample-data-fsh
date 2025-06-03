@@ -1,31 +1,29 @@
-﻿Scene 1 - CT at admission
 Radiology Report
 
 Patient Name: Betsy Smith-Johnson
-Medical Record Number: [Insert MRN]
-Date of Examination: [Insert Date]
-Referring Physician: [Insert Referring Physician]
+Medical Record Number: 102702
+Date of Examination: May 3, 2025
+Referring Physician: Priya Sarkar, MD
 Radiologist: Paul Zawawi, MD
+
 
 Procedure:
 Non-contrast computed tomography (CT) of the head
-
 Clinical History:
 The patient, Betsy Smith-Johnson, was admitted to the emergency department after her son found her disoriented, weak, and exhibiting difficulty with speech. Clinical concern for acute neurological event, including possible stroke.
 
 Findings:
 Non-contrast CT of the head demonstrates a hypodense region in the left middle cerebral artery (MCA) territory. This finding is consistent with an acute ischemic infarct. No evidence of hemorrhage is identified. The ventricles and sulci are age-appropriate without significant mass effect or midline shift. No other acute intracranial abnormalities are noted.
-
 Description of CT Scan Image:
-* Axial View: The CT scan would show a hypodense (darker) area in the left middle cerebral artery (MCA) territory. This hypodense region represents the area of ischemia due to reduced blood flow, consistent with an acute ischemic infarct.
-* Symmetry: The right MCA territory would appear normal, with no hypodense areas.
-* Hemorrhage: There would be no evidence of hyperdense (bright) areas, ruling out intracranial hemorrhage.
-* Midline Structures: The midline structures, such as the falx cerebri, would appear intact, with no evidence of midline shift or mass effect.
-* Ventricles: The lateral ventricles would appear normal in size and shape, without compression or distortion.
+Axial View: The CT scan would show a hypodense (darker) area in the left middle cerebral artery (MCA) territory. This hypodense region represents the area of ischemia due to reduced blood flow, consistent with an acute ischemic infarct.
+Symmetry: The right MCA territory would appear normal, with no hypodense areas.
+Hemorrhage: There would be no evidence of hyperdense (bright) areas, ruling out intracranial hemorrhage.
+Midline Structures: The midline structures, such as the falx cerebri, would appear intact, with no evidence of midline shift or mass effect.
+Ventricles: The lateral ventricles would appear normal in size and shape, without compression or distortion.
 
 Impression:
-1. Hypodense region in the left MCA territory, consistent with an acute ischemic infarct.
-2. No evidence of intracranial hemorrhage.
+Hypodense region in the left MCA territory, consistent with an acute ischemic infarct.
+No evidence of intracranial hemorrhage.
 
 Recommendations:
 Correlate with clinical findings and consider further evaluation with MRI for better characterization of the infarct and assessment of perfusion. Neurology consultation is recommended for management and treatment planning.
@@ -33,4 +31,5 @@ Correlate with clinical findings and consider further evaluation with MRI for be
 Electronically Signed By:
 Paul Zawawi, MD
 Radiologist
-Date: May 4, 2025
+Date: May 3, 2025
+
