@@ -163,7 +163,7 @@ Description: "Hema Onko's practitioner record."
 * telecom[0].system = #phone
 * telecom[=].value = "(555) 222-3245"
 * telecom[+].system = #email
-* telecom[=].value = "honko@MotorCitySNF.com"
+* telecom[=].value = "Maria.moen82@jettelabs.com"
 * address.text = "18051 Mack Ave, Detroit, MI 48224"
 * address.line = "18051 Mack Ave"
 * address.city = "Detroit"
@@ -214,7 +214,7 @@ Description: "Margaret Q. Reynolds's practitioner record."
 * telecom[0].system = #phone
 * telecom[=].value = "(555) 391-9414"
 * telecom[+].system = #email
-* telecom[=].value = "mreynolds@MotorCitySNF.com"
+* telecom[=].value = "Maria.moen21@jettelabs.com"
 * address.text = "18051 Mack Ave, Detroit, MI 48224"
 * address.line = "18051 Mack Ave"
 * address.city = "Detroit"

@@ -14,6 +14,9 @@ Description: "Betsy Smith-Johnson's son and healthcare agent"
 * telecom[0].system = #phone
 * telecom[=].value = "(555) 918-4823"
 * telecom[=].use = #mobile
+* telecom[+].system = #phone
+* telecom[=].value = "(555) 555-5555"
+* telecom[=].use = #home
 * telecom[+].system = #email
 * telecom[=].value = "Maria.moen62@jettelabs.com"
 * address.use = #home
@@ -36,6 +39,9 @@ Description: "Betsy Smith-Johnson's daughter in-law, Charles' wife"
 * telecom[0].system = #phone
 * telecom[=].value = "(555) 951-8437"
 * telecom[=].use = #mobile
+* telecom[+].system = #phone
+* telecom[=].value = "(555) 555-5555"
+* telecom[=].use = #home
 * telecom[+].system = #email
 * telecom[=].value = "Maria.moen62@jettelabs.com"
 * address.use = #home
