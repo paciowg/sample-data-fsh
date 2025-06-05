@@ -43,7 +43,7 @@ dependencies:
   hl7.fhir.us.pacio-toc:
     id: toc
     uri: http://hl7.org/fhir/us/pacio-toc/ImplementationGuide/hl7.fhir.us.pacio-toc
-    version: 1.0.0-ballot
+    version: current
 
 parameters:
    excludettl: true

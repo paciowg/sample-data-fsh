@@ -251,7 +251,7 @@ Description: "Jenny Mosley has an active MedicationRequest for palbociclib 125 M
 * dispenseRequest.quantity = 280 'mg' "mg"
 * dispenseRequest.expectedSupplyDuration = 1 'm' "month"
 
-Instance: SMP-MedStmt-AcetaminophenSNFstart
+Instance: jenny-mosley-smp-medstmtAcetaminophenSNFstart
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is actively taking acetaminophen 500mg tablets every 6 hours for headaches related to an intracranial neoplasm, as per Happy Nursing Facility."
@@ -264,7 +264,7 @@ Description: "Jenny Mosley is actively taking acetaminophen 500mg tablets every 
 * dosage.sequence = 1
 * dosage.text = "2 tablets po every 6 hours"
 
-Instance: SMP-MedStmt-AlprazolamSNFstart
+Instance: jenny-mosley-smp-medstmtAlprazolamSNFstart
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is prescribed ALPRAZolam 0.5 MG Oral Tablet for anxiety disorder, to be taken up to three times daily as needed."
@@ -277,7 +277,7 @@ Description: "Jenny Mosley is prescribed ALPRAZolam 0.5 MG Oral Tablet for anxie
 * dosage.sequence = 1
 * dosage.text = "Take up to three per day, by mouth, as needed."
 
-Instance: SMP-MedStmt-AtorvastatinSNFstart
+Instance: jenny-mosley-smp-medstmtAtorvastatinSNFstart
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is actively taking atorvastatin 40mg tablet orally nightly for hyperlipidemia, as per Happy Nursing Facility."
@@ -290,7 +290,7 @@ Description: "Jenny Mosley is actively taking atorvastatin 40mg tablet orally ni
 * dosage.sequence = 1
 * dosage.text = "po nightly"
 
-Instance: SMP-MedStmt-DexamethasoneSNFstart
+Instance: jenny-mosley-smp-medstmtDexamethasoneSNFstart
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is taking dexAMETHasone 4 MG Oral Tablet daily for metastatic malignant neoplasm to the brain, as per Happy Nursing Facility."
@@ -303,7 +303,7 @@ Description: "Jenny Mosley is taking dexAMETHasone 4 MG Oral Tablet daily for me
 * dosage.sequence = 1
 * dosage.text = "1 tablet po qd"
 
-Instance: SMP-MedStmt-GabapentinSNFstart
+Instance: jenny-mosley-smp-medstmtGabapentinSNFstart
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is taking gabapentin for neoplastic pain, with a dosage of 1 capsule on day one, increasing to 3 capsules in the evening. Active status."
@@ -318,7 +318,7 @@ Description: "Jenny Mosley is taking gabapentin for neoplastic pain, with a dosa
 * dosage.text = "1 capsule po on day one, 2 capsules po day 2, 3 capsules po in the evening thereafter"
 
 
-Instance: SMP-MedStmt-MetoclopramideSNFstart
+Instance: jenny-mosley-smp-medstmtMetoclopramideSNFstart
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is taking metoclopromide 10mg tablets three times a day before meals for chemotherapy-induced nausea and vomiting. Do not discontinue Ondansetron."
@@ -332,7 +332,7 @@ Description: "Jenny Mosley is taking metoclopromide 10mg tablets three times a d
 * dosage.text = "Take 1 tablet 30 minutes before meal 3 times per day. Do not stop Ondansetron."
 
 
-Instance: SMP-MedStmt-MetoprololSNFstart
+Instance: jenny-mosley-smp-medstmtMetoprololSNFstart
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is taking metoprolol tartrate 50 MG Oral Tablet for systemic arterial hypertension, prescribed by Happy Nursing Facility."
@@ -346,7 +346,7 @@ Description: "Jenny Mosley is taking metoprolol tartrate 50 MG Oral Tablet for s
 * dosage.text = "po morning and night"
 
 
-Instance: SMP-MedStmt-OndansetronSNFstart
+Instance: jenny-mosley-smp-medstmtOndansetronSNFstart
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is actively taking ondansetron 8 MG Disintegrating Oral Tablet every 8 hours for chemotherapy-induced nausea and vomiting, as prescribed by Happy Nursing Facility."
@@ -359,7 +359,7 @@ Description: "Jenny Mosley is actively taking ondansetron 8 MG Disintegrating Or
 * dosage.sequence = 1
 * dosage.text = "1 oral disintigrating tablet by mouth every 8 hours"
 
-Instance: SMP-MedStmt-PalbociclibSNFstart
+Instance: jenny-mosley-smp-medstmtPalbociclibSNFstart
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is actively taking palbociclib 125 MG Oral Tablet daily for metastatic malignant neoplasm to the brain, as per Happy Nursing Facility."
@@ -384,21 +384,21 @@ Description: "Jenny Mosley's SNF Administration List includes 8 medication entri
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * date = "2024-10-02T22:30:00-08:00"
 * entry[0].date = "2024-10-02"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-AtorvastatinSNFstart) "Atorvastatin 40 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtAtorvastatinSNFstart) "Atorvastatin 40 mg"
 * entry[+].date = "2024-10-02"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-AlprazolamSNFstart) "Alprazolam 0.5 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtAlprazolamSNFstart) "Alprazolam 0.5 mg"
 * entry[+].date = "2024-10-02"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-MetoprololSNFstart) "Metoprolol 50 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtMetoprololSNFstart) "Metoprolol 50 mg"
 * entry[+].date = "2024-10-02"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-AcetaminophenSNFstart) "Acetaminophen 500 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtAcetaminophenSNFstart) "Acetaminophen 500 mg"
 * entry[+].date = "2024-10-02"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-DexamethasoneSNFstart) "Dexamethasone 4 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtDexamethasoneSNFstart) "Dexamethasone 4 mg"
 * entry[+].date = "2024-10-02"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-GabapentinSNFstart) "Gabapentin 300 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtGabapentinSNFstart) "Gabapentin 300 mg"
 * entry[+].date = "2024-10-02"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-MetoclopramideSNFstart) "Metoclopramide 10 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtMetoclopramideSNFstart) "Metoclopramide 10 mg"
 * entry[+].date = "2024-10-02"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-OndansetronSNFstart) "Ondansetron 8 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtOndansetronSNFstart) "Ondansetron 8 mg"
 * entry[+].date = "2024-10-02"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-PalbociclibSNFstart) "Palbociclib 125 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtPalbociclibSNFstart) "Palbociclib 125 mg"
 

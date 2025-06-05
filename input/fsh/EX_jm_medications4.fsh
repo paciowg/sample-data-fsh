@@ -302,7 +302,7 @@ Description: "Jenny Mosley has an active MedicationRequest for Polyethylene glyc
 * dosageInstruction.text = "17g by mouth daily as needed for constipation. Mix with any liquid."
 * dosageInstruction.timing.repeat.boundsPeriod.start = "2024-10-23"
 
-Instance: SMP-MedStmt-AcetaminophenSNFpalliative
+Instance: jenny-mosley-smp-medstmtAcetaminophenSNFpalliative
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is actively taking acetaminophen 500mg tablets every 6 hours for headaches related to an intracranial neoplasm, as per Happy Nursing Facility."
@@ -315,7 +315,7 @@ Description: "Jenny Mosley is actively taking acetaminophen 500mg tablets every 
 * dosage.sequence = 1
 * dosage.text = "2 tablets po every 6 hours"
 
-Instance: SMP-MedStmt-AlprazolamSNFpalliative
+Instance: jenny-mosley-smp-medstmtAlprazolamSNFpalliative
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is taking ALPRAZolam 0.5 MG Oral Tablet for anxiety disorder, with a dosage of up to three tablets per day as needed."
@@ -331,7 +331,7 @@ Description: "Jenny Mosley is taking ALPRAZolam 0.5 MG Oral Tablet for anxiety d
 Alias: $rxnorm = http://www.nlm.nih.gov/research/umls/rxnorm
 Alias: $sct = http://snomed.info/sct
 
-Instance: SMP-MedStmt-AtorvastatinSNFpalliative
+Instance: jenny-mosley-smp-medstmtAtorvastatinSNFpalliative
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is taking atorvastatin 40 mg tablet orally nightly for hyperlipidemia, as per Happy Nursing Facility. Status: active."
@@ -344,7 +344,7 @@ Description: "Jenny Mosley is taking atorvastatin 40 mg tablet orally nightly fo
 * dosage.sequence = 1
 * dosage.text = "po nightly"
 
-Instance: SMP-MedStmt-DexamethasoneSNFpalliative
+Instance: jenny-mosley-smp-medstmtDexamethasoneSNFpalliative
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is currently taking dexAMETHasone 4 MG Oral Tablet daily for metastatic malignant neoplasm to the brain, as per Happy Nursing Facility."
@@ -357,7 +357,7 @@ Description: "Jenny Mosley is currently taking dexAMETHasone 4 MG Oral Tablet da
 * dosage.sequence = 1
 * dosage.text = "1 tablet po qd"
 
-Instance: SMP-MedStmt-GabapentinSNFpalliative
+Instance: jenny-mosley-smp-medstmtGabapentinSNFpalliative
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is taking gabapentin for neoplastic pain, starting with 1 capsule daily and increasing to 3 capsules in the evening."
@@ -372,7 +372,7 @@ Description: "Jenny Mosley is taking gabapentin for neoplastic pain, starting wi
 * dosage.text = "1 capsule po on day one, 2 capsules po day 2, 3 capsules po in the evening thereafter"
 
 
-Instance: SMP-MedStmt-MetoclopramideSNFpalliative
+Instance: jenny-mosley-smp-medstmtMetoclopramideSNFpalliative
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is taking metoclopromide 10 MG Oral Tablet three times a day before meals for chemotherapy-induced nausea and vomiting."
@@ -386,7 +386,7 @@ Description: "Jenny Mosley is taking metoclopromide 10 MG Oral Tablet three time
 * dosage.text = "Take 1 tablet 30 minutes before meal 3 times per day. Do not stop Ondansetron."
 
 
-Instance: SMP-MedStmt-MetoprololSNFpalliative
+Instance: jenny-mosley-smp-medstmtMetoprololSNFpalliative
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is actively taking metoprolol tartrate 50mg tablets orally twice daily for systemic arterial hypertension, as per Happy Nursing Facility."
@@ -400,7 +400,7 @@ Description: "Jenny Mosley is actively taking metoprolol tartrate 50mg tablets o
 * dosage.text = "po morning and night"
 
 
-Instance: SMP-MedStmt-OndansetronSNFpalliative
+Instance: jenny-mosley-smp-medstmtOndansetronSNFpalliative
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is actively taking ondansetron 8mg tablets every 8 hours for chemotherapy-induced nausea and vomiting, as prescribed by Happy Nursing Facility."
@@ -414,7 +414,7 @@ Description: "Jenny Mosley is actively taking ondansetron 8mg tablets every 8 ho
 * dosage.text = "1 oral disintigrating tablet by mouth every 8 hours"
 
 
-Instance: SMP-MedStmt-OralMorphinepalliative
+Instance: jenny-mosley-smp-medstmtOralMorphinepalliative
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is actively receiving morphine sulfate 4 MG/ML every 4 hours for neoplastic pain at Happy Nursing Facility."
@@ -429,7 +429,7 @@ Description: "Jenny Mosley is actively receiving morphine sulfate 4 MG/ML every 
 * dosage.text = "Administer 10 MG (2.5 ML) every 4 hours for pain"
 
 
-Instance: SMP-MedStmt-PalbociclibSNFpalliative
+Instance: jenny-mosley-smp-medstmtPalbociclibSNFpalliative
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is taking palbociclib 125 MG Oral Tablet daily for metastatic malignant neoplasm to the brain, as per Happy Nursing Facility."
@@ -445,7 +445,7 @@ Description: "Jenny Mosley is taking palbociclib 125 MG Oral Tablet daily for me
 Alias: $rxnorm = http://www.nlm.nih.gov/research/umls/rxnorm
 Alias: $sct = http://snomed.info/sct
 
-Instance: SMP-MedStmt-PolyethyleneGlycolPalliative
+Instance: jenny-mosley-smp-medstmtPolyethyleneGlycolPalliative
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is actively taking Polyethylene glycol 3350 (Miralax) at Happy Nursing Facility for drug-induced constipation. She should take 1 capful daily mixed with liquid and drink water."
@@ -470,25 +470,25 @@ Description: "Jenny Mosley's SNF + Palliative Care Administration List includes 
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * date = "2024-10-23T22:40:00-08:00"
 * entry[0].date = "2024-10-23"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-AtorvastatinSNFpalliative) "Atorvastatin 40 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtAtorvastatinSNFpalliative) "Atorvastatin 40 mg"
 * entry[+].date = "2024-10-23"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-AlprazolamSNFpalliative) "Alprazolam 0.5 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtAlprazolamSNFpalliative) "Alprazolam 0.5 mg"
 * entry[+].date = "2024-10-23"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-MetoprololSNFpalliative) "Metoprolol 50 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtMetoprololSNFpalliative) "Metoprolol 50 mg"
 * entry[+].date = "2024-10-23"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-AcetaminophenSNFpalliative) "Acetaminophen 500 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtAcetaminophenSNFpalliative) "Acetaminophen 500 mg"
 * entry[+].date = "2024-10-23"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-DexamethasoneSNFpalliative) "Dexamethasone 4 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtDexamethasoneSNFpalliative) "Dexamethasone 4 mg"
 * entry[+].date = "2024-10-23"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-GabapentinSNFpalliative) "Gabapentin 300 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtGabapentinSNFpalliative) "Gabapentin 300 mg"
 * entry[+].date = "2024-10-23"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-MetoclopramideSNFpalliative) "Metoclopramide 10 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtMetoclopramideSNFpalliative) "Metoclopramide 10 mg"
 * entry[+].date = "2024-10-23"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-OndansetronSNFpalliative) "Ondansetron 8 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtOndansetronSNFpalliative) "Ondansetron 8 mg"
 * entry[+].date = "2024-10-23"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-PalbociclibSNFpalliative) "Palbociclib 125 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtPalbociclibSNFpalliative) "Palbociclib 125 mg"
 * entry[+].date = "2024-10-23"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-OralMorphinepalliative) "Oral Morphine 4 mg/ml"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtOralMorphinepalliative) "Oral Morphine 4 mg/ml"
 * entry[+].date = "2024-10-23"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-PolyethyleneGlycolPalliative) "Polyethelyene Glycol 17 grams"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtPolyethyleneGlycolPalliative) "Polyethelyene Glycol 17 grams"
 

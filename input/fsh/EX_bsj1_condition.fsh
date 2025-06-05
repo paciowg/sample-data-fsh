@@ -91,6 +91,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * bodySite = $sct#12738006 "Brain structure"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2005-02"
+* asserter = Reference(PractitionerRole/Role-Psych-GineseComeau)
 
 Instance: betsysmith-johnson01-Condition-Diabetes-01
 InstanceOf: Condition
@@ -162,9 +163,9 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * bodySite = $sct#368209003 "Right upper arm"
 * bodySite.text = "Entire Right Arm"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
-* extension.valueDateTime = "2024-08-21T16:25:00-04:00"
-* onsetDateTime = "2024-08-21T15:40:00-04:00"
-* recordedDate = "2024-08-21T16:40:00-04:00"
+* extension.valueDateTime = "2025-05-03T14:40:00-04:00"
+* onsetDateTime = "2025-05-03T11:30:00-04:00"
+* recordedDate = "2025-05-03T14:40:00-04:00"
 * asserter = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
 * note.text = "Patient began experiencing right sided weakness, primarily in arm and shoulder. There was no facial droop, but patient reports \"tingling\" in R face / numbness along R brow. Symptoms in face resolved post tPA administration. Strength improved in shoulder, weakness did not fully resolve. Demonstrates R arm weakness and lack of coordination. Fine motor skills significantly degraded and have not improved post tPA."
 
@@ -293,10 +294,10 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * bodySite[0] = $sct#414722000 "Structure of middle cerebral artery M1 segment"
 * bodySite[+] = $sct#7771000 "Left"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
-* extension.valueDateTime = "2024-08-21T15:40:00-04:00"
-* onsetDateTime = "2024-08-21T15:40:00-04:00"
-* recordedDate = "2024-08-21T15:40:00-04:00"
-* asserter = Reference(PractitionerRole/Role-Neuro-NuraMekel)
+* extension.valueDateTime = "2025-05-03T15:30:00-04:00"
+* onsetDateTime = "2025-05-03T11:30:00-04:00"
+* recordedDate = "2025-05-03T15:30:00-04:00"
+* asserter = Reference(PractitionerRole/PractitionerRole-Neuro-DavidAlbahari)
 * note.text = "Partial occlusion of MCA. Stroke event witnessed. EMS response / patient arrived within 45 minutes of symptom onset. Verified by CT with contrast. tPA administered within 2 hours of symptom onset."
 
 Instance: betsysmith-johnson01-Condition-UndressingConcern-01
@@ -397,5 +398,22 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a health c
 * code.coding.version = "http://snomed.info/sct"
 * code.coding = $sct#40739000 "Dysphagia (disorder)"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* recordedDate = "2024-09-20"
+* recordedDate = "2025-05-03T14:42:00-04:00"
 * asserter = Reference(PractitionerRole-Physician-PriyaSarkar)
+
+Instance: betsysmith-johnson01-condition-IschemicStrokeDiagnosis-01
+InstanceOf: Condition
+Usage: #example
+Description: "Betsy Smith-Johnson's condition FHIR resource indicates an ischemic stroke diagnosis."
+* clinicalStatus = $condition-clinical#active "Active"
+* clinicalStatus.text = "Active"
+* verificationStatus = $condition-ver-status#confirmed "Confirmed"
+* verificationStatus.text = "Confirmed"
+* category = $condition-category#encounter-diagnosis "Encounter Diagnosis"
+* category.text = "Stroke Diagnosis"
+* code.coding.version = "http://snomed.info/sct"
+* code.coding = $SCT_US#422504002 "Ischemic stroke (disorder)"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
+* recordedDate = "2025-05-03"
+* asserter = Reference(PractitionerRole-Neuro-DavidAlbahari)
+

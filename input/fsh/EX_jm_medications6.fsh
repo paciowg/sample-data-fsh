@@ -117,7 +117,7 @@ Description: "Jenny Mosley has an active MedicationRequest for morphine sulfate 
 * dispenseRequest.expectedSupplyDuration = 6.5 'd' "days"
 
 
-Instance: SMP-MedStmt-Lorazepam
+Instance: jenny-mosley-smp-medstmtLorazepam
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is actively taking Lorazepam 2mg/ml, 1mg (0.5ml) every 8 hours orally, as prescribed by Suquamish Hospice."
@@ -132,7 +132,7 @@ Description: "Jenny Mosley is actively taking Lorazepam 2mg/ml, 1mg (0.5ml) ever
 * dosage.text = "1 MG (0.5 ML) every 8 hours by mouth"
 
 
-Instance: SMP-MedStmt-MorphinePCA
+Instance: jenny-mosley-smp-medstmtMorphinePCA
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is receiving morphine sulfate 10 MG/ML Injectable Solution for pain management via SubCue patch, with a rescue dose available if needed. Suquamish Hospice is the information source."
@@ -147,7 +147,7 @@ Description: "Jenny Mosley is receiving morphine sulfate 10 MG/ML Injectable Sol
 * dosage.text = "Patient may receive up to 1.5 mg / 2 hour period via SubCue patch. If patient complains of pain, rescue dose may be administered. If this is inadquate, notify on call practitioner."
 
 
-Instance: SMP-MedStmt-OndansetronHospice
+Instance: jenny-mosley-smp-medstmtOndansetronHospice
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is actively taking ondansetron 8mg disintegrating tablets every 8 hours for nausea, as prescribed by Suquamish Hospice."
@@ -164,7 +164,7 @@ Description: "Jenny Mosley is actively taking ondansetron 8mg disintegrating tab
 Alias: $rxnorm = http://www.nlm.nih.gov/research/umls/rxnorm
 Alias: $sct = http://snomed.info/sct
 
-Instance: SMP-MedStmt-OralMorphineRescue
+Instance: jenny-mosley-smp-medstmtOralMorphineRescue
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is prescribed morphine sulfate 4 MG/ML for breakthrough pain. Administer 10 MG for each episode, contact Hospice staff for frequent episodes."
@@ -190,11 +190,11 @@ Description: "Jenny Mosley's Hospice Administration List includes medications li
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * date = "2024-12-28T19:40:00-08:00"
 * entry[0].date = "2024-12-28"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-Lorazepam) "LORazepam 1 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtLorazepam) "LORazepam 1 mg"
 * entry[+].date = "2024-12-28"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-MorphinePCA) "Morphine Sulfate 1.5 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtMorphinePCA) "Morphine Sulfate 1.5 mg"
 * entry[+].date = "2024-12-28"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-OndansetronHospice) "Ondansetron 8 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtOndansetronHospice) "Ondansetron 8 mg"
 * entry[+].date = "2024-12-28"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-OralMorphineRescue) "Oral Morphine 10 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtOralMorphineRescue) "Oral Morphine 10 mg"
 
