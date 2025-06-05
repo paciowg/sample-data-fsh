@@ -1,13 +1,13 @@
 Instance: betsysmith-johnson01-diagnosticReport-CTScan-01
 InstanceOf: DiagnosticReport
 Usage: #example
-Description: "Betsy Smith-Johnson's Radiology Report - CT Scan"
-* status = #current
+Description: "Betsy Smith-Johnson's Radiology Report - CT Scan #1"
+* status = #final
 * category = $loinc#LP29684-5 "Radiology"
-* code = $loinc#68604-8 "Radiology Diagnostic Report"
+* code = $loinc#68604-8 "Radiology Diagnostic study note"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * issued = "2025-05-03T15:15:00.000+00:00"
-* performer = Reference(Organization/org-ED-Metro-Hospital) "Metro Hospital Emergency Department"
+* performer = Reference(PractitionerRole/PractitionerRole-Radiologist-PaulZawawi) "Paul Zawawi, MD"
 * presentedForm.contentType = #text/plain
 * presentedForm.title = "CT Scan Radiology Report for Betsy Smith-Johnson"
 * presentedForm.creation = "2025-05-03T15:15:00.000+00:00"

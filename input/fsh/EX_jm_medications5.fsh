@@ -281,7 +281,7 @@ Description: "Jenny Mosley has an active MedicationRequest for Polyethylene glyc
 * dosageInstruction.sequence = 1
 * dosageInstruction.text = "17g by mouth daily as needed for constipation. Mix with any liquid."
 
-Instance: SMP-MedStmt-AcetaminophenSNFdischarge
+Instance: jenny-mosley-smp-medstmtAcetaminophenSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is actively taking acetaminophen 500 MG Oral Tablet every 6 hours for headaches related to an intracranial neoplasm, as per Happy Nursing Facility."
@@ -294,7 +294,7 @@ Description: "Jenny Mosley is actively taking acetaminophen 500 MG Oral Tablet e
 * dosage.sequence = 1
 * dosage.text = "2 tablets po every 6 hours"
 
-Instance: SMP-MedStmt-AlprazolamSNFdischarge
+Instance: jenny-mosley-smp-medstmtAlprazolamSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is taking ALPRAZolam 0.5 MG Oral Tablet for anxiety disorder, as prescribed by Happy Nursing Facility. Take up to three tablets daily as needed."
@@ -307,7 +307,7 @@ Description: "Jenny Mosley is taking ALPRAZolam 0.5 MG Oral Tablet for anxiety d
 * dosage.sequence = 1
 * dosage.text = "Take up to three per day, by mouth, as needed."
 
-Instance: SMP-MedStmt-AtorvastatinSNFdischarge
+Instance: jenny-mosley-smp-medstmtAtorvastatinSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is taking atorvastatin 40mg tablet orally nightly for hyperlipidemia, as per Happy Nursing Facility."
@@ -320,7 +320,7 @@ Description: "Jenny Mosley is taking atorvastatin 40mg tablet orally nightly for
 * dosage.sequence = 1
 * dosage.text = "po nightly"
 
-Instance: SMP-MedStmt-DexamethasoneSNFdischarge
+Instance: jenny-mosley-smp-medstmtDexamethasoneSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is taking dexAMETHasone 4 MG Oral Tablet daily for brain metastases, as prescribed by Happy Nursing Facility."
@@ -334,7 +334,7 @@ Description: "Jenny Mosley is taking dexAMETHasone 4 MG Oral Tablet daily for br
 * dosage.text = "1 tablet po qd"
 
 
-Instance: SMP-MedStmt-GabapentinSNFdischarge
+Instance: jenny-mosley-smp-medstmtGabapentinSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is taking gabapentin for neoplastic pain, with a dosage starting at 1 capsule and increasing to 3 capsules daily."
@@ -348,7 +348,7 @@ Description: "Jenny Mosley is taking gabapentin for neoplastic pain, with a dosa
 * dosage.sequence = 1
 * dosage.text = "1 capsule po on day one, 2 capsules po day 2, 3 capsules po in the evening thereafter"
 
-Instance: SMP-MedStmt-MetoclopramideSNFdischarge
+Instance: jenny-mosley-smp-medstmtMetoclopramideSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is taking metoclopramide 10mg tablets three times a day before meals for nausea. Do not discontinue Ondansetron."
@@ -362,7 +362,7 @@ Description: "Jenny Mosley is taking metoclopramide 10mg tablets three times a d
 * dosage.sequence = 1
 * dosage.text = "Take 1 tablet 30 minutes before meal 3 times per day. Do not stop Ondansetron."
 
-Instance: SMP-MedStmt-MetoprololSNFdischarge
+Instance: jenny-mosley-smp-medstmtMetoprololSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is actively taking metoprolol tartrate 50 MG Oral Tablet for systemic arterial hypertension, as prescribed by Happy Nursing Facility."
@@ -376,7 +376,7 @@ Description: "Jenny Mosley is actively taking metoprolol tartrate 50 MG Oral Tab
 * dosage.text = "po morning and night"
 
 
-Instance: SMP-MedStmt-OndansetronSNFdischarge
+Instance: jenny-mosley-smp-medstmtOndansetronSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is actively taking ondansetron 8mg orally every 8 hours for chemotherapy-induced nausea and vomiting, as prescribed by Happy Nursing Facility."
@@ -389,7 +389,7 @@ Description: "Jenny Mosley is actively taking ondansetron 8mg orally every 8 hou
 * dosage.sequence = 1
 * dosage.text = "1 oral disintigrating tablet by mouth every 8 hours"
 
-Instance: SMP-MedStmt-OralMorphineSNFdischarge
+Instance: jenny-mosley-smp-medstmtOralMorphineSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Patient: Jenny Mosley
@@ -406,7 +406,7 @@ Morphine sulfate 4 MG/ML administered every 4 hours for neoplastic pain at Happy
 * dosage.text = "Administer 10 MG (2.5 ML) every 4 hours for pain"
 
 
-Instance: SMP-MedStmt-PolyethyleneGlycolSNFdischarge
+Instance: jenny-mosley-smp-medstmtPolyethyleneGlycolSNFdischarge
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is actively taking Polyethylene glycol 3350 (Miralax) at Happy Nursing Facility for drug-induced constipation. She should take 1 capful daily mixed with liquid and drink plenty of water."
@@ -431,22 +431,22 @@ Description: "Jenny Mosley's SNF Discharge List includes 9 medications such as A
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * date = "2024-12-28T15:30:00-08:00"
 * entry[0].date = "2024-12-28"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-AtorvastatinSNFdischarge) "Atorvastatin 40 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtAtorvastatinSNFdischarge) "Atorvastatin 40 mg"
 * entry[+].date = "2024-12-28"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-AlprazolamSNFdischarge) "Alprazolam 0.5 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtAlprazolamSNFdischarge) "Alprazolam 0.5 mg"
 * entry[+].date = "2024-12-28"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-MetoprololSNFdischarge) "Metoprolol 50 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtMetoprololSNFdischarge) "Metoprolol 50 mg"
 * entry[+].date = "2024-12-28"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-AcetaminophenSNFdischarge) "Acetaminophen 500 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtAcetaminophenSNFdischarge) "Acetaminophen 500 mg"
 * entry[+].date = "2024-12-28"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-DexamethasoneSNFdischarge) "Dexamethasone 4 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtDexamethasoneSNFdischarge) "Dexamethasone 4 mg"
 * entry[+].date = "2024-12-28"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-GabapentinSNFdischarge) "Gabapentin 300 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtGabapentinSNFdischarge) "Gabapentin 300 mg"
 * entry[+].date = "2024-12-28"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-MetoclopramideSNFdischarge) "Metoclopramide 10 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtMetoclopramideSNFdischarge) "Metoclopramide 10 mg"
 * entry[+].date = "2024-12-28"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-OndansetronSNFdischarge) "Ondansetron 8 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtOndansetronSNFdischarge) "Ondansetron 8 mg"
 * entry[+].date = "2024-12-28"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-OralMorphineSNFdischarge) "Oral Morphine 4 mg/ml"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtOralMorphineSNFdischarge) "Oral Morphine 4 mg/ml"
 * entry[+].date = "2024-12-28"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-PolyethyleneGlycolSNFdischarge) "Polyethelyene Glycol 17 grams"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtPolyethyleneGlycolSNFdischarge) "Polyethelyene Glycol 17 grams"

@@ -10,7 +10,7 @@
 * [Michigan Primary Health Care Associates](Organization-org-PC-Primary-Care-Michigan.html)
 
 #### SNF01: Detroit Post-acute Care Providers
-* [Motor City Nursing Facility](Organization-org-Motor-City-Nursing-Facility.html)
+* [Motor City Nursing Facility](Location-org-Loc-Motor-City-Nursing-Facility.html)
 * [Motown Home Health](Organization-org-Motown-Home-Health.html)
 
 ### Practitioners

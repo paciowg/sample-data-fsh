@@ -32,7 +32,7 @@ After 3 weeks in the SNF, Betsy is discharged from the SNF to her home on April 
 * [Condition: hypertension](Condition-betsysmith-johnson01-Condition-Hypertension-01.html)
 * [Condition: hyperlipidemia](Condition-betsysmith-johnson01-Condition-Hyperlipidemia-01.html)
 * [Condition: hypertension](Condition-betsysmith-johnson01-Condition-Hypertension-01.html)
-* [List: Home Medication List](List-smp-med-list-1.html)
+* [List: Home Medication List](List-betsysmith-johnson01-smp-med-list-1.html)
 * [Organization: Metro Hospital Emergency Department (ED)](Organization-org-ED-Metro-Hospital.html)
 * [DocumentReference: ED Discharge Summary 01](DocumentReference-BSJ1-documentReference-ED-dischargeSummary-01.html)
 * [DocumentReference: SNF Discharge Summary 01](DocumentReference-BSJ1-documentReference-SNF-dischargeSummary-01.html)
@@ -57,8 +57,9 @@ Data is prepared and final reports are created by the ED for Betsy. This include
 #### Scene 1 Sample Data Summary
 * [Patient: Betsy Smith-Johnson](Patient-patient-betsysmith-johnson01.html)
 * [Organization: Metro Hospital Emergency Department (ED)](Organization-org-ED-Metro-Hospital.html)
-* [DocumentReference: Radiology Report - CT Scan #1 - at ED admission](DocumentReference-betsysmith-johnson01-diagnosticReport-CTScan-01.html)
-* [DocumentReference: Radiology Report - CT Scan #2 - at Discharge](DocumentReference-betsysmith-johnson01-diagnosticReport-CTScan-02.html)
+* [DiagnosticReport: Radiology Report - CT Scan #1 - at ED admission](DiagnosticReport-betsysmith-johnson01-diagnosticReport-CTScan-01.html)
+* [DiagnosticReport: Radiology Report - CT Scan #2 - at Discharge](DiagnosticReport-betsysmith-johnson01-diagnosticReport-CTScan-02.html)
+* [Transition of Care - Hospital to SNF](Composition-betsysmith-johnson01-TOC-Hosp-to-SNF-01.html)
 
 ### Scene 2: Betsy is discharged to SNF
 
@@ -80,8 +81,8 @@ Betsy is discharged from the SNF at 1pm on July 2, 2025. Charles supports her tr
 Data is prepared and final reports are created by the SNF for Betsy. This includes the CCDA on FHIR discharge summary, discharge medication list, her ADI documents, and the multiple assessments performed.
 
 #### Scene 2 Sample Data Summary
-* [Betsy Smith-Johnson](Patient-patient-betsysmith-johnson01.html)
-* [Motor City Nursing Facility](Organization-org-Motor-City-Nursing-Facility.html)
+* [Patient: Betsy Smith-Johnson](Patient-patient-betsysmith-johnson01.html)
+* [Location: Motor City Nursing Facility](Location-org-Loc-Motor-City-Nursing-Facility.html)
 
 
 ### Scene 3: Betsy is discharged to Home Health (HH)
@@ -100,7 +101,7 @@ Betsy arrives home at 1:30pm on July 2, 2025, and the HH team members arrive at 
 
 #### Scene 3 Sample Data Summary
 * [Betsy Smith-Johnson](Patient-patient-betsysmith-johnson01.html)
-
+* [Transition of Care - SNF to HHA](Composition-betsysmith-johnson01-TOC-SNF-to-HHA-01.html)
 
 
 ### Scene 4: Charles’ burden assessment during Betsy’s PCP appointment

@@ -182,7 +182,7 @@ Description: "Jenny Mosley has an active order for palbociclib 125mg oral tablet
 * dosageInstruction.route.coding = $sct#26643006 "Oral route (qualifier value)"
 
 
-Instance: SMP-MedStmt-anastrozole-primary
+Instance: jenny-mosley-smp-medstmtanastrozole-primary
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is currently taking anastrozole, 1 tablet orally daily, as prescribed by Puget Sound Cancer Center."
@@ -196,7 +196,7 @@ Description: "Jenny Mosley is currently taking anastrozole, 1 tablet orally dail
 * dosage.text = "1 tablet po qd"
 
 
-Instance: SMP-MedStmt-cyclophosphamide-primary
+Instance: jenny-mosley-smp-medstmtcyclophosphamide-primary
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is actively receiving cyclophosphamide via IV infusion 3 times per week for cancer treatment at Puget Sound Cancer Center."
@@ -210,7 +210,7 @@ Description: "Jenny Mosley is actively receiving cyclophosphamide via IV infusio
 * dosage.text = "IV infusion 3 times per week"
 
 
-Instance: SMP-MedStmt-doxorubicin-primary
+Instance: jenny-mosley-smp-medstmtdoxorubicin-primary
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is actively receiving DOXOrubicin via IV infusion 3 times per week for cancer treatment at Puget Sound Cancer Center."
@@ -224,7 +224,7 @@ Description: "Jenny Mosley is actively receiving DOXOrubicin via IV infusion 3 t
 * dosage.text = "IV infusion 3 times per week"
 
 
-Instance: SMP-MedStmt-paclitaxel-primary
+Instance: jenny-mosley-smp-medstmtpaclitaxel-primary
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is receiving PACLitaxel via IV infusion 3 times per week for cancer treatment at Puget Sound Cancer Center."
@@ -250,13 +250,13 @@ Description: "Jenny Mosley's discontinued medication list from Episode Pharmacy 
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * date = "2018-10-31T21:00:00-08:00"
 * entry[0].date = "2018-10-31"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-anastrozole-primary) "Anastrazole 1 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtanastrozole-primary) "Anastrazole 1 mg"
 * entry[+].date = "2018-10-31"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-cyclophosphamide-primary) "Cyclophosphamide 600 mg/m2"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtcyclophosphamide-primary) "Cyclophosphamide 600 mg/m2"
 * entry[+].date = "2018-10-31"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-doxorubicin-primary) "Doxorubicin 60 mg/m2"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtdoxorubicin-primary) "Doxorubicin 60 mg/m2"
 * entry[+].date = "2018-10-31"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-paclitaxel-primary) "Paclitaxel 175 mg/m2"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtpaclitaxel-primary) "Paclitaxel 175 mg/m2"
 
 
 // ********* Transaction 0 Home Meds ***************
@@ -345,7 +345,7 @@ Description: "Jenny Mosley has an active MedicationRequest for metoprolol tartra
 * dispenseRequest.expectedSupplyDuration = 1 'm' "month"
 
 
-Instance: SMP-MedStmt-AlprazolamHome
+Instance: jenny-mosley-smp-medstmtAlprazolamHome
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is taking ALPRAZolam 0.5 MG Oral Tablet for anxiety disorder, prescribed by Washington Primary Health Care Associates. Take up to three tablets daily as needed."
@@ -359,7 +359,7 @@ Description: "Jenny Mosley is taking ALPRAZolam 0.5 MG Oral Tablet for anxiety d
 * dosage.text = "Take up to three per day, by mouth, as needed."
 
 
-Instance: SMP-MedStmt-AtorvastatinHome
+Instance: jenny-mosley-smp-medstmtAtorvastatinHome
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is taking atorvastatin 40mg tablet orally nightly for hyperlipidemia, as per Washington Primary Health Care Associates."
@@ -373,7 +373,7 @@ Description: "Jenny Mosley is taking atorvastatin 40mg tablet orally nightly for
 * dosage.text = "po nightly"
 
 
-Instance: SMP-MedStmt-MetoprololHome
+Instance: jenny-mosley-smp-medstmtMetoprololHome
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "Jenny Mosley is actively taking metoprolol tartrate 50 MG Oral Tablet for systemic arterial hypertension, prescribed by Washington Primary Health Care Associates."
@@ -399,9 +399,9 @@ Description: "Jenny Mosley's current working Home Medication List includes Atorv
 * subject = Reference(Patient/patientJM1) "Jenny Mosley"
 * date = "2024-09-21T16:00:00-08:00"
 * entry[0].date = "2024-09-21"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-AtorvastatinHome) "Atorvastatin 40 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtAtorvastatinHome) "Atorvastatin 40 mg"
 * entry[+].date = "2024-09-21"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-AlprazolamHome) "Alprazolam 0.5 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtAlprazolamHome) "Alprazolam 0.5 mg"
 * entry[+].date = "2024-09-21"
-* entry[=].item = Reference(MedicationStatement/SMP-MedStmt-MetoprololHome) "Metoprolol 50 mg"
+* entry[=].item = Reference(MedicationStatement/jenny-mosley-smp-medstmtMetoprololHome) "Metoprolol 50 mg"
 
