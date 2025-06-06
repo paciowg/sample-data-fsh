@@ -59,6 +59,7 @@ Data is prepared and final reports are created by the ED for Betsy. This include
 * [Organization: Metro Hospital Emergency Department (ED)](Organization-org-ED-Metro-Hospital.html)
 * [DiagnosticReport: Radiology Report - CT Scan #1 - at ED admission](DiagnosticReport-betsysmith-johnson01-diagnosticReport-CTScan-01.html)
 * [DiagnosticReport: Radiology Report - CT Scan #2 - at Discharge](DiagnosticReport-betsysmith-johnson01-diagnosticReport-CTScan-02.html)
+* [DiagnosticReport: Radiology Report - MRI/MRA #1](DiagnosticReport-betsysmith-johnson01-diagnosticReport-MRI-01.html)
 * [Transition of Care - Hospital to SNF](Composition-betsysmith-johnson01-TOC-Hosp-to-SNF-01.html)
 
 ### Scene 2: Betsy is discharged to SNF
