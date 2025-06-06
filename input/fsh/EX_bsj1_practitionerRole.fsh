@@ -156,7 +156,7 @@ InstanceOf: PractitionerRole
 Usage: #example
 Description: "Hema Onko's role as the geriatrics/internal medicine MD at the Motor City Skilled Nursing Facility"
 * active = true
-* code = $taxonomy#207R00000X "Internal Medicine"
+* code = $taxonomy#207R00000X "Internal Medicine Physician"
 * practitioner = Reference(Practitioner/Practitioner-HemaOnko) "Hema Onko"
 * organization = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Motor City Skilled Nursing Facility"
 * location = Reference(Location/org-Loc-Motor-City-Nursing-Facility)
