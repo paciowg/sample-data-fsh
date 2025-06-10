@@ -45,7 +45,7 @@ Description: "Betsy Smith-Johnson's service request for occupational therapy ass
 * occurrencePeriod.start = "2024-09-20"
 * authoredOn = "2024-09-20"
 * requester = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
-* reasonReference = Reference(Condition/betsysmith-johnson01-Condition-Hemiparesis-01-01)
+* reasonReference = Reference(Condition/betsysmith-johnson01-Condition-Hemiparesis-01)
 
 Instance: betsysmith-johnson01-SNFDischargeCallOrder
 InstanceOf: ServiceRequest
@@ -126,4 +126,4 @@ Description: "Betsy Smith-Johnson's service request for physical therapy assessm
 * occurrencePeriod.start = "2024-09-20"
 * authoredOn = "2024-09-20"
 * requester = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
-* reasonReference = Reference(Condition/betsysmith-johnson01-Condition-Hemiparesis-01-01)
+* reasonReference = Reference(Condition/betsysmith-johnson01-Condition-Hemiparesis-01)

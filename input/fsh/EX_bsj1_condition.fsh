@@ -90,7 +90,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * category[+] = $icf#b152 "Emotional functions"
 * bodySite = $sct#12738006 "Brain structure"
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
-* extension.valueDateTime = "2005-02"
+* extension.valueDateTime = "2005-02-12"
 * asserter = Reference(PractitionerRole/Role-Psych-GineseComeau)
 
 Instance: betsysmith-johnson01-Condition-Diabetes-01
@@ -147,7 +147,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * recordedDate = "2019-06-08T14:15:00-04:00"
 * asserter = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 
-Instance: betsysmith-johnson01-Condition-Hemiparesis-01-01
+Instance: betsysmith-johnson01-Condition-Hemiparesis-01
 InstanceOf: Condition
 Usage: #example
 Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosis of right hemiparesis (disorder) affecting entire right arm."
@@ -359,7 +359,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2025-05-03T14:40:00-04:00"
 * recordedDate = "2025-05-03T14:40:00-04:00"
-* evidence.detail = Reference(Condition/betsysmith-johnson01-Condition-Hemiparesis-01-01)
+* evidence.detail = Reference(Condition/betsysmith-johnson01-Condition-Hemiparesis-01)
 * asserter = Reference(PractitionerRole/PractitionerRole-PT-DeyonteDarden)
 * note.text = "The weakness and lack of coordination in the patient's right shoulder, arm, and hand are secondary to the stroke. PT/OT from SNF report improvements to rotator cuff strength over last month."
 
@@ -382,7 +382,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a health c
 * recordedDate = "2024-09-20"
 * asserter = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
 
-Instance: betsysmith-johnson01-condition-Dysphagia-01
+Instance: betsysmith-johnson01-Condition-Dysphagia-01
 InstanceOf: Condition
 Usage: #example
 Description: "Betsy Smith-Johnson's condition FHIR resource indicates a health concern dysphagia."
