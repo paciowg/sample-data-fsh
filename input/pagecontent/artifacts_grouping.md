@@ -25,7 +25,7 @@
 * [Diabetes](Condition-betsysmith-johnson01-Condition-Diabetes-01.html)
 * [Dressing Concern](Condition-betsysmith-johnson01-Condition-DressingConcern-01.html)
 * [Heart Disease](Condition-betsysmith-johnson01-Condition-HeartDisease-01.html)
-* [Hemiparesis](Condition-betsysmith-johnson01-Condition-Hemiparesis-01-01.html)
+* [Hemiparesis](Condition-betsysmith-johnson01-Condition-Hemiparesis-01.html)
 * [Hyperlipidemia](Condition-betsysmith-johnson01-Condition-Hyperlipidemia-01.html)
 * [Hypertension](Condition-betsysmith-johnson01-Condition-Hypertension-01.html)
 * [Kidney Disease](Condition-betsysmith-johnson01-Condition-KidneyDisease-01.html)

@@ -53,3 +53,6 @@ input-cache/txcache/umls.cache
 target/*
 .mvn/wrapper/maven-wrapper.jar
 *.jar
+_genonce_back.sh
+_genonce.bat
+_genonce.sh

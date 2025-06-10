@@ -61,7 +61,7 @@ Data is prepared and final reports are created by the ED for Betsy. This include
 * [Condition: Diabetes](Condition-betsysmith-johnson01-Condition-Diabetes-01.html)
 * [Condition: Dressing Concern](Condition-betsysmith-johnson01-Condition-DressingConcern-01.html)
 * [Condition: Heart Disease](Condition-betsysmith-johnson01-Condition-HeartDisease-01.html)
-* [Condition: Hemiparesis](Condition-betsysmith-johnson01-Condition-Hemiparesis-01-01.html)
+* [Condition: Hemiparesis](Condition-betsysmith-johnson01-Condition-Hemiparesis-01.html)
 * [Condition: Hyperlipidemia](Condition-betsysmith-johnson01-Condition-Hyperlipidemia-01.html)
 * [Condition: Hypertension](Condition-betsysmith-johnson01-Condition-Hypertension-01.html)
 * [Condition: Kidney Disease](Condition-betsysmith-johnson01-Condition-KidneyDisease-01.html)
