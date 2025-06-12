@@ -39,9 +39,9 @@ Description: "Betsy Smith-Johnson's TOC Document from Hospital to SNF as a Disch
 * section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-Osteoarthritis-01)
 * section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-Depression-01)
 * section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-Diabetes-01)
-* section[=].entry[+] = Reference(Condition/betsysmith-johnson01-condition-Dysphagia-01)
+* section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-Dysphagia-01)
 * section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-HeartDisease-01)
-* section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-Hemiparesis-01-01)
+* section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-Hemiparesis-01)
 * section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-Hyperlipidemia-01)
 * section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-Hypertension-01)
 * section[=].entry[+] = Reference(Condition/betsysmith-johnson01-condition-IschemicStrokeDiagnosis-01)
@@ -53,11 +53,14 @@ Description: "Betsy Smith-Johnson's TOC Document from Hospital to SNF as a Disch
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of test results for Betsy Smith Johnson</div>"
 * section[+].entry[0] = Reference(DiagnosticReport/betsysmith-johnson01-diagnosticReport-CTScan-01)
 * section[=].entry[+] = Reference(DiagnosticReport/betsysmith-johnson01-diagnosticReport-CTScan-02)
+* section[=].entry[+] = Reference(DiagnosticReport/betsysmith-johnson01-diagnosticReport-MRI-01)
+* section[=].entry[+] = Reference(QuestionnaireResponse/betsysmith-johnson01-qr-strokescale-01)
 * section[+].title = "Betsy Smith Johnson Discharge Summary and Additional Instructions"
 * section[=].code = $loinc#18842-5 "Discharge summary"
 * section[=].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of test results for Betsy Smith Johnson</div>"
-* section[+].entry[0] = Reference(DocumentReference/BSJ1-documentReference-ED-dischargeSummary-01)
+* section[+].entry[0] = Reference(Composition/BSJ1-composition-CCDA-dischargeSummary-01) // CCDA Discharge Summary
+* section[=].entry[+] = Reference(DocumentReference/BSJ1-documentReference-ED-dischargeSummary-01)
 
 Instance: betsysmith-johnson01-TOC-SNF-to-HHA-01
 InstanceOf: Composition
@@ -74,7 +77,6 @@ Description: "Betsy Smith-Johnson's TOC Document from SNF to Home Health. Includ
 * date = "2025-07-02T13:00:58.000-04:00"
 * author = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
 * title = "Transitions of Care Document for Betsy Smith Johnson"
-* custodian = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
 * custodian = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
 * section[0].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Information sections for the transitions of care for Betsy Smith Johnson from the hospital to the skilled nursing facility</div>"
@@ -99,7 +101,7 @@ Description: "Betsy Smith-Johnson's TOC Document from SNF to Home Health. Includ
 * section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-Diabetes-01)
 * section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-DressingConcern-01)
 * section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-HeartDisease-01)
-* section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-Hemiparesis-01-01)
+* section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-Hemiparesis-01)
 * section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-Hyperlipidemia-01)
 * section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-Hypertension-01)
 * section[=].entry[+] = Reference(Condition/betsysmith-johnson01-condition-IschemicStrokeDiagnosis-01)
@@ -109,5 +111,5 @@ Description: "Betsy Smith-Johnson's TOC Document from SNF to Home Health. Includ
 * section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-UndressingConcern-01)
 * section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-OTProblemListDecondition-01)
 * section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-OTProblemListRightWeak-01)
-* section[=].entry[+] = Reference(Condition/betsysmith-johnson01-condition-Dysphagia-01)
+* section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-Dysphagia-01)
 * section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-ComplexRegime-01)

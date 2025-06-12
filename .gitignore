@@ -4,7 +4,6 @@ fsh-generated
 temp
 template
 output
-zz_archive
 
 # Ignore large files and frequently changed files in input-cache #
 ##################################################################
@@ -53,3 +52,6 @@ input-cache/txcache/umls.cache
 target/*
 .mvn/wrapper/maven-wrapper.jar
 *.jar
+_genonce_back.sh
+_genonce.bat
+_genonce.sh
