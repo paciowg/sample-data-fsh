@@ -29,7 +29,7 @@ Description: "Ginese Comeau's role at Michigan Primary Health Care Associates."
 * practitioner = Reference(Practitioner/Practitioner-GineseComeau) "Ginese Comeau"
 * organization = Reference(Organization/org-PC-Primary-Care-Michigan) "Michigan Primary Health Care Associates"
 * location = Reference(Location/org-Loc-Michigan-Primary-Health-Care-A)
-* specialty = $taxonomy#2084P0800X "Psychiatry Physician"
+// * specialty = $taxonomy#2084P0800X "Psychiatry Physician"
 
 Instance: Role-Neuro-NuraMekel
 InstanceOf: PractitionerRole
@@ -180,7 +180,7 @@ Description: "Margaret A. Reynolds' role at the Motor City Skilled Nursing Facil
 * practitioner = Reference(Practitioner/Practitioner-MargaretReynolds) "Margaret A. Reynolds"
 * organization = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Motor City Skilled Nursing Facility"
 * location = Reference(Location/org-Loc-Motor-City-Nursing-Facility)
-* specialty = $taxonomy#104100000X "Social Worker"
+// * specialty = $taxonomy#104100000X "Social Worker"
 
 Instance: PractitionerRole-Pharm-SashaAhmed
 InstanceOf: PractitionerRole
