@@ -19,3 +19,9 @@ Alias:   USCoreBirthSex = http://hl7.org/fhir/us/core/StructureDefinition/us-cor
 Alias:   USCoreRace = http://hl7.org/fhir/us/core/StructureDefinition/us-core-race
 Alias:   USCoreEthnicity = http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity
 
+Alias: $uscore-condition-category = http://hl7.org/fhir/us/core/CodeSystem/condition-category
+Alias: $condition-category = http://terminology.hl7.org/CodeSystem/condition-category
+Alias: $medicationrequest-category = http://terminology.hl7.org/CodeSystem/medicationrequest-category
+
+
+

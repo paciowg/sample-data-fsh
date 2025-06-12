@@ -5,7 +5,7 @@ InstanceOf: QuestionnaireResponse
 Usage: #example
 //* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse"
 //* meta.tag.code = #"lformsVersion: 36.19.0"
-* questionnaire.id = "NIH Stroke Scale"
+* questionnaire = "http://loinc.org/vs/nihss"
 * status = #completed
 * authored = "2025-05-04T03:22:04.783Z"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
