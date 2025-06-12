@@ -4,6 +4,7 @@ Alias: $loinc = http://loinc.org
 
 Instance: BSJ1-composition-CCDA-dischargeSummary-01
 InstanceOf: Composition
+Description: "Betsy Smith-Johnson's CCDA on FHIR Discharge Summary. Includes a list of allergies, chief complaint, reason for visit, admission diagnosis, past medical history, and more."
 Usage: #example
 * meta.profile = "http://hl7.org/fhir/us/ccda/StructureDefinition/Discharge-Summary|2.0.0-ballot"
 * language = #en-US

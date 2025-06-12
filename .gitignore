@@ -4,7 +4,6 @@ fsh-generated
 temp
 template
 output
-zz_archive
 
 # Ignore large files and frequently changed files in input-cache #
 ##################################################################
