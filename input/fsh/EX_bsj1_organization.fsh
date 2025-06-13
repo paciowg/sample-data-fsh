@@ -65,7 +65,7 @@ Description: "Motor City Skilled Nursing Facility organization."
 * active = true
 * name = "Motor City Skilled Nursing Facility"
 * telecom.system = #phone
-* telecom.value = "(555) 245-7948"
+* telecom.value = "(313) 640-1000"
 * address.line = "18051 Mack Ave"
 * address.city = "Detroit"
 * address.state = "MI"
