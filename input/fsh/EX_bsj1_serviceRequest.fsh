@@ -127,3 +127,24 @@ Description: "Betsy Smith-Johnson's service request for physical therapy assessm
 * authoredOn = "2024-09-20"
 * requester = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
 * reasonReference = Reference(Condition/betsysmith-johnson01-Condition-Hemiparesis-01)
+
+Instance: betsysmith-johnson01-ServiceRequest-med-rec-order-01
+InstanceOf: ServiceRequest
+Usage: #example
+Description: "SNF admission referral for consulting clinical pharmacist for medication reconciliation"
+* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request"
+* status = #active
+* intent = #order
+* category = $sct#386053000 "Evaluation procedure (procedure)"
+* code = $sct#306362008 "Referral to pharmacist (procedure)"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
+* priority = #asap
+* occurrencePeriod.start = "2025-05-04"
+* authoredOn = "2025-05-04T15:45:00-04:00"
+* requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
+* performer = Reference(PractitionerRole/PractitionerRole-Pharm-SashaAhmed)
+* performerType = $sct#734293001 "Clinical pharmacist (occupation)"
+* locationCode = #SNF "Skilled nursing facility"
+* locationReference = Reference(Location/org-Loc-Motor-City-Nursing-Facility)
+//* reasonReference = Reference( --problem list goes here when complete-- )
+* note.text = "Referral for consulting clinical pharmacist for medication reconciliation"
