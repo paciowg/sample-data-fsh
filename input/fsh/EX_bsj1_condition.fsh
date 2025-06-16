@@ -417,3 +417,20 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates an ischemi
 * recordedDate = "2025-05-03"
 * asserter = Reference(PractitionerRole-Neuro-DavidAlbahari)
 
+Instance: betsysmith-johnson01-condition-alteredCognition-01
+InstanceOf: Condition
+Usage: #example
+Description: "Betsy Smith-Johnson's ED admission Condition: altered cognition (trouble understanding.)"
+* clinicalStatus = $condition-clinical#active
+* verificationStatus = $condition-ver-status#confirmed
+* code = $sct#32000005 "Difficulty using verbal communication"
+* code.text = "Difficulty using verbal communication"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
+* category[0] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
+* extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
+* extension.valueDateTime = "2025-05-03"
+* recordedDate = "2025-05-03T14:35:00-04:00"
+* severity = $sct#6736007 " Moderate severity"
+* onsetDateTime = "2025-05-03T14:00:00-04:00"
+* recorder = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
+
