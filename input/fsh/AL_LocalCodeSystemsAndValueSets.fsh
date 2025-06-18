@@ -14,4 +14,4 @@ Description: "Codes indicating the priority or significance of a drug therapy pr
 * ^experimental = true
 // * codes from system SampleDataTempCS
 * include $UMLS#C2985739 "Clinically Significant Indicator"
-* include $UMLS#C0205250 "High"
+* include $SCT_US#75540009 "High (qualifier value)"

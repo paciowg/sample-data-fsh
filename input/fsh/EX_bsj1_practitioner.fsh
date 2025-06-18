@@ -651,3 +651,27 @@ Description: "Tracy Count's practitioner record."
 * address.country = "US"
 * address.text = "155 Light Commercial Ave, Grand Rapids, MI 49509"
 
+Instance: Practitioner-AnitaChu-01
+InstanceOf: Practitioner
+Usage: #example
+Description: "Practitioner Example - Anita Chu"
+* meta.versionId = "4"
+* meta.lastUpdated = "2024-09-20T19:03:21.000+00:00"
+// * meta.source = "#S7gHLyFgHVToyfil"
+* identifier.system = "http://hl7.org/fhir/sid/us-npi"
+* identifier.value = "2346547890"
+* active = true
+* name.text = "Anita M. Chu"
+* name.family = "Chu"
+* name.given = "Anita"
+* telecom[0].system = #phone
+* telecom[=].value = "(313) 555-1212"
+* telecom[+].system = #email
+* telecom[=].value = "amchu@example.org"
+* address.line = "31858 Pacific Highway S"
+* address.city = "Federal Way"
+* address.state = "MI"
+* address.postalCode = "12345"
+* address.country = "US"
+* address.text = "31858 Pacific Highway S, Federal Way, MI 12345"
+* gender = #female

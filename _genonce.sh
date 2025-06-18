@@ -3,8 +3,8 @@ publisher_jar=publisher.jar
 input_cache_path=./input-cache/
 
 # Configure Java heap size (can be overridden via environment variables)
-FHIR_HEAP_MAX=${FHIR_HEAP_MAX:-8g}
-FHIR_HEAP_MIN=${FHIR_HEAP_MIN:-1g}
+FHIR_HEAP_MAX=${FHIR_HEAP_MAX:-12g}
+FHIR_HEAP_MIN=${FHIR_HEAP_MIN:-2g}
 
 echo "Java heap configuration: -Xmx${FHIR_HEAP_MAX} -Xms${FHIR_HEAP_MIN}"
 echo Checking internet connection...

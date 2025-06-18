@@ -431,11 +431,11 @@ Description: "Betsy Smith-Johnson's ED admission Condition: altered cognition (t
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2025-05-03"
 * recordedDate = "2025-05-03T14:35:00-04:00"
-* severity = $sct#6736007 " Moderate severity"
+* severity = $sct#6736007 "Moderate (severity modifier) (qualifier value)"
 * onsetDateTime = "2025-05-03T14:00:00-04:00"
 * recorder = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
 
-Instance: betsysmith-johnson01-condition-ataxiaVirtigo-01
+Instance: betsysmith-johnson01-condition-ataxiaVertigo-01
 InstanceOf: Condition
 Usage: #example
 Description: "Betsy Smith-Johnson's ED admission Condition: balance issues (ataxia)"
@@ -449,7 +449,7 @@ Description: "Betsy Smith-Johnson's ED admission Condition: balance issues (atax
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2025-05-03"
 * recordedDate = "2025-05-03T14:35:00-04:00"
-* severity = $sct#6736007 " Moderate severity"
+* severity = $sct#6736007 "Moderate (severity modifier) (qualifier value)"
 * onsetDateTime = "2025-05-03T14:00:00-04:00"
 * recorder = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
 
