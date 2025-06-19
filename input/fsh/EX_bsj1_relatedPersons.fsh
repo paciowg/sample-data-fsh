@@ -12,13 +12,10 @@ Description: "Betsy Smith-Johnson's son and healthcare agent"
 * name.family = "Johnson"
 * name.given = "Charles"
 * telecom[0].system = #phone
-* telecom[=].value = "(555) 918-4823"
+* telecom[=].value = "(555) 555-2222"
 * telecom[=].use = #mobile
-* telecom[+].system = #phone
-* telecom[=].value = "(555) 555-5555"
-* telecom[=].use = #home
 * telecom[+].system = #email
-* telecom[=].value = "Maria.moen62@jettelabs.com"
+* telecom[=].value = "Mmoen+charlesjohnson@mydirectives.com"
 * address.use = #home
 * address.line = "17040 E Warren Ave"
 * address.city = "Detroit"
@@ -37,13 +34,10 @@ Description: "Betsy Smith-Johnson's daughter in-law, Charles' wife"
 * name.family = "Johnson"
 * name.given = "Lisa"
 * telecom[0].system = #phone
-* telecom[=].value = "(555) 951-8437"
+* telecom[=].value = "(555) 555-3333"
 * telecom[=].use = #mobile
-* telecom[+].system = #phone
-* telecom[=].value = "(555) 555-5555"
-* telecom[=].use = #home
 * telecom[+].system = #email
-* telecom[=].value = "Maria.moen62@jettelabs.com"
+* telecom[=].value = "Mmoen+lisajohnson@mydirectives.com"
 * address.use = #home
 * address.line = "17040 E Warren Ave"
 * address.city = "Detroit"
@@ -61,11 +55,8 @@ Description: "Witness"
 * name.use = #official
 * name.family = "Howard"
 * name.given = "Thompson"
-* telecom[0].system = #phone
-* telecom[=].value = "(555) 971-4119"
-* telecom[=].use = #mobile
 * telecom[+].system = #email
-* telecom[=].value = "hoawrd@vernoncenter.org"
+* telecom[=].value = "Mmoen+howardthompson@midirectives.com"
 * address.use = #home
 * address.line = "The Vernon Center 9341 Agnes Street, Unit 114"
 * address.city = "Detroit"
@@ -83,11 +74,8 @@ Description: "Witness"
 * name.use = #official
 * name.family = "Williams"
 * name.given = "Tanya"
-* telecom[0].system = #phone
-* telecom[=].value = "(555) 273-5570"
-* telecom[=].use = #mobile
 * telecom[+].system = #email
-* telecom[=].value = "tanya@vernoncenter.org"
+* telecom[=].value = "Mmoen+tanyawilliams@mydirectives.com"
 * address.use = #home
 * address.line = "The Vernon Center 9341 Agnes Street, Unit 114"
 * address.city = "Detroit"

@@ -129,4 +129,11 @@ Usage: #example
 * section[=].code = $loinc#8716-3 "Vital signs"
 * section[=].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Vital signs for Betsy Smith Johnson</div>"
-* section[=].entry = Reference(Observation/betsysmith-johnson01-vital-signs-01)
+* section[=].entry[0] = Reference(Observation/betsysmith-johnson01-observation-bodyweight-01)
+* section[=].entry[+] = Reference(Observation/betsysmith-johnson01-observation-bodyheight-01)
+* section[=].entry[+] = Reference(Observation/betsysmith-johnson01-observation-bmi-01)
+* section[=].entry[+] = Reference(Observation/betsysmith-johnson01-observation-bp-01)
+* section[=].entry[+] = Reference(Observation/betsysmith-johnson01-observation-heartrate-01)
+* section[=].entry[+] = Reference(Observation/betsysmith-johnson01-observation-respirationrate-01)
+* section[=].entry[+] = Reference(Observation/betsysmith-johnson01-observation-bodytemp-01)
+* section[=].entry[+] = Reference(Observation/betsysmith-johnson01-observation-oxygensat-01)

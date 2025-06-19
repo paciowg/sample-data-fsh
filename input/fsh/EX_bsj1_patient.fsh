@@ -33,10 +33,10 @@ Description: "Betsy Smith-Johnson's patient record, #female born on 1958-11-01."
 * gender = #female
 * birthDate = "1950-11-15"
 * telecom[0].system = #phone
-* telecom[=].use = #home
-* telecom[=].value = "555-555-5555"
+* telecom[=].use = #mobile
+* telecom[=].value = "555-555-1111"
 * telecom[+].system = #email
-* telecom[=].value = "Maria.moen62@jettelabs.com"
+* telecom[=].value = "mmoen+betsysmithjohnson@mydirectives.com"
 * address.line = "17040 E Warren Avenue"
 * address.city = "Detroit"
 * address.state = "MI"

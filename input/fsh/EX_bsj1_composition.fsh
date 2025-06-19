@@ -16,7 +16,7 @@ Description: "Betsy Smith-Johnson's TOC Document from Hospital to SNF as a Disch
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * date = "2025-05-04T12:30:58.313-04:00"
 * author = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
-* title = "Transitions of Care Document for Betsy Smith Johnson"
+* title = "Betsy Smith Johnson Transitions of Care Document - Hospital to SNF"
 * custodian = Reference(Organization/org-ED-Metro-Hospital)
 * section[0].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Information sections for the transitions of care for Betsy Smith Johnson from the hospital to the skilled nursing facility</div>"
@@ -29,8 +29,14 @@ Description: "Betsy Smith-Johnson's TOC Document from Hospital to SNF as a Disch
 * section[=].code = $loinc#10183-2 "Hospital discharge medications"
 * section[=].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of medications prescribed for Betsy Smith Johnson</div>"
-* section[=].entry[0] = Reference(List/betsysmith-johnson01-smp-med-list-2)  // SMP Medication List from the hospital admission.
-// * section[=].entry[+] = Reference(MedicationRequest/betsysmith-johnson01-smp-medrx-2-10)
+* section[=].entry[0] = Reference(List/betsysmith-johnson01-smp-med-list-2B)  // SMP Medication List from the hospital at time of discharge.
+* section[=].entry[+] = Reference(MedicationRequest/betsysmith-johnson01-smp-medrx-2-10) "atorvastatin 40 mg" // atorvastatin
+* section[=].entry[+] = Reference(MedicationRequest/betsysmith-johnson01-smp-medrx-2-14) "metformin 500 mg" // metformin
+* section[=].entry[+] = Reference(MedicationRequest/betsysmith-johnson01-smp-medrx-2-18) "Ferrous Gluconate 325 mg" // ferrous gluconate
+* section[=].entry[+] = Reference(MedicationRequest/betsysmith-johnson01-smp-medrx-2-21) "Peg 3350 (PRN)" // polyethylene glycol
+* section[=].entry[+] = Reference(MedicationRequest/betsysmith-johnson01-smp-medrx-2B-25c) "acetaminophen 325 MG Oral Tablet (PRN)" // Acetaminophen dose adjusted
+// * section[=].entry[+] = Reference(MedicationRequest/betsysmith-johnson01-smp-medrx-2-22) // docusate
+* section[=].entry[+] = Reference(MedicationRequest/betsysmith-johnson01-smp-medrx-2-23) "ondansetron 4 MG Oral Tablet" // ondansetron
 * section[+].title = "List of problem conditions and observations for Betsy Smith Johnson"
 * section[=].code = $loinc#46019-6 "Diseases or conditions Set"
 * section[=].text.status = #additional
@@ -76,7 +82,7 @@ Description: "Betsy Smith-Johnson's TOC Document from SNF to Home Health. Includ
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * date = "2025-07-02T13:00:58.000-04:00"
 * author = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
-* title = "Transitions of Care Document for Betsy Smith Johnson"
+* title = "Betsy Smith Johnson Transitions of Care Document - SNF to Home Health"
 * custodian = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
 * section[0].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Information sections for the transitions of care for Betsy Smith Johnson from the hospital to the skilled nursing facility</div>"
