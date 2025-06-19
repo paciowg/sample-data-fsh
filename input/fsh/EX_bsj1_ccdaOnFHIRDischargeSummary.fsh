@@ -88,7 +88,7 @@ Usage: #example
 * section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-Hypertension-01) "Hypertension"
 * section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-Hyperlipidemia-01) "Hyperlipidemia"
 * section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-Depression-01) "Depression"
-* section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-Dysphagia-01) "Dysphagia"
+// * section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-Dysphagia-01) "Dysphagia"
 * section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-KidneyDisease-01) "Kidney Disease"
 * section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-Osteoarthritis-01) "Osteoarthritis"
 * section[=].entry[+] = Reference(Condition/betsysmith-johnson01-Condition-Osteopenia-01) "Osteopenia"
