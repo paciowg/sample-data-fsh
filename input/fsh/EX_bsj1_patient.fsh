@@ -50,12 +50,12 @@ Description: "Betsy Smith-Johnson's patient record, #female born on 1958-11-01."
 * contact[=].address.text = "17040 E Warren Avenue, Detroit, MI 48224"
 * contact[=].telecom.system = #phone
 * telecom[=].use = #mobile
-* contact[=].telecom.value = "(555) 918-4823"
+* contact[=].telecom.value = "(555) 555-2222"
 * contact[+].relationship = $v3-RoleCode#DAUINLAW
 * contact[=].name.text = "Lisa Johnson"
 * contact[=].telecom.system = #phone
 * telecom[=].use = #mobile
-* contact[=].telecom.value = "(555) 951-8437"
+* contact[=].telecom.value = "(555) 555-3333"
 * contact[=].address.text = "17040 E Warren Avenue, Detroit, MI 48224"
 * communication.language = urn:ietf:bcp:47#en "English"
 * communication.preferred = true
