@@ -51,7 +51,7 @@ Description: "Witness"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-relatedperson"
 * active = true
 * patient = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* relationship = $v3-RoleCode#DAUINLAW "daughter in-law"
+// * relationship = $v3-RoleCode#DAUINLAW "daughter in-law"
 * name.use = #official
 * name.family = "Howard"
 * name.given = "Thompson"
@@ -70,7 +70,7 @@ Description: "Witness"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-relatedperson"
 * active = true
 * patient = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* relationship = $v3-RoleCode#DAUINLAW "daughter in-law"
+// * relationship = $v3-RoleCode#DAUINLAW "daughter in-law"
 * name.use = #official
 * name.family = "Williams"
 * name.given = "Tanya"
