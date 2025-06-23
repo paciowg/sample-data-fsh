@@ -152,24 +152,36 @@ Usage: #example
 * item[=].text = "Temporal Orientation (orientation to year, month, and day)"
 * item[=].item[0].linkId = "/52732-5"
 * item[=].item[=].text = "Able to report correct year"
-* item[=].item[=].answer.valueDecimal = 3
+* item[=].item[=].answer.valueCoding = $loinc#LA9960-1 "Correct"
+* item[=].item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].item[=].answer.valueCoding.extension.valueDecimal = 3
 * item[=].item[+].linkId = "/52733-3"
 * item[=].item[=].text = "Able to report correct month"
-* item[=].item[=].answer.valueDecimal = 1
+* item[=].item[=].answer.valueCoding = $loinc#LA10010-9 "Missed by 6 days to 1 month"
+* item[=].item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].item[=].answer.valueCoding.extension.valueDecimal = 1
 * item[=].item[+].linkId = "/54609-3"
 * item[=].item[=].text = "Able to report correct day of the week"
-* item[=].item[=].answer.valueDecimal = 0
+* item[=].item[=].answer.valueCoding = $loinc#LA9981-7 "Incorrect or no answer"
+* item[=].item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].item[=].answer.valueCoding.extension.valueDecimal = 0
 * item[+].linkId = "/52493-4"
 * item[=].text = "Recall"
 * item[=].item[0].linkId = "/52735-8"
 * item[=].item[=].text = "Able to recall \"sock\""
-* item[=].item[=].answer.valueDecimal = 1
+* item[=].item[=].answer.valueCoding = $loinc#LA10126-3 "Yes, after cueing (\"something to wear\")"
+* item[=].item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].item[=].answer.valueCoding.extension.valueDecimal = 1
 * item[=].item[+].linkId = "/52736-6"
 * item[=].item[=].text = "Able to recall \"blue\""
-* item[=].item[=].answer.valueDecimal = 0
+* item[=].item[=].answer.valueCoding = $loinc#LA10974-6 "No - could not recall"
+* item[=].item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].item[=].answer.valueCoding.extension.valueDecimal = 0
 * item[=].item[+].linkId = "/52737-4"
 * item[=].item[=].text = "Able to recall \"bed\""
-* item[=].item[=].answer.valueDecimal = 1
+* item[=].item[=].answer.valueCoding = $loinc#LA10125-5 "Yes, after cueing (\"a piece of furniture\")"
+* item[=].item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].item[=].answer.valueCoding.extension.valueDecimal = 1
 * item[+].linkId = "/54614-3"
 * item[=].text = "BIMS Summary Score"
 * item[=].answer.valueDecimal = 7
