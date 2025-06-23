@@ -88,33 +88,70 @@ Usage: #example
 * authored = "2025-05-04T16:30:00.000Z"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * author = Reference(Practitioner/Practitioner-TreyvorClark)
-* item[0].linkId = "44250-9"
+* item[0].linkId = "/44250-9"
 * item[=].text = "Little interest or pleasure in doing things"
 * item[=].answer.valueDecimal = 2
-* item[+].linkId = "44255-8"
+* item[+].linkId = "/44255-8"
 * item[=].text = "Feeling down, depressed, or hopeless"
 * item[=].answer.valueDecimal = 3
-* item[+].linkId = "44259-0"
+* item[+].linkId = "/44259-0"
 * item[=].text = "Trouble falling or staying asleep, or sleeping too much"
 * item[=].answer.valueDecimal = 2
-* item[+].linkId = "44254-1"
+* item[+].linkId = "/44254-1"
 * item[=].text = "Feeling tired or having little energy"
 * item[=].answer.valueDecimal = 3
-* item[+].linkId = "44251-7"
+* item[+].linkId = "/44251-7"
 * item[=].text = "Poor appetite or overeating"
 * item[=].answer.valueDecimal = 2
-* item[+].linkId = "44258-2"
+* item[+].linkId = "/44258-2"
 * item[=].text = "Feeling bad about yourself-or that you are a failure or have let yourself or your family down"
 * item[=].answer.valueDecimal = 2
-* item[+].linkId = "44252-5"
+* item[+].linkId = "/44252-5"
 * item[=].text = "Trouble concentrating on things, such as reading the newspaper or watching television"
 * item[=].answer.valueDecimal = 3
-* item[+].linkId = "44253-3"
+* item[+].linkId = "/44253-3"
 * item[=].text = "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you were moving around a lot more than usual"
 * item[=].answer.valueDecimal = 3
-* item[+].linkId = "44260-8"
+* item[+].linkId = "/44260-8"
 * item[=].text = "Thoughts that you would be better off dead, or of hurting yourself in some way"
 * item[=].answer.valueDecimal = 3
-* item[+].linkId = "44261-6"
+* item[+].linkId = "/44261-6"
 * item[=].text = "Patient Health Questionnaire 9 item (PHQ-9) total score [Reported]"
 * item[=].answer.valueDecimal = 23
+
+Instance: betsysmith-johnson01-qr-bims-snf-admission-01
+InstanceOf: QuestionnaireResponse
+Usage: #example
+* questionnaire = "https://loinc.org/52491-8/"
+* status = #completed
+* authored = "2025-05-04T16:30:00.000Z"
+* author = Reference(Practitioner/Practitioner-TreyvorClark)
+* subject = Reference(Patient/patient-betsysmith-johnson01)
+* item[0].linkId = "/52731-7"
+* item[=].text = "Repetition of Three Words. Number of words repeated after first attempt"
+* item[=].answer.valueDecimal = 1
+* item[+].linkId = "/54510-3"
+* item[=].text = "Temporal Orientation (orientation to year, month, and day)"
+* item[=].item[0].linkId = "/52732-5"
+* item[=].item[=].text = "Able to report correct year"
+* item[=].item[=].answer.valueDecimal = 3
+* item[=].item[+].linkId = "/52733-3"
+* item[=].item[=].text = "Able to report correct month"
+* item[=].item[=].answer.valueDecimal = 1
+* item[=].item[+].linkId = "/54609-3"
+* item[=].item[=].text = "Able to report correct day of the week"
+* item[=].item[=].answer.valueDecimal = 0
+* item[+].linkId = "/52493-4"
+* item[=].text = "Recall"
+* item[=].item[0].linkId = "/52735-8"
+* item[=].item[=].text = "Able to recall \"sock\""
+* item[=].item[=].answer.valueDecimal = 1
+* item[=].item[+].linkId = "/52736-6"
+* item[=].item[=].text = "Able to recall \"blue\""
+* item[=].item[=].answer.valueDecimal = 0
+* item[=].item[+].linkId = "/52737-4"
+* item[=].item[=].text = "Able to recall \"bed\""
+* item[=].item[=].answer.valueDecimal = 1
+* item[+].linkId = "/54614-3"
+* item[=].text = "BIMS Summary Score"
+* item[=].answer.valueDecimal = 7
