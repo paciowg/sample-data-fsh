@@ -280,3 +280,51 @@ Usage: #example
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 0
 
+Instance: betsysmith-johnson01-qr-ot-assessment-snf-admission-01
+InstanceOf: QuestionnaireResponse
+Usage: #example
+* questionnaire = "https://loinc.org/44249-1"
+* status = #completed
+* authored = "2025-05-05T11:00:00.000Z"
+* subject = Reference(Patient/patient-betsysmith-johnson01)
+* author = Reference(Practitioner/Practitioner-SonjaValdez)
+* item[0].linkId = "/95019-6"
+* item[=].text = "Eating"
+* item[=].answer.valueCoding = $loinc#LA11759-0 "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 02
+* item[+].linkId = "/95018-8"
+* item[=].text = "Oral hygiene"
+* item[=].answer.valueCoding = $loinc#LA11759-0 "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 02
+* item[+].linkId = "/95017-0"
+* item[=].text = "Toileting hygiene"
+* item[=].answer.valueCoding = $loinc#LA11759-0 "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 02
+* item[+].linkId = "/95015-4"
+* item[=].text = "Shower/bathe self"
+* item[=].answer.valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 01
+* item[+].linkId = "/95014-7"
+* item[=].text = "Upper body dressing"
+* item[=].answer.valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 01
+* item[+].linkId = "/95013-9"
+* item[=].text = "Lower body dressing"
+* item[=].answer.valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 01
+* item[+].linkId = "/95012-1"
+* item[=].text = "Putting on/taking off footwear"
+* item[=].answer.valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 01
+* item[+].linkId = "/45606-1"
+* item[=].text = "Personal hygiene"
+* item[=].answer.valueCoding = $loinc#LA11759-0 "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 02
