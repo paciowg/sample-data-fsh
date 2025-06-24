@@ -283,7 +283,7 @@ Usage: #example
 Instance: betsysmith-johnson01-qr-ot-assessment-snf-admission-01
 InstanceOf: QuestionnaireResponse
 Usage: #example
-* questionnaire = "https://loinc.org/44249-1"
+* questionnaire = "https://loinc.org/90473-0/panel#102938"
 * status = #completed
 * authored = "2025-05-05T11:00:00.000Z"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
@@ -328,3 +328,28 @@ Usage: #example
 * item[=].answer.valueCoding = $loinc#LA11759-0 "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 02
+
+Instance: betsysmith-johnson01-qr-slp-assessment-snf-admission-01
+InstanceOf: QuestionnaireResponse
+Usage: #example
+* questionnaire = "https://loinc.org/90473-0"
+* status = #completed
+* authored = "2025-05-05T13:00:00.000Z"
+* subject = Reference(Patient/patient-betsysmith-johnson01)
+* author = Reference(Practitioner/Practitioner-JoeBukoski)
+* item[0].linkId = "/86677-2"
+* item[=].text = "Swallowing Disorder. Signs and symptoms of possible swallowing disorder"
+* item[=].answer.valueCoding = $loinc#LA9977-5 "Holding food in mouth/cheeks or residual food in mouth after meals"
+* item[+].linkId = "/86677-2"
+* item[=].text = "Swallowing Disorder. Signs and symptoms of possible swallowing disorder"
+* item[=].answer.valueCoding = $loinc#LA9961-9 "Coughing or choking during meals or when swallowing medications"
+* item[+].linkId = "/95737-3"
+* item[=].text = "Makes Self Understood"
+* item[=].answer.valueCoding = $loinc#LA10950-6 "Sometimes understood - ability is limited to making concrete requests"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 2
+* item[+].linkId = "/54602-8"
+* item[=].text = "Ability to Understand Others"
+* item[=].answer.valueCoding = $loinc#LA10954-8 "Sometimes understands - responds adequately to simple, direct communication only"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 2
