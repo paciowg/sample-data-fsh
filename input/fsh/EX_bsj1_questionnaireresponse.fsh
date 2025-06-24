@@ -339,10 +339,8 @@ Usage: #example
 * author = Reference(Practitioner/Practitioner-JoeBukoski)
 * item[0].linkId = "/86677-2"
 * item[=].text = "Swallowing Disorder. Signs and symptoms of possible swallowing disorder"
-* item[=].answer.valueCoding = $loinc#LA9977-5 "Holding food in mouth/cheeks or residual food in mouth after meals"
-* item[+].linkId = "/86677-2"
-* item[=].text = "Swallowing Disorder. Signs and symptoms of possible swallowing disorder"
-* item[=].answer.valueCoding = $loinc#LA9961-9 "Coughing or choking during meals or when swallowing medications"
+* item[=].answer[0].valueCoding = $loinc#LA9977-5 "Holding food in mouth/cheeks or residual food in mouth after meals"
+* item[=].answer[+].valueCoding = $loinc#LA9961-9 "Coughing or choking during meals or when swallowing medications"
 * item[+].linkId = "/95737-3"
 * item[=].text = "Makes Self Understood"
 * item[=].answer.valueCoding = $loinc#LA10950-6 "Sometimes understood - ability is limited to making concrete requests"
@@ -496,3 +494,25 @@ Usage: #example
 * item[=].answer.valueCoding = $loinc#LA27994-5 "Setup or clean-up assistance - Helper sets up or cleans up; resident completes activity. Helper assists only prior to or following the activity."
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 05 
+
+Instance: betsysmith-johnson01-qr-slp-assessment-snf-discharge-01
+InstanceOf: QuestionnaireResponse
+Usage: #example
+* questionnaire = "https://loinc.org/95734-0/"
+* status = #completed
+* authored = "2025-06-30T13:00:00.000Z"
+* subject = Reference(Patient/patient-betsysmith-johnson01)
+* author = Reference(Practitioner/Practitioner-JoeBukoski)
+* item[0].linkId = "/86677-2"
+* item[=].text = "Swallowing Disorder. Signs and symptoms of possible swallowing disorder"
+* item[=].answer.valueCoding = $loinc#LA9977-5 "Holding food in mouth/cheeks or residual food in mouth after meals"
+* item[+].linkId = "/95737-3"
+* item[=].text = "Makes Self Understood"
+* item[=].answer.valueCoding = $loinc#LA10949-8 "Usually understood - difficulty communicating some words or finishing thoughts but is able if prompted or given time"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 1
+* item[+].linkId = "/54602-8"
+* item[=].text = "Ability to Understand Others"
+* item[=].answer.valueCoding = $loinc#LA10953-0 "Usually understands - misses some part/intent of message but comprehends most conversation"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 1
