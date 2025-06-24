@@ -447,3 +447,52 @@ Usage: #example
 * item[=].answer.valueCoding = $loinc#LA32-8 "No"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 0
+
+Instance: betsysmith-johnson01-qr-ot-assessment-snf-discharge-01
+InstanceOf: QuestionnaireResponse
+Usage: #example
+* questionnaire = "https://loinc.org/95734-0/"
+* status = #completed
+* authored = "2025-06-30T13:00:00.000Z"
+* subject = Reference(Patient/patient-betsysmith-johnson01)
+* author = Reference(Practitioner/Practitioner-SonjaValdez)
+* item[0].linkId = "/95019-6"
+* item[=].text = "Eating"
+* item[=].answer.valueCoding = $loinc#LA27994-5 "Setup or clean-up assistance - Helper sets up or cleans up; resident completes activity. Helper assists only prior to or following the activity."
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 05 
+* item[+].linkId = "/95018-8"
+* item[=].text = "Oral hygiene"
+* item[=].answer.valueCoding = $loinc#LA27994-5 "Setup or clean-up assistance - Helper sets up or cleans up; resident completes activity. Helper assists only prior to or following the activity."
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 05 
+* item[+].linkId = "/95017-0"
+* item[=].text = "Toileting hygiene"
+* item[=].answer.valueCoding = $loinc#LA28870-6 "Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently."
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 04
+* item[+].linkId = "/95015-4"
+* item[=].text = "Shower/bathe self"
+* item[=].answer.valueCoding = $loinc#LA27996-0 "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort."
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 03
+* item[+].linkId = "/95014-7"
+* item[=].text = "Upper body dressing"
+* item[=].answer.valueCoding = $loinc#LA27994-5 "Setup or clean-up assistance - Helper sets up or cleans up; resident completes activity. Helper assists only prior to or following the activity."
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 05 
+* item[+].linkId = "/95013-9"
+* item[=].text = "Lower body dressing"
+* item[=].answer.valueCoding = $loinc#LA28870-6 "Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently."
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 04
+* item[+].linkId = "/95012-1"
+* item[=].text = "Putting on/taking off footwear"
+* item[=].answer.valueCoding = $loinc#LA28870-6 "Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as resident completes activity. Assistance may be provided throughout the activity or intermittently."
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 04
+* item[+].linkId = "/45606-1"
+* item[=].text = "Personal hygiene"
+* item[=].answer.valueCoding = $loinc#LA27994-5 "Setup or clean-up assistance - Helper sets up or cleans up; resident completes activity. Helper assists only prior to or following the activity."
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 05 
