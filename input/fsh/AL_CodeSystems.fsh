@@ -13,6 +13,7 @@ Alias:   $RXN = http://www.nlm.nih.gov/research/umls/rxnorm
 Alias:   $CPT = http://www.ama-assn.org/go/cpt
 Alias:   $HGNC = http://www.genenames.org
 Alias:   $HGVS = http://varnomen.hgvs.org
+Alias:   $ATC = http://www.whocc.no/atc
 
 Alias:  $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
 Alias:  $v3-MaritalStatus = http://terminology.hl7.org/CodeSystem/v3-MaritalStatus
