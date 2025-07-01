@@ -19,14 +19,14 @@ Description: "Betsy Smith-Johnson's Medication Action Plan - Alprazolam and meto
 * author = Reference(PractitionerRole/PractitionerRole-Pharm-SashaAhmed)
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * supportingInfo = Reference(DetectedIssue/betsysmith-johnson01-di01-duplicateTherapy)
-* careTeam = Reference(CareTeam/BSJ1-CareTeam-SNFDischargeToHHA)
+// * careTeam = Reference(CareTeam/BSJ1-CareTeam-SNFDischargeToHHA)
 
 
 Instance: betsysmith-johnson01-di01-duplicateTherapy
 InstanceOf: DetectedIssue
 Usage: #example
 * status = #preliminary
-* code = $v3-ActCode#DUPTHPY "Duplicate Therapy Alert"
+* code = $v3-ActCode#COND "detected issue"
 * severity = #high
 * identifiedDateTime = "2025-07-02T08:00:00Z"
 * author = Reference(PractitionerRole/PractitionerRole-Pharm-SashaAhmed)
