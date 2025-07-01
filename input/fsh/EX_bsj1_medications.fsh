@@ -2,6 +2,21 @@ Alias: $loinc = http://loinc.org
 Alias: $rxnorm = http://www.nlm.nih.gov/research/umls/rxnorm
 // Alias: $sct = http://snomed.info/sct|http://snomed.info/sct/731000124108 
 
+// ********** TO DO: Add SMP Bundle ********
+
+Instance: betsysmith-johnson01-SMP-Bundle-02B-HospDischarge
+InstanceOf: Bundle
+Usage: #example
+* meta.profile = "http://hl7.org/fhir/us/smp/StructureDefinition/smp-bundle"
+* type = #collection
+* timestamp = "2025-05-04T08:00:00Z"
+* entry[0].fullUrl = "urn:betsysmith-johnson01-smp-med-list-1"
+* entry[=].resource = betsysmith-johnson01-smp-med-list-1
+* entry[+].fullUrl = "urn:betsysmith-johnson01-smp-med-list-2B"
+* entry[=].resource = betsysmith-johnson01-smp-med-list-2B
+
+// *********** Medication Lists ************
+
 Instance: betsysmith-johnson01-smp-med-list-1
 InstanceOf: List
 Usage: #example
