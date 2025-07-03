@@ -61,6 +61,9 @@ Description: "Betsy Smith-Johnson's TOC Document from Hospital to SNF as a Disch
 * section[=].entry[+] = Reference(DiagnosticReport/betsysmith-johnson01-diagnosticReport-CTScan-02)
 * section[=].entry[+] = Reference(DiagnosticReport/betsysmith-johnson01-diagnosticReport-MRI-01)
 * section[=].entry[+] = Reference(QuestionnaireResponse/betsysmith-johnson01-qr-strokescale-01)
+* section[=].entry[+] = Reference(DiagnosticReport/betsysmith-johnson01-lipid-panel-01)
+* section[=].entry[+] = Reference(DiagnosticReport/betsysmith-johnson01-diagnosticReport-coag-01)
+* section[=].entry[+] = Reference(Observation/betsysmith-johnson01-Lab-Hemoglobin-02)
 * section[+].title = "Betsy Smith Johnson Discharge Summary and Additional Instructions"
 * section[=].code = $loinc#18842-5 "Discharge summary"
 * section[=].text.status = #additional
