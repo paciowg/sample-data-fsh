@@ -255,7 +255,7 @@ Description: "Betsy Smith-Johnson Observation: Patient exhibits elevated blood p
 Instance: betsysmith-johnson01-Impulsive-Speech
 InstanceOf: Observation
 Usage: #example
-Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg recorded at 10:30 am."
+Description: "Betsy Smith-Johnson Observation - Impulsive Speech"
 * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
 * status = #final
 * category[0] = $observation-category#survey "Survey"
@@ -268,10 +268,10 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
-Instance: betsysmith-johnson01-Lab-Hemaglobin
+Instance: betsysmith-johnson01-Lab-Hemoglobin-01
 InstanceOf: Observation
 Usage: #example
-Description: "Betsy Smith-Johnson Observation: Patient's blood pressure is elevated at 150/90 mmHg."
+Description: "Betsy Smith-Johnson Observation - Hemoglobin - 8/27/24."
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
 * status = #final
 * category = $observation-category#laboratory "Laboratory"
@@ -279,6 +279,25 @@ Description: "Betsy Smith-Johnson Observation: Patient's blood pressure is eleva
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2024-08-27T12:07:00-04:00"
 * valueQuantity.value = 10.5
+* valueQuantity.system = "http://unitsofmeasure.org"
+* valueQuantity.unit = "g/dL"
+* referenceRange.low = 12 'g/dL' "g/dL"
+* referenceRange.high = 16 'g/dL' "g/dL"
+* referenceRange.type = $referencerange-meaning#normal "Normal Range"
+* interpretation = $v3-ObservationInterpretation#L "Low"
+
+Instance: betsysmith-johnson01-Lab-Hemoglobin-02
+InstanceOf: Observation
+Usage: #example
+Description: "Betsy Smith-Johnson Observation - Hemoglobin - 5/3/25"
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+* status = #final
+* category = $observation-category#laboratory "Laboratory"
+* code = $loinc#718-7 "Hemoglobin [Mass/volume] in Blood"
+* subject = Reference(Patient/patient-betsysmith-johnson01)
+* performer = Reference(Organization/org-ED-Metro-Hospital)
+* effectiveDateTime = "2024-05-03T12:07:00-04:00"
+* valueQuantity.value = 12.2
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.unit = "g/dL"
 * referenceRange.low = 12 'g/dL' "g/dL"
