@@ -29,14 +29,8 @@ Description: "Betsy Smith-Johnson's TOC Document from Hospital to SNF as a Disch
 * section[=].code = $loinc#10183-2 "Hospital discharge medications"
 * section[=].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of medications prescribed for Betsy Smith Johnson</div>"
-* section[=].entry[0] = Reference(List/betsysmith-johnson01-smp-med-list-2B)  // SMP Medication List from the hospital at time of discharge.
-* section[=].entry[+] = Reference(MedicationRequest/betsysmith-johnson01-smp-medrx-2-10) "atorvastatin 40 mg" // atorvastatin
-* section[=].entry[+] = Reference(MedicationRequest/betsysmith-johnson01-smp-medrx-2-14) "metformin 500 mg" // metformin
-* section[=].entry[+] = Reference(MedicationRequest/betsysmith-johnson01-smp-medrx-2-18) "Ferrous Gluconate 325 mg" // ferrous gluconate
-* section[=].entry[+] = Reference(MedicationRequest/betsysmith-johnson01-smp-medrx-2-21) "Peg 3350 (PRN)" // polyethylene glycol
-* section[=].entry[+] = Reference(MedicationRequest/betsysmith-johnson01-smp-medrx-2B-25c) "acetaminophen 325 MG Oral Tablet (PRN)" // Acetaminophen dose adjusted
-// * section[=].entry[+] = Reference(MedicationRequest/betsysmith-johnson01-smp-medrx-2-22) // docusate
-* section[=].entry[+] = Reference(MedicationRequest/betsysmith-johnson01-smp-medrx-2-23) "ondansetron 4 MG Oral Tablet" // ondansetron
+* section[=].entry[0] = Reference(List/bsj1-smp-medListNew-0)  // SMP Medication List from home prior to ED visit.
+* section[=].entry[+] = Reference(List/bsj1-smp-medListNew-1)  // SMP Medication List from the hospital at time of discharge.
 * section[+].title = "List of problem conditions and observations for Betsy Smith Johnson"
 * section[=].code = $loinc#46019-6 "Diseases or conditions Set"
 * section[=].text.status = #additional
@@ -98,8 +92,8 @@ Description: "Betsy Smith-Johnson's TOC Document from SNF to Home Health. Includ
 * section[=].code = $loinc#10183-2 "Hospital discharge medications"
 * section[=].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of medications prescribed for Betsy Smith Johnson</div>"
-* section[=].entry[0] = Reference(List/betsysmith-johnson01-smp-med-list-3)  // SMP Medication List from the SNF.
-// * section[=].entry[+] = Reference(MedicationRequest/betsysmith-johnson01-smp-medrx-2-10)
+* section[=].entry[0] = Reference(List/bsj1-smp-medListNew-2)  // SMP Medication List from the SNF.
+* section[=].entry[+] = Reference(List/bsj1-smp-medListNew-3)  // SMP Medication List for HHA.
 * section[+].title = "List of problem conditions and observations for Betsy Smith Johnson"
 * section[=].code = $loinc#46019-6 "Diseases or conditions Set"
 * section[=].text.status = #additional
