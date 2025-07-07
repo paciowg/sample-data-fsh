@@ -8,7 +8,7 @@ Description: "MedicationRequest for glipizide - stopped order on 2025-04-22 by R
 * status = #stopped
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-04-22"
+* authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#310489 "24 HR glipiZIDE 2.5 MG Extended Release Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#52817038510
@@ -20,7 +20,7 @@ Description: "MedicationRequest for acetaminophen - active order on 2025-04-22 b
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-04-22"
+* authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#313782 "acetaminophen 325 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00536116401
@@ -32,7 +32,7 @@ Description: "MedicationRequest for calcium - stopped order on 2025-04-22 by Rol
 * status = #stopped
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-04-22"
+* authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#282465 "calcium carbonate 1250 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#63629260001
@@ -44,7 +44,7 @@ Description: "MedicationRequest for calcium - stopped order on 2025-04-22 by Rol
 * status = #stopped
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-04-22"
+* authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#1310948 "calcium carbonate 1500 MG / cholecalciferol 800 UNT Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#10939053544
@@ -56,7 +56,7 @@ Description: "MedicationRequest for carvedilol - stopped order on 2025-04-22 by 
 * status = #stopped
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-04-22"
+* authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#200031 "carvedilol 6.25 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00093013501
@@ -68,7 +68,7 @@ Description: "MedicationRequest for clopidogrel - active order on 2025-04-22 by 
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-04-22"
+* authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#65862035730
@@ -80,7 +80,7 @@ Description: "MedicationRequest for colace - stopped order on 2025-04-22 by Role
 * status = #stopped
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-04-22"
+* authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#1247756 "Colace 100 MG Oral Capsule"
 * medicationCodeableConcept[0].coding[1] = $NDC#68788865801
@@ -92,7 +92,7 @@ Description: "MedicationRequest for ferrous - active order on 2025-04-22 by Role
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-04-22"
+* authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#351151 "ferrous gluconate 225 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#69375000910
@@ -104,7 +104,7 @@ Description: "MedicationRequest for ferrous - stopped order on 2025-04-22 by Rol
 * status = #stopped
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-04-22"
+* authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#310325 "ferrous sulfate 325 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#10135024313
@@ -116,7 +116,7 @@ Description: "MedicationRequest for jardiance - active order on 2025-04-22 by Ro
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-04-22"
+* authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "Jardiance 10 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#50090645200
@@ -128,7 +128,7 @@ Description: "MedicationRequest for lipitor - active order on 2025-04-22 by Role
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-04-22"
+* authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00440712730
@@ -140,7 +140,7 @@ Description: "MedicationRequest for metformin - active order on 2025-04-22 by Ro
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-04-22"
+* authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#861007 "metFORMIN hydrochloride 500 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#62756014202
@@ -152,7 +152,7 @@ Description: "MedicationRequest for nortriptyline - stopped order on 2025-04-22 
 * status = #stopped
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-04-22"
+* authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#198046 "nortriptyline 50 MG Oral Capsule"
 * medicationCodeableConcept[0].coding[1] = $NDC#00121197100
@@ -164,7 +164,7 @@ Description: "MedicationRequest for polyethylene - stopped order on 2025-04-22 b
 * status = #stopped
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-04-22"
+* authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
 * medicationCodeableConcept[0].coding[1] = $NDC#63739019862
@@ -176,7 +176,7 @@ Description: "MedicationRequest for sertraline - active order on 2025-04-22 by R
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-04-22"
+* authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#312940 "sertraline 25 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00440831530
@@ -188,7 +188,7 @@ Description: "MedicationRequest for zofran - stopped order on 2025-04-22 by Role
 * status = #stopped
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-04-22"
+* authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#104895 "Zofran 4 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00179009944
@@ -200,7 +200,7 @@ Description: "MedicationRequest for acetaminophen - active order on 2025-05-03 b
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-05-03"
+* authoredOn = "2025-05-03T14:45:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#313782 "acetaminophen 325 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00536116401
@@ -212,7 +212,7 @@ Description: "MedicationRequest for carvedilol - draft order on 2025-05-03 by Pr
 * status = #draft
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-05-03"
+* authoredOn = "2025-05-03T14:45:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#200031 "carvedilol 6.25 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00781522301
@@ -224,7 +224,7 @@ Description: "MedicationRequest for clopidogrel - active order on 2025-05-03 by 
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-05-03"
+* authoredOn = "2025-05-03T14:45:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00904629461
@@ -236,7 +236,7 @@ Description: "MedicationRequest for ferrous - active order on 2025-05-03 by Prac
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-05-03"
+* authoredOn = "2025-05-03T14:45:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#351151 "ferrous gluconate 225 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#69375000910
@@ -248,7 +248,7 @@ Description: "MedicationRequest for jardiance - draft order on 2025-05-03 by Pra
 * status = #draft
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-05-03"
+* authoredOn = "2025-05-03T14:45:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "Jardiance 10 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#55154041108
@@ -260,7 +260,7 @@ Description: "MedicationRequest for lipitor - active order on 2025-05-03 by Prac
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-05-03"
+* authoredOn = "2025-05-03T14:45:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00440712730
@@ -272,7 +272,7 @@ Description: "MedicationRequest for metformin - active order on 2025-05-03 by Pr
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-05-03"
+* authoredOn = "2025-05-03T14:45:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#861007 "metFORMIN hydrochloride 500 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00440573900
@@ -284,7 +284,7 @@ Description: "MedicationRequest for sertraline - active order on 2025-05-03 by P
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-05-03"
+* authoredOn = "2025-05-03T14:45:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#312940 "sertraline 25 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00440831530
@@ -296,7 +296,7 @@ Description: "MedicationRequest for acetaminophen - active order on 2025-05-04 b
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-05-04"
+* authoredOn = "2025-05-04T15:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#313782 "acetaminophen 325 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00536116401
@@ -308,7 +308,7 @@ Description: "MedicationRequest for carvedilol - stopped order on 2025-05-04 by 
 * status = #stopped
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-05-04"
+* authoredOn = "2025-05-04T15:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#200031 "carvedilol 6.25 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00781522301
@@ -320,7 +320,7 @@ Description: "MedicationRequest for clopidogrel - active order on 2025-05-04 by 
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-05-04"
+* authoredOn = "2025-05-04T15:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00904629461
@@ -332,7 +332,7 @@ Description: "MedicationRequest for ferrous - active order on 2025-05-04 by Prac
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-05-04"
+* authoredOn = "2025-05-04T15:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#351151 "ferrous gluconate 225 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#69375000910
@@ -344,7 +344,7 @@ Description: "MedicationRequest for ferrous - draft order on 2025-05-04 by Pract
 * status = #draft
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-05-04"
+* authoredOn = "2025-05-04T15:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#351151 "ferrous gluconate 225 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#69375000910
@@ -356,7 +356,7 @@ Description: "MedicationRequest for jardiance - draft order on 2025-05-04 by Pra
 * status = #draft
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-05-04"
+* authoredOn = "2025-05-04T16:15:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "Jardiance 10 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#55154041108
@@ -368,7 +368,7 @@ Description: "MedicationRequest for lipitor - active order on 2025-05-04 by Prac
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-05-04"
+* authoredOn = "2025-05-04T16:15:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00440712730
@@ -380,7 +380,7 @@ Description: "MedicationRequest for metformin - active order on 2025-05-04 by Pr
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-05-04"
+* authoredOn = "2025-05-04T16:15:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#861007 "metFORMIN hydrochloride 500 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00440573900
@@ -392,7 +392,7 @@ Description: "MedicationRequest for polyethylene - active order on 2025-05-04 by
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-05-04"
+* authoredOn = "2025-05-04T16:15:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
 * medicationCodeableConcept[0].coding[1] = $NDC#63739019862
@@ -404,7 +404,7 @@ Description: "MedicationRequest for sertraline - active order on 2025-05-04 by P
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-05-04"
+* authoredOn = "2025-05-04T16:15:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#312940 "sertraline 25 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00440831530
@@ -416,7 +416,7 @@ Description: "MedicationRequest for acetaminophen - active order on 2025-07-02 b
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-07-02"
+* authoredOn = "2025-07-02T13:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#313782 "acetaminophen 325 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00536116401
@@ -428,7 +428,7 @@ Description: "MedicationRequest for carvedilol - stopped order on 2025-07-02 by 
 * status = #stopped
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-07-02"
+* authoredOn = "2025-07-02T13:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#200031 "carvedilol 6.25 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00781522301
@@ -440,7 +440,7 @@ Description: "MedicationRequest for clopidogrel - active order on 2025-07-02 by 
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-07-02"
+* authoredOn = "2025-07-02T13:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00904629461
@@ -452,7 +452,7 @@ Description: "MedicationRequest for ferrous - stopped order on 2025-07-02 by Pra
 * status = #stopped
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-07-02"
+* authoredOn = "2025-07-02T13:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#351151 "ferrous gluconate 225 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#69375000910
@@ -464,7 +464,7 @@ Description: "MedicationRequest for ferrous - active order on 2025-07-02 by Prac
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-07-02"
+* authoredOn = "2025-07-02T13:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#702249 "ferrous sulfate 44 MG/ML Oral Solution"
 * medicationCodeableConcept[0].coding[1] = $NDC#54569352800
@@ -476,7 +476,7 @@ Description: "MedicationRequest for insulin - active order on 2025-07-02 by Prac
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-07-02"
+* authoredOn = "2025-07-02T13:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#311048 "insulin isophane, human 70 UNT/ML / insulin, regular, human 30 UNT/ML Injectable Suspension"
 * medicationCodeableConcept[0].coding[1] = $NDC#71093014311
@@ -488,7 +488,7 @@ Description: "MedicationRequest for jardiance - stopped order on 2025-07-02 by P
 * status = #stopped
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-07-02"
+* authoredOn = "2025-07-02T13:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "Jardiance 10 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#55154041108
@@ -500,7 +500,7 @@ Description: "MedicationRequest for lipitor - active order on 2025-07-02 by Prac
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-07-02"
+* authoredOn = "2025-07-02T13:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00440712730
@@ -512,7 +512,7 @@ Description: "MedicationRequest for lipitor - draft order on 2025-07-02 by Pract
 * status = #draft
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-07-02"
+* authoredOn = "2025-07-03T09:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-DNP-JudySalas)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00440712730
@@ -524,7 +524,7 @@ Description: "MedicationRequest for metformin - active order on 2025-07-02 by Pr
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-07-02"
+* authoredOn = "2025-07-03T09:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-DNP-JudySalas)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#861007 "metFORMIN hydrochloride 500 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00440573900
@@ -536,7 +536,7 @@ Description: "MedicationRequest for metformin - draft order on 2025-07-02 by Pra
 * status = #draft
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-07-02"
+* authoredOn = "2025-07-03T09:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-DNP-JudySalas)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#861007 "metFORMIN hydrochloride 500 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00440573900
@@ -548,7 +548,7 @@ Description: "MedicationRequest for polyethylene - stopped order on 2025-07-02 b
 * status = #stopped
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-07-02"
+* authoredOn = "2025-07-03T09:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-DNP-JudySalas)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
 * medicationCodeableConcept[0].coding[1] = $NDC#63739019862
@@ -560,7 +560,7 @@ Description: "MedicationRequest for sertraline - stopped order on 2025-07-02 by 
 * status = #stopped
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-07-02"
+* authoredOn = "2025-07-03T09:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-DNP-JudySalas)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#312940 "sertraline 25 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00440831530
@@ -572,7 +572,7 @@ Description: "MedicationRequest for sitagliptin - active order on 2025-07-02 by 
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-07-02"
+* authoredOn = "2025-07-03T09:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-DNP-JudySalas)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#665042 "sitagliptin 50 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#70710190009
@@ -584,7 +584,7 @@ Description: "MedicationRequest for sitagliptin - active order on 2025-07-02 by 
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-07-02"
+* authoredOn = "2025-07-03T09:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-DNP-JudySalas)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#665042 "sitagliptin 50 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#70710190009
@@ -596,7 +596,7 @@ Description: "MedicationRequest for acetaminophen - active order on 2025-07-16 b
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-07-16"
+* authoredOn = "2025-07-16T11:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#313782 "acetaminophen 325 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00536116401
@@ -608,7 +608,7 @@ Description: "MedicationRequest for clopidogrel - active order on 2025-07-16 by 
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-07-16"
+* authoredOn = "2025-07-16T11:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00904629461
@@ -620,7 +620,7 @@ Description: "MedicationRequest for ferrous - active order on 2025-07-16 by Role
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-07-16"
+* authoredOn = "2025-07-16T11:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#702249 "ferrous sulfate 44 MG/ML Oral Solution"
 * medicationCodeableConcept[0].coding[1] = $NDC#54569352800
@@ -632,7 +632,7 @@ Description: "MedicationRequest for insulin - active order on 2025-07-16 by Role
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-07-16"
+* authoredOn = "2025-07-16T11:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#311048 "insulin isophane, human 70 UNT/ML / insulin, regular, human 30 UNT/ML Injectable Suspension"
 * medicationCodeableConcept[0].coding[1] = $NDC#71093014311
@@ -644,7 +644,7 @@ Description: "MedicationRequest for lipitor - stopped order on 2025-07-16 by Rol
 * status = #stopped
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-07-16"
+* authoredOn = "2025-07-16T11:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00440712730
@@ -656,7 +656,7 @@ Description: "MedicationRequest for metformin - stopped order on 2025-07-16 by R
 * status = #stopped
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-07-16"
+* authoredOn = "2025-07-16T11:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#861007 "metFORMIN hydrochloride 500 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00440573900
@@ -668,7 +668,7 @@ Description: "MedicationRequest for pitavastatin - active order on 2025-07-16 by
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-07-16"
+* authoredOn = "2025-07-16T11:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#861652 "pitavastatin calcium 4 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#72603048001
@@ -680,7 +680,7 @@ Description: "MedicationRequest for sitagliptin - active order on 2025-07-16 by 
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-07-16"
+* authoredOn = "2025-07-16T11:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#665042 "sitagliptin 50 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#70710190009
