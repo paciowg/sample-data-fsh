@@ -70,7 +70,7 @@ Usage: #example
 Description: "Betsy Smith-Johnson's Observation - aPTT"
 * status = #final
 * category = $observation-category#laboratory
-* code = $loinc#3173-2 "aPTT in Platelet poor plasma by Coagulation assay"
+* code = $loinc#3173-2 "aPTT in Blood by Coagulation assay"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * effectiveDateTime = "2025-05-03T08:30:00+11:00"
 * performer = Reference(Organization/org-ED-Metro-Hospital)
@@ -86,7 +86,7 @@ InstanceOf: Observation
 Description: "Betsy Smith-Johnson's Observation - DDimer"
 * status = #final
 * category = $observation-category#laboratory
-* code = $loinc#48065-7 "Fibrin D-dimer FEU in Platelet poor plasma"
+* code = $loinc#48065-7 "Fibrin D-dimer FEU [Mass/volume] in Platelet poor plasma"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * effectiveDateTime = "2025-05-03T08:30:00+11:00"
 * performer = Reference(Organization/org-ED-Metro-Hospital)
@@ -118,7 +118,7 @@ Usage: #example
 Description: "Betsy Smith-Johnson's Observation - Thrombin time"
 * status = #final
 * category = $observation-category#laboratory
-* code = $loinc#3243-3 "Thrombin time in Platelet poor plasma by Coagulation assay"
+* code = $loinc#3243-3 "Thrombin time"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * effectiveDateTime = "2025-05-03T08:30:00+11:00"
 * performer = Reference(Organization/org-ED-Metro-Hospital)
@@ -135,7 +135,7 @@ Usage: #example
 Description: "Betsy Smith-Johnson's Observation - Factor VIII"
 * status = #final
 * category = $observation-category#laboratory
-* code = $loinc#3209-4 "Coagulation factor VIII activity in Platelet poor plasma by Coagulation assay"
+* code = $loinc#3209-4 "Coagulation factor VIII activity actual/normal in Platelet poor plasma by Coagulation assay"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * effectiveDateTime = "2025-05-03T08:30:00+11:00"
 * performer = Reference(Organization/org-ED-Metro-Hospital)
@@ -152,7 +152,7 @@ Usage: #example
 Description: "Betsy Smith-Johnson's Observation - antithrombin III"
 * status = #final
 * category = $observation-category#laboratory
-* code = $loinc#27811-9 "Antithrombin III activity in Platelet poor plasma by Chromogenic method"
+* code = $loinc#27811-9 "Antithrombin actual/normal in Platelet poor plasma by Chromogenic method"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * effectiveDateTime = "2025-05-03T08:30:00+11:00"
 * performer = Reference(Organization/org-ED-Metro-Hospital)
@@ -169,7 +169,7 @@ Usage: #example
 Description: "Betsy Smith-Johnson's Observation - Protein C"
 * status = #final
 * category = $observation-category#laboratory
-* code = $loinc#27820-0 "Protein C activity in Platelet poor plasma by Chromogenic method"
+* code = $loinc#27820-0 "Protein C Ag actual/normal in Platelet poor plasma by Immunoassay"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * effectiveDateTime = "2025-05-03T08:30:00+11:00"
 * performer = Reference(Organization/org-ED-Metro-Hospital)
@@ -186,7 +186,7 @@ Usage: #example
 Description: "Betsy Smith-Johnson's Observation - Protein S"
 * status = #final
 * category = $observation-category#laboratory
-* code = $loinc#27821-8 "Protein S free activity in Platelet poor plasma by Coagulation assay"
+* code = $loinc#27821-8 "Protein S Free Ag actual/normal in Platelet poor plasma by Immunoassay"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * effectiveDateTime = "2025-05-03T08:30:00+11:00"
 * performer = Reference(Organization/org-ED-Metro-Hospital)
