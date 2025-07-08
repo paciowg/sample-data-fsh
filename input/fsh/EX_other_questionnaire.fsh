@@ -549,9 +549,7 @@ Usage: #example
 * item[=].item.extension.valueCodeableConcept.text = "Help-Button"
 * item[=].item.extension.valueCodeableConcept = $questionnaire-item-control#help "Help-Button"
 
-//BTM 2025-07-08 need to confirm whether this Questionnaire instance is necessary or we can link to an existing canonical url
 //BIMS
-/*
 Instance: Questionnaire-Brief-Interview-for-Mental-Status
 InstanceOf: Questionnaire
 Usage: #example
@@ -644,4 +642,3 @@ Description: "Brief Interview for Mental Status (BIMS)"
 * item[=].prefix = "C0500"
 * item[=].text = "BIMS Summary Score"
 * item[=].type = #decimal
-*/
