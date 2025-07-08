@@ -52,7 +52,6 @@ Description: "Betsy Smith-Johnson's TOC Document from Hospital to SNF as a Disch
 * section[=].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of test results for Betsy Smith Johnson</div>"
 * section[=].entry[0] = Reference(DiagnosticReport/betsysmith-johnson01-diagnosticReport-CTScan-01)
-* section[=].entry[+] = Reference(DiagnosticReport/betsysmith-johnson01-diagnosticReport-CTScan-02)
 * section[=].entry[+] = Reference(DiagnosticReport/betsysmith-johnson01-diagnosticReport-MRI-01)
 * section[=].entry[+] = Reference(QuestionnaireResponse/betsysmith-johnson01-qr-strokescale-01)
 * section[=].entry[+] = Reference(DiagnosticReport/betsysmith-johnson01-lipid-panel-01)

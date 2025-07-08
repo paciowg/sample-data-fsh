@@ -26,6 +26,7 @@ Usage: #example
 * section[=].code = $loinc#46239-0 "Chief complaint+Reason for visit Narrative"
 * section[=].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Chief complaint and reason for visit for Betsy Smith Johnson</div>"
+* section[=].entry[0] = Reference(DocumentReference/BSJ1-documentReference-ED-AdminAssessment-01)
 * section[+].title = "Chief Complaint Section"
 * section[=].code = $loinc#10154-3 "Chief complaint Narrative - Reported"
 * section[=].text.status = #additional
