@@ -88,7 +88,7 @@ Description: "MedicationStatement for colace - stopped on 2025-04-22 from org-Mi
 Instance: bsj1-smp-medstmt-ferrous-0-8
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "MedicationStatement for ferrous - active on 2025-04-22 from org-Michigan-Primary-Health-Care-A"
+Description: "MedicationStatement for ferrous gluconate - active on 2025-04-22 from org-Michigan-Primary-Health-Care-A"
 * basedOn = Reference(bsj1-smp-medrx-ferrous-0-8)
 * status = #active
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
@@ -100,7 +100,7 @@ Description: "MedicationStatement for ferrous - active on 2025-04-22 from org-Mi
 Instance: bsj1-smp-medstmt-ferrous-0-9
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "MedicationStatement for ferrous - stopped on 2025-04-22 from org-Michigan-Primary-Health-Care-A"
+Description: "MedicationStatement for ferrous gluconate - stopped on 2025-04-22 from org-Michigan-Primary-Health-Care-A"
 * basedOn = Reference(bsj1-smp-medrx-ferrous-0-9)
 * status = #stopped
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
@@ -232,7 +232,7 @@ Description: "MedicationStatement for clopidogrel - active on 2025-05-03 from or
 Instance: bsj1-smp-medstmt-ferrous-1-4
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "MedicationStatement for ferrous - active on 2025-05-03 from org-ED-Metro-Hospital"
+Description: "MedicationStatement for ferrous gluconate - active on 2025-05-03 from org-ED-Metro-Hospital"
 * basedOn = Reference(bsj1-smp-medrx-ferrous-1-4)
 * status = #active
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
@@ -328,7 +328,7 @@ Description: "MedicationStatement for clopidogrel - active on 2025-05-04 from or
 Instance: bsj1-smp-medstmt-ferrous-1-12
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "MedicationStatement for ferrous - active on 2025-05-04 from org-ED-Metro-Hospital"
+Description: "MedicationStatement for ferrous gluconate - active on 2025-05-04 from org-ED-Metro-Hospital"
 * basedOn = Reference(bsj1-smp-medrx-ferrous-1-12)
 * status = #active
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
@@ -340,7 +340,7 @@ Description: "MedicationStatement for ferrous - active on 2025-05-04 from org-ED
 Instance: bsj1-smp-medstmt-ferrous-1-13
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "MedicationStatement for ferrous - draft on 2025-05-04 from org-ED-Metro-Hospital"
+Description: "MedicationStatement for ferrous gluconate - draft on 2025-05-04 from org-ED-Metro-Hospital"
 * basedOn = Reference(bsj1-smp-medrx-ferrous-1-13)
 * status = #intended
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
@@ -448,7 +448,7 @@ Description: "MedicationStatement for clopidogrel - active on 2025-07-02 from or
 Instance: bsj1-smp-medstmt-ferrous-2-9
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "MedicationStatement for ferrous - stopped on 2025-07-02 from org-Motor-City-Skilled-Nursing-Facility"
+Description: "MedicationStatement for ferrous gluconate - stopped on 2025-07-02 from org-Motor-City-Skilled-Nursing-Facility"
 * basedOn = Reference(bsj1-smp-medrx-ferrous-2-9)
 * status = #stopped
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
@@ -460,7 +460,7 @@ Description: "MedicationStatement for ferrous - stopped on 2025-07-02 from org-M
 Instance: bsj1-smp-medstmt-ferrous-2-10
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "MedicationStatement for ferrous - active on 2025-07-02 from org-Motor-City-Skilled-Nursing-Facility"
+Description: "MedicationStatement for ferrous gluconate - active on 2025-07-02 from org-Motor-City-Skilled-Nursing-Facility"
 * basedOn = Reference(bsj1-smp-medrx-ferrous-2-10)
 * status = #active
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
@@ -616,7 +616,7 @@ Description: "MedicationStatement for clopidogrel - active on 2025-07-16 from or
 Instance: bsj1-smp-medstmt-ferrous-4-3
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "MedicationStatement for ferrous - active on 2025-07-16 from org-Michigan-Primary-Health-Care-A"
+Description: "MedicationStatement for ferrous gluconate - active on 2025-07-16 from org-Michigan-Primary-Health-Care-A"
 * basedOn = Reference(bsj1-smp-medrx-ferrous-4-3)
 * status = #active
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"

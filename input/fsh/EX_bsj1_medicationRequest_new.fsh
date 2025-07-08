@@ -88,7 +88,7 @@ Description: "MedicationRequest for colace - stopped order on 2025-04-22 by Role
 Instance: bsj1-smp-medrx-ferrous-0-8
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "MedicationRequest for ferrous - active order on 2025-04-22 by Role-IMMD-AnitaChu"
+Description: "MedicationRequest for ferrous gluconate - active order on 2025-04-22 by Role-IMMD-AnitaChu"
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
@@ -100,7 +100,7 @@ Description: "MedicationRequest for ferrous - active order on 2025-04-22 by Role
 Instance: bsj1-smp-medrx-ferrous-0-9
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "MedicationRequest for ferrous - stopped order on 2025-04-22 by Role-IMMD-AnitaChu"
+Description: "MedicationRequest for ferrous gluconate - stopped order on 2025-04-22 by Role-IMMD-AnitaChu"
 * status = #stopped
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
@@ -232,7 +232,7 @@ Description: "MedicationRequest for clopidogrel - active order on 2025-05-03 by 
 Instance: bsj1-smp-medrx-ferrous-1-4
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "MedicationRequest for ferrous - active order on 2025-05-03 by PractitionerRole-Physician-PriyaSarkar"
+Description: "MedicationRequest for ferrous gluconate - active order on 2025-05-03 by PractitionerRole-Physician-PriyaSarkar"
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
@@ -328,7 +328,7 @@ Description: "MedicationRequest for clopidogrel - active order on 2025-05-04 by 
 Instance: bsj1-smp-medrx-ferrous-1-12
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "MedicationRequest for ferrous - active order on 2025-05-04 by PractitionerRole-Physician-PriyaSarkar"
+Description: "MedicationRequest for ferrous gluconate - active order on 2025-05-04 by PractitionerRole-Physician-PriyaSarkar"
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
@@ -340,7 +340,7 @@ Description: "MedicationRequest for ferrous - active order on 2025-05-04 by Prac
 Instance: bsj1-smp-medrx-ferrous-1-13
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "MedicationRequest for ferrous - draft order on 2025-05-04 by PractitionerRole-Physician-PriyaSarkar"
+Description: "MedicationRequest for ferrous gluconate - draft order on 2025-05-04 by PractitionerRole-Physician-PriyaSarkar"
 * status = #draft
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
@@ -448,7 +448,7 @@ Description: "MedicationRequest for clopidogrel - active order on 2025-07-02 by 
 Instance: bsj1-smp-medrx-ferrous-2-9
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "MedicationRequest for ferrous - stopped order on 2025-07-02 by PractitionerRole-MD-HemaOnko"
+Description: "MedicationRequest for ferrous gluconate - stopped order on 2025-07-02 by PractitionerRole-MD-HemaOnko"
 * status = #stopped
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
@@ -460,7 +460,7 @@ Description: "MedicationRequest for ferrous - stopped order on 2025-07-02 by Pra
 Instance: bsj1-smp-medrx-ferrous-2-10
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "MedicationRequest for ferrous - active order on 2025-07-02 by PractitionerRole-MD-HemaOnko"
+Description: "MedicationRequest for ferrous gluconate - active order on 2025-07-02 by PractitionerRole-MD-HemaOnko"
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
@@ -508,7 +508,7 @@ Description: "MedicationRequest for lipitor - active order on 2025-07-02 by Prac
 Instance: bsj1-smp-medrx-lipitor-3-1
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "MedicationRequest for lipitor - draft order on 2025-07-02 by PractitionerRole-DNP-JudySalas"
+Description: "MedicationRequest for lipitor - draft order on 2025-07-03 by PractitionerRole-DNP-JudySalas"
 * status = #draft
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
@@ -532,7 +532,7 @@ Description: "MedicationRequest for metformin - active order on 2025-07-02 by Pr
 Instance: bsj1-smp-medrx-metformin-3-3
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "MedicationRequest for metformin - draft order on 2025-07-02 by PractitionerRole-DNP-JudySalas"
+Description: "MedicationRequest for metformin - draft order on 2025-07-03 by PractitionerRole-DNP-JudySalas"
 * status = #draft
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
@@ -616,7 +616,7 @@ Description: "MedicationRequest for clopidogrel - active order on 2025-07-16 by 
 Instance: bsj1-smp-medrx-ferrous-4-3
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "MedicationRequest for ferrous - active order on 2025-07-16 by Role-IMMD-AnitaChu"
+Description: "MedicationRequest for ferrous gluconate - active order on 2025-07-16 by Role-IMMD-AnitaChu"
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
