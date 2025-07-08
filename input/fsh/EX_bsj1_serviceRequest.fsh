@@ -148,3 +148,24 @@ Description: "SNF admission referral for consulting clinical pharmacist for medi
 * locationReference = Reference(Location/org-Loc-Motor-City-Nursing-Facility)
 //* reasonReference = Reference( --problem list goes here when complete-- )
 * note.text = "Referral for consulting clinical pharmacist for medication reconciliation"
+
+Instance: betsysmith-johnson01-ServiceRequest-med-rec-order-02
+InstanceOf: ServiceRequest
+Usage: #example
+Description: "Home Health referral for consulting clinical pharmacist for medication reconciliation"
+* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-service-request"
+* status = #active
+* intent = #order
+* category = $sct#386053000 "Evaluation procedure (procedure)"
+* code = $sct#306362008 "Referral to pharmacist (procedure)"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
+* priority = #asap
+* occurrencePeriod.start = "2025-07-04"
+* authoredOn = "2025-07-04T11:40:00-04:00"
+* requester = Reference(PractitionerRole/PractitionerRole-DNP-JudySalas)
+* performer = Reference(PractitionerRole/PractitionerRole-Pharm-AlexMarkos)
+* performerType = $sct#46255001 "Pharmacist (occupation)"
+* locationCode = #homeHealth "Home Health"
+* locationReference = Reference(Location/org-Loc-Motown-Home-Health)
+//* reasonReference = Reference( --problem list goes here when complete-- )
+* note.text = "Medication reconciliation referral for home health"

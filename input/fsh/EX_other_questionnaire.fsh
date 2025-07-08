@@ -548,3 +548,100 @@ Usage: #example
 * item[=].item.extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[=].item.extension.valueCodeableConcept.text = "Help-Button"
 * item[=].item.extension.valueCodeableConcept = $questionnaire-item-control#help "Help-Button"
+
+//BTM 2025-07-08 need to confirm whether this Questionnaire instance is necessary or we can link to an existing canonical url
+//BIMS
+/*
+Instance: Questionnaire-Brief-Interview-for-Mental-Status
+InstanceOf: Questionnaire
+Usage: #example
+Description: "Brief Interview for Mental Status (BIMS)"
+* name = "Brief_Interview_for_Mental_Status_BIMS"
+* title = "Brief Interview for Mental Status (BIMS)"
+* status = #draft
+* subjectType = #Patient
+* publisher = "Regenstrief Institute, Inc."
+* contact.name = "Regenstrief Institute, Inc."
+* contact.telecom.system = #url
+* contact.telecom.value = "http://loinc.org"
+* copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee. All rights reserved. LOINC is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc."
+* code = $loinc#52491-8 "Brief Interview for Mental Status (BIMS)"
+* item[0].linkId = "97479"
+* item[=].code = $loinc#52731-7 "Repetition of Three Words. Number of words repeated after first attempt"
+* item[=].prefix = "C0200"
+* item[=].text = "Repetition of Three Words. Number of words repeated after first attempt"
+* item[=].type = #choice
+* item[=].repeats = false
+* item[=].answerOption[0].valueCoding = $loinc#LA137-2 "None"
+* item[=].answerOption[+].valueCoding = $loinc#LA6306-0 "One"
+* item[=].answerOption[+].valueCoding = $loinc#LA6404-3 "Two"
+* item[=].answerOption[+].valueCoding = $loinc#LA6395-3 "Three"
+* item[+].linkId = "97480"
+* item[=].prefix = "C0300"
+* item[=].text = "Temporal Orientation (orientation to year, month, and day)"
+* item[=].type = #group
+* item[=].required = true
+* item[=].item[0].linkId = "97481"
+* item[=].item[=].code = $loinc#52732-5 "Able to report correct year"
+* item[=].item[=].prefix = "C0300A"
+* item[=].item[=].text = "Able to report correct year"
+* item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
+* item[=].item[=].answerOption[0].valueCoding = $loinc#LA10965-4 "Missed by > 5 years or no answer"
+* item[=].item[=].answerOption[+].valueCoding = $loinc#LA10966-2 "Missed by 2-5 years"
+* item[=].item[=].answerOption[+].valueCoding = $loinc#LA10008-3 "Missed by 1 year"
+* item[=].item[=].answerOption[+].valueCoding = $loinc#LA9960-1 "Correct"
+* item[=].item[+].linkId = "97482"
+* item[=].item[=].code = $loinc#52733-3 "Able to report correct month"
+* item[=].item[=].prefix = "C0300B"
+* item[=].item[=].text = "Able to report correct month"
+* item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
+* item[=].item[=].answerOption[0].valueCoding = $loinc#LA10969-6 "Missed by > 1 month or no answer"
+* item[=].item[=].answerOption[+].valueCoding = $loinc#LA10010-9 "Missed by 6 days to 1 month"
+* item[=].item[=].answerOption[+].valueCoding = $loinc#LA9927-0 "Accurate within 5 days"
+* item[=].item[+].linkId = "97483"
+* item[=].item[=].code = $loinc#54609-3 "Able to report correct day of the week"
+* item[=].item[=].prefix = "C0300C"
+* item[=].item[=].text = "Able to report correct day of the week"
+* item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
+* item[=].item[=].answerOption[0].valueCoding = $loinc#LA9981-7 "Incorrect or no answer"
+* item[=].item[=].answerOption[+].valueCoding = $loinc#LA9960-1 "Correct"
+* item[+].linkId = "97484"
+* item[=].prefix = "C0400"
+* item[=].text = "Recall"
+* item[=].type = #group
+* item[=].required = true
+* item[=].item[0].linkId = "97485"
+* item[=].item[=].code = $loinc#52735-8 "Able to recall \"sock\""
+* item[=].item[=].prefix = "C0400A"
+* item[=].item[=].text = "Able to recall \"sock\""
+* item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
+* item[=].item[=].answerOption[0].valueCoding = $loinc#LA10974-6 "No - could not recall"
+* item[=].item[=].answerOption[+].valueCoding = $loinc#LA10126-3 "Yes, after cueing (\"something to wear\")"
+* item[=].item[=].answerOption[+].valueCoding = $loinc#LA10134-7 "Yes, no cue required"
+* item[=].item[+].linkId = "97486"
+* item[=].item[=].code = $loinc#52736-6 "Able to recall \"blue\""
+* item[=].item[=].prefix = "C0400B"
+* item[=].item[=].text = "Able to recall \"blue\""
+* item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
+* item[=].item[=].answerOption[0].valueCoding = $loinc#LA10974-6 "No - could not recall"
+* item[=].item[=].answerOption[+].valueCoding = $loinc#LA10978-7 "Yes, after cueing (\"a color\")"
+* item[=].item[=].answerOption[+].valueCoding = $loinc#LA10134-7 "Yes, no cue required"
+* item[=].item[+].linkId = "97487"
+* item[=].item[=].code = $loinc#52737-4 "Able to recall \"bed\""
+* item[=].item[=].prefix = "C0400C"
+* item[=].item[=].text = "Able to recall \"bed\""
+* item[=].item[=].type = #choice
+* item[=].item[=].repeats = false
+* item[=].item[=].answerOption[0].valueCoding = $loinc#LA10974-6 "No - could not recall"
+* item[=].item[=].answerOption[+].valueCoding = $loinc#LA10125-5 "Yes, after cueing (\"a piece of furniture\")"
+* item[=].item[=].answerOption[+].valueCoding = $loinc#LA10134-7 "Yes, no cue required"
+* item[+].linkId = "97488"
+* item[=].prefix = "C0500"
+* item[=].text = "BIMS Summary Score"
+* item[=].type = #decimal
+*/

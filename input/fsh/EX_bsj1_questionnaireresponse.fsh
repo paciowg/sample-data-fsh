@@ -140,14 +140,18 @@ Usage: #example
 Instance: betsysmith-johnson01-qr-bims-snf-admission-01
 InstanceOf: QuestionnaireResponse
 Usage: #example
-* questionnaire = "https://loinc.org/52491-8/"
+* questionnaire = "http://loinc.org/q/52491-8"
+//BTM 2025-07-08 need to confirm canonical url of BIMS and other Questionnaires
+//* questionnaire = "https://gw.interop.community/paciosandbox/open/Questionnaire/Questionnaire-Brief-Interview-for-Mental-Status"
 * status = #completed
 * authored = "2025-05-04T16:30:00.000Z"
 * author = Reference(Practitioner/Practitioner-TreyvorClark)
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * item[0].linkId = "/52731-7"
 * item[=].text = "Repetition of Three Words. Number of words repeated after first attempt"
-* item[=].answer.valueDecimal = 1
+* item[=].answer.valueCoding = $loinc#LA6306-0 "One"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 1
 * item[+].linkId = "/54510-3"
 * item[=].text = "Temporal Orientation (orientation to year, month, and day)"
 * item[=].item[0].linkId = "/52732-5"
