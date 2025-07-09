@@ -334,7 +334,7 @@ Usage: #example
 Instance: betsysmith-johnson01-qr-slp-assessment-snf-admission-01
 InstanceOf: QuestionnaireResponse
 Usage: #example
-* questionnaire = "https://loinc.org/90473-0"
+* questionnaire = "https://gw.interop.community/paciosandbox/open/Questionnaire/Questionnaire-MDS-Nursing-Home-Comprehensive-Item-Set"
 * status = #completed
 * authored = "2025-05-05T13:00:00.000Z"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
@@ -500,7 +500,7 @@ Usage: #example
 Instance: betsysmith-johnson01-qr-slp-assessment-snf-discharge-01
 InstanceOf: QuestionnaireResponse
 Usage: #example
-* questionnaire = "https://loinc.org/95734-0/"
+* questionnaire = "https://gw.interop.community/paciosandbox/open/Questionnaire/Questionnaire-MDS-Nursing-Home-Comprehensive-Item-Set"
 * status = #completed
 * authored = "2025-06-30T13:00:00.000Z"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
