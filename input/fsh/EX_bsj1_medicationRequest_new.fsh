@@ -356,7 +356,7 @@ Description: "MedicationRequest for jardiance - draft order on 2025-05-04 by Pra
 * status = #draft
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-05-04T16:15:00-08:00"
+* authoredOn = "2025-07-01T16:15:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "Jardiance 10 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#55154041108
@@ -368,7 +368,7 @@ Description: "MedicationRequest for lipitor - active order on 2025-05-04 by Prac
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-05-04T16:15:00-08:00"
+* authoredOn = "2025-07-01T16:15:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00440712730
@@ -380,7 +380,7 @@ Description: "MedicationRequest for metformin - active order on 2025-05-04 by Pr
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-05-04T16:15:00-08:00"
+* authoredOn = "2025-07-01T16:15:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#861007 "metFORMIN hydrochloride 500 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00440573900
@@ -392,7 +392,7 @@ Description: "MedicationRequest for polyethylene - active order on 2025-05-04 by
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-05-04T16:15:00-08:00"
+* authoredOn = "2025-07-01T16:15:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
 * medicationCodeableConcept[0].coding[1] = $NDC#63739019862
@@ -404,7 +404,7 @@ Description: "MedicationRequest for sertraline - active order on 2025-05-04 by P
 * status = #active
 * intent = #order
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-05-04T16:15:00-08:00"
+* authoredOn = "2025-07-01T16:15:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#312940 "sertraline 25 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00440831530

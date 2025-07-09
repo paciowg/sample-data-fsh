@@ -356,7 +356,7 @@ Description: "MedicationStatement for jardiance - draft on 2025-05-04 from org-M
 * basedOn = Reference(bsj1-smp-medrx-jardiance-2-1)
 * status = #intended
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* dateAsserted = "2025-05-04T16:15:00-08:00"
+* dateAsserted = "2025-07-01T16:15:00-08:00"
 * informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "Jardiance 10 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#55154041108
@@ -368,7 +368,7 @@ Description: "MedicationStatement for lipitor - active on 2025-05-04 from org-Mo
 * basedOn = Reference(bsj1-smp-medrx-lipitor-2-2)
 * status = #active
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* dateAsserted = "2025-05-04T16:15:00-08:00"
+* dateAsserted = "2025-07-01T16:15:00-08:00"
 * informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00440712730
@@ -380,7 +380,7 @@ Description: "MedicationStatement for metformin - active on 2025-05-04 from org-
 * basedOn = Reference(bsj1-smp-medrx-metformin-2-3)
 * status = #active
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* dateAsserted = "2025-05-04T16:15:00-08:00"
+* dateAsserted = "2025-07-01T16:15:00-08:00"
 * informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#861007 "metFORMIN hydrochloride 500 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00440573900
@@ -392,7 +392,7 @@ Description: "MedicationStatement for polyethylene - active on 2025-05-04 from o
 * basedOn = Reference(bsj1-smp-medrx-polyethylene-2-4)
 * status = #active
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* dateAsserted = "2025-05-04T16:15:00-08:00"
+* dateAsserted = "2025-07-01T16:15:00-08:00"
 * informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
 * medicationCodeableConcept[0].coding[1] = $NDC#63739019862
@@ -404,7 +404,7 @@ Description: "MedicationStatement for sertraline - active on 2025-05-04 from org
 * basedOn = Reference(bsj1-smp-medrx-sertraline-2-5)
 * status = #active
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* dateAsserted = "2025-05-04T16:15:00-08:00"
+* dateAsserted = "2025-07-01T16:15:00-08:00"
 * informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#312940 "sertraline 25 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00440831530
