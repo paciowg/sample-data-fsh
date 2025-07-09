@@ -83,7 +83,7 @@ Usage: #example
 Instance: betsysmith-johnson01-qr-phq9-snf-admission-01
 InstanceOf: QuestionnaireResponse
 Usage: #example
-* questionnaire = "https://loinc.org/44249-1"
+* questionnaire = "https://gw.interop.community/paciosandbox/open/Questionnaire/44249-1"
 * status = #completed
 * authored = "2025-05-04T16:30:00.000Z"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
