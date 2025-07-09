@@ -191,7 +191,7 @@ Usage: #example
 Instance: betsysmith-johnson01-qr-pt-assessment-snf-admission-01
 InstanceOf: QuestionnaireResponse
 Usage: #example
-* questionnaire = "https://loinc.org/103564-1/panel#141360"
+* questionnaire = "https://gw.interop.community/paciosandbox/open/Questionnaire/Questionnaire-MDS-Nursing-Home-Comprehensive-Item-Set"
 * status = #completed
 * authored = "2025-05-05T09:00:00.000Z"
 * author = Reference(Practitioner/Practitioner-DeyonteDarden)
@@ -285,7 +285,7 @@ Usage: #example
 Instance: betsysmith-johnson01-qr-ot-assessment-snf-admission-01
 InstanceOf: QuestionnaireResponse
 Usage: #example
-* questionnaire = "https://loinc.org/90473-0/panel#102938"
+* questionnaire = "https://gw.interop.community/paciosandbox/open/Questionnaire/Questionnaire-MDS-Nursing-Home-Comprehensive-Item-Set"
 * status = #completed
 * authored = "2025-05-05T11:00:00.000Z"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
@@ -357,7 +357,7 @@ Usage: #example
 Instance: betsysmith-johnson01-qr-pt-assessment-snf-discharge-01
 InstanceOf: QuestionnaireResponse
 Usage: #example
-* questionnaire = "https://loinc.org/103564-1/panel#141360"
+* questionnaire = "https://gw.interop.community/paciosandbox/open/Questionnaire/Questionnaire-MDS-Nursing-Home-Comprehensive-Item-Set"
 * status = #completed
 * authored = "2025-06-30T09:00:00.000Z"
 * author = Reference(Practitioner/Practitioner-DeyonteDarden)
@@ -451,7 +451,7 @@ Usage: #example
 Instance: betsysmith-johnson01-qr-ot-assessment-snf-discharge-01
 InstanceOf: QuestionnaireResponse
 Usage: #example
-* questionnaire = "https://loinc.org/95734-0/"
+* questionnaire = "https://gw.interop.community/paciosandbox/open/Questionnaire/Questionnaire-MDS-Nursing-Home-Comprehensive-Item-Set"
 * status = #completed
 * authored = "2025-06-30T13:00:00.000Z"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
