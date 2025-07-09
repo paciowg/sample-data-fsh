@@ -21,7 +21,7 @@ Usage: #example
 
 Instance: 44249-1
 InstanceOf: Questionnaire
-Usage: #inline
+Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2025-05-28T18:06:29.000+00:00"
 * meta.source = "#aLYUC2N4J9eLQ33k"
