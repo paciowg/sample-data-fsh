@@ -24,7 +24,7 @@ Description: "Betsy Smith-Johnson's Patient Care Team - Post Discharge to Home C
 * participant[=].member = Reference(PractitionerRole/PractitionerRole-OT-SonjaValdez)
 * participant[+].role = $taxonomy#207R00000X "Internal Medicine Physician"
 * participant[=].role.text = "SNF Geriatrician"
-* participant[=].member = Reference(PractitionerRole/PractitionerRole/PractitionerRole-MD-HemaOnko)
+* participant[=].member = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
 * participant[+].role = $sct#159026005 "Speech and language therapist"
 * participant[=].role.text = "HHA Speech Language Pathologist"
 * participant[=].member = Reference(PractitionerRole/PractitionerRole-SLP-MiaRinaldi)

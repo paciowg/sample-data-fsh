@@ -94,8 +94,8 @@ Description: "MedicationRequest for ferrous gluconate - active order on 2025-04-
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#351151 "ferrous gluconate 225 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#69375000910
+* medicationCodeableConcept[0].coding[0] = $rxnorm#242590 "ferrous gluconate 240 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[1] = $NDC#11845013751
 
 Instance: bsj1-smp-medrx-ferrous-0-9
 InstanceOf: MedicationRequest
@@ -119,7 +119,7 @@ Description: "MedicationRequest for jardiance - active order on 2025-04-22 by Ro
 * authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "Jardiance 10 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#50090645200
+* medicationCodeableConcept[0].coding[1] = $NDC#00597015207
 
 Instance: bsj1-smp-medrx-lipitor-0-11
 InstanceOf: MedicationRequest
@@ -131,7 +131,7 @@ Description: "MedicationRequest for lipitor - active order on 2025-04-22 by Role
 * authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00440712730
+* medicationCodeableConcept[0].coding[1] = $NDC#00071015723
 
 Instance: bsj1-smp-medrx-metformin-0-12
 InstanceOf: MedicationRequest
@@ -238,8 +238,8 @@ Description: "MedicationRequest for ferrous gluconate - active order on 2025-05-
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authoredOn = "2025-05-03T14:45:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#351151 "ferrous gluconate 225 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#69375000910
+* medicationCodeableConcept[0].coding[0] = $rxnorm#242590 "ferrous gluconate 240 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[1] = $NDC#11845013751
 
 Instance: bsj1-smp-medrx-jardiance-1-5
 InstanceOf: MedicationRequest
@@ -263,7 +263,7 @@ Description: "MedicationRequest for lipitor - active order on 2025-05-03 by Prac
 * authoredOn = "2025-05-03T14:45:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00440712730
+* medicationCodeableConcept[0].coding[1] = $NDC#00071015723
 
 Instance: bsj1-smp-medrx-metformin-1-7
 InstanceOf: MedicationRequest
@@ -334,8 +334,8 @@ Description: "MedicationRequest for ferrous gluconate - active order on 2025-05-
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authoredOn = "2025-05-04T15:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#351151 "ferrous gluconate 225 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#69375000910
+* medicationCodeableConcept[0].coding[0] = $rxnorm#242590 "ferrous gluconate 240 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[1] = $NDC#11845013751
 
 Instance: bsj1-smp-medrx-ferrous-1-13
 InstanceOf: MedicationRequest
@@ -346,8 +346,8 @@ Description: "MedicationRequest for ferrous gluconate - draft order on 2025-05-0
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authoredOn = "2025-05-04T15:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#351151 "ferrous gluconate 225 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#69375000910
+* medicationCodeableConcept[0].coding[0] = $rxnorm#242590 "ferrous gluconate 240 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[1] = $NDC#11845013751
 
 Instance: bsj1-smp-medrx-jardiance-2-1
 InstanceOf: MedicationRequest
@@ -371,7 +371,7 @@ Description: "MedicationRequest for lipitor - active order on 2025-05-04 by Prac
 * authoredOn = "2025-07-01T16:15:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00440712730
+* medicationCodeableConcept[0].coding[1] = $NDC#00071015723
 
 Instance: bsj1-smp-medrx-metformin-2-3
 InstanceOf: MedicationRequest
@@ -454,8 +454,8 @@ Description: "MedicationRequest for ferrous gluconate - stopped order on 2025-07
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authoredOn = "2025-07-02T13:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#351151 "ferrous gluconate 225 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#69375000910
+* medicationCodeableConcept[0].coding[0] = $rxnorm#242590 "ferrous gluconate 240 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[1] = $NDC#11845013751
 
 Instance: bsj1-smp-medrx-ferrous-2-10
 InstanceOf: MedicationRequest
@@ -503,7 +503,7 @@ Description: "MedicationRequest for lipitor - active order on 2025-07-02 by Prac
 * authoredOn = "2025-07-02T13:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00440712730
+* medicationCodeableConcept[0].coding[1] = $NDC#00071015723
 
 Instance: bsj1-smp-medrx-lipitor-3-1
 InstanceOf: MedicationRequest
@@ -515,7 +515,7 @@ Description: "MedicationRequest for lipitor - draft order on 2025-07-03 by Pract
 * authoredOn = "2025-07-03T09:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-DNP-JudySalas)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00440712730
+* medicationCodeableConcept[0].coding[1] = $NDC#00071015723
 
 Instance: bsj1-smp-medrx-metformin-3-2
 InstanceOf: MedicationRequest
@@ -647,7 +647,7 @@ Description: "MedicationRequest for lipitor - stopped order on 2025-07-16 by Rol
 * authoredOn = "2025-07-16T11:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00440712730
+* medicationCodeableConcept[0].coding[1] = $NDC#00071015723
 
 Instance: bsj1-smp-medrx-metformin-4-6
 InstanceOf: MedicationRequest

@@ -94,8 +94,8 @@ Description: "MedicationStatement for ferrous gluconate - active on 2025-04-22 f
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * dateAsserted = "2025-04-22T09:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#351151 "ferrous gluconate 225 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#69375000910
+* medicationCodeableConcept[0].coding[0] = $rxnorm#242590 "ferrous gluconate 240 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[1] = $NDC#11845013751
 
 Instance: bsj1-smp-medstmt-ferrous-0-9
 InstanceOf: MedicationStatement
@@ -119,7 +119,7 @@ Description: "MedicationStatement for jardiance - active on 2025-04-22 from org-
 * dateAsserted = "2025-04-22T09:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "Jardiance 10 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#50090645200
+* medicationCodeableConcept[0].coding[1] = $NDC#00597015207
 
 Instance: bsj1-smp-medstmt-lipitor-0-11
 InstanceOf: MedicationStatement
@@ -131,7 +131,7 @@ Description: "MedicationStatement for lipitor - active on 2025-04-22 from org-Mi
 * dateAsserted = "2025-04-22T09:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00440712730
+* medicationCodeableConcept[0].coding[1] = $NDC#00071015723
 
 Instance: bsj1-smp-medstmt-metformin-0-12
 InstanceOf: MedicationStatement
@@ -238,8 +238,8 @@ Description: "MedicationStatement for ferrous gluconate - active on 2025-05-03 f
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * dateAsserted = "2025-05-03T14:45:00-08:00"
 * informationSource = Reference(Organization/org-ED-Metro-Hospital)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#351151 "ferrous gluconate 225 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#69375000910
+* medicationCodeableConcept[0].coding[0] = $rxnorm#242590 "ferrous gluconate 240 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[1] = $NDC#11845013751
 
 Instance: bsj1-smp-medstmt-jardiance-1-5
 InstanceOf: MedicationStatement
@@ -263,7 +263,7 @@ Description: "MedicationStatement for lipitor - active on 2025-05-03 from org-ED
 * dateAsserted = "2025-05-03T14:45:00-08:00"
 * informationSource = Reference(Organization/org-ED-Metro-Hospital)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00440712730
+* medicationCodeableConcept[0].coding[1] = $NDC#00071015723
 
 Instance: bsj1-smp-medstmt-metformin-1-7
 InstanceOf: MedicationStatement
@@ -334,8 +334,8 @@ Description: "MedicationStatement for ferrous gluconate - active on 2025-05-04 f
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * dateAsserted = "2025-05-04T15:00:00-08:00"
 * informationSource = Reference(Organization/org-ED-Metro-Hospital)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#351151 "ferrous gluconate 225 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#69375000910
+* medicationCodeableConcept[0].coding[0] = $rxnorm#242590 "ferrous gluconate 240 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[1] = $NDC#11845013751
 
 Instance: bsj1-smp-medstmt-ferrous-1-13
 InstanceOf: MedicationStatement
@@ -346,8 +346,8 @@ Description: "MedicationStatement for ferrous gluconate - draft on 2025-05-04 fr
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * dateAsserted = "2025-05-04T15:00:00-08:00"
 * informationSource = Reference(Organization/org-ED-Metro-Hospital)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#351151 "ferrous gluconate 225 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#69375000910
+* medicationCodeableConcept[0].coding[0] = $rxnorm#242590 "ferrous gluconate 240 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[1] = $NDC#11845013751
 
 Instance: bsj1-smp-medstmt-jardiance-2-1
 InstanceOf: MedicationStatement
@@ -371,7 +371,7 @@ Description: "MedicationStatement for lipitor - active on 2025-05-04 from org-Mo
 * dateAsserted = "2025-07-01T16:15:00-08:00"
 * informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00440712730
+* medicationCodeableConcept[0].coding[1] = $NDC#00071015723
 
 Instance: bsj1-smp-medstmt-metformin-2-3
 InstanceOf: MedicationStatement
@@ -454,8 +454,8 @@ Description: "MedicationStatement for ferrous gluconate - stopped on 2025-07-02 
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * dateAsserted = "2025-07-02T13:00:00-08:00"
 * informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#351151 "ferrous gluconate 225 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#69375000910
+* medicationCodeableConcept[0].coding[0] = $rxnorm#242590 "ferrous gluconate 240 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[1] = $NDC#11845013751
 
 Instance: bsj1-smp-medstmt-ferrous-2-10
 InstanceOf: MedicationStatement
@@ -503,7 +503,7 @@ Description: "MedicationStatement for lipitor - active on 2025-07-02 from org-Mo
 * dateAsserted = "2025-07-02T13:00:00-08:00"
 * informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00440712730
+* medicationCodeableConcept[0].coding[1] = $NDC#00071015723
 
 Instance: bsj1-smp-medstmt-lipitor-3-1
 InstanceOf: MedicationStatement
@@ -515,7 +515,7 @@ Description: "MedicationStatement for lipitor - draft on 2025-07-03 from org-Mot
 * dateAsserted = "2025-07-03T09:00:00-08:00"
 * informationSource = Reference(Organization/org-Motown-Home-Health)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00440712730
+* medicationCodeableConcept[0].coding[1] = $NDC#00071015723
 
 Instance: bsj1-smp-medstmt-metformin-3-2
 InstanceOf: MedicationStatement
@@ -647,7 +647,7 @@ Description: "MedicationStatement for lipitor - stopped on 2025-07-16 from org-M
 * dateAsserted = "2025-07-16T11:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00440712730
+* medicationCodeableConcept[0].coding[1] = $NDC#00071015723
 
 Instance: bsj1-smp-medstmt-metformin-4-6
 InstanceOf: MedicationStatement
