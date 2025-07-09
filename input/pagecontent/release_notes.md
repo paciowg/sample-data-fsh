@@ -1,4 +1,4 @@
-## Release 0.1 Summary
+**The following changes occurred since the PACIO ADI [STU1 publication in January 2024](https://hl7.org/fhir/us/pacio-adi/)**
 
 Initial migration of the sample data was based on the following events:
 * [FHIR Connectathon 37 - PACIO SMP and PFE Track](https://confluence.hl7.org/spaces/FHIR/pages/263389262/2024+-+09+PACIO+SMP+and+PFE+Track)

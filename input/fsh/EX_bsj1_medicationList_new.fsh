@@ -100,7 +100,7 @@ Description: "Betsy Smith-Johnson MedicationList for scene 2 - SNF - 13 medicati
 * mode = #working
 * title = "MedicationList for scene 2 - SNF"
 * code = $loinc#104203-5 "Reconciled medication list [Identifier] Episode Pharmacy"
-* date = "2025-05-04T16:15:00-08:00"
+* date = "2025-07-01T16:15:00-08:00"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * entry[0].item = Reference(MedicationStatement/bsj1-smp-medstmt-jardiance-2-1) "Jardiance 10 MG Oral Tablet"
 * entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-lipitor-2-2) "Lipitor 40 MG Oral Tablet"
@@ -124,7 +124,7 @@ Description: "Betsy Smith-Johnson MedicationList for scene 3 - HHA - 7 medicatio
 * mode = #working
 * title = "MedicationList for scene 3 - HHA"
 * code = $loinc#104203-5 "Reconciled medication list [Identifier] Episode Pharmacy"
-* date = "2025-07-02T13:00:00-08:00"
+* date = "2025-07-04T13:00:00-08:00"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * entry[0].item = Reference(MedicationStatement/bsj1-smp-medstmt-lipitor-3-1) "Lipitor 40 MG Oral Tablet"
 * entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-metformin-3-2) "metFORMIN hydrochloride 500 MG Oral Tablet"
