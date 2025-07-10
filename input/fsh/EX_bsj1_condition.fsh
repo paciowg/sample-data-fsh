@@ -449,3 +449,20 @@ Description: "Betsy Smith-Johnson's ED admission Condition: balance issues (atax
 * onsetDateTime = "2025-05-03T14:00:00-04:00"
 * recorder = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
 
+Instance: betsysmith-johnson01-list-of-conditions
+InstanceOf: List
+Usage: #example
+Description: "A list of Betsy Smith-Johnson's problems, conditions, and health concerns"
+* status = #current
+* mode = #snapshot
+* subject = Reference(Patient/patient-betsysmith-johnson01)
+* date = "2025-05-04T12:30:58.313-04:00"
+* source = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
+* entry[0].item = Reference(Condition/betsysmith-johnson01-Condition-Hypertension-01)
+* entry[+].item = Reference(Condition/betsysmith-johnson01-Condition-Hyperlipidemia-01)
+* entry[+].item = Reference(Condition/betsysmith-johnson01-Condition-Osteoarthritis-01)
+* entry[+].item = Reference(Condition/betsysmith-johnson01-condition-IschemicStrokeDiagnosis-01)
+* entry[+].item = Reference(Condition/betsysmith-johnson01-Condition-Diabetes-01)
+* entry[+].item = Reference(Condition/betsysmith-johnson01-Condition-BreastCancer-01)
+* entry[+].item = Reference(Condition/betsysmith-johnson01-Condition-Depression-01)
+* entry[+].item = Reference(Condition/betsysmith-johnson01-Condition-Bipolar-01)
