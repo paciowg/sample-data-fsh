@@ -1,4 +1,4 @@
-Instance: Practioner-GeraldPark
+Instance: Practitioner-GeraldPark
 InstanceOf: Practitioner
 Usage: #example
 Description: "Gerald Park's practitioner record."

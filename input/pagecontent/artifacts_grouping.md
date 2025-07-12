@@ -117,7 +117,7 @@
 
 
 ### Care team
-* [Care Team - post discharge to home care](CareTeam-BSJ1-CareTeam-PostDischargeToHome.html)
+* [Care Team - post discharge to home care](CareTeam-BSJ1-CareTeam-SNFDischargeToHHA.html)
 
 
 ### Compositions
@@ -133,7 +133,6 @@
 
 ### Diagnostic reports
 * [CT scan #1](DiagnosticReport-betsysmith-johnson01-diagnosticReport-CTScan-01.html)
-* [CT scan #2](DiagnosticReport-betsysmith-johnson01-diagnosticReport-CTScan-02.html)
 * [MRI/MRA](DiagnosticReport-betsysmith-johnson01-diagnosticReport-MRI-01.html)
 
 ### Document references
@@ -166,7 +165,7 @@
 * [FCM assessment collection for receiving information assessments](Observation-betsysmith-johnson01-FCMRec-Collection.html)
 * [FCM assessment collection for speaking assessments](Observation-betsysmith-johnson01-FCMSpeak-Collection.html)
 * [Impulse control](Observation-betsysmith-johnson01-Impulsive-Speech.html)
-* [Hemoglobin](Observation-betsysmith-johnson01-Lab-Hemaglobin.html)
+* [Hemoglobin](Observation-betsysmith-johnson01-Lab-Hemoglobin.html)
 * [MDS assessment collection for putting on and taking off clothes](Observation-betsysmith-johnson01-MDS-Activities-PT1.html)
 * [MDS assessment for putting on clothes](Observation-betsysmith-johnson01-MDS-Donning1.html)
 * [MDS assessment for taking off clothes](Observation-betsysmith-johnson01-MDS-Doffing1.html)
@@ -185,7 +184,6 @@
 * [Motor City Skilled Nursing Facility](Organization-org-Motor-City-Skilled-Nursing-Facility.html)
 * [Motown Home Health](Organization-org-Motown-Home-Health.html)
 * [Michigan Primary Health Care Associates](Organization-org-Michigan-Primary-Health-Care-A.html)
-* [Renaissance Pharmacy](Organization-org-Renaissance-Pharmacy.html)
 * [The Vernon Center](Organization-org-The-Vernon-Center.html)
 
 ### Questionnaire
@@ -213,12 +211,12 @@
 * [Request for consulting clinical pharmacist for medication reconciliation at SNF](ServiceRequest-betsysmith-johnson01-ServiceRequest-med-rec-order-01.html)
 
 ### Vital signs
-* [Panel of vital signs collected](Observation-us-core-vital-signs-betsysmith-johnson01-vital-signs-01.html)
-* [Body weight](Observation-us-core-body-weight-betsysmith-johnson01-observation-bodyweight-01.html)
-* [Body height](Observation-us-core-body-height-betsysmith-johnson01-observation-bodyheight-01.html)
-* [Body mass index](Observation-us-core-bmi-betsysmith-johnson01-observation-bmi-01.html)
-* [Blood pressure](Observation-us-core-blood-pressure-betsysmith-johnson01-observation-bp-01.html)
-* [Heart rate](Observation-us-core-heart-rate-betsysmith-johnson01-observation-heartrate-01.html)
-* [Respiratory rate](Observation-us-core-respiratory-rate-betsysmith-johnson01-observation-respirationrate-01.html)
-* [Body temperature](Observation-us-core-body-temperature-betsysmith-johnson01-observation-bodytemp-01.html)
-* [Pulse oximetry](Observation-us-core-pulse-oximetry-betsysmith-johnson01-observation-oxygensat-01.html)
+* [Panel of vital signs collected](Observation-betsysmith-johnson01-vital-signs-01.html)
+* [Body weight](Observation-betsysmith-johnson01-observation-bodyweight-01.html)
+* [Body height](Observation-betsysmith-johnson01-observation-bodyheight-01.html)
+* [Body mass index](Observation-betsysmith-johnson01-observation-bmi-01.html)
+* [Blood pressure](Observation-betsysmith-johnson01-observation-bp-01.html)
+* [Heart rate](Observation-betsysmith-johnson01-observation-heartrate-01.html)
+* [Respiratory rate](Observation-betsysmith-johnson01-observation-respirationrate-01.html)
+* [Body temperature](Observation-betsysmith-johnson01-observation-bodytemp-01.html)
+* [Pulse oximetry](Observation-betsysmith-johnson01-observation-oxygensat-01.html)

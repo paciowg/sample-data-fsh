@@ -270,7 +270,7 @@ Description: "Gerald Park's role at Happy Nursing Facility."
 * active = true
 * code = $taxonomy#207QG0300X "Geriatric Medicine (Family Medicine) Physician"
 * code.text = "Geriatric Medicine Physician"
-* practitioner = Reference(Practitioner/Practioner-GeraldPark) "Gerald Park"
+* practitioner = Reference(Practitioner/Practitioner-GeraldPark) "Gerald Park"
 * organization = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Happy Nursing Facility"
 * location = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
