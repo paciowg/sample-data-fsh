@@ -7,6 +7,8 @@ Description: "Betsy Smith-Johnson SMP Bundle - Home Medications"
 * meta.profile = "http://hl7.org/fhir/us/smp/StructureDefinition/smp-bundle"
 * type = #collection
 * timestamp = "2025-04-22T09:30:00-08:00"
+* entry[0].fullUrl = "urn:patient-betsysmith-johnson01"
+* entry[=].resource = patient-betsysmith-johnson01
 * entry[0].fullUrl = "urn:bsj1-smp-medListNew-0"
 * entry[=].resource = bsj1-smp-medListNew-0
 
@@ -18,7 +20,9 @@ Description: "Betsy Smith-Johnson SMP Bundle - Hospital Discharge"
 * meta.profile = "http://hl7.org/fhir/us/smp/StructureDefinition/smp-bundle"
 * type = #collection
 * timestamp = "2025-05-04T08:00:00Z"
-* entry[0].fullUrl = "urn:bsj1-smp-medListNew-1"
+* entry[0].fullUrl = "urn:patient-betsysmith-johnson01"
+* entry[=].resource = patient-betsysmith-johnson01
+* entry[+].fullUrl = "urn:bsj1-smp-medListNew-1"
 * entry[=].resource = bsj1-smp-medListNew-1
 
 Instance: betsysmith-johnson01-SMP-Bundle-02-SNFDischarge
@@ -28,7 +32,9 @@ Description: "Betsy Smith-Johnson SMP Bundle - SNF"
 * meta.profile = "http://hl7.org/fhir/us/smp/StructureDefinition/smp-bundle"
 * type = #collection
 * timestamp = "2025-07-02T09:00:00Z"
-* entry[0].fullUrl = "urn:bsj1-smp-medListNew-2"
+* entry[0].fullUrl = "urn:patient-betsysmith-johnson01"
+* entry[=].resource = patient-betsysmith-johnson01
+* entry[+].fullUrl = "urn:bsj1-smp-medListNew-2"
 * entry[=].resource = bsj1-smp-medListNew-2
 
 Instance: betsysmith-johnson01-SMP-Bundle-03-PCP
@@ -38,7 +44,9 @@ Description: "Betsy Smith-Johnson SMP Bundle - HHA"
 * meta.profile = "http://hl7.org/fhir/us/smp/StructureDefinition/smp-bundle"
 * type = #collection
 * timestamp = "2025-07-16T11:00:00Z"
-* entry[0].fullUrl = "urn:bsj1-smp-medListNew-3"
+* entry[0].fullUrl = "urn:patient-betsysmith-johnson01"
+* entry[=].resource = patient-betsysmith-johnson01
+* entry[+].fullUrl = "urn:bsj1-smp-medListNew-3"
 * entry[=].resource = bsj1-smp-medListNew-3
 
 Instance: bsj1-smp-medListNew-0
@@ -51,6 +59,7 @@ Description: "Betsy Smith-Johnson MedicationList for scene 0 - Home - 16 medicat
 * code = $loinc#104203-5 "Reconciled medication list [Identifier] Episode Pharmacy"
 * date = "2025-04-22T09:30:00-08:00"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
+* source = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * entry[0].item = Reference(MedicationStatement/bsj1-smp-medstmt-glipizide-0-1) "24 HR glipiZIDE 2.5 MG Extended Release Oral Tablet"
 * entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-acetaminophen-0-2) "acetaminophen 325 MG Oral Tablet"
 * entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-calcium-0-3) "calcium carbonate 1250 MG Oral Tablet"
@@ -78,6 +87,7 @@ Description: "Betsy Smith-Johnson MedicationList for scene 1 - ED / Hospital - 1
 * code = $loinc#104203-5 "Reconciled medication list [Identifier] Episode Pharmacy"
 * date = "2025-05-04T15:00:00-08:00"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
+* source = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
 * entry[0].item = Reference(MedicationStatement/bsj1-smp-medstmt-acetaminophen-1-1) "acetaminophen 325 MG Oral Tablet"
 * entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-carvedilol-1-2) "carvedilol 6.25 MG Oral Tablet"
 * entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-clopidogrel-1-3) "clopidogrel 75 MG Oral Tablet"
@@ -102,6 +112,7 @@ Description: "Betsy Smith-Johnson MedicationList for scene 2 - SNF - 13 medicati
 * code = $loinc#104203-5 "Reconciled medication list [Identifier] Episode Pharmacy"
 * date = "2025-07-01T16:15:00-08:00"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
+* source = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
 * entry[0].item = Reference(MedicationStatement/bsj1-smp-medstmt-jardiance-2-1) "Jardiance 10 MG Oral Tablet"
 * entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-lipitor-2-2) "Lipitor 40 MG Oral Tablet"
 * entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-metformin-2-3) "metFORMIN hydrochloride 500 MG Oral Tablet"
@@ -126,6 +137,7 @@ Description: "Betsy Smith-Johnson MedicationList for scene 3 - HHA - 7 medicatio
 * code = $loinc#104203-5 "Reconciled medication list [Identifier] Episode Pharmacy"
 * date = "2025-07-04T13:00:00-08:00"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
+* source = Reference(PractitionerRole/PractitionerRole-DNP-JudySalas)
 * entry[0].item = Reference(MedicationStatement/bsj1-smp-medstmt-lipitor-3-1) "Lipitor 40 MG Oral Tablet"
 * entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-metformin-3-2) "metFORMIN hydrochloride 500 MG Oral Tablet"
 * entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-metformin-3-3) "metFORMIN hydrochloride 500 MG Oral Tablet"
@@ -144,6 +156,7 @@ Description: "Betsy Smith-Johnson MedicationList for scene 4 - Primary Care - 8 
 * code = $loinc#104203-5 "Reconciled medication list [Identifier] Episode Pharmacy"
 * date = "2025-07-16T11:30:00-08:00"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
+* source = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * entry[0].item = Reference(MedicationStatement/bsj1-smp-medstmt-acetaminophen-4-1) "acetaminophen 325 MG Oral Tablet"
 * entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-clopidogrel-4-2) "clopidogrel 75 MG Oral Tablet"
 * entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-ferrous-4-3) "ferrous sulfate 44 MG/ML Oral Solution"

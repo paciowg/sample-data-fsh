@@ -32,7 +32,7 @@ After 3 weeks in the SNF, Betsy is discharged from the SNF to her home on April 
 * [Condition: hypertension](Condition-betsysmith-johnson01-Condition-Hypertension-01.html)
 * [Condition: hyperlipidemia](Condition-betsysmith-johnson01-Condition-Hyperlipidemia-01.html)
 * [Condition: hypertension](Condition-betsysmith-johnson01-Condition-Hypertension-01.html)
-* [List: Home Medication List](List-betsysmith-johnson01-smp-med-list-1.html)
+* [List: Home Medication List](List-bsj1-smp-medListNew-1.html)
 * [Organization: Metro Hospital Emergency Department (ED)](Organization-org-ED-Metro-Hospital.html)
 * [DocumentReference: ED Discharge Summary 01](DocumentReference-BSJ1-documentReference-ED-dischargeSummary-01.html)
 * [DocumentReference: SNF Discharge Summary 01](DocumentReference-BSJ1-documentReference-SNF-dischargeSummary-01.html)
@@ -69,7 +69,6 @@ Data is prepared and final reports are created by the ED for Betsy. This include
 * [Condition: Osteopenia](Condition-betsysmith-johnson01-Condition-Osteopenia-01.html)
 * [Condition: Stroke](Condition-betsysmith-johnson01-Condition-Stroke-01.html)
 * [DiagnosticReport: Radiology Report - CT Scan #1 - at ED admission](DiagnosticReport-betsysmith-johnson01-diagnosticReport-CTScan-01.html)
-* [DiagnosticReport: Radiology Report - CT Scan #2 - at Discharge](DiagnosticReport-betsysmith-johnson01-diagnosticReport-CTScan-02.html)
 * [DiagnosticReport: Radiology Report - MRI/MRA #1](DiagnosticReport-betsysmith-johnson01-diagnosticReport-MRI-01.html)
 * [Transition of Care - Hospital to SNF](Composition-betsysmith-johnson01-TOC-Hosp-to-SNF-01.html)
 
