@@ -167,6 +167,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * onsetDateTime = "2025-05-03T11:30:00-04:00"
 * recordedDate = "2025-05-03T14:40:00-04:00"
 * asserter = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
+* recorder = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
 * note.text = "Patient began experiencing right sided weakness, primarily in arm and shoulder. There was no facial droop, but patient reports \"tingling\" in R face / numbness along R brow. Symptoms in face resolved post tPA administration. Strength improved in shoulder, weakness did not fully resolve. Demonstrates R arm weakness and lack of coordination. Fine motor skills significantly degraded and have not improved post tPA."
 
 Instance: betsysmith-johnson01-Condition-Hyperlipidemia-01
@@ -396,6 +397,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a health c
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * recordedDate = "2025-05-03"
 * asserter = Reference(PractitionerRole-Physician-PriyaSarkar)
+* recorder = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
 
 Instance: betsysmith-johnson01-condition-IschemicStrokeDiagnosis-01
 InstanceOf: Condition
@@ -429,6 +431,7 @@ Description: "Betsy Smith-Johnson's ED admission Condition: altered cognition (t
 * recordedDate = "2025-05-03T14:35:00-04:00"
 * severity = $sct#6736007 "Moderate (severity modifier) (qualifier value)"
 * onsetDateTime = "2025-05-03T14:00:00-04:00"
+* asserter = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
 * recorder = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
 
 Instance: betsysmith-johnson01-condition-ataxiaVertigo-01
@@ -447,6 +450,7 @@ Description: "Betsy Smith-Johnson's ED admission Condition: balance issues (atax
 * recordedDate = "2025-05-03T14:35:00-04:00"
 * severity = $sct#6736007 "Moderate (severity modifier) (qualifier value)"
 * onsetDateTime = "2025-05-03T14:00:00-04:00"
+* asserter = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
 * recorder = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
 
 Instance: betsysmith-johnson01-list-of-conditions

@@ -87,7 +87,7 @@ Usage: #example
 * status = #completed
 * authored = "2025-05-04T16:30:00.000Z"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
-* author = Reference(Practitioner/Practitioner-TreyvorClark)
+* author = Reference(PractitionerRole/PractitionerRole-RN-TreyvorClark)
 * item[0].linkId = "/44250-9"
 * item[=].text = "Little interest or pleasure in doing things"
 * item[=].answer.valueCoding = $loinc#LA6570-1 "More than half the days"
@@ -143,7 +143,7 @@ Usage: #example
 * questionnaire = "https://gw.interop.community/paciosandbox/open/Questionnaire/Questionnaire-Brief-Interview-for-Mental-Status"
 * status = #completed
 * authored = "2025-05-04T16:30:00.000Z"
-* author = Reference(Practitioner/Practitioner-TreyvorClark)
+* author = Reference(PractitionerRole/PractitionerRole-RN-TreyvorClark)
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * item[0].linkId = "/52731-7"
 * item[=].text = "Repetition of Three Words. Number of words repeated after first attempt"
@@ -194,7 +194,7 @@ Usage: #example
 * questionnaire = "https://gw.interop.community/paciosandbox/open/Questionnaire/Questionnaire-MDS-Nursing-Home-Comprehensive-Item-Set"
 * status = #completed
 * authored = "2025-05-05T09:00:00.000Z"
-* author = Reference(Practitioner/Practitioner-DeyonteDarden)
+* author = Reference(PractitionerRole/PractitionerRole-PT-DeyonteDarden)
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * item[0].linkId = "/89398-2"
 * item[=].text = "Roll left and right"
@@ -289,7 +289,7 @@ Usage: #example
 * status = #completed
 * authored = "2025-05-05T11:00:00.000Z"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
-* author = Reference(Practitioner/Practitioner-SonjaValdez)
+* author = Reference(PractitionerRole/PractitionerRole-OT-SonjaValdez)
 * item[0].linkId = "/95019-6"
 * item[=].text = "Eating"
 * item[=].answer.valueCoding = $loinc#LA11759-0 "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
@@ -338,7 +338,7 @@ Usage: #example
 * status = #completed
 * authored = "2025-05-05T13:00:00.000Z"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
-* author = Reference(Practitioner/Practitioner-JoeBukoski)
+* author = Reference(PractitionerRole/PractitionerRole-SLP-JoeBukoski)
 * item[0].linkId = "/86677-2"
 * item[=].text = "Swallowing Disorder. Signs and symptoms of possible swallowing disorder"
 * item[=].answer[0].valueCoding = $loinc#LA9977-5 "Holding food in mouth/cheeks or residual food in mouth after meals"
@@ -360,7 +360,7 @@ Usage: #example
 * questionnaire = "https://gw.interop.community/paciosandbox/open/Questionnaire/Questionnaire-MDS-Nursing-Home-Comprehensive-Item-Set"
 * status = #completed
 * authored = "2025-06-30T09:00:00.000Z"
-* author = Reference(Practitioner/Practitioner-DeyonteDarden)
+* author = Reference(PractitionerRole/PractitionerRole-PT-DeyonteDarden)
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * item[0].linkId = "/89398-2"
 * item[=].text = "Roll left and right"
@@ -455,7 +455,7 @@ Usage: #example
 * status = #completed
 * authored = "2025-06-30T13:00:00.000Z"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
-* author = Reference(Practitioner/Practitioner-SonjaValdez)
+* author = Reference(PractitionerRole/PractitionerRole-OT-SonjaValdez)
 * item[0].linkId = "/95019-6"
 * item[=].text = "Eating"
 * item[=].answer.valueCoding = $loinc#LA27994-5 "Setup or clean-up assistance - Helper sets up or cleans up; resident completes activity. Helper assists only prior to or following the activity."
@@ -504,7 +504,7 @@ Usage: #example
 * status = #completed
 * authored = "2025-06-30T13:00:00.000Z"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
-* author = Reference(Practitioner/Practitioner-JoeBukoski)
+* author = Reference(PractitionerRole/PractitionerRole-SLP-JoeBukoski)
 * item[0].linkId = "/86677-2"
 * item[=].text = "Swallowing Disorder. Signs and symptoms of possible swallowing disorder"
 * item[=].answer.valueCoding = $loinc#LA9977-5 "Holding food in mouth/cheeks or residual food in mouth after meals"

@@ -6,7 +6,7 @@ Description: "Betsy Smith-Johnson's Nutrition Order"
 * status = #active
 * intent = #order
 * patient = Reference(Patient/patient-betsysmith-johnson01)
-* dateTime = "2024-09-20"
+* dateTime = "2025-07-02"
 * orderer = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
 * excludeFoodModifier = $sct#226559002 "Bread"
 * allergyIntolerance = Reference(AllergyIntolerance/betsysmith-johnson01-AllergyACE)

@@ -10,6 +10,7 @@ Description: "Betsy Smith-Johnson's hospital summary document on 5/4/2025."
 * type.text = "Metro Hospital Discharge Summary"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * date = "2025-05-04T15:15:00.000+00:00"
+* custodian = Reference(Organization/org-ED-Metro-Hospital)
 * content.attachment.title = "Emergency Department Discharge Summary for Betsy Smith-Johnson"
 * content.attachment.creation = "2025-05-04T15:15:00.000+00:00"
 * content.attachment.contentType = #application/pdf

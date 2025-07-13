@@ -7,6 +7,7 @@ Description: "Betsy Smith-Johnson's SNF Discharge Care Plan"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan"
 * status = #active
 * intent = #plan
+* created = "2025-07-03T13:00:00.000+00:00"
 * category[0] = $sct#736055001
 * category[+] = $careplan-category#assess-plan
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
