@@ -7,6 +7,7 @@ Description: "Betsy Smith-Johnson's Emergency Department evaluation note on 5/3/
 * type.text = "Metro Hospital Admission evaluation note"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * date = "2025-05-04T15:15:00.000+00:00"
+* custodian = Reference(Organization/org-ED-Metro-Hospital)
 * content.attachment.title = "Emergency Department evaluation note for Betsy Smith-Johnson"
 * content.attachment.creation = "2025-05-03T08:15:00.000+00:00"
 * content.attachment.contentType = #application/pdf
