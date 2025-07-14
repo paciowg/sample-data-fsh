@@ -274,3 +274,12 @@ Description: "Gerald Park's role at Happy Nursing Facility."
 * organization = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Happy Nursing Facility"
 * location = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
+Instance: PractitionerRole-Pharm-KevinJames
+InstanceOf: PractitionerRole
+Usage: #example
+Description: "Kevin James's role at the ACM Essential"
+* active = true
+* code = $taxonomy#183500000X "Pharmacist"
+* practitioner = Reference(Practitioner/Practitioner-KevinJames) "Kevin James"
+* organization = Reference(Organization/org-ACMEssential) "ACM Essential"
+* location = Reference(Location/org-Loc-ACMEssential)

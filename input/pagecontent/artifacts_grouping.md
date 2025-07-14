@@ -60,6 +60,7 @@
 * [Mia Rinaldi](Practitioner-Practitioner-MiaRinaldi.html)
 * [Phil Chekhov](Practitioner-Practitioner-Phil-Chekhov.html)
 * [Tracy Count](Practitioner-Practitioner-Tracy-Count.html)
+* [Kevin James](Practitioner-Practitioner-KevinJames.html)
 
 ### Practitioner role
 * [Role for Anita M. Chu, Internal Medicine Physician](PractitionerRole-Role-IMMD-AnitaChu.html)
@@ -85,6 +86,7 @@
 * [Role for Phil Chekhov, Pharmacist](PractitionerRole-Role-Pharm-PhilChekhov.html)
 * [Role for Tracy Count, Pharmacist](PractitionerRole-Role-Pharm-TracyCount.html)
 * [Role for Luna Baskins, Physical Therapist](PractitionerRole-Role-PT-LunaBaskins.html)
+* [Role for Kevin James, Pharmacist](PractitionerRole-PractitionerRole-Pharm-KevinJames.html)
 
 ### Conditions
 * [Anemia](Condition-betsysmith-johnson01-Condition-Anemia-01.html)

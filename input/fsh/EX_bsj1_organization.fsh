@@ -128,3 +128,16 @@ Description: "The Vernon Center organization."
 * address.postalCode = "48214"
 * address.country = "US"
 
+Instance: org-ACMEssential
+InstanceOf: Organization
+Usage: #example
+Description: "ACM Essential"
+* active = true
+* name = "ACM Essential"
+* telecom.system = #phone
+* telecom.value = "(800) 555-9999"
+* address.line = "1111 Northwest Street"
+* address.city = "Detroit"
+* address.state = "MI"
+* address.postalCode = "48214"
+* address.country = "US"
