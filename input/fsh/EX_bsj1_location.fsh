@@ -52,7 +52,7 @@ Description: "Metro Hospital Emergency Department Example"
 * address.country = "US"
 * address.text = "22327 Moross Rd, Detroit, MI 48236"
 
-Instance: org-Loc-Motor-City-Nursing-Facility
+Instance: org-Loc-Motor-City-Skilled-Nursing-Facility
 InstanceOf: Location
 Usage: #example
 Description: "Motor City Nursing Facility Example"

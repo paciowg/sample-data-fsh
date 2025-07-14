@@ -349,7 +349,7 @@ Betsy’s PCP receives an immediate response from CMS that Betsy is eligible and
 
 * [Location: org-Loc-ED-Metro-Hospital](Location-org-Loc-ED-Metro-Hospital.html)
 * [Location: org-Loc-Michigan-Primary-Health-Care-A](Location-org-Loc-Michigan-Primary-Health-Care-A.html)
-* [Location: org-Loc-Motor-City-Nursing-Facility](Location-org-Loc-Motor-City-Nursing-Facility.html)
+* [Location: org-Loc-Motor-City-Skilled-Nursing-Facility](Location-org-Loc-Motor-City-Skilled-Nursing-Facility.html)
 * [Location: org-Loc-Motown-Home-Health](Location-org-Loc-Motown-Home-Health.html)
 * [Location: org-Loc-Renaissance-Pharmacy](Location-org-Loc-Renaissance-Pharmacy.html)
 * [Location: org-Loc-The-Vernon-Center](Location-org-Loc-The-Vernon-Center.html)

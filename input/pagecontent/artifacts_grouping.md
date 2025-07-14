@@ -16,7 +16,7 @@
   * [Anita Chu, MD](Practitioner-Practitioner-AnitaChu-01.html), [Primary Care Physician](PractitionerRole-Role-IMMD-AnitaChu.html)
 
 #### SNF01: Detroit Post-acute Care Providers
-* [Motor City Nursing Facility](Location-org-Loc-Motor-City-Nursing-Facility.html)
+* [Motor City Nursing Facility](Location-org-Loc-Motor-City-Skilled-Nursing-Facility.html)
   * [Hema Onko, MD](Practitioner-Practitioner-HemaOnko.html), [Physician](PractitionerRole-PractitionerRole-MD-HemaOnko.html)
   * [Margaret Q. Reynolds, MSW](Practitioner-Practitioner-MargaretReynolds.html), [Social Worker](PractitionerRole-PractitionerRole-MSW-MargaretReynolds.html)
 
@@ -143,7 +143,7 @@
 
 ### Locations
 * [Metro Hospital Emergency Department](Location-org-Loc-ED-Metro-Hospital.html)
-* [Motor City Nursing Facility](Location-org-Loc-Motor-City-Nursing-Facility.html)
+* [Motor City Nursing Facility](Location-org-Loc-Motor-City-Skilled-Nursing-Facility.html)
 * [Motown Home Health](Location-org-Loc-Motown-Home-Health.html)
 * [Michigan Primary Health Care Associates](Location-org-Loc-Michigan-Primary-Health-Care-A.html)
 * [Renaissance Pharmacy](Location-org-Loc-Renaissance-Pharmacy.html)
