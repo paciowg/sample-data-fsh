@@ -127,7 +127,7 @@ Description: "ACM Essential Example"
 * status = #active
 * name = "ACM Essential"
 * telecom.system = #phone
-* telecom.value = "(800) 555-9999"
+* telecom.value = "(555) 555-9999"
 * address.line = "1111 Northwest Street"
 * address.city = "Detroit"
 * address.state = "MI"
