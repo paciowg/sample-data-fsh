@@ -218,7 +218,6 @@ Data is prepared and final reports are created by the SNF for Betsy. This includ
 * [MedicationStatement: bsj1-smp-medstmt-insulin-2-11](MedicationStatement-bsj1-smp-medstmt-insulin-2-11.html)
 * [MedicationStatement: bsj1-smp-medstmt-jardiance-2-1](MedicationStatement-bsj1-smp-medstmt-jardiance-2-1.html)
 * [MedicationStatement: bsj1-smp-medstmt-jardiance-2-12](MedicationStatement-bsj1-smp-medstmt-jardiance-2-12.html)
-* [MedicationStatement: bsj1-smp-medstmt-lipitor-2-13](MedicationStatement-bsj1-smp-medstmt-lipitor-2-13.html)
 * [MedicationStatement: bsj1-smp-medstmt-lipitor-2-2](MedicationStatement-bsj1-smp-medstmt-lipitor-2-2.html)
 * [MedicationStatement: bsj1-smp-medstmt-metformin-2-3](MedicationStatement-bsj1-smp-medstmt-metformin-2-3.html)
 * [MedicationStatement: bsj1-smp-medstmt-polyethylene-2-4](MedicationStatement-bsj1-smp-medstmt-polyethylene-2-4.html)

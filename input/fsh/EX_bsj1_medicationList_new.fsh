@@ -125,7 +125,7 @@ Description: "Betsy Smith-Johnson MedicationList for scene 2 - SNF - 13 medicati
 * entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-ferrous-2-10) "ferrous sulfate 44 MG/ML Oral Solution"
 * entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-insulin-2-11) "insulin isophane, human 70 UNT/ML / insulin, regular, human 30 UNT/ML Injectable Suspension"
 * entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-jardiance-2-12) "Jardiance 10 MG Oral Tablet"
-* entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-lipitor-2-13) "Lipitor 40 MG Oral Tablet"
+// * entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-lipitor-2-13) "Lipitor 40 MG Oral Tablet"
 
 Instance: bsj1-smp-medListNew-3
 InstanceOf: List
