@@ -158,7 +158,7 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * code.coding[+] = $sct#278286009 "Right hemiparesis"
 * code.text = "Right hemiparesis (disorder)"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* category[0] = $icf#b7302 "Power of muscles on one side of the body"
+* category[0] = $icf#b7302 "Power of muscles of one side of the body"
 * category[+] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
 * bodySite = $sct#368209003 "Right upper arm"
 * bodySite.text = "Entire Right Arm"

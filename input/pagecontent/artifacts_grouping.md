@@ -167,7 +167,7 @@
 * [FCM assessment collection for receiving information assessments](Observation-betsysmith-johnson01-FCMRec-Collection.html)
 * [FCM assessment collection for speaking assessments](Observation-betsysmith-johnson01-FCMSpeak-Collection.html)
 * [Impulse control](Observation-betsysmith-johnson01-Impulsive-Speech.html)
-* [Hemoglobin](Observation-betsysmith-johnson01-Lab-Hemoglobin.html)
+* [Hemoglobin](Observation-betsysmith-johnson01-Lab-Hemoglobin-01.html)
 * [MDS assessment collection for putting on and taking off clothes](Observation-betsysmith-johnson01-MDS-Activities-PT1.html)
 * [MDS assessment for putting on clothes](Observation-betsysmith-johnson01-MDS-Donning1.html)
 * [MDS assessment for taking off clothes](Observation-betsysmith-johnson01-MDS-Doffing1.html)
