@@ -277,9 +277,12 @@ Description: "Gerald Park's role at Happy Nursing Facility."
 Instance: PractitionerRole-Pharm-KevinJames
 InstanceOf: PractitionerRole
 Usage: #example
-Description: "Kevin James's role at the ACM Essential"
+Description: "Kevin James's role at the Renaissance Pharmacy"
+//Description: "Kevin James's role at the ACM Essential" // Include ACM Essentials after Connectathon to align with ActualMeds' example company on their demo UI.
 * active = true
 * code = $taxonomy#183500000X "Pharmacist"
 * practitioner = Reference(Practitioner/Practitioner-KevinJames) "Kevin James"
-* organization = Reference(Organization/org-ACMEssential) "ACM Essential"
-* location = Reference(Location/org-Loc-ACMEssential)
+* organization = Reference(Organization/org-Renaissance-Pharmacy) "Renaissance Pharmacy"
+* location = Reference(Location/org-Loc-Renaissance-Pharmacy)
+//* organization = Reference(Organization/org-ACMEssential) "ACM Essential"
+//* location = Reference(Location/org-Loc-ACMEssential)
