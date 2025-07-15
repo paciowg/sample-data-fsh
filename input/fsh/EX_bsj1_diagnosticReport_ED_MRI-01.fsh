@@ -7,6 +7,7 @@ Description: "Betsy Smith-Johnson's Radiology Report - MRI/MRA #1"
 * code = $loinc#68604-8 "Radiology Diagnostic study note"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * issued = "2025-05-04T08:30:00.000+00:00"
+* effectiveDateTime = "2025-05-03T15:15:00.000+00:00"
 * performer = Reference(PractitionerRole/PractitionerRole-Radiologist-PaulZawawi) "Paul Zawawi, MD"
 * presentedForm.contentType = #application/pdf
 * presentedForm.title = "MRI/MRA Radiology Report for Betsy Smith-Johnson"
