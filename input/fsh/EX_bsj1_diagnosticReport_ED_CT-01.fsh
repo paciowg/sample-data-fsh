@@ -7,6 +7,7 @@ Description: "Betsy Smith-Johnson's Radiology Report - CT Scan #1"
 * code = $loinc#68604-8 "Radiology Diagnostic study note"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * issued = "2025-05-03T15:15:00.000+00:00"
+* effectiveDateTime = "2025-05-03T15:15:00.000+00:00"
 * performer[0] = Reference(PractitionerRole/PractitionerRole-Radiologist-PaulZawawi) "Paul Zawawi, MD"
 * performer[1] = Reference(Organization/org-ED-Metro-Hospital) "Metro Hospital Emergency Department"
 * presentedForm.contentType = #text/plain
