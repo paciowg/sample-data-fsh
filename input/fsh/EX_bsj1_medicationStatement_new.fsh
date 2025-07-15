@@ -493,17 +493,17 @@ Description: "MedicationStatement for jardiance - stopped on 2025-07-02 from org
 * medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "Jardiance 10 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#55154041108
 
-Instance: bsj1-smp-medstmt-lipitor-2-13
-InstanceOf: MedicationStatement
-Usage: #example
-Description: "MedicationStatement for lipitor - active on 2025-07-02 from org-Motor-City-Skilled-Nursing-Facility"
-* basedOn = Reference(bsj1-smp-medrx-lipitor-2-13)
-* status = #active
-* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* dateAsserted = "2025-07-02T13:00:00-08:00"
-* informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00071015723
+// Instance: bsj1-smp-medstmt-lipitor-2-13
+// InstanceOf: MedicationStatement
+// Usage: #example
+// Description: "MedicationStatement for lipitor - active on 2025-07-02 from org-Motor-City-Skilled-Nursing-Facility"
+// * basedOn = Reference(bsj1-smp-medrx-lipitor-2-13)
+// * status = #active
+// * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
+// * dateAsserted = "2025-07-02T13:00:00-08:00"
+// * informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
+// * medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
+// * medicationCodeableConcept[0].coding[1] = $NDC#00071015723
 
 Instance: bsj1-smp-medstmt-lipitor-3-1
 InstanceOf: MedicationStatement
