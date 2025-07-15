@@ -303,7 +303,7 @@ Betsy arrives home at 1:30pm on July 2, 2025, and the HH team members arrive at 
 * [MedicationStatement: bsj1-smp-medstmt-polyethylene-3-4](MedicationStatement-bsj1-smp-medstmt-polyethylene-3-4.html)
 * [MedicationStatement: bsj1-smp-medstmt-sertraline-3-5](MedicationStatement-bsj1-smp-medstmt-sertraline-3-5.html)
 * [MedicationStatement: bsj1-smp-medstmt-sitagliptin-3-6](MedicationStatement-bsj1-smp-medstmt-sitagliptin-3-6.html)
-* [MedicationStatement: bsj1-smp-medstmt-sitagliptin-3-7](MedicationStatement-bsj1-smp-medstmt-sitagliptin-3-7.html)
+<!-- * [MedicationStatement: bsj1-smp-medstmt-sitagliptin-3-7](MedicationStatement-bsj1-smp-medstmt-sitagliptin-3-7.html) -->
 * [ServiceRequest: betsysmith-johnson01-ServiceRequest-med-rec-order-02](ServiceRequest-betsysmith-johnson01-ServiceRequest-med-rec-order-02.html)
 
 <br />
