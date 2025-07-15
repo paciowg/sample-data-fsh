@@ -149,7 +149,7 @@ Description: "Deyonte Darden's role at the Motor City Skilled Nursing Facility"
 * code = $taxonomy#225100000X "Physical Therapist"
 * practitioner = Reference(Practitioner/Practitioner-DeyonteDarden) "Deyonte Darden"
 * organization = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Motor City Skilled Nursing Facility"
-* location = Reference(Location/org-Loc-Motor-City-Nursing-Facility)
+* location = Reference(Location/org-Loc-Motor-City-Skilled-Nursing-Facility)
 
 Instance: PractitionerRole-MD-HemaOnko
 InstanceOf: PractitionerRole
@@ -159,7 +159,7 @@ Description: "Hema Onko's role as the geriatrics/internal medicine MD at the Mot
 * code = $taxonomy#207R00000X "Internal Medicine Physician"
 * practitioner = Reference(Practitioner/Practitioner-HemaOnko) "Hema Onko"
 * organization = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Motor City Skilled Nursing Facility"
-* location = Reference(Location/org-Loc-Motor-City-Nursing-Facility)
+* location = Reference(Location/org-Loc-Motor-City-Skilled-Nursing-Facility)
 
 Instance: PractitionerRole-SLP-JoeBukoski
 InstanceOf: PractitionerRole
@@ -169,7 +169,7 @@ Description: "Joe Bukoski's role at the Motor City Skilled Nursing Facility"
 * code = $taxonomy#235Z00000X "Speech-Language Pathologist"
 * practitioner = Reference(Practitioner/Practitioner-JoeBukoski) "Joe Bukoski"
 * organization = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Motor City Skilled Nursing Facility"
-* location = Reference(Location/org-Loc-Motor-City-Nursing-Facility)
+* location = Reference(Location/org-Loc-Motor-City-Skilled-Nursing-Facility)
 
 Instance: PractitionerRole-MSW-MargaretReynolds
 InstanceOf: PractitionerRole
@@ -179,7 +179,7 @@ Description: "Margaret A. Reynolds' role at the Motor City Skilled Nursing Facil
 * code = $SCT_US#224598009 "Trained social worker counselor (occupation)" // modified for the US Core specified Care Team Function value set 2.16.840.1.113762.1.4.1099.30
 * practitioner = Reference(Practitioner/Practitioner-MargaretReynolds) "Margaret A. Reynolds"
 * organization = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Motor City Skilled Nursing Facility"
-* location = Reference(Location/org-Loc-Motor-City-Nursing-Facility)
+* location = Reference(Location/org-Loc-Motor-City-Skilled-Nursing-Facility)
 // * specialty = $taxonomy#104100000X "Social Worker"
 
 Instance: PractitionerRole-Pharm-SashaAhmed
@@ -190,7 +190,7 @@ Description: "Sasha Ahmed's role at the Motor City Skilled Nursing Facility"
 * code = $taxonomy#183500000X "Pharmacist"
 * practitioner = Reference(Practitioner/Practitioner-SashaAhmed) "Sasha Ahmed"
 * organization = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Motor City Skilled Nursing Facility"
-* location = Reference(Location/org-Loc-Motor-City-Nursing-Facility)
+* location = Reference(Location/org-Loc-Motor-City-Skilled-Nursing-Facility)
 
 Instance: PractitionerRole-OT-SonjaValdez
 InstanceOf: PractitionerRole
@@ -200,7 +200,7 @@ Description: "Sonja Valdez's role at the Motor City Skilled Nursing Facility"
 * code = $taxonomy#225X00000X "Occupational Therapist"
 * practitioner = Reference(Practitioner/Practitioner-SonjaValdez) "Sonja Valdez"
 * organization = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Motor City Skilled Nursing Facility"
-* location = Reference(Location/org-Loc-Motor-City-Nursing-Facility)
+* location = Reference(Location/org-Loc-Motor-City-Skilled-Nursing-Facility)
 
 Instance: PractitionerRole-RN-TreyvorClark
 InstanceOf: PractitionerRole
@@ -210,7 +210,7 @@ Description: "Treyvor Clark's role at the Motor City Skilled Nursing Facility"
 * code = $taxonomy#163W00000X "Registered Nurse"
 * practitioner = Reference(Practitioner/Practitioner-TreyvorClark) "Treyvor Clark"
 * organization = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Motor City Skilled Nursing Facility"
-* location = Reference(Location/org-Loc-Motor-City-Nursing-Facility)
+* location = Reference(Location/org-Loc-Motor-City-Skilled-Nursing-Facility)
 
 Instance: Role-OT-JenCadbury
 InstanceOf: PractitionerRole
@@ -274,3 +274,15 @@ Description: "Gerald Park's role at Happy Nursing Facility."
 * organization = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Happy Nursing Facility"
 * location = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
+Instance: PractitionerRole-Pharm-KevinJames
+InstanceOf: PractitionerRole
+Usage: #example
+Description: "Kevin James's role at the Renaissance Pharmacy"
+//Description: "Kevin James's role at the ACM Essential" // Include ACM Essentials after Connectathon to align with ActualMeds' example company on their demo UI.
+* active = true
+* code = $taxonomy#183500000X "Pharmacist"
+* practitioner = Reference(Practitioner/Practitioner-KevinJames) "Kevin James"
+* organization = Reference(Organization/org-Renaissance-Pharmacy) "Renaissance Pharmacy"
+* location = Reference(Location/org-Loc-Renaissance-Pharmacy)
+//* organization = Reference(Organization/org-ACMEssential) "ACM Essential"
+//* location = Reference(Location/org-Loc-ACMEssential)

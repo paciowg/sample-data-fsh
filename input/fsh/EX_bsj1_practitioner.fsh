@@ -675,3 +675,26 @@ Description: "Practitioner Example - Anita Chu"
 * address.country = "US"
 * address.text = "31858 Pacific Highway S, Federal Way, MI 12345"
 * gender = #female
+
+Instance: Practitioner-KevinJames
+InstanceOf: Practitioner
+Usage: #example
+Description: "Kevin James's practitioner record."
+//* meta.versionId = "4"
+//* meta.lastUpdated = "2024-09-21T14:11:15.000+00:00"
+* identifier.system = "http://example.org/fhir/MI-state-license"
+* identifier.value = "​480​4​2​8​9999"
+* active = true
+* name.text = "Kevin James"
+* name.family = "James"
+* name.given = "Kevin"
+* telecom[0].system = #phone
+* telecom[=].value = "(800) 555-9999"
+* telecom[+].system = #email
+* telecom[=].value = "kjames@acmessential.com"
+* address.line = "1111 Northwest Street"
+* address.city = "Detroit"
+* address.state = "MI"
+* address.postalCode = "48214"
+* address.country = "US"
+* gender = #male
