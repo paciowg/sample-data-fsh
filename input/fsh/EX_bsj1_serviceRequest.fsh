@@ -145,7 +145,7 @@ Description: "SNF admission referral for consulting clinical pharmacist for medi
 * performer = Reference(PractitionerRole/PractitionerRole-Pharm-SashaAhmed)
 * performerType = $sct#734293001 "Clinical pharmacist (occupation)"
 * locationCode = #SNF "Skilled nursing facility"
-* locationReference = Reference(Location/org-Loc-Motor-City-Nursing-Facility)
+* locationReference = Reference(Location/org-Loc-Motor-City-Skilled-Nursing-Facility)
 //* reasonReference = Reference( --problem list goes here when complete-- )
 * note.text = "Referral for consulting clinical pharmacist for medication reconciliation"
 

@@ -52,7 +52,7 @@ Description: "Metro Hospital Emergency Department Example"
 * address.country = "US"
 * address.text = "22327 Moross Rd, Detroit, MI 48236"
 
-Instance: org-Loc-Motor-City-Nursing-Facility
+Instance: org-Loc-Motor-City-Skilled-Nursing-Facility
 InstanceOf: Location
 Usage: #example
 Description: "Motor City Nursing Facility Example"
@@ -115,6 +115,20 @@ Description: "The Vernon Center Example"
 * telecom.system = #phone
 * telecom.value = "(555) 347-8877"
 * address.line = "9341 Agnes Street"
+* address.city = "Detroit"
+* address.state = "MI"
+* address.postalCode = "48214"
+* address.country = "US"
+
+Instance: org-Loc-ACMEssential
+InstanceOf: Location
+Usage: #example
+Description: "ACM Essential Example"
+* status = #active
+* name = "ACM Essential"
+* telecom.system = #phone
+* telecom.value = "(555) 555-9999"
+* address.line = "1111 Northwest Street"
 * address.city = "Detroit"
 * address.state = "MI"
 * address.postalCode = "48214"
