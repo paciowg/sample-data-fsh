@@ -577,17 +577,17 @@ Description: "MedicationStatement for sitagliptin - active on 2025-07-03 from or
 * medicationCodeableConcept[0].coding[0] = $rxnorm#665042 "sitagliptin 50 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#70710190009
 
-Instance: bsj1-smp-medstmt-sitagliptin-3-7
-InstanceOf: MedicationStatement
-Usage: #example
-Description: "MedicationStatement for sitagliptin - active on 2025-07-03 from org-Motown-Home-Health"
-* basedOn = Reference(bsj1-smp-medrx-sitagliptin-3-7)
-* status = #active
-* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* dateAsserted = "2025-07-03T09:00:00-08:00"
-* informationSource = Reference(Organization/org-Motown-Home-Health)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#665042 "sitagliptin 50 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#70710190009
+// Instance: bsj1-smp-medstmt-sitagliptin-3-7
+// InstanceOf: MedicationStatement
+// Usage: #example
+// Description: "MedicationStatement for sitagliptin - active on 2025-07-03 from org-Motown-Home-Health"
+// * basedOn = Reference(bsj1-smp-medrx-sitagliptin-3-7)
+// * status = #active
+// * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
+// * dateAsserted = "2025-07-03T09:00:00-08:00"
+// * informationSource = Reference(Organization/org-Motown-Home-Health)
+// * medicationCodeableConcept[0].coding[0] = $rxnorm#665042 "sitagliptin 50 MG Oral Tablet"
+// * medicationCodeableConcept[0].coding[1] = $NDC#70710190009
 
 Instance: bsj1-smp-medstmt-acetaminophen-4-1
 InstanceOf: MedicationStatement
