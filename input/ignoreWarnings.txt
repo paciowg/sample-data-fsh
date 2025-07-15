@@ -9,7 +9,20 @@
 %Unknown code 'd4014' in the CodeSystem 'http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs' version '2.0.0-ballot'%
 %Unknown code 'blockl2-d51' in the CodeSystem 'http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs' version '2.0.0-ballot'%
 %Unknown code 'd2208' in the CodeSystem 'http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs' version '2.0.0-ballot'%
-Unknown code 'blockl2-d41' in the CodeSystem 'http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs' version '2.0.0-ballot'
+%Unknown code 'blockl2-d41' in the CodeSystem 'http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs' version '2.0.0-ballot'%
+
+# This code and display name is legitimate as defined by the WHO: https://apps.who.int/classifications/icfbrowser/Browse.aspx?code=b7302&hsr=1
+%Wrong Display Name 'Power of muscles on one side of the body' for http://hl7.org/fhir/sid/icf#b7302%
 
 # Accepting unresolved example.org URLs since this IG is strictly for creating sample data
 %URL value 'http://hospital.smarthealthit.org' does not resolve%
+
+# Accepting unknown code in order to support the ActualMeds formulary for the demo.
+%Unknown code '68788865801' in the CodeSystem 'http://hl7.org/fhir/sid/ndc' version%
+%Unknown code '63739019862' in the CodeSystem 'http://hl7.org/fhir/sid/ndc' version%
+%Unknown code '00440831530' in the CodeSystem 'http://hl7.org/fhir/sid/ndc' version%
+%Unknown code '70710190009' in the CodeSystem 'http://hl7.org/fhir/sid/ndc' version%
+%Unknown code '11845013751' in the CodeSystem 'http://hl7.org/fhir/sid/ndc' version%
+%Unknown code '10135024313' in the CodeSystem 'http://hl7.org/fhir/sid/ndc' version%
+%Unknown code '63629260001' in the CodeSystem 'http://hl7.org/fhir/sid/ndc' version%
+%Unknown code '10939053544' in the CodeSystem 'http://hl7.org/fhir/sid/ndc' version%

@@ -144,7 +144,7 @@ Description: "Betsy Smith-Johnson MedicationList for scene 3 - HHA - 7 medicatio
 * entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-polyethylene-3-4) "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
 * entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-sertraline-3-5) "sertraline 25 MG Oral Tablet"
 * entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-sitagliptin-3-6) "sitagliptin 50 MG Oral Tablet"
-* entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-sitagliptin-3-7) "sitagliptin 50 MG Oral Tablet"
+// * entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-sitagliptin-3-7) "sitagliptin 50 MG Oral Tablet"
 
 Instance: bsj1-smp-medListNew-4
 InstanceOf: List
