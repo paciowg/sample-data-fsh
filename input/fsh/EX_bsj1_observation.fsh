@@ -268,6 +268,10 @@ Alias: $v3-ObservationInterpretation = http://terminology.hl7.org/CodeSystem/v3-
 // * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 // * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
+// ============================================================================
+// ADDITIONAL HEMOGLOBIN LAB OBSERVATIONS - Chronological Order
+// ============================================================================
+
 Instance: betsysmith-johnson01-Lab-Hemoglobin-01
 InstanceOf: Observation
 Usage: #example
@@ -296,7 +300,7 @@ Description: "Betsy Smith-Johnson Observation - Hemoglobin - 5/3/25"
 * code = $loinc#718-7 "Hemoglobin [Mass/volume] in Blood"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * performer = Reference(Organization/org-ED-Metro-Hospital)
-* effectiveDateTime = "2024-05-03T12:07:00-04:00"
+* effectiveDateTime = "2025-05-03T12:07:00-04:00"
 * valueQuantity.value = 12.2
 * valueQuantity.system = "http://unitsofmeasure.org"
 * valueQuantity.unit = "g/dL"
@@ -304,6 +308,63 @@ Description: "Betsy Smith-Johnson Observation - Hemoglobin - 5/3/25"
 * referenceRange.high = 16 'g/dL' "g/dL"
 * referenceRange.type = $referencerange-meaning#normal "Normal Range"
 * interpretation = $v3-ObservationInterpretation#L "Low"
+
+Instance: betsysmith-johnson01-Lab-Hemoglobin-03
+InstanceOf: Observation
+Usage: #example
+Description: "Betsy Smith-Johnson Observation - Hemoglobin - 7/1/25 SNF Admission"
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+* status = #final
+* category = $observation-category#laboratory "Laboratory"
+* code = $loinc#718-7 "Hemoglobin [Mass/volume] in Blood"
+* subject = Reference(Patient/patient-betsysmith-johnson01)
+* performer = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
+* effectiveDateTime = "2025-07-01T08:30:00-04:00"
+* valueQuantity.value = 11.8
+* valueQuantity.system = "http://unitsofmeasure.org"
+* valueQuantity.unit = "g/dL"
+* referenceRange.low = 12 'g/dL' "g/dL"
+* referenceRange.high = 16 'g/dL' "g/dL"
+* referenceRange.type = $referencerange-meaning#normal "Normal Range"
+* interpretation = $v3-ObservationInterpretation#L "Low"
+
+Instance: betsysmith-johnson01-Lab-Hemoglobin-04
+InstanceOf: Observation
+Usage: #example
+Description: "Betsy Smith-Johnson Observation - Hemoglobin - 8/15/25 SNF Progress Check"
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+* status = #final
+* category = $observation-category#laboratory "Laboratory"
+* code = $loinc#718-7 "Hemoglobin [Mass/volume] in Blood"
+* subject = Reference(Patient/patient-betsysmith-johnson01)
+* performer = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
+* effectiveDateTime = "2025-08-15T09:15:00-04:00"
+* valueQuantity.value = 12.8
+* valueQuantity.system = "http://unitsofmeasure.org"
+* valueQuantity.unit = "g/dL"
+* referenceRange.low = 12 'g/dL' "g/dL"
+* referenceRange.high = 16 'g/dL' "g/dL"
+* referenceRange.type = $referencerange-meaning#normal "Normal Range"
+* interpretation = $v3-ObservationInterpretation#N "Normal"
+
+Instance: betsysmith-johnson01-Lab-Hemoglobin-05
+InstanceOf: Observation
+Usage: #example
+Description: "Betsy Smith-Johnson Observation - Hemoglobin - 9/20/25 Pre-Discharge"
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-lab"
+* status = #final
+* category = $observation-category#laboratory "Laboratory"
+* code = $loinc#718-7 "Hemoglobin [Mass/volume] in Blood"
+* subject = Reference(Patient/patient-betsysmith-johnson01)
+* performer = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
+* effectiveDateTime = "2025-09-20T07:45:00-04:00"
+* valueQuantity.value = 13.4
+* valueQuantity.system = "http://unitsofmeasure.org"
+* valueQuantity.unit = "g/dL"
+* referenceRange.low = 12 'g/dL' "g/dL"
+* referenceRange.high = 16 'g/dL' "g/dL"
+* referenceRange.type = $referencerange-meaning#normal "Normal Range"
+* interpretation = $v3-ObservationInterpretation#N "Normal"
 
 // Instance: betsysmith-johnson01-MDS-Activities-PT1
 // InstanceOf: Observation
