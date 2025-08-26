@@ -541,3 +541,59 @@ Description: "Betsy Smith-Johnson Observation - Hemoglobin - 9/20/25 Pre-Dischar
 // * performer = Reference(PractitionerRole/Role-PT-LunaBaskins)
 // * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 // * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
+
+Instance: betsysmith-johnson01-A1C-01
+InstanceOf: Observation
+Usage: #example
+Description: "Betsy Smith-Johnson Observation: A1C"
+* meta.profile = "http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-pathology-uv-ips"
+* status = #final
+* category[0] = $observation-category#laboratory "Laboratory"
+* code = $loinc#17856-6 "Hemoglobin A1c/Hemoglobin.total in Blood by HPLC"
+* subject = Reference(Patient/patient-betsysmith-johnson01)
+* effectiveDateTime = "2024-06-15T13:30:00-04:00"
+* performer = Reference(Practitioner-GeorgeMcDuff)
+* valueQuantity = 8.2 '%' "%"
+* note.text = "Elevated risk - Initial poor control - 11 months pre-stroke"
+
+Instance: betsysmith-johnson01-A1C-02
+InstanceOf: Observation
+Usage: #example
+Description: "Betsy Smith-Johnson Observation: A1C"
+* meta.profile = "http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-pathology-uv-ips"
+* status = #final
+* category[0] = $observation-category#laboratory "Laboratory"
+* code = $loinc#17856-6 "Hemoglobin A1c/Hemoglobin.total in Blood by HPLC"
+* subject = Reference(Patient/patient-betsysmith-johnson01)
+* effectiveDateTime = "2024-09-22T10:00:00-04:00"
+* performer = Reference(Practitioner-GeorgeMcDuff)
+* valueQuantity = 8.7 '%' "%"
+* note.text = "High risk - Worsening trend - 7.5 months pre-stroke"
+
+Instance: betsysmith-johnson01-A1C-03
+InstanceOf: Observation
+Usage: #example
+Description: "Betsy Smith-Johnson Observation: A1C"
+* meta.profile = "http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-pathology-uv-ips"
+* status = #final
+* category[0] = $observation-category#laboratory "Laboratory"
+* code = $loinc#17856-6 "Hemoglobin A1c/Hemoglobin.total in Blood by HPLC"
+* subject = Reference(Patient/patient-betsysmith-johnson01)
+* effectiveDateTime = "2025-01-18T11:00:00-04:00"
+* performer = Reference(Practitioner-GeorgeMcDuff)
+* valueQuantity = 9.1 '%' "%"
+* note.text = "Very high risk - Significant deterioration - 3.5 months pre-stroke"
+
+Instance: betsysmith-johnson01-A1C-04
+InstanceOf: Observation
+Usage: #example
+Description: "Betsy Smith-Johnson Observation: A1C"
+* meta.profile = "http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-pathology-uv-ips"
+* status = #final
+* category[0] = $observation-category#laboratory "Laboratory"
+* code = $loinc#17856-6 "Hemoglobin A1c/Hemoglobin.total in Blood by HPLC"
+* subject = Reference(Patient/patient-betsysmith-johnson01)
+* effectiveDateTime = "2025-04-08T09:00:00-04:00"
+* performer = Reference(Practitioner-GeorgeMcDuff)
+* valueQuantity = 9.4 '%' "%"
+* note.text = "Critical risk - Peak poor control - 25 days pre-stroke"
