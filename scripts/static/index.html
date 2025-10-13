@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PACIO Sample Data</title>
+    <style>
+        body { font-family: sans-serif; margin: 2em; line-height: 1.6; }
+        h1, h2, h3, h4 { color: #333; }
+        h1 { border-bottom: 2px solid #eee; padding-bottom: 0.5em; }
+        h2 { border-bottom: 1px solid #eee; padding-bottom: 0.3em; }
+        .version-block { border-left: 3px solid #ccc; padding-left: 1.5em; margin-bottom: 2.5em; }
+        .scene { margin-left: 1em; margin-bottom: 1em; }
+        ul { list-style-type: none; padding-left: 0; }
+        li a {
+            text-decoration: none;
+            color: #0366d6;
+            display: inline-block;
+            padding: 2px 0;
+        }
+        li a:hover { text-decoration: underline; }
+        #root p { color: #666; }
+        .collapsible-header { cursor: pointer; user-select: none; }
+        .collapsible-header:hover { color: #0366d6; }
+        .collapsible-content { display: none; padding-left: 1.5em; }
+        .collapsible-indicator { display: inline-block; width: 1em; margin-right: .5em; text-align: center; }
+    </style>
+</head>
+<body>
+    <h1>PACIO Sample Data</h1>
+    <p>
+        This page provides sample FHIR data for the PACIO Project. The PACIO (Post-Acute Care InterOperability) Project is a collaborative effort to advance interoperable health data exchange for post-acute care (PAC) patients. You can find more information at the <a href="https://pacioproject.org/">main PACIO Project page</a>.
+    </p>
+    <p>
+        The goal of this site is to publish sample data for interoperability testing, particularly for FHIR Connectathons, in a way that is accessible to both humans and machines. All sample data is generated from FHIR Shorthand (FSH) source files, which are managed in our public GitHub repository: <a href="https://github.com/paciowg/sample-data-fsh">paciowg/sample-data-fsh</a>. The data is organized into the following sections:
+    </p>
+    <ul>
+        <li><strong>Primary Releases</strong> are stable, versioned sets of data that correspond to official tags in the repository.</li>
+        <li><strong>Working Releases</strong> are generated from the latest commits on active development branches and represent in-progress work.</li>
+    </ul>
+    <p>
+        For programmatic access, a <code><a href="manifest.json">manifest.json</a></code> file is provided. This file contains a complete catalog of all sample data, organized by release and clinical scene, allowing automated tools to discover and retrieve specific data sets. For example, the <a href="https://github.com/paciowg/pseudo-ehr">PACIO pseudo-ehr reference implementation</a> uses this to support loading of PACIO sample data onto FHIR servers.
+    </p>
+    <div id="root">
+        <p>Loading data...</p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
