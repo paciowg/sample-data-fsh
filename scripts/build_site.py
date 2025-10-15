@@ -124,11 +124,8 @@ def get_git_metadata():
     """Gets commit metadata from the current git checkout."""
     try:
         commit_msg = run_command(['git', 'log', '-1', '--pretty=%s'], capture_output=True)
-        commit_date_str = run_command(['git', 'show', '-s', '--format=%ci'], capture_output=True)
-        dt_part, tz_part = commit_date_str.rsplit(' ', 1)
-        dt_obj = datetime.strptime(dt_part, '%Y-%m-%d %H:%M:%S')
-        formatted_date = dt_obj.strftime('%b %d, %Y, %I:%M %p') + f" UTC{tz_part[:3]}:{tz_part[3:]}"
-        return {"commit_msg": commit_msg, "datetime": formatted_date}
+        commit_date_iso = run_command(['git', 'show', '-s', '--format=%cI'], capture_output=True)
+        return {"commit_msg": commit_msg, "datetime": commit_date_iso}
     except (subprocess.CalledProcessError, ValueError) as e:
         print(f"Error getting git metadata: {e}", file=sys.stderr)
         return None
@@ -183,20 +180,20 @@ def process_version(version_id, version_type, display_name, output_dir, site_url
     if not os.path.isdir(SUSHI_OUTPUT_DIR):
         sys.exit(f"Error: Sushi output directory not found at '{SUSHI_OUTPUT_DIR}'. Did sushi run?")
 
-    all_json_paths = glob.glob(os.path.join(SUSHI_OUTPUT_DIR, '*.json'))
-    all_json_filenames = {os.path.basename(p): p for p in all_json_paths}
-    all_json_basenames = {os.path.splitext(name)[0] for name in all_json_filenames.keys()}
+    json_paths = glob.glob(os.path.join(SUSHI_OUTPUT_DIR, '*.json'))
+    json_filenames = {os.path.basename(p): p for p in json_paths}
+    json_basenames = {os.path.splitext(name)[0] for name in json_filenames.keys()}
 
     version_output_dir = os.path.join(output_dir, version_id)
     os.makedirs(version_output_dir, exist_ok=True)
-    for filename, full_path in all_json_filenames.items():
+    for filename, full_path in json_filenames.items():
         shutil.copy(full_path, os.path.join(version_output_dir, filename))
 
-    all_markdown_resources = set(other_markdown_resources)
+    markdown_resources = set(other_markdown_resources)
     for scene in scenes:
-        all_markdown_resources.update(scene['resources'])
+        markdown_resources.update(scene['resources'])
 
-    unmentioned_resources = sorted(list(all_json_basenames - all_markdown_resources))
+    unmentioned_resources = sorted(list(json_basenames - markdown_resources))
     final_other_resources = sorted(list(other_markdown_resources | set(unmentioned_resources)))
 
     base_url = f"{site_url}/{version_id}"
@@ -210,15 +207,17 @@ def process_version(version_id, version_type, display_name, output_dir, site_url
         if not git_meta:
             sys.exit("Failed to get git metadata for branch.")
         manifest_entry = {
-            "branch": display_name, "commit": git_meta['commit_msg'], "datetime": git_meta['datetime'],
+            "type": "working", "identifier": version_id, "description": git_meta['commit_msg'],
+            "datetime": git_meta['datetime'],
             "scenes": scenes, "other_resources": other_resources_urls
         }
     elif version_type == 'release':
         if not datetime_str:
             sys.exit("--datetime is required for version-type 'release'")
         manifest_entry = {
-            "version": display_name, "tag": version_id, "datetime": datetime_str,
-            "scenes": scenes, "other_resources": other_resources_urls
+            "type": "release", "identifier": version_id, "description": display_name,
+            "datetime": datetime_str, "scenes": scenes,
+            "other_resources": other_resources_urls
         }
     return manifest_entry
 
@@ -246,8 +245,7 @@ def main():
     releases = versions.get('releases', [])
     branches = versions.get('branches', [])
 
-    primary_releases_fragments = []
-    working_releases_fragments = []
+    versions_fragments = []
     
     original_branch = run_command(['git', 'rev-parse', '--abbrev-ref', 'HEAD'], capture_output=True)
     print(f"Original branch is '{original_branch}'. Will return to it after processing.", file=sys.stderr)
@@ -264,7 +262,7 @@ def main():
                 version_id=tag, version_type='release', display_name=name,
                 datetime_str=datetime_str, output_dir=args.output_dir, site_url=args.site_url
             )
-            primary_releases_fragments.append(fragment)
+            versions_fragments.append(fragment)
 
         for branch in branches:
             print(f"\n--- Processing branch: {branch} ---", file=sys.stderr)
@@ -276,15 +274,14 @@ def main():
                 version_id=branch, version_type='branch', display_name=branch,
                 output_dir=args.output_dir, site_url=args.site_url
             )
-            working_releases_fragments.append(fragment)
+            versions_fragments.append(fragment)
     finally:
         print(f"\n--- Returning to original branch: {original_branch} ---", file=sys.stderr)
         run_command(['git', 'checkout', original_branch])
 
     print("\n--- Assembling final manifest ---", file=sys.stderr)
     manifest = {
-        "primary_releases": primary_releases_fragments,
-        "working_releases": working_releases_fragments
+        "versions": versions_fragments
     }
     manifest_path = os.path.join(args.output_dir, 'manifest.json')
     os.makedirs(args.output_dir, exist_ok=True)

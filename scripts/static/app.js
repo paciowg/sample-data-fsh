@@ -34,25 +34,28 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
     }
 
-    const renderRelease = (release) => {
-        return `
-            <div class="version-block">
-                <h3>${release.version} (Tag: ${release.tag})</h3>
-                <p><em>Published on: ${release.datetime}</em></p>
-                ${release.scenes.map(renderScene).join('')}
-                ${renderOtherResources(release.other_resources)}
-            </div>
-        `;
-    };
+    const renderVersion = (version) => {
+        const date = new Date(version.datetime).toLocaleString();
+        
+        let headerHtml;
+        if (version.type === 'release') {
+            headerHtml = `
+                <h3>${version.description} (Tag: ${version.identifier})</h3>
+                <p><em>Published on: ${date}</em></p>
+            `;
+        } else { // working
+            headerHtml = `
+                <h3>${version.identifier}</h3>
+                <p><strong>Last commit:</strong> ${version.description}</p>
+                <p><em>Updated on: ${date}</em></p>
+            `;
+        }
 
-    const renderBranch = (branch) => {
         return `
             <div class="version-block">
-                <h3>${branch.branch}</h3>
-                <p><strong>Last commit:</strong> ${branch.commit}</p>
-                <p><em>Updated on: ${branch.datetime}</em></p>
-                ${branch.scenes.map(renderScene).join('')}
-                ${renderOtherResources(branch.other_resources)}
+                ${headerHtml}
+                ${version.scenes.map(renderScene).join('')}
+                ${renderOtherResources(version.other_resources)}
             </div>
         `;
     };
@@ -65,16 +68,19 @@ document.addEventListener('DOMContentLoaded', () => {
             return response.json();
         })
         .then(data => {
+            const releaseVersions = (data.versions || []).filter(r => r.type === 'release');
+            const workingVersions = (data.versions || []).filter(r => r.type === 'working');
+
             let content = '<h2>Primary Releases</h2>';
-            if (data.primary_releases && data.primary_releases.length > 0) {
-                content += data.primary_releases.map(renderRelease).join('');
+            if (releaseVersions.length > 0) {
+                content += releaseVersions.map(renderVersion).join('');
             } else {
                 content += '<p>No primary releases found.</p>';
             }
 
             content += '<h2>Working Releases (Branches)</h2>';
-            if (data.working_releases && data.working_releases.length > 0) {
-                content += data.working_releases.map(renderBranch).join('');
+            if (workingVersions.length > 0) {
+                content += workingVersions.map(renderVersion).join('');
             } else {
                 content += '<p>No working releases found.</p>';
             }
