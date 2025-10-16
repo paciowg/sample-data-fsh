@@ -24,18 +24,18 @@
 // * address.country = "US"
 // * address.text = "123 Spruce Dr. Grand Rapids, MI 49503"
 
-// Instance: org-Loc-SNF-Happy-Nursing-Facility
-// InstanceOf: Location
-// Usage: #example
-// Description: "Organization Happy Nursing Facility Example"
-// * status = #active
-// * name = "Happy Nursing Facility"
-// * address.line = "8100 Pinebrook Dr"
-// * address.city = "Grand Rapids"
-// * address.state = "MI"
-// * address.postalCode = "49504"
-// * address.country = "US"
-// * address.text = "8100 Pinebrook Dr, Grand Rapids, MI 49504"
+Instance: org-Loc-SNF-Happy-Nursing-Facility
+InstanceOf: Location
+Usage: #example
+Description: "Happy Nursing Facility Example"
+* status = #active
+* name = "Happy Nursing Facility"
+* address.line = "8100 Pinebrook Dr"
+* address.city = "Grand Rapids"
+* address.state = "MI"
+* address.postalCode = "49504"
+* address.country = "US"
+* address.text = "8100 Pinebrook Dr, Grand Rapids, MI 49504"
 
 Instance: org-Loc-ED-Metro-Hospital
 InstanceOf: Location
