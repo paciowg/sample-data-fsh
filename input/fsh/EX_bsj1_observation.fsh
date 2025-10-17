@@ -439,59 +439,59 @@ Description: "Betsy Smith-Johnson Observation - Hemoglobin - 9/20/25 Pre-Dischar
 // * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 // * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
-// Instance: betsysmith-johnson01-MDS-ShortWalk1
-// InstanceOf: Observation
-// Usage: #example
-// Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg noted during routine check-up."
-// * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
-// * status = #final
-// * category[0] = $observation-category#survey "Survey"
-// * category[+] = $us-core-category#functional-status "Functional Status"
-// * category[+] = $pfe-category-cs#d4600 "Moving Around Within the Home"
-// * code = $loinc#89381-8 "Walk 50 feet with two turns - functional goal during assessment period [CMS Assessment]"
-// * code.text = "Mobility (discharge performance) - walk 50 feet w/2 turns"
-// * subject = Reference(Patient/patient-betsysmith-johnson01)
-// * effectiveDateTime = "2024-09-19T14:30:00-04:00"
-// * performer = Reference(PractitionerRole/Role-OT-JenCadbury)
-// * valueCodeableConcept = $loinc#LA10055-4 "Partial/moderate assistance - helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
-// * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
-// * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
+Instance: betsysmith-johnson01-MDS-ShortWalk1
+InstanceOf: Observation
+Usage: #example
+Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg noted during routine check-up."
+* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
+* status = #final
+* category[0] = $observation-category#survey "Survey"
+* category[+] = $us-core-category#functional-status "Functional Status"
+* category[+] = $pfe-category-cs#d4600 "Moving Around Within the Home"
+* code = $loinc#89381-8 "Walk 50 feet with two turns - functional goal during assessment period [CMS Assessment]"
+* code.text = "Mobility (discharge performance) - walk 50 feet w/2 turns"
+* subject = Reference(Patient/patient-betsysmith-johnson01)
+* effectiveDateTime = "2024-09-19T14:30:00-04:00"
+* performer = Reference(PractitionerRole/Role-OT-JenCadbury)
+* valueCodeableConcept = $loinc#LA10055-4 "Partial/moderate assistance - helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
+* extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
+* extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
-// Instance: betsysmith-johnson01-MDS-SitStand1
-// InstanceOf: Observation
-// Usage: #example
-// Description: "Betsy Smith-Johnson's Observation: Vital signs stable, no signs of distress."
-// * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
-// * status = #final
-// * category[0] = $observation-category#survey "Survey"
-// * category[+] = $us-core-category#functional-status "Functional Status"
-// * category[+] = $pfe-category-cs#d4014 "Standing"
-// * code = $loinc#"89392-5" "Sit to stand - functional goal during assessment period [CMS Assessment]"
-// * code.text = "Mobility (discharge performance) - sit to stand"
-// * subject = Reference(Patient/patient-betsysmith-johnson01)
-// * effectiveDateTime = "2024-09-19T14:30:00-04:00"
-// * performer = Reference(PractitionerRole/Role-OT-JenCadbury)
-// * valueCodeableConcept = $loinc#LA11759-0 "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
-// * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
-// * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
+Instance: betsysmith-johnson01-MDS-SitStand1
+InstanceOf: Observation
+Usage: #example
+Description: "Betsy Smith-Johnson's Observation: Vital signs stable, no signs of distress."
+* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
+* status = #final
+* category[0] = $observation-category#survey "Survey"
+* category[+] = $us-core-category#functional-status "Functional Status"
+* category[+] = $pfe-category-cs#d4014 "Standing"
+* code = $loinc#"89392-5" "Sit to stand - functional goal during assessment period [CMS Assessment]"
+* code.text = "Mobility (discharge performance) - sit to stand"
+* subject = Reference(Patient/patient-betsysmith-johnson01)
+* effectiveDateTime = "2024-09-19T14:30:00-04:00"
+* performer = Reference(PractitionerRole/Role-OT-JenCadbury)
+* valueCodeableConcept = $loinc#LA11759-0 "Substantial/maximal assistance - Helper does more than half the effort. Helper lifts or holds trunk or limbs and provides more than half the effort."
+* extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
+* extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
-// Instance: betsysmith-johnson01-MDS-SitUp1
-// InstanceOf: Observation
-// Usage: #example
-// Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg recorded during routine check-up."
-// * meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
-// * status = #final
-// * category[0] = $observation-category#survey "Survey"
-// * category[+] = $us-core-category#functional-status "Functional Status"
-// * category[+] = $pfe-category-cs#d4100 "Lying Down"
-// * code = $loinc#"85927-2" "Lying to sitting on side of bed - functional goal during assessment period [CMS Assessment]"
-// * code.text = "Mobility (discharge performance) - lying to sitting on side of bed"
-// * subject = Reference(Patient/patient-betsysmith-johnson01)
-// * effectiveDateTime = "2024-09-19T14:30:00-04:00"
-// * performer = Reference(PractitionerRole/Role-OT-JenCadbury)
-// * valueCodeableConcept = $loinc#LA30911-4 "Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as person completes activity. Assistance may be provided throughout the activity or intermittently."
-// * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
-// * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
+Instance: betsysmith-johnson01-MDS-SitUp1
+InstanceOf: Observation
+Usage: #example
+Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90 mmHg recorded during routine check-up."
+* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
+* status = #final
+* category[0] = $observation-category#survey "Survey"
+* category[+] = $us-core-category#functional-status "Functional Status"
+* category[+] = $pfe-category-cs#d4100 "Lying Down"
+* code = $loinc#"85927-2" "Lying to sitting on side of bed - functional goal during assessment period [CMS Assessment]"
+* code.text = "Mobility (discharge performance) - lying to sitting on side of bed"
+* subject = Reference(Patient/patient-betsysmith-johnson01)
+* effectiveDateTime = "2024-09-19T14:30:00-04:00"
+* performer = Reference(PractitionerRole/Role-OT-JenCadbury)
+* valueCodeableConcept = $loinc#LA30911-4 "Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as person completes activity. Assistance may be provided throughout the activity or intermittently."
+* extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
+* extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
 // Instance: betsysmith-johnson01-Symptom-Recognition
 // InstanceOf: Observation
