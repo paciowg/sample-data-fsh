@@ -12,6 +12,10 @@ from datetime import datetime
 
 # --- Constants ---
 SUSHI_OUTPUT_DIR = 'fsh-generated/resources'
+RESOURCE_EXCLUSION_RULES = [
+    {'resourceType': 'ImplementationGuide'},
+    {'resourceType': 'Bundle', 'type': 'searchset'}
+]
 
 # --- Utility Functions ---
 
@@ -180,7 +184,28 @@ def process_version(version_id, version_type, display_name, output_dir, site_url
     if not os.path.isdir(SUSHI_OUTPUT_DIR):
         sys.exit(f"Error: Sushi output directory not found at '{SUSHI_OUTPUT_DIR}'. Did sushi run?")
 
-    json_paths = glob.glob(os.path.join(SUSHI_OUTPUT_DIR, '*.json'))
+    all_json_paths = glob.glob(os.path.join(SUSHI_OUTPUT_DIR, '*.json'))
+
+    # Filter out excluded resources
+    json_paths = []
+    for path in all_json_paths:
+        try:
+            with open(path, 'r', encoding='utf-8') as f:
+                resource = json.load(f)
+
+            is_excluded = False
+            for rule in RESOURCE_EXCLUSION_RULES:
+                if all(resource.get(key) == value for key, value in rule.items()):
+                    print(f"Excluding resource: {os.path.basename(path)} (matches rule: {rule})", file=sys.stderr)
+                    is_excluded = True
+                    break
+            
+            if not is_excluded:
+                json_paths.append(path)
+
+        except (json.JSONDecodeError, IOError) as e:
+            print(f"Warning: Could not read or parse {path}. Skipping. Error: {e}", file=sys.stderr)
+
     json_filenames = {os.path.basename(p): p for p in json_paths}
     json_basenames = {os.path.splitext(name)[0] for name in json_filenames.keys()}
 
