@@ -58,8 +58,6 @@
 * [Ina Krause](Practitioner-Practitioner-InaKrause.html)
 * [Judy Salas](Practitioner-Practitioner-JudySalas.html)
 * [Mia Rinaldi](Practitioner-Practitioner-MiaRinaldi.html)
-* [Phil Chekhov](Practitioner-Practitioner-Phil-Chekhov.html)
-* [Tracy Count](Practitioner-Practitioner-Tracy-Count.html)
 * [Kevin James](Practitioner-Practitioner-KevinJames.html)
 
 ### Practitioner role
@@ -83,8 +81,6 @@
 * [Role for Sonja Valdez, Occupational Therapist](PractitionerRole-PractitionerRole-OT-SonjaValdez.html)
 * [Role for Treyvor Clark, Registered Nurse](PractitionerRole-PractitionerRole-RN-TreyvorClark.html)
 * [Role for Jen Cadbury, Occupational Therapist](PractitionerRole-Role-OT-JenCadbury.html)
-* [Role for Phil Chekhov, Pharmacist](PractitionerRole-Role-Pharm-PhilChekhov.html)
-* [Role for Tracy Count, Pharmacist](PractitionerRole-Role-Pharm-TracyCount.html)
 * [Role for Luna Baskins, Physical Therapist](PractitionerRole-Role-PT-LunaBaskins.html)
 * [Role for Kevin James, Pharmacist](PractitionerRole-PractitionerRole-Pharm-KevinJames.html)
 

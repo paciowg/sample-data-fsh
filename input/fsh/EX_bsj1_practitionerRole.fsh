@@ -222,26 +222,6 @@ Description: "Jen Cadbury's role at Happy Nursing Facility."
 * organization = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility) "Happy Nursing Facility"
 * location = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
-Instance: Role-Pharm-PhilChekhov
-InstanceOf: PractitionerRole
-Usage: #example
-Description: "Phil Chekhov's role at Everyday Community Pharmacy."
-* active = true
-* code = $taxonomy#183500000X "Pharmacist"
-* practitioner = Reference(Practitioner/Practitioner-Phil-Chekhov) "Phil Chekhov"
-* organization = Reference(Organization/org-Pharm-Everyday-Community-Pharm) "Everyday Community Pharmacy"
-* location = Reference(Location/org-Loc-Everyday-Community-Pharm)
-
-Instance: Role-Pharm-TracyCount
-InstanceOf: PractitionerRole
-Usage: #example
-Description: "Tracy Count's role at Not Every Day Contract Pharmacy."
-* active = true
-* code = $taxonomy#183500000X "Pharmacist"
-* practitioner = Reference(Practitioner/Practitioner-Tracy-Count) "Tracy Count"
-* organization = Reference(Organization/org-Pharm-NED-Contract-Pharm) "Not Every Day Contract Pharmacy"
-* location = Reference(Location/org-Loc-NED-Contract-Pharm)
-
 Instance: Role-PT-LunaBaskins
 InstanceOf: PractitionerRole
 Usage: #example
