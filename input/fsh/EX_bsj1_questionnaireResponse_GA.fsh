@@ -7,7 +7,7 @@ Usage: #inline
 * meta.lastUpdated = "2025-06-12T13:53:54.000+00:00"
 * meta.source = "#g6PjkfJK4SUWnv4R"
 * meta.tag.code = #"lformsVersion: 36.19.0"
-* questionnaire = "https://globalalliantinc.com/fhir/questionnaires/ZBI-22|1.0.0"
+* questionnaire = "https://globalalliantinc.com/fhir/Questionnaire/questionnaire-ZBI22|1.0.0"
 * status = #completed
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authored = "2025-06-11T16:16:49.872Z"
@@ -105,7 +105,7 @@ InstanceOf: QuestionnaireResponse
 Usage: #example
 * meta.versionId = "1"
 * meta.lastUpdated = "2025-11-20T14:36:50.241Z"
-* questionnaire = "https://globalalliantinc.com/fhir/questionnaires/PROMIS-10"
+* questionnaire = "https://globalalliantinc.com/fhir/Questionnaire/questionnaire-PROMIS10"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * status = #completed
 * authored = "2025-11-20T14:36:50.241Z"
