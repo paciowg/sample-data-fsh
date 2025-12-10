@@ -848,8 +848,7 @@ Usage: #example
 * status = #draft
 * description = "PROMIS Global-10"
 * purpose = "The PROMIS Global-10 is a 10-item patient-reported questionnaire used to gauge the patient's overall physical and mental health."
-* code[0] = $loinc#71971-6 "PROMIS-10"
-* code[+] = $loinc#71971-6 "PROMIS-10"
+* code[0] = $loinc#85524-7 "PROMIS short form - global - version 1.2"
 * item[0].type = #string
 * item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/regex"
 * item[=].extension.valueString = "^[1-9]((?![SLOIBZ])[A-Z])((?![SLOIBZ])[0-9A-Z])[0-9]((?![SLOIBZ])[A-Z])((?![SLOIBZ])[0-9A-Z])[0-9]((?![SLOIBZ])[A-Z])((?![SLOIBZ])[A-Z])[0-9][0-9]$"
