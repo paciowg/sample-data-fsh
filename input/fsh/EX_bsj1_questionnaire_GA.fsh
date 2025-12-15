@@ -1,5 +1,6 @@
 Alias: $loinc = http://loinc.org
 Alias: $questionnaire-item-control = http://hl7.org/fhir/questionnaire-item-control
+Alias: $sdc-calculatedExpression = http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-calculatedExpression
 
 Instance: 46349c26-30b3-4f36-94a6-f9ddfe4b7426
 InstanceOf: Bundle
@@ -841,7 +842,7 @@ Usage: #inline
 Instance: questionnaire-PROMIS10
 InstanceOf: Questionnaire
 Usage: #example
-* url = "https://globalalliantinc.com/fhir/questionnaires/PROMIS-10"
+* url = "https://globalalliantinc.com/fhir/Questionnaire/questionnaire-PROMIS10"
 * version = "1.0.0"
 * publisher = "Global Alliant Inc."
 * title = "PROMIS-10"
@@ -1107,3 +1108,19 @@ Usage: #example
 * item[=].answerOption[+].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answerOption[=].extension.valueDecimal = 10
 * item[=].answerOption[=].valueCoding = $loinc#LA26952-4 "10 - Worst Pain Imaginable"
+* item[+].type = #decimal
+* item[=].linkId = "physical_health_score"
+* item[=].code = $loinc#71972-4 "PROMIS-10 Global Physical Health (GPH) score"
+* item[=].text = "PROMIS-10 Global Health, GPH, raw score"
+* item[=].readOnly = true
+* item[=].extension.url = $sdc-calculatedExpression
+* item[=].extension.valueExpression.language = #text/fhirpath
+* item[=].extension.valueExpression.expression = "%resource.item.where(linkId='physical_health').answer.value.extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').value + %resource.item.where(linkId='physical_activities').answer.value.extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').value + iif(%resource.item.where(linkId='pain').answer.value.extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').value = 0, 5, iif(%resource.item.where(linkId='pain').answer.value.extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').value <= 3, 4, iif(%resource.item.where(linkId='pain').answer.value.extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').value <= 6, 3, iif(%resource.item.where(linkId='pain').answer.value.extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').value <= 9, 2, 1)))) + %resource.item.where(linkId='fatigue').answer.value.extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').value"
+* item[+].type = #decimal
+* item[=].linkId = "mental_health_score"
+* item[=].code = $loinc#71970-8 "PROMIS-10 Global Mental Health (GMH) score"
+* item[=].text = "PROMIS-10 Global Health, GMH raw score"
+* item[=].readOnly = true
+* item[=].extension.url = $sdc-calculatedExpression
+* item[=].extension.valueExpression.language = #text/fhirpath
+* item[=].extension.valueExpression.expression = "%resource.item.where(linkId='quality_of_life').answer.value.extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').value + %resource.item.where(linkId='mental_health').answer.value.extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').value + %resource.item.where(linkId='satisfaction_social').answer.value.extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').value + %resource.item.where(linkId='emotional').answer.value.extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').value"
