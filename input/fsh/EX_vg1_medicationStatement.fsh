@@ -4,9 +4,9 @@ Alias: $NDC = http://hl7.org/fhir/sid/ndc
 Instance: VioletGartner01-smp-medstmt-isotretinoin-01
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "MedicationStatement for Isotretinoin - stopped on 2026-01-10 from ED"
+Description: "MedicationStatement for Isotretinoin - active on 2026-01-10 from ED"
 * basedOn = Reference(VioletGartner01-smp-medrx-isotretinoin-01)
-* status = #stopped
+* status = #active
 * subject = Reference(Patient/patient-VioletGartner01) "Violet Gartner"
 * dateAsserted = "2026-01-10T14:35:00-05:00"
 * informationSource = Reference(Organization/org-ED-Metro-Hospital) // Assuming ED as the source

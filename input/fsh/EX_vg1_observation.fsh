@@ -7,9 +7,9 @@ Instance: VioletGartner01-observation-NonWeightBearing-01
 InstanceOf: Observation
 Usage: #example
 Description: "Violet Gartner's observation of non-weight-bearing status."
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-clinical-result"
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-observation-clinical-result" // should this be PFE-observation (and the next two too)? 
 * status = #final
-* category = $observation-category#clinical-finding "Clinical Finding"
+* category = $observation-category#clinical-finding "Clinical Finding" // does this qualify as clinical finding?
 * code = $sct#261999007 "Non-weight-bearing"
 * subject = Reference(Patient/patient-VioletGartner01) "Violet Gartner"
 * effectiveDateTime = "2026-01-10T15:40:00-05:00"

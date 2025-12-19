@@ -4,8 +4,8 @@ Alias: $NDC = http://hl7.org/fhir/sid/ndc
 Instance: VioletGartner01-smp-medrx-isotretinoin-01
 InstanceOf: MedicationRequest
 Usage: #example
-Description: "MedicationRequest for Isotretinoin - stopped order on 2026-01-10 by Sonya Nguyen, PharmD"
-* status = #stopped
+Description: "MedicationRequest for Isotretinoin - active order on 2026-01-10 by Sonya Nguyen, PharmD"
+* status = #active
 * intent = #order
 * subject = Reference(Patient/patient-VioletGartner01) "Violet Gartner"
 * authoredOn = "2026-01-10T14:35:00-05:00"
