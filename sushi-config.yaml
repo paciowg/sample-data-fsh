@@ -31,7 +31,8 @@ dependencies:
   hl7.fhir.us.smp:
     id: smp
     uri: http://hl7.org/fhir/us/smp/ImplementationGuide/hl7.fhir.us.smp
-    version: 1.0.0
+    version: dev
+    url: https://build.fhir.org/ig/HL7/smp-ig/branches/preapply/package.tgz
   hl7.fhir.us.mcode:
     id: mcode
     uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode
