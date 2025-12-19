@@ -1,14 +1,13 @@
-Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
-
 Instance: patient-VioletGartner01
 InstanceOf: Patient
 Usage: #example
 Description: "Violet Gartner's patient record, #female born on 2008-10-01."
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
 * language = #en-US
-* identifier[0].use = #usual
+* identifier[0].type =  $v2-0203#SS "Social Security Number"
+* identifier[=].type.text = "Social Security Number"
 * identifier[=].system = "http://hl7.org/fhir/sid/us-ssn"
-* identifier[=].value = $v2-0203#SS "111-45-6677"
+* identifier[=].value = "111-45-6677"
 
 * active = true
 * name.use = #usual
