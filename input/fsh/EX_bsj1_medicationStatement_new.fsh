@@ -82,7 +82,7 @@ Description: "MedicationStatement for colace - stopped on 2025-04-22 from org-Mi
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * dateAsserted = "2025-04-22T09:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#1247756 "Colace 100 MG Oral Capsule"
+* medicationCodeableConcept[0].coding[0] = $rxnorm#1247756 "docusate sodium 100 MG Oral Capsule"
 * medicationCodeableConcept[0].coding[1] = $NDC#68788865801
 
 Instance: bsj1-smp-medstmt-ferrous-0-8
@@ -118,7 +118,7 @@ Description: "MedicationStatement for jardiance - active on 2025-04-22 from org-
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * dateAsserted = "2025-04-22T09:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "Jardiance 10 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "empagliflozin 10 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00597015207
 
 Instance: bsj1-smp-medstmt-lipitor-0-11
@@ -190,7 +190,7 @@ Description: "MedicationStatement for zofran - stopped on 2025-04-22 from org-Mi
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * dateAsserted = "2025-04-22T09:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#104895 "Zofran 4 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[0] = $rxnorm#104895 "ondansetron 4 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00179009944
 
 Instance: bsj1-smp-medstmt-acetaminophen-1-1
@@ -250,7 +250,7 @@ Description: "MedicationStatement for jardiance - draft on 2025-05-03 from org-E
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * dateAsserted = "2025-05-03T14:45:00-08:00"
 * informationSource = Reference(Organization/org-ED-Metro-Hospital)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "Jardiance 10 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "empagliflozin 10 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#55154041108
 
 Instance: bsj1-smp-medstmt-lipitor-1-6
@@ -262,7 +262,7 @@ Description: "MedicationStatement for lipitor - active on 2025-05-03 from org-ED
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * dateAsserted = "2025-05-03T14:45:00-08:00"
 * informationSource = Reference(Organization/org-ED-Metro-Hospital)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00071015723
 
 Instance: bsj1-smp-medstmt-metformin-1-7
@@ -287,7 +287,7 @@ Description: "MedicationStatement for sertraline - active on 2025-05-03 from org
 * dateAsserted = "2025-05-03T14:45:00-08:00"
 * informationSource = Reference(Organization/org-ED-Metro-Hospital)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#312940 "sertraline 25 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00440831530
+* medicationCodeableConcept[0].coding[1] = $NDC#68180051803
 
 Instance: bsj1-smp-medstmt-acetaminophen-1-9
 InstanceOf: MedicationStatement
@@ -370,7 +370,7 @@ Description: "MedicationStatement for lipitor - active on 2025-05-04 from org-Mo
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * dateAsserted = "2025-07-01T16:15:00-08:00"
 * informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00071015723
 
 Instance: bsj1-smp-medstmt-metformin-2-3
@@ -407,7 +407,7 @@ Description: "MedicationStatement for sertraline - active on 2025-05-04 from org
 * dateAsserted = "2025-07-01T16:15:00-08:00"
 * informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#312940 "sertraline 25 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00440831530
+* medicationCodeableConcept[0].coding[1] = $NDC#68180051803
 
 Instance: bsj1-smp-medstmt-acetaminophen-2-6
 InstanceOf: MedicationStatement
@@ -514,7 +514,7 @@ Description: "MedicationStatement for lipitor - draft on 2025-07-03 from org-Mot
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * dateAsserted = "2025-07-03T09:00:00-08:00"
 * informationSource = Reference(Organization/org-Motown-Home-Health)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00071015723
 
 Instance: bsj1-smp-medstmt-metformin-3-2
@@ -563,7 +563,7 @@ Description: "MedicationStatement for sertraline - stopped on 2025-07-03 from or
 * dateAsserted = "2025-07-03T09:00:00-08:00"
 * informationSource = Reference(Organization/org-Motown-Home-Health)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#312940 "sertraline 25 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00440831530
+* medicationCodeableConcept[0].coding[1] = $NDC#68180051803
 
 Instance: bsj1-smp-medstmt-sitagliptin-3-6
 InstanceOf: MedicationStatement
@@ -646,7 +646,7 @@ Description: "MedicationStatement for lipitor - stopped on 2025-07-16 from org-M
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * dateAsserted = "2025-07-16T11:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#00071015723
 
 Instance: bsj1-smp-medstmt-metformin-4-6

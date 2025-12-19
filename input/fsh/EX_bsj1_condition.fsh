@@ -459,6 +459,7 @@ Usage: #example
 Description: "A list of Betsy Smith-Johnson's problems, conditions, and health concerns"
 * status = #current
 * mode = #snapshot
+* code = http://loinc.org#11450-4 "Problem list - Reported"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * date = "2025-05-04T12:30:58.313-04:00"
 * source = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
