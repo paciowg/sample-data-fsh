@@ -5,7 +5,6 @@ Instance: VioletGartner01-smp-medstmt-isotretinoin-01
 InstanceOf: MedicationStatement
 Usage: #example
 Description: "MedicationStatement for Isotretinoin - active on 2026-01-10 from Home"
-* basedOn = Reference(VioletGartner01-smp-medrx-isotretinoin-01)
 * status = #active
 * subject = Reference(Patient/patient-VioletGartner01) "Violet Gartner"
 * dateAsserted = "2026-01-10T14:35:00-05:00"

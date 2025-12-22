@@ -5,7 +5,7 @@ Instance: VioletGartner01-servicerequest-PT-01
 InstanceOf: ServiceRequest
 Usage: #example
 Description: "ServiceRequest for Physical Therapy for Violet Gartner"
-meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-servicerequest"
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-servicerequest"
 * status = #active
 * intent = #order
 * category = $sct#386053000 "Evaluation procedure (procedure)"
@@ -24,7 +24,6 @@ Usage: #example
 Description: "ServiceRequest for Occupational Therapy for Violet Gartner"
 * status = #active
 * intent = #order
-//three lines below from BSJ1, comments below that were suggested by AI.
 * category = $sct#386053000 "Evaluation procedure (procedure)"
 * code = $sct#410155007 "Occupational therapy assessment"
 * code.text = "Occupational therapy assessment (procedure)"
