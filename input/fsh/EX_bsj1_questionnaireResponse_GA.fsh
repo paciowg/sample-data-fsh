@@ -172,6 +172,12 @@ Usage: #example
 * item[+].answer.valueDecimal = 9
 * item[=].linkId = "mental_health_score"
 * item[=].text = "Mental Health Score (Raw Score)"
+* item[+].answer.valueDecimal = 32.4
+* item[=].linkId = "physical_health_tscore"
+* item[=].text = "PROMIS Global Physical Health v1.2 T-Score"
+* item[+].answer.valueDecimal = 36.3
+* item[=].linkId = "mental_health_tscore"
+* item[=].text = "PROMIS Global Mental Health v1.2 T-Score"
 
 Instance: promis-10-assessment-betsy-august
 InstanceOf: QuestionnaireResponse
@@ -245,6 +251,12 @@ Usage: #example
 * item[+].answer.valueDecimal = 11
 * item[=].linkId = "mental_health_score"
 * item[=].text = "Mental Health Score (Raw Score)"
+* item[+].answer.valueDecimal = 39.8
+* item[=].linkId = "physical_health_tscore"
+* item[=].text = "PROMIS Global Physical Health v1.2 T-Score"
+* item[+].answer.valueDecimal = 41.1
+* item[=].linkId = "mental_health_tscore"
+* item[=].text = "PROMIS Global Mental Health v1.2 T-Score"
 
 Instance: promis-10-assessment-betsy-september
 InstanceOf: QuestionnaireResponse
@@ -318,6 +330,12 @@ Usage: #example
 * item[+].answer.valueDecimal = 12
 * item[=].linkId = "mental_health_score"
 * item[=].text = "Mental Health Score (Raw Score)"
+* item[+].answer.valueDecimal = 47.7
+* item[=].linkId = "physical_health_tscore"
+* item[=].text = "PROMIS Global Physical Health v1.2 T-Score"
+* item[+].answer.valueDecimal = 43.5
+* item[=].linkId = "mental_health_tscore"
+* item[=].text = "PROMIS Global Mental Health v1.2 T-Score"
 
 Instance: promis-10-assessment-betsy-november
 InstanceOf: QuestionnaireResponse
@@ -391,6 +409,12 @@ Usage: #example
 * item[+].answer.valueDecimal = 15
 * item[=].linkId = "mental_health_score"
 * item[=].text = "Mental Health Score (Raw Score)"
+* item[+].answer.valueDecimal = 57.7
+* item[=].linkId = "physical_health_tscore"
+* item[=].text = "PROMIS Global Physical Health v1.2 T-Score"
+* item[+].answer.valueDecimal = 50.8
+* item[=].linkId = "mental_health_tscore"
+* item[=].text = "PROMIS Global Mental Health v1.2 T-Score"
 
 Instance: promis-10-assessment-betsy-december
 InstanceOf: QuestionnaireResponse
@@ -464,3 +488,9 @@ Usage: #example
 * item[+].answer.valueDecimal = 17
 * item[=].linkId = "mental_health_score"
 * item[=].text = "Mental Health Score (Raw Score)"
+* item[+].answer.valueDecimal = 57.7
+* item[=].linkId = "physical_health_tscore"
+* item[=].text = "PROMIS Global Physical Health v1.2 T-Score"
+* item[+].answer.valueDecimal = 56.0
+* item[=].linkId = "mental_health_tscore"
+* item[=].text = "PROMIS Global Mental Health v1.2 T-Score"
