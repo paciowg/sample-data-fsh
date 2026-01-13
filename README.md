@@ -3,6 +3,22 @@
 Repository for creating and managing PACIO sample data for interoperability testing in FHIR Connectathons.
 It is intended for implementers preparing for Connectathons to browse and download the FHIR examples.
 
+## PACIO Sample Data Depot
+
+The sample data is automatically built and available online:
+
+https://build.fhir.org/ig/paciowg/sample-data-fsh/
+
+Branches are also built and available online, e.g.,
+
+https://build.fhir.org/ig/paciowg/sample-data-fsh/branches/connectathon-january-2026/
+
+## Manifest
+
+The sample data is also built organized into a manifest to allow easy loading from any branch:
+
+https://paciowg.github.io/sample-data-fsh/
+
 ## Building the Implementation Guide
 
 To generate the FHIR Implementation Guide, use the provided scripts:
