@@ -23,7 +23,7 @@ Description: "Violet Gartner MedicationList for Home - 1 medication"
 * date = "2026-01-10T14:35:00-05:00"
 * subject = Reference(Patient/patient-VioletGartner01) "Violet Gartner"
 * source = Reference(PractitionerRole/Role-IMMD-AnitaChu)
-* entry[0].item = Reference(MedicationStatement/VioletGartner01-smp-medstmt-isotretinoin-01) "Isotretinoin 20 MG Oral Capsule"
+* entry[0].item = Reference(MedicationStatement/VioletGartner01-smp-medstmt-isotretinoin-01) "Isotretinoin 20 MG Oral Capsule [Absorica]"
 
 Instance: VioletGartner01-SMP-Bundle-ED-01
 InstanceOf: Bundle

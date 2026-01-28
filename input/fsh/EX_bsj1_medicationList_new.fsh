@@ -75,7 +75,7 @@ Description: "Betsy Smith-Johnson MedicationList for scene 0 - Home - 16 medicat
 * entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-nortriptyline-0-13) "nortriptyline 50 MG Oral Capsule"
 * entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-polyethylene-0-14) "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
 * entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-sertraline-0-15) "sertraline 25 MG Oral Tablet"
-* entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-zofran-0-16) "Zofran 4 MG Oral Tablet"
+* entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-ondansetron-0-16) "ondansetron 4 MG Oral Tablet"
 
 Instance: bsj1-smp-medListNew-1
 InstanceOf: List
