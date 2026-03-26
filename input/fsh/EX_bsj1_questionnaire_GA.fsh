@@ -1,5 +1,6 @@
 Alias: $loinc = http://loinc.org
 Alias: $questionnaire-item-control = http://hl7.org/fhir/questionnaire-item-control
+Alias: $sdc-calculatedExpression = http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-calculatedExpression
 
 Instance: 46349c26-30b3-4f36-94a6-f9ddfe4b7426
 InstanceOf: Bundle
@@ -837,3 +838,305 @@ Usage: #inline
 * item[=].answerOption[+].valueCoding = #2 "Moderately"
 * item[=].answerOption[+].valueCoding = #3 "Quite a bit"
 * item[=].answerOption[+].valueCoding = #4 "Extremely"
+
+Instance: questionnaire-PROMIS10
+InstanceOf: Questionnaire
+Usage: #example
+* url = "https://globalalliantinc.com/fhir/Questionnaire/questionnaire-PROMIS10"
+* version = "1.0.0"
+* publisher = "Global Alliant Inc."
+* title = "PROMIS-10"
+* status = #draft
+* description = "PROMIS Global-10"
+* purpose = "The PROMIS Global-10 is a 10-item patient-reported questionnaire used to gauge the patient's overall physical and mental health."
+* code[0] = $loinc#85524-7 "PROMIS short form - global - version 1.2"
+* item[0].type = #string
+* item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/regex"
+* item[=].extension.valueString = "^[1-9]((?![SLOIBZ])[A-Z])((?![SLOIBZ])[0-9A-Z])[0-9]((?![SLOIBZ])[A-Z])((?![SLOIBZ])[0-9A-Z])[0-9]((?![SLOIBZ])[A-Z])((?![SLOIBZ])[A-Z])[0-9][0-9]$"
+* item[=].linkId = "mbi"
+* item[=].text = "What is this patient's Medicare Beneficiary Identifier (MBI)?"
+* item[=].required = true
+* item[+].type = #date
+* item[=].required = true
+* item[=].linkId = "assessment_date"
+* item[=].text = "Please report the date this assessment was complete."
+* item[+].type = #choice
+* item[=].code = $loinc#61577-3 "In general, would you say your health is..."
+* item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+* item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
+* item[=].extension.valueCodeableConcept.text = "Drop down"
+* item[=].required = true
+* item[=].linkId = "health"
+* item[=].text = "In general, would you say your health is..."
+* item[=].answerOption[0].valueCoding = $loinc#LA9206-9 "Excellent"
+* item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 5
+* item[=].answerOption[+].valueCoding = $loinc#LA13913-1 "Very Good"
+* item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 4
+* item[=].answerOption[+].valueCoding = $loinc#LA8967-7 "Good"
+* item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 3
+* item[=].answerOption[+].valueCoding = $loinc#LA8968-5 "Fair"
+* item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 2
+* item[=].answerOption[+].valueCoding = $loinc#LA8969-3 "Poor"
+* item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 1
+* item[+].type = #choice
+* item[=].code = $loinc#61578-1 "In general, would you say your quality of life is..."
+* item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+* item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
+* item[=].extension.valueCodeableConcept.text = "Drop down"
+* item[=].required = true
+* item[=].linkId = "quality_of_life"
+* item[=].text = "In general, would you say your quality of life is..."
+* item[=].answerOption[0].valueCoding = $loinc#LA9206-9 "Excellent"
+* item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 5
+* item[=].answerOption[+].valueCoding = $loinc#LA13913-1 "Very Good"
+* item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 4
+* item[=].answerOption[+].valueCoding = $loinc#LA8967-7 "Good"
+* item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 3
+* item[=].answerOption[+].valueCoding = $loinc#LA8968-5 "Fair"
+* item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 2
+* item[=].answerOption[+].valueCoding = $loinc#LA8969-3 "Poor"
+* item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 1
+* item[+].type = #choice
+* item[=].code = $loinc#61579-9 "In general, how would you rate your physical health?"
+* item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+* item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
+* item[=].extension.valueCodeableConcept.text = "Drop down"
+* item[=].required = true
+* item[=].linkId = "physical_health"
+* item[=].text = "In general, how would you rate your physical health?"
+* item[=].answerOption[0].valueCoding = $loinc#LA9206-9 "Excellent"
+* item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 5
+* item[=].answerOption[+].valueCoding = $loinc#LA13913-1 "Very Good"
+* item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 4
+* item[=].answerOption[+].valueCoding = $loinc#LA8967-7 "Good"
+* item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 3
+* item[=].answerOption[+].valueCoding = $loinc#LA8968-5 "Fair"
+* item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 2
+* item[=].answerOption[+].valueCoding = $loinc#LA8969-3 "Poor"
+* item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 1
+* item[+].type = #choice
+* item[=].code = $loinc#61580-7 "In general, how would you rate your mental health, including your mood and your ability  to think?"
+* item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+* item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
+* item[=].extension.valueCodeableConcept.text = "Drop down"
+* item[=].required = true
+* item[=].linkId = "mental_health"
+* item[=].text = "In general, how would you rate your mental health, including your mood and your ability  to think?"
+* item[=].answerOption[0].valueCoding = $loinc#LA9206-9 "Excellent"
+* item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 5
+* item[=].answerOption[+].valueCoding = $loinc#LA13913-1 "Very Good"
+* item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 4
+* item[=].answerOption[+].valueCoding = $loinc#LA8967-7 "Good"
+* item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 3
+* item[=].answerOption[+].valueCoding = $loinc#LA8968-5 "Fair"
+* item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 2
+* item[=].answerOption[+].valueCoding = $loinc#LA8969-3 "Poor"
+* item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 1
+* item[+].type = #choice
+* item[=].code = $loinc#61581-5 "In general, how would you rate your satisfaction with your social activities and relationships?"
+* item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+* item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
+* item[=].extension.valueCodeableConcept.text = "Drop down"
+* item[=].required = true
+* item[=].linkId = "satisfaction_social"
+* item[=].text = "In general, how would you rate your satisfaction with your social activities and relationships?"
+* item[=].answerOption[0].valueCoding = $loinc#LA9206-9 "Excellent"
+* item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 5
+* item[=].answerOption[+].valueCoding = $loinc#LA13913-1 "Very Good"
+* item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 4
+* item[=].answerOption[+].valueCoding = $loinc#LA8967-7 "Good"
+* item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 3
+* item[=].answerOption[+].valueCoding = $loinc#LA8968-5 "Fair"
+* item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 2
+* item[=].answerOption[+].valueCoding = $loinc#LA8969-3 "Poor"
+* item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 1
+* item[+].type = #choice
+* item[=].code = $loinc#61585-6 "In general, please rate how well you carry out  your usual social activities and roles. (This includes activities at home, at work and in your community, and responsibilities as a parent, child, spouse, employee, friend, etc.)"
+* item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+* item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
+* item[=].extension.valueCodeableConcept.text = "Drop down"
+* item[=].required = true
+* item[=].linkId = "social_activities"
+* item[=].text = "In general, please rate how well you carry out  your usual social activities and roles. (This includes activities at home, at work and in your community, and responsibilities as a parent, child, spouse, employee, friend, etc.)"
+* item[=].answerOption[0].valueCoding = $loinc#LA9206-9 "Excellent"
+* item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 5
+* item[=].answerOption[+].valueCoding = $loinc#LA13913-1 "Very Good"
+* item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 4
+* item[=].answerOption[+].valueCoding = $loinc#LA8967-7 "Good"
+* item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 3
+* item[=].answerOption[+].valueCoding = $loinc#LA8968-5 "Fair"
+* item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 2
+* item[=].answerOption[+].valueCoding = $loinc#LA8969-3 "Poor"
+* item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 1
+* item[+].type = #choice
+* item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+* item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
+* item[=].extension.valueCodeableConcept.text = "Drop down"
+* item[=].linkId = "physical_activities"
+* item[=].code = $loinc#61582-3 "In the past 7 days, to what extent are you able to carry out your everyday physical activities such as walking, climbing stairs, carrying groceries, or moving a chair?"
+* item[=].text = "In the past 7 days, to what extent are you able to carry out your everyday physical activities such as walking, climbing stairs, carrying groceries, or moving a chair?"
+* item[=].required = true
+* item[=].answerOption[0].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 5
+* item[=].answerOption[=].valueCoding = $loinc#LA13937-0 "Completely"
+* item[=].answerOption[+].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 4
+* item[=].answerOption[=].valueCoding = $loinc#LA13938-8 "Mostly"
+* item[=].answerOption[+].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 3
+* item[=].answerOption[=].valueCoding = $loinc#LA13939-6 "Moderately"
+* item[=].answerOption[+].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 2
+* item[=].answerOption[=].valueCoding = $loinc#LA13940-4 "A little"
+* item[=].answerOption[+].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 1
+* item[=].answerOption[=].valueCoding = $loinc#LA6568-5 "Not at all"
+* item[+].type = #choice
+* item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+* item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
+* item[=].extension.valueCodeableConcept.text = "Drop down"
+* item[=].linkId = "emotional"
+* item[=].code = $loinc#61586-4 "In the past 7 days, how often have you been bothered by emotional problems such as feeling anxious, depressed or irritable?"
+* item[=].text = "In the past 7 days, how often have you been bothered by emotional problems such as feeling anxious, depressed or irritable?"
+* item[=].required = true
+* item[=].answerOption[0].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 5
+* item[=].answerOption[=].valueCoding = $loinc#LA6270-8 "Never"
+* item[=].answerOption[+].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 4
+* item[=].answerOption[=].valueCoding = $loinc#LA10066-1 "Rarely"
+* item[=].answerOption[+].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 3
+* item[=].answerOption[=].valueCoding = $loinc#LA10082-8 "Sometimes"
+* item[=].answerOption[+].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 2
+* item[=].answerOption[=].valueCoding = $loinc#LA10044-8 "Often"
+* item[=].answerOption[+].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 1
+* item[=].answerOption[=].valueCoding = $loinc#LA9933-8 "Always"
+* item[+].type = #choice
+* item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+* item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
+* item[=].extension.valueCodeableConcept.text = "Drop down"
+* item[=].linkId = "fatigue"
+* item[=].code = $loinc#61584-9 "In the past 7 days, how would you rate your fatigue on average?"
+* item[=].text = "In the past 7 days, how would you rate your fatigue on average?"
+* item[=].required = true
+* item[=].answerOption[0].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 5
+* item[=].answerOption[=].valueCoding = $loinc#LA137-2 "None"
+* item[=].answerOption[+].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 4
+* item[=].answerOption[=].valueCoding = $loinc#LA6752-5 "Mild"
+* item[=].answerOption[+].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 3
+* item[=].answerOption[=].valueCoding = $loinc#LA6751-7 "Moderate"
+* item[=].answerOption[+].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 2
+* item[=].answerOption[=].valueCoding = $loinc#LA6750-9 "Severe"
+* item[=].answerOption[+].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 1
+* item[=].answerOption[=].valueCoding = $loinc#LA13958-6 "Very Severe"
+* item[+].type = #choice
+* item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+* item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
+* item[=].extension.valueCodeableConcept.text = "Drop down"
+* item[=].linkId = "pain"
+* item[=].code = $loinc#61583-1 "On a scale of 0-10, with 10 being the worst pain imaginable and 0 being no pain, how would you rate your pain on average?"
+* item[=].text = "On a scale of 0-10, with 10 being the worst pain imaginable and 0 being no pain, how would you rate your pain on average?"
+* item[=].required = true
+* item[=].answerOption[0].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 0
+* item[=].answerOption[=].valueCoding = $loinc#LA26951-6 "0 - No Pain"
+* item[=].answerOption[+].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 1
+* item[=].answerOption[=].valueCoding = $loinc#LA6112-2 "1"
+* item[=].answerOption[+].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 2
+* item[=].answerOption[=].valueCoding = $loinc#LA6113-0 "2"
+* item[=].answerOption[+].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 3
+* item[=].answerOption[=].valueCoding = $loinc#LA6114-8 "3"
+* item[=].answerOption[+].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 4
+* item[=].answerOption[=].valueCoding = $loinc#LA6115-5 "4"
+* item[=].answerOption[+].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 5
+* item[=].answerOption[=].valueCoding = $loinc#LA10137-0 "5"
+* item[=].answerOption[+].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 6
+* item[=].answerOption[=].valueCoding = $loinc#LA10138-8 "6"
+* item[=].answerOption[+].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 7
+* item[=].answerOption[=].valueCoding = $loinc#LA10139-6 "7"
+* item[=].answerOption[+].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 8
+* item[=].answerOption[=].valueCoding = $loinc#LA10140-4 "8"
+* item[=].answerOption[+].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 9
+* item[=].answerOption[=].valueCoding = $loinc#LA10141-2 "9"
+* item[=].answerOption[+].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answerOption[=].extension.valueDecimal = 10
+* item[=].answerOption[=].valueCoding = $loinc#LA26952-4 "10 - Worst Pain Imaginable"
+* item[+].type = #decimal
+* item[=].linkId = "physical_health_score"
+* item[=].code = $loinc#71972-4 "PROMIS-10 Global Physical Health (GPH) score"
+* item[=].text = "PROMIS-10 Global Health, GPH, raw score"
+* item[=].readOnly = true
+* item[=].extension.url = $sdc-calculatedExpression
+* item[=].extension.valueExpression.language = #text/fhirpath
+* item[=].extension.valueExpression.expression = "%resource.item.where(linkId='physical_health').answer.value.extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').value + %resource.item.where(linkId='physical_activities').answer.value.extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').value + iif(%resource.item.where(linkId='pain').answer.value.extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').value = 0, 5, iif(%resource.item.where(linkId='pain').answer.value.extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').value <= 3, 4, iif(%resource.item.where(linkId='pain').answer.value.extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').value <= 6, 3, iif(%resource.item.where(linkId='pain').answer.value.extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').value <= 9, 2, 1)))) + %resource.item.where(linkId='fatigue').answer.value.extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').value"
+* item[+].type = #decimal
+* item[=].linkId = "mental_health_score"
+* item[=].code = $loinc#71970-8 "PROMIS-10 Global Mental Health (GMH) score"
+* item[=].text = "PROMIS-10 Global Health, GMH raw score"
+* item[=].readOnly = true
+* item[=].extension.url = $sdc-calculatedExpression
+* item[=].extension.valueExpression.language = #text/fhirpath
+* item[=].extension.valueExpression.expression = "%resource.item.where(linkId='quality_of_life').answer.value.extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').value + %resource.item.where(linkId='mental_health').answer.value.extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').value + %resource.item.where(linkId='satisfaction_social').answer.value.extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').value + %resource.item.where(linkId='emotional').answer.value.extension.where(url='http://hl7.org/fhir/StructureDefinition/ordinalValue').value"
+* item[+].type = #decimal
+* item[=].linkId = "physical_health_tscore"
+* item[=].code = $loinc#71971-6 "PROMIS-10 Global Physical Health (GPH) score T-score"
+* item[=].text = "PROMIS Global Physical Health v1.2 T-Score"
+* item[=].readOnly = true
+* item[=].extension.url = $sdc-calculatedExpression
+* item[=].extension.valueExpression.language = #text/fhirpath
+* item[=].extension.valueExpression.expression = "iif(%resource.item.where(linkId='physical_health_score').answer.value = 4, 16.2, iif(%resource.item.where(linkId='physical_health_score').answer.value = 5, 19.9, iif(%resource.item.where(linkId='physical_health_score').answer.value = 6, 23.5, iif(%resource.item.where(linkId='physical_health_score').answer.value = 7, 26.7, iif(%resource.item.where(linkId='physical_health_score').answer.value = 8, 29.6, iif(%resource.item.where(linkId='physical_health_score').answer.value = 9, 32.4, iif(%resource.item.where(linkId='physical_health_score').answer.value = 10, 34.9, iif(%resource.item.where(linkId='physical_health_score').answer.value = 11, 37.4, iif(%resource.item.where(linkId='physical_health_score').answer.value = 12, 39.8, iif(%resource.item.where(linkId='physical_health_score').answer.value = 13, 42.3, iif(%resource.item.where(linkId='physical_health_score').answer.value = 14, 44.9, iif(%resource.item.where(linkId='physical_health_score').answer.value = 15, 47.7, iif(%resource.item.where(linkId='physical_health_score').answer.value = 16, 50.8, iif(%resource.item.where(linkId='physical_health_score').answer.value = 17, 54.1, iif(%resource.item.where(linkId='physical_health_score').answer.value = 18, 57.7, iif(%resource.item.where(linkId='physical_health_score').answer.value = 19, 61.9, iif(%resource.item.where(linkId='physical_health_score').answer.value = 20, 67.7, {})))))))))))))))))"
+* item[+].type = #decimal
+* item[=].linkId = "mental_health_tscore"
+* item[=].code = $loinc#71969-0 "PROMIS-10 Global Mental Health (GMH) score T-score"
+* item[=].text = "PROMIS Global Mental Health v1.2 T-Score"
+* item[=].readOnly = true
+* item[=].extension.url = $sdc-calculatedExpression
+* item[=].extension.valueExpression.language = #text/fhirpath
+* item[=].extension.valueExpression.expression = "iif(%resource.item.where(linkId='mental_health_score').answer.value = 4, 21.2, iif(%resource.item.where(linkId='mental_health_score').answer.value = 5, 25.1, iif(%resource.item.where(linkId='mental_health_score').answer.value = 6, 28.4, iif(%resource.item.where(linkId='mental_health_score').answer.value = 7, 31.3, iif(%resource.item.where(linkId='mental_health_score').answer.value = 8, 33.8, iif(%resource.item.where(linkId='mental_health_score').answer.value = 9, 36.3, iif(%resource.item.where(linkId='mental_health_score').answer.value = 10, 38.8, iif(%resource.item.where(linkId='mental_health_score').answer.value = 11, 41.1, iif(%resource.item.where(linkId='mental_health_score').answer.value = 12, 43.5, iif(%resource.item.where(linkId='mental_health_score').answer.value = 13, 45.8, iif(%resource.item.where(linkId='mental_health_score').answer.value = 14, 48.3, iif(%resource.item.where(linkId='mental_health_score').answer.value = 15, 50.8, iif(%resource.item.where(linkId='mental_health_score').answer.value = 16, 53.3, iif(%resource.item.where(linkId='mental_health_score').answer.value = 17, 56.0, iif(%resource.item.where(linkId='mental_health_score').answer.value = 18, 59.0, iif(%resource.item.where(linkId='mental_health_score').answer.value = 19, 62.5, iif(%resource.item.where(linkId='mental_health_score').answer.value = 20, 67.6, {})))))))))))))))))"

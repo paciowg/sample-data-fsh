@@ -11,7 +11,7 @@ Description: "MedicationStatement for glipizide - stopped on 2025-04-22 from org
 * dateAsserted = "2025-04-22T09:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#310489 "24 HR glipiZIDE 2.5 MG Extended Release Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#52817038510
+* medicationCodeableConcept[0].coding[1] = $NDC#52817-385-10
 
 Instance: bsj1-smp-medstmt-acetaminophen-0-2
 InstanceOf: MedicationStatement
@@ -23,7 +23,7 @@ Description: "MedicationStatement for acetaminophen - active on 2025-04-22 from 
 * dateAsserted = "2025-04-22T09:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#313782 "acetaminophen 325 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00536116401
+* medicationCodeableConcept[0].coding[1] = $NDC#0113-0403-78
 
 Instance: bsj1-smp-medstmt-calcium-0-3
 InstanceOf: MedicationStatement
@@ -35,7 +35,7 @@ Description: "MedicationStatement for calcium - stopped on 2025-04-22 from org-M
 * dateAsserted = "2025-04-22T09:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#282465 "calcium carbonate 1250 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#63629260001
+* medicationCodeableConcept[0].coding[1] = $NDC#63629-2600-1
 
 Instance: bsj1-smp-medstmt-calcium-0-4
 InstanceOf: MedicationStatement
@@ -47,7 +47,7 @@ Description: "MedicationStatement for calcium - stopped on 2025-04-22 from org-M
 * dateAsserted = "2025-04-22T09:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#1310948 "calcium carbonate 1500 MG / cholecalciferol 800 UNT Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#10939053544
+* medicationCodeableConcept[0].coding[1] = $NDC#10939-535-44
 
 Instance: bsj1-smp-medstmt-carvedilol-0-5
 InstanceOf: MedicationStatement
@@ -59,7 +59,7 @@ Description: "MedicationStatement for carvedilol - stopped on 2025-04-22 from or
 * dateAsserted = "2025-04-22T09:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#200031 "carvedilol 6.25 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00093013501
+* medicationCodeableConcept[0].coding[1] = $NDC#0093-0135-01
 
 Instance: bsj1-smp-medstmt-clopidogrel-0-6
 InstanceOf: MedicationStatement
@@ -71,7 +71,7 @@ Description: "MedicationStatement for clopidogrel - active on 2025-04-22 from or
 * dateAsserted = "2025-04-22T09:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#65862035730
+* medicationCodeableConcept[0].coding[1] = $NDC#65862-357-30
 
 Instance: bsj1-smp-medstmt-colace-0-7
 InstanceOf: MedicationStatement
@@ -82,8 +82,8 @@ Description: "MedicationStatement for colace - stopped on 2025-04-22 from org-Mi
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * dateAsserted = "2025-04-22T09:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#1247756 "Colace 100 MG Oral Capsule"
-* medicationCodeableConcept[0].coding[1] = $NDC#68788865801
+* medicationCodeableConcept[0].coding[0] = $rxnorm#1247756 "docusate sodium 100 MG Oral Capsule"
+* medicationCodeableConcept[0].coding[1] = $NDC#68788-8658-1
 
 Instance: bsj1-smp-medstmt-ferrous-0-8
 InstanceOf: MedicationStatement
@@ -95,7 +95,7 @@ Description: "MedicationStatement for ferrous gluconate - active on 2025-04-22 f
 * dateAsserted = "2025-04-22T09:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#242590 "ferrous gluconate 240 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#11845013751
+* medicationCodeableConcept[0].coding[1] = $NDC#11845-137-51
 
 Instance: bsj1-smp-medstmt-ferrous-0-9
 InstanceOf: MedicationStatement
@@ -107,7 +107,7 @@ Description: "MedicationStatement for ferrous gluconate - stopped on 2025-04-22 
 * dateAsserted = "2025-04-22T09:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#310325 "ferrous sulfate 325 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#10135024313
+* medicationCodeableConcept[0].coding[1] = $NDC#10135-243-13
 
 Instance: bsj1-smp-medstmt-jardiance-0-10
 InstanceOf: MedicationStatement
@@ -118,8 +118,8 @@ Description: "MedicationStatement for jardiance - active on 2025-04-22 from org-
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * dateAsserted = "2025-04-22T09:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "Jardiance 10 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00597015207
+* medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "empagliflozin 10 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[1] = $NDC#0597-0152-07
 
 Instance: bsj1-smp-medstmt-lipitor-0-11
 InstanceOf: MedicationStatement
@@ -131,7 +131,7 @@ Description: "MedicationStatement for lipitor - active on 2025-04-22 from org-Mi
 * dateAsserted = "2025-04-22T09:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00071015723
+* medicationCodeableConcept[0].coding[1] = $NDC#0071-0157-23
 
 Instance: bsj1-smp-medstmt-metformin-0-12
 InstanceOf: MedicationStatement
@@ -143,7 +143,7 @@ Description: "MedicationStatement for metformin - active on 2025-04-22 from org-
 * dateAsserted = "2025-04-22T09:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#861007 "metFORMIN hydrochloride 500 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#62756014202
+* medicationCodeableConcept[0].coding[1] = $NDC#62756-142-02
 
 Instance: bsj1-smp-medstmt-nortriptyline-0-13
 InstanceOf: MedicationStatement
@@ -155,7 +155,7 @@ Description: "MedicationStatement for nortriptyline - stopped on 2025-04-22 from
 * dateAsserted = "2025-04-22T09:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#198046 "nortriptyline 50 MG Oral Capsule"
-* medicationCodeableConcept[0].coding[1] = $NDC#00121197100
+* medicationCodeableConcept[0].coding[1] = $NDC#0121-1971-00
 
 Instance: bsj1-smp-medstmt-polyethylene-0-14
 InstanceOf: MedicationStatement
@@ -167,7 +167,7 @@ Description: "MedicationStatement for polyethylene - stopped on 2025-04-22 from 
 * dateAsserted = "2025-04-22T09:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
-* medicationCodeableConcept[0].coding[1] = $NDC#63739019862
+* medicationCodeableConcept[0].coding[1] = $NDC#63739-198-62
 
 Instance: bsj1-smp-medstmt-sertraline-0-15
 InstanceOf: MedicationStatement
@@ -179,19 +179,19 @@ Description: "MedicationStatement for sertraline - active on 2025-04-22 from org
 * dateAsserted = "2025-04-22T09:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#312940 "sertraline 25 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00440831530
+* medicationCodeableConcept[0].coding[1] = $NDC#0143-9656-09
 
-Instance: bsj1-smp-medstmt-zofran-0-16
+Instance: bsj1-smp-medstmt-ondansetron-0-16
 InstanceOf: MedicationStatement
 Usage: #example
-Description: "MedicationStatement for zofran - stopped on 2025-04-22 from org-Michigan-Primary-Health-Care-A"
-* basedOn = Reference(bsj1-smp-medrx-zofran-0-16)
+Description: "MedicationStatement for ondansetron - stopped on 2025-04-22 from org-Michigan-Primary-Health-Care-A"
+* basedOn = Reference(bsj1-smp-medrx-ondansetron-0-16)
 * status = #stopped
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * dateAsserted = "2025-04-22T09:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#104895 "Zofran 4 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00179009944
+* medicationCodeableConcept[0].coding[0] = $rxnorm#198052 "ondansetron 4 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[1] = $NDC#0378-0315-53
 
 Instance: bsj1-smp-medstmt-acetaminophen-1-1
 InstanceOf: MedicationStatement
@@ -203,7 +203,7 @@ Description: "MedicationStatement for acetaminophen - active on 2025-05-03 from 
 * dateAsserted = "2025-05-03T14:45:00-08:00"
 * informationSource = Reference(Organization/org-ED-Metro-Hospital)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#313782 "acetaminophen 325 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00536116401
+* medicationCodeableConcept[0].coding[1] = $NDC#0113-0403-78
 
 Instance: bsj1-smp-medstmt-carvedilol-1-2
 InstanceOf: MedicationStatement
@@ -215,7 +215,7 @@ Description: "MedicationStatement for carvedilol - draft on 2025-05-03 from org-
 * dateAsserted = "2025-05-03T14:45:00-08:00"
 * informationSource = Reference(Organization/org-ED-Metro-Hospital)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#200031 "carvedilol 6.25 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00781522301
+* medicationCodeableConcept[0].coding[1] = $NDC#0781-5223-01
 
 Instance: bsj1-smp-medstmt-clopidogrel-1-3
 InstanceOf: MedicationStatement
@@ -227,7 +227,7 @@ Description: "MedicationStatement for clopidogrel - active on 2025-05-03 from or
 * dateAsserted = "2025-05-03T14:45:00-08:00"
 * informationSource = Reference(Organization/org-ED-Metro-Hospital)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00904629461
+* medicationCodeableConcept[0].coding[1] = $NDC#0904-6294-61
 
 Instance: bsj1-smp-medstmt-ferrous-1-4
 InstanceOf: MedicationStatement
@@ -239,7 +239,7 @@ Description: "MedicationStatement for ferrous gluconate - active on 2025-05-03 f
 * dateAsserted = "2025-05-03T14:45:00-08:00"
 * informationSource = Reference(Organization/org-ED-Metro-Hospital)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#242590 "ferrous gluconate 240 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#11845013751
+* medicationCodeableConcept[0].coding[1] = $NDC#11845-137-51
 
 Instance: bsj1-smp-medstmt-jardiance-1-5
 InstanceOf: MedicationStatement
@@ -250,8 +250,8 @@ Description: "MedicationStatement for jardiance - draft on 2025-05-03 from org-E
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * dateAsserted = "2025-05-03T14:45:00-08:00"
 * informationSource = Reference(Organization/org-ED-Metro-Hospital)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "Jardiance 10 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#55154041108
+* medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "empagliflozin 10 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[1] = $NDC#55154-0411-8
 
 Instance: bsj1-smp-medstmt-lipitor-1-6
 InstanceOf: MedicationStatement
@@ -262,8 +262,8 @@ Description: "MedicationStatement for lipitor - active on 2025-05-03 from org-ED
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * dateAsserted = "2025-05-03T14:45:00-08:00"
 * informationSource = Reference(Organization/org-ED-Metro-Hospital)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00071015723
+* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[1] = $NDC#0071-0157-23
 
 Instance: bsj1-smp-medstmt-metformin-1-7
 InstanceOf: MedicationStatement
@@ -275,7 +275,7 @@ Description: "MedicationStatement for metformin - active on 2025-05-03 from org-
 * dateAsserted = "2025-05-03T14:45:00-08:00"
 * informationSource = Reference(Organization/org-ED-Metro-Hospital)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#861007 "metFORMIN hydrochloride 500 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00440573900
+* medicationCodeableConcept[0].coding[1] = $NDC#0093-1048-01
 
 Instance: bsj1-smp-medstmt-sertraline-1-8
 InstanceOf: MedicationStatement
@@ -287,7 +287,7 @@ Description: "MedicationStatement for sertraline - active on 2025-05-03 from org
 * dateAsserted = "2025-05-03T14:45:00-08:00"
 * informationSource = Reference(Organization/org-ED-Metro-Hospital)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#312940 "sertraline 25 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00440831530
+* medicationCodeableConcept[0].coding[1] = $NDC#0143-9656-09
 
 Instance: bsj1-smp-medstmt-acetaminophen-1-9
 InstanceOf: MedicationStatement
@@ -299,7 +299,7 @@ Description: "MedicationStatement for acetaminophen - active on 2025-05-04 from 
 * dateAsserted = "2025-05-04T15:00:00-08:00"
 * informationSource = Reference(Organization/org-ED-Metro-Hospital)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#313782 "acetaminophen 325 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00536116401
+* medicationCodeableConcept[0].coding[1] = $NDC#0113-0403-78
 
 Instance: bsj1-smp-medstmt-carvedilol-1-10
 InstanceOf: MedicationStatement
@@ -311,7 +311,7 @@ Description: "MedicationStatement for carvedilol - stopped on 2025-05-04 from or
 * dateAsserted = "2025-05-04T15:00:00-08:00"
 * informationSource = Reference(Organization/org-ED-Metro-Hospital)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#200031 "carvedilol 6.25 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00781522301
+* medicationCodeableConcept[0].coding[1] = $NDC#0781-5223-01
 
 Instance: bsj1-smp-medstmt-clopidogrel-1-11
 InstanceOf: MedicationStatement
@@ -323,7 +323,7 @@ Description: "MedicationStatement for clopidogrel - active on 2025-05-04 from or
 * dateAsserted = "2025-05-04T15:00:00-08:00"
 * informationSource = Reference(Organization/org-ED-Metro-Hospital)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00904629461
+* medicationCodeableConcept[0].coding[1] = $NDC#0904-6294-61
 
 Instance: bsj1-smp-medstmt-ferrous-1-12
 InstanceOf: MedicationStatement
@@ -335,7 +335,7 @@ Description: "MedicationStatement for ferrous gluconate - active on 2025-05-04 f
 * dateAsserted = "2025-05-04T15:00:00-08:00"
 * informationSource = Reference(Organization/org-ED-Metro-Hospital)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#242590 "ferrous gluconate 240 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#11845013751
+* medicationCodeableConcept[0].coding[1] = $NDC#11845-137-51
 
 Instance: bsj1-smp-medstmt-ferrous-1-13
 InstanceOf: MedicationStatement
@@ -347,7 +347,7 @@ Description: "MedicationStatement for ferrous gluconate - draft on 2025-05-04 fr
 * dateAsserted = "2025-05-04T15:00:00-08:00"
 * informationSource = Reference(Organization/org-ED-Metro-Hospital)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#242590 "ferrous gluconate 240 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#11845013751
+* medicationCodeableConcept[0].coding[1] = $NDC#11845-137-51
 
 Instance: bsj1-smp-medstmt-jardiance-2-1
 InstanceOf: MedicationStatement
@@ -359,7 +359,7 @@ Description: "MedicationStatement for jardiance - draft on 2025-05-04 from org-M
 * dateAsserted = "2025-07-01T16:15:00-08:00"
 * informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "Jardiance 10 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#55154041108
+* medicationCodeableConcept[0].coding[1] = $NDC#55154-0411-8
 
 Instance: bsj1-smp-medstmt-lipitor-2-2
 InstanceOf: MedicationStatement
@@ -370,8 +370,8 @@ Description: "MedicationStatement for lipitor - active on 2025-05-04 from org-Mo
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * dateAsserted = "2025-07-01T16:15:00-08:00"
 * informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00071015723
+* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[1] = $NDC#0071-0157-23
 
 Instance: bsj1-smp-medstmt-metformin-2-3
 InstanceOf: MedicationStatement
@@ -383,7 +383,7 @@ Description: "MedicationStatement for metformin - active on 2025-05-04 from org-
 * dateAsserted = "2025-07-01T16:15:00-08:00"
 * informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#861007 "metFORMIN hydrochloride 500 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00440573900
+* medicationCodeableConcept[0].coding[1] = $NDC#0093-1048-01
 
 Instance: bsj1-smp-medstmt-polyethylene-2-4
 InstanceOf: MedicationStatement
@@ -395,7 +395,7 @@ Description: "MedicationStatement for polyethylene - active on 2025-05-04 from o
 * dateAsserted = "2025-07-01T16:15:00-08:00"
 * informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
-* medicationCodeableConcept[0].coding[1] = $NDC#63739019862
+* medicationCodeableConcept[0].coding[1] = $NDC#63739-198-62
 
 Instance: bsj1-smp-medstmt-sertraline-2-5
 InstanceOf: MedicationStatement
@@ -407,7 +407,7 @@ Description: "MedicationStatement for sertraline - active on 2025-05-04 from org
 * dateAsserted = "2025-07-01T16:15:00-08:00"
 * informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#312940 "sertraline 25 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00440831530
+* medicationCodeableConcept[0].coding[1] = $NDC#0143-9656-09
 
 Instance: bsj1-smp-medstmt-acetaminophen-2-6
 InstanceOf: MedicationStatement
@@ -419,7 +419,7 @@ Description: "MedicationStatement for acetaminophen - active on 2025-07-02 from 
 * dateAsserted = "2025-07-02T13:00:00-08:00"
 * informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#313782 "acetaminophen 325 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00536116401
+* medicationCodeableConcept[0].coding[1] = $NDC#0113-0403-78
 
 Instance: bsj1-smp-medstmt-carvedilol-2-7
 InstanceOf: MedicationStatement
@@ -431,7 +431,7 @@ Description: "MedicationStatement for carvedilol - stopped on 2025-07-02 from or
 * dateAsserted = "2025-07-02T13:00:00-08:00"
 * informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#200031 "carvedilol 6.25 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00781522301
+* medicationCodeableConcept[0].coding[1] = $NDC#0781-5223-01
 
 Instance: bsj1-smp-medstmt-clopidogrel-2-8
 InstanceOf: MedicationStatement
@@ -443,7 +443,7 @@ Description: "MedicationStatement for clopidogrel - active on 2025-07-02 from or
 * dateAsserted = "2025-07-02T13:00:00-08:00"
 * informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00904629461
+* medicationCodeableConcept[0].coding[1] = $NDC#0904-6294-61
 
 Instance: bsj1-smp-medstmt-ferrous-2-9
 InstanceOf: MedicationStatement
@@ -455,7 +455,7 @@ Description: "MedicationStatement for ferrous gluconate - stopped on 2025-07-02 
 * dateAsserted = "2025-07-02T13:00:00-08:00"
 * informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#242590 "ferrous gluconate 240 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#11845013751
+* medicationCodeableConcept[0].coding[1] = $NDC#11845-137-51
 
 Instance: bsj1-smp-medstmt-ferrous-2-10
 InstanceOf: MedicationStatement
@@ -467,7 +467,7 @@ Description: "MedicationStatement for ferrous gluconate - active on 2025-07-02 f
 * dateAsserted = "2025-07-02T13:00:00-08:00"
 * informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#702249 "ferrous sulfate 44 MG/ML Oral Solution"
-* medicationCodeableConcept[0].coding[1] = $NDC#54569352800
+* medicationCodeableConcept[0].coding[1] = $NDC#0536-1400-85
 
 Instance: bsj1-smp-medstmt-insulin-2-11
 InstanceOf: MedicationStatement
@@ -479,7 +479,7 @@ Description: "MedicationStatement for insulin - active on 2025-07-02 from org-Mo
 * dateAsserted = "2025-07-02T13:00:00-08:00"
 * informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#311048 "insulin isophane, human 70 UNT/ML / insulin, regular, human 30 UNT/ML Injectable Suspension"
-* medicationCodeableConcept[0].coding[1] = $NDC#71093014311
+* medicationCodeableConcept[0].coding[1] = $NDC#71093-143-11
 
 Instance: bsj1-smp-medstmt-jardiance-2-12
 InstanceOf: MedicationStatement
@@ -491,7 +491,7 @@ Description: "MedicationStatement for jardiance - stopped on 2025-07-02 from org
 * dateAsserted = "2025-07-02T13:00:00-08:00"
 * informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "Jardiance 10 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#55154041108
+* medicationCodeableConcept[0].coding[1] = $NDC#55154-0411-8
 
 // Instance: bsj1-smp-medstmt-lipitor-2-13
 // InstanceOf: MedicationStatement
@@ -503,7 +503,7 @@ Description: "MedicationStatement for jardiance - stopped on 2025-07-02 from org
 // * dateAsserted = "2025-07-02T13:00:00-08:00"
 // * informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
 // * medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
-// * medicationCodeableConcept[0].coding[1] = $NDC#00071015723
+// * medicationCodeableConcept[0].coding[1] = $NDC#0071-0157-23
 
 Instance: bsj1-smp-medstmt-lipitor-3-1
 InstanceOf: MedicationStatement
@@ -514,8 +514,8 @@ Description: "MedicationStatement for lipitor - draft on 2025-07-03 from org-Mot
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * dateAsserted = "2025-07-03T09:00:00-08:00"
 * informationSource = Reference(Organization/org-Motown-Home-Health)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00071015723
+* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[1] = $NDC#0071-0157-23
 
 Instance: bsj1-smp-medstmt-metformin-3-2
 InstanceOf: MedicationStatement
@@ -527,7 +527,7 @@ Description: "MedicationStatement for metformin - active on 2025-07-03 from org-
 * dateAsserted = "2025-07-03T09:00:00-08:00"
 * informationSource = Reference(Organization/org-Motown-Home-Health)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#861007 "metFORMIN hydrochloride 500 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00440573900
+* medicationCodeableConcept[0].coding[1] = $NDC#0093-1048-01
 
 Instance: bsj1-smp-medstmt-metformin-3-3
 InstanceOf: MedicationStatement
@@ -539,7 +539,7 @@ Description: "MedicationStatement for metformin - draft on 2025-07-03 from org-M
 * dateAsserted = "2025-07-03T09:00:00-08:00"
 * informationSource = Reference(Organization/org-Motown-Home-Health)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#861007 "metFORMIN hydrochloride 500 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00440573900
+* medicationCodeableConcept[0].coding[1] = $NDC#0093-1048-01
 
 Instance: bsj1-smp-medstmt-polyethylene-3-4
 InstanceOf: MedicationStatement
@@ -551,7 +551,7 @@ Description: "MedicationStatement for polyethylene - stopped on 2025-07-03 from 
 * dateAsserted = "2025-07-03T09:00:00-08:00"
 * informationSource = Reference(Organization/org-Motown-Home-Health)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
-* medicationCodeableConcept[0].coding[1] = $NDC#63739019862
+* medicationCodeableConcept[0].coding[1] = $NDC#63739-198-62
 
 Instance: bsj1-smp-medstmt-sertraline-3-5
 InstanceOf: MedicationStatement
@@ -563,7 +563,7 @@ Description: "MedicationStatement for sertraline - stopped on 2025-07-03 from or
 * dateAsserted = "2025-07-03T09:00:00-08:00"
 * informationSource = Reference(Organization/org-Motown-Home-Health)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#312940 "sertraline 25 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00440831530
+* medicationCodeableConcept[0].coding[1] = $NDC#0143-9656-09
 
 Instance: bsj1-smp-medstmt-sitagliptin-3-6
 InstanceOf: MedicationStatement
@@ -575,7 +575,7 @@ Description: "MedicationStatement for sitagliptin - active on 2025-07-03 from or
 * dateAsserted = "2025-07-03T09:00:00-08:00"
 * informationSource = Reference(Organization/org-Motown-Home-Health)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#665042 "sitagliptin 50 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#70710190009
+* medicationCodeableConcept[0].coding[1] = $NDC#70710-1900-9
 
 // Instance: bsj1-smp-medstmt-sitagliptin-3-7
 // InstanceOf: MedicationStatement
@@ -587,7 +587,7 @@ Description: "MedicationStatement for sitagliptin - active on 2025-07-03 from or
 // * dateAsserted = "2025-07-03T09:00:00-08:00"
 // * informationSource = Reference(Organization/org-Motown-Home-Health)
 // * medicationCodeableConcept[0].coding[0] = $rxnorm#665042 "sitagliptin 50 MG Oral Tablet"
-// * medicationCodeableConcept[0].coding[1] = $NDC#70710190009
+// * medicationCodeableConcept[0].coding[1] = $NDC#70710-1900-9
 
 Instance: bsj1-smp-medstmt-acetaminophen-4-1
 InstanceOf: MedicationStatement
@@ -599,7 +599,7 @@ Description: "MedicationStatement for acetaminophen - active on 2025-07-16 from 
 * dateAsserted = "2025-07-16T11:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#313782 "acetaminophen 325 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00536116401
+* medicationCodeableConcept[0].coding[1] = $NDC#0113-0403-78
 
 Instance: bsj1-smp-medstmt-clopidogrel-4-2
 InstanceOf: MedicationStatement
@@ -611,7 +611,7 @@ Description: "MedicationStatement for clopidogrel - active on 2025-07-16 from or
 * dateAsserted = "2025-07-16T11:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#309362 "clopidogrel 75 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00904629461
+* medicationCodeableConcept[0].coding[1] = $NDC#0904-6294-61
 
 Instance: bsj1-smp-medstmt-ferrous-4-3
 InstanceOf: MedicationStatement
@@ -623,7 +623,7 @@ Description: "MedicationStatement for ferrous gluconate - active on 2025-07-16 f
 * dateAsserted = "2025-07-16T11:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#702249 "ferrous sulfate 44 MG/ML Oral Solution"
-* medicationCodeableConcept[0].coding[1] = $NDC#54569352800
+* medicationCodeableConcept[0].coding[1] = $NDC#0536-1400-85
 
 Instance: bsj1-smp-medstmt-insulin-4-4
 InstanceOf: MedicationStatement
@@ -635,7 +635,7 @@ Description: "MedicationStatement for insulin - active on 2025-07-16 from org-Mi
 * dateAsserted = "2025-07-16T11:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#311048 "insulin isophane, human 70 UNT/ML / insulin, regular, human 30 UNT/ML Injectable Suspension"
-* medicationCodeableConcept[0].coding[1] = $NDC#71093014311
+* medicationCodeableConcept[0].coding[1] = $NDC#71093-143-11
 
 Instance: bsj1-smp-medstmt-lipitor-4-5
 InstanceOf: MedicationStatement
@@ -646,8 +646,8 @@ Description: "MedicationStatement for lipitor - stopped on 2025-07-16 from org-M
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * dateAsserted = "2025-07-16T11:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "Lipitor 40 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00071015723
+* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[1] = $NDC#0071-0157-23
 
 Instance: bsj1-smp-medstmt-metformin-4-6
 InstanceOf: MedicationStatement
@@ -659,7 +659,7 @@ Description: "MedicationStatement for metformin - stopped on 2025-07-16 from org
 * dateAsserted = "2025-07-16T11:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#861007 "metFORMIN hydrochloride 500 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#00440573900
+* medicationCodeableConcept[0].coding[1] = $NDC#0093-1048-01
 
 Instance: bsj1-smp-medstmt-pitavastatin-4-7
 InstanceOf: MedicationStatement
@@ -671,7 +671,7 @@ Description: "MedicationStatement for pitavastatin - active on 2025-07-16 from o
 * dateAsserted = "2025-07-16T11:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#861652 "pitavastatin calcium 4 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#72603048001
+* medicationCodeableConcept[0].coding[1] = $NDC#72603-480-01
 
 Instance: bsj1-smp-medstmt-sitagliptin-4-8
 InstanceOf: MedicationStatement
@@ -683,4 +683,4 @@ Description: "MedicationStatement for sitagliptin - active on 2025-07-16 from or
 * dateAsserted = "2025-07-16T11:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#665042 "sitagliptin 50 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#70710190009
+* medicationCodeableConcept[0].coding[1] = $NDC#70710-1900-9

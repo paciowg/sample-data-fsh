@@ -59,7 +59,7 @@ After 3 weeks in the SNF, Betsy is discharged from the SNF to her home on April 
 * [MedicationRequest: bsj1-smp-medrx-nortriptyline-0-13](MedicationRequest-bsj1-smp-medrx-nortriptyline-0-13.html)
 * [MedicationRequest: bsj1-smp-medrx-polyethylene-0-14](MedicationRequest-bsj1-smp-medrx-polyethylene-0-14.html)
 * [MedicationRequest: bsj1-smp-medrx-sertraline-0-15](MedicationRequest-bsj1-smp-medrx-sertraline-0-15.html)
-* [MedicationRequest: bsj1-smp-medrx-zofran-0-16](MedicationRequest-bsj1-smp-medrx-zofran-0-16.html)
+* [MedicationRequest: bsj1-smp-medrx-ondansetron-0-16](MedicationRequest-bsj1-smp-medrx-ondansetron-0-16.html)
 * [MedicationStatement: bsj1-smp-medstmt-acetaminophen-0-2](MedicationStatement-bsj1-smp-medstmt-acetaminophen-0-2.html)
 * [MedicationStatement: bsj1-smp-medstmt-calcium-0-3](MedicationStatement-bsj1-smp-medstmt-calcium-0-3.html)
 * [MedicationStatement: bsj1-smp-medstmt-calcium-0-4](MedicationStatement-bsj1-smp-medstmt-calcium-0-4.html)
@@ -75,7 +75,7 @@ After 3 weeks in the SNF, Betsy is discharged from the SNF to her home on April 
 * [MedicationStatement: bsj1-smp-medstmt-nortriptyline-0-13](MedicationStatement-bsj1-smp-medstmt-nortriptyline-0-13.html)
 * [MedicationStatement: bsj1-smp-medstmt-polyethylene-0-14](MedicationStatement-bsj1-smp-medstmt-polyethylene-0-14.html)
 * [MedicationStatement: bsj1-smp-medstmt-sertraline-0-15](MedicationStatement-bsj1-smp-medstmt-sertraline-0-15.html)
-* [MedicationStatement: bsj1-smp-medstmt-zofran-0-16](MedicationStatement-bsj1-smp-medstmt-zofran-0-16.html)
+* [MedicationStatement: bsj1-smp-medstmt-ondansetron-0-16](MedicationStatement-bsj1-smp-medstmt-ondansetron-0-16.html)
 
 <br />
 

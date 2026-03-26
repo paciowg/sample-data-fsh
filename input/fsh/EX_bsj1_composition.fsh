@@ -32,7 +32,7 @@ Description: "Betsy Smith-Johnson's TOC Document from Hospital to SNF as a Disch
 * section[=].entry[0] = Reference(List/bsj1-smp-medListNew-0)  // SMP Medication List from home prior to ED visit.
 * section[=].entry[+] = Reference(List/bsj1-smp-medListNew-1)  // SMP Medication List from the hospital at time of discharge.
 * section[+].title = "List of problem conditions and observations for Betsy Smith Johnson"
-* section[=].code = $loinc#46019-6 "Diseases or conditions Set"
+* section[=].code = $loinc#11450-4 "Problem list - Reported"
 * section[=].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of problem conditions and observations for Betsy Smith Johnson</div>"
 * section[=].entry[0] = Reference(Condition/betsysmith-johnson01-Condition-BreastCancer-01)
@@ -94,7 +94,7 @@ Description: "Betsy Smith-Johnson's TOC Document from SNF to Home Health. Includ
 * section[=].entry[0] = Reference(List/bsj1-smp-medListNew-2)  // SMP Medication List from the SNF.
 * section[=].entry[+] = Reference(List/bsj1-smp-medListNew-3)  // SMP Medication List for HHA.
 * section[+].title = "List of problem conditions and observations for Betsy Smith Johnson"
-* section[=].code = $loinc#46019-6 "Diseases or conditions Set"
+* section[=].code = $loinc#11450-4 "Problem list - Reported"
 * section[=].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of problem conditions and observations for Betsy Smith Johnson</div>"
 * section[=].entry[0] = Reference(Condition/betsysmith-johnson01-Condition-Anemia-01)

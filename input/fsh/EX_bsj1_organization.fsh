@@ -1,3 +1,6 @@
+Alias: $endpoint-connection-type = http://terminology.hl7.org/CodeSystem/endpoint-connection-type
+Alias: $endpoint-payload-type = http://hl7.org/fhir/resource-types
+
 Instance: org-PSC-Prism-General-Hospital
 InstanceOf: Organization
 Usage: #example
@@ -58,6 +61,15 @@ Description: "Metro Hospital Emergency Department organization."
 * address.country = "US"
 * address.text = "22327 Moross Rd, Detroit, MI 48236"
 
+Instance: endpoint-Motor-City-Skilled-Nursing-Facility
+InstanceOf: Endpoint
+Usage: #example
+Description: "Motor City Skilled Nursing Facility Endpoint"
+* status = #active
+* connectionType = $endpoint-connection-type#hl7-fhir-rest
+* payloadType[0] = $endpoint-payload-type#Bundle
+* address = "https://actualmeds.com/fhir"
+
 Instance: org-Motor-City-Skilled-Nursing-Facility
 InstanceOf: Organization
 Usage: #example
@@ -71,6 +83,7 @@ Description: "Motor City Skilled Nursing Facility organization."
 * address.state = "MI"
 * address.postalCode = "48224"
 * address.country = "US"
+* endpoint = Reference(Endpoint/endpoint-Motor-City-Skilled-Nursing-Facility)
 
 Instance: org-Motown-Home-Health
 InstanceOf: Organization

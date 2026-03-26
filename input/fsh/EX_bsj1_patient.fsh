@@ -1,4 +1,3 @@
-Alias: $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
 Alias: $v3-NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
 Alias: $v3-RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode
 
@@ -22,8 +21,10 @@ Description: "Betsy Smith-Johnson's patient record, #female born on 1958-11-01."
 * identifier[+].system = "http://hl7.org/fhir/sid/us-medicare"
 * identifier[=].value = "1PA3D58WH16"
 * identifier[=].assigner.display = "Medicare"
-* identifier[+].system = "http://hl7.org/fhir/sid/us-ssn"
-* identifier[=].value = $v2-0203#SS "123-45-9999"
+* identifier[+].type = $v2-0203#SS "Social Security Number"
+* identifier[=].type.text = "Social Security Number"
+* identifier[=].system = "http://hl7.org/fhir/sid/us-ssn"
+* identifier[=].value = "123-45-9999"
 
 * active = true
 * name.use = #usual

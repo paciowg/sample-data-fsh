@@ -1,3 +1,5 @@
+Alias: $loinc = http://loinc.org
+
 Instance: BSJ1-QuestionnaireResponse-GlobalAlliant-01
 InstanceOf: QuestionnaireResponse
 Usage: #inline
@@ -5,7 +7,7 @@ Usage: #inline
 * meta.lastUpdated = "2025-06-12T13:53:54.000+00:00"
 * meta.source = "#g6PjkfJK4SUWnv4R"
 * meta.tag.code = #"lformsVersion: 36.19.0"
-* questionnaire = "https://globalalliantinc.com/fhir/questionnaires/ZBI-22|1.0.0"
+* questionnaire = "https://globalalliantinc.com/fhir/Questionnaire/questionnaire-ZBI22|1.0.0"
 * status = #completed
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authored = "2025-06-11T16:16:49.872Z"
@@ -97,3 +99,398 @@ Usage: #inline
 * item[+].linkId = "overall_burden"
 * item[=].text = "Overall, how burdened do you feel in caring for your relative?"
 * item[=].answer.valueCoding = #1 "A little bit"
+
+Instance: promis-10-assessment-betsy-july
+InstanceOf: QuestionnaireResponse
+Usage: #example
+* meta.versionId = "1"
+* meta.lastUpdated = "2025-07-15T14:36:50.241Z"
+* questionnaire = "https://globalalliantinc.com/fhir/Questionnaire/questionnaire-PROMIS10"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
+* status = #completed
+* authored = "2025-07-15T14:36:50.241Z"
+* author = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
+* item[0].answer.valueString = "7A34C75DE12"
+* item[=].linkId = "mbi"
+* item[=].text = "What is this patient's Medicare Beneficiary Identifier (MBI)?"
+* item[+].answer.valueDate = "2025-07-15"
+* item[=].linkId = "assessment_date"
+* item[=].text = "Please report the date this assessment was completed."
+* item[+].answer.valueCoding = $loinc#LA8967-7 "Good"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 3
+* item[=].linkId = "health"
+* item[=].text = "In general, would you say your health is..."
+* item[+].answer.valueCoding = $loinc#LA8968-5 "Fair"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 2
+* item[=].linkId = "quality_of_life"
+* item[=].text = "In general, would you say your quality of life is..."
+* item[+].answer.valueCoding = $loinc#LA8968-5 "Fair"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 2
+* item[=].linkId = "physical_health"
+* item[=].text = "In general, how would you rate your physical health?"
+* item[+].answer.valueCoding = $loinc#LA8968-5 "Fair"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 2
+* item[=].linkId = "mental_health"
+* item[=].text = "In general, how would you rate your mental health, including your mood and your ability  to think?"
+* item[+].answer.valueCoding = $loinc#LA8969-3 "Poor"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 1
+* item[=].linkId = "satisfaction_social"
+* item[=].text = "In general, how would you rate your satisfaction with your social activities and relationships?"
+* item[+].answer.valueCoding = $loinc#LA8967-7 "Good"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 3
+* item[=].linkId = "social_activities"
+* item[=].text = "In general, please rate how well you carry out  your usual social activities and roles. (This includes activities at home, at work and in your community, and responsibilities as a parent, child, spouse, employee, friend, etc.)"
+* item[+].answer.valueCoding = $loinc#LA13939-6 "Moderately"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 3
+* item[=].linkId = "physical_activities"
+* item[=].text = "In the past 7 days, to what extent are you able to carry out your everyday physical activities such as walking, climbing stairs, carrying groceries, or moving a chair?"
+* item[+].answer.valueCoding = $loinc#LA10066-1 "Rarely"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 4
+* item[=].linkId = "emotional"
+* item[=].text = "In the past 7 days, how often have you been bothered by emotional problems such as feeling anxious, depressed or irritable?"
+* item[+].answer.valueCoding = $loinc#LA6750-9 "Severe"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 2
+* item[=].linkId = "fatigue"
+* item[=].text = "In the past 7 days, how would you rate your fatigue on average?"
+* item[+].answer.valueCoding = $loinc#LA10139-6 "7"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 7
+* item[=].linkId = "pain"
+* item[=].text = "On a scale of 0-10, with 10 being the worst pain imaginable and 0 being no pain, how would you rate your pain on average?"
+* item[+].answer.valueDecimal = 9
+* item[=].linkId = "physical_health_score"
+* item[=].text = "Physical Health Score (Raw Score)"
+* item[+].answer.valueDecimal = 9
+* item[=].linkId = "mental_health_score"
+* item[=].text = "Mental Health Score (Raw Score)"
+* item[+].answer.valueDecimal = 32.4
+* item[=].linkId = "physical_health_tscore"
+* item[=].text = "PROMIS Global Physical Health v1.2 T-Score"
+* item[+].answer.valueDecimal = 36.3
+* item[=].linkId = "mental_health_tscore"
+* item[=].text = "PROMIS Global Mental Health v1.2 T-Score"
+
+Instance: promis-10-assessment-betsy-august
+InstanceOf: QuestionnaireResponse
+Usage: #example
+* meta.versionId = "1"
+* meta.lastUpdated = "2025-08-20T10:15:30.123Z"
+* questionnaire = "https://globalalliantinc.com/fhir/Questionnaire/questionnaire-PROMIS10"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
+* status = #completed
+* authored = "2025-08-20T10:15:30.123Z"
+* author = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
+* item[0].answer.valueString = "7A34C75DE12"
+* item[=].linkId = "mbi"
+* item[=].text = "What is this patient's Medicare Beneficiary Identifier (MBI)?"
+* item[+].answer.valueDate = "2025-08-20"
+* item[=].linkId = "assessment_date"
+* item[=].text = "Please report the date this assessment was completed."
+* item[+].answer.valueCoding = $loinc#LA8967-7 "Good"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 3
+* item[=].linkId = "health"
+* item[=].text = "In general, would you say your health is..."
+* item[+].answer.valueCoding = $loinc#LA8967-7 "Good"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 3
+* item[=].linkId = "quality_of_life"
+* item[=].text = "In general, would you say your quality of life is..."
+* item[+].answer.valueCoding = $loinc#LA8968-5 "Fair"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 2
+* item[=].linkId = "physical_health"
+* item[=].text = "In general, how would you rate your physical health?"
+* item[+].answer.valueCoding = $loinc#LA8967-7 "Good"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 3
+* item[=].linkId = "mental_health"
+* item[=].text = "In general, how would you rate your mental health, including your mood and your ability  to think?"
+* item[+].answer.valueCoding = $loinc#LA8968-5 "Fair"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 2
+* item[=].linkId = "satisfaction_social"
+* item[=].text = "In general, how would you rate your satisfaction with your social activities and relationships?"
+* item[+].answer.valueCoding = $loinc#LA8967-7 "Good"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 3
+* item[=].linkId = "social_activities"
+* item[=].text = "In general, please rate how well you carry out  your usual social activities and roles. (This includes activities at home, at work and in your community, and responsibilities as a parent, child, spouse, employee, friend, etc.)"
+* item[+].answer.valueCoding = $loinc#LA13938-8 "Mostly"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 4
+* item[=].linkId = "physical_activities"
+* item[=].text = "In the past 7 days, to what extent are you able to carry out your everyday physical activities such as walking, climbing stairs, carrying groceries, or moving a chair?"
+* item[+].answer.valueCoding = $loinc#LA10082-8 "Sometimes"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 3
+* item[=].linkId = "emotional"
+* item[=].text = "In the past 7 days, how often have you been bothered by emotional problems such as feeling anxious, depressed or irritable?"
+* item[+].answer.valueCoding = $loinc#LA6751-7 "Moderate"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 3
+* item[=].linkId = "fatigue"
+* item[=].text = "In the past 7 days, how would you rate your fatigue on average?"
+* item[+].answer.valueCoding = $loinc#LA10138-8 "6"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 6
+* item[=].linkId = "pain"
+* item[=].text = "On a scale of 0-10, with 10 being the worst pain imaginable and 0 being no pain, how would you rate your pain on average?"
+* item[+].answer.valueDecimal = 12
+* item[=].linkId = "physical_health_score"
+* item[=].text = "Physical Health Score (Raw Score)"
+* item[+].answer.valueDecimal = 11
+* item[=].linkId = "mental_health_score"
+* item[=].text = "Mental Health Score (Raw Score)"
+* item[+].answer.valueDecimal = 39.8
+* item[=].linkId = "physical_health_tscore"
+* item[=].text = "PROMIS Global Physical Health v1.2 T-Score"
+* item[+].answer.valueDecimal = 41.1
+* item[=].linkId = "mental_health_tscore"
+* item[=].text = "PROMIS Global Mental Health v1.2 T-Score"
+
+Instance: promis-10-assessment-betsy-september
+InstanceOf: QuestionnaireResponse
+Usage: #example
+* meta.versionId = "1"
+* meta.lastUpdated = "2025-09-25T11:22:40.456Z"
+* questionnaire = "https://globalalliantinc.com/fhir/Questionnaire/questionnaire-PROMIS10"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
+* status = #completed
+* authored = "2025-09-25T11:22:40.456Z"
+* author = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
+* item[0].answer.valueString = "7A34C75DE12"
+* item[=].linkId = "mbi"
+* item[=].text = "What is this patient's Medicare Beneficiary Identifier (MBI)?"
+* item[+].answer.valueDate = "2025-09-25"
+* item[=].linkId = "assessment_date"
+* item[=].text = "Please report the date this assessment was completed."
+* item[+].answer.valueCoding = $loinc#LA13913-1 "Very Good"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 4
+* item[=].linkId = "health"
+* item[=].text = "In general, would you say your health is..."
+* item[+].answer.valueCoding = $loinc#LA8967-7 "Good"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 3
+* item[=].linkId = "quality_of_life"
+* item[=].text = "In general, would you say your quality of life is..."
+* item[+].answer.valueCoding = $loinc#LA8967-7 "Good"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 3
+* item[=].linkId = "physical_health"
+* item[=].text = "In general, how would you rate your physical health?"
+* item[+].answer.valueCoding = $loinc#LA8967-7 "Good"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 3
+* item[=].linkId = "mental_health"
+* item[=].text = "In general, how would you rate your mental health, including your mood and your ability  to think?"
+* item[+].answer.valueCoding = $loinc#LA8967-7 "Good"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 3
+* item[=].linkId = "satisfaction_social"
+* item[=].text = "In general, how would you rate your satisfaction with your social activities and relationships?"
+* item[+].answer.valueCoding = $loinc#LA13913-1 "Very Good"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 4
+* item[=].linkId = "social_activities"
+* item[=].text = "In general, please rate how well you carry out  your usual social activities and roles. (This includes activities at home, at work and in your community, and responsibilities as a parent, child, spouse, employee, friend, etc.)"
+* item[+].answer.valueCoding = $loinc#LA13937-0 "Completely"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 5
+* item[=].linkId = "physical_activities"
+* item[=].text = "In the past 7 days, to what extent are you able to carry out your everyday physical activities such as walking, climbing stairs, carrying groceries, or moving a chair?"
+* item[+].answer.valueCoding = $loinc#LA10082-8 "Sometimes"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 3
+* item[=].linkId = "emotional"
+* item[=].text = "In the past 7 days, how often have you been bothered by emotional problems such as feeling anxious, depressed or irritable?"
+* item[+].answer.valueCoding = $loinc#LA6752-5 "Mild"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 4
+* item[=].linkId = "fatigue"
+* item[=].text = "In the past 7 days, how would you rate your fatigue on average?"
+* item[+].answer.valueCoding = $loinc#LA6115-5 "4"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 4
+* item[=].linkId = "pain"
+* item[=].text = "On a scale of 0-10, with 10 being the worst pain imaginable and 0 being no pain, how would you rate your pain on average?"
+* item[+].answer.valueDecimal = 15
+* item[=].linkId = "physical_health_score"
+* item[=].text = "Physical Health Score (Raw Score)"
+* item[+].answer.valueDecimal = 12
+* item[=].linkId = "mental_health_score"
+* item[=].text = "Mental Health Score (Raw Score)"
+* item[+].answer.valueDecimal = 47.7
+* item[=].linkId = "physical_health_tscore"
+* item[=].text = "PROMIS Global Physical Health v1.2 T-Score"
+* item[+].answer.valueDecimal = 43.5
+* item[=].linkId = "mental_health_tscore"
+* item[=].text = "PROMIS Global Mental Health v1.2 T-Score"
+
+Instance: promis-10-assessment-betsy-november
+InstanceOf: QuestionnaireResponse
+Usage: #example
+* meta.versionId = "1"
+* meta.lastUpdated = "2025-11-10T13:45:20.789Z"
+* questionnaire = "https://globalalliantinc.com/fhir/Questionnaire/questionnaire-PROMIS10"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
+* status = #completed
+* authored = "2025-11-10T13:45:20.789Z"
+* author = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
+* item[0].answer.valueString = "7A34C75DE12"
+* item[=].linkId = "mbi"
+* item[=].text = "What is this patient's Medicare Beneficiary Identifier (MBI)?"
+* item[+].answer.valueDate = "2025-11-10"
+* item[=].linkId = "assessment_date"
+* item[=].text = "Please report the date this assessment was completed."
+* item[+].answer.valueCoding = $loinc#LA13913-1 "Very Good"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 4
+* item[=].linkId = "health"
+* item[=].text = "In general, would you say your health is..."
+* item[+].answer.valueCoding = $loinc#LA13913-1 "Very Good"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 4
+* item[=].linkId = "quality_of_life"
+* item[=].text = "In general, would you say your quality of life is..."
+* item[+].answer.valueCoding = $loinc#LA13913-1 "Very Good"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 4
+* item[=].linkId = "physical_health"
+* item[=].text = "In general, how would you rate your physical health?"
+* item[+].answer.valueCoding = $loinc#LA13913-1 "Very Good"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 4
+* item[=].linkId = "mental_health"
+* item[=].text = "In general, how would you rate your mental health, including your mood and your ability  to think?"
+* item[+].answer.valueCoding = $loinc#LA8967-7 "Good"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 3
+* item[=].linkId = "satisfaction_social"
+* item[=].text = "In general, how would you rate your satisfaction with your social activities and relationships?"
+* item[+].answer.valueCoding = $loinc#LA13913-1 "Very Good"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 4
+* item[=].linkId = "social_activities"
+* item[=].text = "In general, please rate how well you carry out  your usual social activities and roles. (This includes activities at home, at work and in your community, and responsibilities as a parent, child, spouse, employee, friend, etc.)"
+* item[+].answer.valueCoding = $loinc#LA13937-0 "Completely"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 5
+* item[=].linkId = "physical_activities"
+* item[=].text = "In the past 7 days, to what extent are you able to carry out your everyday physical activities such as walking, climbing stairs, carrying groceries, or moving a chair?"
+* item[+].answer.valueCoding = $loinc#LA10066-1 "Rarely"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 4
+* item[=].linkId = "emotional"
+* item[=].text = "In the past 7 days, how often have you been bothered by emotional problems such as feeling anxious, depressed or irritable?"
+* item[+].answer.valueCoding = $loinc#LA137-2 "None"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 5
+* item[=].linkId = "fatigue"
+* item[=].text = "In the past 7 days, how would you rate your fatigue on average?"
+* item[+].answer.valueCoding = $loinc#LA6114-8 "3"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 3
+* item[=].linkId = "pain"
+* item[=].text = "On a scale of 0-10, with 10 being the worst pain imaginable and 0 being no pain, how would you rate your pain on average?"
+* item[+].answer.valueDecimal = 18
+* item[=].linkId = "physical_health_score"
+* item[=].text = "Physical Health Score (Raw Score)"
+* item[+].answer.valueDecimal = 15
+* item[=].linkId = "mental_health_score"
+* item[=].text = "Mental Health Score (Raw Score)"
+* item[+].answer.valueDecimal = 57.7
+* item[=].linkId = "physical_health_tscore"
+* item[=].text = "PROMIS Global Physical Health v1.2 T-Score"
+* item[+].answer.valueDecimal = 50.8
+* item[=].linkId = "mental_health_tscore"
+* item[=].text = "PROMIS Global Mental Health v1.2 T-Score"
+
+Instance: promis-10-assessment-betsy-december
+InstanceOf: QuestionnaireResponse
+Usage: #example
+* meta.versionId = "1"
+* meta.lastUpdated = "2025-12-18T09:30:15.321Z"
+* questionnaire = "https://globalalliantinc.com/fhir/Questionnaire/questionnaire-PROMIS10"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
+* status = #completed
+* authored = "2025-12-18T09:30:15.321Z"
+* author = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
+* item[0].answer.valueString = "7A34C75DE12"
+* item[=].linkId = "mbi"
+* item[=].text = "What is this patient's Medicare Beneficiary Identifier (MBI)?"
+* item[+].answer.valueDate = "2025-12-18"
+* item[=].linkId = "assessment_date"
+* item[=].text = "Please report the date this assessment was completed."
+* item[+].answer.valueCoding = $loinc#LA9206-9 "Excellent"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 5
+* item[=].linkId = "health"
+* item[=].text = "In general, would you say your health is..."
+* item[+].answer.valueCoding = $loinc#LA13913-1 "Very Good"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 4
+* item[=].linkId = "quality_of_life"
+* item[=].text = "In general, would you say your quality of life is..."
+* item[+].answer.valueCoding = $loinc#LA13913-1 "Very Good"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 4
+* item[=].linkId = "physical_health"
+* item[=].text = "In general, how would you rate your physical health?"
+* item[+].answer.valueCoding = $loinc#LA13913-1 "Very Good"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 4
+* item[=].linkId = "mental_health"
+* item[=].text = "In general, how would you rate your mental health, including your mood and your ability  to think?"
+* item[+].answer.valueCoding = $loinc#LA13913-1 "Very Good"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 4
+* item[=].linkId = "satisfaction_social"
+* item[=].text = "In general, how would you rate your satisfaction with your social activities and relationships?"
+* item[+].answer.valueCoding = $loinc#LA9206-9 "Excellent"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 5
+* item[=].linkId = "social_activities"
+* item[=].text = "In general, please rate how well you carry out  your usual social activities and roles. (This includes activities at home, at work and in your community, and responsibilities as a parent, child, spouse, employee, friend, etc.)"
+* item[+].answer.valueCoding = $loinc#LA13937-0 "Completely"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 5
+* item[=].linkId = "physical_activities"
+* item[=].text = "In the past 7 days, to what extent are you able to carry out your everyday physical activities such as walking, climbing stairs, carrying groceries, or moving a chair?"
+* item[+].answer.valueCoding = $loinc#LA6270-8 "Never"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 5
+* item[=].linkId = "emotional"
+* item[=].text = "In the past 7 days, how often have you been bothered by emotional problems such as feeling anxious, depressed or irritable?"
+* item[+].answer.valueCoding = $loinc#LA137-2 "None"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 5
+* item[=].linkId = "fatigue"
+* item[=].text = "In the past 7 days, how would you rate your fatigue on average?"
+* item[+].answer.valueCoding = $loinc#LA6113-0 "2"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 2
+* item[=].linkId = "pain"
+* item[=].text = "On a scale of 0-10, with 10 being the worst pain imaginable and 0 being no pain, how would you rate your pain on average?"
+* item[+].answer.valueDecimal = 18
+* item[=].linkId = "physical_health_score"
+* item[=].text = "Physical Health Score (Raw Score)"
+* item[+].answer.valueDecimal = 17
+* item[=].linkId = "mental_health_score"
+* item[=].text = "Mental Health Score (Raw Score)"
+* item[+].answer.valueDecimal = 57.7
+* item[=].linkId = "physical_health_tscore"
+* item[=].text = "PROMIS Global Physical Health v1.2 T-Score"
+* item[+].answer.valueDecimal = 56.0
+* item[=].linkId = "mental_health_tscore"
+* item[=].text = "PROMIS Global Mental Health v1.2 T-Score"
