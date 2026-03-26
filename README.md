@@ -11,7 +11,7 @@ https://build.fhir.org/ig/paciowg/sample-data-fsh/
 
 Branches are also built and available online, e.g.,
 
-https://build.fhir.org/ig/paciowg/sample-data-fsh/branches/connectathon-january-2026/
+https://build.fhir.org/ig/paciowg/sample-data-fsh/branches/
 
 ## Manifest
 
