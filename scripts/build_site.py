@@ -36,21 +36,28 @@ def run_command(command, check=True, capture_output=False, text=True):
         for line in iter(process.stderr.readline, ''):
             sys.stderr.write(line)
         
+        stdout_output = process.stdout.read() # Read all stdout
+        stderr_output = process.stderr.read() # Read all stderr
+        
+        # Write to sys.stderr for immediate feedback
+        sys.stderr.write(stdout_output)
+        sys.stderr.write(stderr_output)
+
         process.stdout.close()
         process.stderr.close()
         return_code = process.wait()
 
         if check and return_code != 0:
-            raise subprocess.CalledProcessError(return_code, command)
+            # Raise exception with captured output for better error messages
+            raise subprocess.CalledProcessError(return_code, command, output=stdout_output, stderr=stderr_output)
         
         return None # No output to return when not capturing
 
     except (subprocess.CalledProcessError, FileNotFoundError) as e:
-        print(f"Error running command: {' '.join(command)}", file=sys.stderr)
-        print(f"{e}", file=sys.stderr)
-        if check:
-            sys.exit(1)
-        raise
+        # Re-raise the exception after logging, to be caught by main()
+        print(f"Error caught in run_command for command: {' '.join(command)}", file=sys.stderr)
+        print(f"Details: {e}", file=sys.stderr)
+        raise # Re-raise the exception to the caller
 
 # --- Version Identification Logic ---
 
@@ -275,38 +282,54 @@ def main():
     original_branch = run_command(['git', 'rev-parse', '--abbrev-ref', 'HEAD'], capture_output=True)
     print(f"Original branch is '{original_branch}'. Will return to it after processing.", file=sys.stderr)
 
+    build_failures = []
+
+    # Outer try-finally to ensure we always return to the original branch at script end
     try:
         for release in releases:
             tag, name, datetime_str = release['tag'], release['name'], release['datetime']
-            print(f"\n--- Processing release: {name} ({tag}) ---", file=sys.stderr)
-            run_command(['git', 'checkout', tag])
-            if os.path.isdir(SUSHI_OUTPUT_DIR):
-                shutil.rmtree(SUSHI_OUTPUT_DIR)
-            run_command(['sushi', '.'])
-            fragment = process_version(
-                version_id=tag, version_type='release', display_name=name,
-                datetime_str=datetime_str, output_dir=args.output_dir, site_url=args.site_url
-            )
-            versions_fragments.append(fragment)
+            print(f"\n--- Attempting to process release: {name} ({tag}) ---", file=sys.stderr)
+            try:
+                run_command(['git', 'checkout', tag]) # If this fails, caught by inner except
+                if os.path.isdir(SUSHI_OUTPUT_DIR):
+                    shutil.rmtree(SUSHI_OUTPUT_DIR)
+                run_command(['sushi', '.'])
+                fragment = process_version(
+                    version_id=tag, version_type='release', display_name=name,
+                    datetime_str=datetime_str, output_dir=args.output_dir, site_url=args.site_url
+                )
+                versions_fragments.append(fragment)
+            except (subprocess.CalledProcessError, Exception) as e:
+                error_message = f"Failed to build release {name} ({tag}). Error: {e}"
+                print(error_message, file=sys.stderr)
+                build_failures.append({"type": "release", "identifier": tag, "name": name, "error": str(e)})
 
         for branch in branches:
-            print(f"\n--- Processing branch: {branch} ---", file=sys.stderr)
-            run_command(['git', 'checkout', branch])
-            if os.path.isdir(SUSHI_OUTPUT_DIR):
-                shutil.rmtree(SUSHI_OUTPUT_DIR)
-            run_command(['sushi', '.'])
-            fragment = process_version(
-                version_id=branch, version_type='branch', display_name=branch,
-                output_dir=args.output_dir, site_url=args.site_url
-            )
-            versions_fragments.append(fragment)
+            print(f"\n--- Attempting to process branch: {branch} ---", file=sys.stderr)
+            try:
+                run_command(['git', 'checkout', branch]) # If this fails, caught by inner except
+                if os.path.isdir(SUSHI_OUTPUT_DIR):
+                    shutil.rmtree(SUSHI_OUTPUT_DIR)
+                run_command(['sushi', '.'])
+                fragment = process_version(
+                    version_id=branch, version_type='branch', display_name=branch,
+                    output_dir=args.output_dir, site_url=args.site_url
+                )
+                versions_fragments.append(fragment)
+            except (subprocess.CalledProcessError, Exception) as e:
+                error_message = f"Failed to build branch {branch}. Error: {e}"
+                print(error_message, file=sys.stderr)
+                build_failures.append({"type": "branch", "identifier": branch, "error": str(e)})
     finally:
         print(f"\n--- Returning to original branch: {original_branch} ---", file=sys.stderr)
         run_command(['git', 'checkout', original_branch])
 
     print("\n--- Assembling final manifest ---", file=sys.stderr)
+    build_datetime = datetime.now().strftime("%Y-%m-%d %H:%M:%S %Z")
     manifest = {
-        "versions": versions_fragments
+        "buildDate": build_datetime,
+        "versions": versions_fragments,
+        "buildFailures": build_failures
     }
     manifest_path = os.path.join(args.output_dir, 'manifest.json')
     os.makedirs(args.output_dir, exist_ok=True)
@@ -318,6 +341,15 @@ def main():
     generate_index(args.output_dir)
 
     print("\n--- Build complete ---", file=sys.stderr)
+
+    # Exit with non-zero status only if there are NO successful builds and there was at least one failure
+    if not versions_fragments and build_failures:
+        print("Build finished with failures and no successful builds. Exiting with status 1.", file=sys.stderr)
+        sys.exit(1)
+    elif build_failures:
+        print("Build finished with some failures, but also successful builds. Exiting with status 0.", file=sys.stderr)
+    else:
+        print("Build finished successfully with no failures. Exiting with status 0.", file=sys.stderr)
 
 if __name__ == "__main__":
     main()

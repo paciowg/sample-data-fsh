@@ -68,6 +68,14 @@ document.addEventListener('DOMContentLoaded', () => {
             return response.json();
         })
         .then(data => {
+            const buildDate = data.buildDate;
+            if (buildDate) {
+                const buildDateElement = document.getElementById('build-date');
+                if (buildDateElement) {
+                    buildDateElement.textContent = `Built on ${buildDate}`;
+                }
+            }
+
             const releaseVersions = (data.versions || []).filter(r => r.type === 'release');
             const workingVersions = (data.versions || []).filter(r => r.type === 'working');
 
@@ -86,6 +94,24 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             root.innerHTML = content;
+
+            const buildFailures = data.buildFailures || [];
+            if (buildFailures.length > 0) {
+                let failureContent = '<h2 style="color: red;">Build Failures</h2>';
+                failureContent += '<p>The following versions failed to build:</p>';
+                failureContent += '<ul>';
+                buildFailures.forEach(failure => {
+                    failureContent += `<li><strong>${failure.type.charAt(0).toUpperCase() + failure.type.slice(1)}:</strong> ${failure.identifier}`;
+                    if (failure.name) {
+                        failureContent += ` (${failure.name})`;
+                    }
+                    failureContent += `<br/><em>Error:</em> <pre style="white-space: pre-wrap; word-wrap: break-word; font-size: 0.9em; color: #666;">${failure.error}</pre></li>`;
+                });
+                failureContent += '</ul>';
+                const failureSection = document.createElement('div');
+                failureSection.innerHTML = failureContent;
+                root.appendChild(failureSection);
+            }
 
             root.querySelectorAll('.collapsible-header').forEach(header => {
                 header.addEventListener('click', () => {
