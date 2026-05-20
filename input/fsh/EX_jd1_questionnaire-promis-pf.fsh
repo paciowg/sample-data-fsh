@@ -1,55 +1,55 @@
 // PROMIS Physical Function Short Form 6b QuestionnaireResponse
 // LOINC 76804-4 "PROMIS short form - physical function 6b - version 1.2"
 Instance: PROMISPhysicalFunctionQuestionnaireExample
-InstanceOf: $SDCQuestionnaire
+InstanceOf: SDCQuestionnaire
 Usage: #example
 Title: "PROMIS Physical Function Short Form 6b Questionnaire"
 Description: "Questionnaire for PROMIS Physical Function Short Form 6b score reporting"
 
 * status = #active
 * url = "http://example.org/Questionnaire/PROMISPhysicalFunctionQuestionnaire"
-* code = $LOINC#76804-4 "PROMIS short form - physical function 6b - version 1.2"
+* code = $LNC#76804-4 "PROMIS short form - physical function 6b - version 1.2"
 * subjectType[+] = #Patient
 
 * item[+].linkId = "pf6b-1"
 * item[=].text = "Are you able to do chores such as vacuuming or yard work?"
 * item[=].type = #choice
-* item[=].code = $LOINC#61597-1
+* item[=].code = $LNC#61597-1
 * item[=].answerValueSet = "http://loinc.org/vs/LL1022-4"
 
 * item[+].linkId = "pf6b-2"
 * item[=].text = "Are you able to go up and down stairs at a normal pace?"
 * item[=].type = #choice
-* item[=].code = $LOINC#61607-8
+* item[=].code = $LNC#61607-8
 * item[=].answerValueSet = "http://loinc.org/vs/LL1022-4"
 
 * item[+].linkId = "pf6b-3"
 * item[=].text = "Are you able to go for a walk of at least 15 minutes?"
 * item[=].type = #choice
-* item[=].code = $LOINC#61609-4
+* item[=].code = $LNC#61609-4
 * item[=].answerValueSet = "http://loinc.org/vs/LL1022-4"
 
 * item[+].linkId = "pf6b-4"
 * item[=].text = "Are you able to run errands and shop?"
 * item[=].type = #choice
-* item[=].code = $LOINC#61635-9
+* item[=].code = $LNC#61635-9
 * item[=].answerValueSet = "http://loinc.org/vs/LL1022-4"
 
 * item[+].linkId = "pf6b-5"
 * item[=].text = "Does your health now limit you in doing two hours of physical labor?"
 * item[=].type = #choice
-* item[=].code = $LOINC#61688-8
+* item[=].code = $LNC#61688-8
 * item[=].answerValueSet = "http://loinc.org/vs/LL1021-6"
 
 * item[+].linkId = "pf6b-6"
 * item[=].text = "Does your health now limit you in doing moderate work around the house like vacuuming, sweeping floors or carrying in groceries?"
 * item[=].type = #choice
-* item[=].code = $LOINC#61639-1
+* item[=].code = $LNC#61639-1
 * item[=].answerValueSet = "http://loinc.org/vs/LL1021-6"
 
 * item[+].linkId = "raw_score"
 * item[=].type = #decimal
-* item[=].code = $LOINC#77797-9 "PROMIS short form - physical function 6b - version 1.2 raw score"
+* item[=].code = $LNC#77797-9 "PROMIS short form - physical function 6b - version 1.2 raw score"
 * item[=].text = "PROMIS short form - physical function 6b - version 1.2 raw score"
 * item[=].readOnly = true
 * item[=].extension.url = $sdc-calculatedExpression
@@ -62,7 +62,7 @@ Description: "Questionnaire for PROMIS Physical Function Short Form 6b score rep
 
 * item[+].linkId = "tscore"
 * item[=].type = #decimal
-* item[=].code = $LOINC#77866-2 "PROMIS physical function - version 1.0 Tscore"
+* item[=].code = $LNC#77866-2 "PROMIS physical function - version 1.0 Tscore"
 * item[=].text = "PROMIS physical function - version 1.0 Tscore"
 * item[=].readOnly = true
 * item[=].extension.url = $sdc-calculatedExpression
@@ -79,7 +79,7 @@ Description: "Questionnaire for PROMIS Physical Function Short Form 6b score rep
 // PROMIS Physical Function Short Form 6b QuestionnaireResponse
 // LOINC 76804-4 "PROMIS short form - physical function 6b - version 1.2"
 Instance: PROMISPhysicalFunctionExample1
-InstanceOf: $USCoreQuestionnaireResponse
+InstanceOf: USCoreQuestionnaireResponse
 Usage: #example
 Title: "PROMIS Physical Function Short Form 6b QuestionnaireResponse Example"
 Description: "Example PROMIS Physical Function (PF) Short Form 6b QuestionnaireResponse for the MSK track"
@@ -89,43 +89,43 @@ Description: "Example PROMIS Physical Function (PF) Short Form 6b QuestionnaireR
 
 * questionnaire = "http://example.org/Questionnaire/PROMISPhysicalFunctionQuestionnaire"
 * status = #completed
-* subject = Reference(PatientExample)
+* subject = Reference(patient-john-doe-01)
 * authored = "2026-01-15T10:30:00Z"
-* author = Reference(PatientExample)
+* author = Reference(patient-john-doe-01)
 
 * item[+].linkId = "pf6b-1"
 * item[=].text = "Are you able to do chores such as vacuuming or yard work?" // LOINC#61597-1
-* item[=].answer.valueCoding = $LOINC#LA13918-0 "With a little difficulty"
+* item[=].answer.valueCoding = $LNC#LA13918-0 "With a little difficulty"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 4
 
 * item[+].linkId = "pf6b-2"
 * item[=].text = "Are you able to go up and down stairs at a normal pace?" // LOINC#61607-8
-* item[=].answer.valueCoding = $LOINC#LA13920-6 "With some difficulty"
+* item[=].answer.valueCoding = $LNC#LA13920-6 "With some difficulty"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 3
 
 * item[+].linkId = "pf6b-3"
 * item[=].text = "Are you able to go for a walk of at least 15 minutes?" // LOINC#61609-4
-* item[=].answer.valueCoding = $LOINC#LA13920-6 "With some difficulty"
+* item[=].answer.valueCoding = $LNC#LA13920-6 "With some difficulty"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 3
 
 * item[+].linkId = "pf6b-4"
 * item[=].text = "Are you able to run errands and shop?" // LOINC#61635-9
-* item[=].answer.valueCoding = $LOINC#LA13918-0 "With a little difficulty"
+* item[=].answer.valueCoding = $LNC#LA13918-0 "With a little difficulty"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 4
 
 * item[+].linkId = "pf6b-5"
 * item[=].text = "Does your health now limit you in doing two hours of physical labor?" // LOINC#61688-8
-* item[=].answer.valueCoding = $LOINC#LA13868-7 "Cannot do"
+* item[=].answer.valueCoding = $LNC#LA13868-7 "Cannot do"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 1
 
 * item[+].linkId = "pf6b-6"
 * item[=].text = "Does your health now limit you in doing moderate work around the house like vacuuming, sweeping floors or carrying in groceries?" // LOINC#61639-1
-* item[=].answer.valueCoding = $LOINC#LA11911-7 "Quite a lot"
+* item[=].answer.valueCoding = $LNC#LA11911-7 "Quite a lot"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
@@ -138,7 +138,7 @@ Description: "Example PROMIS Physical Function (PF) Short Form 6b QuestionnaireR
 //-----------------------------------------------------------------------------
 
 Instance: PROMISPhysicalFunctionExample2
-InstanceOf: $USCoreQuestionnaireResponse
+InstanceOf: USCoreQuestionnaireResponse
 Usage: #example
 Title: "PROMIS Physical Function SF 6b QuestionnaireResponse - February 2026"
 Description: "February 2026 PROMIS Physical Function Short Form 6b QuestionnaireResponse"
@@ -146,43 +146,43 @@ Description: "February 2026 PROMIS Physical Function Short Form 6b Questionnaire
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PROMIS Physical Function (Short Form 6b) - February 2026. T-score: 50.8.</p></div>"
 * questionnaire = "http://example.org/Questionnaire/PROMISPhysicalFunctionQuestionnaire"
 * status = #completed
-* subject = Reference(PatientExample)
+* subject = Reference(patient-john-doe-01)
 * authored = "2026-02-15T10:30:00Z"
-* author = Reference(PatientExample)
+* author = Reference(patient-john-doe-01)
 
 * item[+].linkId = "pf6b-1"
 * item[=].text = "Are you able to do chores such as vacuuming or yard work?"
-* item[=].answer.valueCoding = $LOINC#LA13918-0 "With a little difficulty"
+* item[=].answer.valueCoding = $LNC#LA13918-0 "With a little difficulty"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 4
 
 * item[+].linkId = "pf6b-2"
 * item[=].text = "Are you able to go up and down stairs at a normal pace?"
-* item[=].answer.valueCoding = $LOINC#LA13920-6 "With some difficulty"
+* item[=].answer.valueCoding = $LNC#LA13920-6 "With some difficulty"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 3
 
 * item[+].linkId = "pf6b-3"
 * item[=].text = "Are you able to go for a walk of at least 15 minutes?"
-* item[=].answer.valueCoding = $LOINC#LA13920-6 "With some difficulty"
+* item[=].answer.valueCoding = $LNC#LA13920-6 "With some difficulty"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 3
 
 * item[+].linkId = "pf6b-4"
 * item[=].text = "Are you able to run errands and shop?"
-* item[=].answer.valueCoding = $LOINC#LA13918-0 "With a little difficulty"
+* item[=].answer.valueCoding = $LNC#LA13918-0 "With a little difficulty"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 4
 
 * item[+].linkId = "pf6b-5"
 * item[=].text = "Does your health now limit you in doing two hours of physical labor?"
-* item[=].answer.valueCoding = $LOINC#LA11911-7 "Quite a lot"
+* item[=].answer.valueCoding = $LNC#LA11911-7 "Quite a lot"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
 * item[+].linkId = "pf6b-6"
 * item[=].text = "Does your health now limit you in doing moderate work around the house like vacuuming, sweeping floors or carrying in groceries?"
-* item[=].answer.valueCoding = $LOINC#LA11911-7 "Quite a lot"
+* item[=].answer.valueCoding = $LNC#LA11911-7 "Quite a lot"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
@@ -195,7 +195,7 @@ Description: "February 2026 PROMIS Physical Function Short Form 6b Questionnaire
 //-----------------------------------------------------------------------------
 
 Instance: PROMISPhysicalFunctionExample3
-InstanceOf: $USCoreQuestionnaireResponse
+InstanceOf: USCoreQuestionnaireResponse
 Usage: #example
 Title: "PROMIS Physical Function SF 6b QuestionnaireResponse - March 2026"
 Description: "March 2026 PROMIS Physical Function Short Form 6b QuestionnaireResponse"
@@ -203,42 +203,42 @@ Description: "March 2026 PROMIS Physical Function Short Form 6b QuestionnaireRes
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PROMIS Physical Function (Short Form 6b) - March 2026. T-score: 47.7.</p></div>"
 * questionnaire = "http://example.org/Questionnaire/PROMISPhysicalFunctionQuestionnaire"
 * status = #completed
-* subject = Reference(PatientExample)
+* subject = Reference(patient-john-doe-01)
 * authored = "2026-03-15T10:30:00Z"
-* author = Reference(PatientExample)
+* author = Reference(patient-john-doe-01)
 * item[+].linkId = "pf6b-1"
 * item[=].text = "Are you able to do chores such as vacuuming or yard work?"
-* item[=].answer.valueCoding = $LOINC#LA13918-0 "With a little difficulty"
+* item[=].answer.valueCoding = $LNC#LA13918-0 "With a little difficulty"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 4
 
 * item[+].linkId = "pf6b-2"
 * item[=].text = "Are you able to go up and down stairs at a normal pace?"
-* item[=].answer.valueCoding = $LOINC#LA13920-6 "With some difficulty"
+* item[=].answer.valueCoding = $LNC#LA13920-6 "With some difficulty"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 3
 
 * item[+].linkId = "pf6b-3"
 * item[=].text = "Are you able to go for a walk of at least 15 minutes?"
-* item[=].answer.valueCoding = $LOINC#LA13920-6 "With some difficulty"
+* item[=].answer.valueCoding = $LNC#LA13920-6 "With some difficulty"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 3
 
 * item[+].linkId = "pf6b-4"
 * item[=].text = "Are you able to run errands and shop?"
-* item[=].answer.valueCoding = $LOINC#LA13918-0 "With a little difficulty"
+* item[=].answer.valueCoding = $LNC#LA13918-0 "With a little difficulty"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 4
 
 * item[+].linkId = "pf6b-5"
 * item[=].text = "Does your health now limit you in doing two hours of physical labor?"
-* item[=].answer.valueCoding = $LOINC#LA13868-7 "Cannot do"
+* item[=].answer.valueCoding = $LNC#LA13868-7 "Cannot do"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 1
 
 * item[+].linkId = "pf6b-6"
 * item[=].text = "Does your health now limit you in doing moderate work around the house like vacuuming, sweeping floors or carrying in groceries?"
-* item[=].answer.valueCoding = $LOINC#LA11911-7 "Quite a lot"
+* item[=].answer.valueCoding = $LNC#LA11911-7 "Quite a lot"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
@@ -251,7 +251,7 @@ Description: "March 2026 PROMIS Physical Function Short Form 6b QuestionnaireRes
 //-----------------------------------------------------------------------------
 
 Instance: PROMISPhysicalFunctionExample4
-InstanceOf: $USCoreQuestionnaireResponse
+InstanceOf: USCoreQuestionnaireResponse
 Usage: #example
 Title: "PROMIS Physical Function SF 6b QuestionnaireResponse - April 2026"
 Description: "April 2026 PROMIS Physical Function Short Form 6b QuestionnaireResponse"
@@ -259,43 +259,43 @@ Description: "April 2026 PROMIS Physical Function Short Form 6b QuestionnaireRes
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PROMIS Physical Function (Short Form 6b) - April 2026. T-score: 54.1.</p></div>"
 * questionnaire = "http://example.org/Questionnaire/PROMISPhysicalFunctionQuestionnaire"
 * status = #completed
-* subject = Reference(PatientExample)
+* subject = Reference(patient-john-doe-01)
 * authored = "2026-04-15T10:30:00Z"
-* author = Reference(PatientExample)
+* author = Reference(patient-john-doe-01)
 
 * item[+].linkId = "pf6b-1"
 * item[=].text = "Are you able to do chores such as vacuuming or yard work?"
-* item[=].answer.valueCoding = $LOINC#LA13918-0 "With a little difficulty"
+* item[=].answer.valueCoding = $LNC#LA13918-0 "With a little difficulty"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 4
 
 * item[+].linkId = "pf6b-2"
 * item[=].text = "Are you able to go up and down stairs at a normal pace?"
-* item[=].answer.valueCoding = $LOINC#LA13918-0 "With a little difficulty"
+* item[=].answer.valueCoding = $LNC#LA13918-0 "With a little difficulty"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 4
 
 * item[+].linkId = "pf6b-3"
 * item[=].text = "Are you able to go for a walk of at least 15 minutes?"
-* item[=].answer.valueCoding = $LOINC#LA13920-6 "With some difficulty"
+* item[=].answer.valueCoding = $LNC#LA13920-6 "With some difficulty"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 3
 
 * item[+].linkId = "pf6b-4"
 * item[=].text = "Are you able to run errands and shop?"
-* item[=].answer.valueCoding = $LOINC#LA13918-0 "With a little difficulty"
+* item[=].answer.valueCoding = $LNC#LA13918-0 "With a little difficulty"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 4
 
 * item[+].linkId = "pf6b-5"
 * item[=].text = "Does your health now limit you in doing two hours of physical labor?"
-* item[=].answer.valueCoding = $LOINC#LA11911-7 "Quite a lot"
+* item[=].answer.valueCoding = $LNC#LA11911-7 "Quite a lot"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
 * item[+].linkId = "pf6b-6"
 * item[=].text = "Does your health now limit you in doing moderate work around the house like vacuuming, sweeping floors or carrying in groceries?"
-* item[=].answer.valueCoding = $LOINC#LA11911-7 "Quite a lot"
+* item[=].answer.valueCoding = $LNC#LA11911-7 "Quite a lot"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
@@ -308,7 +308,7 @@ Description: "April 2026 PROMIS Physical Function Short Form 6b QuestionnaireRes
 //-----------------------------------------------------------------------------
 
 Instance: PROMISPhysicalFunctionExample5
-InstanceOf: $USCoreQuestionnaireResponse
+InstanceOf: USCoreQuestionnaireResponse
 Usage: #example
 Title: "PROMIS Physical Function SF 6b QuestionnaireResponse - May 2026"
 Description: "May 2026 PROMIS Physical Function Short Form 6b QuestionnaireResponse"
@@ -316,42 +316,42 @@ Description: "May 2026 PROMIS Physical Function Short Form 6b QuestionnaireRespo
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PROMIS Physical Function (Short Form 6b) - May 2026. T-score: 57.7.</p></div>"
 * questionnaire = "http://example.org/Questionnaire/PROMISPhysicalFunctionQuestionnaire"
 * status = #completed
-* subject = Reference(PatientExample)
+* subject = Reference(patient-john-doe-01)
 * authored = "2026-05-15T10:30:00Z"
-* author = Reference(PatientExample)
+* author = Reference(patient-john-doe-01)
 * item[+].linkId = "pf6b-1"
 * item[=].text = "Are you able to do chores such as vacuuming or yard work?"
-* item[=].answer.valueCoding = $LOINC#LA13918-0 "With a little difficulty"
+* item[=].answer.valueCoding = $LNC#LA13918-0 "With a little difficulty"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 4
 
 * item[+].linkId = "pf6b-2"
 * item[=].text = "Are you able to go up and down stairs at a normal pace?"
-* item[=].answer.valueCoding = $LOINC#LA13918-0 "With a little difficulty"
+* item[=].answer.valueCoding = $LNC#LA13918-0 "With a little difficulty"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 4
 
 * item[+].linkId = "pf6b-3"
 * item[=].text = "Are you able to go for a walk of at least 15 minutes?"
-* item[=].answer.valueCoding = $LOINC#LA13918-0 "With a little difficulty"
+* item[=].answer.valueCoding = $LNC#LA13918-0 "With a little difficulty"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 4
 
 * item[+].linkId = "pf6b-4"
 * item[=].text = "Are you able to run errands and shop?"
-* item[=].answer.valueCoding = $LOINC#LA13918-0 "With a little difficulty"
+* item[=].answer.valueCoding = $LNC#LA13918-0 "With a little difficulty"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 4
 
 * item[+].linkId = "pf6b-5"
 * item[=].text = "Does your health now limit you in doing two hours of physical labor?"
-* item[=].answer.valueCoding = $LOINC#LA11911-7 "Quite a lot"
+* item[=].answer.valueCoding = $LNC#LA11911-7 "Quite a lot"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
 * item[+].linkId = "pf6b-6"
 * item[=].text = "Does your health now limit you in doing moderate work around the house like vacuuming, sweeping floors or carrying in groceries?"
-* item[=].answer.valueCoding = $LOINC#LA11911-7 "Quite a lot"
+* item[=].answer.valueCoding = $LNC#LA11911-7 "Quite a lot"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
@@ -366,43 +366,43 @@ Description: "May 2026 PROMIS Physical Function Short Form 6b QuestionnaireRespo
 //-----------------------------------------------------------------------------
 
 Instance: PROMISPhysicalFunctionCATQuestionnaireExample
-InstanceOf: $SDCQuestionnaire
+InstanceOf: SDCQuestionnaire
 Usage: #example
 Title: "PROMIS Physical Function CAT Questionnaire"
 Description: "Questionnaire for PROMIS Physical Function CAT score reporting"
 
 * status = #active
 * url = "http://example.org/Questionnaire/PROMISPhysicalFunctionCATQuestionnaire"
-* code = $LOINC#91722-9 "PROMIS item bank - physical function - version 2.0"
+* code = $LNC#91722-9 "PROMIS item bank - physical function - version 2.0"
 * subjectType[+] = #Patient
 
 * item[+].linkId = "pf-cat-1"
 * item[=].text = "Does your health now limit you in doing two hours of physical labor?"
 * item[=].type = #choice
-* item[=].code = $LOINC#61688-8
+* item[=].code = $LNC#61688-8
 * item[=].answerValueSet = "http://loinc.org/vs/LL1021-6"
 
 * item[+].linkId = "pf-cat-2"
 * item[=].text = "Are you able to do chores such as vacuuming or yard work?"
 * item[=].type = #choice
-* item[=].code = $LOINC#61597-1
+* item[=].code = $LNC#61597-1
 * item[=].answerValueSet = "http://loinc.org/vs/LL1022-4"
 
 * item[+].linkId = "pf-cat-3"
 * item[=].text = "To what extent are you able to carry out your everyday physical activities such as walking, climbing stairs, carrying groceries, or moving a chair?"
 * item[=].type = #choice
-* item[=].code = $LOINC#61582-3
+* item[=].code = $LNC#61582-3
 * item[=].answerValueSet = "http://loinc.org/vs/LL1013-3"
 
 * item[+].linkId = "pf-cat-4"
 * item[=].text = "Does your health now limit you in walking more than a mile?"
 * item[=].type = #choice
-* item[=].code = $LOINC#61697-9
+* item[=].code = $LNC#61697-9
 * item[=].answerValueSet = "http://loinc.org/vs/LL1021-6"
 
 * item[+].linkId = "tscore"
 * item[=].type = #decimal
-* item[=].code = $LOINC#91721-1 "PROMIS physical function - version 2.0 T-score"
+* item[=].code = $LNC#91721-1 "PROMIS physical function - version 2.0 T-score"
 * item[=].text = "PROMIS physical function - version 2.0 T-score"
 * item[=].readOnly = true
 * item[=].extension.url = $sdc-calculatedExpression
@@ -418,7 +418,7 @@ Description: "Questionnaire for PROMIS Physical Function CAT score reporting"
 
 // PROMIS Physical Function CAT QuestionnaireResponse
 Instance: PROMISPhysicalFunctionCATExample1
-InstanceOf: $USCoreQuestionnaireResponse
+InstanceOf: USCoreQuestionnaireResponse
 Usage: #example
 Title: "PROMIS Physical Function CAT QuestionnaireResponse Example"
 Description: "Example PROMIS Physical Function CAT QuestionnaireResponse for the MSK track"
@@ -428,31 +428,31 @@ Description: "Example PROMIS Physical Function CAT QuestionnaireResponse for the
 
 * questionnaire = "http://example.org/Questionnaire/PROMISPhysicalFunctionCATQuestionnaire"
 * status = #completed
-* subject = Reference(PatientExample)
+* subject = Reference(patient-john-doe-01)
 * authored = "2026-01-15T10:30:00Z"
-* author = Reference(PatientExample)
+* author = Reference(patient-john-doe-01)
 
 * item[+].linkId = "pf-cat-1"
 * item[=].text = "Does your health now limit you in doing two hours of physical labor?" // LOINC#61688-8
-* item[=].answer.valueCoding = $LOINC#LA11911-7 "Quite a lot"
+* item[=].answer.valueCoding = $LNC#LA11911-7 "Quite a lot"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
 * item[+].linkId = "pf-cat-2"
 * item[=].text = "Are you able to do chores such as vacuuming or yard work?" // LOINC#61597-1
-* item[=].answer.valueCoding = $LOINC#LA13920-6 "With some difficulty"
+* item[=].answer.valueCoding = $LNC#LA13920-6 "With some difficulty"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 3
 
 * item[+].linkId = "pf-cat-3"
 * item[=].text = "To what extent are you able to carry out your everyday physical activities such as walking, climbing stairs, carrying groceries, or moving a chair?" // LOINC#61582-3
-* item[=].answer.valueCoding = $LOINC#LA13939-6 "Moderately"
+* item[=].answer.valueCoding = $LNC#LA13939-6 "Moderately"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 3
 
 * item[+].linkId = "pf-cat-4"
 * item[=].text = "Does your health now limit you in walking more than a mile?" // LOINC#61697-9
-* item[=].answer.valueCoding = $LOINC#LA11911-7 "Quite a lot"
+* item[=].answer.valueCoding = $LNC#LA11911-7 "Quite a lot"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
@@ -462,7 +462,7 @@ Description: "Example PROMIS Physical Function CAT QuestionnaireResponse for the
 //-----------------------------------------------------------------------------
 
 Instance: PROMISPhysicalFunctionCATExample2
-InstanceOf: $USCoreQuestionnaireResponse
+InstanceOf: USCoreQuestionnaireResponse
 Usage: #example
 Title: "PROMIS Physical Function CAT QuestionnaireResponse - February 2026"
 Description: "February 2026 PROMIS Physical Function CAT QuestionnaireResponse"
@@ -470,31 +470,31 @@ Description: "February 2026 PROMIS Physical Function CAT QuestionnaireResponse"
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PROMIS Physical Function (CAT) - February 2026. T-score: 40.</p></div>"
 * questionnaire = "http://example.org/Questionnaire/PROMISPhysicalFunctionCATQuestionnaire"
 * status = #completed
-* subject = Reference(PatientExample)
+* subject = Reference(patient-john-doe-01)
 * authored = "2026-02-15T10:30:00Z"
-* author = Reference(PatientExample)
+* author = Reference(patient-john-doe-01)
 
 * item[+].linkId = "pf-cat-1"
 * item[=].text = "Does your health now limit you in doing two hours of physical labor?"
-* item[=].answer.valueCoding = $LOINC#LA11911-7 "Quite a lot"
+* item[=].answer.valueCoding = $LNC#LA11911-7 "Quite a lot"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
 * item[+].linkId = "pf-cat-2"
 * item[=].text = "Are you able to do chores such as vacuuming or yard work?"
-* item[=].answer.valueCoding = $LOINC#LA13918-0 "With a little difficulty"
+* item[=].answer.valueCoding = $LNC#LA13918-0 "With a little difficulty"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 4
 
 * item[+].linkId = "pf-cat-3"
 * item[=].text = "To what extent are you able to carry out your everyday physical activities such as walking, climbing stairs, carrying groceries, or moving a chair?"
-* item[=].answer.valueCoding = $LOINC#LA13939-6 "Moderately"
+* item[=].answer.valueCoding = $LNC#LA13939-6 "Moderately"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 3
 
 * item[+].linkId = "pf-cat-4"
 * item[=].text = "Does your health now limit you in walking more than a mile?"
-* item[=].answer.valueCoding = $LOINC#LA11911-7 "Quite a lot"
+* item[=].answer.valueCoding = $LNC#LA11911-7 "Quite a lot"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
@@ -504,7 +504,7 @@ Description: "February 2026 PROMIS Physical Function CAT QuestionnaireResponse"
 //-----------------------------------------------------------------------------
 
 Instance: PROMISPhysicalFunctionCATExample3
-InstanceOf: $USCoreQuestionnaireResponse
+InstanceOf: USCoreQuestionnaireResponse
 Usage: #example
 Title: "PROMIS Physical Function CAT QuestionnaireResponse - March 2026"
 Description: "March 2026 PROMIS Physical Function CAT QuestionnaireResponse"
@@ -512,31 +512,31 @@ Description: "March 2026 PROMIS Physical Function CAT QuestionnaireResponse"
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PROMIS Physical Function (CAT) - March 2026. T-score: 38.</p></div>"
 * questionnaire = "http://example.org/Questionnaire/PROMISPhysicalFunctionCATQuestionnaire"
 * status = #completed
-* subject = Reference(PatientExample)
+* subject = Reference(patient-john-doe-01)
 * authored = "2026-03-15T10:30:00Z"
-* author = Reference(PatientExample)
+* author = Reference(patient-john-doe-01)
 
 * item[+].linkId = "pf-cat-1"
 * item[=].text = "Does your health now limit you in doing two hours of physical labor?"
-* item[=].answer.valueCoding = $LOINC#LA11911-7 "Quite a lot"
+* item[=].answer.valueCoding = $LNC#LA11911-7 "Quite a lot"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
 * item[+].linkId = "pf-cat-2"
 * item[=].text = "Are you able to do chores such as vacuuming or yard work?"
-* item[=].answer.valueCoding = $LOINC#LA13920-6 "With some difficulty"
+* item[=].answer.valueCoding = $LNC#LA13920-6 "With some difficulty"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 3
 
 * item[+].linkId = "pf-cat-3"
 * item[=].text = "To what extent are you able to carry out your everyday physical activities such as walking, climbing stairs, carrying groceries, or moving a chair?"
-* item[=].answer.valueCoding = $LOINC#LA13939-6 "Moderately"
+* item[=].answer.valueCoding = $LNC#LA13939-6 "Moderately"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 3
 
 * item[+].linkId = "pf-cat-4"
 * item[=].text = "Does your health now limit you in walking more than a mile?"
-* item[=].answer.valueCoding = $LOINC#LA11911-7 "Quite a lot"
+* item[=].answer.valueCoding = $LNC#LA11911-7 "Quite a lot"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
@@ -546,7 +546,7 @@ Description: "March 2026 PROMIS Physical Function CAT QuestionnaireResponse"
 //-----------------------------------------------------------------------------
 
 Instance: PROMISPhysicalFunctionCATExample4
-InstanceOf: $USCoreQuestionnaireResponse
+InstanceOf: USCoreQuestionnaireResponse
 Usage: #example
 Title: "PROMIS Physical Function CAT QuestionnaireResponse - April 2026"
 Description: "April 2026 PROMIS Physical Function CAT QuestionnaireResponse"
@@ -554,31 +554,31 @@ Description: "April 2026 PROMIS Physical Function CAT QuestionnaireResponse"
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PROMIS Physical Function (CAT) - April 2026. T-score: 44.9.</p></div>"
 * questionnaire = "http://example.org/Questionnaire/PROMISPhysicalFunctionCATQuestionnaire"
 * status = #completed
-* subject = Reference(PatientExample)
+* subject = Reference(patient-john-doe-01)
 * authored = "2026-04-15T10:30:00Z"
-* author = Reference(PatientExample)
+* author = Reference(patient-john-doe-01)
 
 * item[+].linkId = "pf-cat-1"
 * item[=].text = "Does your health now limit you in doing two hours of physical labor?"
-* item[=].answer.valueCoding = $LOINC#LA11911-7 "Quite a lot"
+* item[=].answer.valueCoding = $LNC#LA11911-7 "Quite a lot"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
 * item[+].linkId = "pf-cat-2"
 * item[=].text = "Are you able to do chores such as vacuuming or yard work?"
-* item[=].answer.valueCoding = $LOINC#LA13918-0 "With a little difficulty"
+* item[=].answer.valueCoding = $LNC#LA13918-0 "With a little difficulty"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 4
 
 * item[+].linkId = "pf-cat-3"
 * item[=].text = "To what extent are you able to carry out your everyday physical activities such as walking, climbing stairs, carrying groceries, or moving a chair?"
-* item[=].answer.valueCoding = $LOINC#LA13939-6 "Moderately"
+* item[=].answer.valueCoding = $LNC#LA13939-6 "Moderately"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 3
 
 * item[+].linkId = "pf-cat-4"
 * item[=].text = "Does your health now limit you in walking more than a mile?"
-* item[=].answer.valueCoding = $LOINC#LA11911-7 "Quite a lot"
+* item[=].answer.valueCoding = $LNC#LA11911-7 "Quite a lot"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
@@ -588,7 +588,7 @@ Description: "April 2026 PROMIS Physical Function CAT QuestionnaireResponse"
 //-----------------------------------------------------------------------------
 
 Instance: PROMISPhysicalFunctionCATExample5
-InstanceOf: $USCoreQuestionnaireResponse
+InstanceOf: USCoreQuestionnaireResponse
 Usage: #example
 Title: "PROMIS Physical Function CAT QuestionnaireResponse - May 2026"
 Description: "May 2026 PROMIS Physical Function CAT QuestionnaireResponse"
@@ -596,31 +596,31 @@ Description: "May 2026 PROMIS Physical Function CAT QuestionnaireResponse"
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PROMIS Physical Function (CAT) - May 2026. T-score: 47.7.</p></div>"
 * questionnaire = "http://example.org/Questionnaire/PROMISPhysicalFunctionCATQuestionnaire"
 * status = #completed
-* subject = Reference(PatientExample)
+* subject = Reference(patient-john-doe-01)
 * authored = "2026-05-15T10:30:00Z"
-* author = Reference(PatientExample)
+* author = Reference(patient-john-doe-01)
 
 * item[+].linkId = "pf-cat-1"
 * item[=].text = "Does your health now limit you in doing two hours of physical labor?"
-* item[=].answer.valueCoding = $LOINC#LA11911-7 "Quite a lot"
+* item[=].answer.valueCoding = $LNC#LA11911-7 "Quite a lot"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
 * item[+].linkId = "pf-cat-2"
 * item[=].text = "Are you able to do chores such as vacuuming or yard work?"
-* item[=].answer.valueCoding = $LOINC#LA13918-0 "With a little difficulty"
+* item[=].answer.valueCoding = $LNC#LA13918-0 "With a little difficulty"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 4
 
 * item[+].linkId = "pf-cat-3"
 * item[=].text = "To what extent are you able to carry out your everyday physical activities such as walking, climbing stairs, carrying groceries, or moving a chair?"
-* item[=].answer.valueCoding = $LOINC#LA13939-6 "Moderately"
+* item[=].answer.valueCoding = $LNC#LA13939-6 "Moderately"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 3
 
 * item[+].linkId = "pf-cat-4"
 * item[=].text = "Does your health now limit you in walking more than a mile?"
-* item[=].answer.valueCoding = $LOINC#LA11911-7 "Quite a lot"
+* item[=].answer.valueCoding = $LNC#LA11911-7 "Quite a lot"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
