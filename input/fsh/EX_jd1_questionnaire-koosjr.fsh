@@ -1,60 +1,60 @@
 // Knee injury and osteoarthritis outcome score for joint replacement (KOOSJR) Questionnaire
 Instance: KOOSJRQuestionnaireExample
-InstanceOf: $SDCQuestionnaire
+InstanceOf: SDCQuestionnaire
 Usage: #example
 Title: "KOOS JR Questionnaire"
 Description: "Questionnaire for KOOS JR score reporting"
 
 * status = #active
 * url = "http://example.org/Questionnaire/KOOSJRQuestionnaire"
-* code = $LOINC#82324-5 "Knee injury and osteoarthritis outcome score for joint replacement [KOOSJR]"
+* code = $LNC#82324-5 "Knee injury and osteoarthritis outcome score for joint replacement [KOOSJR]"
 * subjectType[+] = #Patient
 
 * item[+].linkId = "koosjr-1"
 * item[=].text = "How severe is your knee stiffness after first wakening in the morning?"
 * item[=].type = #choice
-* item[=].code = $LOINC#82325-2
+* item[=].code = $LNC#82325-2
 * item[=].answerValueSet = "http://loinc.org/vs/LL4051-0"
 
 * item[+].linkId = "koosjr-2"
 * item[=].text = "Twisting/pivoting on your knee"
 * item[=].type = #choice
-* item[=].code = $LOINC#82326-0
+* item[=].code = $LNC#82326-0
 * item[=].answerValueSet = "http://loinc.org/vs/LL4051-0"
 
 * item[+].linkId = "koosjr-3"
 * item[=].text = "Straightening knee fully"
 * item[=].type = #choice
-* item[=].code = $LOINC#82327-8
+* item[=].code = $LNC#82327-8
 * item[=].answerValueSet = "http://loinc.org/vs/LL4051-0"
 
 * item[+].linkId = "koosjr-4"
 * item[=].text = "Going up or down stairs"
 * item[=].type = #choice
-* item[=].code = $LOINC#82328-6
+* item[=].code = $LNC#82328-6
 * item[=].answerValueSet = "http://loinc.org/vs/LL4051-0"
 
 * item[+].linkId = "koosjr-5"
 * item[=].text = "Standing upright"
 * item[=].type = #choice
-* item[=].code = $LOINC#82329-4
+* item[=].code = $LNC#82329-4
 * item[=].answerValueSet = "http://loinc.org/vs/LL4051-0"
 
 * item[+].linkId = "koosjr-6"
 * item[=].text = "Rising from sitting"
 * item[=].type = #choice
-* item[=].code = $LOINC#82330-2
+* item[=].code = $LNC#82330-2
 * item[=].answerValueSet = "http://loinc.org/vs/LL4051-0"
 
 * item[+].linkId = "koosjr-7"
 * item[=].text = "Bending to floor/picking up an object"
 * item[=].type = #choice
-* item[=].code = $LOINC#82331-0
+* item[=].code = $LNC#82331-0
 * item[=].answerValueSet = "http://loinc.org/vs/LL4051-0"
 
 * item[+].linkId = "total-interval-score"
 * item[=].type = #decimal
-* item[=].code = $LOINC#82332-8 "Total interval score [KOOSJR]"
+* item[=].code = $LNC#82332-8 "Total interval score [KOOSJR]"
 * item[=].text = "Total interval score [KOOSJR]"
 * item[=].readOnly = true
 * item[=].extension.url = $sdc-calculatedExpression
@@ -70,7 +70,7 @@ Description: "Questionnaire for KOOS JR score reporting"
 
 // KOOS JR QuestionnaireResponse
 Instance: KOOSJRExample1
-InstanceOf: $USCoreQuestionnaireResponse
+InstanceOf: USCoreQuestionnaireResponse
 Usage: #example
 Title: "KOOS JR QuestionnaireResponse Example"
 Description: "Example Knee Injury and Osteoarthritis Outcome Score for Joint Replacement (KOOS JR) QuestionnaireResponse for the MSK track"
@@ -80,53 +80,53 @@ Description: "Example Knee Injury and Osteoarthritis Outcome Score for Joint Rep
 
 * questionnaire = "http://example.org/Questionnaire/KOOSJRQuestionnaire"
 * status = #completed
-* subject = Reference(PatientExample)
+* subject = Reference(patient-john-doe-01)
 * authored = "2026-01-15T10:30:00Z"
-* author = Reference(PatientExample)
+* author = Reference(patient-john-doe-01)
 
 * item[+].linkId = "koosjr-1"
 * item[=].text = "How severe is your knee stiffness after first wakening in the morning?" // LOINC#82325-2
-* item[=].answer.valueCoding = $LOINC#LA6751-7 "Moderate"
+* item[=].answer.valueCoding = $LNC#LA6751-7 "Moderate"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
 * item[+].linkId = "koosjr-2"
 * item[=].text = "Twisting/pivoting on your knee" // LOINC#82326-0
-* item[=].answer.valueCoding = $LOINC#LA6751-7 "Moderate"
+* item[=].answer.valueCoding = $LNC#LA6751-7 "Moderate"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
 * item[+].linkId = "koosjr-3"
 * item[=].text = "Straightening knee fully" // LOINC#82327-8
-* item[=].answer.valueCoding = $LOINC#LA6752-5 "Mild"
+* item[=].answer.valueCoding = $LNC#LA6752-5 "Mild"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 1
 
 * item[+].linkId = "koosjr-4"
 * item[=].text = "Going up or down stairs" // LOINC#82328-6
-* item[=].answer.valueCoding = $LOINC#LA6750-9 "Severe"
+* item[=].answer.valueCoding = $LNC#LA6750-9 "Severe"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 3
 
 * item[+].linkId = "koosjr-5"
 * item[=].text = "Standing upright" // LOINC#82329-4
-* item[=].answer.valueCoding = $LOINC#LA6751-7 "Moderate"
+* item[=].answer.valueCoding = $LNC#LA6751-7 "Moderate"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
 * item[+].linkId = "koosjr-6"
 * item[=].text = "Rising from sitting" // LOINC#82330-2
-* item[=].answer.valueCoding = $LOINC#LA6751-7 "Moderate"
+* item[=].answer.valueCoding = $LNC#LA6751-7 "Moderate"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
 * item[+].linkId = "koosjr-7" // LOINC#82331-0
 * item[=].text = "Bending to floor/picking up an object"
-* item[=].answer.valueCoding = $LOINC#LA6750-9 "Severe"
+* item[=].answer.valueCoding = $LNC#LA6750-9 "Severe"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 3
 
-* item[+].linkId = "total-interval-score" // $LOINC#82332-8
+* item[+].linkId = "total-interval-score" // $LNC#82332-8
 * item[=].answer.valueDecimal = 50.012
 
 //-----------------------------------------------------------------------------
@@ -134,7 +134,7 @@ Description: "Example Knee Injury and Osteoarthritis Outcome Score for Joint Rep
 // HOOS JR Questionnaire
 
 Instance: KOOSJRExample2
-InstanceOf: $USCoreQuestionnaireResponse
+InstanceOf: USCoreQuestionnaireResponse
 Usage: #example
 Title: "KOOS JR QuestionnaireResponse - February 2026"
 Description: "February 2026 KOOS JR QuestionnaireResponse"
@@ -142,49 +142,49 @@ Description: "February 2026 KOOS JR QuestionnaireResponse"
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>KOOS JR - February 2026. Total interval score: 57.985.</p></div>"
 * questionnaire = "http://example.org/Questionnaire/KOOSJRQuestionnaire"
 * status = #completed
-* subject = Reference(PatientExample)
+* subject = Reference(patient-john-doe-01)
 * authored = "2026-02-15T10:30:00Z"
-* author = Reference(PatientExample)
+* author = Reference(patient-john-doe-01)
 
 * item[+].linkId = "koosjr-1"
 * item[=].text = "How severe is your knee stiffness after first wakening in the morning?"
-* item[=].answer.valueCoding = $LOINC#LA6751-7 "Moderate"
+* item[=].answer.valueCoding = $LNC#LA6751-7 "Moderate"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
 * item[+].linkId = "koosjr-2"
 * item[=].text = "Twisting/pivoting on your knee"
-* item[=].answer.valueCoding = $LOINC#LA6751-7 "Moderate"
+* item[=].answer.valueCoding = $LNC#LA6751-7 "Moderate"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
 * item[+].linkId = "koosjr-3"
 * item[=].text = "Straightening knee fully"
-* item[=].answer.valueCoding = $LOINC#LA6752-5 "Mild"
+* item[=].answer.valueCoding = $LNC#LA6752-5 "Mild"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 1
 
 * item[+].linkId = "koosjr-4"
 * item[=].text = "Going up or down stairs"
-* item[=].answer.valueCoding = $LOINC#LA6751-7 "Moderate"
+* item[=].answer.valueCoding = $LNC#LA6751-7 "Moderate"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
 * item[+].linkId = "koosjr-5"
 * item[=].text = "Standing upright"
-* item[=].answer.valueCoding = $LOINC#LA6751-7 "Moderate"
+* item[=].answer.valueCoding = $LNC#LA6751-7 "Moderate"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
 * item[+].linkId = "koosjr-6"
 * item[=].text = "Rising from sitting"
-* item[=].answer.valueCoding = $LOINC#LA6751-7 "Moderate"
+* item[=].answer.valueCoding = $LNC#LA6751-7 "Moderate"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
 * item[+].linkId = "koosjr-7"
 * item[=].text = "Bending to floor/picking up an object"
-* item[=].answer.valueCoding = $LOINC#LA6750-9 "Severe"
+* item[=].answer.valueCoding = $LNC#LA6750-9 "Severe"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 3
 
@@ -194,7 +194,7 @@ Description: "February 2026 KOOS JR QuestionnaireResponse"
 //-----------------------------------------------------------------------------
 
 Instance: KOOSJRExample3
-InstanceOf: $USCoreQuestionnaireResponse
+InstanceOf: USCoreQuestionnaireResponse
 Usage: #example
 Title: "KOOS JR QuestionnaireResponse - March 2026"
 Description: "March 2026 KOOS JR QuestionnaireResponse"
@@ -202,49 +202,49 @@ Description: "March 2026 KOOS JR QuestionnaireResponse"
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>KOOS JR - March 2026. Total interval score: 53.280.</p></div>"
 * questionnaire = "http://example.org/Questionnaire/KOOSJRQuestionnaire"
 * status = #completed
-* subject = Reference(PatientExample)
+* subject = Reference(patient-john-doe-01)
 * authored = "2026-03-15T10:30:00Z"
-* author = Reference(PatientExample)
+* author = Reference(patient-john-doe-01)
 
 * item[+].linkId = "koosjr-1"
 * item[=].text = "How severe is your knee stiffness after first wakening in the morning?"
-* item[=].answer.valueCoding = $LOINC#LA6751-7 "Moderate"
+* item[=].answer.valueCoding = $LNC#LA6751-7 "Moderate"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
 * item[+].linkId = "koosjr-2"
 * item[=].text = "Twisting/pivoting on your knee"
-* item[=].answer.valueCoding = $LOINC#LA6751-7 "Moderate"
+* item[=].answer.valueCoding = $LNC#LA6751-7 "Moderate"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
 * item[+].linkId = "koosjr-3"
 * item[=].text = "Straightening knee fully"
-* item[=].answer.valueCoding = $LOINC#LA6752-5 "Mild"
+* item[=].answer.valueCoding = $LNC#LA6752-5 "Mild"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 1
 
 * item[+].linkId = "koosjr-4"
 * item[=].text = "Going up or down stairs"
-* item[=].answer.valueCoding = $LOINC#LA6750-9 "Severe"
+* item[=].answer.valueCoding = $LNC#LA6750-9 "Severe"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 3
 
 * item[+].linkId = "koosjr-5"
 * item[=].text = "Standing upright"
-* item[=].answer.valueCoding = $LOINC#LA6751-7 "Moderate"
+* item[=].answer.valueCoding = $LNC#LA6751-7 "Moderate"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
 * item[+].linkId = "koosjr-6"
 * item[=].text = "Rising from sitting"
-* item[=].answer.valueCoding = $LOINC#LA6751-7 "Moderate"
+* item[=].answer.valueCoding = $LNC#LA6751-7 "Moderate"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
 * item[+].linkId = "koosjr-7"
 * item[=].text = "Bending to floor/picking up an object"
-* item[=].answer.valueCoding = $LOINC#LA6750-9 "Severe"
+* item[=].answer.valueCoding = $LNC#LA6750-9 "Severe"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 3
 
@@ -254,7 +254,7 @@ Description: "March 2026 KOOS JR QuestionnaireResponse"
 //-----------------------------------------------------------------------------
 
 Instance: KOOSJRExample4
-InstanceOf: $USCoreQuestionnaireResponse
+InstanceOf: USCoreQuestionnaireResponse
 Usage: #example
 Title: "KOOS JR QuestionnaireResponse - April 2026"
 Description: "April 2026 KOOS JR QuestionnaireResponse"
@@ -262,49 +262,49 @@ Description: "April 2026 KOOS JR QuestionnaireResponse"
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>KOOS JR - April 2026. Total interval score: 63.578.</p></div>"
 * questionnaire = "http://example.org/Questionnaire/KOOSJRQuestionnaire"
 * status = #completed
-* subject = Reference(PatientExample)
+* subject = Reference(patient-john-doe-01)
 * authored = "2026-04-15T10:30:00Z"
-* author = Reference(PatientExample)
+* author = Reference(patient-john-doe-01)
 
 * item[+].linkId = "koosjr-1"
 * item[=].text = "How severe is your knee stiffness after first wakening in the morning?"
-* item[=].answer.valueCoding = $LOINC#LA6751-7 "Moderate"
+* item[=].answer.valueCoding = $LNC#LA6751-7 "Moderate"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
 * item[+].linkId = "koosjr-2"
 * item[=].text = "Twisting/pivoting on your knee"
-* item[=].answer.valueCoding = $LOINC#LA6751-7 "Moderate"
+* item[=].answer.valueCoding = $LNC#LA6751-7 "Moderate"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
 * item[+].linkId = "koosjr-3"
 * item[=].text = "Straightening knee fully"
-* item[=].answer.valueCoding = $LOINC#LA6752-5 "Mild"
+* item[=].answer.valueCoding = $LNC#LA6752-5 "Mild"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 1
 
 * item[+].linkId = "koosjr-4"
 * item[=].text = "Going up or down stairs"
-* item[=].answer.valueCoding = $LOINC#LA6751-7 "Moderate"
+* item[=].answer.valueCoding = $LNC#LA6751-7 "Moderate"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
 * item[+].linkId = "koosjr-5"
 * item[=].text = "Standing upright"
-* item[=].answer.valueCoding = $LOINC#LA6751-7 "Moderate"
+* item[=].answer.valueCoding = $LNC#LA6751-7 "Moderate"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
 * item[+].linkId = "koosjr-6"
 * item[=].text = "Rising from sitting"
-* item[=].answer.valueCoding = $LOINC#LA6752-5 "Mild"
+* item[=].answer.valueCoding = $LNC#LA6752-5 "Mild"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 1
 
 * item[+].linkId = "koosjr-7"
 * item[=].text = "Bending to floor/picking up an object"
-* item[=].answer.valueCoding = $LOINC#LA6751-7 "Moderate"
+* item[=].answer.valueCoding = $LNC#LA6751-7 "Moderate"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
@@ -314,7 +314,7 @@ Description: "April 2026 KOOS JR QuestionnaireResponse"
 //-----------------------------------------------------------------------------
 
 Instance: KOOSJRExample5
-InstanceOf: $USCoreQuestionnaireResponse
+InstanceOf: USCoreQuestionnaireResponse
 Usage: #example
 Title: "KOOS JR QuestionnaireResponse - May 2026"
 Description: "May 2026 KOOS JR QuestionnaireResponse"
@@ -322,49 +322,49 @@ Description: "May 2026 KOOS JR QuestionnaireResponse"
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>KOOS JR - May 2026. Total interval score: 68.617.</p></div>"
 * questionnaire = "http://example.org/Questionnaire/KOOSJRQuestionnaire"
 * status = #completed
-* subject = Reference(PatientExample)
+* subject = Reference(patient-john-doe-01)
 * authored = "2026-05-15T10:30:00Z"
-* author = Reference(PatientExample)
+* author = Reference(patient-john-doe-01)
 
 * item[+].linkId = "koosjr-1"
 * item[=].text = "How severe is your knee stiffness after first wakening in the morning?"
-* item[=].answer.valueCoding = $LOINC#LA6752-5 "Mild"
+* item[=].answer.valueCoding = $LNC#LA6752-5 "Mild"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 1
 
 * item[+].linkId = "koosjr-2"
 * item[=].text = "Twisting/pivoting on your knee"
-* item[=].answer.valueCoding = $LOINC#LA6751-7 "Moderate"
+* item[=].answer.valueCoding = $LNC#LA6751-7 "Moderate"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
 * item[+].linkId = "koosjr-3"
 * item[=].text = "Straightening knee fully"
-* item[=].answer.valueCoding = $LOINC#LA6752-5 "Mild"
+* item[=].answer.valueCoding = $LNC#LA6752-5 "Mild"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 1
 
 * item[+].linkId = "koosjr-4"
 * item[=].text = "Going up or down stairs"
-* item[=].answer.valueCoding = $LOINC#LA6751-7 "Moderate"
+* item[=].answer.valueCoding = $LNC#LA6751-7 "Moderate"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
 * item[+].linkId = "koosjr-5"
 * item[=].text = "Standing upright"
-* item[=].answer.valueCoding = $LOINC#LA6751-7 "Moderate"
+* item[=].answer.valueCoding = $LNC#LA6751-7 "Moderate"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 
 * item[+].linkId = "koosjr-6"
 * item[=].text = "Rising from sitting"
-* item[=].answer.valueCoding = $LOINC#LA6752-5 "Mild"
+* item[=].answer.valueCoding = $LNC#LA6752-5 "Mild"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 1
 
 * item[+].linkId = "koosjr-7"
 * item[=].text = "Bending to floor/picking up an object"
-* item[=].answer.valueCoding = $LOINC#LA6751-7 "Moderate"
+* item[=].answer.valueCoding = $LNC#LA6751-7 "Moderate"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 

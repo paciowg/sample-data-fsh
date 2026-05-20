@@ -17,6 +17,12 @@
 # Accepting unresolved example.org URLs since this IG is strictly for creating sample data
 %URL value 'http://hospital.smarthealthit.org' does not resolve%
 
+# SDC sdc-questionnaire open slicing produces informational "does not match any known slice" messages
+# for extensions that are valid but not explicitly sliced in the base sdc-questionnaire profile
+# (e.g. score-band, minValue, maxValue, and calculatedExpression when co-located with custom extensions).
+# The score-band extension is formally defined in this IG at http://example.org/StructureDefinition/score-band.
+%This element does not match any known slice defined in the profile http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire|3.0.0%
+
 # Accepting unknown code in order to support the ActualMeds formulary for the demo.
 %Unknown code '68788865801' in the CodeSystem 'http://hl7.org/fhir/sid/ndc' version%
 %Unknown code '63739019862' in the CodeSystem 'http://hl7.org/fhir/sid/ndc' version%
