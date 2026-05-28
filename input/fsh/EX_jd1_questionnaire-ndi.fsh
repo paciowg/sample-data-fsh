@@ -1,12 +1,12 @@
 // Neck Disability Index Questionnaire
-Instance: NeckDisabilityIndexQuestionnaireExample
+Instance: NeckDisabilityIndexQuestionnaire
 InstanceOf: SDCQuestionnaire
 Usage: #example
 Title: "Neck Disability Index Questionnaire"
 Description: "Questionnaire for Neck Disability Index (NDI) score reporting"
 
 * status = #active
-* url = "http://example.org/Questionnaire/NeckDisabilityIndexQuestionnaire"
+* url = "http://example.org/fhir/Questionnaire/NeckDisabilityIndexQuestionnaire"
 * code = $LNC#82226-2 "Neck Disability Index [NDI]"
 * subjectType[+] = #Patient
 
@@ -146,7 +146,7 @@ Description: "Example Neck Disability Index (NDI) QuestionnaireResponse for the 
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>Neck Disability Index QuestionnaireResponse for John Doe. Total score: 40.</p></div>"
 
-* questionnaire = "http://example.org/Questionnaire/NeckDisabilityIndexQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/NeckDisabilityIndexQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-01-15T10:30:00Z"
@@ -227,7 +227,7 @@ Title: "Neck Disability Index QuestionnaireResponse - February 2026"
 Description: "February 2026 Neck Disability Index QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>Neck Disability Index - February 2026. Total score: 36% (Moderate disability).</p></div>"
-* questionnaire = "http://example.org/Questionnaire/NeckDisabilityIndexQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/NeckDisabilityIndexQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-02-15T10:30:00Z"
@@ -308,7 +308,7 @@ Title: "Neck Disability Index QuestionnaireResponse - March 2026"
 Description: "March 2026 Neck Disability Index QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>Neck Disability Index - March 2026. Total score: 38% (Moderate disability).</p></div>"
-* questionnaire = "http://example.org/Questionnaire/NeckDisabilityIndexQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/NeckDisabilityIndexQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-03-15T10:30:00Z"
@@ -389,7 +389,7 @@ Title: "Neck Disability Index QuestionnaireResponse - April 2026"
 Description: "April 2026 Neck Disability Index QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>Neck Disability Index - April 2026. Total score: 32% (Moderate disability).</p></div>"
-* questionnaire = "http://example.org/Questionnaire/NeckDisabilityIndexQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/NeckDisabilityIndexQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-04-15T10:30:00Z"
@@ -470,7 +470,7 @@ Title: "Neck Disability Index QuestionnaireResponse - May 2026"
 Description: "May 2026 Neck Disability Index QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>Neck Disability Index - May 2026. Total score: 26% (Mild disability).</p></div>"
-* questionnaire = "http://example.org/Questionnaire/NeckDisabilityIndexQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/NeckDisabilityIndexQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-05-15T10:30:00Z"

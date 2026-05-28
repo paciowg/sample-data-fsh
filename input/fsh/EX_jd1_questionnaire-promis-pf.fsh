@@ -1,13 +1,13 @@
 // PROMIS Physical Function Short Form 6b QuestionnaireResponse
 // LOINC 76804-4 "PROMIS short form - physical function 6b - version 1.2"
-Instance: PROMISPhysicalFunctionQuestionnaireExample
+Instance: PROMISPhysicalFunctionQuestionnaire
 InstanceOf: SDCQuestionnaire
 Usage: #example
 Title: "PROMIS Physical Function Short Form 6b Questionnaire"
 Description: "Questionnaire for PROMIS Physical Function Short Form 6b score reporting"
 
 * status = #active
-* url = "http://example.org/Questionnaire/PROMISPhysicalFunctionQuestionnaire"
+* url = "http://example.org/fhir/Questionnaire/PROMISPhysicalFunctionQuestionnaire"
 * code = $LNC#76804-4 "PROMIS short form - physical function 6b - version 1.2"
 * subjectType[+] = #Patient
 
@@ -87,7 +87,7 @@ Description: "Example PROMIS Physical Function (PF) Short Form 6b QuestionnaireR
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PROMIS Physical Function (Short Form 6b) QuestionnaireResponse for John Doe. T-score: 36.8.</p></div>"
 
-* questionnaire = "http://example.org/Questionnaire/PROMISPhysicalFunctionQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/PROMISPhysicalFunctionQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-01-15T10:30:00Z"
@@ -144,7 +144,7 @@ Title: "PROMIS Physical Function SF 6b QuestionnaireResponse - February 2026"
 Description: "February 2026 PROMIS Physical Function Short Form 6b QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PROMIS Physical Function (Short Form 6b) - February 2026. T-score: 50.8.</p></div>"
-* questionnaire = "http://example.org/Questionnaire/PROMISPhysicalFunctionQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/PROMISPhysicalFunctionQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-02-15T10:30:00Z"
@@ -201,7 +201,7 @@ Title: "PROMIS Physical Function SF 6b QuestionnaireResponse - March 2026"
 Description: "March 2026 PROMIS Physical Function Short Form 6b QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PROMIS Physical Function (Short Form 6b) - March 2026. T-score: 47.7.</p></div>"
-* questionnaire = "http://example.org/Questionnaire/PROMISPhysicalFunctionQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/PROMISPhysicalFunctionQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-03-15T10:30:00Z"
@@ -257,7 +257,7 @@ Title: "PROMIS Physical Function SF 6b QuestionnaireResponse - April 2026"
 Description: "April 2026 PROMIS Physical Function Short Form 6b QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PROMIS Physical Function (Short Form 6b) - April 2026. T-score: 54.1.</p></div>"
-* questionnaire = "http://example.org/Questionnaire/PROMISPhysicalFunctionQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/PROMISPhysicalFunctionQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-04-15T10:30:00Z"
@@ -314,7 +314,7 @@ Title: "PROMIS Physical Function SF 6b QuestionnaireResponse - May 2026"
 Description: "May 2026 PROMIS Physical Function Short Form 6b QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PROMIS Physical Function (Short Form 6b) - May 2026. T-score: 57.7.</p></div>"
-* questionnaire = "http://example.org/Questionnaire/PROMISPhysicalFunctionQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/PROMISPhysicalFunctionQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-05-15T10:30:00Z"
@@ -372,7 +372,7 @@ Title: "PROMIS Physical Function CAT Questionnaire"
 Description: "Questionnaire for PROMIS Physical Function CAT score reporting"
 
 * status = #active
-* url = "http://example.org/Questionnaire/PROMISPhysicalFunctionCATQuestionnaire"
+* url = "http://example.org/fhir/Questionnaire/PROMISPhysicalFunctionCATQuestionnaire"
 * code = $LNC#91722-9 "PROMIS item bank - physical function - version 2.0"
 * subjectType[+] = #Patient
 
@@ -426,7 +426,7 @@ Description: "Example PROMIS Physical Function CAT QuestionnaireResponse for the
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PROMIS Physical Function (CAT) QuestionnaireResponse for John Doe. T-score: 38.</p></div>"
 
-* questionnaire = "http://example.org/Questionnaire/PROMISPhysicalFunctionCATQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/PROMISPhysicalFunctionCATQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-01-15T10:30:00Z"
@@ -468,7 +468,7 @@ Title: "PROMIS Physical Function CAT QuestionnaireResponse - February 2026"
 Description: "February 2026 PROMIS Physical Function CAT QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PROMIS Physical Function (CAT) - February 2026. T-score: 40.</p></div>"
-* questionnaire = "http://example.org/Questionnaire/PROMISPhysicalFunctionCATQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/PROMISPhysicalFunctionCATQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-02-15T10:30:00Z"
@@ -510,7 +510,7 @@ Title: "PROMIS Physical Function CAT QuestionnaireResponse - March 2026"
 Description: "March 2026 PROMIS Physical Function CAT QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PROMIS Physical Function (CAT) - March 2026. T-score: 38.</p></div>"
-* questionnaire = "http://example.org/Questionnaire/PROMISPhysicalFunctionCATQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/PROMISPhysicalFunctionCATQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-03-15T10:30:00Z"
@@ -552,7 +552,7 @@ Title: "PROMIS Physical Function CAT QuestionnaireResponse - April 2026"
 Description: "April 2026 PROMIS Physical Function CAT QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PROMIS Physical Function (CAT) - April 2026. T-score: 44.9.</p></div>"
-* questionnaire = "http://example.org/Questionnaire/PROMISPhysicalFunctionCATQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/PROMISPhysicalFunctionCATQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-04-15T10:30:00Z"
@@ -594,7 +594,7 @@ Title: "PROMIS Physical Function CAT QuestionnaireResponse - May 2026"
 Description: "May 2026 PROMIS Physical Function CAT QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PROMIS Physical Function (CAT) - May 2026. T-score: 47.7.</p></div>"
-* questionnaire = "http://example.org/Questionnaire/PROMISPhysicalFunctionCATQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/PROMISPhysicalFunctionCATQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-05-15T10:30:00Z"

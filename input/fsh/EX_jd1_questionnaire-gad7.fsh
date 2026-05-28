@@ -1,12 +1,12 @@
 // Generalized Anxiety Disorder-7 (GAD7) Questionnaire
-Instance: GAD7QuestionnaireExample
+Instance: GAD7Questionnaire
 InstanceOf: SDCQuestionnaire
 Usage: #example
 Title: "GAD-7 Questionnaire"
 Description: "Generalized Anxiety Disorder-7 assessment"
 
 * status = #active
-* url = "http://example.org/Questionnaire/GAD7Questionnaire"
+* url = "http://example.org/fhir/Questionnaire/GAD7Questionnaire"
 * code = $LNC#69737-5 "Generalized anxiety disorder 7 item (GAD-7)"
 * subjectType[+] = #Patient
 
@@ -111,7 +111,7 @@ Description: "Example GAD-7 anxiety assessment for the BH track"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>GAD-7 QuestionnaireResponse for John Doe. Total score: 6.</p></div>"
 
-* questionnaire = "http://example.org/Questionnaire/GAD7Questionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/GAD7Questionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-01-15T10:30:00Z"
@@ -176,7 +176,7 @@ Title: "GAD-7 QuestionnaireResponse - February 2026"
 Description: "February 2026 GAD-7 QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>GAD-7 - February 2026. Total score: 5 (Mild anxiety).</p></div>"
-* questionnaire = "http://example.org/Questionnaire/GAD7Questionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/GAD7Questionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-02-15T10:30:00Z"
@@ -239,7 +239,7 @@ Title: "GAD-7 QuestionnaireResponse - March 2026"
 Description: "March 2026 GAD-7 QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>GAD-7 - March 2026. Total score: 5 (Mild anxiety).</p></div>"
-* questionnaire = "http://example.org/Questionnaire/GAD7Questionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/GAD7Questionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-03-15T10:30:00Z"
@@ -302,7 +302,7 @@ Title: "GAD-7 QuestionnaireResponse - April 2026"
 Description: "April 2026 GAD-7 QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>GAD-7 - April 2026. Total score: 4 (Minimal anxiety).</p></div>"
-* questionnaire = "http://example.org/Questionnaire/GAD7Questionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/GAD7Questionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-04-15T10:30:00Z"
@@ -365,7 +365,7 @@ Title: "GAD-7 QuestionnaireResponse - May 2026"
 Description: "May 2026 GAD-7 QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>GAD-7 - May 2026. Total score: 3 (Minimal anxiety).</p></div>"
-* questionnaire = "http://example.org/Questionnaire/GAD7Questionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/GAD7Questionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-05-15T10:30:00Z"

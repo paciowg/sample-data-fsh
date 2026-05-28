@@ -1,12 +1,12 @@
 // World Health Organization Disability Assessment Schedule 2.0 (12-item)
-Instance: WHODASQuestionnaireExample
+Instance: WHODASQuestionnaire
 InstanceOf: SDCQuestionnaire
 Usage: #example
 Title: "WHODAS 2.0 12-item Questionnaire"
 Description: "World Health Organization Disability Assessment Schedule 2.0 (12-item)"
 
 * status = #active
-* url = "http://example.org/Questionnaire/WHODASQuestionnaire"
+* url = "http://example.org/fhir/Questionnaire/WHODASQuestionnaire"
 * subjectType[+] = #Patient
 
 * item[+].linkId = "whodas-s1"
@@ -274,7 +274,7 @@ Description: "Example WHODAS 2.0 (12-item) QuestionnaireResponse for the BH trac
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>WHODAS 2.0 (12-item) QuestionnaireResponse for John Doe. Total score: 26.</p></div>"
 
-* questionnaire = "http://example.org/Questionnaire/WHODASQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/WHODASQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-01-15T10:30:00Z"
@@ -380,7 +380,7 @@ Description: "February 2026 WHODAS 2.0 (12-item) QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>WHODAS 2.0 - February 2026. Total score: 24.</p></div>"
 
-* questionnaire = "http://example.org/Questionnaire/WHODASQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/WHODASQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-02-15T10:30:00Z"
@@ -487,7 +487,7 @@ Description: "March 2026 WHODAS 2.0 (12-item) QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>WHODAS 2.0 - March 2026. Total score: 23.</p></div>"
 
-* questionnaire = "http://example.org/Questionnaire/WHODASQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/WHODASQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-03-15T10:30:00Z"
@@ -594,7 +594,7 @@ Description: "April 2026 WHODAS 2.0 (12-item) QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>WHODAS 2.0 - April 2026. Total score: 21.</p></div>"
 
-* questionnaire = "http://example.org/Questionnaire/WHODASQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/WHODASQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-04-15T10:30:00Z"
@@ -701,7 +701,7 @@ Description: "May 2026 WHODAS 2.0 (12-item) QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>WHODAS 2.0 - May 2026. Total score: 19.</p></div>"
 
-* questionnaire = "http://example.org/Questionnaire/WHODASQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/WHODASQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-05-15T10:30:00Z"

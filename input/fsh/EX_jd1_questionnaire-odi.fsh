@@ -3,14 +3,14 @@
 
 Alias: $ODISC = http://example.org/CodeSystem/OswestryDisabilityIndex
 
-Instance: OswestryDisabilityIndexQuestionnaireExample
+Instance: OswestryDisabilityIndexQuestionnaire
 InstanceOf: SDCQuestionnaire
 Usage: #example
 Title: "Oswestry Disability Index Questionnaire"
 Description: "Questionnaire for Oswestry Disability Index (ODI) score reporting"
 
 * status = #active
-* url = "http://example.org/Questionnaire/OswestryDisabilityIndexQuestionnaire"
+* url = "http://example.org/fhir/Questionnaire/OswestryDisabilityIndexQuestionnaire"
 * code = $LNC#97908-8 "Oswestry Disability Index"
 * subjectType[+] = #Patient
 
@@ -309,7 +309,7 @@ Description: "Example Oswestry Disability Index (ODI) QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>Oswestry Disability Index QuestionnaireResponse for John Doe. Score: 36.</p></div>"
 
-* questionnaire = "http://example.org/Questionnaire/OswestryDisabilityIndexQuestionnaire" // LOINC#97908-8
+* questionnaire = "http://example.org/fhir/Questionnaire/OswestryDisabilityIndexQuestionnaire" // LOINC#97908-8
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-01-15T10:30:00Z"
@@ -392,7 +392,7 @@ Title: "Oswestry Disability Index QuestionnaireResponse - February 2026"
 Description: "February 2026 Oswestry Disability Index QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>Oswestry Disability Index - February 2026. Score: 32% (Moderate disability).</p></div>"
-* questionnaire = "http://example.org/Questionnaire/OswestryDisabilityIndexQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/OswestryDisabilityIndexQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-02-15T10:30:00Z"
@@ -473,7 +473,7 @@ Title: "Oswestry Disability Index QuestionnaireResponse - March 2026"
 Description: "March 2026 Oswestry Disability Index QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>Oswestry Disability Index - March 2026. Score: 34% (Moderate disability).</p></div>"
-* questionnaire = "http://example.org/Questionnaire/OswestryDisabilityIndexQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/OswestryDisabilityIndexQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-03-15T10:30:00Z"
@@ -554,7 +554,7 @@ Title: "Oswestry Disability Index QuestionnaireResponse - April 2026"
 Description: "April 2026 Oswestry Disability Index QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>Oswestry Disability Index - April 2026. Score: 24% (Moderate disability).</p></div>"
-* questionnaire = "http://example.org/Questionnaire/OswestryDisabilityIndexQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/OswestryDisabilityIndexQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-04-15T10:30:00Z"
@@ -635,7 +635,7 @@ Title: "Oswestry Disability Index QuestionnaireResponse - May 2026"
 Description: "May 2026 Oswestry Disability Index QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>Oswestry Disability Index - May 2026. Score: 16% (Minimal disability).</p></div>"
-* questionnaire = "http://example.org/Questionnaire/OswestryDisabilityIndexQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/OswestryDisabilityIndexQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-05-15T10:30:00Z"

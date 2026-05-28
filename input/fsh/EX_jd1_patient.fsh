@@ -8,6 +8,7 @@ Usage: #example
 * identifier.type = $v2-0203#MC
 * identifier.system = "http://terminology.hl7.org/NamingSystem/cmsMBI"
 * identifier.value = "1EG4TE5MK73"
+* active = true
 * name.family = "Doe"
 * name.given = "John"
 * gender = #male

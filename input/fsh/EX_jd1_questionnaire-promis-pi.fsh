@@ -1,13 +1,13 @@
 // PROMIS Pain Interference Short Form 6a Questionnaire
 // LOINC 90973-9 "PROMIS short form - pain interference 6a - version 1.0"
-Instance: PROMISPainInterferenceSFQuestionnaireExample
+Instance: PROMISPainInterferenceSFQuestionnaire
 InstanceOf: SDCQuestionnaire
 Usage: #example
 Title: "PROMIS Pain Interference Short Form 6a Questionnaire"
 Description: "Questionnaire for PROMIS Pain Interference Short Form 6a score reporting"
 
 * status = #active
-* url = "http://example.org/Questionnaire/PROMISPainInterferenceSFQuestionnaire"
+* url = "http://example.org/fhir/Questionnaire/PROMISPainInterferenceSFQuestionnaire"
 * code = $LNC#90973-9 "PROMIS short form - pain interference 6a - version 1.0"
 * subjectType[+] = #Patient
 
@@ -86,7 +86,7 @@ Description: "Example PROMIS Pain Interference (PI) Short Form 6a QuestionnaireR
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PROMIS Pain Interference (Short Form 6a) QuestionnaireResponse for John Doe. T-score: 58.6.</p></div>"
 
-* questionnaire = "http://example.org/Questionnaire/PROMISPainInterferenceSFQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/PROMISPainInterferenceSFQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-01-15T10:30:00Z"
@@ -145,7 +145,7 @@ Title: "PROMIS Pain Interference SF 6a QuestionnaireResponse - February 2026"
 Description: "February 2026 PROMIS Pain Interference Short Form 6a QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PROMIS Pain Interference (Short Form 6a) - February 2026. T-score: 54.9.</p></div>"
-* questionnaire = "http://example.org/Questionnaire/PROMISPainInterferenceSFQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/PROMISPainInterferenceSFQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-02-15T10:30:00Z"
@@ -202,7 +202,7 @@ Title: "PROMIS Pain Interference SF 6a QuestionnaireResponse - March 2026"
 Description: "March 2026 PROMIS Pain Interference Short Form 6a QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PROMIS Pain Interference (Short Form 6a) - March 2026. T-score: 56.3.</p></div>"
-* questionnaire = "http://example.org/Questionnaire/PROMISPainInterferenceSFQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/PROMISPainInterferenceSFQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-03-15T10:30:00Z"
@@ -259,7 +259,7 @@ Title: "PROMIS Pain Interference SF 6a QuestionnaireResponse - April 2026"
 Description: "April 2026 PROMIS Pain Interference Short Form 6a QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PROMIS Pain Interference (Short Form 6a) - April 2026. T-score: 53.6.</p></div>"
-* questionnaire = "http://example.org/Questionnaire/PROMISPainInterferenceSFQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/PROMISPainInterferenceSFQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-04-15T10:30:00Z"
@@ -316,7 +316,7 @@ Title: "PROMIS Pain Interference SF 6a QuestionnaireResponse - May 2026"
 Description: "May 2026 PROMIS Pain Interference Short Form 6a QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PROMIS Pain Interference (Short Form 6a) - May 2026. T-score: 52.3.</p></div>"
-* questionnaire = "http://example.org/Questionnaire/PROMISPainInterferenceSFQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/PROMISPainInterferenceSFQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-05-15T10:30:00Z"
@@ -374,7 +374,7 @@ Title: "PROMIS Pain Interference CAT Questionnaire"
 Description: "Questionnaire for PROMIS Pain Interference CAT score reporting"
 
 * status = #active
-* url = "http://example.org/Questionnaire/PROMISPainInterferenceCATQuestionnaire"
+* url = "http://example.org/fhir/Questionnaire/PROMISPainInterferenceCATQuestionnaire"
 * code = $LNC#89923-7 "PROMIS item bank - pain interference - version 1.1"
 * subjectType[+] = #Patient
 
@@ -429,7 +429,7 @@ Description: "Example PROMIS Pain Interference CAT QuestionnaireResponse for the
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PROMIS Pain Interference (CAT) QuestionnaireResponse for John Doe. T-score: 70.</p></div>"
 
-* questionnaire = "http://example.org/Questionnaire/PROMISPainInterferenceCATQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/PROMISPainInterferenceCATQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-01-15T10:30:00Z"
@@ -471,7 +471,7 @@ Title: "PROMIS Pain Interference CAT QuestionnaireResponse - February 2026"
 Description: "February 2026 PROMIS Pain Interference CAT QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PROMIS Pain Interference (CAT) - February 2026. T-score: 67.3.</p></div>"
-* questionnaire = "http://example.org/Questionnaire/PROMISPainInterferenceCATQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/PROMISPainInterferenceCATQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-02-15T10:30:00Z"
@@ -513,7 +513,7 @@ Title: "PROMIS Pain Interference CAT QuestionnaireResponse - March 2026"
 Description: "March 2026 PROMIS Pain Interference CAT QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PROMIS Pain Interference (CAT) - March 2026. T-score: 69.3.</p></div>"
-* questionnaire = "http://example.org/Questionnaire/PROMISPainInterferenceCATQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/PROMISPainInterferenceCATQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-03-15T10:30:00Z"
@@ -555,7 +555,7 @@ Title: "PROMIS Pain Interference CAT QuestionnaireResponse - April 2026"
 Description: "April 2026 PROMIS Pain Interference CAT QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PROMIS Pain Interference (CAT) - April 2026. T-score: 65.3.</p></div>"
-* questionnaire = "http://example.org/Questionnaire/PROMISPainInterferenceCATQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/PROMISPainInterferenceCATQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-04-15T10:30:00Z"
@@ -597,7 +597,7 @@ Title: "PROMIS Pain Interference CAT QuestionnaireResponse - May 2026"
 Description: "May 2026 PROMIS Pain Interference CAT QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PROMIS Pain Interference (CAT) - May 2026. T-score: 63.3.</p></div>"
-* questionnaire = "http://example.org/Questionnaire/PROMISPainInterferenceCATQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/PROMISPainInterferenceCATQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-05-15T10:30:00Z"

@@ -1,12 +1,12 @@
 // Musculoskeletal PGIC Questionnaire
-Instance: MSKPGICQuestionnaireExample
+Instance: MSKPGICQuestionnaire
 InstanceOf: SDCQuestionnaire
 Usage: #example
 Title: "Musculoskeletal PGIC Questionnaire"
 Description: "Questionnaire for Musculoskeletal Patient Global Impression of Change (PGIC) reporting"
 
 * status = #active
-* url = "http://example.org/Questionnaire/MSKPGICQuestionnaire"
+* url = "http://example.org/fhir/Questionnaire/MSKPGICQuestionnaire"
 * subjectType[+] = #Patient
 * item[+].linkId = "pgic-1"
 * item[=].text = "Since beginning treatment, how would you describe your overall change in pain, function, and quality of life?"
@@ -43,7 +43,7 @@ Title: "Behavioral Health PGIC Questionnaire"
 Description: "Behavioral Health Patient Global Impression of Change"
 
 * status = #active
-* url = "http://example.org/Questionnaire/BHPGICQuestionnaire"
+* url = "http://example.org/fhir/Questionnaire/BHPGICQuestionnaire"
 * subjectType[+] = #Patient
 * item[+].linkId = "pgic-1"
 * item[=].text = "Since beginning treatment, how would you describe your overall change in activity limitations, symptoms, emotions, and quality of life?"
@@ -82,7 +82,7 @@ Description: "Example Musculoskeletal Patient Global Impression of Change Questi
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PGIC QuestionnaireResponse for John Doe. Response: Very much improved.</p></div>"
 
-* questionnaire = "http://example.org/Questionnaire/MSKPGICQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/MSKPGICQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-01-15T10:30:00Z"
@@ -108,7 +108,7 @@ Description: "Example Patient Global Impression of Change"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PGIC QuestionnaireResponse for John Doe. Response: Very much improved.</p></div>"
 
-* questionnaire = "http://example.org/Questionnaire/BHPGICQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/BHPGICQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-01-15T10:30:00Z"
@@ -133,7 +133,7 @@ Title: "Musculoskeletal PGIC QuestionnaireResponse - February 2026"
 Description: "February 2026 Musculoskeletal PGIC QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>MSK PGIC - February 2026. Response: Much improved.</p></div>"
-* questionnaire = "http://example.org/Questionnaire/MSKPGICQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/MSKPGICQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-02-15T10:30:00Z"
@@ -154,7 +154,7 @@ Title: "Behavioral Health PGIC QuestionnaireResponse - February 2026"
 Description: "February 2026 Behavioral Health PGIC QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>BH PGIC - February 2026. Response: Much improved.</p></div>"
-* questionnaire = "http://example.org/Questionnaire/BHPGICQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/BHPGICQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-02-15T10:30:00Z"
@@ -177,7 +177,7 @@ Title: "Musculoskeletal PGIC QuestionnaireResponse - March 2026"
 Description: "March 2026 Musculoskeletal PGIC QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>MSK PGIC - March 2026. Response: Minimally improved.</p></div>"
-* questionnaire = "http://example.org/Questionnaire/MSKPGICQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/MSKPGICQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-03-15T10:30:00Z"
@@ -198,7 +198,7 @@ Title: "Behavioral Health PGIC QuestionnaireResponse - March 2026"
 Description: "March 2026 Behavioral Health PGIC QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>BH PGIC - March 2026. Response: Minimally improved.</p></div>"
-* questionnaire = "http://example.org/Questionnaire/BHPGICQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/BHPGICQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-03-15T10:30:00Z"
@@ -221,7 +221,7 @@ Title: "Musculoskeletal PGIC QuestionnaireResponse - April 2026"
 Description: "April 2026 Musculoskeletal PGIC QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>MSK PGIC - April 2026. Response: Much improved.</p></div>"
-* questionnaire = "http://example.org/Questionnaire/MSKPGICQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/MSKPGICQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-04-15T10:30:00Z"
@@ -242,7 +242,7 @@ Title: "Behavioral Health PGIC QuestionnaireResponse - April 2026"
 Description: "April 2026 Behavioral Health PGIC QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>BH PGIC - April 2026. Response: Much improved.</p></div>"
-* questionnaire = "http://example.org/Questionnaire/BHPGICQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/BHPGICQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-04-15T10:30:00Z"
@@ -265,7 +265,7 @@ Title: "Musculoskeletal PGIC QuestionnaireResponse - May 2026"
 Description: "May 2026 Musculoskeletal PGIC QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>MSK PGIC - May 2026. Response: Much improved.</p></div>"
-* questionnaire = "http://example.org/Questionnaire/MSKPGICQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/MSKPGICQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-05-15T10:30:00Z"
@@ -286,7 +286,7 @@ Title: "Behavioral Health PGIC QuestionnaireResponse - May 2026"
 Description: "May 2026 Behavioral Health PGIC QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>BH PGIC - May 2026. Response: Much improved.</p></div>"
-* questionnaire = "http://example.org/Questionnaire/BHPGICQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/BHPGICQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-05-15T10:30:00Z"

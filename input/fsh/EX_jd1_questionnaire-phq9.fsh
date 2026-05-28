@@ -1,12 +1,12 @@
 // PHQ9 Questionnaire
-Instance: PHQ9QuestionnaireExample
+Instance: PHQ9Questionnaire
 InstanceOf: SDCQuestionnaire
 Usage: #example
 Title: "PHQ-9 Questionnaire"
 Description: "Patient Health Questionnaire-9 for depression screening"
 
 * status = #active
-* url = "http://example.org/Questionnaire/PHQ9Questionnaire"
+* url = "http://example.org/fhir/Questionnaire/PHQ9Questionnaire"
 * code = $LNC#44249-1 "PHQ-9 quick depression assessment panel [Reported.PHQ]"
 * subjectType[+] = #Patient
 
@@ -144,7 +144,7 @@ Description: "Example PHQ-9 depression assessment for the BH track"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PHQ-9 QuestionnaireResponse for John Doe. Total score: 7.</p></div>"
 
-* questionnaire = "http://example.org/Questionnaire/PHQ9Questionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/PHQ9Questionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-01-15T10:30:00Z"
@@ -225,7 +225,7 @@ Title: "PHQ-9 QuestionnaireResponse - February 2026"
 Description: "February 2026 PHQ-9 QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PHQ-9 - February 2026. Total score: 6 (Mild depression).</p></div>"
-* questionnaire = "http://example.org/Questionnaire/PHQ9Questionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/PHQ9Questionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-02-15T10:30:00Z"
@@ -306,7 +306,7 @@ Title: "PHQ-9 QuestionnaireResponse - March 2026"
 Description: "March 2026 PHQ-9 QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PHQ-9 - March 2026. Total score: 6 (Mild depression).</p></div>"
-* questionnaire = "http://example.org/Questionnaire/PHQ9Questionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/PHQ9Questionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-03-15T10:30:00Z"
@@ -386,7 +386,7 @@ Title: "PHQ-9 QuestionnaireResponse - April 2026"
 Description: "April 2026 PHQ-9 QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PHQ-9 - April 2026. Total score: 4 (Minimal depression).</p></div>"
-* questionnaire = "http://example.org/Questionnaire/PHQ9Questionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/PHQ9Questionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-04-15T10:30:00Z"
@@ -466,7 +466,7 @@ Title: "PHQ-9 QuestionnaireResponse - May 2026"
 Description: "May 2026 PHQ-9 QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>PHQ-9 - May 2026. Total score: 3 (Minimal depression).</p></div>"
-* questionnaire = "http://example.org/Questionnaire/PHQ9Questionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/PHQ9Questionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-05-15T10:30:00Z"

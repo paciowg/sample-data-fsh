@@ -1,12 +1,12 @@
 // Questionnaire for Quick Disabilities of the Arm, Shoulder and Hand (QuickDASH)
-Instance: QuickDASHQuestionnaireExample
+Instance: QuickDASHQuestionnaire
 InstanceOf: SDCQuestionnaire
 Usage: #example
 Title: "QuickDASH Questionnaire"
 Description: "Questionnaire for QuickDASH score reporting"
 
 * status = #active
-* url = "http://example.org/Questionnaire/QuickDASHQuestionnaire"
+* url = "http://example.org/fhir/Questionnaire/QuickDASHQuestionnaire"
 * subjectType[+] = #Patient
 
 * item[+].linkId = "qd-1"
@@ -245,7 +245,7 @@ Description: "Example QuickDASH QuestionnaireResponse for the MSK track"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>QuickDASH QuestionnaireResponse for John Doe. Score: 50.</p></div>"
 
-* questionnaire = "http://example.org/Questionnaire/QuickDASHQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/QuickDASHQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-01-15T10:30:00Z"
@@ -333,7 +333,7 @@ Description: "February 2026 QuickDASH QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>QuickDASH - February 2026. Score: 43.2.</p></div>"
 
-* questionnaire = "http://example.org/Questionnaire/QuickDASHQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/QuickDASHQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-02-15T10:30:00Z"
@@ -422,7 +422,7 @@ Description: "March 2026 QuickDASH QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>QuickDASH - March 2026. Score: 45.5.</p></div>"
 
-* questionnaire = "http://example.org/Questionnaire/QuickDASHQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/QuickDASHQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-03-15T10:30:00Z"
@@ -510,7 +510,7 @@ Description: "April 2026 QuickDASH QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>QuickDASH - April 2026. Score: 36.4.</p></div>"
 
-* questionnaire = "http://example.org/Questionnaire/QuickDASHQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/QuickDASHQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-04-15T10:30:00Z"
@@ -599,7 +599,7 @@ Description: "May 2026 QuickDASH QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>QuickDASH - May 2026. Score: 31.8.</p></div>"
 
-* questionnaire = "http://example.org/Questionnaire/QuickDASHQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/QuickDASHQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-05-15T10:30:00Z"

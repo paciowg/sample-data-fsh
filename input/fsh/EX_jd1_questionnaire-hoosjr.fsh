@@ -1,12 +1,12 @@
 // Hip dysfunction and osteoarthritis outcome score for joint replacement (HOOSJR) Questionnaire
-Instance: HOOSJRQuestionnaireExample
+Instance: HOOSJRQuestionnaire
 InstanceOf: SDCQuestionnaire
 Usage: #example
 Title: "HOOS JR Questionnaire"
 Description: "Questionnaire for HOOS JR score reporting"
 
 * status = #active
-* url = "http://example.org/Questionnaire/HOOSJRQuestionnaire"
+* url = "http://example.org/fhir/Questionnaire/HOOSJRQuestionnaire"
 * code = $LNC#82316-1 "Hip dysfunction and osteoarthritis outcome score for joint replacement [HOOSJR]"
 * subjectType[+] = #Patient
 
@@ -72,7 +72,7 @@ Description: "Example Hip Dysfunction and Osteoarthritis Outcome Score for Joint
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>HOOS JR QuestionnaireResponse for John Doe. Total interval score: 55.985.</p></div>"
 
-* questionnaire = "http://example.org/Questionnaire/HOOSJRQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/HOOSJRQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-01-15T10:30:00Z"
@@ -126,7 +126,7 @@ Title: "HOOS JR QuestionnaireResponse - February 2026"
 Description: "February 2026 HOOS JR QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>HOOS JR - February 2026. Total interval score: 57.985.</p></div>"
-* questionnaire = "http://example.org/Questionnaire/HOOSJRQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/HOOSJRQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-02-15T10:30:00Z"
@@ -180,7 +180,7 @@ Title: "HOOS JR QuestionnaireResponse - March 2026"
 Description: "March 2026 HOOS JR QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>HOOS JR - March 2026. Total interval score: 55.985.</p></div>"
-* questionnaire = "http://example.org/Questionnaire/HOOSJRQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/HOOSJRQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-03-15T10:30:00Z"
@@ -234,7 +234,7 @@ Title: "HOOS JR QuestionnaireResponse - April 2026"
 Description: "April 2026 HOOS JR QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>HOOS JR - April 2026. Total interval score: 61.567.</p></div>"
-* questionnaire = "http://example.org/Questionnaire/HOOSJRQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/HOOSJRQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-04-15T10:30:00Z"
@@ -288,7 +288,7 @@ Title: "HOOS JR QuestionnaireResponse - May 2026"
 Description: "May 2026 HOOS JR QuestionnaireResponse"
 * text.status = #generated
 * text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"en\" lang=\"en\"><p>HOOS JR - May 2026. Total interval score: 65.082.</p></div>"
-* questionnaire = "http://example.org/Questionnaire/HOOSJRQuestionnaire"
+* questionnaire = "http://example.org/fhir/Questionnaire/HOOSJRQuestionnaire"
 * status = #completed
 * subject = Reference(patient-john-doe-01)
 * authored = "2026-05-15T10:30:00Z"
