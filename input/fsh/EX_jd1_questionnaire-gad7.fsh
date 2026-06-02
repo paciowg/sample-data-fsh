@@ -12,42 +12,50 @@ Description: "Generalized Anxiety Disorder-7 assessment"
 
 * item[+].linkId = "gad7-1"
 * item[=].text = "Feeling nervous, anxious, or on edge"
+* item[=].code = $loinc#69725-0
 * item[=].type = #choice
 * item[=].answerValueSet = "http://loinc.org/vs/LL358-3"
 
 * item[+].linkId = "gad7-2"
 * item[=].text = "Not being able to stop or control worrying"
+* item[=].code = $loinc#68509-9
 * item[=].type = #choice
 * item[=].answerValueSet = "http://loinc.org/vs/LL358-3"
 
 * item[+].linkId = "gad7-3"
 * item[=].text = "Worrying too much about different things"
+* item[=].code = $loinc#69733-4
 * item[=].type = #choice
 * item[=].answerValueSet = "http://loinc.org/vs/LL358-3"
 
 * item[+].linkId = "gad7-4"
 * item[=].text = "Trouble relaxing"
+* item[=].code = $loinc#69734-2
 * item[=].type = #choice
 * item[=].answerValueSet = "http://loinc.org/vs/LL358-3"
 
 * item[+].linkId = "gad7-5"
 * item[=].text = "Being so restless that it is hard to sit still"
+* item[=].code = $loinc#69735-9
 * item[=].type = #choice
 * item[=].answerValueSet = "http://loinc.org/vs/LL358-3"
 
 * item[+].linkId = "gad7-6"
 * item[=].text = "Becoming easily annoyed or irritable"
+* item[=].code = $loinc#69689-8
 * item[=].type = #choice
 * item[=].answerValueSet = "http://loinc.org/vs/LL358-3"
 
 * item[+].linkId = "gad7-7"
 * item[=].text = "Feeling afraid as if something awful might happen"
+* item[=].code = $loinc#69736-7
 * item[=].type = #choice
 * item[=].answerValueSet = "http://loinc.org/vs/LL358-3"
 
 * item[+].linkId = "total-score"
 * item[=].type = #decimal
 * item[=].code = $LNC#70274-6 "Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]"
+* item[=].code = $loinc#70274-6
 * item[=].text = "Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]"
 * item[=].readOnly = true
 * item[=].extension.url = $sdc-calculatedExpression
