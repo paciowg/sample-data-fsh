@@ -1,4 +1,4 @@
-Instance: PractitionerRole-DNP-NichelleLorna
+Instance: PractitionerRole-RN-NichelleLorna
 InstanceOf: PractitionerRole
 Usage: #example
 Description: "Nichelle Lorna's role at the Motown Home Health Agency"

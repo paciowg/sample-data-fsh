@@ -13,7 +13,7 @@ Description: "Wilma Marina Braden Scale assessment collection on 2026-02-27."
 * code = $loinc#38228-3 "Braden scale panel"
 * subject = Reference(Patient/patient-wilmamarina01)
 * effectiveDateTime = "2026-02-27T10:00:00-05:00"
-* performer = Reference(PractitionerRole/PractitionerRole-DNP-NichelleLorna)
+* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
 * hasMember[0] = Reference(wm1-Braden-SensoryPerception-20260227)
 * hasMember[+] = Reference(wm1-Braden-Moisture-20260227)
 * hasMember[+] = Reference(wm1-Braden-Activity-20260227)
@@ -33,7 +33,7 @@ Description: "Wilma Marina Braden Scale sensory perception subscale on 2026-02-2
 * code = $loinc#38222-6 "Ability to respond meaningfully to pressure-related discomfort"
 * subject = Reference(Patient/patient-wilmamarina01)
 * effectiveDateTime = "2026-02-27T10:00:00-05:00"
-* performer = Reference(PractitionerRole/PractitionerRole-DNP-NichelleLorna)
+* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
 * valueInteger = 3
 
 Instance: wm1-Braden-Moisture-20260227
@@ -47,7 +47,7 @@ Description: "Wilma Marina Braden Scale moisture subscale on 2026-02-27."
 * code = $loinc#38229-1 "Degree to which skin is exposed to moisture"
 * subject = Reference(Patient/patient-wilmamarina01)
 * effectiveDateTime = "2026-02-27T10:00:00-05:00"
-* performer = Reference(PractitionerRole/PractitionerRole-DNP-NichelleLorna)
+* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
 * valueInteger = 3
 
 Instance: wm1-Braden-Activity-20260227
@@ -61,7 +61,7 @@ Description: "Wilma Marina Braden Scale activity subscale on 2026-02-27."
 * code = $loinc#38223-4 "Degree of physical activity"
 * subject = Reference(Patient/patient-wilmamarina01)
 * effectiveDateTime = "2026-02-27T10:00:00-05:00"
-* performer = Reference(PractitionerRole/PractitionerRole-DNP-NichelleLorna)
+* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
 * valueInteger = 2
 
 Instance: wm1-Braden-Mobility-20260227
@@ -75,7 +75,7 @@ Description: "Wilma Marina Braden Scale mobility subscale on 2026-02-27."
 * code = $loinc#38224-2 "Ability to change and control body position"
 * subject = Reference(Patient/patient-wilmamarina01)
 * effectiveDateTime = "2026-02-27T10:00:00-05:00"
-* performer = Reference(PractitionerRole/PractitionerRole-DNP-NichelleLorna)
+* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
 * valueInteger = 3
 
 Instance: wm1-Braden-Nutrition-20260227
@@ -89,7 +89,7 @@ Description: "Wilma Marina Braden Scale nutrition subscale on 2026-02-27."
 * code = $loinc#38225-9 "Usual food intake pattern"
 * subject = Reference(Patient/patient-wilmamarina01)
 * effectiveDateTime = "2026-02-27T10:00:00-05:00"
-* performer = Reference(PractitionerRole/PractitionerRole-DNP-NichelleLorna)
+* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
 * valueInteger = 3
 
 Instance: wm1-Braden-FrictionShear-20260227
@@ -103,7 +103,7 @@ Description: "Wilma Marina Braden Scale friction and shear subscale on 2026-02-2
 * code = $loinc#38226-7 "Friction and shear"
 * subject = Reference(Patient/patient-wilmamarina01)
 * effectiveDateTime = "2026-02-27T10:00:00-05:00"
-* performer = Reference(PractitionerRole/PractitionerRole-DNP-NichelleLorna)
+* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
 * valueInteger = 3
 
 Instance: wm1-Braden-TotalScore-20260227
@@ -117,7 +117,7 @@ Description: "Wilma Marina total Braden Scale score on 2026-02-27."
 * code = $loinc#38227-5 "Braden scale total score"
 * subject = Reference(Patient/patient-wilmamarina01)
 * effectiveDateTime = "2026-02-27T10:00:00-05:00"
-* performer = Reference(PractitionerRole/PractitionerRole-DNP-NichelleLorna)
+* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
 * valueInteger = 17
 * note.text = "Braden total score 17, indicating mild/low risk for pressure ulcer development."
 
@@ -132,7 +132,7 @@ Description: "Wilma Marina Braden Scale assessment collection on 2026-04-15."
 * code = $loinc#38228-3 "Braden scale panel"
 * subject = Reference(Patient/patient-wilmamarina01)
 * effectiveDateTime = "2026-04-15T10:00:00-04:00"
-* performer = Reference(PractitionerRole/PractitionerRole-DNP-NichelleLorna)
+* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
 * hasMember[0] = Reference(wm1-Braden-SensoryPerception-20260415)
 * hasMember[+] = Reference(wm1-Braden-Moisture-20260415)
 * hasMember[+] = Reference(wm1-Braden-Activity-20260415)
@@ -152,7 +152,7 @@ Description: "Wilma Marina Braden Scale sensory perception subscale on 2026-04-1
 * code = $loinc#38222-6 "Ability to respond meaningfully to pressure-related discomfort"
 * subject = Reference(Patient/patient-wilmamarina01)
 * effectiveDateTime = "2026-04-15T10:00:00-04:00"
-* performer = Reference(PractitionerRole/PractitionerRole-DNP-NichelleLorna)
+* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
 * valueInteger = 2
 
 Instance: wm1-Braden-Moisture-20260415
@@ -166,7 +166,7 @@ Description: "Wilma Marina Braden Scale moisture subscale on 2026-04-15."
 * code = $loinc#38229-1 "Degree to which skin is exposed to moisture"
 * subject = Reference(Patient/patient-wilmamarina01)
 * effectiveDateTime = "2026-04-15T10:00:00-04:00"
-* performer = Reference(PractitionerRole/PractitionerRole-DNP-NichelleLorna)
+* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
 * valueInteger = 2
 
 Instance: wm1-Braden-Activity-20260415
@@ -180,7 +180,7 @@ Description: "Wilma Marina Braden Scale activity subscale on 2026-04-15."
 * code = $loinc#38223-4 "Degree of physical activity"
 * subject = Reference(Patient/patient-wilmamarina01)
 * effectiveDateTime = "2026-04-15T10:00:00-04:00"
-* performer = Reference(PractitionerRole/PractitionerRole-DNP-NichelleLorna)
+* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
 * valueInteger = 1
 
 Instance: wm1-Braden-Mobility-20260415
@@ -194,7 +194,7 @@ Description: "Wilma Marina Braden Scale mobility subscale on 2026-04-15."
 * code = $loinc#38224-2 "Ability to change and control body position"
 * subject = Reference(Patient/patient-wilmamarina01)
 * effectiveDateTime = "2026-04-15T10:00:00-04:00"
-* performer = Reference(PractitionerRole/PractitionerRole-DNP-NichelleLorna)
+* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
 * valueInteger = 2
 
 Instance: wm1-Braden-Nutrition-20260415
@@ -208,7 +208,7 @@ Description: "Wilma Marina Braden Scale nutrition subscale on 2026-04-15."
 * code = $loinc#38225-9 "Usual food intake pattern"
 * subject = Reference(Patient/patient-wilmamarina01)
 * effectiveDateTime = "2026-04-15T10:00:00-04:00"
-* performer = Reference(PractitionerRole/PractitionerRole-DNP-NichelleLorna)
+* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
 * valueInteger = 2
 
 Instance: wm1-Braden-FrictionShear-20260415
@@ -222,7 +222,7 @@ Description: "Wilma Marina Braden Scale friction and shear subscale on 2026-04-1
 * code = $loinc#38226-7 "Friction and shear"
 * subject = Reference(Patient/patient-wilmamarina01)
 * effectiveDateTime = "2026-04-15T10:00:00-04:00"
-* performer = Reference(PractitionerRole/PractitionerRole-DNP-NichelleLorna)
+* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
 * valueInteger = 2
 
 Instance: wm1-Braden-TotalScore-20260415
@@ -236,6 +236,6 @@ Description: "Wilma Marina total Braden Scale score on 2026-04-15."
 * code = $loinc#38227-5 "Braden scale total score"
 * subject = Reference(Patient/patient-wilmamarina01)
 * effectiveDateTime = "2026-04-15T10:00:00-04:00"
-* performer = Reference(PractitionerRole/PractitionerRole-DNP-NichelleLorna)
+* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
 * valueInteger = 11
 * note.text = "Braden total score 11, indicating high risk for pressure ulcer development. Patient has a stage 2 pressure ulcer at the hip at this assessment."
