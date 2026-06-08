@@ -97,7 +97,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const buildFailures = data.buildFailures || [];
             if (buildFailures.length > 0) {
-                let failureContent = '<h2 style="color: red;">Build Failures</h2>';
+                let failureContent = '<h2>Non-building Versions</h2>';
                 failureContent += '<p>The following versions failed to build:</p>';
                 failureContent += '<ul>';
                 buildFailures.forEach(failure => {
