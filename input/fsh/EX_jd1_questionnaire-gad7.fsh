@@ -54,8 +54,7 @@ Description: "Generalized Anxiety Disorder-7 assessment"
 
 * item[+].linkId = "total-score"
 * item[=].type = #decimal
-* item[=].code = $LNC#70274-6 "Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]"
-* item[=].code = $loinc#70274-6
+* item[=].code = $loinc#70274-6 "Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]"
 * item[=].text = "Generalized anxiety disorder 7 item (GAD-7) total score [Reported.PHQ]"
 * item[=].readOnly = true
 * item[=].extension.url = $sdc-calculatedExpression
