@@ -8,9 +8,9 @@ Usage: #example
 * meta.lastUpdated = "2025-04-16T14:46:50.241Z"
 * questionnaire = "http://example.org/fhir/Questionnaire/GAD7Questionnaire"
 * status = #completed
-* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authored = "2025-04-16T14:46:50.241Z"
-* author = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
+* author = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 
 * item[+].linkId = "gad7-1"
 * item[=].text = "Feeling nervous, anxious, or on edge"
@@ -67,9 +67,9 @@ Usage: #example
 * meta.lastUpdated = "2025-07-16T10:25:30.123Z"
 * questionnaire = "http://example.org/fhir/Questionnaire/GAD7Questionnaire"
 * status = #completed
-* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authored = "2025-07-16T10:25:30.123Z"
-* author = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
+* author = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 
 * item[+].linkId = "gad7-1"
 * item[=].text = "Feeling nervous, anxious, or on edge"
@@ -126,9 +126,9 @@ Usage: #example
 * meta.lastUpdated = "2025-10-16T11:32:40.456Z"
 * questionnaire = "http://example.org/fhir/Questionnaire/GAD7Questionnaire"
 * status = #completed
-* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authored = "2025-10-16T11:32:40.456Z"
-* author = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
+* author = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 
 * item[+].linkId = "gad7-1"
 * item[=].text = "Feeling nervous, anxious, or on edge"
@@ -185,9 +185,9 @@ Usage: #example
 * meta.lastUpdated = "2026-01-20T13:55:20.789Z"
 * questionnaire = "http://example.org/fhir/Questionnaire/GAD7Questionnaire"
 * status = #completed
-* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authored = "2026-01-20T13:55:20.789Z"
-* author = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
+* author = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 
 * item[+].linkId = "gad7-1"
 * item[=].text = "Feeling nervous, anxious, or on edge"
@@ -244,9 +244,9 @@ Usage: #example
 * meta.lastUpdated = "2026-04-16T09:40:15.321Z"
 * questionnaire = "http://example.org/fhir/Questionnaire/GAD7Questionnaire"
 * status = #completed
-* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authored = "2026-04-16T09:40:15.321Z"
-* author = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
+* author = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 
 * item[+].linkId = "gad7-1"
 * item[=].text = "Feeling nervous, anxious, or on edge"
