@@ -10,7 +10,7 @@ This use case was used to test a preliminary version of Transitions of Care (ToC
 
 * [Storyboard Scene Descriptions](https://docs.google.com/document/d/1R6CasL3Y8aqHx8_ipeZXtgMagZLcU4yS/edit)
 
-### Scene 0: Background
+### Scene 0: Betsy Smith-Johnson Background
 
 Patient background information: [Betsy Smith-Johnson](Patient-patient-betsysmith-johnson01.html) is a female over 65 years old, date of birth 11/15/1950, and eligible for Medicare.  She lives in Michigan with her son, Charles Johnson, and his family. Betsy has a history of [hypertension](Condition-betsysmith-johnson01-Condition-Hypertension-01.html), [hyperlipidemia](Condition-betsysmith-johnson01-Condition-Hyperlipidemia-01.html), cataracts, osteoarthritis, *etc...*
 
