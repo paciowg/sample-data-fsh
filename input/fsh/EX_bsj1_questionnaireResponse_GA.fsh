@@ -32,7 +32,7 @@ Usage: #inline
 * item[=].answer.valueString = "Johnson"
 * item[+].linkId = "assessment_date"
 * item[=].text = "Please report the date this assessment was complete."
-* item[=].answer.valueDate = "2025-07-16"
+* item[=].answer.valueDate = "2025-06-11"
 * item[+].linkId = "ask_more"
 * item[=].text = "Do you feel that your relative asks for more help than he/she needs?"
 * item[=].answer.valueCoding = #2 "Sometimes"
