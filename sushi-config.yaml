@@ -73,6 +73,8 @@ pages:
     title: Betsy Smith-Johnson - Stroke Use Case
   pacio_persona_violetGartner.md:
     title: Violet Gartner - Medication Risk Evaluation Use Case
+  pacio_persona_wilmaMarina.md:
+    title: Wilma Marina - Pressure Ulcer USe Case
   release_notes.md:
     title: Release Notes
   downloads.md:
