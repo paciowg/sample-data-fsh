@@ -9,6 +9,7 @@ Description: "Generalized Anxiety Disorder-7 assessment"
 * url = "http://example.org/fhir/Questionnaire/GAD7Questionnaire"
 * code = $LNC#69737-5 "Generalized anxiety disorder 7 item (GAD-7)"
 * subjectType[+] = #Patient
+* title = "Generalized Anxiety Disorder-7 Assessment"
 
 * item[+].linkId = "gad7-1"
 * item[=].text = "Feeling nervous, anxious, or on edge"
