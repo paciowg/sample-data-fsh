@@ -322,7 +322,7 @@ Betsy’s PCP receives an immediate response from CMS that Betsy is eligible and
 
 <br />
 
-### Scene 5: Pressure Ulcer Care Scene
+### Scene 5: Betsy Receives Pressure Ulcer Care
 
 Betsy was previously admitted to a skilled nursing facility for medical management of a stroke. During her stay, Betsy established a personal goal to attend her daughter’s wedding in late August. The nurse also set a goal for Betsy to demonstrate knowledge of safety measures to prevent falls so she could continue to live at home. When she was ready to be discharged from the SNF planning accounted for the fact that her son travels for work approximately four days a week and is not always available to help her, and includes a home health aide two times per week.
 
