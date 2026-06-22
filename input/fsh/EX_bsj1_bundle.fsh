@@ -278,7 +278,7 @@ Description: "Betsy Smith-Johnson's TOC Composition from Hospital to SNF as a Di
 * section[=].code = $loinc#42348-3 "Advance directives"
 * section[=].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Advance directives were not asked for Betsy Smith Johnson at this transition.</div>"
-* section[=].emptyReason = $list-empty-reason#notasked "Not Asked"
+* section[=].emptyReason = $list-empty-reason#nilknown "Nil Known"
 * section[+].title = "List of allergies for Betsy Smith Johnson"
 * section[=].code = $loinc#48765-2 "Allergies and adverse reactions Document"
 // * section[=].text.status = #additional
@@ -528,7 +528,7 @@ Description: "Betsy Smith-Johnson's TOC Composition from SNF to Home Health. Inc
 * section[=].code = $loinc#42348-3 "Advance directives"
 * section[=].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Advance directives were not asked for Betsy Smith Johnson at this transition.</div>"
-* section[=].emptyReason = $list-empty-reason#notasked "Not Asked"
+* section[=].emptyReason = $list-empty-reason#nilknown "Nil Known"
 * section[+].title = "List of allergies for Betsy Smith Johnson"
 * section[=].code = $loinc#48765-2 "Allergies and adverse reactions Document"
 * section[=].text.status = #additional
