@@ -324,6 +324,8 @@ Betsy’s PCP receives an immediate response from CMS that Betsy is eligible and
 
 ### Scene 5: Betsy Receives Pressure Ulcer Care
 
+On October 16, 2025, Betsy’s primary care provider updates her medication regimen and restarts Jardiance, Sertraline, and Lipitor after they had previously been stopped in earlier care transitions.
+
 Betsy was previously admitted to a skilled nursing facility for medical management of a stroke. During her stay, Betsy established a personal goal to attend her daughter’s wedding in late August. The nurse also set a goal for Betsy to demonstrate knowledge of safety measures to prevent falls so she could continue to live at home. When she was ready to be discharged from the SNF planning accounted for the fact that her son travels for work approximately four days a week and is not always available to help her, and includes a home health aide two times per week.
 
 When Betsy returned home she began receiving Home Health Agency (HHA) services on February 27, 2026. During her start of care assessment, the home health nurse performed a Braden risk assessment. At this time Betsy’s Braden total score was [17](Observation-bsj1-Braden-TotalScore-20260227.html), indicating mild/low risk for pressure ulcer development.
@@ -341,6 +343,12 @@ A wound management plan was developed that included wound assessment and the use
 * [DeviceRequest: bsj1-deviceRequest-walker-20260226](DeviceRequest-bsj1-deviceRequest-walker-20260226.html)
 * [DeviceRequest: bsj1-deviceRequest-wheelchair-20260226](DeviceRequest-bsj1-deviceRequest-wheelchair-20260226.html)
 * [DeviceRequest: bsj1-deviceRequest-negativePressureWoundPump-20260415](DeviceRequest-bsj1-deviceRequest-negativePressureWoundPump-20260415.html)
+* [MedicationRequest: bsj1-smp-medrx-jardiance-5-1](MedicationRequest-bsj1-smp-medrx-jardiance-5-1.html)
+* [MedicationRequest: bsj1-smp-medrx-sertraline-5-2](MedicationRequest-bsj1-smp-medrx-sertraline-5-2.html)
+* [MedicationRequest: bsj1-smp-medrx-lipitor-5-3](MedicationRequest-bsj1-smp-medrx-lipitor-5-3.html)
+* [MedicationStatement: bsj1-smp-medstmt-jardiance-5-1](MedicationStatement-bsj1-smp-medstmt-jardiance-5-1.html)
+* [MedicationStatement: bsj1-smp-medstmt-sertraline-5-2](MedicationStatement-bsj1-smp-medstmt-sertraline-5-2.html)
+* [MedicationStatement: bsj1-smp-medstmt-lipitor-5-3](MedicationStatement-bsj1-smp-medstmt-lipitor-5-3.html)
 * [Observation: bsj1-Braden-Assessment-20260227](Observation-bsj1-Braden-Assessment-20260227.html)
 * [Observation: bsj1-Braden-SensoryPerception-20260227](Observation-bsj1-Braden-SensoryPerception-20260227.html)
 * [Observation: bsj1-Braden-Moisture-20260227](Observation-bsj1-Braden-Moisture-20260227.html)

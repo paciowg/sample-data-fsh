@@ -684,3 +684,39 @@ Description: "MedicationStatement for sitagliptin - active on 2025-07-16 from or
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#665042 "sitagliptin 50 MG Oral Tablet"
 * medicationCodeableConcept[0].coding[1] = $NDC#70710-1900-9
+
+Instance: bsj1-smp-medstmt-jardiance-5-1
+InstanceOf: MedicationStatement
+Usage: #example
+Description: "MedicationStatement for jardiance - active on 2025-10-16 from org-Michigan-Primary-Health-Care-A"
+* basedOn = Reference(bsj1-smp-medrx-jardiance-5-1)
+* status = #active
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
+* dateAsserted = "2025-10-16T11:02:40.456Z"
+* informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
+* medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "empagliflozin 10 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[1] = $NDC#55154-0411-8
+
+Instance: bsj1-smp-medstmt-sertraline-5-2
+InstanceOf: MedicationStatement
+Usage: #example
+Description: "MedicationStatement for sertraline - active on 2025-10-16 from org-Michigan-Primary-Health-Care-A"
+* basedOn = Reference(bsj1-smp-medrx-sertraline-5-2)
+* status = #active
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
+* dateAsserted = "2025-10-16T11:02:40.456Z"
+* informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
+* medicationCodeableConcept[0].coding[0] = $rxnorm#312940 "sertraline 25 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[1] = $NDC#0143-9656-09
+
+Instance: bsj1-smp-medstmt-lipitor-5-3
+InstanceOf: MedicationStatement
+Usage: #example
+Description: "MedicationStatement for lipitor - active on 2025-10-16 from org-Michigan-Primary-Health-Care-A"
+* basedOn = Reference(bsj1-smp-medrx-lipitor-5-3)
+* status = #active
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
+* dateAsserted = "2025-10-16T11:02:40.456Z"
+* informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
+* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[1] = $NDC#0071-0157-23
