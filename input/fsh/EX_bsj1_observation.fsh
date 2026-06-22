@@ -598,6 +598,45 @@ Description: "Betsy Smith-Johnson Observation: A1C"
 * valueQuantity = 9.4 '%' "%"
 * note.text = "Critical risk - Peak poor control - 25 days pre-stroke"
 
+Instance: betsysmith-johnson01-A1C-05
+InstanceOf: Observation
+Usage: #example
+Description: "Betsy Smith-Johnson Observation: A1C"
+* meta.profile = "http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-pathology-uv-ips"
+* status = #final
+* category[0] = $observation-category#laboratory "Laboratory"
+* code = $loinc#17856-6 "Hemoglobin A1c/Hemoglobin.total in Blood by HPLC"
+* subject = Reference(Patient/patient-betsysmith-johnson01)
+* effectiveDateTime = "2025-07-16T09:25:30.123Z"
+* performer = Reference(Practitioner-GeorgeMcDuff)
+* valueQuantity = 6.2 '%' "%"
+
+Instance: betsysmith-johnson01-A1C-06
+InstanceOf: Observation
+Usage: #example
+Description: "Betsy Smith-Johnson Observation: A1C"
+* meta.profile = "http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-pathology-uv-ips"
+* status = #final
+* category[0] = $observation-category#laboratory "Laboratory"
+* code = $loinc#17856-6 "Hemoglobin A1c/Hemoglobin.total in Blood by HPLC"
+* subject = Reference(Patient/patient-betsysmith-johnson01)
+* effectiveDateTime = "2025-10-16T10:32:40.456Z"
+* performer = Reference(Practitioner-GeorgeMcDuff)
+* valueQuantity = 7.3 '%' "%"
+
+Instance: betsysmith-johnson01-A1C-07
+InstanceOf: Observation
+Usage: #example
+Description: "Betsy Smith-Johnson Observation: A1C"
+* meta.profile = "http://hl7.org/fhir/uv/ips/StructureDefinition/Observation-results-laboratory-pathology-uv-ips"
+* status = #final
+* category[0] = $observation-category#laboratory "Laboratory"
+* code = $loinc#17856-6 "Hemoglobin A1c/Hemoglobin.total in Blood by HPLC"
+* subject = Reference(Patient/patient-betsysmith-johnson01)
+* effectiveDateTime = "2026-01-20T12:55:20.789Z"
+* performer = Reference(Practitioner-GeorgeMcDuff)
+* valueQuantity = 6.7 '%' "%"
+
 Instance: bsj1-Braden-Assessment-20260227
 InstanceOf: Observation
 Usage: #example
