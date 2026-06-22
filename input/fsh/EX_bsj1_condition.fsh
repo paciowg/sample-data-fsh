@@ -505,4 +505,4 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates nursing do
 * extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
 * extension.valueDateTime = "2026-07-14"
 * asserter = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
-* note.text = "During an assessment of the patient's Stage II pressure ulcer on her right hip, there were indications of an infection at the ulcer site, with erythema and edema of the skin surrounding the pressure ulcer, greenish-yellow drainage, foul odor coming from the wound. The patient also has a low grade fever, reports no appetite, and reports increased pain in the left hip around the wound area."
+* note.text = "During an assessment of the patient's Stage II pressure ulcer on her right hip, there were indications of an infection at the ulcer site, with erythema and edema of the skin surrounding the pressure ulcer, greenish-yellow drainage, foul odor coming from the wound. The patient also has a low grade fever, reports no appetite, and reports increased pain in the right hip around the wound area."

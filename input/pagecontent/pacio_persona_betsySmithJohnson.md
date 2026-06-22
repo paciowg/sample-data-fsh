@@ -330,7 +330,7 @@ Betsy was previously admitted to a skilled nursing facility for medical manageme
 
 When Betsy returned home she began receiving Home Health Agency (HHA) services on February 27, 2026. During her start of care assessment, the home health nurse performed a Braden risk assessment. At this time Betsy’s Braden total score was [17](Observation-bsj1-Braden-TotalScore-20260227.html), indicating mild/low risk for pressure ulcer development.
 
-At home, Betsy ambulates short distances with a walker and primarily relies on a manual wheelchair for mobility outside the home. Over the past several weeks, she has increased her wheelchair use at home because of instability and fear of falling. This decline in mobility contributed to the development of a Stage II pressure ulcer on her left hip. The change in condition was discovered and documented by the home health nurse. With this change in condition, the nurse performed another Braden risk assessment on April 15, 2026. At that time, Betsy’s Braden total score had decreased to [11](Observation-bsj1-Braden-TotalScore-20260415.html), indicating high risk for pressure ulcer development.
+At home, Betsy ambulates short distances with a walker and primarily relies on a manual wheelchair for mobility outside the home. Over the past several weeks, she has increased her wheelchair use at home because of instability and fear of falling. This decline in mobility contributed to the development of a Stage II pressure ulcer on her right hip. The change in condition was discovered and documented by the home health nurse. With this change in condition, the nurse performed another Braden risk assessment on April 15, 2026. At that time, Betsy’s Braden total score had decreased to [11](Observation-bsj1-Braden-TotalScore-20260415.html), indicating high risk for pressure ulcer development.
 
 A wound management plan was developed that included wound assessment and the use of negative pressure wound therapy with dressing changes every three days. The careplan was updated to include registered nurse wound care checks every three days beginning when wound care became necessary on April 15, 2026.
 
@@ -370,7 +370,7 @@ A wound management plan was developed that included wound assessment and the use
 
 ### Scene 6: Betsy is sent from Home Health to the Emergency Department
 
-On July 14, 2026, during a routine home health wound care visit, the nurse observes erythema and edema of the skin surrounding the pressure ulcer, greenish-yellow drainage, foul odor from the wound, and a low-grade fever. Betsy reports poor appetite and increased pain in the left hip around the wound area. Based on these findings, the nurse suspects a wound infection and consults Betsy’s primary care provider, who recommends that she be evaluated in the emergency department.
+On July 14, 2026, during a routine home health wound care visit, the nurse observes erythema and edema of the skin surrounding the pressure ulcer, greenish-yellow drainage, foul odor from the wound, and a low-grade fever. Betsy reports poor appetite and increased pain in the right hip around the wound area. Based on these findings, the nurse suspects a wound infection and consults Betsy’s primary care provider, who recommends that she be evaluated in the emergency department.
 
 #### Scene 6 FHIR Resources
 
