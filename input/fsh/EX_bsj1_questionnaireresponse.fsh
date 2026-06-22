@@ -83,7 +83,9 @@ Usage: #example
 Instance: betsysmith-johnson01-qr-phq9-snf-admission-01
 InstanceOf: QuestionnaireResponse
 Usage: #example
-* questionnaire = "https://gw.interop.community/paciosandbox/open/Questionnaire/44249-1"
+Title: "PHQ-9 QuestionnaireResponse Example"
+Description: "Example PHQ-9 depression assessment"
+* questionnaire = "http://example.org/fhir/Questionnaire/PHQ9Questionnaire"
 * status = #completed
 * authored = "2025-05-04T16:30:00.000Z"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
@@ -140,7 +142,9 @@ Usage: #example
 Instance: betsysmith-johnson01-qr-phq9-snf-discharge-01
 InstanceOf: QuestionnaireResponse
 Usage: #example
-* questionnaire = "https://gw.interop.community/paciosandbox/open/Questionnaire/44249-1"
+Title: "PHQ-9 QuestionnaireResponse Example"
+Description: "Example PHQ-9 depression assessment"
+* questionnaire = "http://example.org/fhir/Questionnaire/PHQ9Questionnaire"
 * status = #completed
 * authored = "2026-02-20T16:30:00.000Z"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
