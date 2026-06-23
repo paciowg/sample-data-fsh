@@ -368,6 +368,18 @@ A wound management plan was developed that included wound assessment and the use
 * [Observation: bsj1-Braden-Nutrition-20260415](Observation-bsj1-Braden-Nutrition-20260415.html)
 * [Observation: bsj1-Braden-FrictionShear-20260415](Observation-bsj1-Braden-FrictionShear-20260415.html)
 * [Observation: bsj1-Braden-TotalScore-20260415](Observation-bsj1-Braden-TotalScore-20260415.html)
+* [QuestionnaireResponse: betsysmith-johnson01-qr-phq9-snf-discharge-01](QuestionnaireResponse-betsysmith-johnson01-qr-phq9-snf-discharge-01.html)
+* [Observation: betsysmith-johnson01-qr-phq9-snf-discharge-01-44250-9](Observation-betsysmith-johnson01-qr-phq9-snf-discharge-01-44250-9.html)
+* [Observation: betsysmith-johnson01-qr-phq9-snf-discharge-01-44255-8](Observation-betsysmith-johnson01-qr-phq9-snf-discharge-01-44255-8.html)
+* [Observation: betsysmith-johnson01-qr-phq9-snf-discharge-01-44259-0](Observation-betsysmith-johnson01-qr-phq9-snf-discharge-01-44259-0.html)
+* [Observation: betsysmith-johnson01-qr-phq9-snf-discharge-01-44254-1](Observation-betsysmith-johnson01-qr-phq9-snf-discharge-01-44254-1.html)
+* [Observation: betsysmith-johnson01-qr-phq9-snf-discharge-01-44251-7](Observation-betsysmith-johnson01-qr-phq9-snf-discharge-01-44251-7.html)
+* [Observation: betsysmith-johnson01-qr-phq9-snf-discharge-01-44258-2](Observation-betsysmith-johnson01-qr-phq9-snf-discharge-01-44258-2.html)
+* [Observation: betsysmith-johnson01-qr-phq9-snf-discharge-01-44252-5](Observation-betsysmith-johnson01-qr-phq9-snf-discharge-01-44252-5.html)
+* [Observation: betsysmith-johnson01-qr-phq9-snf-discharge-01-44253-3](Observation-betsysmith-johnson01-qr-phq9-snf-discharge-01-44253-3.html)
+* [Observation: betsysmith-johnson01-qr-phq9-snf-discharge-01-44260-8](Observation-betsysmith-johnson01-qr-phq9-snf-discharge-01-44260-8.html)
+* [Observation: betsysmith-johnson01-qr-phq9-snf-discharge-01-44261-6](Observation-betsysmith-johnson01-qr-phq9-snf-discharge-01-44261-6.html)
+* [Observation: betsysmith-johnson01-qr-phq9-snf-discharge-01-c650aa67](Observation-betsysmith-johnson01-qr-phq9-snf-discharge-01-c650aa67.html)
 
 <br />
 
