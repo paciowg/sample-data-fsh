@@ -10,7 +10,7 @@ Description: "Betsy Smith-Johnson home health order for walker dated 2026-02-26.
 * codeCodeableConcept = $cpt#E0143 "Walker, folding, wheeled, adjustable or fixed height"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authoredOn = "2026-02-26"
-* requester = Reference(PractitionerRole/PractitionerRole-PT-DeyonteDarden)
+* requester = Reference(PractitionerRole/PractitionerRole-PT-DeangeloMontes)
 * note.text = "Home health order for walker."
 
 Instance: bsj1-deviceRequest-wheelchair-20260226
@@ -22,7 +22,7 @@ Description: "Betsy Smith-Johnson home health order for wheelchair dated 2026-02
 * codeCodeableConcept = $cpt#K0001 "Standard wheelchair"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authoredOn = "2026-02-26"
-* requester = Reference(PractitionerRole/PractitionerRole-PT-DeyonteDarden)
+* requester = Reference(PractitionerRole/PractitionerRole-PT-DeangeloMontes)
 * note.text = "Home health order for wheelchair."
 
 Instance: bsj1-deviceRequest-negativePressureWoundPump-20260415
