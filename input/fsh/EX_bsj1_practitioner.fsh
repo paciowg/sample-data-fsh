@@ -667,7 +667,7 @@ Description: "Kevin James's practitioner record."
 //* meta.versionId = "4"
 //* meta.lastUpdated = "2024-09-21T14:11:15.000+00:00"
 * identifier.system = "http://example.org/fhir/MI-state-license"
-* identifier.value = "​480​4​2​8​9999"
+* identifier.value = "4804289999"
 * active = true
 * name.text = "Kevin James"
 * name.family = "James"
