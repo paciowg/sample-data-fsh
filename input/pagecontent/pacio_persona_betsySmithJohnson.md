@@ -298,6 +298,9 @@ Although Betsy receives some services through a HHA, the family would benefit fr
 Charles agrees and is given information on how to complete the ZBI (Zarit Burden Interview). That same day on July 16, 2025, on his own in the waiting room, Charles securely submits the results to CMS on a tablet powered by a web-based SMART-on-FHIR app.
 
 Betsy’s PCP receives an immediate response from CMS that Betsy is eligible and is enrolled in the program, enabling her to begin receiving the services she needs with no delay. Betsy’s PCP also shares the results of the ZBI with Betsy’s mental health provider to promote more coordinated care that includes addressing the mental health impact Betsy may experience if she perceives that she is a burden on her family.
+
+At the care appointment Betsy also completes a PROMIS-10 assessment, and her primary care provider develops a CarePlan with a Goal of living independently based on her responses.
+
 <br />
 
 #### Scene 4 FHIR Resources
@@ -319,6 +322,8 @@ Betsy’s PCP receives an immediate response from CMS that Betsy is eligible and
 * [MedicationStatement: bsj1-smp-medstmt-metformin-4-6](MedicationStatement-bsj1-smp-medstmt-metformin-4-6.html)
 * [MedicationStatement: bsj1-smp-medstmt-pitavastatin-4-7](MedicationStatement-bsj1-smp-medstmt-pitavastatin-4-7.html)
 * [MedicationStatement: bsj1-smp-medstmt-sitagliptin-4-8](MedicationStatement-bsj1-smp-medstmt-sitagliptin-4-8.html)
+* [Goal: bsj1-goal-live-independently-20250716](Goal-bsj1-goal-live-independently-20250716.html)
+* [CarePlan: bsj1-careplan-promis-followup-20250716](CarePlan-bsj1-careplan-promis-followup-20250716.html)
 
 <br />
 
