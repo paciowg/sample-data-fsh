@@ -2,6 +2,9 @@
 // This file contains example instances of the TOC Composition resource for Betsy Smith-Johnson.
 // These instances are used to demonstrate the structure and content of TOC documents in various scenarios.
 
+Alias: $list-empty-reason = http://terminology.hl7.org/CodeSystem/list-empty-reason
+Alias: $toc-temp-cs = http://hl7.org/fhir/us/pacio-toc/CodeSystem/toc-temp-cs
+
 Instance: betsysmith-johnson01-TOC-Hosp-to-SNF-01
 InstanceOf: TOCComposition
 Usage: #example
@@ -33,7 +36,7 @@ Description: "Betsy Smith-Johnson's TOC Document from Hospital to SNF as a Disch
 * section[=].entry = Reference(AllergyIntolerance/betsysmith-johnson01-AllergyACE)
 
 * section[+].title = "Behavioral health information for Betsy Smith Johnson"
-* section[=].code = $ToCTempCS#behavioral_health_summary "Behavioral health summary"
+* section[=].code = $toc-temp-cs#behavioral_health_summary "Behavioral health summary"
 * section[=].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Behavioral health information for Betsy Smith Johnson</div>"
 * section[=].emptyReason = $list-empty-reason#notasked "Not Asked"
@@ -159,7 +162,7 @@ Description: "Betsy Smith-Johnson's TOC Document from SNF to Home Health. Includ
 * section[=].entry = Reference(AllergyIntolerance/betsysmith-johnson01-AllergyACE)
 
 * section[+].title = "Behavioral health information for Betsy Smith Johnson"
-* section[=].code = $ToCTempCS#behavioral_health_summary "Behavioral health summary"
+* section[=].code = $toc-temp-cs#behavioral_health_summary "Behavioral health summary"
 * section[=].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Behavioral health information for Betsy Smith Johnson</div>"
 * section[=].emptyReason = $list-empty-reason#notasked "Not Asked"
