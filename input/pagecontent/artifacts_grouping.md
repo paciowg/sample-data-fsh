@@ -120,10 +120,8 @@
 
 ### Compositions
 * [Discharge summary for transfer from hospital to SNF](Composition-BSJ1-composition-CCDA-dischargeSummary-01.html)
-
-### TOC Bundles
-* [Transition of care bundle for hospital from ED to SNF](Bundle-betsysmith-johnson01-TOC-Hosp-to-SNF-01.html)
-* [Transition of care bundle from SNF to HHA](Bundle-betsysmith-johnson01-TOC-SNF-to-HHA-01.html)
+* [Composition for TOC from ED to SNF](Composition-betsysmith-johnson01-TOC-Hosp-to-SNF-01.html)
+* [Composition for TOC from SNF to HHA](Composition-betsysmith-johnson01-TOC-SNF-to-HHA-01.html)
 
 ### Conditions
 * [Dysphagia](Condition-betsysmith-johnson01-Condition-Dysphagia-01.html)
