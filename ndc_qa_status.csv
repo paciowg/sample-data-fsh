@@ -1,0 +1,40 @@
+FSH filename and line number containing this code,Original NDC code,NDC11 format,Valid in NDCValidator lookup?,ndcStatus status,ndcStatus Active,ndcStatus rxnorm,rxcui,rxcui displayName
+input/fsh/EX_bsj1_medicationRequest_new.fsh:38,63629-2600-1,63629260001,No,ACTIVE,YES,YES,308907,calcium carbonate 500 MG Chewable Tablet
+input/fsh/EX_bsj1_medicationRequest_new.fsh:50,10939-535-44,10939053544,No,ACTIVE,YES,YES,1310948,calcium carbonate 1500 MG / cholecalciferol 800 UNT Oral Tablet
+input/fsh/EX_bsj1_medicationRequest_new.fsh:86,68788-8658-1,68788865801,No,ACTIVE,YES,YES,1115005,docusate sodium 100 MG Oral Capsule
+input/fsh/EX_bsj1_medicationRequest_new.fsh:98,11845-137-51,11845013751,No,ACTIVE,YES,YES,242590,ferrous gluconate 240 MG Oral Tablet
+input/fsh/EX_bsj1_medicationRequest_new.fsh:110,10135-243-13,10135024313,No,ACTIVE,YES,YES,310325,ferrous sulfate 325 MG Oral Tablet
+input/fsh/EX_bsj1_medicationRequest_new.fsh:338,11845-137-51,11845013751,No,ACTIVE,YES,YES,242590,ferrous gluconate 240 MG Oral Tablet
+input/fsh/EX_bsj1_medicationRequest_new.fsh:350,11845-137-51,11845013751,No,ACTIVE,YES,YES,242590,ferrous gluconate 240 MG Oral Tablet
+input/fsh/EX_bsj1_medicationRequest_new.fsh:242,11845-137-51,11845013751,No,ACTIVE,YES,YES,242590,ferrous gluconate 240 MG Oral Tablet
+input/fsh/EX_bsj1_medicationRequest_new.fsh:470,0536-1400-85,00536140085,No,ACTIVE,YES,YES,702249,ferrous sulfate 44 MG/ML Oral Solution
+input/fsh/EX_bsj1_medicationRequest_new.fsh:458,11845-137-51,11845013751,No,ACTIVE,YES,YES,242590,ferrous gluconate 240 MG Oral Tablet
+input/fsh/EX_bsj1_medicationRequest_new.fsh:626,0536-1400-85,00536140085,No,ACTIVE,YES,YES,702249,ferrous sulfate 44 MG/ML Oral Solution
+input/fsh/EX_bsj1_medicationRequest_new.fsh:14,52817-385-10,52817038510,Yes,ACTIVE,YES,YES,379804,glipizide 2.5 MG Oral Tablet
+input/fsh/EX_bsj1_medicationRequest_new.fsh:194,0378-0315-53,00378031553,No,ACTIVE,YES,YES,198052,ondansetron 4 MG Oral Tablet
+input/fsh/EX_bsj1_medicationRequest_new.fsh:674,72603-480-01,72603048001,Yes,ACTIVE,YES,YES,861652,pitavastatin calcium 4 MG Oral Tablet
+input/fsh/EX_bsj1_medicationRequest_new.fsh:170,63739-198-62,63739019862,Yes,ACTIVE,YES,YES,876193,polyethylene glycol 3350 17000 MG Powder for Oral Solution
+input/fsh/EX_bsj1_medicationRequest_new.fsh:398,63739-198-62,63739019862,Yes,ACTIVE,YES,YES,876193,polyethylene glycol 3350 17000 MG Powder for Oral Solution
+input/fsh/EX_bsj1_medicationRequest_new.fsh:554,63739-198-62,63739019862,Yes,ACTIVE,YES,YES,876193,polyethylene glycol 3350 17000 MG Powder for Oral Solution
+input/fsh/EX_bsj1_medicationRequest_new.fsh:578,70710-1900-9,70710190009,Yes,ACTIVE,YES,YES,665042,sitagliptin 50 MG Oral Tablet
+input/fsh/EX_bsj1_medicationRequest_new.fsh:590,70710-1900-9,70710190009,Yes,ACTIVE,YES,YES,665042,sitagliptin 50 MG Oral Tablet
+input/fsh/EX_bsj1_medicationRequest_new.fsh:686,70710-1900-9,70710190009,Yes,ACTIVE,YES,YES,665042,sitagliptin 50 MG Oral Tablet
+input/fsh/EX_bsj1_medicationStatement_new.fsh:38,63629-2600-1,63629260001,No,ACTIVE,YES,YES,308907,calcium carbonate 500 MG Chewable Tablet
+input/fsh/EX_bsj1_medicationStatement_new.fsh:50,10939-535-44,10939053544,No,ACTIVE,YES,YES,1310948,calcium carbonate 1500 MG / cholecalciferol 800 UNT Oral Tablet
+input/fsh/EX_bsj1_medicationStatement_new.fsh:86,68788-8658-1,68788865801,No,ACTIVE,YES,YES,1115005,docusate sodium 100 MG Oral Capsule
+input/fsh/EX_bsj1_medicationStatement_new.fsh:98,11845-137-51,11845013751,No,ACTIVE,YES,YES,242590,ferrous gluconate 240 MG Oral Tablet
+input/fsh/EX_bsj1_medicationStatement_new.fsh:110,10135-243-13,10135024313,No,ACTIVE,YES,YES,310325,ferrous sulfate 325 MG Oral Tablet
+input/fsh/EX_bsj1_medicationStatement_new.fsh:338,11845-137-51,11845013751,No,ACTIVE,YES,YES,242590,ferrous gluconate 240 MG Oral Tablet
+input/fsh/EX_bsj1_medicationStatement_new.fsh:350,11845-137-51,11845013751,No,ACTIVE,YES,YES,242590,ferrous gluconate 240 MG Oral Tablet
+input/fsh/EX_bsj1_medicationStatement_new.fsh:242,11845-137-51,11845013751,No,ACTIVE,YES,YES,242590,ferrous gluconate 240 MG Oral Tablet
+input/fsh/EX_bsj1_medicationStatement_new.fsh:470,0536-1400-85,00536140085,No,ACTIVE,YES,YES,702249,ferrous sulfate 44 MG/ML Oral Solution
+input/fsh/EX_bsj1_medicationStatement_new.fsh:458,11845-137-51,11845013751,No,ACTIVE,YES,YES,242590,ferrous gluconate 240 MG Oral Tablet
+input/fsh/EX_bsj1_medicationStatement_new.fsh:626,0536-1400-85,00536140085,No,ACTIVE,YES,YES,702249,ferrous sulfate 44 MG/ML Oral Solution
+input/fsh/EX_bsj1_medicationStatement_new.fsh:14,52817-385-10,52817038510,Yes,ACTIVE,YES,YES,379804,glipizide 2.5 MG Oral Tablet
+input/fsh/EX_bsj1_medicationStatement_new.fsh:194,0378-0315-53,00378031553,No,ACTIVE,YES,YES,198052,ondansetron 4 MG Oral Tablet
+input/fsh/EX_bsj1_medicationStatement_new.fsh:674,72603-480-01,72603048001,Yes,ACTIVE,YES,YES,861652,pitavastatin calcium 4 MG Oral Tablet
+input/fsh/EX_bsj1_medicationStatement_new.fsh:170,63739-198-62,63739019862,Yes,ACTIVE,YES,YES,876193,polyethylene glycol 3350 17000 MG Powder for Oral Solution
+input/fsh/EX_bsj1_medicationStatement_new.fsh:398,63739-198-62,63739019862,Yes,ACTIVE,YES,YES,876193,polyethylene glycol 3350 17000 MG Powder for Oral Solution
+input/fsh/EX_bsj1_medicationStatement_new.fsh:554,63739-198-62,63739019862,Yes,ACTIVE,YES,YES,876193,polyethylene glycol 3350 17000 MG Powder for Oral Solution
+input/fsh/EX_bsj1_medicationStatement_new.fsh:578,70710-1900-9,70710190009,Yes,ACTIVE,YES,YES,665042,sitagliptin 50 MG Oral Tablet
+input/fsh/EX_bsj1_medicationStatement_new.fsh:686,70710-1900-9,70710190009,Yes,ACTIVE,YES,YES,665042,sitagliptin 50 MG Oral Tablet

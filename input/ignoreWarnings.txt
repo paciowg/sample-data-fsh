@@ -4,12 +4,6 @@
 # (And include comments like this justifying why)
 # See https://github.com/FHIR/sample-ig/blob/master/input/ignoreWarnings.txt for examples
 
-# Changes to local code systems in the CI builds point to a canonical URI that is bound to a published version.
-%Unknown code 'd3301' in the CodeSystem 'http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs' version '2.0.0-ballot'%
-%Unknown code 'd4014' in the CodeSystem 'http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs' version '2.0.0-ballot'%
-%Unknown code 'blockl2-d51' in the CodeSystem 'http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs' version '2.0.0-ballot'%
-%Unknown code 'd2208' in the CodeSystem 'http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs' version '2.0.0-ballot'%
-%Unknown code 'blockl2-d41' in the CodeSystem 'http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs' version '2.0.0-ballot'%
 
 # This code and display name is legitimate as defined by the WHO: https://apps.who.int/classifications/icfbrowser/Browse.aspx?code=b7302&hsr=1
 %Wrong Display Name 'Power of muscles on one side of the body' for http://hl7.org/fhir/sid/icf#b7302%
