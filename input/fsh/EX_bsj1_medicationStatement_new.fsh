@@ -11,7 +11,7 @@ Description: "MedicationStatement for glipizide - stopped on 2025-04-22 from org
 * dateAsserted = "2025-04-22T09:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#310489 "24 HR glipiZIDE 2.5 MG Extended Release Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#52817-385-10
+// * medicationCodeableConcept[0].coding[1] = $NDC#52817-385-10  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medstmt-acetaminophen-0-2
 InstanceOf: MedicationStatement
@@ -35,7 +35,7 @@ Description: "MedicationStatement for calcium - stopped on 2025-04-22 from org-M
 * dateAsserted = "2025-04-22T09:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#282465 "calcium carbonate 1250 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#63629-2600-1
+// * medicationCodeableConcept[0].coding[1] = $NDC#63629-2600-1  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medstmt-calcium-0-4
 InstanceOf: MedicationStatement
@@ -47,7 +47,7 @@ Description: "MedicationStatement for calcium - stopped on 2025-04-22 from org-M
 * dateAsserted = "2025-04-22T09:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#1310948 "calcium carbonate 1500 MG / cholecalciferol 800 UNT Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#10939-535-44
+// * medicationCodeableConcept[0].coding[1] = $NDC#10939-535-44  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medstmt-carvedilol-0-5
 InstanceOf: MedicationStatement
@@ -83,7 +83,7 @@ Description: "MedicationStatement for colace - stopped on 2025-04-22 from org-Mi
 * dateAsserted = "2025-04-22T09:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#1247756 "docusate sodium 100 MG Oral Capsule [Colace]"
-* medicationCodeableConcept[0].coding[1] = $NDC#68788-8658-1
+// * medicationCodeableConcept[0].coding[1] = $NDC#68788-8658-1  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medstmt-ferrous-0-8
 InstanceOf: MedicationStatement
@@ -95,7 +95,7 @@ Description: "MedicationStatement for ferrous gluconate - active on 2025-04-22 f
 * dateAsserted = "2025-04-22T09:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#242590 "ferrous gluconate 240 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#11845-137-51
+// * medicationCodeableConcept[0].coding[1] = $NDC#11845-137-51  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medstmt-ferrous-0-9
 InstanceOf: MedicationStatement
@@ -107,7 +107,7 @@ Description: "MedicationStatement for ferrous gluconate - stopped on 2025-04-22 
 * dateAsserted = "2025-04-22T09:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#310325 "ferrous sulfate 325 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#10135-243-13
+// * medicationCodeableConcept[0].coding[1] = $NDC#10135-243-13  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medstmt-jardiance-0-10
 InstanceOf: MedicationStatement
@@ -167,7 +167,7 @@ Description: "MedicationStatement for polyethylene - stopped on 2025-04-22 from 
 * dateAsserted = "2025-04-22T09:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
-* medicationCodeableConcept[0].coding[1] = $NDC#63739-198-62
+// * medicationCodeableConcept[0].coding[1] = $NDC#63739-198-62  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medstmt-sertraline-0-15
 InstanceOf: MedicationStatement
@@ -191,7 +191,7 @@ Description: "MedicationStatement for ondansetron - stopped on 2025-04-22 from o
 * dateAsserted = "2025-04-22T09:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#198052 "ondansetron 4 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#0378-0315-53
+// * medicationCodeableConcept[0].coding[1] = $NDC#0378-0315-53  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medstmt-acetaminophen-1-1
 InstanceOf: MedicationStatement
@@ -239,7 +239,7 @@ Description: "MedicationStatement for ferrous gluconate - active on 2025-05-03 f
 * dateAsserted = "2025-05-03T14:45:00-08:00"
 * informationSource = Reference(Organization/org-ED-Metro-Hospital)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#242590 "ferrous gluconate 240 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#11845-137-51
+// * medicationCodeableConcept[0].coding[1] = $NDC#11845-137-51  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medstmt-jardiance-1-5
 InstanceOf: MedicationStatement
@@ -335,7 +335,7 @@ Description: "MedicationStatement for ferrous gluconate - active on 2025-05-04 f
 * dateAsserted = "2025-05-04T15:00:00-08:00"
 * informationSource = Reference(Organization/org-ED-Metro-Hospital)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#242590 "ferrous gluconate 240 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#11845-137-51
+// * medicationCodeableConcept[0].coding[1] = $NDC#11845-137-51  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medstmt-ferrous-1-13
 InstanceOf: MedicationStatement
@@ -347,7 +347,7 @@ Description: "MedicationStatement for ferrous gluconate - draft on 2025-05-04 fr
 * dateAsserted = "2025-05-04T15:00:00-08:00"
 * informationSource = Reference(Organization/org-ED-Metro-Hospital)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#242590 "ferrous gluconate 240 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#11845-137-51
+// * medicationCodeableConcept[0].coding[1] = $NDC#11845-137-51  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medstmt-jardiance-2-1
 InstanceOf: MedicationStatement
@@ -395,7 +395,7 @@ Description: "MedicationStatement for polyethylene - active on 2025-05-04 from o
 * dateAsserted = "2025-07-01T16:15:00-08:00"
 * informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
-* medicationCodeableConcept[0].coding[1] = $NDC#63739-198-62
+// * medicationCodeableConcept[0].coding[1] = $NDC#63739-198-62  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medstmt-sertraline-2-5
 InstanceOf: MedicationStatement
@@ -455,7 +455,7 @@ Description: "MedicationStatement for ferrous gluconate - stopped on 2025-07-02 
 * dateAsserted = "2025-07-02T13:00:00-08:00"
 * informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#242590 "ferrous gluconate 240 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#11845-137-51
+// * medicationCodeableConcept[0].coding[1] = $NDC#11845-137-51  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medstmt-ferrous-2-10
 InstanceOf: MedicationStatement
@@ -467,7 +467,7 @@ Description: "MedicationStatement for ferrous gluconate - active on 2025-07-02 f
 * dateAsserted = "2025-07-02T13:00:00-08:00"
 * informationSource = Reference(Organization/org-Motor-City-Skilled-Nursing-Facility)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#702249 "ferrous sulfate 44 MG/ML Oral Solution"
-* medicationCodeableConcept[0].coding[1] = $NDC#0536-1400-85
+// * medicationCodeableConcept[0].coding[1] = $NDC#0536-1400-85  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medstmt-insulin-2-11
 InstanceOf: MedicationStatement
@@ -551,7 +551,7 @@ Description: "MedicationStatement for polyethylene - stopped on 2025-07-03 from 
 * dateAsserted = "2025-07-03T09:00:00-08:00"
 * informationSource = Reference(Organization/org-Motown-Home-Health)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
-* medicationCodeableConcept[0].coding[1] = $NDC#63739-198-62
+// * medicationCodeableConcept[0].coding[1] = $NDC#63739-198-62  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medstmt-sertraline-3-5
 InstanceOf: MedicationStatement
@@ -575,7 +575,7 @@ Description: "MedicationStatement for sitagliptin - active on 2025-07-03 from or
 * dateAsserted = "2025-07-03T09:00:00-08:00"
 * informationSource = Reference(Organization/org-Motown-Home-Health)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#665042 "sitagliptin 50 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#70710-1900-9
+// * medicationCodeableConcept[0].coding[1] = $NDC#70710-1900-9  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 // Instance: bsj1-smp-medstmt-sitagliptin-3-7
 // InstanceOf: MedicationStatement
@@ -623,7 +623,7 @@ Description: "MedicationStatement for ferrous gluconate - active on 2025-07-16 f
 * dateAsserted = "2025-07-16T11:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#702249 "ferrous sulfate 44 MG/ML Oral Solution"
-* medicationCodeableConcept[0].coding[1] = $NDC#0536-1400-85
+// * medicationCodeableConcept[0].coding[1] = $NDC#0536-1400-85  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medstmt-insulin-4-4
 InstanceOf: MedicationStatement
@@ -671,7 +671,7 @@ Description: "MedicationStatement for pitavastatin - active on 2025-07-16 from o
 * dateAsserted = "2025-07-16T11:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#861652 "pitavastatin calcium 4 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#72603-480-01
+// * medicationCodeableConcept[0].coding[1] = $NDC#72603-480-01  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medstmt-sitagliptin-4-8
 InstanceOf: MedicationStatement
@@ -683,7 +683,7 @@ Description: "MedicationStatement for sitagliptin - active on 2025-07-16 from or
 * dateAsserted = "2025-07-16T11:30:00-08:00"
 * informationSource = Reference(Organization/org-Michigan-Primary-Health-Care-A)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#665042 "sitagliptin 50 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#70710-1900-9
+// * medicationCodeableConcept[0].coding[1] = $NDC#70710-1900-9  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medstmt-jardiance-5-1
 InstanceOf: MedicationStatement

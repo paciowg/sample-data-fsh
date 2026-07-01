@@ -34,7 +34,7 @@ Usage: #Example
 Description: "Betsy Smith-Johnson's Diagnostic Report - Cholesterol"
 * status = #final
 * category = $observation-category#laboratory "Laboratory"
-* code = $loinc#35200-5 "Cholesterol [Mass or Moles/volume] in Serum or Plasma"
+* code = $loinc#2093-3 "Cholesterol [Mass/volume] in Serum or Plasma"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * effectiveDateTime = "2025-05-03T08:30:00+11:00"
 * performer = Reference(Organization/org-ED-Metro-Hospital)
