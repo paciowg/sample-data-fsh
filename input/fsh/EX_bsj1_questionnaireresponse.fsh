@@ -500,7 +500,7 @@ Usage: #example
 * item[=].answer.valueCoding.extension.valueDecimal = 04
 * item[+].linkId = "/89402-2"
 * item[=].text = "Picking up object"
-* item[=].answer.valueCoding = $loinc#LA27994-5 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
+* item[=].answer.valueCoding = $loinc#LA27994-5 "Setup or clean-up assistance - Helper sets up or cleans up; resident completes activity. Helper assists only prior to or following the activity."
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 05
 * item[+].linkId = "/95738-1"

@@ -64,13 +64,13 @@ Description: "Betsy Smith-Johnson inpatient discharge care plan dated 2026-02-26
 * status = #active
 * intent = #plan
 * created = "2026-02-26T12:00:00-05:00"
-* category[0] = $sct#736271009 "Discharge care plan"
+* category[0] = $sct#736271009 "Outpatient care plan (record artifact)"
 * category[+] = $careplan-category#assess-plan
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * goal = Reference(Goal/bsj1-goal-attend-wedding-20260226)
 * activity[0].detail.kind = #ServiceRequest
 * activity[=].detail.status = #scheduled
-* activity[=].detail.code = $sct#225323000 "Fall prevention education"
+* activity[=].detail.code = $sct#225323000 "Smoking cessation advice"
 * activity[=].detail.description = "Safety measures to prevent falls."
 * activity[+].detail.kind = #ServiceRequest
 * activity[=].detail.status = #scheduled
@@ -89,14 +89,14 @@ Description: "Betsy Smith-Johnson HHA discharge care plan update dated 2026-04-1
 * status = #active
 * intent = #plan
 * created = "2026-04-15T10:00:00-04:00"
-* category[0] = $sct#736271009 "Discharge care plan"
+* category[0] = $sct#736271009 "Outpatient care plan (record artifact)"
 * category[+] = $careplan-category#assess-plan
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * replaces = Reference(CarePlan/bsj1-careplan-discharge-20260226)
 * goal = Reference(Goal/bsj1-goal-attend-wedding-20260226)
 * activity[0].detail.kind = #ServiceRequest
 * activity[=].detail.status = #scheduled
-* activity[=].detail.code = $sct#225323000 "Fall prevention education"
+* activity[=].detail.code = $sct#225323000 "Smoking cessation advice"
 * activity[=].detail.description = "Safety measures to prevent falls."
 * activity[+].detail.kind = #ServiceRequest
 * activity[=].detail.status = #scheduled

@@ -861,7 +861,7 @@ Usage: #example
 * item[=].linkId = "assessment_date"
 * item[=].text = "Please report the date this assessment was complete."
 * item[+].type = #choice
-* item[=].code = $loinc#61577-3 "In general, would you say your health is..."
+* item[=].code = $loinc#61577-3 "In general, would you say your health is"
 * item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].extension.valueCodeableConcept.text = "Drop down"
@@ -884,7 +884,7 @@ Usage: #example
 * item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answerOption[=].extension.valueDecimal = 1
 * item[+].type = #choice
-* item[=].code = $loinc#61578-1 "In general, would you say your quality of life is..."
+* item[=].code = $loinc#61578-1 "In general, would you say your quality of life is [PROMIS]"
 * item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].extension.valueCodeableConcept.text = "Drop down"
@@ -907,7 +907,7 @@ Usage: #example
 * item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answerOption[=].extension.valueDecimal = 1
 * item[+].type = #choice
-* item[=].code = $loinc#61579-9 "In general, how would you rate your physical health?"
+* item[=].code = $loinc#61579-9 "In general, how would you rate your physical health [PROMIS]"
 * item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].extension.valueCodeableConcept.text = "Drop down"
@@ -930,7 +930,7 @@ Usage: #example
 * item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answerOption[=].extension.valueDecimal = 1
 * item[+].type = #choice
-* item[=].code = $loinc#61580-7 "In general, how would you rate your mental health, including your mood and your ability  to think?"
+* item[=].code = $loinc#61580-7 "In general, how would you rate your mental health, including your mood and your ability to think [PROMIS]"
 * item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].extension.valueCodeableConcept.text = "Drop down"
@@ -953,7 +953,7 @@ Usage: #example
 * item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answerOption[=].extension.valueDecimal = 1
 * item[+].type = #choice
-* item[=].code = $loinc#61581-5 "In general, how would you rate your satisfaction with your social activities and relationships?"
+* item[=].code = $loinc#61581-5 "In general, how would you rate your satisfaction with you social activities and relationships [PROMIS]"
 * item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].extension.valueCodeableConcept.text = "Drop down"
@@ -976,7 +976,7 @@ Usage: #example
 * item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answerOption[=].extension.valueDecimal = 1
 * item[+].type = #choice
-* item[=].code = $loinc#61585-6 "In general, please rate how well you carry out  your usual social activities and roles. (This includes activities at home, at work and in your community, and responsibilities as a parent, child, spouse, employee, friend, etc.)"
+* item[=].code = $loinc#61585-6 "In general, please rate how well you carry out your usual social activities and roles [PROMIS]"
 * item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].extension.valueCodeableConcept.text = "Drop down"
@@ -1003,7 +1003,7 @@ Usage: #example
 * item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].extension.valueCodeableConcept.text = "Drop down"
 * item[=].linkId = "physical_activities"
-* item[=].code = $loinc#61582-3 "In the past 7 days, to what extent are you able to carry out your everyday physical activities such as walking, climbing stairs, carrying groceries, or moving a chair?"
+* item[=].code = $loinc#61582-3 "To what extent are you able to carry out your everyday physical activities such as walking, climbing stairs, carrying groceries, or moving a chair [PROMIS]"
 * item[=].text = "In the past 7 days, to what extent are you able to carry out your everyday physical activities such as walking, climbing stairs, carrying groceries, or moving a chair?"
 * item[=].required = true
 * item[=].answerOption[0].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
@@ -1026,7 +1026,7 @@ Usage: #example
 * item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].extension.valueCodeableConcept.text = "Drop down"
 * item[=].linkId = "emotional"
-* item[=].code = $loinc#61586-4 "In the past 7 days, how often have you been bothered by emotional problems such as feeling anxious, depressed or irritable?"
+* item[=].code = $loinc#61586-4 "How often have you been bothered by emotional problems such as feeling anxious, depressed or irritable in past 7 days [PROMIS]"
 * item[=].text = "In the past 7 days, how often have you been bothered by emotional problems such as feeling anxious, depressed or irritable?"
 * item[=].required = true
 * item[=].answerOption[0].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
@@ -1049,7 +1049,7 @@ Usage: #example
 * item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].extension.valueCodeableConcept.text = "Drop down"
 * item[=].linkId = "fatigue"
-* item[=].code = $loinc#61584-9 "In the past 7 days, how would you rate your fatigue on average?"
+* item[=].code = $loinc#61584-9 "How would you rate your fatigue on average in past 7 days [PROMIS]"
 * item[=].text = "In the past 7 days, how would you rate your fatigue on average?"
 * item[=].required = true
 * item[=].answerOption[0].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
@@ -1072,18 +1072,18 @@ Usage: #example
 * item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].extension.valueCodeableConcept.text = "Drop down"
 * item[=].linkId = "pain"
-* item[=].code = $loinc#61583-1 "On a scale of 0-10, with 10 being the worst pain imaginable and 0 being no pain, how would you rate your pain on average?"
+* item[=].code = $loinc#61583-1 "How would you rate your pain on average in past 7 days [PROMIS]"
 * item[=].text = "On a scale of 0-10, with 10 being the worst pain imaginable and 0 being no pain, how would you rate your pain on average?"
 * item[=].required = true
 * item[=].answerOption[0].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answerOption[=].extension.valueDecimal = 0
-* item[=].answerOption[=].valueCoding = $loinc#LA26951-6 "0 - No Pain"
+* item[=].answerOption[=].valueCoding = $loinc#LA26951-6 "0:\"No pain"
 * item[=].answerOption[+].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answerOption[=].extension.valueDecimal = 1
 * item[=].answerOption[=].valueCoding = $loinc#LA6112-2 "1"
 * item[=].answerOption[+].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answerOption[=].extension.valueDecimal = 2
-* item[=].answerOption[=].valueCoding = $loinc#LA6113-0 "2"
+* item[=].answerOption[=].valueCoding = $loinc#LA6113-0 "2 or more"
 * item[=].answerOption[+].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answerOption[=].extension.valueDecimal = 3
 * item[=].answerOption[=].valueCoding = $loinc#LA6114-8 "3"
@@ -1107,7 +1107,7 @@ Usage: #example
 * item[=].answerOption[=].valueCoding = $loinc#LA10141-2 "9"
 * item[=].answerOption[+].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answerOption[=].extension.valueDecimal = 10
-* item[=].answerOption[=].valueCoding = $loinc#LA26952-4 "10 - Worst Pain Imaginable"
+* item[=].answerOption[=].valueCoding = $loinc#LA26952-4 "10: \"Worst pain imaginable"
 * item[+].type = #decimal
 * item[=].linkId = "physical_health_score"
 * item[=].code = $loinc#71972-4 "PROMIS-10 Global Physical Health (GPH) score"

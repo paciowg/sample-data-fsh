@@ -477,7 +477,7 @@ Usage: #example
 * item[=].answer.valueCoding.extension.valueDecimal = 5
 * item[=].linkId = "fatigue"
 * item[=].text = "In the past 7 days, how would you rate your fatigue on average?"
-* item[+].answer.valueCoding = $loinc#LA6113-0 "2"
+* item[+].answer.valueCoding = $loinc#LA6113-0 "2 or more"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 * item[=].linkId = "pain"
