@@ -453,7 +453,7 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-OT-JenCadbury)
-* valueCodeableConcept = $loinc#LA10055-4 "Partial/moderate assistance - helper does less than half the effort. Helper lifts, holds or supports trunk or limbs, but provides less than half the effort."
+* valueCodeableConcept = $loinc#LA10055-4 "Partial/moderate assistance - Helper does less than half the effort. Helper lifts, holds, or supports trunk or limbs, but provides less than half the effort."
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
@@ -645,7 +645,7 @@ Description: "Betsy Smith-Johnson Braden Scale assessment collection on 2026-02-
 * status = #final
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#functional-status "Functional Status"
-* code = $loinc#38228-3 "Braden scale panel"
+* code = $loinc#38228-3 "Braden scale skin assessment panel"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2026-02-27T10:00:00-05:00"
 * performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
@@ -665,7 +665,7 @@ Description: "Betsy Smith-Johnson Braden Scale sensory perception subscale on 20
 * status = #final
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#functional-status "Functional Status"
-* code = $loinc#38222-6 "Ability to respond meaningfully to pressure-related discomfort"
+* code = $loinc#38222-6 "Sensory perception Braden scale"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2026-02-27T10:00:00-05:00"
 * performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
@@ -679,7 +679,7 @@ Description: "Betsy Smith-Johnson Braden Scale moisture subscale on 2026-02-27."
 * status = #final
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#functional-status "Functional Status"
-* code = $loinc#38229-1 "Degree to which skin is exposed to moisture"
+* code = $loinc#38229-1 "Moisture exposure Braden scale"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2026-02-27T10:00:00-05:00"
 * performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
@@ -693,7 +693,7 @@ Description: "Betsy Smith-Johnson Braden Scale activity subscale on 2026-02-27."
 * status = #final
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#functional-status "Functional Status"
-* code = $loinc#38223-4 "Degree of physical activity"
+* code = $loinc#38223-4 "Physical activity Braden scale"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2026-02-27T10:00:00-05:00"
 * performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
@@ -707,7 +707,7 @@ Description: "Betsy Smith-Johnson Braden Scale mobility subscale on 2026-02-27."
 * status = #final
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#functional-status "Functional Status"
-* code = $loinc#38224-2 "Ability to change and control body position"
+* code = $loinc#38224-2 "Physical mobility Braden scale"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2026-02-27T10:00:00-05:00"
 * performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
@@ -721,7 +721,7 @@ Description: "Betsy Smith-Johnson Braden Scale nutrition subscale on 2026-02-27.
 * status = #final
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#functional-status "Functional Status"
-* code = $loinc#38225-9 "Usual food intake pattern"
+* code = $loinc#38225-9 "Nutrition intake pattern Braden scale"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2026-02-27T10:00:00-05:00"
 * performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
@@ -735,7 +735,7 @@ Description: "Betsy Smith-Johnson Braden Scale friction and shear subscale on 20
 * status = #final
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#functional-status "Functional Status"
-* code = $loinc#38226-7 "Friction and shear"
+* code = $loinc#38226-7 "Friction and shear Braden scale"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2026-02-27T10:00:00-05:00"
 * performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
@@ -764,7 +764,7 @@ Description: "Betsy Smith-Johnson Braden Scale assessment collection on 2026-04-
 * status = #final
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#functional-status "Functional Status"
-* code = $loinc#38228-3 "Braden scale panel"
+* code = $loinc#38228-3 "Braden scale skin assessment panel"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2026-04-15T10:00:00-04:00"
 * performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
@@ -784,7 +784,7 @@ Description: "Betsy Smith-Johnson Braden Scale sensory perception subscale on 20
 * status = #final
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#functional-status "Functional Status"
-* code = $loinc#38222-6 "Ability to respond meaningfully to pressure-related discomfort"
+* code = $loinc#38222-6 "Sensory perception Braden scale"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2026-04-15T10:00:00-04:00"
 * performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
@@ -798,7 +798,7 @@ Description: "Betsy Smith-Johnson Braden Scale moisture subscale on 2026-04-15."
 * status = #final
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#functional-status "Functional Status"
-* code = $loinc#38229-1 "Degree to which skin is exposed to moisture"
+* code = $loinc#38229-1 "Moisture exposure Braden scale"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2026-04-15T10:00:00-04:00"
 * performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
@@ -812,7 +812,7 @@ Description: "Betsy Smith-Johnson Braden Scale activity subscale on 2026-04-15."
 * status = #final
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#functional-status "Functional Status"
-* code = $loinc#38223-4 "Degree of physical activity"
+* code = $loinc#38223-4 "Physical activity Braden scale"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2026-04-15T10:00:00-04:00"
 * performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
@@ -826,7 +826,7 @@ Description: "Betsy Smith-Johnson Braden Scale mobility subscale on 2026-04-15."
 * status = #final
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#functional-status "Functional Status"
-* code = $loinc#38224-2 "Ability to change and control body position"
+* code = $loinc#38224-2 "Physical mobility Braden scale"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2026-04-15T10:00:00-04:00"
 * performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
@@ -840,7 +840,7 @@ Description: "Betsy Smith-Johnson Braden Scale nutrition subscale on 2026-04-15.
 * status = #final
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#functional-status "Functional Status"
-* code = $loinc#38225-9 "Usual food intake pattern"
+* code = $loinc#38225-9 "Nutrition intake pattern Braden scale"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2026-04-15T10:00:00-04:00"
 * performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
@@ -854,7 +854,7 @@ Description: "Betsy Smith-Johnson Braden Scale friction and shear subscale on 20
 * status = #final
 * category[0] = $observation-category#survey "Survey"
 * category[+] = $us-core-category#functional-status "Functional Status"
-* code = $loinc#38226-7 "Friction and shear"
+* code = $loinc#38226-7 "Friction and shear Braden scale"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2026-04-15T10:00:00-04:00"
 * performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
@@ -884,7 +884,7 @@ Description: "Observation derived from QuestionnaireResponse betsysmith-johnson0
 * category[0] = http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-survey-category-cs#survey
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#b130 "Energy and drive functions"
-* code = $loinc#44250-9 "Little interest or pleasure in doing things"
+* code = $loinc#44250-9 "Little interest or pleasure in doing things in last 2 weeks"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2026-02-20T16:30:00.000Z"
 * performer = Reference(PractitionerRole/PractitionerRole-RN-TreyvorClark)
@@ -904,7 +904,7 @@ Description: "Observation derived from QuestionnaireResponse betsysmith-johnson0
 * category[0] = http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-survey-category-cs#survey
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#b152 "Emotional functions"
-* code = $loinc#44255-8 "Feeling down, depressed, or hopeless"
+* code = $loinc#44255-8 "Feeling down, depressed, or hopeless in last 2 weeks"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2026-02-20T16:30:00.000Z"
 * performer = Reference(PractitionerRole/PractitionerRole-RN-TreyvorClark)
@@ -924,7 +924,7 @@ Description: "Observation derived from QuestionnaireResponse betsysmith-johnson0
 * category[0] = http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-survey-category-cs#survey
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#b134 "Sleep functions"
-* code = $loinc#44259-0 "Trouble falling or staying asleep, or sleeping too much"
+* code = $loinc#44259-0 "Trouble falling or staying asleep, or sleeping too much in last 2 weeks [Reported.PHQ]"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2026-02-20T16:30:00.000Z"
 * performer = Reference(PractitionerRole/PractitionerRole-RN-TreyvorClark)
@@ -944,7 +944,7 @@ Description: "Observation derived from QuestionnaireResponse betsysmith-johnson0
 * category[0] = http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-survey-category-cs#survey
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#b130 "Energy and drive functions"
-* code = $loinc#44254-1 "Feeling tired or having little energy"
+* code = $loinc#44254-1 "Feeling tired or having little energy in last 2 weeks [Reported.PHQ]"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2026-02-20T16:30:00.000Z"
 * performer = Reference(PractitionerRole/PractitionerRole-RN-TreyvorClark)
@@ -964,7 +964,7 @@ Description: "Observation derived from QuestionnaireResponse betsysmith-johnson0
 * category[0] = http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-survey-category-cs#survey
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#b130 "Energy and drive functions"
-* code = $loinc#44251-7 "Poor appetite or overeating"
+* code = $loinc#44251-7 "Poor appetite or overeating in last 2 weeks [Reported.PHQ]"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2026-02-20T16:30:00.000Z"
 * performer = Reference(PractitionerRole/PractitionerRole-RN-TreyvorClark)
@@ -984,7 +984,7 @@ Description: "Observation derived from QuestionnaireResponse betsysmith-johnson0
 * category[0] = http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-survey-category-cs#survey
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#b180 "Experience of self and time functions"
-* code = $loinc#44258-2 "Feeling bad about yourself-or that you are a failure or have let yourself or your family down"
+* code = $loinc#44258-2 "Feeling bad about yourself - or that you are a failure or have let yourself or your family down in last 2 weeks [Reported.PHQ]"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2026-02-20T16:30:00.000Z"
 * performer = Reference(PractitionerRole/PractitionerRole-RN-TreyvorClark)
@@ -1004,7 +1004,7 @@ Description: "Observation derived from QuestionnaireResponse betsysmith-johnson0
 * category[0] = http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-survey-category-cs#survey
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#b140 "Attention functions"
-* code = $loinc#44252-5 "Trouble concentrating on things, such as reading the newspaper or watching television"
+* code = $loinc#44252-5 "Trouble concentrating on things, such as reading the newspaper or watching television in last 2 weeks [Reported.PHQ]"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2026-02-20T16:30:00.000Z"
 * performer = Reference(PractitionerRole/PractitionerRole-RN-TreyvorClark)
@@ -1024,7 +1024,7 @@ Description: "Observation derived from QuestionnaireResponse betsysmith-johnson0
 * category[0] = http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-survey-category-cs#survey
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#b167 "Mental functions of language"
-* code = $loinc#44253-3 "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you were moving around a lot more than usual"
+* code = $loinc#44253-3 "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual in last 2 weeks [Reported.PHQ]"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2026-02-20T16:30:00.000Z"
 * performer = Reference(PractitionerRole/PractitionerRole-RN-TreyvorClark)
@@ -1044,7 +1044,7 @@ Description: "Observation derived from QuestionnaireResponse betsysmith-johnson0
 * category[0] = http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-survey-category-cs#survey
 * category[+] = $us-core-category#cognitive-status "Cognitive Status"
 * category[+] = $pfe-category-cs#b160 "Thought functions"
-* code = $loinc#44260-8 "Thoughts that you would be better off dead, or of hurting yourself in some way"
+* code = $loinc#44260-8 "Thoughts that you would be better off dead, or of hurting yourself in some way in last 2 weeks [Reported.PHQ]"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2026-02-20T16:30:00.000Z"
 * performer = Reference(PractitionerRole/PractitionerRole-RN-TreyvorClark)

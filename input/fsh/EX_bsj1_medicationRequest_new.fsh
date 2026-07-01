@@ -82,7 +82,7 @@ Description: "MedicationRequest for colace - stopped order on 2025-04-22 by Role
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#1247756 "docusate sodium 100 MG Oral Capsule"
+* medicationCodeableConcept[0].coding[0] = $rxnorm#1247756 "docusate sodium 100 MG Oral Capsule [Colace]"
 * medicationCodeableConcept[0].coding[1] = $NDC#68788-8658-1
 
 Instance: bsj1-smp-medrx-ferrous-0-8
@@ -118,7 +118,7 @@ Description: "MedicationRequest for jardiance - active order on 2025-04-22 by Ro
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "empagliflozin 10 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "empagliflozin 10 MG Oral Tablet [Jardiance]"
 * medicationCodeableConcept[0].coding[1] = $NDC#0597-0152-07
 
 Instance: bsj1-smp-medrx-lipitor-0-11
@@ -130,7 +130,7 @@ Description: "MedicationRequest for lipitor - active order on 2025-04-22 by Role
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet [Lipitor]"
 * medicationCodeableConcept[0].coding[1] = $NDC#0071-0157-23
 
 Instance: bsj1-smp-medrx-metformin-0-12
@@ -250,7 +250,7 @@ Description: "MedicationRequest for jardiance - draft order on 2025-05-03 by Pra
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authoredOn = "2025-05-03T14:45:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "empagliflozin 10 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "empagliflozin 10 MG Oral Tablet [Jardiance]"
 * medicationCodeableConcept[0].coding[1] = $NDC#55154-0411-8
 
 Instance: bsj1-smp-medrx-lipitor-1-6
@@ -262,7 +262,7 @@ Description: "MedicationRequest for lipitor - active order on 2025-05-03 by Prac
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authoredOn = "2025-05-03T14:45:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet [Lipitor]"
 * medicationCodeableConcept[0].coding[1] = $NDC#0071-0157-23
 
 Instance: bsj1-smp-medrx-metformin-1-7
@@ -358,7 +358,7 @@ Description: "MedicationRequest for jardiance - draft order on 2025-05-04 by Pra
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authoredOn = "2025-07-01T16:15:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "empagliflozin 10 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "empagliflozin 10 MG Oral Tablet [Jardiance]"
 * medicationCodeableConcept[0].coding[1] = $NDC#55154-0411-8
 
 Instance: bsj1-smp-medrx-lipitor-2-2
@@ -370,7 +370,7 @@ Description: "MedicationRequest for lipitor - active order on 2025-05-04 by Prac
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authoredOn = "2025-07-01T16:15:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet [Lipitor]"
 * medicationCodeableConcept[0].coding[1] = $NDC#0071-0157-23
 
 Instance: bsj1-smp-medrx-metformin-2-3
@@ -490,7 +490,7 @@ Description: "MedicationRequest for jardiance - stopped order on 2025-07-02 by P
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authoredOn = "2025-07-02T13:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "empagliflozin 10 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "empagliflozin 10 MG Oral Tablet [Jardiance]"
 * medicationCodeableConcept[0].coding[1] = $NDC#55154-0411-8
 
 Instance: bsj1-smp-medrx-lipitor-2-13
@@ -502,7 +502,7 @@ Description: "MedicationRequest for lipitor - active order on 2025-07-02 by Prac
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authoredOn = "2025-07-02T13:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet [Lipitor]"
 * medicationCodeableConcept[0].coding[1] = $NDC#0071-0157-23
 
 Instance: bsj1-smp-medrx-lipitor-3-1
@@ -514,7 +514,7 @@ Description: "MedicationRequest for lipitor - draft order on 2025-07-03 by Pract
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authoredOn = "2025-07-03T09:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-DNP-JudySalas)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet [Lipitor]"
 * medicationCodeableConcept[0].coding[1] = $NDC#0071-0157-23
 
 Instance: bsj1-smp-medrx-metformin-3-2
@@ -646,7 +646,7 @@ Description: "MedicationRequest for lipitor - stopped order on 2025-07-16 by Rol
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authoredOn = "2025-07-16T11:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet [Lipitor]"
 * medicationCodeableConcept[0].coding[1] = $NDC#0071-0157-23
 
 Instance: bsj1-smp-medrx-metformin-4-6
@@ -694,7 +694,7 @@ Description: "MedicationRequest for jardiance - active order on 2025-10-16 by Ro
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authoredOn = "2025-10-16T11:02:40.456Z"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "empagliflozin 10 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "empagliflozin 10 MG Oral Tablet [Jardiance]"
 * medicationCodeableConcept[0].coding[1] = $NDC#55154-0411-8
 
 Instance: bsj1-smp-medrx-sertraline-5-2
@@ -718,5 +718,5 @@ Description: "MedicationRequest for lipitor - active order on 2025-10-16 by Role
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authoredOn = "2025-10-16T11:02:40.456Z"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet [Lipitor]"
 * medicationCodeableConcept[0].coding[1] = $NDC#0071-0157-23

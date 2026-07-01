@@ -42,7 +42,7 @@ Description: "Betsy Smith-Johnson's TOC Document from Hospital to SNF as a Disch
 * section[behavioral_health].emptyReason = $list-empty-reason#notasked "Not Asked"
 
 * section[functional_status].title = "Functional status of Betsy Smith Johnson"
-* section[functional_status].code = $loinc#47420-5 "Functional status"
+* section[functional_status].code = $loinc#47420-5 "Functional status assessment note"
 * section[functional_status].text.status = #additional
 * section[functional_status].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Functional status of Betsy Smith Johnson</div>"
 * section[functional_status].emptyReason = $list-empty-reason#notasked "Not Asked"
@@ -60,7 +60,7 @@ Description: "Betsy Smith-Johnson's TOC Document from Hospital to SNF as a Disch
 * section[medical_devices].emptyReason = $list-empty-reason#notasked "Not Asked"
 
 * section[medications].title = "List of medications prescribed for Betsy Smith Johnson"
-* section[medications].code = $loinc#10160-0 "History of Medication Use"
+* section[medications].code = $loinc#10160-0 "History of Medication use Narrative"
 * section[medications].text.status = #additional
 * section[medications].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of medications prescribed for Betsy Smith Johnson</div>"
 * section[medications].entry[0] = Reference(List/bsj1-smp-medListNew-0)  // SMP Medication List from home prior to ED visit.
@@ -102,7 +102,7 @@ Description: "Betsy Smith-Johnson's TOC Document from Hospital to SNF as a Disch
 * section[reason_for_referral].emptyReason = $list-empty-reason#notasked "Not Asked"
 
 * section[clinical_results].title = "Betsy Smith Johnson relevant diagnostic and relevant test results"
-* section[clinical_results].code = $loinc#30954-2 "Relevant diagnostic tests/laboratory data Narrative"
+* section[clinical_results].code = $loinc#30954-2 "Relevant diagnostic tests/laboratory data note"
 * section[clinical_results].text.status = #additional
 * section[clinical_results].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of test results for Betsy Smith Johnson</div>"
 * section[clinical_results].entry[0] = Reference(DiagnosticReport/betsysmith-johnson01-diagnosticReport-CTScan-01)
@@ -113,7 +113,7 @@ Description: "Betsy Smith-Johnson's TOC Document from Hospital to SNF as a Disch
 * section[clinical_results].entry[+] = Reference(Observation/betsysmith-johnson01-Lab-Hemoglobin-02)
 
 * section[discharge_instructions].title = "Discharge instructions for Betsy Smith Johnson"
-* section[discharge_instructions].code = $loinc#69730-0 "Discharge Instructions"
+* section[discharge_instructions].code = $loinc#69730-0 "Instructions"
 * section[discharge_instructions].text.status = #additional
 * section[discharge_instructions].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Discharge instructions for Betsy Smith Johnson</div>"
 * section[discharge_instructions].entry[0] = Reference(Composition/BSJ1-composition-CCDA-dischargeSummary-01) // CCDA Discharge Summary
@@ -168,7 +168,7 @@ Description: "Betsy Smith-Johnson's TOC Document from SNF to Home Health. Includ
 * section[behavioral_health].emptyReason = $list-empty-reason#notasked "Not Asked"
 
 * section[functional_status].title = "Functional status of Betsy Smith Johnson"
-* section[functional_status].code = $loinc#47420-5 "Functional status"
+* section[functional_status].code = $loinc#47420-5 "Functional status assessment note"
 * section[functional_status].text.status = #additional
 * section[functional_status].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Functional status of Betsy Smith Johnson</div>"
 * section[functional_status].emptyReason = $list-empty-reason#notasked "Not Asked"
@@ -186,7 +186,7 @@ Description: "Betsy Smith-Johnson's TOC Document from SNF to Home Health. Includ
 * section[medical_devices].emptyReason = $list-empty-reason#notasked "Not Asked"
 
 * section[medications].title = "List of medications prescribed for Betsy Smith Johnson"
-* section[medications].code = $loinc#10160-0 "History of Medication Use"
+* section[medications].code = $loinc#10160-0 "History of Medication use Narrative"
 * section[medications].text.status = #additional
 * section[medications].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of medications prescribed for Betsy Smith Johnson</div>"
 * section[medications].entry[0] = Reference(List/bsj1-smp-medListNew-2)  // SMP Medication List from the SNF.
@@ -240,7 +240,7 @@ Description: "Betsy Smith-Johnson's TOC Document from SNF to Home Health. Includ
 * section[clinical_results].emptyReason = $list-empty-reason#notasked "Not Asked"
 
 * section[discharge_instructions].title = "Discharge instructions for Betsy Smith Johnson"
-* section[discharge_instructions].code = $loinc#69730-0 "Discharge Instructions"
+* section[discharge_instructions].code = $loinc#69730-0 "Instructions"
 * section[discharge_instructions].text.status = #additional
 * section[discharge_instructions].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Discharge instructions for Betsy Smith Johnson</div>"
 * section[discharge_instructions].emptyReason = $list-empty-reason#notasked "Not Asked"

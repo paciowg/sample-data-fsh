@@ -33,14 +33,10 @@ dependencies:
     id: smp
     uri: http://hl7.org/fhir/us/smp/ImplementationGuide/hl7.fhir.us.smp
     version: 1.0.0
-  hl7.fhir.us.mcode:
-    id: mcode
-    uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode
-    version: 4.0.0
   hl7.fhir.us.pacio-pfe:
     id: pfe
     uri: http://hl7.org/fhir/us/pacio-pfe/ImplementationGuide/hl7.fhir.us.pacio-pfe
-    version: 2.0.0
+    version: current
   hl7.fhir.us.pacio-toc:
     id: toc
     uri: http://hl7.org/fhir/us/pacio-toc/ImplementationGuide/hl7.fhir.us.pacio-toc

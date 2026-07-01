@@ -16,14 +16,14 @@ Usage: #example
 * contact.telecom.system = #url
 * contact.telecom.value = "http://loinc.org"
 * copyright = "This material contains content from LOINC (http://loinc.org). LOINC is copyright © Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee. All rights reserved. LOINC is available at no cost under the license at http://loinc.org/license. LOINC® is a registered United States trademark of Regenstrief Institute, Inc.\r\nCopyright © 2003 Sharon K. Inouye, M.D., MPH. Adapted from: Inouye SK, vanDyck CH, Alessi CA, Balkin S, Siegal AP, Horwitz RI. Clarifying confusion: The Confusion Assessment Method. A new method for detection of delirium. Ann Intern Med. 1990; 113: 941-948. Confusion Assessment Method: Training Manual and Coding Guide. Used with permission.\r\nCopyright © Pfizer Inc. All rights reserved. Developed by Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke and colleagues, with an educational grant from Pfizer Inc. No permission required to reproduce, translate, display or distribute."
-* code = $loinc#90473-0 "MDS v3.0 - RAI v1.17.1, 1.17.2 - Nursing home comprehensive (NC) item set"
+* code = $loinc#90473-0 "Deprecated MDS v3.0 - RAI v1.17.1, 1.17.2 - Nursing home comprehensive (NC) item set during assessment period [CMS Assessment]"
 * item[0].linkId = "105334"
 * item[=].prefix = "A"
 * item[=].text = "Identification Information"
 * item[=].type = #group
 * item[=].required = true
 * item[=].item[0].linkId = "102711"
-* item[=].item[=].code = $loinc#58198-3 "Type of Record"
+* item[=].item[=].code = $loinc#58198-3 "Type of record during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "A0050"
 * item[=].item[=].text = "Type of Record"
 * item[=].item[=].type = #choice
@@ -37,25 +37,25 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "102713"
-* item[=].item[=].item[=].code = $loinc#76468-8 "National Provider Identifier (NPI)"
+* item[=].item[=].item[=].code = $loinc#76468-8 "Organization NPI"
 * item[=].item[=].item[=].prefix = "A0100A"
 * item[=].item[=].item[=].text = "National Provider Identifier (NPI)"
 * item[=].item[=].item[=].type = #string
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "102714"
-* item[=].item[=].item[=].code = $loinc#69417-4 "CMS Certification Number (CCN)"
+* item[=].item[=].item[=].code = $loinc#69417-4 "CMS certification number (CCN) for Facility"
 * item[=].item[=].item[=].prefix = "A0100B"
 * item[=].item[=].item[=].text = "CMS Certification Number (CCN)"
 * item[=].item[=].item[=].type = #string
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "102715"
-* item[=].item[=].item[=].code = $loinc#45398-5 "State Provider Number"
+* item[=].item[=].item[=].code = $loinc#45398-5 "State provider number for Facility"
 * item[=].item[=].item[=].prefix = "A0100C"
 * item[=].item[=].item[=].text = "State Provider Number"
 * item[=].item[=].item[=].type = #string
 * item[=].item[=].item[=].repeats = false
 * item[=].item[+].linkId = "102716"
-* item[=].item[=].code = $loinc#85632-8 "Type of Provider"
+* item[=].item[=].code = $loinc#85632-8 "Facility type during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "A0200"
 * item[=].item[=].text = "Type of Provider"
 * item[=].item[=].type = #choice
@@ -68,7 +68,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item.linkId = "105339"
-* item[=].item[=].item.code = $loinc#90522-4 "Is this assessment for state payment purposes only?"
+* item[=].item[=].item.code = $loinc#90522-4 "Assessment for state payment during assessment period [CMS Assessment]"
 * item[=].item[=].item.prefix = "A0300A"
 * item[=].item[=].item.text = "Is this assessment for state payment purposes only?"
 * item[=].item[=].item.type = #choice
@@ -81,7 +81,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "102718"
-* item[=].item[=].item[=].code = $loinc#54583-0 "Federal OBRA Reason for Assessment"
+* item[=].item[=].item[=].code = $loinc#54583-0 "Federal OBRA reason for assessment during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "A0310A"
 * item[=].item[=].item[=].text = "Federal OBRA Reason for Assessment"
 * item[=].item[=].item[=].type = #choice
@@ -94,7 +94,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA10889-6 "Significant correction to prior quarterly assessment"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA9-3 "None of the above"
 * item[=].item[=].item[+].linkId = "102719"
-* item[=].item[=].item[=].code = $loinc#54584-8 "PPS Assessment"
+* item[=].item[=].item[=].code = $loinc#54584-8 "PPS Assessment during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "A0310B"
 * item[=].item[=].item[=].text = "PPS Assessment"
 * item[=].item[=].item[=].type = #choice
@@ -103,7 +103,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA29577-6 "IPA - Interim Payment Assessment"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA9-3 "None of the above"
 * item[=].item[=].item[+].linkId = "102722"
-* item[=].item[=].item[=].code = $loinc#54587-1 "Is this assessment the first assessment (OBRA, Scheduled PPS, or Discharge) since the most recent admission/entry or reentry?"
+* item[=].item[=].item[=].code = $loinc#54587-1 "First assessment since the most recent admission/reentry during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "A0310E"
 * item[=].item[=].item[=].text = "Is this assessment the first assessment (OBRA, Scheduled PPS, or Discharge) since the most recent admission/entry or reentry?"
 * item[=].item[=].item[=].type = #choice
@@ -111,7 +111,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[+].linkId = "102723"
-* item[=].item[=].item[=].code = $loinc#58108-2 "Entry/discharge reporting"
+* item[=].item[=].item[=].code = $loinc#58108-2 "Entry/discharge reporting during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "A0310F"
 * item[=].item[=].item[=].text = "Entry/discharge reporting"
 * item[=].item[=].item[=].type = #choice
@@ -122,7 +122,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA12630-2 "Death in facility tracking record"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA9-3 "None of the above"
 * item[=].item[=].item[+].linkId = "102724"
-* item[=].item[=].item[=].code = $loinc#71440-2 "Type of discharge"
+* item[=].item[=].item[=].code = $loinc#71440-2 "Discharge type [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "A0310G"
 * item[=].item[=].item[=].text = "Type of discharge"
 * item[=].item[=].item[=].type = #choice
@@ -130,7 +130,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA20099-0 "Planned"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28017-4 "Unplanned"
 * item[=].item[=].item[+].linkId = "105365"
-* item[=].item[=].item[=].code = $loinc#90525-7 "Is this a SNF Part A Interrupted Stay?"
+* item[=].item[=].item[=].code = $loinc#90525-7 "SNF Part A Interrupted Stay during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "A0310G1"
 * item[=].item[=].item[=].text = "Is this a SNF Part A Interrupted Stay?"
 * item[=].item[=].item[=].type = #choice
@@ -138,7 +138,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[+].linkId = "102725"
-* item[=].item[=].item[=].code = $loinc#86525-3 "Is this a SNF Part A PPS Discharge Assessment?"
+* item[=].item[=].item[=].code = $loinc#86525-3 "SNF Part A PPS discharge assessment during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "A0310H"
 * item[=].item[=].item[=].text = "Is this a SNF Part A PPS Discharge Assessment?"
 * item[=].item[=].item[=].type = #choice
@@ -146,7 +146,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[+].linkId = "102726"
-* item[=].item[=].code = $loinc#86526-1 "Unit Certification or Licensure Designation"
+* item[=].item[=].code = $loinc#86526-1 "Unit certification or licensure designation during assessment period [CMS Assessment] Facility"
 * item[=].item[=].prefix = "A0410"
 * item[=].item[=].text = "Unit Certification or Licensure Designation"
 * item[=].item[=].type = #choice
@@ -160,7 +160,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "102728"
-* item[=].item[=].item[=].code = $loinc#45392-8 "First name"
+* item[=].item[=].item[=].code = $loinc#45392-8 "Patient First (Given) name"
 * item[=].item[=].item[=].prefix = "A0500A"
 * item[=].item[=].item[=].text = "First name"
 * item[=].item[=].item[=].type = #string
@@ -172,13 +172,13 @@ Usage: #example
 * item[=].item[=].item[=].type = #string
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "102730"
-* item[=].item[=].item[=].code = $loinc#45394-4 "Last name"
+* item[=].item[=].item[=].code = $loinc#45394-4 "Patient Last (Family) name"
 * item[=].item[=].item[=].prefix = "A0500C"
 * item[=].item[=].item[=].text = "Last name"
 * item[=].item[=].item[=].type = #string
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "102731"
-* item[=].item[=].item[=].code = $loinc#45395-1 "Suffix"
+* item[=].item[=].item[=].code = $loinc#45395-1 "Patient Name suffix"
 * item[=].item[=].item[=].prefix = "A0500D"
 * item[=].item[=].item[=].text = "Suffix"
 * item[=].item[=].item[=].type = #string
@@ -189,13 +189,13 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "102733"
-* item[=].item[=].item[=].code = $loinc#45396-9 "Social Security Number"
+* item[=].item[=].item[=].code = $loinc#45396-9 "Social Security number [Identifier]"
 * item[=].item[=].item[=].prefix = "A0600A"
 * item[=].item[=].item[=].text = "Social Security Number"
 * item[=].item[=].item[=].type = #string
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "102734"
-* item[=].item[=].item[=].code = $loinc#45397-7 "Medicare number"
+* item[=].item[=].item[=].code = $loinc#45397-7 "Medicare or comparable number"
 * item[=].item[=].item[=].prefix = "A0600B"
 * item[=].item[=].item[=].text = "Medicare number"
 * item[=].item[=].item[=].type = #string
@@ -207,7 +207,7 @@ Usage: #example
 * item[=].item[=].type = #string
 * item[=].item[=].repeats = false
 * item[=].item[+].linkId = "102736"
-* item[=].item[=].code = $loinc#46098-0 "Gender"
+* item[=].item[=].code = $loinc#46098-0 "Sex"
 * item[=].item[=].prefix = "A0800"
 * item[=].item[=].text = "Gender"
 * item[=].item[=].type = #choice
@@ -221,7 +221,7 @@ Usage: #example
 * item[=].item[=].type = #decimal
 * item[=].item[=].repeats = false
 * item[=].item[+].linkId = "102738"
-* item[=].item[=].code = $loinc#59362-4 "Race/Ethnicity"
+* item[=].item[=].code = $loinc#59362-4 "Race or ethnicity OMB.1997"
 * item[=].item[=].prefix = "A1000"
 * item[=].item[=].text = "Race/Ethnicity"
 * item[=].item[=].type = #choice
@@ -238,7 +238,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "102740"
-* item[=].item[=].item[=].code = $loinc#54588-9 "Does the resident need or want an interpreter to communicate with a doctor or health care staff?"
+* item[=].item[=].item[=].code = $loinc#54588-9 "Interpreter needed"
 * item[=].item[=].item[=].prefix = "A1100A"
 * item[=].item[=].item[=].text = "Does the resident need or want an interpreter to communicate with a doctor or health care staff?"
 * item[=].item[=].item[=].type = #choice
@@ -275,32 +275,32 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "102744"
-* item[=].item[=].item[=].code = $loinc#46106-1 "Medical record number"
+* item[=].item[=].item[=].code = $loinc#46106-1 "Medical record number [Identifier]"
 * item[=].item[=].item[=].prefix = "A1300A"
 * item[=].item[=].item[=].text = "Medical record number"
 * item[=].item[=].item[=].type = #string
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "102745"
-* item[=].item[=].item[=].code = $loinc#45403-3 "Room number"
+* item[=].item[=].item[=].code = $loinc#45403-3 "Room number [Location]"
 * item[=].item[=].item[=].prefix = "A1300B"
 * item[=].item[=].item[=].text = "Room number"
 * item[=].item[=].item[=].type = #string
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "102746"
-* item[=].item[=].item[=].code = $loinc#52462-9 "Name by which resident prefers to be addressed"
+* item[=].item[=].item[=].code = $loinc#52462-9 "Nickname"
 * item[=].item[=].item[=].prefix = "A1300C"
 * item[=].item[=].item[=].text = "Name by which resident prefers to be addressed"
 * item[=].item[=].item[=].type = #string
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "102747"
-* item[=].item[=].item[=].code = $loinc#21843-8 "Lifetime occupation(s)"
+* item[=].item[=].item[=].code = $loinc#21843-8 "History of Usual occupation"
 * item[=].item[=].item[=].prefix = "A1300D"
 * item[=].item[=].item[=].text = "Lifetime occupation(s)"
 * item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].answerOption.valueCoding.system = "http://loinc.org"
 * item[=].item[+].linkId = "102748"
-* item[=].item[=].code = $loinc#54589-7 "Preadmission Screening and Resident Review (PASRR). Is the resident currently considered by the state level II PASRR process to have serious mental illness and/or intellectual disability or a related condition?"
+* item[=].item[=].code = $loinc#54589-7 "Preadmission Screening and Resident Review (PASRR) during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "A1500"
 * item[=].item[=].text = "Preadmission Screening and Resident Review (PASRR). Is the resident currently considered by the state level II PASRR process to have serious mental illness and/or intellectual disability or a related condition?"
 * item[=].item[=].type = #choice
@@ -309,7 +309,7 @@ Usage: #example
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA10921-7 "Not a Medicaid-certified unit"
 * item[=].item[+].linkId = "102749"
-* item[=].item[=].code = $loinc#71441-0 "Level II Preadmission Screening and Resident Review (PASRR) Conditions"
+* item[=].item[=].code = $loinc#71441-0 "Level II Preadmission Screening and Resident Review (PASRR) during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "A1510"
 * item[=].item[=].text = "Level II Preadmission Screening and Resident Review (PASRR) Conditions"
 * item[=].item[=].type = #choice
@@ -318,7 +318,7 @@ Usage: #example
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA29576-8 "Intellectual disability"
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA18601-7 "Other related conditions"
 * item[=].item[+].linkId = "102750"
-* item[=].item[=].code = $loinc#86527-9 "Conditions Related to ID/DD Status"
+* item[=].item[=].code = $loinc#86527-9 "Conditions related to intellectual disability and developmental disability status during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "A1550"
 * item[=].item[=].text = "Conditions Related to ID/DD Status"
 * item[=].item[=].type = #choice
@@ -334,13 +334,13 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "102752"
-* item[=].item[=].item[=].code = $loinc#50786-3 "Entry Date"
+* item[=].item[=].item[=].code = $loinc#50786-3 "Date of entry"
 * item[=].item[=].item[=].prefix = "A1600"
 * item[=].item[=].item[=].text = "Entry Date"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "102753"
-* item[=].item[=].item[=].code = $loinc#54590-5 "Type of Entry"
+* item[=].item[=].item[=].code = $loinc#54590-5 "Entry type during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "A1700"
 * item[=].item[=].item[=].text = "Type of Entry"
 * item[=].item[=].item[=].type = #choice
@@ -348,7 +348,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA10922-5 "Admission"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA54-2 "Reentry"
 * item[=].item[=].item[+].linkId = "102754"
-* item[=].item[=].item[=].code = $loinc#85398-6 "Entered From"
+* item[=].item[=].item[=].code = $loinc#85398-6 "Admitted from Facility"
 * item[=].item[=].item[=].prefix = "A1800"
 * item[=].item[=].item[=].text = "Entered From"
 * item[=].item[=].item[=].type = #choice
@@ -375,7 +375,7 @@ Usage: #example
 * item[=].item[=].type = #decimal
 * item[=].item[=].repeats = false
 * item[=].item[+].linkId = "102757"
-* item[=].item[=].code = $loinc#55128-3 "Discharge Status"
+* item[=].item[=].code = $loinc#55128-3 "Discharge disposition"
 * item[=].item[=].prefix = "A2100"
 * item[=].item[=].text = "Discharge Status"
 * item[=].item[=].type = #choice
@@ -391,13 +391,13 @@ Usage: #example
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA10000-0 "Long-Term Care Hospital (LTCH)"
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA46-8 "Other"
 * item[=].item[+].linkId = "102758"
-* item[=].item[=].code = $loinc#54592-1 "Previous Assessment Reference Date for Significant Correction"
+* item[=].item[=].code = $loinc#54592-1 "Previous assessment reference date for significant correction during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "A2200"
 * item[=].item[=].text = "Previous Assessment Reference Date for Significant Correction"
 * item[=].item[=].type = #date
 * item[=].item[=].repeats = false
 * item[=].item[+].linkId = "102759"
-* item[=].item[=].code = $loinc#54593-9 "Assessment Reference Date. Observation end date"
+* item[=].item[=].code = $loinc#54593-9 "Assessment reference date - observation end date during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "A2300"
 * item[=].item[=].text = "Assessment Reference Date. Observation end date"
 * item[=].item[=].type = #date
@@ -408,7 +408,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "102761"
-* item[=].item[=].item[=].code = $loinc#54594-7 "Has the resident had a Medicare-covered stay since the most recent entry?"
+* item[=].item[=].item[=].code = $loinc#54594-7 "Medicare-covered stay since the most recent entry during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "A2400A"
 * item[=].item[=].item[=].text = "Has the resident had a Medicare-covered stay since the most recent entry?"
 * item[=].item[=].item[=].type = #choice
@@ -416,13 +416,13 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[+].linkId = "102762"
-* item[=].item[=].item[=].code = $loinc#54595-4 "Start date of most recent Medicare stay"
+* item[=].item[=].item[=].code = $loinc#54595-4 "Start date of most recent Medicare stay during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "A2400B"
 * item[=].item[=].item[=].text = "Start date of most recent Medicare stay"
 * item[=].item[=].item[=].type = #date
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "102763"
-* item[=].item[=].item[=].code = $loinc#54596-2 "End date of most recent Medicare stay"
+* item[=].item[=].item[=].code = $loinc#54596-2 "End date of most recent Medicare stay during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "A2400C"
 * item[=].item[=].item[=].text = "End date of most recent Medicare stay"
 * item[=].item[=].item[=].type = #date
@@ -433,7 +433,7 @@ Usage: #example
 * item[=].type = #group
 * item[=].required = true
 * item[=].item[0].linkId = "102765"
-* item[=].item[=].code = $loinc#54597-0 "Comatose"
+* item[=].item[=].code = $loinc#54597-0 "Comatose during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "B0100"
 * item[=].item[=].text = "Comatose"
 * item[=].item[=].type = #choice
@@ -441,7 +441,7 @@ Usage: #example
 * item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[+].linkId = "102766"
-* item[=].item[=].code = $loinc#95744-9 "Hearing"
+* item[=].item[=].code = $loinc#95744-9 "Hearing.ability to hear during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "B0200"
 * item[=].item[=].text = "Hearing"
 * item[=].item[=].type = #choice
@@ -451,7 +451,7 @@ Usage: #example
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA10943-1 "Moderate difficulty - speaker has to increase volume and speak distinctly"
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA10944-9 "Highly impaired - absence of useful hearing"
 * item[=].item[+].linkId = "102767"
-* item[=].item[=].code = $loinc#54599-6 "Hearing Aid"
+* item[=].item[=].code = $loinc#54599-6 "Hearing aid used during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "B0300"
 * item[=].item[=].text = "Hearing Aid"
 * item[=].item[=].type = #choice
@@ -459,7 +459,7 @@ Usage: #example
 * item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[+].linkId = "102768"
-* item[=].item[=].code = $loinc#54600-2 "Speech Clarity"
+* item[=].item[=].code = $loinc#54600-2 "Speech clarity.description of speech pattern during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "B0600"
 * item[=].item[=].text = "Speech Clarity"
 * item[=].item[=].type = #choice
@@ -468,7 +468,7 @@ Usage: #example
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA10946-4 "Unclear speech - slurred or mumbled words"
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA10947-2 "No speech - absence of spoken words"
 * item[=].item[+].linkId = "102769"
-* item[=].item[=].code = $loinc#95737-3 "Makes Self Understood"
+* item[=].item[=].code = $loinc#95737-3 "Expression of ideas and wants during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "B0700"
 * item[=].item[=].text = "Makes Self Understood"
 * item[=].item[=].type = #choice
@@ -478,7 +478,7 @@ Usage: #example
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA10950-6 "Sometimes understood - ability is limited to making concrete requests"
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA74-0 "Rarely/never understood"
 * item[=].item[+].linkId = "102770"
-* item[=].item[=].code = $loinc#54602-8 "Ability to Understand Others"
+* item[=].item[=].code = $loinc#54602-8 "Understanding verbal content during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "B0800"
 * item[=].item[=].text = "Ability to Understand Others"
 * item[=].item[=].type = #choice
@@ -488,7 +488,7 @@ Usage: #example
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA10954-8 "Sometimes understands - responds adequately to simple, direct communication only"
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA81-5 "Rarely/never understands"
 * item[=].item[+].linkId = "102771"
-* item[=].item[=].code = $loinc#95745-6 "Vision"
+* item[=].item[=].code = $loinc#95745-6 "Vision.ability to see in adequate light during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "B1000"
 * item[=].item[=].text = "Vision"
 * item[=].item[=].type = #choice
@@ -499,7 +499,7 @@ Usage: #example
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA10959-7 "Highly impaired - object identification in question, but eyes appear to follow objects"
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA10960-5 "Severely impaired - no vision or sees only light, colors or shapes; eyes do not appear to follow objects"
 * item[=].item[+].linkId = "102772"
-* item[=].item[=].code = $loinc#54604-4 "Corrective Lenses"
+* item[=].item[=].code = $loinc#54604-4 "Corrective lenses used during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "B1200"
 * item[=].item[=].text = "Corrective Lenses"
 * item[=].item[=].type = #choice
@@ -512,7 +512,7 @@ Usage: #example
 * item[=].type = #group
 * item[=].required = true
 * item[=].item[0].linkId = "129944"
-* item[=].item[=].code = $loinc#54605-1 "Should Brief Interview for Mental Status (C0200-C0500) be Conducted?"
+* item[=].item[=].code = $loinc#54605-1 "Brief Interview for Mental Status (BIMS) should be conducted during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "C0100"
 * item[=].item[=].text = "Should Brief Interview for Mental Status (C0200-C0500) be Conducted?"
 * item[=].item[=].type = #choice
@@ -524,7 +524,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "129946"
-* item[=].item[=].item[=].code = $loinc#103696-1 "Repetition of Three Words"
+* item[=].item[=].item[=].code = $loinc#103696-1 "Repetition of three words during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "C0200"
 * item[=].item[=].item[=].text = "Repetition of Three Words"
 * item[=].item[=].item[=].type = #choice
@@ -539,7 +539,7 @@ Usage: #example
 * item[=].item[=].item[=].type = #group
 * item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[0].linkId = "129948"
-* item[=].item[=].item[=].item[=].code = $loinc#103697-9 "Able to report correct year"
+* item[=].item[=].item[=].item[=].code = $loinc#103697-9 "Temporal orientation - current year during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "C0300A"
 * item[=].item[=].item[=].item[=].text = "Able to report correct year"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -549,7 +549,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA10008-3 "Missed by 1 year"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA9960-1 "Correct"
 * item[=].item[=].item[=].item[+].linkId = "129949"
-* item[=].item[=].item[=].item[=].code = $loinc#103698-7 "Able to report correct month"
+* item[=].item[=].item[=].item[=].code = $loinc#103698-7 "Temporal orientation - current month during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "C0300B"
 * item[=].item[=].item[=].item[=].text = "Able to report correct month"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -558,7 +558,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA10010-9 "Missed by 6 days to 1 month"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA9927-0 "Accurate within 5 days"
 * item[=].item[=].item[=].item[+].linkId = "129950"
-* item[=].item[=].item[=].item[=].code = $loinc#103703-5 "Able to report correct day of the week"
+* item[=].item[=].item[=].item[=].code = $loinc#103703-5 "Temporal orientation - current day of the week [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "C0300C"
 * item[=].item[=].item[=].item[=].text = "Able to report correct day of the week"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -571,7 +571,7 @@ Usage: #example
 * item[=].item[=].item[=].type = #group
 * item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[0].linkId = "129952"
-* item[=].item[=].item[=].item[=].code = $loinc#103699-5 "Able to recall \"sock\""
+* item[=].item[=].item[=].item[=].code = $loinc#103699-5 "Recall - sock during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "C0400A"
 * item[=].item[=].item[=].item[=].text = "Able to recall \"sock\""
 * item[=].item[=].item[=].item[=].type = #choice
@@ -580,7 +580,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA10126-3 "Yes, after cueing (\"something to wear\")"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA10134-7 "Yes, no cue required"
 * item[=].item[=].item[=].item[+].linkId = "129953"
-* item[=].item[=].item[=].item[=].code = $loinc#103700-1 "Able to recall \"blue\""
+* item[=].item[=].item[=].item[=].code = $loinc#103700-1 "Recall - blue during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "C0400B"
 * item[=].item[=].item[=].item[=].text = "Able to recall \"blue\""
 * item[=].item[=].item[=].item[=].type = #choice
@@ -589,7 +589,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA10978-7 "Yes, after cueing (\"a color\")"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA10134-7 "Yes, no cue required"
 * item[=].item[=].item[=].item[+].linkId = "129954"
-* item[=].item[=].item[=].item[=].code = $loinc#103701-9 "Able to recall \"bed\""
+* item[=].item[=].item[=].item[=].code = $loinc#103701-9 "Recall - bed during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "C0400C"
 * item[=].item[=].item[=].item[=].text = "Able to recall \"bed\""
 * item[=].item[=].item[=].item[=].type = #choice
@@ -602,7 +602,7 @@ Usage: #example
 * item[=].item[=].item[=].text = "BIMS Summary Score"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[+].linkId = "129956"
-* item[=].item[=].code = $loinc#54615-0 "Should the Staff Assessment for Mental Status (C0700-C1000) be Conducted?"
+* item[=].item[=].code = $loinc#54615-0 "Should staff assessment for mental status be conducted during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "C0600"
 * item[=].item[=].text = "Should the Staff Assessment for Mental Status (C0700-C1000) be Conducted?"
 * item[=].item[=].type = #choice
@@ -614,21 +614,21 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "129960"
-* item[=].item[=].item[=].code = $loinc#54616-8 "Short-term memory OK"
+* item[=].item[=].item[=].code = $loinc#54616-8 "Short-term memory OK during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].text = "Short-term memory OK"
 * item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA55-9 "Memory OK"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA56-7 "Memory problem"
 * item[=].item[=].item[+].linkId = "129959"
-* item[=].item[=].item[=].code = $loinc#54617-6 "Long-term memory OK"
+* item[=].item[=].item[=].code = $loinc#54617-6 "Long-term memory OK during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].text = "Long-term memory OK"
 * item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA55-9 "Memory OK"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA56-7 "Memory problem"
 * item[=].item[=].item[+].linkId = "129958"
-* item[=].item[=].item[=].code = $loinc#95743-1 "Memory &or recall ability"
+* item[=].item[=].item[=].code = $loinc#95743-1 "Memory/recall ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].text = "Memory &or recall ability"
 * item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].repeats = false
@@ -638,7 +638,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33609-1 "That they are in a nursing home/hospital swing bed."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26729-6 "None of the above were recalled"
 * item[=].item[=].item[+].linkId = "129957"
-* item[=].item[=].item[=].code = $loinc#54624-2 "Cognitive skills for daily decision making"
+* item[=].item[=].item[=].code = $loinc#54624-2 "Cognitive skills for daily decision making during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].text = "Cognitive skills for daily decision making"
 * item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].repeats = false
@@ -655,14 +655,14 @@ Usage: #example
 * item[=].item[=].item.type = #group
 * item[=].item[=].item.required = true
 * item[=].item[=].item.item[0].linkId = "129966"
-* item[=].item[=].item.item[=].code = $loinc#95813-2 "Acute onset mental change. Is there evidence of an acute change in mental status from the patient's baseline?"
+* item[=].item[=].item.item[=].code = $loinc#95813-2 "Is there evidence of an acute change in mental status from the patient's baseline during assessment period [CAM.CMS]"
 * item[=].item[=].item.item[=].text = "Acute onset mental change. Is there evidence of an acute change in mental status from the patient's baseline?"
 * item[=].item[=].item.item[=].type = #choice
 * item[=].item[=].item.item[=].repeats = false
 * item[=].item[=].item.item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item.item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item.item[+].linkId = "129965"
-* item[=].item[=].item.item[=].code = $loinc#95812-4 "Inattention - Did the patient have difficulty focusing attention, for example, being easily distractible or having difficulty keeping track of what was being said?"
+* item[=].item[=].item.item[=].code = $loinc#95812-4 "Did the patient have difficulty focusing attention, for example, being easily distractible or having difficulty keeping track of what was being said during assessment period [CAM.CMS]"
 * item[=].item[=].item.item[=].text = "Inattention - Did the patient have difficulty focusing attention, for example, being easily distractible or having difficulty keeping track of what was being said?"
 * item[=].item[=].item.item[=].type = #choice
 * item[=].item[=].item.item[=].repeats = false
@@ -670,7 +670,7 @@ Usage: #example
 * item[=].item[=].item.item[=].answerOption[+].valueCoding = $loinc#LA10992-8 "Behavior continuously present, does not fluctuate"
 * item[=].item[=].item.item[=].answerOption[+].valueCoding = $loinc#LA10993-6 "Behavior present, fluctuates (comes and goes, changes in severity)"
 * item[=].item[=].item.item[+].linkId = "129964"
-* item[=].item[=].item.item[=].code = $loinc#95814-0 "Disorganized thinking - Was the patient's thinking disorganized or incoherent, such as rambling or irrelevant conversation, unclear or illogical flow of ideas, or unpredictable switching from subject to subject)?"
+* item[=].item[=].item.item[=].code = $loinc#95814-0 "Was the patient's thinking disorganized or incoherent, such as rambling or irrelevant conversation, unclear or illogical flow of ideas, or unpredictable switching from subject to subject during assessment period [CAM.CMS]"
 * item[=].item[=].item.item[=].text = "Disorganized thinking - Was the patient's thinking disorganized or incoherent, such as rambling or irrelevant conversation, unclear or illogical flow of ideas, or unpredictable switching from subject to subject)?"
 * item[=].item[=].item.item[=].type = #choice
 * item[=].item[=].item.item[=].repeats = false
@@ -678,7 +678,7 @@ Usage: #example
 * item[=].item[=].item.item[=].answerOption[+].valueCoding = $loinc#LA10992-8 "Behavior continuously present, does not fluctuate"
 * item[=].item[=].item.item[=].answerOption[+].valueCoding = $loinc#LA10993-6 "Behavior present, fluctuates (comes and goes, changes in severity)"
 * item[=].item[=].item.item[+].linkId = "129963"
-* item[=].item[=].item.item[=].code = $loinc#95815-7 "Altered level of consciousness - Did the resident have altered level of consciousness, as indicated by any of the following crfiteria?"
+* item[=].item[=].item.item[=].code = $loinc#95815-7 "Altered level of consciousness during assessment period [CAM.CMS]"
 * item[=].item[=].item.item[=].text = "Altered level of consciousness - Did the resident have altered level of consciousness, as indicated by any of the following crfiteria?"
 * item[=].item[=].item.item[=].type = #choice
 * item[=].item[=].item.item[=].repeats = false
@@ -691,7 +691,7 @@ Usage: #example
 * item[=].type = #group
 * item[=].required = true
 * item[=].item[0].linkId = "102799"
-* item[=].item[=].code = $loinc#54634-1 "Should Resident Mood Interview be Conducted?"
+* item[=].item[=].code = $loinc#54634-1 "Should resident mood interview be conducted during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "D0100"
 * item[=].item[=].text = "Should Resident Mood Interview be Conducted?"
 * item[=].item[=].type = #choice
@@ -709,7 +709,7 @@ Usage: #example
 * item[=].item[=].item[=].type = #group
 * item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[0].linkId = "102802"
-* item[=].item[=].item[=].item[=].code = $loinc#54636-6 "Little interest or pleasure in doing things"
+* item[=].item[=].item[=].item[=].code = $loinc#54636-6 "Little interest or pleasure in doing things in last 2 weeks.presence [Reported PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0200A1"
 * item[=].item[=].item[=].item[=].text = "Little interest or pleasure in doing things"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -718,7 +718,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33720-6 "Yes (enter 0-3 in column 2)"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33753-7 "No response (leave column 2 blank)"
 * item[=].item[=].item[=].item[+].linkId = "102803"
-* item[=].item[=].item[=].item[=].code = $loinc#54638-2 "Feeling down, depressed or hopeless"
+* item[=].item[=].item[=].item[=].code = $loinc#54638-2 "Feeling down, depressed or hopeless in last 2 weeks.presence [Reported PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0200B1"
 * item[=].item[=].item[=].item[=].text = "Feeling down, depressed or hopeless"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -727,7 +727,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33720-6 "Yes (enter 0-3 in column 2)"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33753-7 "No response (leave column 2 blank)"
 * item[=].item[=].item[=].item[+].linkId = "102804"
-* item[=].item[=].item[=].item[=].code = $loinc#54640-8 "Trouble falling or staying asleep, or sleeping too much"
+* item[=].item[=].item[=].item[=].code = $loinc#54640-8 "Trouble falling or staying asleep, or sleeping too much in last 2 weeks.presence [Reported PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0200C1"
 * item[=].item[=].item[=].item[=].text = "Trouble falling or staying asleep, or sleeping too much"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -736,7 +736,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33720-6 "Yes (enter 0-3 in column 2)"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33753-7 "No response (leave column 2 blank)"
 * item[=].item[=].item[=].item[+].linkId = "102805"
-* item[=].item[=].item[=].item[=].code = $loinc#54642-4 "Feeling tired or having little energy"
+* item[=].item[=].item[=].item[=].code = $loinc#54642-4 "Feeling tired or having little energy in last 2 weeks.presence [Reported PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0200D1"
 * item[=].item[=].item[=].item[=].text = "Feeling tired or having little energy"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -745,7 +745,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33720-6 "Yes (enter 0-3 in column 2)"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33753-7 "No response (leave column 2 blank)"
 * item[=].item[=].item[=].item[+].linkId = "102806"
-* item[=].item[=].item[=].item[=].code = $loinc#54644-0 "Poor appetite or overeating"
+* item[=].item[=].item[=].item[=].code = $loinc#54644-0 "Poor appetite or overeating in last 2 weeks.presence [Reported PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0200E1"
 * item[=].item[=].item[=].item[=].text = "Poor appetite or overeating"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -754,7 +754,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33720-6 "Yes (enter 0-3 in column 2)"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33753-7 "No response (leave column 2 blank)"
 * item[=].item[=].item[=].item[+].linkId = "102807"
-* item[=].item[=].item[=].item[=].code = $loinc#54646-5 "Feeling bad about yourself - or that you are a failure or have let yourself or your family down"
+* item[=].item[=].item[=].item[=].code = $loinc#54646-5 "Feeling bad about yourself - or that you are a failure or have let yourself or your family down in last 2 weeks.presence [Reported PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0200F1"
 * item[=].item[=].item[=].item[=].text = "Feeling bad about yourself - or that you are a failure or have let yourself or your family down"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -763,7 +763,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33720-6 "Yes (enter 0-3 in column 2)"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33753-7 "No response (leave column 2 blank)"
 * item[=].item[=].item[=].item[+].linkId = "102808"
-* item[=].item[=].item[=].item[=].code = $loinc#54648-1 "Trouble concentrating on things, such as reading the newspaper or watching television"
+* item[=].item[=].item[=].item[=].code = $loinc#54648-1 "Trouble concentrating on things, such as reading the newspaper or watching television in last 2 weeks.presence [Reported PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0200G1"
 * item[=].item[=].item[=].item[=].text = "Trouble concentrating on things, such as reading the newspaper or watching television"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -772,7 +772,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33720-6 "Yes (enter 0-3 in column 2)"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33753-7 "No response (leave column 2 blank)"
 * item[=].item[=].item[=].item[+].linkId = "102809"
-* item[=].item[=].item[=].item[=].code = $loinc#54650-7 "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual"
+* item[=].item[=].item[=].item[=].code = $loinc#54650-7 "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual in last 2 weeks.presence [Reported PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0200H1"
 * item[=].item[=].item[=].item[=].text = "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -781,7 +781,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33720-6 "Yes (enter 0-3 in column 2)"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33753-7 "No response (leave column 2 blank)"
 * item[=].item[=].item[=].item[+].linkId = "102810"
-* item[=].item[=].item[=].item[=].code = $loinc#54652-3 "Thoughts that you would be better off dead, or of hurting yourself in some way"
+* item[=].item[=].item[=].item[=].code = $loinc#54652-3 "Thoughts that you would be better off dead, or of hurting yourself in some way in last 2 weeks.presence [Reported PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0200I1"
 * item[=].item[=].item[=].item[=].text = "Thoughts that you would be better off dead, or of hurting yourself in some way"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -795,7 +795,7 @@ Usage: #example
 * item[=].item[=].item[=].type = #group
 * item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[0].linkId = "102812"
-* item[=].item[=].item[=].item[=].code = $loinc#54637-4 "Little interest or pleasure in doing things"
+* item[=].item[=].item[=].item[=].code = $loinc#54637-4 "Little interest or pleasure in doing things in last 2 weeks.frequency [Reported PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0200A2"
 * item[=].item[=].item[=].item[=].text = "Little interest or pleasure in doing things"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -805,7 +805,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA10999-3 "7-11 days (half or more of the days)"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11000-9 "12-14 days (nearly every day)"
 * item[=].item[=].item[=].item[+].linkId = "102813"
-* item[=].item[=].item[=].item[=].code = $loinc#54639-0 "Feeling down, depressed or hopeless"
+* item[=].item[=].item[=].item[=].code = $loinc#54639-0 "Feeling down, depressed or hopeless in last 2 weeks.frequency [Reported PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0200B2"
 * item[=].item[=].item[=].item[=].text = "Feeling down, depressed or hopeless"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -815,7 +815,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA10999-3 "7-11 days (half or more of the days)"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11000-9 "12-14 days (nearly every day)"
 * item[=].item[=].item[=].item[+].linkId = "102814"
-* item[=].item[=].item[=].item[=].code = $loinc#54641-6 "Trouble falling or staying asleep, or sleeping too much"
+* item[=].item[=].item[=].item[=].code = $loinc#54641-6 "Trouble falling or staying asleep, or sleeping too much in last 2 weeks.frequency [Reported PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0200C2"
 * item[=].item[=].item[=].item[=].text = "Trouble falling or staying asleep, or sleeping too much"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -825,7 +825,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA10999-3 "7-11 days (half or more of the days)"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11000-9 "12-14 days (nearly every day)"
 * item[=].item[=].item[=].item[+].linkId = "102815"
-* item[=].item[=].item[=].item[=].code = $loinc#54643-2 "Feeling tired or having little energy"
+* item[=].item[=].item[=].item[=].code = $loinc#54643-2 "Feeling tired or having little energy in last 2 weeks.frequency [Reported PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0200D2"
 * item[=].item[=].item[=].item[=].text = "Feeling tired or having little energy"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -835,7 +835,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA10999-3 "7-11 days (half or more of the days)"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11000-9 "12-14 days (nearly every day)"
 * item[=].item[=].item[=].item[+].linkId = "102816"
-* item[=].item[=].item[=].item[=].code = $loinc#54645-7 "Poor appetite or overeating"
+* item[=].item[=].item[=].item[=].code = $loinc#54645-7 "Poor appetite or overeating in last 2 weeks.frequency [Reported PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0200E2"
 * item[=].item[=].item[=].item[=].text = "Poor appetite or overeating"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -845,7 +845,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA10999-3 "7-11 days (half or more of the days)"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11000-9 "12-14 days (nearly every day)"
 * item[=].item[=].item[=].item[+].linkId = "102817"
-* item[=].item[=].item[=].item[=].code = $loinc#54647-3 "Feeling bad about yourself - or that you are a failure or have let yourself or your family down"
+* item[=].item[=].item[=].item[=].code = $loinc#54647-3 "Feeling bad about yourself - or that you are a failure or have let yourself or your family down in last 2 weeks.frequency [Reported PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0200F2"
 * item[=].item[=].item[=].item[=].text = "Feeling bad about yourself - or that you are a failure or have let yourself or your family down"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -855,7 +855,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA10999-3 "7-11 days (half or more of the days)"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11000-9 "12-14 days (nearly every day)"
 * item[=].item[=].item[=].item[+].linkId = "102818"
-* item[=].item[=].item[=].item[=].code = $loinc#54649-9 "Trouble concentrating on things, such as reading the newspaper or watching television"
+* item[=].item[=].item[=].item[=].code = $loinc#54649-9 "Trouble concentrating on things, such as reading the newspaper or watching television in last 2 weeks.frequency [Reported PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0200G2"
 * item[=].item[=].item[=].item[=].text = "Trouble concentrating on things, such as reading the newspaper or watching television"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -865,7 +865,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA10999-3 "7-11 days (half or more of the days)"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11000-9 "12-14 days (nearly every day)"
 * item[=].item[=].item[=].item[+].linkId = "102819"
-* item[=].item[=].item[=].item[=].code = $loinc#54651-5 "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual"
+* item[=].item[=].item[=].item[=].code = $loinc#54651-5 "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual in last 2 weeks.frequency [Reported PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0150H2"
 * item[=].item[=].item[=].item[=].text = "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -875,7 +875,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA10999-3 "7-11 days (half or more of the days)"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11000-9 "12-14 days (nearly every day)"
 * item[=].item[=].item[=].item[+].linkId = "102820"
-* item[=].item[=].item[=].item[=].code = $loinc#54653-1 "Thoughts that you would be better off dead, or of hurting yourself in some way"
+* item[=].item[=].item[=].item[=].code = $loinc#54653-1 "Thoughts that you would be better off dead, or of hurting yourself in some way in last 2 weeks.frequency [Reported PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0200I2"
 * item[=].item[=].item[=].item[=].text = "Thoughts that you would be better off dead, or of hurting yourself in some way"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -899,7 +899,7 @@ Usage: #example
 * item[=].item[=].item[=].type = #group
 * item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[0].linkId = "102825"
-* item[=].item[=].item[=].item[=].code = $loinc#54658-0 "Little interest or pleasure in doing things"
+* item[=].item[=].item[=].item[=].code = $loinc#54658-0 "Little interest or pleasure in doing things in last 2 weeks.presence [Observed PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0500A1"
 * item[=].item[=].item[=].item[=].text = "Little interest or pleasure in doing things"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -907,7 +907,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[=].item[+].linkId = "102826"
-* item[=].item[=].item[=].item[=].code = $loinc#54660-6 "Feeling or appearing down, depressed, or hopeless"
+* item[=].item[=].item[=].item[=].code = $loinc#54660-6 "Feeling or appearing down, depressed or hopeless in last 2 weeks.presence [Observed PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0500B1"
 * item[=].item[=].item[=].item[=].text = "Feeling or appearing down, depressed, or hopeless"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -915,7 +915,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[=].item[+].linkId = "102827"
-* item[=].item[=].item[=].item[=].code = $loinc#54662-2 "Trouble falling or staying asleep, or sleeping too much"
+* item[=].item[=].item[=].item[=].code = $loinc#54662-2 "Trouble falling or staying asleep, or sleeping too much in last 2 weeks.presence [Observed PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0500C1"
 * item[=].item[=].item[=].item[=].text = "Trouble falling or staying asleep, or sleeping too much"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -923,7 +923,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[=].item[+].linkId = "102828"
-* item[=].item[=].item[=].item[=].code = $loinc#54664-8 "Feeling tired or having little energy"
+* item[=].item[=].item[=].item[=].code = $loinc#54664-8 "Feeling tired or having little energy in last 2 weeks.presence [Observed PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0500D1"
 * item[=].item[=].item[=].item[=].text = "Feeling tired or having little energy"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -931,7 +931,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[=].item[+].linkId = "102829"
-* item[=].item[=].item[=].item[=].code = $loinc#54666-3 "Poor appetite or overeating"
+* item[=].item[=].item[=].item[=].code = $loinc#54666-3 "Poor appetite or overeating in last 2 weeks.presence [Observed PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0500E1"
 * item[=].item[=].item[=].item[=].text = "Poor appetite or overeating"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -939,7 +939,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[=].item[+].linkId = "102830"
-* item[=].item[=].item[=].item[=].code = $loinc#54668-9 "Indicating that s/he feels bad about self, is a failure, or has let self or family down"
+* item[=].item[=].item[=].item[=].code = $loinc#54668-9 "Indicating that (s)he feels bad about self, are a failure, or has let self or family down in last 2W.presence [Observed PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0500F1"
 * item[=].item[=].item[=].item[=].text = "Indicating that s/he feels bad about self, is a failure, or has let self or family down"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -947,7 +947,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[=].item[+].linkId = "102831"
-* item[=].item[=].item[=].item[=].code = $loinc#54670-5 "Trouble concentrating on things, such as reading the newspaper or watching television"
+* item[=].item[=].item[=].item[=].code = $loinc#54670-5 "Trouble concentrating on things, such as reading the newspaper or watching television in last 2 weeks.presence [Observed PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0500G1"
 * item[=].item[=].item[=].item[=].text = "Trouble concentrating on things, such as reading the newspaper or watching television"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -955,7 +955,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[=].item[+].linkId = "102832"
-* item[=].item[=].item[=].item[=].code = $loinc#54672-1 "Moving or speaking so slowly that other people have noticed. Or the opposite-being so fidgety or restless that s/he has been moving around a lot more than usual"
+* item[=].item[=].item[=].item[=].code = $loinc#54672-1 "Moving or speaking so slowly that other people have noticed. Or the opposite - being so fidgety or restless that (s)he has been moving around a lot more than usual in last 2 weeks.presence [Observed PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0500H1"
 * item[=].item[=].item[=].item[=].text = "Moving or speaking so slowly that other people have noticed. Or the opposite-being so fidgety or restless that s/he has been moving around a lot more than usual"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -963,7 +963,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[=].item[+].linkId = "102833"
-* item[=].item[=].item[=].item[=].code = $loinc#54673-9 "States that life isn't worth living, wishes for death, or attempts to harm self"
+* item[=].item[=].item[=].item[=].code = $loinc#54673-9 "States that life isn't worth living, wishes for death, or attempts to harm self in last 2 weeks.presence [Observed PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0500I1"
 * item[=].item[=].item[=].item[=].text = "States that life isn't worth living, wishes for death, or attempts to harm self"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -971,7 +971,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA33719-8 "No (enter 0 in column 2)"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33720-6 "Yes (enter 0-3 in column 2)"
 * item[=].item[=].item[=].item[+].linkId = "102834"
-* item[=].item[=].item[=].item[=].code = $loinc#54675-4 "Being short-tempered, easily annoyed"
+* item[=].item[=].item[=].item[=].code = $loinc#54675-4 "Being short-tempered, easily annoyed in last 2 weeks.presence [Observed PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0500J1"
 * item[=].item[=].item[=].item[=].text = "Being short-tempered, easily annoyed"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -984,7 +984,7 @@ Usage: #example
 * item[=].item[=].item[=].type = #group
 * item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[0].linkId = "102836"
-* item[=].item[=].item[=].item[=].code = $loinc#54659-8 "Little interest or pleasure in doing things"
+* item[=].item[=].item[=].item[=].code = $loinc#54659-8 "Little interest or pleasure in doing things in last 2 weeks.frequency [Observed PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0500A2"
 * item[=].item[=].item[=].item[=].text = "Little interest or pleasure in doing things"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -994,7 +994,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA10999-3 "7-11 days (half or more of the days)"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11000-9 "12-14 days (nearly every day)"
 * item[=].item[=].item[=].item[+].linkId = "102837"
-* item[=].item[=].item[=].item[=].code = $loinc#54661-4 "Feeling or appearing down, depressed, or hopeless"
+* item[=].item[=].item[=].item[=].code = $loinc#54661-4 "Feeling or appearing down, depressed, or hopeless in last 2 weeks.frequency [Observed PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0500B2"
 * item[=].item[=].item[=].item[=].text = "Feeling or appearing down, depressed, or hopeless"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -1004,7 +1004,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA10999-3 "7-11 days (half or more of the days)"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11000-9 "12-14 days (nearly every day)"
 * item[=].item[=].item[=].item[+].linkId = "102838"
-* item[=].item[=].item[=].item[=].code = $loinc#54663-0 "Trouble falling or staying asleep, or sleeping too much"
+* item[=].item[=].item[=].item[=].code = $loinc#54663-0 "Trouble falling or staying asleep, or sleeping too much in last 2 weeks.frequency [Observed PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0500C2"
 * item[=].item[=].item[=].item[=].text = "Trouble falling or staying asleep, or sleeping too much"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -1014,7 +1014,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA10999-3 "7-11 days (half or more of the days)"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11000-9 "12-14 days (nearly every day)"
 * item[=].item[=].item[=].item[+].linkId = "102839"
-* item[=].item[=].item[=].item[=].code = $loinc#54665-5 "Feeling tired or having little energy"
+* item[=].item[=].item[=].item[=].code = $loinc#54665-5 "Feeling tired or having little energy in last 2 weeks.frequency [Observed PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0500D2"
 * item[=].item[=].item[=].item[=].text = "Feeling tired or having little energy"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -1024,7 +1024,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA10999-3 "7-11 days (half or more of the days)"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11000-9 "12-14 days (nearly every day)"
 * item[=].item[=].item[=].item[+].linkId = "102840"
-* item[=].item[=].item[=].item[=].code = $loinc#54667-1 "Poor appetite or overeating"
+* item[=].item[=].item[=].item[=].code = $loinc#54667-1 "Poor appetite or overeating in last 2 weeks.frequency [Observed PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0500E2"
 * item[=].item[=].item[=].item[=].text = "Poor appetite or overeating"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -1034,7 +1034,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA10999-3 "7-11 days (half or more of the days)"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11000-9 "12-14 days (nearly every day)"
 * item[=].item[=].item[=].item[+].linkId = "102841"
-* item[=].item[=].item[=].item[=].code = $loinc#54669-7 "Indicating that s/he feels bad about self, is a failure, or has let self or family down"
+* item[=].item[=].item[=].item[=].code = $loinc#54669-7 "Indicating that (s)he feels bad about self, are a failure, or has let self or family down in last 2W.frequency [Observed PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0500F2"
 * item[=].item[=].item[=].item[=].text = "Indicating that s/he feels bad about self, is a failure, or has let self or family down"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -1044,7 +1044,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA10999-3 "7-11 days (half or more of the days)"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11000-9 "12-14 days (nearly every day)"
 * item[=].item[=].item[=].item[+].linkId = "102842"
-* item[=].item[=].item[=].item[=].code = $loinc#54671-3 "Trouble concentrating on things, such as reading the newspaper or watching television"
+* item[=].item[=].item[=].item[=].code = $loinc#54671-3 "Trouble concentrating on things, such as reading the newspaper or watching television in last 2 weeks.frequency [Observed PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0500G2"
 * item[=].item[=].item[=].item[=].text = "Trouble concentrating on things, such as reading the newspaper or watching television"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -1054,7 +1054,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA10999-3 "7-11 days (half or more of the days)"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11000-9 "12-14 days (nearly every day)"
 * item[=].item[=].item[=].item[+].linkId = "102843"
-* item[=].item[=].item[=].item[=].code = $loinc#54904-8 "Moving or speaking so slowly that other people have noticed. Or the opposite-being so fidgety or restless that s/he has been moving around a lot more than usual"
+* item[=].item[=].item[=].item[=].code = $loinc#54904-8 "Moving or speaking so slowly that other people have noticed. Or the opposite - being so fidgety or restless that (s)he has been moving around a lot more than usual in last 2 weeks.frequency [Observed PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0500H2"
 * item[=].item[=].item[=].item[=].text = "Moving or speaking so slowly that other people have noticed. Or the opposite-being so fidgety or restless that s/he has been moving around a lot more than usual"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -1064,7 +1064,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA10999-3 "7-11 days (half or more of the days)"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11000-9 "12-14 days (nearly every day)"
 * item[=].item[=].item[=].item[+].linkId = "102844"
-* item[=].item[=].item[=].item[=].code = $loinc#54674-7 "States that life isn't worth living, wishes for death, or attempts to harm self"
+* item[=].item[=].item[=].item[=].code = $loinc#54674-7 "States that life isn't worth living, wishes for death, or attempts to harm self in last 2 weeks.frequency [Observed PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0500I2"
 * item[=].item[=].item[=].item[=].text = "States that life isn't worth living, wishes for death, or attempts to harm self"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -1074,7 +1074,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA10999-3 "7-11 days (half or more of the days)"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11000-9 "12-14 days (nearly every day)"
 * item[=].item[=].item[=].item[+].linkId = "102845"
-* item[=].item[=].item[=].item[=].code = $loinc#54676-2 "Being short-tempered, easily annoyed"
+* item[=].item[=].item[=].item[=].code = $loinc#54676-2 "Being short-tempered, easily annoyed in last 2 weeks.frequency [Observed PHQ-9 CMS]"
 * item[=].item[=].item[=].item[=].prefix = "D0500J2"
 * item[=].item[=].item[=].item[=].text = "Being short-tempered, easily annoyed"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -1093,7 +1093,7 @@ Usage: #example
 * item[=].type = #group
 * item[=].required = true
 * item[=].item[0].linkId = "102849"
-* item[=].item[=].code = $loinc#86597-2 "Potential Indicators of Psychosis"
+* item[=].item[=].code = $loinc#86597-2 "Potential indicators of psychosis during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "E0100"
 * item[=].item[=].text = "Potential Indicators of Psychosis"
 * item[=].item[=].type = #choice
@@ -1107,7 +1107,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "102851"
-* item[=].item[=].item[=].code = $loinc#54682-0 "Physical behavioral symptoms directed toward others"
+* item[=].item[=].item[=].code = $loinc#54682-0 "Physical behavioral symptoms directed toward others during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "E0200A"
 * item[=].item[=].item[=].text = "Physical behavioral symptoms directed toward others"
 * item[=].item[=].item[=].type = #choice
@@ -1117,7 +1117,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA94-8 "Behavior of this type occurred 4 to 6 days, but less than daily"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA95-5 "Behavior of this type occurred daily"
 * item[=].item[=].item[+].linkId = "102852"
-* item[=].item[=].item[=].code = $loinc#54683-8 "Verbal behavioral symptoms directed toward others"
+* item[=].item[=].item[=].code = $loinc#54683-8 "Verbal behavioral symptoms directed toward others during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "E0200B"
 * item[=].item[=].item[=].text = "Verbal behavioral symptoms directed toward others"
 * item[=].item[=].item[=].type = #choice
@@ -1127,7 +1127,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA94-8 "Behavior of this type occurred 4 to 6 days, but less than daily"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA95-5 "Behavior of this type occurred daily"
 * item[=].item[=].item[+].linkId = "102853"
-* item[=].item[=].item[=].code = $loinc#54684-6 "Other behavioral symptoms not directed toward others"
+* item[=].item[=].item[=].code = $loinc#54684-6 "Other behavioral symptoms not directed toward others during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "E0200C"
 * item[=].item[=].item[=].text = "Other behavioral symptoms not directed toward others"
 * item[=].item[=].item[=].type = #choice
@@ -1137,7 +1137,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA94-8 "Behavior of this type occurred 4 to 6 days, but less than daily"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA95-5 "Behavior of this type occurred daily"
 * item[=].item[+].linkId = "102854"
-* item[=].item[=].code = $loinc#54685-3 "Overall Presence of Behavioral Symptoms.Were any behavioral symptoms in questions E0200 coded 1, 2, or 3?"
+* item[=].item[=].code = $loinc#54685-3 "Overall presence of behavioral symptoms during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "E0300"
 * item[=].item[=].text = "Overall Presence of Behavioral Symptoms.Were any behavioral symptoms in questions E0200 coded 1, 2, or 3?"
 * item[=].item[=].type = #choice
@@ -1150,7 +1150,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "102856"
-* item[=].item[=].item[=].code = $loinc#54686-1 "Did any of the identified symptom(s): Put the resident at significant risk for physical illness or injury?"
+* item[=].item[=].item[=].code = $loinc#54686-1 "Put the resident at significant risk for physical illness or injury during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "E0500A"
 * item[=].item[=].item[=].text = "Did any of the identified symptom(s): Put the resident at significant risk for physical illness or injury?"
 * item[=].item[=].item[=].type = #choice
@@ -1158,7 +1158,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[+].linkId = "102857"
-* item[=].item[=].item[=].code = $loinc#54687-9 "Did any of the identified symptom(s): Significantly interfere with the resident's care?"
+* item[=].item[=].item[=].code = $loinc#54687-9 "Significantly interfere with the resident's care during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "E0500B"
 * item[=].item[=].item[=].text = "Did any of the identified symptom(s): Significantly interfere with the resident's care?"
 * item[=].item[=].item[=].type = #choice
@@ -1166,7 +1166,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[+].linkId = "102858"
-* item[=].item[=].item[=].code = $loinc#54688-7 "Did any of the identified symptom(s): Significantly interfere with the resident's participation in activities or social interactions?"
+* item[=].item[=].item[=].code = $loinc#54688-7 "Significantly interfere with the resident's participation in activities or social interactions during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "E0500C"
 * item[=].item[=].item[=].text = "Did any of the identified symptom(s): Significantly interfere with the resident's participation in activities or social interactions?"
 * item[=].item[=].item[=].type = #choice
@@ -1179,7 +1179,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "102860"
-* item[=].item[=].item[=].code = $loinc#54689-5 "Did any of the identified symptom(s): Put others at significant risk for physical injury?"
+* item[=].item[=].item[=].code = $loinc#54689-5 "Put others at significant risk for physical injury during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "E0600A"
 * item[=].item[=].item[=].text = "Did any of the identified symptom(s): Put others at significant risk for physical injury?"
 * item[=].item[=].item[=].type = #choice
@@ -1187,7 +1187,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[+].linkId = "102861"
-* item[=].item[=].item[=].code = $loinc#54690-3 "Did any of the identified symptom(s): Significantly intrude on the privacy or activity of others?"
+* item[=].item[=].item[=].code = $loinc#54690-3 "Significantly intrude on the privacy or activity of others during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "E0600B"
 * item[=].item[=].item[=].text = "Did any of the identified symptom(s): Significantly intrude on the privacy or activity of others?"
 * item[=].item[=].item[=].type = #choice
@@ -1195,7 +1195,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[+].linkId = "102862"
-* item[=].item[=].item[=].code = $loinc#54691-1 "Did any of the identified symptom(s): Significantly disrupt care or living environment?"
+* item[=].item[=].item[=].code = $loinc#54691-1 "Significantly disrupt care or living environment during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "E0600C"
 * item[=].item[=].item[=].text = "Did any of the identified symptom(s): Significantly disrupt care or living environment?"
 * item[=].item[=].item[=].type = #choice
@@ -1203,7 +1203,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[+].linkId = "102863"
-* item[=].item[=].code = $loinc#54692-9 "Rejection of Care - Presence & Frequency. Did the resident reject evaluation or care (e.g., bloodwork, taking medications, ADL assistance) that is necessary to achieve the resident's goals for health and well-being?"
+* item[=].item[=].code = $loinc#54692-9 "Rejection of care - presence and frequency in last 7 days [CMS Assessment]"
 * item[=].item[=].prefix = "E0800"
 * item[=].item[=].text = "Rejection of Care - Presence & Frequency. Did the resident reject evaluation or care (e.g., bloodwork, taking medications, ADL assistance) that is necessary to achieve the resident's goals for health and well-being?"
 * item[=].item[=].type = #choice
@@ -1213,7 +1213,7 @@ Usage: #example
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA94-8 "Behavior of this type occurred 4 to 6 days, but less than daily"
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA95-5 "Behavior of this type occurred daily"
 * item[=].item[+].linkId = "102864"
-* item[=].item[=].code = $loinc#54693-7 "Wandering - Presence & Frequency. Has the resident wandered?"
+* item[=].item[=].code = $loinc#54693-7 "Wandering - presence and frequency in last 7 days [CMS Assessment]"
 * item[=].item[=].prefix = "E0900"
 * item[=].item[=].text = "Wandering - Presence & Frequency. Has the resident wandered?"
 * item[=].item[=].type = #choice
@@ -1228,7 +1228,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "102866"
-* item[=].item[=].item[=].code = $loinc#54694-5 "Does the wandering place the resident at significant risk of getting to a potentially dangerous place?"
+* item[=].item[=].item[=].code = $loinc#54694-5 "Wandering places resident at significant risk of getting to a potentially dangerous place in last 7 days [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "E1000A"
 * item[=].item[=].item[=].text = "Does the wandering place the resident at significant risk of getting to a potentially dangerous place?"
 * item[=].item[=].item[=].type = #choice
@@ -1236,7 +1236,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[+].linkId = "102867"
-* item[=].item[=].item[=].code = $loinc#54695-2 "Does the wandering significantly intrude on the privacy or activities of others?"
+* item[=].item[=].item[=].code = $loinc#54695-2 "Wandering significantly intrudes on the privacy or activities of others in last 7 days [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "E1000B"
 * item[=].item[=].item[=].text = "Does the wandering significantly intrude on the privacy or activities of others?"
 * item[=].item[=].item[=].type = #choice
@@ -1244,7 +1244,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[+].linkId = "102868"
-* item[=].item[=].code = $loinc#54696-0 "Change in Behavior or Other Symptoms.How does resident's current behavior status, care rejection, or wandering compare to prior assessment (OBRA or Scheduled PPS)?"
+* item[=].item[=].code = $loinc#54696-0 "Change in behavioral or other symptoms in last 7 days [CMS Assessment]"
 * item[=].item[=].prefix = "E1100"
 * item[=].item[=].text = "Change in Behavior or Other Symptoms.How does resident's current behavior status, care rejection, or wandering compare to prior assessment (OBRA or Scheduled PPS)?"
 * item[=].item[=].type = #choice
@@ -1259,7 +1259,7 @@ Usage: #example
 * item[=].type = #group
 * item[=].required = true
 * item[=].item[0].linkId = "102870"
-* item[=].item[=].code = $loinc#54697-8 "Should Interview for Daily and Activity Preferences be Conducted?"
+* item[=].item[=].code = $loinc#54697-8 "Interview for daily and activity preferences should be conducted during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "F0300"
 * item[=].item[=].text = "Should Interview for Daily and Activity Preferences be Conducted?"
 * item[=].item[=].type = #choice
@@ -1272,7 +1272,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "102872"
-* item[=].item[=].item[=].code = $loinc#54698-6 "While you are in this facility how important is it to you to choose what clothes to wear?"
+* item[=].item[=].item[=].code = $loinc#54698-6 "How important it is to choose what clothes to wear while in this facility during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "F0400A"
 * item[=].item[=].item[=].text = "While you are in this facility how important is it to you to choose what clothes to wear?"
 * item[=].item[=].item[=].type = #choice
@@ -1284,7 +1284,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11017-3 "Important, but can't do or no choice"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11018-1 "No response or non-responsive"
 * item[=].item[=].item[+].linkId = "102873"
-* item[=].item[=].item[=].code = $loinc#54699-4 "While you are in this facility how important is it to you to take care of your personal belongings or things?"
+* item[=].item[=].item[=].code = $loinc#54699-4 "How important it is to take care of your personal belongings or things while in this facility during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "F0400B"
 * item[=].item[=].item[=].text = "While you are in this facility how important is it to you to take care of your personal belongings or things?"
 * item[=].item[=].item[=].type = #choice
@@ -1296,7 +1296,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11017-3 "Important, but can't do or no choice"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11018-1 "No response or non-responsive"
 * item[=].item[=].item[+].linkId = "102874"
-* item[=].item[=].item[=].code = $loinc#54700-0 "While you are in this facility how important is it to you to choose between a tub bath, shower, bed bath, or sponge bath?"
+* item[=].item[=].item[=].code = $loinc#54700-0 "How important it is to choose between a tub bath, shower, bed bath, or sponge bath while in this facility during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "F0400C"
 * item[=].item[=].item[=].text = "While you are in this facility how important is it to you to choose between a tub bath, shower, bed bath, or sponge bath?"
 * item[=].item[=].item[=].type = #choice
@@ -1308,7 +1308,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11017-3 "Important, but can't do or no choice"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11018-1 "No response or non-responsive"
 * item[=].item[=].item[+].linkId = "102875"
-* item[=].item[=].item[=].code = $loinc#54701-8 "While you are in this facility how important is it to you to have snacks available between meals?"
+* item[=].item[=].item[=].code = $loinc#54701-8 "How important it is to have snacks available between meals while in this facility during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "F0400D"
 * item[=].item[=].item[=].text = "While you are in this facility how important is it to you to have snacks available between meals?"
 * item[=].item[=].item[=].type = #choice
@@ -1320,7 +1320,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11017-3 "Important, but can't do or no choice"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11018-1 "No response or non-responsive"
 * item[=].item[=].item[+].linkId = "102876"
-* item[=].item[=].item[=].code = $loinc#54702-6 "While you are in this facility how important is it to you to choose your own bedtime?"
+* item[=].item[=].item[=].code = $loinc#54702-6 "How important it is to choose your own bedtime while in this facility during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "F0400E"
 * item[=].item[=].item[=].text = "While you are in this facility how important is it to you to choose your own bedtime?"
 * item[=].item[=].item[=].type = #choice
@@ -1332,7 +1332,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11017-3 "Important, but can't do or no choice"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11018-1 "No response or non-responsive"
 * item[=].item[=].item[+].linkId = "102877"
-* item[=].item[=].item[=].code = $loinc#54703-4 "While you are in this facility how important is it to you to have your family or a close friend involved in discussions about your care?"
+* item[=].item[=].item[=].code = $loinc#54703-4 "How important it is to have your family or a close friend involved in discussions about your care while in this facility during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "F0400F"
 * item[=].item[=].item[=].text = "While you are in this facility how important is it to you to have your family or a close friend involved in discussions about your care?"
 * item[=].item[=].item[=].type = #choice
@@ -1344,7 +1344,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11017-3 "Important, but can't do or no choice"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11018-1 "No response or non-responsive"
 * item[=].item[=].item[+].linkId = "102878"
-* item[=].item[=].item[=].code = $loinc#54704-2 "While you are in this facility how important is it to you to be able to use the phone in private?"
+* item[=].item[=].item[=].code = $loinc#54704-2 "How important it is to be able to use the phone in private while in this facility during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "F0400G"
 * item[=].item[=].item[=].text = "While you are in this facility how important is it to you to be able to use the phone in private?"
 * item[=].item[=].item[=].type = #choice
@@ -1356,7 +1356,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11017-3 "Important, but can't do or no choice"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11018-1 "No response or non-responsive"
 * item[=].item[=].item[+].linkId = "102879"
-* item[=].item[=].item[=].code = $loinc#54705-9 "While you are in this facility how important is it to you to have a place to lock your things to keep them safe?"
+* item[=].item[=].item[=].code = $loinc#54705-9 "How important it is to have a place to lock your things to keep them safe while in this facility during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "F0400H"
 * item[=].item[=].item[=].text = "While you are in this facility how important is it to you to have a place to lock your things to keep them safe?"
 * item[=].item[=].item[=].type = #choice
@@ -1373,7 +1373,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "102881"
-* item[=].item[=].item[=].code = $loinc#54706-7 "While you are in this facility how important is it to you to have books, newspapers, and magazines to read?"
+* item[=].item[=].item[=].code = $loinc#54706-7 "How important it is to have books, newspapers, and magazines to read while in this facility during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "F0500A"
 * item[=].item[=].item[=].text = "While you are in this facility how important is it to you to have books, newspapers, and magazines to read?"
 * item[=].item[=].item[=].type = #choice
@@ -1385,7 +1385,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11017-3 "Important, but can't do or no choice"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11018-1 "No response or non-responsive"
 * item[=].item[=].item[+].linkId = "102882"
-* item[=].item[=].item[=].code = $loinc#54707-5 "While you are in this facility how important is it to you to listen to music you like?"
+* item[=].item[=].item[=].code = $loinc#54707-5 "How important it is to listen to music you like while in this facility during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "F0500B"
 * item[=].item[=].item[=].text = "While you are in this facility how important is it to you to listen to music you like?"
 * item[=].item[=].item[=].type = #choice
@@ -1397,7 +1397,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11017-3 "Important, but can't do or no choice"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11018-1 "No response or non-responsive"
 * item[=].item[=].item[+].linkId = "102883"
-* item[=].item[=].item[=].code = $loinc#54708-3 "While you are in this facility how important is it to you to be around animals such as pets?"
+* item[=].item[=].item[=].code = $loinc#54708-3 "How important it is to be around animals such as pets while in this facility during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "F0500C"
 * item[=].item[=].item[=].text = "While you are in this facility how important is it to you to be around animals such as pets?"
 * item[=].item[=].item[=].type = #choice
@@ -1409,7 +1409,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11017-3 "Important, but can't do or no choice"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11018-1 "No response or non-responsive"
 * item[=].item[=].item[+].linkId = "102884"
-* item[=].item[=].item[=].code = $loinc#54709-1 "While you are in this facility how important is it to you to keep up with the news?"
+* item[=].item[=].item[=].code = $loinc#54709-1 "How important it is to keep up with the news while in this facility during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "F0500D"
 * item[=].item[=].item[=].text = "While you are in this facility how important is it to you to keep up with the news?"
 * item[=].item[=].item[=].type = #choice
@@ -1421,7 +1421,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11017-3 "Important, but can't do or no choice"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11018-1 "No response or non-responsive"
 * item[=].item[=].item[+].linkId = "102885"
-* item[=].item[=].item[=].code = $loinc#54710-9 "While you are in this facility how important is it to you to do things with groups of people?"
+* item[=].item[=].item[=].code = $loinc#54710-9 "How important it is to do things with groups of people while in this facility during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "F0500E"
 * item[=].item[=].item[=].text = "While you are in this facility how important is it to you to do things with groups of people?"
 * item[=].item[=].item[=].type = #choice
@@ -1433,7 +1433,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11017-3 "Important, but can't do or no choice"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11018-1 "No response or non-responsive"
 * item[=].item[=].item[+].linkId = "102886"
-* item[=].item[=].item[=].code = $loinc#54711-7 "While you are in this facility how important is it to you to do your favorite activities?"
+* item[=].item[=].item[=].code = $loinc#54711-7 "How important it is to do your favorite activities while in this facility during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "F0500F"
 * item[=].item[=].item[=].text = "While you are in this facility how important is it to you to do your favorite activities?"
 * item[=].item[=].item[=].type = #choice
@@ -1445,7 +1445,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11017-3 "Important, but can't do or no choice"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11018-1 "No response or non-responsive"
 * item[=].item[=].item[+].linkId = "102887"
-* item[=].item[=].item[=].code = $loinc#54712-5 "While you are in this facility how important is it to you to go outside to get fresh air when the weather is good?"
+* item[=].item[=].item[=].code = $loinc#54712-5 "How important it is to go outside to get fresh air when the weather is good while in this facility during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "F0500G"
 * item[=].item[=].item[=].text = "While you are in this facility how important is it to you to go outside to get fresh air when the weather is good?"
 * item[=].item[=].item[=].type = #choice
@@ -1457,7 +1457,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11017-3 "Important, but can't do or no choice"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11018-1 "No response or non-responsive"
 * item[=].item[=].item[+].linkId = "102888"
-* item[=].item[=].item[=].code = $loinc#54713-3 "While you are in this facility how important is it to you to participate in religious services or practices?"
+* item[=].item[=].item[=].code = $loinc#54713-3 "How important it is to participate in religious services or practices while in this facility during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "F0500H"
 * item[=].item[=].item[=].text = "While you are in this facility how important is it to you to participate in religious services or practices?"
 * item[=].item[=].item[=].type = #choice
@@ -1469,7 +1469,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11017-3 "Important, but can't do or no choice"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11018-1 "No response or non-responsive"
 * item[=].item[+].linkId = "102889"
-* item[=].item[=].code = $loinc#54714-1 "Daily and Activity Preferences Primary Respondent. Indicate primary respondent for Daily and Activity Preferences (F0400 and F0500)"
+* item[=].item[=].code = $loinc#54714-1 "Primary respondent for daily and activity preferences during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "F0600"
 * item[=].item[=].text = "Daily and Activity Preferences Primary Respondent. Indicate primary respondent for Daily and Activity Preferences (F0400 and F0500)"
 * item[=].item[=].type = #choice
@@ -1478,7 +1478,7 @@ Usage: #example
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA11020-7 "Family or significant other (close friend or other representative)"
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA11021-5 "Interview could not be completed by resident or family/significant other (\"No response\" to 3 or more items)"
 * item[=].item[+].linkId = "102890"
-* item[=].item[=].code = $loinc#54715-8 "Should the Staff Assessment of Daily and Activity Preferences be Conducted?"
+* item[=].item[=].code = $loinc#54715-8 "Staff assessment of daily and activity preferences should be conducted during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "F0700"
 * item[=].item[=].text = "Should the Staff Assessment of Daily and Activity Preferences be Conducted?"
 * item[=].item[=].type = #choice
@@ -1486,7 +1486,7 @@ Usage: #example
 * item[=].item[=].answerOption[0].valueCoding = $loinc#LA11151-0 "No (because Interview for Daily and Activity Preferences (F0400 and F0500) was completed by resident or family/significant other)"
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA11152-8 "Yes (because 3 or more items in Interview for Daily and Activity Preferences (F0400 and F0500) were not completed by resident or family/significant other)"
 * item[=].item[+].linkId = "102891"
-* item[=].item[=].code = $loinc#86599-8 "Staff Assessment of Daily and Activity Preferences. Resident Prefers:"
+* item[=].item[=].code = $loinc#86599-8 "Staff assessment of daily and activity preferences during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "F0800"
 * item[=].item[=].text = "Staff Assessment of Daily and Activity Preferences. Resident Prefers:"
 * item[=].item[=].type = #choice
@@ -1523,7 +1523,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "102894"
-* item[=].item[=].item[=].code = $loinc#45588-1 "Bed mobility"
+* item[=].item[=].item[=].code = $loinc#45588-1 "Bed mobility - self-performance during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "G0110A1"
 * item[=].item[=].item[=].text = "Bed mobility"
 * item[=].item[=].item[=].type = #choice
@@ -1536,7 +1536,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA12642-7 "Activity occurred only once or twice - activity did occur but only once or twice"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA18614-0 "Activity did not occur - activity did not occur or family and/or non-facility staff provided care 100% of the time for that activity over the entire 7-day period"
 * item[=].item[=].item[+].linkId = "102895"
-* item[=].item[=].item[=].code = $loinc#45590-7 "Transfer"
+* item[=].item[=].item[=].code = $loinc#45590-7 "Transfer - self-performance during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "G0110B1"
 * item[=].item[=].item[=].text = "Transfer"
 * item[=].item[=].item[=].type = #choice
@@ -1549,7 +1549,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA12642-7 "Activity occurred only once or twice - activity did occur but only once or twice"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA18614-0 "Activity did not occur - activity did not occur or family and/or non-facility staff provided care 100% of the time for that activity over the entire 7-day period"
 * item[=].item[=].item[+].linkId = "102896"
-* item[=].item[=].item[=].code = $loinc#45592-3 "Walk in room"
+* item[=].item[=].item[=].code = $loinc#45592-3 "Walk in room - self-performance during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "G0110C1"
 * item[=].item[=].item[=].text = "Walk in room"
 * item[=].item[=].item[=].type = #choice
@@ -1562,7 +1562,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA12642-7 "Activity occurred only once or twice - activity did occur but only once or twice"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA18614-0 "Activity did not occur - activity did not occur or family and/or non-facility staff provided care 100% of the time for that activity over the entire 7-day period"
 * item[=].item[=].item[+].linkId = "102897"
-* item[=].item[=].item[=].code = $loinc#45594-9 "Walk in corridor"
+* item[=].item[=].item[=].code = $loinc#45594-9 "Walk in corridor - self-performance during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "G0110D1"
 * item[=].item[=].item[=].text = "Walk in corridor"
 * item[=].item[=].item[=].type = #choice
@@ -1575,7 +1575,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA12642-7 "Activity occurred only once or twice - activity did occur but only once or twice"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA18614-0 "Activity did not occur - activity did not occur or family and/or non-facility staff provided care 100% of the time for that activity over the entire 7-day period"
 * item[=].item[=].item[+].linkId = "102898"
-* item[=].item[=].item[=].code = $loinc#45596-4 "Locomotion on unit"
+* item[=].item[=].item[=].code = $loinc#45596-4 "Locomotion on unit - self-performance during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "G0110E1"
 * item[=].item[=].item[=].text = "Locomotion on unit"
 * item[=].item[=].item[=].type = #choice
@@ -1588,7 +1588,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA12642-7 "Activity occurred only once or twice - activity did occur but only once or twice"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA18614-0 "Activity did not occur - activity did not occur or family and/or non-facility staff provided care 100% of the time for that activity over the entire 7-day period"
 * item[=].item[=].item[+].linkId = "102899"
-* item[=].item[=].item[=].code = $loinc#45598-0 "Locomotion off unit"
+* item[=].item[=].item[=].code = $loinc#45598-0 "Locomotion off unit - self-performance during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "G0110F1"
 * item[=].item[=].item[=].text = "Locomotion off unit"
 * item[=].item[=].item[=].type = #choice
@@ -1601,7 +1601,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA12642-7 "Activity occurred only once or twice - activity did occur but only once or twice"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA18614-0 "Activity did not occur - activity did not occur or family and/or non-facility staff provided care 100% of the time for that activity over the entire 7-day period"
 * item[=].item[=].item[+].linkId = "102900"
-* item[=].item[=].item[=].code = $loinc#45600-4 "Dressing"
+* item[=].item[=].item[=].code = $loinc#45600-4 "Dressing - self-performance during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "G0110G1"
 * item[=].item[=].item[=].text = "Dressing"
 * item[=].item[=].item[=].type = #choice
@@ -1614,7 +1614,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA12642-7 "Activity occurred only once or twice - activity did occur but only once or twice"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA18614-0 "Activity did not occur - activity did not occur or family and/or non-facility staff provided care 100% of the time for that activity over the entire 7-day period"
 * item[=].item[=].item[+].linkId = "102901"
-* item[=].item[=].item[=].code = $loinc#45602-0 "Eating"
+* item[=].item[=].item[=].code = $loinc#45602-0 "Eating - self-performance during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "G0110H1"
 * item[=].item[=].item[=].text = "Eating"
 * item[=].item[=].item[=].type = #choice
@@ -1627,7 +1627,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA12642-7 "Activity occurred only once or twice - activity did occur but only once or twice"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA18614-0 "Activity did not occur - activity did not occur or family and/or non-facility staff provided care 100% of the time for that activity over the entire 7-day period"
 * item[=].item[=].item[+].linkId = "102902"
-* item[=].item[=].item[=].code = $loinc#45604-6 "Toilet use"
+* item[=].item[=].item[=].code = $loinc#45604-6 "Toilet use - self-performance during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "G0110I1"
 * item[=].item[=].item[=].text = "Toilet use"
 * item[=].item[=].item[=].type = #choice
@@ -1640,7 +1640,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA12642-7 "Activity occurred only once or twice - activity did occur but only once or twice"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA18614-0 "Activity did not occur - activity did not occur or family and/or non-facility staff provided care 100% of the time for that activity over the entire 7-day period"
 * item[=].item[=].item[+].linkId = "102903"
-* item[=].item[=].item[=].code = $loinc#45606-1 "Personal hygiene"
+* item[=].item[=].item[=].code = $loinc#45606-1 "Personal hygiene - self-performance during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "G0110J1"
 * item[=].item[=].item[=].text = "Personal hygiene"
 * item[=].item[=].item[=].type = #choice
@@ -1653,7 +1653,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[+].linkId = "102904"
 * item[=].item[=].prefix = "G0110_2"
@@ -1661,7 +1661,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "102905"
-* item[=].item[=].item[=].code = $loinc#45589-9 "Bed mobility"
+* item[=].item[=].item[=].code = $loinc#45589-9 "Bed mobility - support provided during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "G0110A2"
 * item[=].item[=].item[=].text = "Bed mobility"
 * item[=].item[=].item[=].type = #choice
@@ -1672,7 +1672,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA108-3 "Two+ persons physical assist"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA109-1 "ADL activity itself did not occur or family and/or non-facility staff provided care 100% of the time for that activity over the entire 7-day period"
 * item[=].item[=].item[+].linkId = "102906"
-* item[=].item[=].item[=].code = $loinc#45591-5 "Transfer"
+* item[=].item[=].item[=].code = $loinc#45591-5 "Transfer - support provided during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "G0110B2"
 * item[=].item[=].item[=].text = "Transfer"
 * item[=].item[=].item[=].type = #choice
@@ -1683,7 +1683,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA108-3 "Two+ persons physical assist"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA109-1 "ADL activity itself did not occur or family and/or non-facility staff provided care 100% of the time for that activity over the entire 7-day period"
 * item[=].item[=].item[+].linkId = "102907"
-* item[=].item[=].item[=].code = $loinc#45593-1 "Walk in room"
+* item[=].item[=].item[=].code = $loinc#45593-1 "Walk in room - support provided during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "G0110C2"
 * item[=].item[=].item[=].text = "Walk in room"
 * item[=].item[=].item[=].type = #choice
@@ -1694,7 +1694,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA108-3 "Two+ persons physical assist"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA109-1 "ADL activity itself did not occur or family and/or non-facility staff provided care 100% of the time for that activity over the entire 7-day period"
 * item[=].item[=].item[+].linkId = "102908"
-* item[=].item[=].item[=].code = $loinc#45595-6 "Walk in corridor"
+* item[=].item[=].item[=].code = $loinc#45595-6 "Walk in corridor - support provided during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "G0110D2"
 * item[=].item[=].item[=].text = "Walk in corridor"
 * item[=].item[=].item[=].type = #choice
@@ -1705,7 +1705,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA108-3 "Two+ persons physical assist"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA109-1 "ADL activity itself did not occur or family and/or non-facility staff provided care 100% of the time for that activity over the entire 7-day period"
 * item[=].item[=].item[+].linkId = "102909"
-* item[=].item[=].item[=].code = $loinc#45597-2 "Locomotion on unit"
+* item[=].item[=].item[=].code = $loinc#45597-2 "Locomotion on unit - support provided during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "G0110E2"
 * item[=].item[=].item[=].text = "Locomotion on unit"
 * item[=].item[=].item[=].type = #choice
@@ -1716,7 +1716,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA108-3 "Two+ persons physical assist"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA109-1 "ADL activity itself did not occur or family and/or non-facility staff provided care 100% of the time for that activity over the entire 7-day period"
 * item[=].item[=].item[+].linkId = "102910"
-* item[=].item[=].item[=].code = $loinc#45599-8 "Locomotion off unit"
+* item[=].item[=].item[=].code = $loinc#45599-8 "Locomotion off unit - support provided during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "G0110F2"
 * item[=].item[=].item[=].text = "Locomotion off unit"
 * item[=].item[=].item[=].type = #choice
@@ -1727,7 +1727,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA108-3 "Two+ persons physical assist"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA109-1 "ADL activity itself did not occur or family and/or non-facility staff provided care 100% of the time for that activity over the entire 7-day period"
 * item[=].item[=].item[+].linkId = "102911"
-* item[=].item[=].item[=].code = $loinc#45601-2 "Dressing"
+* item[=].item[=].item[=].code = $loinc#45601-2 "Dressing - support provided during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "G0110G2"
 * item[=].item[=].item[=].text = "Dressing"
 * item[=].item[=].item[=].type = #choice
@@ -1738,7 +1738,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA108-3 "Two+ persons physical assist"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA109-1 "ADL activity itself did not occur or family and/or non-facility staff provided care 100% of the time for that activity over the entire 7-day period"
 * item[=].item[=].item[+].linkId = "102912"
-* item[=].item[=].item[=].code = $loinc#45603-8 "Eating"
+* item[=].item[=].item[=].code = $loinc#45603-8 "Eating - support provided during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "G0110H2"
 * item[=].item[=].item[=].text = "Eating"
 * item[=].item[=].item[=].type = #choice
@@ -1749,7 +1749,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA108-3 "Two+ persons physical assist"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA109-1 "ADL activity itself did not occur or family and/or non-facility staff provided care 100% of the time for that activity over the entire 7-day period"
 * item[=].item[=].item[+].linkId = "102913"
-* item[=].item[=].item[=].code = $loinc#45605-3 "Toilet use"
+* item[=].item[=].item[=].code = $loinc#45605-3 "Toilet use - support provided during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "G0110I2"
 * item[=].item[=].item[=].text = "Toilet use"
 * item[=].item[=].item[=].type = #choice
@@ -1760,7 +1760,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA108-3 "Two+ persons physical assist"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA109-1 "ADL activity itself did not occur or family and/or non-facility staff provided care 100% of the time for that activity over the entire 7-day period"
 * item[=].item[=].item[+].linkId = "102914"
-* item[=].item[=].item[=].code = $loinc#45607-9 "Personal hygiene"
+* item[=].item[=].item[=].code = $loinc#45607-9 "Personal hygiene - support provided during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "G0110J2"
 * item[=].item[=].item[=].text = "Personal hygiene"
 * item[=].item[=].item[=].type = #choice
@@ -1776,7 +1776,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "102916"
-* item[=].item[=].item[=].code = $loinc#45608-7 "Self-performance"
+* item[=].item[=].item[=].code = $loinc#45608-7 "Bathing - self-performance during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "G0120A"
 * item[=].item[=].item[=].text = "Self-performance"
 * item[=].item[=].item[=].type = #choice
@@ -1788,7 +1788,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA114-1 "Total dependence"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA115-8 "Activity itself did not occur or family and/or non-facility staff provided care 100% of the time for that activity over the entire 7-day period"
 * item[=].item[=].item[+].linkId = "102917"
-* item[=].item[=].item[=].code = $loinc#45609-5 "Support provided"
+* item[=].item[=].item[=].code = $loinc#45609-5 "Bathing - support provided during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "G0120B"
 * item[=].item[=].item[=].text = "Support provided"
 * item[=].item[=].item[=].type = #choice
@@ -1804,7 +1804,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "102919"
-* item[=].item[=].item[=].code = $loinc#54749-7 "Moving from seated to standing position"
+* item[=].item[=].item[=].code = $loinc#54749-7 "Moving from seated to standing position during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "G0300A"
 * item[=].item[=].item[=].text = "Moving from seated to standing position"
 * item[=].item[=].item[=].type = #choice
@@ -1814,7 +1814,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11033-0 "Not steady, only able to stabilize with staff assistance"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11034-8 "Activity did not occur"
 * item[=].item[=].item[+].linkId = "102920"
-* item[=].item[=].item[=].code = $loinc#54750-5 "Walking (with assistive device if used)"
+* item[=].item[=].item[=].code = $loinc#54750-5 "Walking (with assistive device if used) during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "G0300B"
 * item[=].item[=].item[=].text = "Walking (with assistive device if used)"
 * item[=].item[=].item[=].type = #choice
@@ -1824,7 +1824,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11033-0 "Not steady, only able to stabilize with staff assistance"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11034-8 "Activity did not occur"
 * item[=].item[=].item[+].linkId = "102921"
-* item[=].item[=].item[=].code = $loinc#54751-3 "Turning around and facing the opposite direction while walking"
+* item[=].item[=].item[=].code = $loinc#54751-3 "Turning around and facing the opposite direction while walking during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "G0300C"
 * item[=].item[=].item[=].text = "Turning around and facing the opposite direction while walking"
 * item[=].item[=].item[=].type = #choice
@@ -1834,7 +1834,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11033-0 "Not steady, only able to stabilize with staff assistance"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11034-8 "Activity did not occur"
 * item[=].item[=].item[+].linkId = "102922"
-* item[=].item[=].item[=].code = $loinc#54752-1 "Moving on and off toilet"
+* item[=].item[=].item[=].code = $loinc#54752-1 "Moving on and off toilet during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "G0300D"
 * item[=].item[=].item[=].text = "Moving on and off toilet"
 * item[=].item[=].item[=].type = #choice
@@ -1844,7 +1844,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11033-0 "Not steady, only able to stabilize with staff assistance"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11034-8 "Activity did not occur"
 * item[=].item[=].item[+].linkId = "102923"
-* item[=].item[=].item[=].code = $loinc#54753-9 "Surface-to-surface transfer (transfer between bed and chair or wheelchair)"
+* item[=].item[=].item[=].code = $loinc#54753-9 "Surface-to-surface transfer during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "G0300E"
 * item[=].item[=].item[=].text = "Surface-to-surface transfer (transfer between bed and chair or wheelchair)"
 * item[=].item[=].item[=].type = #choice
@@ -1859,7 +1859,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "112228"
-* item[=].item[=].item[=].code = $loinc#92850-7 "Upper extremity (shoulder, elbow, wrist, hand)"
+* item[=].item[=].item[=].code = $loinc#92850-7 "Range of motion during assessment period [CMS Assessment] Upper extremity"
 * item[=].item[=].item[=].prefix = "G0400A"
 * item[=].item[=].item[=].text = "Upper extremity (shoulder, elbow, wrist, hand)"
 * item[=].item[=].item[=].type = #choice
@@ -1868,7 +1868,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11036-3 "Impairment on one side"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11037-1 "Impairment on both sides"
 * item[=].item[=].item[+].linkId = "112229"
-* item[=].item[=].item[=].code = $loinc#92851-5 "Lower extremity (hip, knee, ankle, foot)"
+* item[=].item[=].item[=].code = $loinc#92851-5 "Range of motion during assessment period [CMS Assessment] Lower extremity"
 * item[=].item[=].item[=].prefix = "G0400B"
 * item[=].item[=].item[=].text = "Lower extremity (hip, knee, ankle, foot)"
 * item[=].item[=].item[=].type = #choice
@@ -1877,7 +1877,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11036-3 "Impairment on one side"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11037-1 "Impairment on both sides"
 * item[=].item[+].linkId = "102927"
-* item[=].item[=].code = $loinc#86602-0 "Mobility Devices"
+* item[=].item[=].code = $loinc#86602-0 "Mobility devices normally used during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "G0600"
 * item[=].item[=].text = "Mobility Devices"
 * item[=].item[=].type = #choice
@@ -1893,7 +1893,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "102929"
-* item[=].item[=].item[=].code = $loinc#55123-4 "Resident believes he or she is capable of increased independence in at least some ADLs."
+* item[=].item[=].item[=].code = $loinc#55123-4 "Resident believes he or she is capable of increased independence in at least some ADLs during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "G0900A"
 * item[=].item[=].item[=].text = "Resident believes he or she is capable of increased independence in at least some ADLs."
 * item[=].item[=].item[=].type = #choice
@@ -1902,7 +1902,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11137-9 "Unable to determine"
 * item[=].item[=].item[+].linkId = "102930"
-* item[=].item[=].item[=].code = $loinc#45613-7 "Direct care staff believe resident is capable of increased independence in at least some ADLs"
+* item[=].item[=].item[=].code = $loinc#45613-7 "Direct care staff believe resident is capable of increased independence in at least some ADLs during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "G0900B"
 * item[=].item[=].item[=].text = "Direct care staff believe resident is capable of increased independence in at least some ADLs"
 * item[=].item[=].item[=].type = #choice
@@ -1920,7 +1920,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "102933"
-* item[=].item[=].item[=].code = $loinc#85070-1 "Self-Care"
+* item[=].item[=].item[=].code = $loinc#85070-1 "Prior functioning.self care during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0100A"
 * item[=].item[=].item[=].text = "Self-Care"
 * item[=].item[=].item[=].type = #choice
@@ -1931,7 +1931,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA4489-6 "Unknown"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA4720-4 "Not applicable"
 * item[=].item[=].item[+].linkId = "102934"
-* item[=].item[=].item[=].code = $loinc#85071-9 "Indoor Mobility (Ambulation)"
+* item[=].item[=].item[=].code = $loinc#85071-9 "Indoor mobility (Ambulation) during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0100B"
 * item[=].item[=].item[=].text = "Indoor Mobility (Ambulation)"
 * item[=].item[=].item[=].type = #choice
@@ -1942,7 +1942,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA4489-6 "Unknown"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA4720-4 "Not applicable"
 * item[=].item[=].item[+].linkId = "102935"
-* item[=].item[=].item[=].code = $loinc#85072-7 "Stairs"
+* item[=].item[=].item[=].code = $loinc#85072-7 "Stairs during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0100C"
 * item[=].item[=].item[=].text = "Stairs"
 * item[=].item[=].item[=].type = #choice
@@ -1953,7 +1953,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA4489-6 "Unknown"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA4720-4 "Not applicable"
 * item[=].item[=].item[+].linkId = "102936"
-* item[=].item[=].item[=].code = $loinc#85073-5 "Functional Cognition"
+* item[=].item[=].item[=].code = $loinc#85073-5 "Functional cognition during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0100D"
 * item[=].item[=].item[=].text = "Functional Cognition"
 * item[=].item[=].item[=].type = #choice
@@ -1964,7 +1964,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA4489-6 "Unknown"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA4720-4 "Not applicable"
 * item[=].item[+].linkId = "102937"
-* item[=].item[=].code = $loinc#83234-5 "Prior Device Use"
+* item[=].item[=].code = $loinc#83234-5 "Prior device use during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "GG0110"
 * item[=].item[=].text = "Prior Device Use"
 * item[=].item[=].type = #choice
@@ -1981,7 +1981,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "102939"
-* item[=].item[=].item[=].code = $loinc#95019-6 "Eating"
+* item[=].item[=].item[=].code = $loinc#95019-6 "Eating - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0130A1"
 * item[=].item[=].item[=].text = "Eating"
 * item[=].item[=].item[=].type = #choice
@@ -1994,10 +1994,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102940"
-* item[=].item[=].item[=].code = $loinc#95018-8 "Oral hygiene"
+* item[=].item[=].item[=].code = $loinc#95018-8 "Oral hygiene - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0130B1"
 * item[=].item[=].item[=].text = "Oral hygiene"
 * item[=].item[=].item[=].type = #choice
@@ -2010,10 +2010,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102941"
-* item[=].item[=].item[=].code = $loinc#95017-0 "Toileting hygiene"
+* item[=].item[=].item[=].code = $loinc#95017-0 "Toileting hygiene - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0130C1"
 * item[=].item[=].item[=].text = "Toileting hygiene"
 * item[=].item[=].item[=].type = #choice
@@ -2026,10 +2026,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102942"
-* item[=].item[=].item[=].code = $loinc#95015-4 "Shower/bathe self"
+* item[=].item[=].item[=].code = $loinc#95015-4 "Shower/bathe self - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0130E1"
 * item[=].item[=].item[=].text = "Shower/bathe self"
 * item[=].item[=].item[=].type = #choice
@@ -2042,10 +2042,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102943"
-* item[=].item[=].item[=].code = $loinc#95014-7 "Upper body dressing"
+* item[=].item[=].item[=].code = $loinc#95014-7 "Upper body dressing - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0130F1"
 * item[=].item[=].item[=].text = "Upper body dressing"
 * item[=].item[=].item[=].type = #choice
@@ -2058,10 +2058,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102944"
-* item[=].item[=].item[=].code = $loinc#95013-9 "Lower body dressing"
+* item[=].item[=].item[=].code = $loinc#95013-9 "Lower body dressing - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0130G1"
 * item[=].item[=].item[=].text = "Lower body dressing"
 * item[=].item[=].item[=].type = #choice
@@ -2074,10 +2074,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102945"
-* item[=].item[=].item[=].code = $loinc#95012-1 "Putting on/taking off footwear"
+* item[=].item[=].item[=].code = $loinc#95012-1 "Putting on/taking off footwear - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0130H1"
 * item[=].item[=].item[=].text = "Putting on/taking off footwear"
 * item[=].item[=].item[=].type = #choice
@@ -2090,7 +2090,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[+].linkId = "102946"
 * item[=].item[=].prefix = "GG0130_2"
@@ -2098,7 +2098,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "136634"
-* item[=].item[=].item[=].code = $loinc#89404-8 "Oral hygiene - functional goal"
+* item[=].item[=].item[=].code = $loinc#89404-8 "Oral hygiene - functional goal during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].text = "Oral hygiene - functional goal"
 * item[=].item[=].item[=].type = #choice
 * item[=].item[=].item[=].repeats = false
@@ -2110,10 +2110,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "137359"
-* item[=].item[=].item[=].code = $loinc#89409-7 "Eating"
+* item[=].item[=].item[=].code = $loinc#89409-7 "Eating - functional goal during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0130A2"
 * item[=].item[=].item[=].text = "Eating"
 * item[=].item[=].item[=].type = #choice
@@ -2126,10 +2126,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102949"
-* item[=].item[=].item[=].code = $loinc#89389-1 "Toileting hygiene"
+* item[=].item[=].item[=].code = $loinc#89389-1 "Toileting hygiene - functional goal during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0130C2"
 * item[=].item[=].item[=].text = "Toileting hygiene"
 * item[=].item[=].item[=].type = #choice
@@ -2142,10 +2142,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102950"
-* item[=].item[=].item[=].code = $loinc#89396-6 "Shower/bathe self"
+* item[=].item[=].item[=].code = $loinc#89396-6 "Shower/bathe self - functional goal during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0130E2"
 * item[=].item[=].item[=].text = "Shower/bathe self"
 * item[=].item[=].item[=].type = #choice
@@ -2158,10 +2158,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102951"
-* item[=].item[=].item[=].code = $loinc#89387-5 "Upper body dressing"
+* item[=].item[=].item[=].code = $loinc#89387-5 "Upper body dressing - functional goal during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0130F2"
 * item[=].item[=].item[=].text = "Upper body dressing"
 * item[=].item[=].item[=].type = #choice
@@ -2174,10 +2174,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102952"
-* item[=].item[=].item[=].code = $loinc#89406-3 "Lower body dressing"
+* item[=].item[=].item[=].code = $loinc#89406-3 "Lower body dressing - functional goal during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0130G2"
 * item[=].item[=].item[=].text = "Lower body dressing"
 * item[=].item[=].item[=].type = #choice
@@ -2190,10 +2190,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102953"
-* item[=].item[=].item[=].code = $loinc#89400-6 "Putting on/taking off footwear"
+* item[=].item[=].item[=].code = $loinc#89400-6 "Putting on and taking off footwear - functional goal during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0130H2"
 * item[=].item[=].item[=].text = "Putting on/taking off footwear"
 * item[=].item[=].item[=].type = #choice
@@ -2206,7 +2206,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[+].linkId = "102954"
 * item[=].item[=].prefix = "GG0170_1"
@@ -2214,7 +2214,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "102955"
-* item[=].item[=].item[=].code = $loinc#95011-3 "Roll left and right"
+* item[=].item[=].item[=].code = $loinc#95011-3 "Roll left and right - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170A1"
 * item[=].item[=].item[=].text = "Roll left and right"
 * item[=].item[=].item[=].type = #choice
@@ -2227,10 +2227,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102956"
-* item[=].item[=].item[=].code = $loinc#95010-5 "Sit to lying"
+* item[=].item[=].item[=].code = $loinc#95010-5 "Sit to lying - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170B1"
 * item[=].item[=].item[=].text = "Sit to lying"
 * item[=].item[=].item[=].type = #choice
@@ -2243,10 +2243,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102957"
-* item[=].item[=].item[=].code = $loinc#95009-7 "Lying to sitting on side of bed"
+* item[=].item[=].item[=].code = $loinc#95009-7 "Lying to sitting on side of bed - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170C1"
 * item[=].item[=].item[=].text = "Lying to sitting on side of bed"
 * item[=].item[=].item[=].type = #choice
@@ -2259,10 +2259,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102958"
-* item[=].item[=].item[=].code = $loinc#95008-9 "Sit to stand"
+* item[=].item[=].item[=].code = $loinc#95008-9 "Sit to stand - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170D1"
 * item[=].item[=].item[=].text = "Sit to stand"
 * item[=].item[=].item[=].type = #choice
@@ -2275,10 +2275,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102959"
-* item[=].item[=].item[=].code = $loinc#95007-1 "Chair/bed-to-chair transfer"
+* item[=].item[=].item[=].code = $loinc#95007-1 "Chair/bed-to-chair transfer - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170E1"
 * item[=].item[=].item[=].text = "Chair/bed-to-chair transfer"
 * item[=].item[=].item[=].type = #choice
@@ -2291,10 +2291,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102960"
-* item[=].item[=].item[=].code = $loinc#95006-3 "Toilet transfer"
+* item[=].item[=].item[=].code = $loinc#95006-3 "Toilet transfer - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170F1"
 * item[=].item[=].item[=].text = "Toilet transfer"
 * item[=].item[=].item[=].type = #choice
@@ -2307,10 +2307,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102961"
-* item[=].item[=].item[=].code = $loinc#95005-5 "Car transfer"
+* item[=].item[=].item[=].code = $loinc#95005-5 "Car transfer - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170G1"
 * item[=].item[=].item[=].text = "Car transfer"
 * item[=].item[=].item[=].type = #choice
@@ -2323,10 +2323,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102962"
-* item[=].item[=].item[=].code = $loinc#95004-8 "Walk 10 feet"
+* item[=].item[=].item[=].code = $loinc#95004-8 "Walk 10 feet - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170I1"
 * item[=].item[=].item[=].text = "Walk 10 feet"
 * item[=].item[=].item[=].type = #choice
@@ -2339,10 +2339,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102963"
-* item[=].item[=].item[=].code = $loinc#95003-0 "Walk 50 feet with two turns"
+* item[=].item[=].item[=].code = $loinc#95003-0 "Walk 50 feet with two turns - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170J1"
 * item[=].item[=].item[=].text = "Walk 50 feet with two turns"
 * item[=].item[=].item[=].type = #choice
@@ -2355,10 +2355,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102964"
-* item[=].item[=].item[=].code = $loinc#95002-2 "Walk 150 feet"
+* item[=].item[=].item[=].code = $loinc#95002-2 "Walk 150 feet - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170K1"
 * item[=].item[=].item[=].text = "Walk 150 feet"
 * item[=].item[=].item[=].type = #choice
@@ -2371,10 +2371,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102965"
-* item[=].item[=].item[=].code = $loinc#95001-4 "Walking 10 feet on uneven surfaces"
+* item[=].item[=].item[=].code = $loinc#95001-4 "Walking 10 feet on uneven surfaces - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170L1"
 * item[=].item[=].item[=].text = "Walking 10 feet on uneven surfaces"
 * item[=].item[=].item[=].type = #choice
@@ -2387,10 +2387,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102966"
-* item[=].item[=].item[=].code = $loinc#95000-6 "1 step (curb)"
+* item[=].item[=].item[=].code = $loinc#95000-6 "Go up and down a curb/step - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170M1"
 * item[=].item[=].item[=].text = "1 step (curb)"
 * item[=].item[=].item[=].type = #choice
@@ -2403,10 +2403,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102967"
-* item[=].item[=].item[=].code = $loinc#94999-0 "4 steps"
+* item[=].item[=].item[=].code = $loinc#94999-0 "Go up and down 4 steps - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170N1"
 * item[=].item[=].item[=].text = "4 steps"
 * item[=].item[=].item[=].type = #choice
@@ -2419,10 +2419,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102968"
-* item[=].item[=].item[=].code = $loinc#94998-2 "12 steps"
+* item[=].item[=].item[=].code = $loinc#94998-2 "Go up and down 12 steps - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170O1"
 * item[=].item[=].item[=].text = "12 steps"
 * item[=].item[=].item[=].type = #choice
@@ -2435,10 +2435,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102969"
-* item[=].item[=].item[=].code = $loinc#94997-4 "Picking up object"
+* item[=].item[=].item[=].code = $loinc#94997-4 "Picking up object - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170P1"
 * item[=].item[=].item[=].text = "Picking up object"
 * item[=].item[=].item[=].type = #choice
@@ -2451,10 +2451,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102970"
-* item[=].item[=].item[=].code = $loinc#95738-1 "Does the resident use a wheelchair and/or scooter?"
+* item[=].item[=].item[=].code = $loinc#95738-1 "Does the patient use a wheelchair/scooter during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170Q1"
 * item[=].item[=].item[=].text = "Does the resident use a wheelchair and/or scooter?"
 * item[=].item[=].item[=].type = #choice
@@ -2462,7 +2462,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[+].linkId = "102971"
-* item[=].item[=].item[=].code = $loinc#94992-5 "Wheel 50 feet with two turns"
+* item[=].item[=].item[=].code = $loinc#94992-5 "Wheel 50 feet with two turns - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170R1"
 * item[=].item[=].item[=].text = "Wheel 50 feet with two turns"
 * item[=].item[=].item[=].type = #choice
@@ -2475,10 +2475,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102972"
-* item[=].item[=].item[=].code = $loinc#95739-9 "Indicate the type of wheelchair or scooter used"
+* item[=].item[=].item[=].code = $loinc#95739-9 "Indicate the type of wheelchair/scooter used during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170RR1"
 * item[=].item[=].item[=].text = "Indicate the type of wheelchair or scooter used"
 * item[=].item[=].item[=].type = #choice
@@ -2486,7 +2486,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA19016-7 "Manual"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26847-6 "Motorized"
 * item[=].item[=].item[+].linkId = "102973"
-* item[=].item[=].item[=].code = $loinc#94991-7 "Wheel 150 feet"
+* item[=].item[=].item[=].code = $loinc#94991-7 "Wheel 150 feet - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170S1"
 * item[=].item[=].item[=].text = "Wheel 150 feet"
 * item[=].item[=].item[=].type = #choice
@@ -2499,10 +2499,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102974"
-* item[=].item[=].item[=].code = $loinc#95739-9 "Indicate the type of wheelchair or scooter used"
+* item[=].item[=].item[=].code = $loinc#95739-9 "Indicate the type of wheelchair/scooter used during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170SS1"
 * item[=].item[=].item[=].text = "Indicate the type of wheelchair or scooter used"
 * item[=].item[=].item[=].type = #choice
@@ -2515,7 +2515,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "102976"
-* item[=].item[=].item[=].code = $loinc#89398-2 "Roll left and right"
+* item[=].item[=].item[=].code = $loinc#89398-2 "Roll left and right - functional goal during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170A2"
 * item[=].item[=].item[=].text = "Roll left and right"
 * item[=].item[=].item[=].type = #choice
@@ -2528,10 +2528,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102977"
-* item[=].item[=].item[=].code = $loinc#89394-1 "Sit to lying"
+* item[=].item[=].item[=].code = $loinc#89394-1 "Sit to lying - functional goal during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170B2"
 * item[=].item[=].item[=].text = "Sit to lying"
 * item[=].item[=].item[=].type = #choice
@@ -2544,10 +2544,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102978"
-* item[=].item[=].item[=].code = $loinc#85927-2 "Lying to sitting on side of bed"
+* item[=].item[=].item[=].code = $loinc#85927-2 "Lying to sitting on side of bed - functional goal during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170C2"
 * item[=].item[=].item[=].text = "Lying to sitting on side of bed"
 * item[=].item[=].item[=].type = #choice
@@ -2560,10 +2560,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102979"
-* item[=].item[=].item[=].code = $loinc#89392-5 "Sit to stand"
+* item[=].item[=].item[=].code = $loinc#89392-5 "Sit to stand - functional goal during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170D2"
 * item[=].item[=].item[=].text = "Sit to stand"
 * item[=].item[=].item[=].type = #choice
@@ -2576,10 +2576,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102980"
-* item[=].item[=].item[=].code = $loinc#89414-7 "Chair/bed-to-chair transfer"
+* item[=].item[=].item[=].code = $loinc#89414-7 "Chair/bed-to-chair transfer - functional goal during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170E2"
 * item[=].item[=].item[=].text = "Chair/bed-to-chair transfer"
 * item[=].item[=].item[=].type = #choice
@@ -2592,10 +2592,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102981"
-* item[=].item[=].item[=].code = $loinc#89390-9 "Toilet transfer"
+* item[=].item[=].item[=].code = $loinc#89390-9 "Toilet transfer - functional goal during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170F2"
 * item[=].item[=].item[=].text = "Toilet transfer"
 * item[=].item[=].item[=].type = #choice
@@ -2608,10 +2608,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102982"
-* item[=].item[=].item[=].code = $loinc#89412-1 "Car transfer"
+* item[=].item[=].item[=].code = $loinc#89412-1 "Car transfer - functional goal during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170G2"
 * item[=].item[=].item[=].text = "Car transfer"
 * item[=].item[=].item[=].type = #choice
@@ -2624,10 +2624,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102983"
-* item[=].item[=].item[=].code = $loinc#89385-9 "Walk 10 feet"
+* item[=].item[=].item[=].code = $loinc#89385-9 "Walk 10 feet - functional goal during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170I2"
 * item[=].item[=].item[=].text = "Walk 10 feet"
 * item[=].item[=].item[=].type = #choice
@@ -2640,10 +2640,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102984"
-* item[=].item[=].item[=].code = $loinc#89381-8 "Walk 50 feet with two turns"
+* item[=].item[=].item[=].code = $loinc#89381-8 "Walk 50 feet with two turns - functional goal during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170J2"
 * item[=].item[=].item[=].text = "Walk 50 feet with two turns"
 * item[=].item[=].item[=].type = #choice
@@ -2656,10 +2656,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102985"
-* item[=].item[=].item[=].code = $loinc#89383-4 "Walk 150 feet"
+* item[=].item[=].item[=].code = $loinc#89383-4 "Walk 150 feet - functional goal during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170K2"
 * item[=].item[=].item[=].text = "Walk 150 feet"
 * item[=].item[=].item[=].type = #choice
@@ -2672,10 +2672,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102986"
-* item[=].item[=].item[=].code = $loinc#89379-2 "Walking 10 feet on uneven surfaces"
+* item[=].item[=].item[=].code = $loinc#89379-2 "Walking 10 feet on uneven surfaces - functional goal during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170L2"
 * item[=].item[=].item[=].text = "Walking 10 feet on uneven surfaces"
 * item[=].item[=].item[=].type = #choice
@@ -2688,10 +2688,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102987"
-* item[=].item[=].item[=].code = $loinc#89420-4 "1 step (curb)"
+* item[=].item[=].item[=].code = $loinc#89420-4 "Go up and down a curb/step - functional goal during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170M2"
 * item[=].item[=].item[=].text = "1 step (curb)"
 * item[=].item[=].item[=].type = #choice
@@ -2704,10 +2704,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102988"
-* item[=].item[=].item[=].code = $loinc#89416-2 "4 steps"
+* item[=].item[=].item[=].code = $loinc#89416-2 "Go up and down 4 steps - functional goal during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170N2"
 * item[=].item[=].item[=].text = "4 steps"
 * item[=].item[=].item[=].type = #choice
@@ -2720,10 +2720,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102989"
-* item[=].item[=].item[=].code = $loinc#89418-8 "12 steps"
+* item[=].item[=].item[=].code = $loinc#89418-8 "Go up and down 12 steps - functional goal during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170O2"
 * item[=].item[=].item[=].text = "12 steps"
 * item[=].item[=].item[=].type = #choice
@@ -2736,10 +2736,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102990"
-* item[=].item[=].item[=].code = $loinc#89402-2 "Picking up object"
+* item[=].item[=].item[=].code = $loinc#89402-2 "Picking up object - functional goal during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170P2"
 * item[=].item[=].item[=].text = "Picking up object"
 * item[=].item[=].item[=].type = #choice
@@ -2752,10 +2752,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102991"
-* item[=].item[=].item[=].code = $loinc#89375-0 "Wheel 50 feet with two turns"
+* item[=].item[=].item[=].code = $loinc#89375-0 "Wheel 50 feet with two turns - functional goal during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170R2"
 * item[=].item[=].item[=].text = "Wheel 50 feet with two turns"
 * item[=].item[=].item[=].type = #choice
@@ -2768,10 +2768,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102992"
-* item[=].item[=].item[=].code = $loinc#89377-6 "Wheel 150 feet"
+* item[=].item[=].item[=].code = $loinc#89377-6 "Wheel 150 feet - functional goal during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170S2"
 * item[=].item[=].item[=].text = "Wheel 150 feet"
 * item[=].item[=].item[=].type = #choice
@@ -2784,7 +2784,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[+].linkId = "102993"
 * item[=].prefix = "GG"
@@ -2797,7 +2797,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "102995"
-* item[=].item[=].item[=].code = $loinc#95019-6 "Eating"
+* item[=].item[=].item[=].code = $loinc#95019-6 "Eating - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0130A3"
 * item[=].item[=].item[=].text = "Eating"
 * item[=].item[=].item[=].type = #choice
@@ -2810,10 +2810,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102996"
-* item[=].item[=].item[=].code = $loinc#95018-8 "Oral hygiene"
+* item[=].item[=].item[=].code = $loinc#95018-8 "Oral hygiene - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0130B3"
 * item[=].item[=].item[=].text = "Oral hygiene"
 * item[=].item[=].item[=].type = #choice
@@ -2826,10 +2826,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102997"
-* item[=].item[=].item[=].code = $loinc#95017-0 "Toileting hygiene"
+* item[=].item[=].item[=].code = $loinc#95017-0 "Toileting hygiene - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0130C3"
 * item[=].item[=].item[=].text = "Toileting hygiene"
 * item[=].item[=].item[=].type = #choice
@@ -2842,10 +2842,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102998"
-* item[=].item[=].item[=].code = $loinc#95015-4 "Shower/bathe self"
+* item[=].item[=].item[=].code = $loinc#95015-4 "Shower/bathe self - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0130E3"
 * item[=].item[=].item[=].text = "Shower/bathe self"
 * item[=].item[=].item[=].type = #choice
@@ -2858,10 +2858,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "102999"
-* item[=].item[=].item[=].code = $loinc#95014-7 "Upper body dressing"
+* item[=].item[=].item[=].code = $loinc#95014-7 "Upper body dressing - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0130F3"
 * item[=].item[=].item[=].text = "Upper body dressing"
 * item[=].item[=].item[=].type = #choice
@@ -2874,10 +2874,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "103000"
-* item[=].item[=].item[=].code = $loinc#95013-9 "Lower body dressing"
+* item[=].item[=].item[=].code = $loinc#95013-9 "Lower body dressing - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0130G3"
 * item[=].item[=].item[=].text = "Lower body dressing"
 * item[=].item[=].item[=].type = #choice
@@ -2890,10 +2890,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "103001"
-* item[=].item[=].item[=].code = $loinc#95012-1 "Putting on/taking off footwear"
+* item[=].item[=].item[=].code = $loinc#95012-1 "Putting on/taking off footwear - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0130H3"
 * item[=].item[=].item[=].text = "Putting on/taking off footwear"
 * item[=].item[=].item[=].type = #choice
@@ -2906,7 +2906,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[+].linkId = "103002"
 * item[=].item[=].prefix = "GG0170_3"
@@ -2914,7 +2914,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "103003"
-* item[=].item[=].item[=].code = $loinc#95011-3 "Roll left and right"
+* item[=].item[=].item[=].code = $loinc#95011-3 "Roll left and right - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170A3"
 * item[=].item[=].item[=].text = "Roll left and right"
 * item[=].item[=].item[=].type = #choice
@@ -2927,10 +2927,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "103004"
-* item[=].item[=].item[=].code = $loinc#95010-5 "Sit to lying"
+* item[=].item[=].item[=].code = $loinc#95010-5 "Sit to lying - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170B3"
 * item[=].item[=].item[=].text = "Sit to lying"
 * item[=].item[=].item[=].type = #choice
@@ -2943,10 +2943,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "103005"
-* item[=].item[=].item[=].code = $loinc#95009-7 "Lying to sitting on side of bed"
+* item[=].item[=].item[=].code = $loinc#95009-7 "Lying to sitting on side of bed - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170C3"
 * item[=].item[=].item[=].text = "Lying to sitting on side of bed"
 * item[=].item[=].item[=].type = #choice
@@ -2959,10 +2959,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "103006"
-* item[=].item[=].item[=].code = $loinc#95008-9 "Sit to stand"
+* item[=].item[=].item[=].code = $loinc#95008-9 "Sit to stand - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170D3"
 * item[=].item[=].item[=].text = "Sit to stand"
 * item[=].item[=].item[=].type = #choice
@@ -2975,10 +2975,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "103007"
-* item[=].item[=].item[=].code = $loinc#95007-1 "Chair/bed-to-chair transfer"
+* item[=].item[=].item[=].code = $loinc#95007-1 "Chair/bed-to-chair transfer - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170E3"
 * item[=].item[=].item[=].text = "Chair/bed-to-chair transfer"
 * item[=].item[=].item[=].type = #choice
@@ -2991,10 +2991,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "103008"
-* item[=].item[=].item[=].code = $loinc#95006-3 "Toilet transfer"
+* item[=].item[=].item[=].code = $loinc#95006-3 "Toilet transfer - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170F3"
 * item[=].item[=].item[=].text = "Toilet transfer"
 * item[=].item[=].item[=].type = #choice
@@ -3007,10 +3007,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "103009"
-* item[=].item[=].item[=].code = $loinc#95005-5 "Car transfer"
+* item[=].item[=].item[=].code = $loinc#95005-5 "Car transfer - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170G3"
 * item[=].item[=].item[=].text = "Car transfer"
 * item[=].item[=].item[=].type = #choice
@@ -3023,10 +3023,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "103010"
-* item[=].item[=].item[=].code = $loinc#95004-8 "Walk 10 feet"
+* item[=].item[=].item[=].code = $loinc#95004-8 "Walk 10 feet - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170I3"
 * item[=].item[=].item[=].text = "Walk 10 feet"
 * item[=].item[=].item[=].type = #choice
@@ -3039,10 +3039,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "103011"
-* item[=].item[=].item[=].code = $loinc#95003-0 "Walk 50 feet with two turns"
+* item[=].item[=].item[=].code = $loinc#95003-0 "Walk 50 feet with two turns - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170J3"
 * item[=].item[=].item[=].text = "Walk 50 feet with two turns"
 * item[=].item[=].item[=].type = #choice
@@ -3055,10 +3055,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "103012"
-* item[=].item[=].item[=].code = $loinc#95002-2 "Walk 150 feet"
+* item[=].item[=].item[=].code = $loinc#95002-2 "Walk 150 feet - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170K3"
 * item[=].item[=].item[=].text = "Walk 150 feet"
 * item[=].item[=].item[=].type = #choice
@@ -3071,10 +3071,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "103013"
-* item[=].item[=].item[=].code = $loinc#95001-4 "Walking 10 feet on uneven surfaces"
+* item[=].item[=].item[=].code = $loinc#95001-4 "Walking 10 feet on uneven surfaces - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170L3"
 * item[=].item[=].item[=].text = "Walking 10 feet on uneven surfaces"
 * item[=].item[=].item[=].type = #choice
@@ -3087,10 +3087,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "103014"
-* item[=].item[=].item[=].code = $loinc#95000-6 "1 step (curb)"
+* item[=].item[=].item[=].code = $loinc#95000-6 "Go up and down a curb/step - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170M3"
 * item[=].item[=].item[=].text = "1 step (curb)"
 * item[=].item[=].item[=].type = #choice
@@ -3103,10 +3103,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "103015"
-* item[=].item[=].item[=].code = $loinc#94999-0 "4 steps"
+* item[=].item[=].item[=].code = $loinc#94999-0 "Go up and down 4 steps - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170N3"
 * item[=].item[=].item[=].text = "4 steps"
 * item[=].item[=].item[=].type = #choice
@@ -3119,10 +3119,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "103016"
-* item[=].item[=].item[=].code = $loinc#94998-2 "12 steps"
+* item[=].item[=].item[=].code = $loinc#94998-2 "Go up and down 12 steps - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170O3"
 * item[=].item[=].item[=].text = "12 steps"
 * item[=].item[=].item[=].type = #choice
@@ -3135,10 +3135,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "103017"
-* item[=].item[=].item[=].code = $loinc#94997-4 "Picking up object"
+* item[=].item[=].item[=].code = $loinc#94997-4 "Picking up object - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170P3"
 * item[=].item[=].item[=].text = "Picking up object"
 * item[=].item[=].item[=].type = #choice
@@ -3151,10 +3151,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "103018"
-* item[=].item[=].item[=].code = $loinc#95738-1 "Does the resident use a wheelchair and/or scooter?"
+* item[=].item[=].item[=].code = $loinc#95738-1 "Does the patient use a wheelchair/scooter during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170Q3"
 * item[=].item[=].item[=].text = "Does the resident use a wheelchair and/or scooter?"
 * item[=].item[=].item[=].type = #choice
@@ -3162,7 +3162,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[+].linkId = "103019"
-* item[=].item[=].item[=].code = $loinc#94992-5 "Wheel 50 feet with two turns"
+* item[=].item[=].item[=].code = $loinc#94992-5 "Wheel 50 feet with two turns - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170R3"
 * item[=].item[=].item[=].text = "Wheel 50 feet with two turns"
 * item[=].item[=].item[=].type = #choice
@@ -3175,10 +3175,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "103020"
-* item[=].item[=].item[=].code = $loinc#95739-9 "Indicate the type of wheelchair or scooter used"
+* item[=].item[=].item[=].code = $loinc#95739-9 "Indicate the type of wheelchair/scooter used during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170RR3"
 * item[=].item[=].item[=].text = "Indicate the type of wheelchair or scooter used"
 * item[=].item[=].item[=].type = #choice
@@ -3186,7 +3186,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA19016-7 "Manual"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26847-6 "Motorized"
 * item[=].item[=].item[+].linkId = "103021"
-* item[=].item[=].item[=].code = $loinc#94991-7 "Wheel 150 feet"
+* item[=].item[=].item[=].code = $loinc#94991-7 "Wheel 150 feet - usual functional ability during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170S3"
 * item[=].item[=].item[=].text = "Wheel 150 feet"
 * item[=].item[=].item[=].type = #choice
@@ -3199,10 +3199,10 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27998-6 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27999-4 "Resident refused"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28871-4 "Not applicable - Not attempted and the resident did not perform this activity prior to the current illness, exacerbation, or injury."
-* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)."
+* item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28227-9 "Not attempted due to environmental limitations (e.g., lack of equipment, weather constraints)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA26735-3 "Not attempted due to medical condition or safety concerns"
 * item[=].item[=].item[+].linkId = "103022"
-* item[=].item[=].item[=].code = $loinc#95739-9 "Indicate the type of wheelchair or scooter used"
+* item[=].item[=].item[=].code = $loinc#95739-9 "Indicate the type of wheelchair/scooter used during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "GG0170SS3"
 * item[=].item[=].item[=].text = "Indicate the type of wheelchair or scooter used"
 * item[=].item[=].item[=].type = #choice
@@ -3215,7 +3215,7 @@ Usage: #example
 * item[=].type = #group
 * item[=].required = true
 * item[=].item[0].linkId = "103024"
-* item[=].item[=].code = $loinc#86624-4 "Appliances"
+* item[=].item[=].code = $loinc#86624-4 "Bladder and bowel appliances used during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "H0100"
 * item[=].item[=].text = "Appliances"
 * item[=].item[=].type = #choice
@@ -3231,7 +3231,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "103026"
-* item[=].item[=].item[=].code = $loinc#54767-9 "Has a trial of a toileting program (e.g., scheduled toileting, prompted voiding, or bladder training) been attempted on admission/entry or reentry or since urinary incontinence was noted in this facility?"
+* item[=].item[=].item[=].code = $loinc#54767-9 "Trial of toileting program has been attempted on admission or reentry or since urinary incontinence was noted in this facility during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "H0200A"
 * item[=].item[=].item[=].text = "Has a trial of a toileting program (e.g., scheduled toileting, prompted voiding, or bladder training) been attempted on admission/entry or reentry or since urinary incontinence was noted in this facility?"
 * item[=].item[=].item[=].type = #choice
@@ -3240,7 +3240,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11137-9 "Unable to determine"
 * item[=].item[=].item[+].linkId = "103027"
-* item[=].item[=].item[=].code = $loinc#54768-7 "Response - What was the resident's response to the trial program?"
+* item[=].item[=].item[=].code = $loinc#54768-7 "Response to toileting program during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "H0200B"
 * item[=].item[=].item[=].text = "Response - What was the resident's response to the trial program?"
 * item[=].item[=].item[=].type = #choice
@@ -3250,7 +3250,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11040-5 "Completely dry (continent)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11041-3 "Unable to determine or trial in progress"
 * item[=].item[=].item[+].linkId = "103028"
-* item[=].item[=].item[=].code = $loinc#54769-5 "Current toileting program or trial - Is a toileting program (e.g., scheduled toileting, prompted voiding, or bladder training) currently being used to manage the resident's urinary continence?"
+* item[=].item[=].item[=].code = $loinc#54769-5 "Current toileting program or trial during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "H0200C"
 * item[=].item[=].item[=].text = "Current toileting program or trial - Is a toileting program (e.g., scheduled toileting, prompted voiding, or bladder training) currently being used to manage the resident's urinary continence?"
 * item[=].item[=].item[=].type = #choice
@@ -3258,7 +3258,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[+].linkId = "103029"
-* item[=].item[=].code = $loinc#95735-7 "Urinary Continence"
+* item[=].item[=].code = $loinc#95735-7 "Bladder continence during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "H0300"
 * item[=].item[=].text = "Urinary Continence"
 * item[=].item[=].type = #choice
@@ -3270,7 +3270,7 @@ Usage: #example
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA11045-4 "Always incontinent (no episodes of continent voiding)"
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA11046-2 "Not rated, resident had a catheter (indwelling, condom), urinary ostomy, or no urine output for the entire 7 days"
 * item[=].item[+].linkId = "103030"
-* item[=].item[=].code = $loinc#95736-5 "Bowel Continence"
+* item[=].item[=].code = $loinc#95736-5 "Bowel continence during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "H0400"
 * item[=].item[=].text = "Bowel Continence"
 * item[=].item[=].type = #choice
@@ -3280,9 +3280,9 @@ Usage: #example
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA11048-8 "Occasionally incontinent (one episode of bowel incontinence)"
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA11049-6 "Frequently incontinent (2 or more episodes of bowel incontinence, but at least one continent bowel movement)"
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA11050-4 "Always incontinent (no episodes of continent bowel movements)"
-* item[=].item[=].answerOption[+].valueCoding = $loinc#LA11051-2 "Not rated, resident had an ostomy or did not have a bowel movement for the entire 7 days"
+* item[=].item[=].answerOption[+].valueCoding = $loinc#LA11051-2 "Not rated, patient had an ostomy or did not have a bowel movement for the entire 7 days"
 * item[=].item[+].linkId = "103031"
-* item[=].item[=].code = $loinc#88695-2 "Bowel Toileting Program"
+* item[=].item[=].code = $loinc#88695-2 "Used bowel toileting program during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "H0500"
 * item[=].item[=].text = "Bowel Toileting Program"
 * item[=].item[=].type = #choice
@@ -3290,7 +3290,7 @@ Usage: #example
 * item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[+].linkId = "103032"
-* item[=].item[=].code = $loinc#54773-7 "Bowel Patterns. Constipation present?"
+* item[=].item[=].code = $loinc#54773-7 "Constipation present during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "H0600"
 * item[=].item[=].text = "Bowel Patterns. Constipation present?"
 * item[=].item[=].type = #choice
@@ -3303,7 +3303,7 @@ Usage: #example
 * item[=].type = #group
 * item[=].required = true
 * item[=].item[0].linkId = "103034"
-* item[=].item[=].code = $loinc#96095-5 "Indicate the resident's primary medical condition category"
+* item[=].item[=].code = $loinc#96095-5 "Indicate the patient's primary medical condition category during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "I0020"
 * item[=].item[=].text = "Indicate the resident's primary medical condition category"
 * item[=].item[=].type = #choice
@@ -3323,14 +3323,14 @@ Usage: #example
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA28885-4 "Debility, cardiorespiratory conditions"
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA28886-2 "Medically complex conditions"
 * item[=].item[+].linkId = "106150"
-* item[=].item[=].code = $loinc#52797-8 "ICD Code"
+* item[=].item[=].code = $loinc#52797-8 "Diagnosis ICD code [Identifier]"
 * item[=].item[=].prefix = "I0020B"
 * item[=].item[=].text = "ICD Code"
 * item[=].item[=].type = #choice
 * item[=].item[=].repeats = false
 * item[=].item[=].answerOption.valueCoding.system = "http://loinc.org"
 * item[=].item[+].linkId = "103036"
-* item[=].item[=].code = $loinc#86671-5 "Active Diagnoses in the last 7 days"
+* item[=].item[=].code = $loinc#86671-5 "Active diagnoses during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "I0100-I7900"
 * item[=].item[=].text = "Active Diagnoses in the last 7 days"
 * item[=].item[=].type = #choice
@@ -3393,7 +3393,7 @@ Usage: #example
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA27874-9 "Cataracts, glaucoma, or macular degeneration"
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA27875-6 "None of the above active diagnoses within the last 7 days"
 * item[=].item[+].linkId = "103037"
-* item[=].item[=].code = $loinc#52797-8 "Additional active diagnoses"
+* item[=].item[=].code = $loinc#52797-8 "Diagnosis ICD code [Identifier]"
 * item[=].item[=].prefix = "I8000A-I8000J"
 * item[=].item[=].text = "Additional active diagnoses"
 * item[=].item[=].type = #choice
@@ -3410,7 +3410,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "103040"
-* item[=].item[=].item[=].code = $loinc#71447-7 "At any time in the last 5 days, has the resident: Received scheduled pain medication regimen?"
+* item[=].item[=].item[=].code = $loinc#71447-7 "Received scheduled pain medication regimen during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "J0100A"
 * item[=].item[=].item[=].text = "At any time in the last 5 days, has the resident: Received scheduled pain medication regimen?"
 * item[=].item[=].item[=].type = #choice
@@ -3418,7 +3418,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[+].linkId = "103041"
-* item[=].item[=].item[=].code = $loinc#71448-5 "At any time in the last 5 days, has the resident: Received PRN pain medications OR was offered and declined?"
+* item[=].item[=].item[=].code = $loinc#71448-5 "Received PRN pain medications or was offered and declined during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "J0100B"
 * item[=].item[=].item[=].text = "At any time in the last 5 days, has the resident: Received PRN pain medications OR was offered and declined?"
 * item[=].item[=].item[=].type = #choice
@@ -3426,7 +3426,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[+].linkId = "103042"
-* item[=].item[=].item[=].code = $loinc#71449-3 "At any time in the last 5 days, has the resident: Received non-medication intervention for pain?"
+* item[=].item[=].item[=].code = $loinc#71449-3 "Received non-medication intervention for pain during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "J0100C"
 * item[=].item[=].item[=].text = "At any time in the last 5 days, has the resident: Received non-medication intervention for pain?"
 * item[=].item[=].item[=].type = #choice
@@ -3434,7 +3434,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[+].linkId = "103043"
-* item[=].item[=].code = $loinc#54828-9 "Should Pain Assessment Interview be Conducted?"
+* item[=].item[=].code = $loinc#54828-9 "Pain assessment interview should be conducted during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "J0200"
 * item[=].item[=].text = "Should Pain Assessment Interview be Conducted?"
 * item[=].item[=].type = #choice
@@ -3446,7 +3446,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "103045"
-* item[=].item[=].item[=].code = $loinc#54829-7 "Pain Presence. Have you had pain or hurting at any time in the last 5 days?"
+* item[=].item[=].item[=].code = $loinc#54829-7 "Pain presence during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "J0300"
 * item[=].item[=].item[=].text = "Pain Presence. Have you had pain or hurting at any time in the last 5 days?"
 * item[=].item[=].item[=].type = #choice
@@ -3455,7 +3455,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11054-6 "Unable to answer"
 * item[=].item[=].item[+].linkId = "103046"
-* item[=].item[=].item[=].code = $loinc#54830-5 "Pain Frequency. How much of the time have you experienced pain or hurting over the last 5 days?"
+* item[=].item[=].item[=].code = $loinc#54830-5 "Pain frequency during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "J0400"
 * item[=].item[=].item[=].text = "Pain Frequency. How much of the time have you experienced pain or hurting over the last 5 days?"
 * item[=].item[=].item[=].type = #choice
@@ -3471,7 +3471,7 @@ Usage: #example
 * item[=].item[=].item[=].type = #group
 * item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[0].linkId = "103048"
-* item[=].item[=].item[=].item[=].code = $loinc#54831-3 "Over the past 5 days, has pain made it hard for you to sleep at night?"
+* item[=].item[=].item[=].item[=].code = $loinc#54831-3 "Pain has made it hard to sleep during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "J0500A"
 * item[=].item[=].item[=].item[=].text = "Over the past 5 days, has pain made it hard for you to sleep at night?"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -3480,7 +3480,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11054-6 "Unable to answer"
 * item[=].item[=].item[=].item[+].linkId = "103049"
-* item[=].item[=].item[=].item[=].code = $loinc#54832-1 "Over the past 5 days, have you limited your day-to-day activities because of pain?"
+* item[=].item[=].item[=].item[=].code = $loinc#54832-1 "Limited activities because of pain during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "J0500B"
 * item[=].item[=].item[=].item[=].text = "Over the past 5 days, have you limited your day-to-day activities because of pain?"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -3494,13 +3494,13 @@ Usage: #example
 * item[=].item[=].item[=].type = #group
 * item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[0].linkId = "103051"
-* item[=].item[=].item[=].item[=].code = $loinc#54833-9 "Numeric Rating Scale (00-10)"
+* item[=].item[=].item[=].item[=].code = $loinc#54833-9 "Pain severity during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "J0600A"
 * item[=].item[=].item[=].item[=].text = "Numeric Rating Scale (00-10)"
 * item[=].item[=].item[=].item[=].type = #string
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "103052"
-* item[=].item[=].item[=].item[=].code = $loinc#54834-7 "Verbal Descriptor Scale"
+* item[=].item[=].item[=].item[=].code = $loinc#54834-7 "Rate pain severity during assessment period using verbal descriptor scale"
 * item[=].item[=].item[=].item[=].prefix = "J0600B"
 * item[=].item[=].item[=].item[=].text = "Verbal Descriptor Scale"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -3511,7 +3511,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11063-7 "Very severe, horrible"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11054-6 "Unable to answer"
 * item[=].item[+].linkId = "103053"
-* item[=].item[=].code = $loinc#58117-3 "Should the Staff Assessment for Pain be Conducted?"
+* item[=].item[=].code = $loinc#58117-3 "Staff pain assessment interview should be conducted during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "J0700"
 * item[=].item[=].text = "Should the Staff Assessment for Pain be Conducted?"
 * item[=].item[=].type = #choice
@@ -3523,7 +3523,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "103055"
-* item[=].item[=].item[=].code = $loinc#86673-1 "Indicators of Pain or Possible Pain in the last 5 days"
+* item[=].item[=].item[=].code = $loinc#86673-1 "Indicators of pain or possible pain during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "J0800"
 * item[=].item[=].item[=].text = "Indicators of Pain or Possible Pain in the last 5 days"
 * item[=].item[=].item[=].type = #choice
@@ -3534,7 +3534,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA10063-8 "Protective body movements or postures (e.g., bracing, guarding, rubbing or massaging a body part/area, clutching or holding a body part during movement)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA10032-3 "None of these signs observed or documented"
 * item[=].item[=].item[+].linkId = "103056"
-* item[=].item[=].item[=].code = $loinc#58118-1 "Frequency of Indicator of Pain or Possible Pain in the last 5 days. Frequency with which resident complains or shows evidence of pain or possible pain"
+* item[=].item[=].item[=].code = $loinc#58118-1 "Frequency of indicator of pain or possible pain during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "J0850"
 * item[=].item[=].item[=].text = "Frequency of Indicator of Pain or Possible Pain in the last 5 days. Frequency with which resident complains or shows evidence of pain or possible pain"
 * item[=].item[=].item[=].type = #choice
@@ -3547,7 +3547,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "103058"
-* item[=].item[=].item[=].code = $loinc#86675-6 "Shortness of Breath (dyspnea)"
+* item[=].item[=].item[=].code = $loinc#86675-6 "Shortness of breath during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "J1100"
 * item[=].item[=].item[=].text = "Shortness of Breath (dyspnea)"
 * item[=].item[=].item[=].type = #choice
@@ -3557,7 +3557,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27990-3 "Shortness of breath or trouble breathing when lying flat"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA9-3 "None of the above"
 * item[=].item[=].item[+].linkId = "103059"
-* item[=].item[=].item[=].code = $loinc#54845-3 "Current Tobacco Use"
+* item[=].item[=].item[=].code = $loinc#54845-3 "Tobacco use during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "J1300"
 * item[=].item[=].item[=].text = "Current Tobacco Use"
 * item[=].item[=].item[=].type = #choice
@@ -3565,7 +3565,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[+].linkId = "103060"
-* item[=].item[=].item[=].code = $loinc#54846-1 "Prognosis"
+* item[=].item[=].item[=].code = $loinc#54846-1 "Life expectancy of less than 6 months during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "J1400"
 * item[=].item[=].item[=].text = "Prognosis"
 * item[=].item[=].item[=].type = #choice
@@ -3573,7 +3573,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[+].linkId = "103061"
-* item[=].item[=].item[=].code = $loinc#86676-4 "Problem Conditions"
+* item[=].item[=].item[=].code = $loinc#86676-4 "Problem conditions during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "J1550"
 * item[=].item[=].item[=].text = "Problem Conditions"
 * item[=].item[=].item[=].type = #choice
@@ -3589,7 +3589,7 @@ Usage: #example
 * item[=].item[=].item[=].type = #group
 * item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[0].linkId = "103063"
-* item[=].item[=].item[=].item[=].code = $loinc#54850-3 "Did the resident have a fall any time in the last month prior to admission/entry or reentry?"
+* item[=].item[=].item[=].item[=].code = $loinc#54850-3 "Fall one or more times in the last month prior to admission [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "J1700A"
 * item[=].item[=].item[=].item[=].text = "Did the resident have a fall any time in the last month prior to admission/entry or reentry?"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -3598,7 +3598,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11137-9 "Unable to determine"
 * item[=].item[=].item[=].item[+].linkId = "103064"
-* item[=].item[=].item[=].item[=].code = $loinc#54851-1 "Did the resident have a fall any time in the last 2-6 months prior to admission/entry or reentry?"
+* item[=].item[=].item[=].item[=].code = $loinc#54851-1 "Fall one or more times in the last 2 to 6 months prior to admission [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "J1700B"
 * item[=].item[=].item[=].item[=].text = "Did the resident have a fall any time in the last 2-6 months prior to admission/entry or reentry?"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -3607,7 +3607,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11137-9 "Unable to determine"
 * item[=].item[=].item[=].item[+].linkId = "103065"
-* item[=].item[=].item[=].item[=].code = $loinc#54852-9 "Did the resident have any fracture related to a fall in the 6 months prior to admission/entry or reentry?"
+* item[=].item[=].item[=].item[=].code = $loinc#54852-9 "Any fracture related to a fall in the 6 months prior to admission [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "J1700C"
 * item[=].item[=].item[=].item[=].text = "Did the resident have any fracture related to a fall in the 6 months prior to admission/entry or reentry?"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -3616,7 +3616,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11137-9 "Unable to determine"
 * item[=].item[=].item[+].linkId = "103066"
-* item[=].item[=].item[=].code = $loinc#54853-7 "Has the resident had any falls since admission/entry or reentry or the prior assessment (OBRA or Scheduled PPS), whichever is more recent?"
+* item[=].item[=].item[=].code = $loinc#54853-7 "Has the patient had any falls since admission or prior assessment [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "J1800"
 * item[=].item[=].item[=].text = "Has the resident had any falls since admission/entry or reentry or the prior assessment (OBRA or Scheduled PPS), whichever is more recent?"
 * item[=].item[=].item[=].type = #choice
@@ -3629,7 +3629,7 @@ Usage: #example
 * item[=].item[=].item[=].type = #group
 * item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[0].linkId = "103068"
-* item[=].item[=].item[=].item[=].code = $loinc#54855-2 "No injury"
+* item[=].item[=].item[=].item[=].code = $loinc#54855-2 "Number of falls since admission or prior assessment - no injury [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "J1900A"
 * item[=].item[=].item[=].item[=].text = "No injury"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -3638,7 +3638,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA6306-0 "One"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11073-6 "Two or more"
 * item[=].item[=].item[=].item[+].linkId = "103069"
-* item[=].item[=].item[=].item[=].code = $loinc#54856-0 "Injury (except major)"
+* item[=].item[=].item[=].item[=].code = $loinc#54856-0 "Number of falls since admission or prior assessment - injury except major [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "J1900B"
 * item[=].item[=].item[=].item[=].text = "Injury (except major)"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -3647,7 +3647,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA6306-0 "One"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11073-6 "Two or more"
 * item[=].item[=].item[=].item[+].linkId = "103070"
-* item[=].item[=].item[=].item[=].code = $loinc#54857-8 "Major injury"
+* item[=].item[=].item[=].item[=].code = $loinc#54857-8 "Number of falls since admission or prior assessment - major injury [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "J1900C"
 * item[=].item[=].item[=].item[=].text = "Major injury"
 * item[=].item[=].item[=].item[=].type = #choice
@@ -3656,7 +3656,7 @@ Usage: #example
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA6306-0 "One"
 * item[=].item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11073-6 "Two or more"
 * item[=].item[+].linkId = "103071"
-* item[=].item[=].code = $loinc#83274-1 "Prior Surgery"
+* item[=].item[=].code = $loinc#83274-1 "Did the patient have major surgery during the 100 days prior to admission [CMS Assessment]"
 * item[=].item[=].prefix = "J2000"
 * item[=].item[=].text = "Prior Surgery"
 * item[=].item[=].type = #choice
@@ -3665,7 +3665,7 @@ Usage: #example
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA4489-6 "Unknown"
 * item[=].item[+].linkId = "106183"
-* item[=].item[=].code = $loinc#90542-2 "Recent Surgery Requiring Active SNF Care"
+* item[=].item[=].code = $loinc#90542-2 "Did the resident have a major surgical procedure during the prior inpatient hospital stay that requires active care during the SNF stay [CMS Assessment]"
 * item[=].item[=].prefix = "J2100"
 * item[=].item[=].text = "Recent Surgery Requiring Active SNF Care"
 * item[=].item[=].type = #choice
@@ -3674,7 +3674,7 @@ Usage: #example
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA4489-6 "Unknown"
 * item[=].item[+].linkId = "106184"
-* item[=].item[=].code = $loinc#90745-1 "Surgical Procedures"
+* item[=].item[=].code = $loinc#90745-1 "Surgical procedures requiring active SNF care during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "J2300-J5000"
 * item[=].item[=].text = "Surgical Procedures"
 * item[=].item[=].type = #choice
@@ -3714,7 +3714,7 @@ Usage: #example
 * item[=].type = #group
 * item[=].required = true
 * item[=].item[0].linkId = "103073"
-* item[=].item[=].code = $loinc#86677-2 "Swallowing Disorder. Signs and symptoms of possible swallowing disorder"
+* item[=].item[=].code = $loinc#86677-2 "Signs and symptoms of swallowing disorder during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "K0100"
 * item[=].item[=].text = "Swallowing Disorder. Signs and symptoms of possible swallowing disorder"
 * item[=].item[=].type = #choice
@@ -3730,19 +3730,19 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "103075"
-* item[=].item[=].item[=].code = $loinc#103692-0 "Height (in inches)"
+* item[=].item[=].item[=].code = $loinc#103692-0 "Body height during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "K0200A"
 * item[=].item[=].item[=].text = "Height (in inches)"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103076"
-* item[=].item[=].item[=].code = $loinc#103693-8 "Weight (in pounds)"
+* item[=].item[=].item[=].code = $loinc#103693-8 "Body weight during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "K0200B"
 * item[=].item[=].item[=].text = "Weight (in pounds)"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[+].linkId = "103077"
-* item[=].item[=].code = $loinc#54863-6 "Weight Loss. Loss of 5% or more in the last month or loss of 10% or more in last 6 months"
+* item[=].item[=].code = $loinc#54863-6 "Weight loss of 5% or more in the last month or loss of 10% or more in last 6 months [CMS Assessment]"
 * item[=].item[=].prefix = "K0300"
 * item[=].item[=].text = "Weight Loss. Loss of 5% or more in the last month or loss of 10% or more in last 6 months"
 * item[=].item[=].type = #choice
@@ -3751,7 +3751,7 @@ Usage: #example
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA11075-1 "Yes, on physician-prescribed weight-loss regimen"
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA11076-9 "Yes, not on physician-prescribed weight-loss regimen"
 * item[=].item[+].linkId = "103078"
-* item[=].item[=].code = $loinc#86678-0 "Weight Gain. Gain of 5% or more in the last month or gain of 10% or more in last 6 months"
+* item[=].item[=].code = $loinc#86678-0 "Weight gain of 5% or more in the last month or gain of 10% or more in last 6 months [CMS Assessment]"
 * item[=].item[=].prefix = "K0310"
 * item[=].item[=].text = "Weight Gain. Gain of 5% or more in the last month or gain of 10% or more in last 6 months"
 * item[=].item[=].type = #choice
@@ -3765,7 +3765,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "103080"
-* item[=].item[=].item[=].code = $loinc#71444-4 "Nutritional Approaches. While NOT a Resident"
+* item[=].item[=].item[=].code = $loinc#71444-4 "Nutritional approaches during last 7 days - while not a resident [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "K0510_1"
 * item[=].item[=].item[=].text = "Nutritional Approaches. While NOT a Resident"
 * item[=].item[=].item[=].type = #choice
@@ -3774,7 +3774,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA18605-8 "Feeding tube - nasogastric or abdominal (PEG)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA9-3 "None of the above"
 * item[=].item[=].item[+].linkId = "103081"
-* item[=].item[=].item[=].code = $loinc#71445-1 "Nutritional Approaches. While a Resident"
+* item[=].item[=].item[=].code = $loinc#71445-1 "Nutritional approaches during last 7 days - while a resident [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "K0510_2"
 * item[=].item[=].item[=].text = "Nutritional Approaches. While a Resident"
 * item[=].item[=].item[=].type = #choice
@@ -3790,7 +3790,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "103084"
-* item[=].item[=].item[=].code = $loinc#86681-4 "Proportion of total calories the resident received through parenteral or tube feeding. While a Resident"
+* item[=].item[=].item[=].code = $loinc#86681-4 "Proportion of total calories the resident received through parenteral or tube feeding in last 7 days - while a resident [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "K0710A2"
 * item[=].item[=].item[=].text = "Proportion of total calories the resident received through parenteral or tube feeding. While a Resident"
 * item[=].item[=].item[=].type = #choice
@@ -3799,7 +3799,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11078-5 "26-50%"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11079-3 "51% or more"
 * item[=].item[=].item[+].linkId = "103085"
-* item[=].item[=].item[=].code = $loinc#86687-1 "Proportion of total calories the resident received through parenteral or tube feeding. During Entire 7 Days"
+* item[=].item[=].item[=].code = $loinc#86687-1 "Proportion of total calories the resident received through parenteral or tube feeding during entire 7 days [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "K0710A3"
 * item[=].item[=].item[=].text = "Proportion of total calories the resident received through parenteral or tube feeding. During Entire 7 Days"
 * item[=].item[=].item[=].type = #choice
@@ -3808,7 +3808,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11078-5 "26-50%"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11079-3 "51% or more"
 * item[=].item[=].item[+].linkId = "103087"
-* item[=].item[=].item[=].code = $loinc#86683-0 "Average fluid intake per day by IV or tube feeding. While a Resident"
+* item[=].item[=].item[=].code = $loinc#86683-0 "Mean fluid intake per day by IV or tube feeding in last 7 days - while a resident [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "K0710B2"
 * item[=].item[=].item[=].text = "Average fluid intake per day by IV or tube feeding. While a Resident"
 * item[=].item[=].item[=].type = #choice
@@ -3816,7 +3816,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA11080-1 "500 cc/day or less"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11081-9 "501 cc/day or more"
 * item[=].item[=].item[+].linkId = "103088"
-* item[=].item[=].item[=].code = $loinc#86684-8 "Average fluid intake per day by IV or tube feeding. During Entire 7 Days"
+* item[=].item[=].item[=].code = $loinc#86684-8 "Mean fluid intake per day by IV or tube feeding during entire 7 days [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "K0710B3"
 * item[=].item[=].item[=].text = "Average fluid intake per day by IV or tube feeding. During Entire 7 Days"
 * item[=].item[=].item[=].type = #choice
@@ -3829,7 +3829,7 @@ Usage: #example
 * item[=].type = #group
 * item[=].required = true
 * item[=].item.linkId = "103090"
-* item[=].item.code = $loinc#86706-9 "Dental"
+* item[=].item.code = $loinc#86706-9 "Dental problems during assessment period [CMS Assessment]"
 * item[=].item.prefix = "L0200"
 * item[=].item.text = "Dental"
 * item[=].item.type = #choice
@@ -3848,7 +3848,7 @@ Usage: #example
 * item[=].type = #group
 * item[=].required = true
 * item[=].item[0].linkId = "103092"
-* item[=].item[=].code = $loinc#86708-5 "Determination of Pressure Ulcer/Injury Risk"
+* item[=].item[=].code = $loinc#86708-5 "Determination of pressure injury risk in last 7 days [CMS Assessment]"
 * item[=].item[=].prefix = "M0100"
 * item[=].item[=].text = "Determination of Pressure Ulcer/Injury Risk"
 * item[=].item[=].type = #choice
@@ -3858,7 +3858,7 @@ Usage: #example
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA27942-4 "Clinical assessment"
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA9-3 "None of the above"
 * item[=].item[+].linkId = "103093"
-* item[=].item[=].code = $loinc#57280-0 "Risk of Pressure Ulcers/Injuries"
+* item[=].item[=].code = $loinc#57280-0 "Risk of developing pressure injuries during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "M0150"
 * item[=].item[=].text = "Risk of Pressure Ulcers/Injuries"
 * item[=].item[=].type = #choice
@@ -3866,7 +3866,7 @@ Usage: #example
 * item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[+].linkId = "103094"
-* item[=].item[=].code = $loinc#58214-8 "Unhealed Pressure Ulcers/Injuries"
+* item[=].item[=].code = $loinc#58214-8 "One or more unhealed pressure injuries stage 1 or higher during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "M0210"
 * item[=].item[=].text = "Unhealed Pressure Ulcers/Injuries"
 * item[=].item[=].type = #choice
@@ -3879,91 +3879,91 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "103096"
-* item[=].item[=].item[=].code = $loinc#54884-2 "Number of Stage 1 pressure injuries"
+* item[=].item[=].item[=].code = $loinc#54884-2 "Number of pressure injuries - stage 1 during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "M0300A1"
 * item[=].item[=].item[=].text = "Number of Stage 1 pressure injuries"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103097"
-* item[=].item[=].item[=].code = $loinc#55124-2 "Number of Stage 2 pressure ulcers"
+* item[=].item[=].item[=].code = $loinc#55124-2 "Number of pressure injuries - stage 2 during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "M0300B1"
 * item[=].item[=].item[=].text = "Number of Stage 2 pressure ulcers"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103098"
-* item[=].item[=].item[=].code = $loinc#54886-7 "Number of these Stage 2 pressure ulcers that were present upon admission/entry or reentry"
+* item[=].item[=].item[=].code = $loinc#54886-7 "Number of pressure injuries present upon admission/reentry - stage 2 during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "M0300B2"
 * item[=].item[=].item[=].text = "Number of these Stage 2 pressure ulcers that were present upon admission/entry or reentry"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103099"
-* item[=].item[=].item[=].code = $loinc#55125-9 "Number of Stage 3 pressure ulcers"
+* item[=].item[=].item[=].code = $loinc#55125-9 "Number of pressure injuries - stage 3 during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "M0300C1"
 * item[=].item[=].item[=].text = "Number of Stage 3 pressure ulcers"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103100"
-* item[=].item[=].item[=].code = $loinc#54887-5 "Number of these Stage 3 pressure ulcers that were present upon admission/entry or reentry"
+* item[=].item[=].item[=].code = $loinc#54887-5 "Number of pressure injuries present upon admission/reentry - stage 3 during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "M0300C2"
 * item[=].item[=].item[=].text = "Number of these Stage 3 pressure ulcers that were present upon admission/entry or reentry"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103101"
-* item[=].item[=].item[=].code = $loinc#55126-7 "Number of Stage 4 pressure ulcers"
+* item[=].item[=].item[=].code = $loinc#55126-7 "Number of pressure injuries - stage 4 during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "M0300D1"
 * item[=].item[=].item[=].text = "Number of Stage 4 pressure ulcers"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103102"
-* item[=].item[=].item[=].code = $loinc#54890-9 "Number of these Stage 4 pressure ulcers that were present upon admission/entry or reentry"
+* item[=].item[=].item[=].code = $loinc#54890-9 "Number of pressure injuries present upon admission/reentry - stage 4 during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "M0300D2"
 * item[=].item[=].item[=].text = "Number of these Stage 4 pressure ulcers that were present upon admission/entry or reentry"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103103"
-* item[=].item[=].item[=].code = $loinc#54893-3 "Number of unstageable pressure ulcers/injuries due to non-removable dressing/device"
+* item[=].item[=].item[=].code = $loinc#54893-3 "Number of pressure injuries - unstageable due to non-removable dressing or device during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "M0300E1"
 * item[=].item[=].item[=].text = "Number of unstageable pressure ulcers/injuries due to non-removable dressing/device"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103104"
-* item[=].item[=].item[=].code = $loinc#54894-1 "Number of these unstageable pressure ulcers/injuries that were present upon admission/entry or reentry"
+* item[=].item[=].item[=].code = $loinc#54894-1 "Number of pressure injuries present upon admission/reentry - unstageable due to non-removable dressing during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "M0300E2"
 * item[=].item[=].item[=].text = "Number of these unstageable pressure ulcers/injuries that were present upon admission/entry or reentry"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103105"
-* item[=].item[=].item[=].code = $loinc#54946-9 "Number of unstageable pressure ulcers due to coverage of wound bed by slough and/or eschar"
+* item[=].item[=].item[=].code = $loinc#54946-9 "Number of pressure injuries - unstageable due to coverage of wound bed by slough/eschar during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "M0300F1"
 * item[=].item[=].item[=].text = "Number of unstageable pressure ulcers due to coverage of wound bed by slough and/or eschar"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103106"
-* item[=].item[=].item[=].code = $loinc#54947-7 "Number of these unstageable pressure ulcers that were present upon admission/entry or reentry"
+* item[=].item[=].item[=].code = $loinc#54947-7 "Number of pressure injuries present upon admission/reentry - unstageable due to coverage of wound bed by slough/eschar during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "M0300F2"
 * item[=].item[=].item[=].text = "Number of these unstageable pressure ulcers that were present upon admission/entry or reentry"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103107"
-* item[=].item[=].item[=].code = $loinc#54950-1 "Number of unstageable pressure injuries presenting as deep tissue injury"
+* item[=].item[=].item[=].code = $loinc#54950-1 "Number of pressure injuries - unstageable with suspected deep tissue injury in evolution during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "M0300G1"
 * item[=].item[=].item[=].text = "Number of unstageable pressure injuries presenting as deep tissue injury"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103108"
-* item[=].item[=].item[=].code = $loinc#54951-9 "Number of these unstageable pressure injuries that were present upon admission/entry or reentry"
+* item[=].item[=].item[=].code = $loinc#54951-9 "Number of pressure injuries present upon admission/reentry - unstageable with suspected deep tissue injury in evolution during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "M0300G2"
 * item[=].item[=].item[=].text = "Number of these unstageable pressure injuries that were present upon admission/entry or reentry"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[+].linkId = "103109"
-* item[=].item[=].code = $loinc#54970-9 "Number of Venous and Arterial Ulcers"
+* item[=].item[=].code = $loinc#54970-9 "Number of venous and arterial ulcers in last 7 days [CMS Assessment]"
 * item[=].item[=].prefix = "M1030"
 * item[=].item[=].text = "Number of Venous and Arterial Ulcers"
 * item[=].item[=].type = #decimal
 * item[=].item[=].repeats = false
 * item[=].item[+].linkId = "103110"
-* item[=].item[=].code = $loinc#88696-0 "Other Ulcers, Wounds and Skin Problems"
+* item[=].item[=].code = $loinc#88696-0 "Ulcers, wounds and skin problems in the last 7 days [CMS Assessment]"
 * item[=].item[=].prefix = "M1040"
 * item[=].item[=].text = "Other Ulcers, Wounds and Skin Problems"
 * item[=].item[=].type = #choice
@@ -3978,7 +3978,7 @@ Usage: #example
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA27950-7 "Moisture associated skin damage (MASD) (e.g., incontinence-associated dermatitis [IAD], perspiration, drainage)"
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA27939-0 "None of the above were present"
 * item[=].item[+].linkId = "103111"
-* item[=].item[=].code = $loinc#86748-1 "Skin and Ulcer/Injury Treatments"
+* item[=].item[=].code = $loinc#86748-1 "Skin and ulcer/injury treatments during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "M1200"
 * item[=].item[=].text = "Skin and Ulcer/Injury Treatments"
 * item[=].item[=].type = #choice
@@ -3999,7 +3999,7 @@ Usage: #example
 * item[=].type = #group
 * item[=].required = true
 * item[=].item[0].linkId = "103113"
-* item[=].item[=].code = $loinc#54982-4 "Injections. Record the number of days that injections of any type were received during the last 7 days or since admission/entry or reentry if less than 7 days."
+* item[=].item[=].code = $loinc#54982-4 "Number of days injectable substances received in last 7 days or since admission/reentry if less than 7 days [CMS Assessment]"
 * item[=].item[=].prefix = "N0300"
 * item[=].item[=].text = "Injections. Record the number of days that injections of any type were received during the last 7 days or since admission/entry or reentry if less than 7 days."
 * item[=].item[=].type = #decimal
@@ -4010,13 +4010,13 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "103115"
-* item[=].item[=].item[=].code = $loinc#58127-2 "Insulin injections - Record the number of days that insulin injections were received during the last 7 days or since admission/entry or reentry if less than 7 days"
+* item[=].item[=].item[=].code = $loinc#58127-2 "Number of days insulin injections were received in last 7 days or since admission/reentry if less than 7 days [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "N0350A"
 * item[=].item[=].item[=].text = "Insulin injections - Record the number of days that insulin injections were received during the last 7 days or since admission/entry or reentry if less than 7 days"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103116"
-* item[=].item[=].item[=].code = $loinc#58128-0 "Orders for insulin - Record the number of days the physician (or authorized assistant or practitioner) changed the resident's insulin orders during the last 7 days or since admission/entry or reentry if less than 7 days"
+* item[=].item[=].item[=].code = $loinc#58128-0 "Number of days the physician changed the resident's insulin orders in last 7 days or since admission/reentry if less than 7 days [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "N0350B"
 * item[=].item[=].item[=].text = "Orders for insulin - Record the number of days the physician (or authorized assistant or practitioner) changed the resident's insulin orders during the last 7 days or since admission/entry or reentry if less than 7 days"
 * item[=].item[=].item[=].type = #decimal
@@ -4027,49 +4027,49 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "103118"
-* item[=].item[=].item[=].code = $loinc#86751-5 "Antipsychotic"
+* item[=].item[=].item[=].code = $loinc#86751-5 "Number of days antipsychotic received in last 7 days or since admission/reentry if less than 7 days [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "N0410A"
 * item[=].item[=].item[=].text = "Antipsychotic"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103119"
-* item[=].item[=].item[=].code = $loinc#86752-3 "Antianxiety"
+* item[=].item[=].item[=].code = $loinc#86752-3 "Number of days antianxiety received in last 7 days or since admission/reentry if less than 7 days [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "N0410B"
 * item[=].item[=].item[=].text = "Antianxiety"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103120"
-* item[=].item[=].item[=].code = $loinc#86753-1 "Antidepressant"
+* item[=].item[=].item[=].code = $loinc#86753-1 "Number of days antidepressant received in last 7 days or since admission/reentry if less than 7 days [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "N0410C"
 * item[=].item[=].item[=].text = "Antidepressant"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103121"
-* item[=].item[=].item[=].code = $loinc#86754-9 "Hypnotic"
+* item[=].item[=].item[=].code = $loinc#86754-9 "Number of days hypnotic received in last 7 days or since admission/reentry if less than 7 days [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "N0410D"
 * item[=].item[=].item[=].text = "Hypnotic"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103122"
-* item[=].item[=].item[=].code = $loinc#86755-6 "Anticoagulant (e.g., warfarin, heparin, or low-molecular weight heparin)"
+* item[=].item[=].item[=].code = $loinc#86755-6 "Number of days anticoagulant received in last 7 days or since admission/reentry if less than 7 days [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "N0410E"
 * item[=].item[=].item[=].text = "Anticoagulant (e.g., warfarin, heparin, or low-molecular weight heparin)"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103123"
-* item[=].item[=].item[=].code = $loinc#86756-4 "Antibiotic"
+* item[=].item[=].item[=].code = $loinc#86756-4 "Number of days antibiotic received in last 7 days or since admission/reentry if less than 7 days [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "N0410F"
 * item[=].item[=].item[=].text = "Antibiotic"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103124"
-* item[=].item[=].item[=].code = $loinc#86757-2 "Diuretic"
+* item[=].item[=].item[=].code = $loinc#86757-2 "Number of days diuretic received in last 7 days or since admission/reentry if less than 7 days [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "N0410G"
 * item[=].item[=].item[=].text = "Diuretic"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103125"
-* item[=].item[=].item[=].code = $loinc#88291-0 "Opioid"
+* item[=].item[=].item[=].code = $loinc#88291-0 "Number of days opioid received in last 7 days or since admission/reentry if less than 7 days [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "N0410H"
 * item[=].item[=].item[=].text = "Opioid"
 * item[=].item[=].item[=].type = #decimal
@@ -4080,7 +4080,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "103127"
-* item[=].item[=].item[=].code = $loinc#88296-9 "Did the resident receive antipsychotic medications since admission/entry or reentry or the prior OBRA assessment, whichever is more recent?"
+* item[=].item[=].item[=].code = $loinc#88296-9 "Antipsychotic medications since admission/entry or reentry or the prior OBRA assessment, whichever is more recent during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "N0450A"
 * item[=].item[=].item[=].text = "Did the resident receive antipsychotic medications since admission/entry or reentry or the prior OBRA assessment, whichever is more recent?"
 * item[=].item[=].item[=].type = #choice
@@ -4090,7 +4090,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28464-8 "Yes - Antipsychotics were received on a PRN basis only"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28465-5 "Yes - Antipsychotics were received on a routine and PRN basis"
 * item[=].item[=].item[+].linkId = "103128"
-* item[=].item[=].item[=].code = $loinc#88297-7 "Has a gradual dose reduction (GDR) been attempted?"
+* item[=].item[=].item[=].code = $loinc#88297-7 "Gradual dose reduction (GDR) attempted during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "N0450B"
 * item[=].item[=].item[=].text = "Has a gradual dose reduction (GDR) been attempted?"
 * item[=].item[=].item[=].type = #choice
@@ -4098,13 +4098,13 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[+].linkId = "103129"
-* item[=].item[=].item[=].code = $loinc#88298-5 "Date of last attempted GDR"
+* item[=].item[=].item[=].code = $loinc#88298-5 "Date of last attempted gradual dose reduction during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "N0450C"
 * item[=].item[=].item[=].text = "Date of last attempted GDR"
 * item[=].item[=].item[=].type = #date
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103130"
-* item[=].item[=].item[=].code = $loinc#88299-3 "Physician documented GDR as clinically contraindicated"
+* item[=].item[=].item[=].code = $loinc#88299-3 "Physician documented GDR as clinically contraindicated during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "N0450D"
 * item[=].item[=].item[=].text = "Physician documented GDR as clinically contraindicated"
 * item[=].item[=].item[=].type = #choice
@@ -4112,13 +4112,13 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA28466-3 "No - GDR has not been documented by a physician as clinically contraindicated"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28467-1 "Yes - GDR has been documented by a physician as clinically contraindicated"
 * item[=].item[=].item[+].linkId = "103131"
-* item[=].item[=].item[=].code = $loinc#88300-9 "Date physician documented GDR as clinically contraindicated"
+* item[=].item[=].item[=].code = $loinc#88300-9 "Date physician documented GDR as clinically contraindicated during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "N0450E"
 * item[=].item[=].item[=].text = "Date physician documented GDR as clinically contraindicated"
 * item[=].item[=].item[=].type = #date
 * item[=].item[=].item[=].repeats = false
 * item[=].item[+].linkId = "103132"
-* item[=].item[=].code = $loinc#57255-2 "Drug Regimen Review: Did a complete drug regimen review identify potential clinically significant medication issues?"
+* item[=].item[=].code = $loinc#57255-2 "Drug regimen review identified potential medication issues during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "N2001"
 * item[=].item[=].text = "Drug Regimen Review: Did a complete drug regimen review identify potential clinically significant medication issues?"
 * item[=].item[=].type = #choice
@@ -4127,7 +4127,7 @@ Usage: #example
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA27635-4 "Yes - Issues found during review"
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA27636-2 "NA - Resident is not taking any medications"
 * item[=].item[+].linkId = "103133"
-* item[=].item[=].code = $loinc#57281-8 "Medication Follow-up: Did the facility contact a physician (or physician-designee) by midnight of the next calendar day and complete prescribed/recommended actions in response to the identified potential clinically significant medication issues?"
+* item[=].item[=].code = $loinc#57281-8 "Medication follow-up during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "N2003"
 * item[=].item[=].text = "Medication Follow-up: Did the facility contact a physician (or physician-designee) by midnight of the next calendar day and complete prescribed/recommended actions in response to the identified potential clinically significant medication issues?"
 * item[=].item[=].type = #choice
@@ -4135,7 +4135,7 @@ Usage: #example
 * item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[+].linkId = "103134"
-* item[=].item[=].code = $loinc#57256-0 "Did the facility contact and complete physician (or physician-designee) prescribed/recommended actions by midnight of the next calendar day each time potential clinically significant medication issues were identified since the admission?"
+* item[=].item[=].code = $loinc#57256-0 "Medication intervention since admission/reentry during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "N2005"
 * item[=].item[=].text = "Did the facility contact and complete physician (or physician-designee) prescribed/recommended actions by midnight of the next calendar day each time potential clinically significant medication issues were identified since the admission?"
 * item[=].item[=].type = #choice
@@ -4154,7 +4154,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "103137"
-* item[=].item[=].item[=].code = $loinc#86760-6 "While NOT a Resident"
+* item[=].item[=].item[=].code = $loinc#86760-6 "Procedures performed during last 14 days - while not a resident [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "O0100_1"
 * item[=].item[=].item[=].text = "While NOT a Resident"
 * item[=].item[=].item[=].type = #choice
@@ -4173,7 +4173,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27970-5 "Isolation or quarantine for active infectious disease (does not include standard body/fluid precautions)"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA9-3 "None of the above"
 * item[=].item[=].item[+].linkId = "103138"
-* item[=].item[=].item[=].code = $loinc#86761-4 "While a Resident"
+* item[=].item[=].item[=].code = $loinc#86761-4 "Procedures performed during last 14 days - while a resident [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "O0100_2"
 * item[=].item[=].item[=].text = "While a Resident"
 * item[=].item[=].item[=].type = #choice
@@ -4197,7 +4197,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "103140"
-* item[=].item[=].item[=].code = $loinc#55019-4 "Did the resident receive the influenza vaccine in this facility for this year's influenza vaccination season?"
+* item[=].item[=].item[=].code = $loinc#55019-4 "Influenza virus vaccine received in facility during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "O0250A"
 * item[=].item[=].item[=].text = "Did the resident receive the influenza vaccine in this facility for this year's influenza vaccination season?"
 * item[=].item[=].item[=].type = #choice
@@ -4205,13 +4205,13 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[+].linkId = "103141"
-* item[=].item[=].item[=].code = $loinc#58131-4 "Date influenza vaccine received"
+* item[=].item[=].item[=].code = $loinc#58131-4 "Date of influenza vaccination"
 * item[=].item[=].item[=].prefix = "O0250B"
 * item[=].item[=].item[=].text = "Date influenza vaccine received"
 * item[=].item[=].item[=].type = #date
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103142"
-* item[=].item[=].item[=].code = $loinc#55020-2 "If influenza vaccine not received, state reason:"
+* item[=].item[=].item[=].code = $loinc#55020-2 "Reason influenza virus vaccine not received during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "O0250C"
 * item[=].item[=].item[=].text = "If influenza vaccine not received, state reason:"
 * item[=].item[=].item[=].type = #choice
@@ -4229,7 +4229,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "103144"
-* item[=].item[=].item[=].code = $loinc#55022-8 "Is the resident's Pneumococcal vaccination up to date?"
+* item[=].item[=].item[=].code = $loinc#55022-8 "Pneumococcal vaccination up to date during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "O0300A"
 * item[=].item[=].item[=].text = "Is the resident's Pneumococcal vaccination up to date?"
 * item[=].item[=].item[=].type = #choice
@@ -4237,7 +4237,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[+].linkId = "103145"
-* item[=].item[=].item[=].code = $loinc#45956-0 "If Pneumococcal vaccine not received, state reason:"
+* item[=].item[=].item[=].code = $loinc#45956-0 "Reason pneumococcal vaccine not received during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "O0300B"
 * item[=].item[=].item[=].text = "If Pneumococcal vaccine not received, state reason:"
 * item[=].item[=].item[=].type = #choice
@@ -4256,43 +4256,43 @@ Usage: #example
 * item[=].item[=].item[=].type = #group
 * item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[0].linkId = "103148"
-* item[=].item[=].item[=].item[=].code = $loinc#58218-9 "Individual minutes - record the total number of minutes this therapy was administered to the resident individually\r\nin the last 7 days"
+* item[=].item[=].item[=].item[=].code = $loinc#58218-9 "Speech-language pathology and audiology services - individual minutes in the last 7 days [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0400A1"
 * item[=].item[=].item[=].item[=].text = "Individual minutes - record the total number of minutes this therapy was administered to the resident individually\r\nin the last 7 days"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "103149"
-* item[=].item[=].item[=].item[=].code = $loinc#58133-0 "Concurrent minutes - record the total number of minutes this therapy was administered to the resident concurrently with one other resident in the last 7 days"
+* item[=].item[=].item[=].item[=].code = $loinc#58133-0 "Speech-language pathology and audiology services - concurrent minutes in the last 7 days [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0400A2"
 * item[=].item[=].item[=].item[=].text = "Concurrent minutes - record the total number of minutes this therapy was administered to the resident concurrently with one other resident in the last 7 days"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "103150"
-* item[=].item[=].item[=].item[=].code = $loinc#58134-8 "Group minutes - record the total number of minutes this therapy was administered to the resident as part of a group of residents in the last 7 days"
+* item[=].item[=].item[=].item[=].code = $loinc#58134-8 "Speech-language pathology and audiology services - group minutes in the last 7 days [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0400A3"
 * item[=].item[=].item[=].item[=].text = "Group minutes - record the total number of minutes this therapy was administered to the resident as part of a group of residents in the last 7 days"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "103151"
-* item[=].item[=].item[=].item[=].code = $loinc#86765-5 "Co-treatment minutes - record the total number of minutes this therapy was administered to the resident in co-treatment sessions in the last 7 days"
+* item[=].item[=].item[=].item[=].code = $loinc#86765-5 "Speech-language pathology and audiology services - co-treatment minutes during 7 day assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0400A3A"
 * item[=].item[=].item[=].item[=].text = "Co-treatment minutes - record the total number of minutes this therapy was administered to the resident in co-treatment sessions in the last 7 days"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "103152"
-* item[=].item[=].item[=].item[=].code = $loinc#45760-6 "Days - record the number of days this therapy was administered for at least 15 minutes a day in the last 7 days"
+* item[=].item[=].item[=].item[=].code = $loinc#45760-6 "Number of days with at least 15 minutes of speech language pathology and audiology services in the last 7 days [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0400A4"
 * item[=].item[=].item[=].item[=].text = "Days - record the number of days this therapy was administered for at least 15 minutes a day in the last 7 days"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "103153"
-* item[=].item[=].item[=].item[=].code = $loinc#55025-1 "Therapy start date - record the date the most recent therapy regimen (since the most recent entry) started"
+* item[=].item[=].item[=].item[=].code = $loinc#55025-1 "Start date of speech language pathology and audiology services during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0400A5"
 * item[=].item[=].item[=].item[=].text = "Therapy start date - record the date the most recent therapy regimen (since the most recent entry) started"
 * item[=].item[=].item[=].item[=].type = #date
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "103154"
-* item[=].item[=].item[=].item[=].code = $loinc#55026-9 "Therapy end date - record the date the most recent therapy regimen (since the most recent entry) ended"
+* item[=].item[=].item[=].item[=].code = $loinc#55026-9 "End date of speech language pathology and audiology services during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0400A6"
 * item[=].item[=].item[=].item[=].text = "Therapy end date - record the date the most recent therapy regimen (since the most recent entry) ended"
 * item[=].item[=].item[=].item[=].type = #date
@@ -4303,43 +4303,43 @@ Usage: #example
 * item[=].item[=].item[=].type = #group
 * item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[0].linkId = "103156"
-* item[=].item[=].item[=].item[=].code = $loinc#58219-7 "Individual minutes - record the total number of minutes this therapy was administered to the resident individually in the last 7 days"
+* item[=].item[=].item[=].item[=].code = $loinc#58219-7 "Occupational therapy - individual minutes in the last 7 days [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0400B1"
 * item[=].item[=].item[=].item[=].text = "Individual minutes - record the total number of minutes this therapy was administered to the resident individually in the last 7 days"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "103157"
-* item[=].item[=].item[=].item[=].code = $loinc#58136-3 "Concurrent minutes - record the total number of minutes this therapy was administered to the resident concurrently with one other resident in the last 7 days"
+* item[=].item[=].item[=].item[=].code = $loinc#58136-3 "Occupational therapy - concurrent minutes in the last 7 days [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0400B2"
 * item[=].item[=].item[=].item[=].text = "Concurrent minutes - record the total number of minutes this therapy was administered to the resident concurrently with one other resident in the last 7 days"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "103158"
-* item[=].item[=].item[=].item[=].code = $loinc#58137-1 "Group minutes - record the total number of minutes this therapy was administered to the resident as part of a group of residents in the last 7 days"
+* item[=].item[=].item[=].item[=].code = $loinc#58137-1 "Occupational therapy - group minutes in the last 7 days [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0400B3"
 * item[=].item[=].item[=].item[=].text = "Group minutes - record the total number of minutes this therapy was administered to the resident as part of a group of residents in the last 7 days"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "103159"
-* item[=].item[=].item[=].item[=].code = $loinc#86764-8 "Co-treatment minutes - record the total number of minutes this therapy was administered to the resident in co-treatment sessions in the last 7 days"
+* item[=].item[=].item[=].item[=].code = $loinc#86764-8 "Occupational therapy - co-treatment minutes during 7 day assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0400B3A"
 * item[=].item[=].item[=].item[=].text = "Co-treatment minutes - record the total number of minutes this therapy was administered to the resident in co-treatment sessions in the last 7 days"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "103160"
-* item[=].item[=].item[=].item[=].code = $loinc#45762-2 "Days - record the number of days this therapy was administered for at least 15 minutes a day in the last 7 days"
+* item[=].item[=].item[=].item[=].code = $loinc#45762-2 "Number of days with at least 15 minutes of occupational therapy in the last 7 days [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0400B4"
 * item[=].item[=].item[=].item[=].text = "Days - record the number of days this therapy was administered for at least 15 minutes a day in the last 7 days"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "103161"
-* item[=].item[=].item[=].item[=].code = $loinc#55027-7 "Therapy start date - record the date the most recent therapy regimen (since the most recent entry) started"
+* item[=].item[=].item[=].item[=].code = $loinc#55027-7 "Start date of occupational therapy during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0400B5"
 * item[=].item[=].item[=].item[=].text = "Therapy start date - record the date the most recent therapy regimen (since the most recent entry) started"
 * item[=].item[=].item[=].item[=].type = #date
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "103162"
-* item[=].item[=].item[=].item[=].code = $loinc#55028-5 "Therapy end date - record the date the most recent therapy regimen (since the most recent entry) ended"
+* item[=].item[=].item[=].item[=].code = $loinc#55028-5 "End date of occupational therapy during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0400B6"
 * item[=].item[=].item[=].item[=].text = "Therapy end date - record the date the most recent therapy regimen (since the most recent entry) ended"
 * item[=].item[=].item[=].item[=].type = #date
@@ -4350,43 +4350,43 @@ Usage: #example
 * item[=].item[=].item[=].type = #group
 * item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[0].linkId = "103164"
-* item[=].item[=].item[=].item[=].code = $loinc#58220-5 "Individual minutes - record the total number of minutes this therapy was administered to the resident individually in the last 7 days"
+* item[=].item[=].item[=].item[=].code = $loinc#58220-5 "Physical therapy - individual minutes in the last 7 days [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0400C1"
 * item[=].item[=].item[=].item[=].text = "Individual minutes - record the total number of minutes this therapy was administered to the resident individually in the last 7 days"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "103165"
-* item[=].item[=].item[=].item[=].code = $loinc#58139-7 "Concurrent minutes - record the total number of minutes this therapy was administered to the resident concurrently with one other resident in the last 7 days"
+* item[=].item[=].item[=].item[=].code = $loinc#58139-7 "Physical therapy - concurrent minutes in the last 7 days [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0400C2"
 * item[=].item[=].item[=].item[=].text = "Concurrent minutes - record the total number of minutes this therapy was administered to the resident concurrently with one other resident in the last 7 days"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "103166"
-* item[=].item[=].item[=].item[=].code = $loinc#58140-5 "Group minutes - record the total number of minutes this therapy was administered to the resident as part of a group of residents in the last 7 days"
+* item[=].item[=].item[=].item[=].code = $loinc#58140-5 "Physical therapy - group minutes in the last 7 days [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0400C3"
 * item[=].item[=].item[=].item[=].text = "Group minutes - record the total number of minutes this therapy was administered to the resident as part of a group of residents in the last 7 days"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "103167"
-* item[=].item[=].item[=].item[=].code = $loinc#86766-3 "Co-treatment minutes - record the total number of minutes this therapy was administered to the resident in co-treatment sessions in the last 7 days"
+* item[=].item[=].item[=].item[=].code = $loinc#86766-3 "Physical therapy - co-treatment minutes during 7 day assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0400C3A"
 * item[=].item[=].item[=].item[=].text = "Co-treatment minutes - record the total number of minutes this therapy was administered to the resident in co-treatment sessions in the last 7 days"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "103168"
-* item[=].item[=].item[=].item[=].code = $loinc#45764-8 "Days - record the number of days this therapy was administered for at least 15 minutes a day in the last 7 days"
+* item[=].item[=].item[=].item[=].code = $loinc#45764-8 "Number of days with at least 15 minutes of physical therapy in the last 7 days [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0400C4"
 * item[=].item[=].item[=].item[=].text = "Days - record the number of days this therapy was administered for at least 15 minutes a day in the last 7 days"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "103169"
-* item[=].item[=].item[=].item[=].code = $loinc#55029-3 "Therapy start date - record the date the most recent therapy regimen (since the most recent entry) started"
+* item[=].item[=].item[=].item[=].code = $loinc#55029-3 "Start date of physical therapy during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0400C5"
 * item[=].item[=].item[=].item[=].text = "Therapy start date - record the date the most recent therapy regimen (since the most recent entry) started"
 * item[=].item[=].item[=].item[=].type = #date
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "103170"
-* item[=].item[=].item[=].item[=].code = $loinc#55030-1 "Therapy end date - record the date the most recent\r\ntherapy regimen (since the most recent entry) ended"
+* item[=].item[=].item[=].item[=].code = $loinc#55030-1 "End date of physical therapy during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0400C6"
 * item[=].item[=].item[=].item[=].text = "Therapy end date - record the date the most recent\r\ntherapy regimen (since the most recent entry) ended"
 * item[=].item[=].item[=].item[=].type = #date
@@ -4397,13 +4397,13 @@ Usage: #example
 * item[=].item[=].item[=].type = #group
 * item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[0].linkId = "103172"
-* item[=].item[=].item[=].item[=].code = $loinc#45767-1 "Total minutes - record the total number of minutes this therapy was administered to the resident in the last 7 days"
+* item[=].item[=].item[=].item[=].code = $loinc#45767-1 "Total minutes of respiratory therapy in the last 7 days [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0400D1"
 * item[=].item[=].item[=].item[=].text = "Total minutes - record the total number of minutes this therapy was administered to the resident in the last 7 days"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "103173"
-* item[=].item[=].item[=].item[=].code = $loinc#45766-3 "Days - record the number of days this therapy was administered for at least 15 minutes a day in the last 7 days"
+* item[=].item[=].item[=].item[=].code = $loinc#45766-3 "Number of days with at least 15 minutes of respiratory therapy in the last 7 days [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0400D2"
 * item[=].item[=].item[=].item[=].text = "Days - record the number of days this therapy was administered for at least 15 minutes a day in the last 7 days"
 * item[=].item[=].item[=].item[=].type = #decimal
@@ -4414,13 +4414,13 @@ Usage: #example
 * item[=].item[=].item[=].type = #group
 * item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[0].linkId = "103175"
-* item[=].item[=].item[=].item[=].code = $loinc#45852-1 "Total minutes - record the total number of minutes this therapy was administered to the resident in the last 7 days"
+* item[=].item[=].item[=].item[=].code = $loinc#45852-1 "Total minutes of psychological therapy by any licensed mental health professional in the last 7 days [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0400E1"
 * item[=].item[=].item[=].item[=].text = "Total minutes - record the total number of minutes this therapy was administered to the resident in the last 7 days"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "103176"
-* item[=].item[=].item[=].item[=].code = $loinc#45768-9 "Days - record the number of days this therapy was administered for at least 15 minutes a day in the last 7 days."
+* item[=].item[=].item[=].item[=].code = $loinc#45768-9 "Number of days with at least 15 minutes of psychological therapy by any licensed mental health professional in the last 7 days [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0400E2"
 * item[=].item[=].item[=].item[=].text = "Days - record the number of days this therapy was administered for at least 15 minutes a day in the last 7 days."
 * item[=].item[=].item[=].item[=].type = #decimal
@@ -4431,19 +4431,19 @@ Usage: #example
 * item[=].item[=].item[=].type = #group
 * item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[0].linkId = "103178"
-* item[=].item[=].item[=].item[=].code = $loinc#55035-0 "Total minutes - record the total number of minutes this therapy was administered to the resident in the last 7 days"
+* item[=].item[=].item[=].item[=].code = $loinc#55035-0 "Total minutes of recreational and music therapy in last 7 days [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0400F1"
 * item[=].item[=].item[=].item[=].text = "Total minutes - record the total number of minutes this therapy was administered to the resident in the last 7 days"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "103179"
-* item[=].item[=].item[=].item[=].code = $loinc#55036-8 "Days - record the number of days this therapy was administered for at least 15 minutes a day in the last 7 days"
+* item[=].item[=].item[=].item[=].code = $loinc#55036-8 "Number of days with at least 15 minutes of recreational and music therapy in last 7 days [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0400F2"
 * item[=].item[=].item[=].item[=].text = "Days - record the number of days this therapy was administered for at least 15 minutes a day in the last 7 days"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[+].linkId = "103180"
-* item[=].item[=].code = $loinc#86769-7 "Distinct Calendar Days of Therapy. Record the number of calendar days that the resident received Speech-Language Pathology and Audiology Services, Occupational Therapy, or Physical Therapy for at least 15 minutes in the past 7 days."
+* item[=].item[=].code = $loinc#86769-7 "Distinct calendar days of therapy in last 7 days [CMS Assessment]"
 * item[=].item[=].prefix = "O0420"
 * item[=].item[=].text = "Distinct Calendar Days of Therapy. Record the number of calendar days that the resident received Speech-Language Pathology and Audiology Services, Occupational Therapy, or Physical Therapy for at least 15 minutes in the past 7 days."
 * item[=].item[=].type = #decimal
@@ -4459,31 +4459,31 @@ Usage: #example
 * item[=].item[=].item[=].type = #group
 * item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[0].linkId = "109468"
-* item[=].item[=].item[=].item[=].code = $loinc#90539-8 "Individual minutes - record the total number of minutes this therapy was administered to the resident individually since the start date of the resident's most recent Medicare Part A stay (A2400B)"
+* item[=].item[=].item[=].item[=].code = $loinc#90539-8 "Speech-language pathology and audiology services - individual minutes during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0425A1"
 * item[=].item[=].item[=].item[=].text = "Individual minutes - record the total number of minutes this therapy was administered to the resident individually since the start date of the resident's most recent Medicare Part A stay (A2400B)"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "109471"
-* item[=].item[=].item[=].item[=].code = $loinc#90536-4 "Concurrent minutes - record the total number of minutes this therapy was administered to the resident concurrently with one other resident since the start date of the resident's most recent Medicare Part A stay (A2400B)"
+* item[=].item[=].item[=].item[=].code = $loinc#90536-4 "Speech-language pathology and audiology services - concurrent minutes during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0425A2"
 * item[=].item[=].item[=].item[=].text = "Concurrent minutes - record the total number of minutes this therapy was administered to the resident concurrently with one other resident since the start date of the resident's most recent Medicare Part A stay (A2400B)"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "109469"
-* item[=].item[=].item[=].item[=].code = $loinc#90538-0 "Group minutes - record the total number of minutes this therapy was administered to the resident as part of a group of residents since the start date of the resident's most recent Medicare Part A stay (A2400B)"
+* item[=].item[=].item[=].item[=].code = $loinc#90538-0 "Speech-language pathology and audiology services - group minutes during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0425A3"
 * item[=].item[=].item[=].item[=].text = "Group minutes - record the total number of minutes this therapy was administered to the resident as part of a group of residents since the start date of the resident's most recent Medicare Part A stay (A2400B)"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "109470"
-* item[=].item[=].item[=].item[=].code = $loinc#90537-2 "Co-treatment minutes - record the total number of minutes this therapy was administered to the resident in co-treatment sessions since the start date of the resident's most recent Medicare Part A stay (A2400B)"
+* item[=].item[=].item[=].item[=].code = $loinc#90537-2 "Speech-language pathology and audiology services - co-treatment minutes during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0425A4"
 * item[=].item[=].item[=].item[=].text = "Co-treatment minutes - record the total number of minutes this therapy was administered to the resident in co-treatment sessions since the start date of the resident's most recent Medicare Part A stay (A2400B)"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "109472"
-* item[=].item[=].item[=].item[=].code = $loinc#90551-3 "Days - record the number of days this therapy was administered for at least 15 minutes a day since the start date of the resident's most recent Medicare Part A stay (A2400B)"
+* item[=].item[=].item[=].item[=].code = $loinc#90551-3 "Number of days with at least 15 minutes of speech language pathology and audiology services during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0425A5"
 * item[=].item[=].item[=].item[=].text = "Days - record the number of days this therapy was administered for at least 15 minutes a day since the start date of the resident's most recent Medicare Part A stay (A2400B)"
 * item[=].item[=].item[=].item[=].type = #decimal
@@ -4494,31 +4494,31 @@ Usage: #example
 * item[=].item[=].item[=].type = #group
 * item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[0].linkId = "109463"
-* item[=].item[=].item[=].item[=].code = $loinc#90531-5 "Individual minutes - record the total number of minutes this therapy was administered to the resident individually since the start date of the resident's most recent Medicare Part A stay (A2400B)"
+* item[=].item[=].item[=].item[=].code = $loinc#90531-5 "Occupational therapy - individual minutes during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0425B1"
 * item[=].item[=].item[=].item[=].text = "Individual minutes - record the total number of minutes this therapy was administered to the resident individually since the start date of the resident's most recent Medicare Part A stay (A2400B)"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "109467"
-* item[=].item[=].item[=].item[=].code = $loinc#90527-3 "Concurrent minutes - record the total number of minutes this therapy was administered to the resident concurrently with one other resident since the start date of the resident's most recent Medicare Part A stay (A2400B)"
+* item[=].item[=].item[=].item[=].code = $loinc#90527-3 "Occupational therapy - concurrent minutes during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0425B2"
 * item[=].item[=].item[=].item[=].text = "Concurrent minutes - record the total number of minutes this therapy was administered to the resident concurrently with one other resident since the start date of the resident's most recent Medicare Part A stay (A2400B)"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "109465"
-* item[=].item[=].item[=].item[=].code = $loinc#90529-9 "Group minutes - record the total number of minutes this therapy was administered to the resident as part of a group of residents since the start date of the resident's most recent Medicare Part A stay (A2400B)"
+* item[=].item[=].item[=].item[=].code = $loinc#90529-9 "Occupational therapy - group minutes during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0425B3"
 * item[=].item[=].item[=].item[=].text = "Group minutes - record the total number of minutes this therapy was administered to the resident as part of a group of residents since the start date of the resident's most recent Medicare Part A stay (A2400B)"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "109466"
-* item[=].item[=].item[=].item[=].code = $loinc#90528-1 "Co-treatment minutes - record the total number of minutes this therapy was administered to the resident in co-treatment sessions since the start date of the resident's most recent Medicare Part A stay (A2400B)"
+* item[=].item[=].item[=].item[=].code = $loinc#90528-1 "Occupational therapy - co-treatment minutes during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0425B4"
 * item[=].item[=].item[=].item[=].text = "Co-treatment minutes - record the total number of minutes this therapy was administered to the resident in co-treatment sessions since the start date of the resident's most recent Medicare Part A stay (A2400B)"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "109464"
-* item[=].item[=].item[=].item[=].code = $loinc#90530-7 "Days - record the number of days this therapy was administered for at least 15 minutes a day since the start date of the resident's most recent Medicare Part A stay (A2400B)"
+* item[=].item[=].item[=].item[=].code = $loinc#90530-7 "Number of days with at least 15 minutes of occupational therapy during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0425B5"
 * item[=].item[=].item[=].item[=].text = "Days - record the number of days this therapy was administered for at least 15 minutes a day since the start date of the resident's most recent Medicare Part A stay (A2400B)"
 * item[=].item[=].item[=].item[=].type = #decimal
@@ -4529,37 +4529,37 @@ Usage: #example
 * item[=].item[=].item[=].type = #group
 * item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[0].linkId = "109473"
-* item[=].item[=].item[=].item[=].code = $loinc#90535-6 "Individual minutes - record the total number of minutes this therapy was administered to the resident individually since the start date of the resident's most recent Medicare Part A stay (A2400B)"
+* item[=].item[=].item[=].item[=].code = $loinc#90535-6 "Physical therapy - individual minutes during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0425C1"
 * item[=].item[=].item[=].item[=].text = "Individual minutes - record the total number of minutes this therapy was administered to the resident individually since the start date of the resident's most recent Medicare Part A stay (A2400B)"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "109476"
-* item[=].item[=].item[=].item[=].code = $loinc#90532-3 "Concurrent minutes - record the total number of minutes this therapy was administered to the resident concurrently with one other resident since the start date of the resident's most recent Medicare Part A stay (A2400B)"
+* item[=].item[=].item[=].item[=].code = $loinc#90532-3 "Physical therapy - concurrent minutes during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0425C2"
 * item[=].item[=].item[=].item[=].text = "Concurrent minutes - record the total number of minutes this therapy was administered to the resident concurrently with one other resident since the start date of the resident's most recent Medicare Part A stay (A2400B)"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "109474"
-* item[=].item[=].item[=].item[=].code = $loinc#90534-9 "Group minutes - record the total number of minutes this therapy was administered to the resident as part of a group of residents since the start date of the resident's most recent Medicare Part A stay (A2400B)"
+* item[=].item[=].item[=].item[=].code = $loinc#90534-9 "Physical therapy - group minutes during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0425C3"
 * item[=].item[=].item[=].item[=].text = "Group minutes - record the total number of minutes this therapy was administered to the resident as part of a group of residents since the start date of the resident's most recent Medicare Part A stay (A2400B)"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "109475"
-* item[=].item[=].item[=].item[=].code = $loinc#90533-1 "Co-treatment minutes - record the total number of minutes this therapy was administered to the resident in co-treatment sessions since the start date of the resident's most recent Medicare Part A stay (A2400B)"
+* item[=].item[=].item[=].item[=].code = $loinc#90533-1 "Physical therapy - co-treatment minutes during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0425C4"
 * item[=].item[=].item[=].item[=].text = "Co-treatment minutes - record the total number of minutes this therapy was administered to the resident in co-treatment sessions since the start date of the resident's most recent Medicare Part A stay (A2400B)"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "109477"
-* item[=].item[=].item[=].item[=].code = $loinc#90550-5 "Days - record the number of days this therapy was administered for at least 15 minutes a day since the start date of the resident's most recent Medicare Part A stay (A2400B)"
+* item[=].item[=].item[=].item[=].code = $loinc#90550-5 "Number of days with at least 15 minutes of physical therapy during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "O0425C5"
 * item[=].item[=].item[=].item[=].text = "Days - record the number of days this therapy was administered for at least 15 minutes a day since the start date of the resident's most recent Medicare Part A stay (A2400B)"
 * item[=].item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[+].linkId = "109479"
-* item[=].item[=].code = $loinc#90548-9 "Distinct Calendar Days of Part A Therapy"
+* item[=].item[=].code = $loinc#90548-9 "Distinct calendar days of therapy during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "O0430"
 * item[=].item[=].text = "Distinct Calendar Days of Part A Therapy"
 * item[=].item[=].type = #decimal
@@ -4570,73 +4570,73 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "103185"
-* item[=].item[=].item[=].code = $loinc#86774-7 "Technique. Range of motion (passive)"
+* item[=].item[=].item[=].code = $loinc#86774-7 "Number of days of passive range of motion in last 7 calendar days [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "O0500A"
 * item[=].item[=].item[=].text = "Technique. Range of motion (passive)"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103186"
-* item[=].item[=].item[=].code = $loinc#86775-4 "Technique. Range of motion (active)"
+* item[=].item[=].item[=].code = $loinc#86775-4 "Number of days of active range of motion in last 7 calendar days [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "O0500B"
 * item[=].item[=].item[=].text = "Technique. Range of motion (active)"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103187"
-* item[=].item[=].item[=].code = $loinc#86776-2 "Technique. Splint or brace assistance"
+* item[=].item[=].item[=].code = $loinc#86776-2 "Number of days of splint or brace assistance in last 7 calendar days [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "O0500C"
 * item[=].item[=].item[=].text = "Technique. Splint or brace assistance"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103188"
-* item[=].item[=].item[=].code = $loinc#86777-0 "Training and Skill Practice In: Bed mobility"
+* item[=].item[=].item[=].code = $loinc#86777-0 "Number of days of training and skill practice in bed mobility in last 7 calendar days [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "O0500D"
 * item[=].item[=].item[=].text = "Training and Skill Practice In: Bed mobility"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103189"
-* item[=].item[=].item[=].code = $loinc#86778-8 "Training and Skill Practice In: Transfer"
+* item[=].item[=].item[=].code = $loinc#86778-8 "Number of days of training and skill practice in transfer in last 7 calendar days [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "O0500E"
 * item[=].item[=].item[=].text = "Training and Skill Practice In: Transfer"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103190"
-* item[=].item[=].item[=].code = $loinc#86779-6 "Training and Skill Practice In: Walking"
+* item[=].item[=].item[=].code = $loinc#86779-6 "Number of days of training and skill practice in walking in last 7 calendar days [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "O0500F"
 * item[=].item[=].item[=].text = "Training and Skill Practice In: Walking"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103191"
-* item[=].item[=].item[=].code = $loinc#86780-4 "Training and Skill Practice In: Dressing and/or grooming"
+* item[=].item[=].item[=].code = $loinc#86780-4 "Number of days of training and skill practice in dressing or grooming in last 7 calendar days [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "O0500G"
 * item[=].item[=].item[=].text = "Training and Skill Practice In: Dressing and/or grooming"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103192"
-* item[=].item[=].item[=].code = $loinc#86781-2 "Training and Skill Practice In: Eating and/or swallowing"
+* item[=].item[=].item[=].code = $loinc#86781-2 "Number of days of training and skill practice in eating or swallowing in last 7 calendar days [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "O0500H"
 * item[=].item[=].item[=].text = "Training and Skill Practice In: Eating and/or swallowing"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103193"
-* item[=].item[=].item[=].code = $loinc#86782-0 "Training and Skill Practice In: Amputation/prostheses care"
+* item[=].item[=].item[=].code = $loinc#86782-0 "Number of days of training and skill practice in amputation or prosthesis care in last 7 calendar days [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "O0500I"
 * item[=].item[=].item[=].text = "Training and Skill Practice In: Amputation/prostheses care"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103194"
-* item[=].item[=].item[=].code = $loinc#86783-8 "Training and Skill Practice In: Communication"
+* item[=].item[=].item[=].code = $loinc#86783-8 "Number of days of training and skill practice in communication in last 7 calendar days [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "O0500J"
 * item[=].item[=].item[=].text = "Training and Skill Practice In: Communication"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[+].linkId = "103195"
-* item[=].item[=].code = $loinc#55040-0 "Physician Examinations. Over the last 14 days, on how many days did the physician (or authorized assistant or practitioner) examine the resident?"
+* item[=].item[=].code = $loinc#55040-0 "Number of days physician examined the patient in last 14 days [CMS Assessment]"
 * item[=].item[=].prefix = "O0600"
 * item[=].item[=].text = "Physician Examinations. Over the last 14 days, on how many days did the physician (or authorized assistant or practitioner) examine the resident?"
 * item[=].item[=].type = #decimal
 * item[=].item[=].repeats = false
 * item[=].item[+].linkId = "103196"
-* item[=].item[=].code = $loinc#55041-8 "Physician Orders. Over the last 14 days, on how many days did the physician (or authorized assistant or practitioner) change the resident's orders?"
+* item[=].item[=].code = $loinc#55041-8 "Number of days physician orders changed in last 14 days [CMS Assessment]"
 * item[=].item[=].prefix = "O0700"
 * item[=].item[=].text = "Physician Orders. Over the last 14 days, on how many days did the physician (or authorized assistant or practitioner) change the resident's orders?"
 * item[=].item[=].type = #decimal
@@ -4652,7 +4652,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "103199"
-* item[=].item[=].item[=].code = $loinc#86786-1 "Used in Bed. Bed rail"
+* item[=].item[=].item[=].code = $loinc#86786-1 "Physical restraints used in bed - bed rail used during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "P0100A"
 * item[=].item[=].item[=].text = "Used in Bed. Bed rail"
 * item[=].item[=].item[=].type = #choice
@@ -4661,7 +4661,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA158-8 "Used less than daily"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA159-6 "Used daily"
 * item[=].item[=].item[+].linkId = "103200"
-* item[=].item[=].item[=].code = $loinc#86787-9 "Used in Bed. Trunk restraint"
+* item[=].item[=].item[=].code = $loinc#86787-9 "Physical restraints used in bed - trunk restraint used during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "P0100B"
 * item[=].item[=].item[=].text = "Used in Bed. Trunk restraint"
 * item[=].item[=].item[=].type = #choice
@@ -4670,7 +4670,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA158-8 "Used less than daily"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA159-6 "Used daily"
 * item[=].item[=].item[+].linkId = "103201"
-* item[=].item[=].item[=].code = $loinc#86788-7 "Used in Bed. Limb restraint"
+* item[=].item[=].item[=].code = $loinc#86788-7 "Physical restraints used in bed - limb restraint during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "P0100C"
 * item[=].item[=].item[=].text = "Used in Bed. Limb restraint"
 * item[=].item[=].item[=].type = #choice
@@ -4679,7 +4679,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA158-8 "Used less than daily"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA159-6 "Used daily"
 * item[=].item[=].item[+].linkId = "103202"
-* item[=].item[=].item[=].code = $loinc#86789-5 "Used in Bed. Other"
+* item[=].item[=].item[=].code = $loinc#86789-5 "Other physical restraints used in bed during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "P0100D"
 * item[=].item[=].item[=].text = "Used in Bed. Other"
 * item[=].item[=].item[=].type = #choice
@@ -4688,7 +4688,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA158-8 "Used less than daily"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA159-6 "Used daily"
 * item[=].item[=].item[+].linkId = "103203"
-* item[=].item[=].item[=].code = $loinc#86790-3 "Used in Chair or Out of Bed. Trunk restraint"
+* item[=].item[=].item[=].code = $loinc#86790-3 "Physical restraints used in chair or out of bed - trunk restraint used during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "P0100E"
 * item[=].item[=].item[=].text = "Used in Chair or Out of Bed. Trunk restraint"
 * item[=].item[=].item[=].type = #choice
@@ -4697,7 +4697,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA158-8 "Used less than daily"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA159-6 "Used daily"
 * item[=].item[=].item[+].linkId = "103204"
-* item[=].item[=].item[=].code = $loinc#86791-1 "Used in Chair or Out of Bed. Limb restraint"
+* item[=].item[=].item[=].code = $loinc#86791-1 "Physical restraints used in chair or out of bed - limb restraint used during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "P0100F"
 * item[=].item[=].item[=].text = "Used in Chair or Out of Bed. Limb restraint"
 * item[=].item[=].item[=].type = #choice
@@ -4706,7 +4706,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA158-8 "Used less than daily"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA159-6 "Used daily"
 * item[=].item[=].item[+].linkId = "103205"
-* item[=].item[=].item[=].code = $loinc#86792-9 "Used in Chair or Out of Bed. Chair prevents rising"
+* item[=].item[=].item[=].code = $loinc#86792-9 "Physical restraints used in chair or out of bed - chair prevents rising used during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "P0100G"
 * item[=].item[=].item[=].text = "Used in Chair or Out of Bed. Chair prevents rising"
 * item[=].item[=].item[=].type = #choice
@@ -4715,7 +4715,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA158-8 "Used less than daily"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA159-6 "Used daily"
 * item[=].item[=].item[+].linkId = "103206"
-* item[=].item[=].item[=].code = $loinc#86793-7 "Used in Chair or Out of Bed. Other"
+* item[=].item[=].item[=].code = $loinc#86793-7 "Other physical restraints used in chair or out of bed used during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "P0100H"
 * item[=].item[=].item[=].text = "Used in Chair or Out of Bed. Other"
 * item[=].item[=].item[=].type = #choice
@@ -4729,7 +4729,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "103208"
-* item[=].item[=].item[=].code = $loinc#88310-8 "Bed alarm"
+* item[=].item[=].item[=].code = $loinc#88310-8 "Bed alarm used during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "P0200A"
 * item[=].item[=].item[=].text = "Bed alarm"
 * item[=].item[=].item[=].type = #choice
@@ -4738,7 +4738,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA158-8 "Used less than daily"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA159-6 "Used daily"
 * item[=].item[=].item[+].linkId = "103209"
-* item[=].item[=].item[=].code = $loinc#88311-6 "Chair alarm"
+* item[=].item[=].item[=].code = $loinc#88311-6 "Chair alarm used during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "P0200B"
 * item[=].item[=].item[=].text = "Chair alarm"
 * item[=].item[=].item[=].type = #choice
@@ -4747,7 +4747,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA158-8 "Used less than daily"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA159-6 "Used daily"
 * item[=].item[=].item[+].linkId = "103210"
-* item[=].item[=].item[=].code = $loinc#88312-4 "Floor mat alarm"
+* item[=].item[=].item[=].code = $loinc#88312-4 "Floor mat alarm used during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "P0200C"
 * item[=].item[=].item[=].text = "Floor mat alarm"
 * item[=].item[=].item[=].type = #choice
@@ -4756,7 +4756,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA158-8 "Used less than daily"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA159-6 "Used daily"
 * item[=].item[=].item[+].linkId = "103211"
-* item[=].item[=].item[=].code = $loinc#88313-2 "Motion sensor alarm"
+* item[=].item[=].item[=].code = $loinc#88313-2 "Motion sensor alarm used during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "P0200D"
 * item[=].item[=].item[=].text = "Motion sensor alarm"
 * item[=].item[=].item[=].type = #choice
@@ -4765,7 +4765,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA158-8 "Used less than daily"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA159-6 "Used daily"
 * item[=].item[=].item[+].linkId = "103212"
-* item[=].item[=].item[=].code = $loinc#88314-0 "Wander/elopement alarm"
+* item[=].item[=].item[=].code = $loinc#88314-0 "Wander/elopement alarm used during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "P0200E"
 * item[=].item[=].item[=].text = "Wander/elopement alarm"
 * item[=].item[=].item[=].type = #choice
@@ -4774,7 +4774,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA158-8 "Used less than daily"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA159-6 "Used daily"
 * item[=].item[=].item[+].linkId = "103213"
-* item[=].item[=].item[=].code = $loinc#88308-2 "Other alarm"
+* item[=].item[=].item[=].code = $loinc#88308-2 "Other alarm used during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "P0200F"
 * item[=].item[=].item[=].text = "Other alarm"
 * item[=].item[=].item[=].type = #choice
@@ -4793,7 +4793,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "103216"
-* item[=].item[=].item[=].code = $loinc#55054-1 "Resident participated in assessment"
+* item[=].item[=].item[=].code = $loinc#55054-1 "Participation in assessment during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "Q0100A"
 * item[=].item[=].item[=].text = "Resident participated in assessment"
 * item[=].item[=].item[=].type = #choice
@@ -4801,7 +4801,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[+].linkId = "103217"
-* item[=].item[=].item[=].code = $loinc#55074-9 "Family or significant other participated in assessment"
+* item[=].item[=].item[=].code = $loinc#55074-9 "Participation in assessment during assessment period [CMS Assessment] Family or significant other"
 * item[=].item[=].item[=].prefix = "Q0100B"
 * item[=].item[=].item[=].text = "Family or significant other participated in assessment"
 * item[=].item[=].item[=].type = #choice
@@ -4810,7 +4810,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA27973-9 "Resident has no family or significant other"
 * item[=].item[=].item[+].linkId = "103218"
-* item[=].item[=].item[=].code = $loinc#58221-3 "Guardian or legally authorized representative participated in assessment"
+* item[=].item[=].item[=].code = $loinc#58221-3 "Participation in assessment during assessment period [CMS Assessment] Guardian or legally authorized representative"
 * item[=].item[=].item[=].prefix = "Q0100C"
 * item[=].item[=].item[=].text = "Guardian or legally authorized representative participated in assessment"
 * item[=].item[=].item[=].type = #choice
@@ -4824,7 +4824,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "103220"
-* item[=].item[=].item[=].code = $loinc#55057-4 "Select one for resident's overall goal established during assessment process"
+* item[=].item[=].item[=].code = $loinc#55057-4 "Goals established during assessment process during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "Q0300A"
 * item[=].item[=].item[=].text = "Select one for resident's overall goal established during assessment process"
 * item[=].item[=].item[=].type = #choice
@@ -4834,7 +4834,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA30464-4 "Discharge to another facility/institution"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11107-2 "Unknown or uncertain"
 * item[=].item[=].item[+].linkId = "103221"
-* item[=].item[=].item[=].code = $loinc#55058-2 "Indicate information source for Q0300A"
+* item[=].item[=].item[=].code = $loinc#55058-2 "Information source for resident's overall goal during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "Q0300B"
 * item[=].item[=].item[=].text = "Indicate information source for Q0300A"
 * item[=].item[=].item[=].type = #choice
@@ -4844,7 +4844,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA12652-6 "If not resident, family, or significant other, then guardian or legally authorized representative"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA11107-2 "Unknown or uncertain"
 * item[=].item[+].linkId = "103222"
-* item[=].item[=].code = $loinc#58146-2 "Discharge Plan. Is active discharge planning already occurring for the resident to return to the community?"
+* item[=].item[=].code = $loinc#58146-2 "Active discharge planning in place for resident return to community during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "Q0400A"
 * item[=].item[=].text = "Discharge Plan. Is active discharge planning already occurring for the resident to return to the community?"
 * item[=].item[=].type = #choice
@@ -4852,7 +4852,7 @@ Usage: #example
 * item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[+].linkId = "103223"
-* item[=].item[=].code = $loinc#86795-2 "Resident's Preference to Avoid Being Asked Question Q0500B"
+* item[=].item[=].code = $loinc#86795-2 "Clinical record documents a request that questions regarding possible return to the community be asked only on comprehensive assessments during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "Q0490"
 * item[=].item[=].text = "Resident's Preference to Avoid Being Asked Question Q0500B"
 * item[=].item[=].type = #choice
@@ -4860,7 +4860,7 @@ Usage: #example
 * item[=].item[=].answerOption[0].valueCoding = $loinc#LA32-8 "No"
 * item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[+].linkId = "103224"
-* item[=].item[=].code = $loinc#58149-6 "Return to Community. Do you want to talk to someone about the possiblity of leaving this facility and returning to live and receive services in the community?"
+* item[=].item[=].code = $loinc#58149-6 "Wants to talk to someone about the possibility of returning to the community during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "Q0500B"
 * item[=].item[=].text = "Return to Community. Do you want to talk to someone about the possiblity of leaving this facility and returning to live and receive services in the community?"
 * item[=].item[=].type = #choice
@@ -4874,7 +4874,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "103226"
-* item[=].item[=].item[=].code = $loinc#86797-8 "Does the resident (or family or significant other or guardian or legally authorized representative if resident is unable to understand or respond) want to be asked about returning to the community on all assessments?"
+* item[=].item[=].item[=].code = $loinc#86797-8 "Resident (or legally authorized representative) wants to be asked about returning to the community on all assessments during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "Q0550A"
 * item[=].item[=].item[=].text = "Does the resident (or family or significant other or guardian or legally authorized representative if resident is unable to understand or respond) want to be asked about returning to the community on all assessments?"
 * item[=].item[=].item[=].type = #choice
@@ -4883,7 +4883,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA33-6 "Yes"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA21297-9 "Information not available"
 * item[=].item[=].item[+].linkId = "103227"
-* item[=].item[=].item[=].code = $loinc#86798-6 "Indicate information source for Q0550A"
+* item[=].item[=].item[=].code = $loinc#86798-6 "Information source for preference on return to community queries during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "Q0550B"
 * item[=].item[=].item[=].text = "Indicate information source for Q0550A"
 * item[=].item[=].item[=].type = #choice
@@ -4893,7 +4893,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA12652-6 "If not resident, family, or significant other, then guardian or legally authorized representative"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA9-3 "None of the above"
 * item[=].item[+].linkId = "103228"
-* item[=].item[=].code = $loinc#58150-4 "Referral. Has a referral been made to the Local Contact Agency?"
+* item[=].item[=].code = $loinc#58150-4 "Referral has been made to the local contact agency during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "Q0600"
 * item[=].item[=].text = "Referral. Has a referral been made to the Local Contact Agency?"
 * item[=].item[=].type = #choice
@@ -4912,7 +4912,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "103231"
-* item[=].item[=].item[=].code = $loinc#54583-0 "Prior Assessment Federal OBRA Reason for Assessment"
+* item[=].item[=].item[=].code = $loinc#54583-0 "Federal OBRA reason for assessment during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "V0100A"
 * item[=].item[=].item[=].text = "Prior Assessment Federal OBRA Reason for Assessment"
 * item[=].item[=].item[=].type = #choice
@@ -4925,7 +4925,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA10889-6 "Significant correction to prior quarterly assessment"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA9-3 "None of the above"
 * item[=].item[=].item[+].linkId = "103232"
-* item[=].item[=].item[=].code = $loinc#54584-8 "Prior Assessment PPS Reason for Assessment"
+* item[=].item[=].item[=].code = $loinc#54584-8 "PPS Assessment during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "V0100B"
 * item[=].item[=].item[=].text = "Prior Assessment PPS Reason for Assessment"
 * item[=].item[=].item[=].type = #choice
@@ -4934,7 +4934,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA29577-6 "IPA - Interim Payment Assessment"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA9-3 "None of the above"
 * item[=].item[=].item[+].linkId = "103233"
-* item[=].item[=].item[=].code = $loinc#54593-9 "Prior Assessment Reference Date"
+* item[=].item[=].item[=].code = $loinc#54593-9 "Assessment reference date - observation end date during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "V0100C"
 * item[=].item[=].item[=].text = "Prior Assessment Reference Date"
 * item[=].item[=].item[=].type = #date
@@ -4962,7 +4962,7 @@ Usage: #example
 * item[=].item[=].item.type = #group
 * item[=].item[=].item.required = true
 * item[=].item[=].item.item[0].linkId = "103239"
-* item[=].item[=].item.item[=].code = $loinc#87212-7 "Care Area Triggered"
+* item[=].item[=].item.item[=].code = $loinc#87212-7 "Care area triggered during assessment period [CMS Assessment]"
 * item[=].item[=].item.item[=].prefix = "V0200A_A"
 * item[=].item[=].item.item[=].text = "Care Area Triggered"
 * item[=].item[=].item.item[=].type = #choice
@@ -4988,7 +4988,7 @@ Usage: #example
 * item[=].item[=].item.item[=].answerOption[+].valueCoding = $loinc#LA7460-4 "Pain"
 * item[=].item[=].item.item[=].answerOption[+].valueCoding = $loinc#LA28175-0 "Return to community referral"
 * item[=].item[=].item.item[+].linkId = "103240"
-* item[=].item[=].item.item[=].code = $loinc#87213-5 "Care Planning Decision"
+* item[=].item[=].item.item[=].code = $loinc#87213-5 "Triggered care area included in care plan during assessment period [CMS Assessment]"
 * item[=].item[=].item.item[=].prefix = "V0200A_B"
 * item[=].item[=].item.item[=].text = "Care Planning Decision"
 * item[=].item[=].item.item[=].type = #choice
@@ -5019,7 +5019,7 @@ Usage: #example
 * item[=].type = #group
 * item[=].required = true
 * item[=].item[0].linkId = "103242"
-* item[=].item[=].code = $loinc#85632-8 "Type of Provider"
+* item[=].item[=].code = $loinc#85632-8 "Facility type during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "X0150"
 * item[=].item[=].text = "Type of Provider"
 * item[=].item[=].type = #choice
@@ -5044,7 +5044,7 @@ Usage: #example
 * item[=].item[=].item[=].type = #string
 * item[=].item[=].item[=].repeats = false
 * item[=].item[+].linkId = "103246"
-* item[=].item[=].code = $loinc#46098-0 "Gender"
+* item[=].item[=].code = $loinc#46098-0 "Sex"
 * item[=].item[=].prefix = "X0300"
 * item[=].item[=].text = "Gender"
 * item[=].item[=].type = #choice
@@ -5058,13 +5058,13 @@ Usage: #example
 * item[=].item[=].type = #decimal
 * item[=].item[=].repeats = false
 * item[=].item[+].linkId = "103248"
-* item[=].item[=].code = $loinc#45396-9 "Social Security Number"
+* item[=].item[=].code = $loinc#45396-9 "Social Security number [Identifier]"
 * item[=].item[=].prefix = "X0500"
 * item[=].item[=].text = "Social Security Number"
 * item[=].item[=].type = #string
 * item[=].item[=].repeats = false
 * item[=].item[+].linkId = "110233"
-* item[=].item[=].code = $loinc#90522-4 "Optional State Assessment. Is this assessment for state payment purposes only?"
+* item[=].item[=].code = $loinc#90522-4 "Assessment for state payment during assessment period [CMS Assessment]"
 * item[=].item[=].prefix = "X0570A"
 * item[=].item[=].text = "Optional State Assessment. Is this assessment for state payment purposes only?"
 * item[=].item[=].type = #choice
@@ -5077,7 +5077,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "103250"
-* item[=].item[=].item[=].code = $loinc#54583-0 "Federal OBRA Reason for Assessment"
+* item[=].item[=].item[=].code = $loinc#54583-0 "Federal OBRA reason for assessment during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "X0600A"
 * item[=].item[=].item[=].text = "Federal OBRA Reason for Assessment"
 * item[=].item[=].item[=].type = #choice
@@ -5090,7 +5090,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA10889-6 "Significant correction to prior quarterly assessment"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA9-3 "None of the above"
 * item[=].item[=].item[+].linkId = "103251"
-* item[=].item[=].item[=].code = $loinc#54584-8 "PPS Assessment"
+* item[=].item[=].item[=].code = $loinc#54584-8 "PPS Assessment during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "X0600B"
 * item[=].item[=].item[=].text = "PPS Assessment"
 * item[=].item[=].item[=].type = #choice
@@ -5099,7 +5099,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA29577-6 "IPA - Interim Payment Assessment"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA9-3 "None of the above"
 * item[=].item[=].item[+].linkId = "103254"
-* item[=].item[=].item[=].code = $loinc#58108-2 "Entry/discharge reporting"
+* item[=].item[=].item[=].code = $loinc#58108-2 "Entry/discharge reporting during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "X0600F"
 * item[=].item[=].item[=].text = "Entry/discharge reporting"
 * item[=].item[=].item[=].type = #choice
@@ -5110,7 +5110,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA12630-2 "Death in facility tracking record"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA9-3 "None of the above"
 * item[=].item[=].item[+].linkId = "103255"
-* item[=].item[=].item[=].code = $loinc#86525-3 "Is this a SNF Part A PPS Discharge Assessment?"
+* item[=].item[=].item[=].code = $loinc#86525-3 "SNF Part A PPS discharge assessment during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "X0600H"
 * item[=].item[=].item[=].text = "Is this a SNF Part A PPS Discharge Assessment?"
 * item[=].item[=].item[=].type = #choice
@@ -5123,7 +5123,7 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "103257"
-* item[=].item[=].item[=].code = $loinc#54593-9 "Assessment Reference Date"
+* item[=].item[=].item[=].code = $loinc#54593-9 "Assessment reference date - observation end date during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "X0700A"
 * item[=].item[=].item[=].text = "Assessment Reference Date"
 * item[=].item[=].item[=].type = #date
@@ -5135,7 +5135,7 @@ Usage: #example
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103259"
-* item[=].item[=].item[=].code = $loinc#50786-3 "Entry Date"
+* item[=].item[=].item[=].code = $loinc#50786-3 "Date of entry"
 * item[=].item[=].item[=].prefix = "X0700C"
 * item[=].item[=].item[=].text = "Entry Date"
 * item[=].item[=].item[=].type = #decimal
@@ -5145,13 +5145,13 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "103261"
-* item[=].item[=].item[=].code = $loinc#58200-7 "Correction Number"
+* item[=].item[=].item[=].code = $loinc#58200-7 "Correction number during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "X0800"
 * item[=].item[=].item[=].text = "Correction Number"
 * item[=].item[=].item[=].type = #decimal
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "103262"
-* item[=].item[=].item[=].code = $loinc#87217-6 "Reasons for Modification"
+* item[=].item[=].item[=].code = $loinc#87217-6 "Reasons for modification during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "X0900"
 * item[=].item[=].item[=].text = "Reasons for Modification"
 * item[=].item[=].item[=].type = #choice
@@ -5162,7 +5162,7 @@ Usage: #example
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28178-4 "Item coding error"
 * item[=].item[=].item[=].answerOption[+].valueCoding = $loinc#LA28180-0 "Other error requiring modification"
 * item[=].item[=].item[+].linkId = "103263"
-* item[=].item[=].item[=].code = $loinc#87225-9 "Reasons for Inactivation"
+* item[=].item[=].item[=].code = $loinc#87225-9 "Reasons for inactivation during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "X1050"
 * item[=].item[=].item[=].text = "Reasons for Inactivation"
 * item[=].item[=].item[=].type = #choice
@@ -5175,25 +5175,25 @@ Usage: #example
 * item[=].item[=].item[=].type = #group
 * item[=].item[=].item[=].required = true
 * item[=].item[=].item[=].item[0].linkId = "103265"
-* item[=].item[=].item[=].item[=].code = $loinc#87219-2 "Attesting individual's first name"
+* item[=].item[=].item[=].item[=].code = $loinc#87219-2 "Attesting individual first name during assessment period [CMS Assessment] Provider"
 * item[=].item[=].item[=].item[=].prefix = "X1100A"
 * item[=].item[=].item[=].item[=].text = "Attesting individual's first name"
 * item[=].item[=].item[=].item[=].type = #string
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "103266"
-* item[=].item[=].item[=].item[=].code = $loinc#87220-0 "Attesting individual's last name"
+* item[=].item[=].item[=].item[=].code = $loinc#87220-0 "Attesting individual last name during assessment period [CMS Assessment] Provider"
 * item[=].item[=].item[=].item[=].prefix = "X1100B"
 * item[=].item[=].item[=].item[=].text = "Attesting individual's last name"
 * item[=].item[=].item[=].item[=].type = #string
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "103267"
-* item[=].item[=].item[=].item[=].code = $loinc#87221-8 "Attesting individual's title"
+* item[=].item[=].item[=].item[=].code = $loinc#87221-8 "Attesting individual title during assessment period [CMS Assessment] Provider"
 * item[=].item[=].item[=].item[=].prefix = "X1100C"
 * item[=].item[=].item[=].item[=].text = "Attesting individual's title"
 * item[=].item[=].item[=].item[=].type = #string
 * item[=].item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[=].item[+].linkId = "103268"
-* item[=].item[=].item[=].item[=].code = $loinc#87222-6 "Attestation date"
+* item[=].item[=].item[=].item[=].code = $loinc#87222-6 "Attestation date during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].item[=].prefix = "X1100E"
 * item[=].item[=].item[=].item[=].text = "Attestation date"
 * item[=].item[=].item[=].item[=].type = #date
@@ -5209,13 +5209,13 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "103271"
-* item[=].item[=].item[=].code = $loinc#55065-7 "Medicare Part A HIPPS code"
+* item[=].item[=].item[=].code = $loinc#55065-7 "Medicare part A - HIPPS code for billing"
 * item[=].item[=].item[=].prefix = "Z0100A"
 * item[=].item[=].item[=].text = "Medicare Part A HIPPS code"
 * item[=].item[=].item[=].type = #string
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "112457"
-* item[=].item[=].item[=].code = $loinc#55081-4 "Version code"
+* item[=].item[=].item[=].code = $loinc#55081-4 "Product version code Software"
 * item[=].item[=].item[=].prefix = "Z0100B"
 * item[=].item[=].item[=].text = "Version code"
 * item[=].item[=].item[=].type = #string
@@ -5226,13 +5226,13 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "103278"
-* item[=].item[=].item[=].code = $loinc#55068-1 "Case Mix group"
+* item[=].item[=].item[=].code = $loinc#55068-1 "State case mix - RUG group"
 * item[=].item[=].item[=].prefix = "Z0200A"
 * item[=].item[=].item[=].text = "Case Mix group"
 * item[=].item[=].item[=].type = #string
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "112458"
-* item[=].item[=].item[=].code = $loinc#55081-4 "Version code"
+* item[=].item[=].item[=].code = $loinc#55081-4 "Product version code Software"
 * item[=].item[=].item[=].prefix = "Z0200B"
 * item[=].item[=].item[=].text = "Version code"
 * item[=].item[=].item[=].type = #string
@@ -5243,13 +5243,13 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "103281"
-* item[=].item[=].item[=].code = $loinc#58212-2 "Case Mix group"
+* item[=].item[=].item[=].code = $loinc#58212-2 "Alternate state Medicaid billing - RUG group during assessment period [CMS Assessment]"
 * item[=].item[=].item[=].prefix = "Z0250A"
 * item[=].item[=].item[=].text = "Case Mix group"
 * item[=].item[=].item[=].type = #string
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "112459"
-* item[=].item[=].item[=].code = $loinc#55081-4 "Version code"
+* item[=].item[=].item[=].code = $loinc#55081-4 "Product version code Software"
 * item[=].item[=].item[=].prefix = "Z0250B"
 * item[=].item[=].item[=].text = "Version code"
 * item[=].item[=].item[=].type = #string
@@ -5260,13 +5260,13 @@ Usage: #example
 * item[=].item[=].type = #group
 * item[=].item[=].required = true
 * item[=].item[=].item[0].linkId = "103284"
-* item[=].item[=].item[=].code = $loinc#55071-5 "Billing code"
+* item[=].item[=].item[=].code = $loinc#55071-5 "Insurance case mix - RUG group"
 * item[=].item[=].item[=].prefix = "Z0300A"
 * item[=].item[=].item[=].text = "Billing code"
 * item[=].item[=].item[=].type = #string
 * item[=].item[=].item[=].repeats = false
 * item[=].item[=].item[+].linkId = "112460"
-* item[=].item[=].item[=].code = $loinc#55081-4 "Billing version"
+* item[=].item[=].item[=].code = $loinc#55081-4 "Product version code Software"
 * item[=].item[=].item[=].prefix = "Z0300B"
 * item[=].item[=].item[=].text = "Billing version"
 * item[=].item[=].item[=].type = #string
