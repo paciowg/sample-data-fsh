@@ -56,7 +56,6 @@ menu:
     Artifact Index: artifacts.html
   Storyboard:
     Betsy Smith-Johnson: pacio_persona_betsySmithJohnson.html
-#    Violet Gartner: pacio_persona_violetGartner.html
   Style Guide: style_guide.html
   Release Notes: release_notes.html
   Downloads: downloads.html
@@ -70,8 +69,6 @@ pages:
     title: Examples Style Guide
   pacio_persona_betsySmithJohnson.md:
     title: Betsy Smith-Johnson - Stroke Use Case
-#  pacio_persona_violetGartner.md:
-#    title: Violet Gartner - Medication Risk Evaluation Use Case
   release_notes.md:
     title: Release Notes
   downloads.md:
