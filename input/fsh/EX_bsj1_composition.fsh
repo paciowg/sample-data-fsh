@@ -107,7 +107,7 @@ Description: "Betsy Smith-Johnson's TOC Document from Hospital to SNF as a Disch
 * section[clinical_results].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">List of test results for Betsy Smith Johnson</div>"
 * section[clinical_results].entry[0] = Reference(DiagnosticReport/betsysmith-johnson01-diagnosticReport-CTScan-01)
 * section[clinical_results].entry[+] = Reference(DiagnosticReport/betsysmith-johnson01-diagnosticReport-MRI-01)
-* section[clinical_results].entry[+] = Reference(QuestionnaireResponse/betsysmith-johnson01-qr-strokescale-01)
+// * section[clinical_results].entry[+] = Reference(QuestionnaireResponse/betsysmith-johnson01-qr-strokescale-01)
 * section[clinical_results].entry[+] = Reference(DiagnosticReport/betsysmith-johnson01-lipid-panel-01)
 * section[clinical_results].entry[+] = Reference(DiagnosticReport/betsysmith-johnson01-diagnosticReport-coag-01)
 * section[clinical_results].entry[+] = Reference(Observation/betsysmith-johnson01-Lab-Hemoglobin-02)
@@ -116,8 +116,8 @@ Description: "Betsy Smith-Johnson's TOC Document from Hospital to SNF as a Disch
 * section[discharge_instructions].code = $loinc#69730-0 "Instructions"
 * section[discharge_instructions].text.status = #additional
 * section[discharge_instructions].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Discharge instructions for Betsy Smith Johnson</div>"
-* section[discharge_instructions].entry[0] = Reference(Composition/BSJ1-composition-CCDA-dischargeSummary-01) // CCDA Discharge Summary
-* section[discharge_instructions].entry[+] = Reference(DocumentReference/BSJ1-documentReference-ED-dischargeSummary-01)
+// * section[discharge_instructions].entry[0] = Reference(Composition/BSJ1-composition-CCDA-dischargeSummary-01) // CCDA Discharge Summary - mlt20260702: removed because Composition references do not exist on their own as a reference.
+* section[discharge_instructions].entry[0] = Reference(DocumentReference/BSJ1-documentReference-ED-dischargeSummary-01)
 
 * section[social_history].title = "Social history for Betsy Smith Johnson"
 * section[social_history].code = $loinc#29762-2 "Social history note"

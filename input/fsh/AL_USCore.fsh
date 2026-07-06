@@ -13,6 +13,7 @@ Alias:   USCoreObservationSimple = http://hl7.org/fhir/us/core/StructureDefiniti
 Alias:   USCoreSpecimen = http://hl7.org/fhir/us/core/StructureDefinition/us-core-specimen|6.1.0
 Alias:   USCoreQuestionnaireResponse = http://hl7.org/fhir/us/core/StructureDefinition/us-core-questionnaireresponse|6.1.0
 Alias:   SDCQuestionnaire = http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire
+Alias:   USCoreCarePlan = http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan|6.1.0
 Alias:   $dose-rate-type = http://terminology.hl7.org/CodeSystem/dose-rate-type
 
 

@@ -6,7 +6,7 @@ Instance: BSJ1-composition-CCDA-dischargeSummary-01
 InstanceOf: Composition
 Description: "Betsy Smith-Johnson's CCDA on FHIR Discharge Summary. Includes a list of allergies, chief complaint, reason for visit, admission diagnosis, past medical history, and more."
 Usage: #example
-* meta.profile = "http://hl7.org/fhir/us/ccda/StructureDefinition/Discharge-Summary|2.0.0-ballot"
+* meta.profile = "http://hl7.org/fhir/us/ccda/StructureDefinition/Discharge-Summary"
 * language = #en-US
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:03d0f89e-b0ac-482b-a400-c436df8055e3"

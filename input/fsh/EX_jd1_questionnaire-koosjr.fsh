@@ -9,6 +9,7 @@ Description: "Questionnaire for KOOS JR score reporting"
 * url = "http://example.org/fhir/Questionnaire/KOOSJRQuestionnaire"
 * code = $LNC#82324-5 "Knee injury and osteoarthritis outcome score for joint replacement [KOOSJR]"
 * subjectType[+] = #Patient
+* version = "0.1.0" // mlt_cmt: added version based on error Constraint failed: sdc-2
 
 * item[+].linkId = "koosjr-1"
 * item[=].text = "How severe is your knee stiffness after first wakening in the morning?"

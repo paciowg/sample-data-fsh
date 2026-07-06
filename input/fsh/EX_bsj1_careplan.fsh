@@ -4,15 +4,15 @@ Alias: $goal-achievement = http://terminology.hl7.org/CodeSystem/goal-achievemen
 Alias: $goal-priority = http://terminology.hl7.org/CodeSystem/goal-priority
 
 Instance: betsysmith-johnson01-SNFDischargeCarePlan
-InstanceOf: CarePlan
+InstanceOf: USCoreCarePlan
 Usage: #example
 Description: "Betsy Smith-Johnson's SNF Discharge Care Plan"
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan"
+// * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan|9.0.0"
 * status = #active
 * intent = #plan
 * created = "2025-07-03T13:00:00.000+00:00"
 * category[0] = $sct#736055001
-* category[+] = $careplan-category#assess-plan
+* category[AssessPlan] = $careplan-category#assess-plan
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * activity[0].reference = Reference(NutritionOrder/betsysmith-johnson01-SNFDischargeDiet)
 * activity[+].reference = Reference(ServiceRequest/betsysmith-johnson01-PCPFollowUp)
@@ -34,14 +34,14 @@ Description: "Betsy Smith-Johnson's goal to live independently."
 * startDate = "2025-07-16"
 
 Instance: bsj1-careplan-promis-followup-20250716
-InstanceOf: CarePlan
+InstanceOf: USCoreCarePlan
 Usage: #example
 Description: "Betsy Smith-Johnson care plan created during the 2025-07-16 visit."
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan"
+// * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan|9.0.0"
 * status = #active
 * intent = #plan
 * created = "2025-07-16T10:30:00.123Z"
-* category[0] = $sct#736271009 "Outpatient care plan"
+* category[0] = $sct#736271009 "Outpatient care plan (record artifact)"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * goal = Reference(Goal/bsj1-goal-live-independently-20250716)
 
@@ -57,15 +57,15 @@ Description: "Betsy Smith-Johnson's goal to attend a family wedding."
 * startDate = "2026-02-26"
 
 Instance: bsj1-careplan-discharge-20260226
-InstanceOf: CarePlan
+InstanceOf: USCoreCarePlan
 Usage: #example
 Description: "Betsy Smith-Johnson inpatient discharge care plan dated 2026-02-26."
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan"
+// * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan|9.0.0"
 * status = #active
 * intent = #plan
 * created = "2026-02-26T12:00:00-05:00"
 * category[0] = $sct#736271009 "Outpatient care plan (record artifact)"
-* category[+] = $careplan-category#assess-plan
+* category[AssessPlan] = $careplan-category#assess-plan
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * goal = Reference(Goal/bsj1-goal-attend-wedding-20260226)
 * activity[0].detail.kind = #ServiceRequest
@@ -82,15 +82,15 @@ Description: "Betsy Smith-Johnson inpatient discharge care plan dated 2026-02-26
 * activity[=].detail.scheduledString = "2 times/week"
 
 Instance: bsj1-careplan-discharge-update-20260415
-InstanceOf: CarePlan
+InstanceOf: USCoreCarePlan
 Usage: #example
 Description: "Betsy Smith-Johnson HHA discharge care plan update dated 2026-04-15."
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan"
+// * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan|9.0.0"
 * status = #active
 * intent = #plan
 * created = "2026-04-15T10:00:00-04:00"
 * category[0] = $sct#736271009 "Outpatient care plan (record artifact)"
-* category[+] = $careplan-category#assess-plan
+* category[AssessPlan] = $careplan-category#assess-plan
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * replaces = Reference(CarePlan/bsj1-careplan-discharge-20260226)
 * goal = Reference(Goal/bsj1-goal-attend-wedding-20260226)
