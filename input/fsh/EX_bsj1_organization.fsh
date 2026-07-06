@@ -22,20 +22,20 @@ Description: "Neuro Care Inc.'s organization record."
 * address.country = "US"
 * address.text = "177 Branching Tree Blvd, Grand Rapids, MI 49509"
 
-Instance: org-PC-Primary-Care-Michigan
-InstanceOf: Organization
-Usage: #example
-Description: "Michigan Primary Health Care Associates's organization record."
-* active = true
-* name = "Michigan Primary Health Care Associates"
-* telecom.system = #phone
-* telecom.value = "(616) 555-1212"
-* address.line = "123 Spruce Dr"
-* address.city = "Grand Rapids"
-* address.state = "MI"
-* address.postalCode = "49503"
-* address.country = "US"
-* address.text = "123 Spruce Dr. Grand Rapids, MI 49503"
+// Instance: org-PC-Primary-Care-Michigan
+// InstanceOf: Organization
+// Usage: #example
+// Description: "Michigan Primary Health Care Associates's organization record."
+// * active = true
+// * name = "Michigan Primary Health Care Associates"
+// * telecom.system = #phone
+// * telecom.value = "(616) 555-1212"
+// * address.line = "123 Spruce Dr"
+// * address.city = "Grand Rapids"
+// * address.state = "MI"
+// * address.postalCode = "49503"
+// * address.country = "US"
+// * address.text = "123 Spruce Dr. Grand Rapids, MI 49503"
 
 Instance: org-HH-Sky-Harbor-Home-Health
 InstanceOf: Organization
@@ -155,3 +155,20 @@ Description: "ACM Essential"
 * address.state = "MI"
 * address.postalCode = "48214"
 * address.country = "US"
+
+Instance: organization-centersForMedicareMedicaidServices-01
+InstanceOf: Organization
+Usage: #example
+Description: "Centers for Medicare & Medicaid Services organization record."
+* active = true
+* name = "Centers for Medicare & Medicaid Services"
+* telecom[+].system = #phone
+* telecom[=].value = "877-267-2323"
+* telecom[+].system = #phone
+* telecom[=].value = "410-786-3000"
+* address.line = "7500 Security Boulevard"
+* address.city = "Baltimore"
+* address.state = "MD"
+* address.postalCode = "21244-1850"
+* address.country = "US"
+* address.text = "7500 Security Boulevard, Baltimore, MD 21244-1850"
