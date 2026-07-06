@@ -32,7 +32,7 @@ Usage: #inline
 * item[=].text = "What is the primary caregiver's last name?"
 * item[=].answer.valueString = "Johnson"
 * item[+].linkId = "assessment_date"
-* item[=].text = "Please report the date this assessment was complete."
+* item[=].text = "Please report the date this assessment was completed."
 * item[=].answer.valueDate = "2025-06-11"
 * item[+].linkId = "ask_more"
 * item[=].text = "Do you feel that your relative asks for more help than he/she needs?"
@@ -169,10 +169,10 @@ Usage: #example
 * item[=].text = "On a scale of 0-10, with 10 being the worst pain imaginable and 0 being no pain, how would you rate your pain on average?"
 * item[+].answer.valueDecimal = 9
 * item[=].linkId = "physical_health_score"
-* item[=].text = "Physical Health Score (Raw Score)"
+* item[=].text = "PROMIS-10 Global Physical Health (Raw Score)"
 * item[+].answer.valueDecimal = 9
 * item[=].linkId = "mental_health_score"
-* item[=].text = "Mental Health Score (Raw Score)"
+* item[=].text = "PROMIS-10 Global Mental Health (Raw Score)"
 * item[+].answer.valueDecimal = 32.4
 * item[=].linkId = "physical_health_tscore"
 * item[=].text = "PROMIS Global Physical Health v1.2 T-Score"
@@ -248,10 +248,10 @@ Usage: #example
 * item[=].text = "On a scale of 0-10, with 10 being the worst pain imaginable and 0 being no pain, how would you rate your pain on average?"
 * item[+].answer.valueDecimal = 12
 * item[=].linkId = "physical_health_score"
-* item[=].text = "Physical Health Score (Raw Score)"
+* item[=].text = "PROMIS-10 Global Physical Health (Raw Score)"
 * item[+].answer.valueDecimal = 11
 * item[=].linkId = "mental_health_score"
-* item[=].text = "Mental Health Score (Raw Score)"
+* item[=].text = "PROMIS-10 Global Mental Health (Raw Score)"
 * item[+].answer.valueDecimal = 39.8
 * item[=].linkId = "physical_health_tscore"
 * item[=].text = "PROMIS Global Physical Health v1.2 T-Score"
@@ -327,10 +327,10 @@ Usage: #example
 * item[=].text = "On a scale of 0-10, with 10 being the worst pain imaginable and 0 being no pain, how would you rate your pain on average?"
 * item[+].answer.valueDecimal = 15
 * item[=].linkId = "physical_health_score"
-* item[=].text = "Physical Health Score (Raw Score)"
+* item[=].text = "PROMIS-10 Global Physical Health (Raw Score)"
 * item[+].answer.valueDecimal = 12
 * item[=].linkId = "mental_health_score"
-* item[=].text = "Mental Health Score (Raw Score)"
+* item[=].text = "PROMIS-10 Global Mental Health (Raw Score)"
 * item[+].answer.valueDecimal = 47.7
 * item[=].linkId = "physical_health_tscore"
 * item[=].text = "PROMIS Global Physical Health v1.2 T-Score"
@@ -406,10 +406,10 @@ Usage: #example
 * item[=].text = "On a scale of 0-10, with 10 being the worst pain imaginable and 0 being no pain, how would you rate your pain on average?"
 * item[+].answer.valueDecimal = 18
 * item[=].linkId = "physical_health_score"
-* item[=].text = "Physical Health Score (Raw Score)"
+* item[=].text = "PROMIS-10 Global Physical Health (Raw Score)"
 * item[+].answer.valueDecimal = 15
 * item[=].linkId = "mental_health_score"
-* item[=].text = "Mental Health Score (Raw Score)"
+* item[=].text = "PROMIS-10 Global Mental Health (Raw Score)"
 * item[+].answer.valueDecimal = 57.7
 * item[=].linkId = "physical_health_tscore"
 * item[=].text = "PROMIS Global Physical Health v1.2 T-Score"
@@ -485,10 +485,10 @@ Usage: #example
 * item[=].text = "On a scale of 0-10, with 10 being the worst pain imaginable and 0 being no pain, how would you rate your pain on average?"
 * item[+].answer.valueDecimal = 18
 * item[=].linkId = "physical_health_score"
-* item[=].text = "Physical Health Score (Raw Score)"
+* item[=].text = "PROMIS-10 Global Physical Health (Raw Score)"
 * item[+].answer.valueDecimal = 17
 * item[=].linkId = "mental_health_score"
-* item[=].text = "Mental Health Score (Raw Score)"
+* item[=].text = "PROMIS-10 Global Mental Health (Raw Score)"
 * item[+].answer.valueDecimal = 57.7
 * item[=].linkId = "physical_health_tscore"
 * item[=].text = "PROMIS Global Physical Health v1.2 T-Score"

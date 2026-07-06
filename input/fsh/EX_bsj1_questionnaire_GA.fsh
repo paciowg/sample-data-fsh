@@ -194,7 +194,7 @@ Usage: #inline
 * item[=].repeats = false
 * item[=].maxLength = 100
 * item[+].linkId = "assessment_date"
-* item[=].text = "Please report the date this assessment was complete."
+* item[=].text = "Please report the date this assessment was completed."
 * item[=].type = #date
 * item[=].required = true
 * item[=].repeats = false
@@ -547,7 +547,7 @@ Usage: #inline
 * item[=].repeats = false
 * item[=].maxLength = 100
 * item[+].linkId = "assessment_date"
-* item[=].text = "Please report the date this assessment was complete."
+* item[=].text = "Please report the date this assessment was completed."
 * item[=].type = #date
 * item[=].required = true
 * item[=].repeats = false
@@ -859,7 +859,7 @@ Usage: #example
 * item[+].type = #date
 * item[=].required = true
 * item[=].linkId = "assessment_date"
-* item[=].text = "Please report the date this assessment was complete."
+* item[=].text = "Please report the date this assessment was completed."
 * item[+].type = #choice
 * item[=].code = $loinc#61577-3 "In general, would you say your health is"
 * item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
@@ -1111,7 +1111,7 @@ Usage: #example
 * item[+].type = #decimal
 * item[=].linkId = "physical_health_score"
 * item[=].code = $loinc#71972-4 "PROMIS-10 Global Physical Health (GPH) score"
-* item[=].text = "PROMIS-10 Global Health, GPH, raw score"
+* item[=].text = "PROMIS-10 Global Physical Health (Raw Score)"
 * item[=].readOnly = true
 * item[=].extension.url = $sdc-calculatedExpression
 * item[=].extension.valueExpression.language = #text/fhirpath
@@ -1119,7 +1119,7 @@ Usage: #example
 * item[+].type = #decimal
 * item[=].linkId = "mental_health_score"
 * item[=].code = $loinc#71970-8 "PROMIS-10 Global Mental Health (GMH) score"
-* item[=].text = "PROMIS-10 Global Health, GMH raw score"
+* item[=].text = "PROMIS-10 Global Mental Health (Raw Score)"
 * item[=].readOnly = true
 * item[=].extension.url = $sdc-calculatedExpression
 * item[=].extension.valueExpression.language = #text/fhirpath
