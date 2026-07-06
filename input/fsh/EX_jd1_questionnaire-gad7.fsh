@@ -9,6 +9,8 @@ Description: "Generalized Anxiety Disorder-7 assessment"
 * url = "http://example.org/fhir/Questionnaire/GAD7Questionnaire"
 * code = $LNC#69737-5 "Generalized anxiety disorder 7 item (GAD-7)"
 * version = "0.1.0" // mlt_cmt: added version based on error Constraint failed: sdc-2
+* extension[+].url = "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm"
+* extension[=].valueString = "semver"
 * subjectType[+] = #Patient
 * title = "Generalized Anxiety Disorder-7 Assessment"
 

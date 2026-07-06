@@ -9,6 +9,8 @@ Description: "Questionnaire for HOOS JR score reporting"
 * url = "http://example.org/fhir/Questionnaire/HOOSJRQuestionnaire"
 * code = $LNC#82316-1 "Hip dysfunction and osteoarthritis outcome score for joint replacement [HOOSJR]"
 * version = "0.1.0" // mlt_cmt: added version based on error Constraint failed: sdc-2
+* extension[+].url = "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm"
+* extension[=].valueString = "semver"
 * subjectType[+] = #Patient
 
 * item[+].linkId = "hoosjr-1"

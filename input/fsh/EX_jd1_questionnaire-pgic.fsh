@@ -8,6 +8,8 @@ Description: "Questionnaire for Musculoskeletal Patient Global Impression of Cha
 * status = #active
 * url = "http://example.org/fhir/Questionnaire/MSKPGICQuestionnaire"
 * version = "0.1.0" // mlt_cmt: added version based on error Constraint failed: sdc-2
+* extension[+].url = "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm"
+* extension[=].valueString = "semver"
 
 * subjectType[+] = #Patient
 * item[+].linkId = "pgic-1"
@@ -47,6 +49,8 @@ Description: "Behavioral Health Patient Global Impression of Change"
 * status = #active
 * url = "http://example.org/fhir/Questionnaire/BHPGICQuestionnaire"
 * version = "0.1.0" // mlt_cmt: added version based on error Constraint failed: sdc-2
+* extension[+].url = "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm"
+* extension[=].valueString = "semver"
 * subjectType[+] = #Patient
 * item[+].linkId = "pgic-1"
 * item[=].text = "Since beginning treatment, how would you describe your overall change in activity limitations, symptoms, emotions, and quality of life?"
