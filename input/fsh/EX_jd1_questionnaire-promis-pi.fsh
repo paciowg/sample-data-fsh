@@ -10,6 +10,9 @@ Description: "Questionnaire for PROMIS Pain Interference Short Form 6a score rep
 * url = "http://example.org/fhir/Questionnaire/PROMISPainInterferenceSFQuestionnaire"
 * code = $LNC#90973-9 "PROMIS short form - pain interference 6a - version 1.0"
 * subjectType[+] = #Patient
+* version = "0.1.0"
+* extension[+].url = "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm"
+* extension[=].valueString = "semver"
 
 * item[+].linkId = "pi6a-1"
 * item[=].text = "In the past 7 days: How much did pain interfere with your day to day activities?"

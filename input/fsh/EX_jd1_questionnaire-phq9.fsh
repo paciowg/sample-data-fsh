@@ -9,6 +9,9 @@ Description: "Patient Health Questionnaire-9 for depression screening"
 * url = "http://example.org/fhir/Questionnaire/PHQ9Questionnaire"
 * code = $LNC#44249-1 "PHQ-9 quick depression assessment panel [Reported.PHQ]"
 * subjectType[+] = #Patient
+* version = "0.1.0"
+* extension[+].url = "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm"
+* extension[=].valueString = "semver"
 
 * item[+].linkId = "phq9-1"
 * item[=].text = "Little interest or pleasure in doing things" 

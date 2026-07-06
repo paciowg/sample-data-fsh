@@ -13,6 +13,9 @@ Description: "Questionnaire for Oswestry Disability Index (ODI) score reporting"
 * url = "http://example.org/fhir/Questionnaire/OswestryDisabilityIndexQuestionnaire"
 * code = $LNC#97908-8 "Oswestry Disability Index"
 * subjectType[+] = #Patient
+* version = "0.1.0"
+* extension[+].url = "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm"
+* extension[=].valueString = "semver"
 
 * item[+].linkId = "odi-1"
 * item[=].text = "Pain intensity"

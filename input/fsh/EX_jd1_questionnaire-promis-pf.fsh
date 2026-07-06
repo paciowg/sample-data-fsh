@@ -10,6 +10,9 @@ Description: "Questionnaire for PROMIS Physical Function Short Form 6b score rep
 * url = "http://example.org/fhir/Questionnaire/PROMISPhysicalFunctionQuestionnaire"
 * code = $LNC#76804-4 "PROMIS short form - physical function 6b - version 1.2"
 * subjectType[+] = #Patient
+* version = "0.1.0"
+* extension[+].url = "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm"
+* extension[=].valueString = "semver"
 
 * item[+].linkId = "pf6b-1"
 * item[=].text = "Are you able to do chores such as vacuuming or yard work?"

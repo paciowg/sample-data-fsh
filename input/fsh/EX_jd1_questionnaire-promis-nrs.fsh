@@ -9,6 +9,9 @@ Description: "Questionnaire for PROMIS Pain Intensity NRS v1.0 score reporting"
 * url = "http://example.org/fhir/Questionnaire/PROMISNRSQuestionnaire"
 * code = $LNC#72514-3 "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
 * subjectType[+] = #Patient
+* version = "0.1.0"
+* extension[+].url = "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm"
+* extension[=].valueString = "semver"
 * item[+].linkId = "nrs-1"
 * item[=].text = "In the past 7 days, how would you rate your pain on average? (0-10)"
 * item[=].type = #integer

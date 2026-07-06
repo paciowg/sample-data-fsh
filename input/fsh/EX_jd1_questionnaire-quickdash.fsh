@@ -8,6 +8,9 @@ Description: "Questionnaire for QuickDASH score reporting"
 * status = #active
 * url = "http://example.org/fhir/Questionnaire/QuickDASHQuestionnaire"
 * subjectType[+] = #Patient
+* version = "0.1.0"
+* extension[+].url = "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm"
+* extension[=].valueString = "semver"
 
 * item[+].linkId = "qd-1"
 * item[=].text = "Open a tight or new jar."

@@ -8,6 +8,9 @@ Description: "World Health Organization Disability Assessment Schedule 2.0 (12-i
 * status = #active
 * url = "http://example.org/fhir/Questionnaire/WHODASQuestionnaire"
 * subjectType[+] = #Patient
+* version = "0.1.0"
+* extension[+].url = "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm"
+* extension[=].valueString = "semver"
 
 * item[+].linkId = "whodas-s1"
 * item[=].text = "Standing for long periods such as 30 minutes"
