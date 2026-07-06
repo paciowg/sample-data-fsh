@@ -5,7 +5,7 @@ Instance: VioletGartner01-ED-discharge-01
 InstanceOf: CarePlan
 Usage: #example
 Description: "Violet Gartner's ED Discharge Care Plan"
-* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan"
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan|9.0.0"
 * status = #active
 * intent = #plan
 * created = "2026-01-10T19:13:00-05:00"

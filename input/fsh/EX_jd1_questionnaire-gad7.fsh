@@ -8,6 +8,7 @@ Description: "Generalized Anxiety Disorder-7 assessment"
 * status = #active
 * url = "http://example.org/fhir/Questionnaire/GAD7Questionnaire"
 * code = $LNC#69737-5 "Generalized anxiety disorder 7 item (GAD-7)"
+* version = "0.1.0" // mlt_cmt: added version based on error Constraint failed: sdc-2
 * subjectType[+] = #Patient
 * title = "Generalized Anxiety Disorder-7 Assessment"
 

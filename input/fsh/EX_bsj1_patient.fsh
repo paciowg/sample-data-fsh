@@ -7,7 +7,7 @@ Usage: #example
 Description: "Betsy Smith-Johnson's patient record, #female born on 1958-11-01."
 * meta.lastUpdated = "2021-03-29T14:25:34.001-05:00"
 * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
-* language = #en-US
+* language = #en
 * extension.extension[0].url = "ombCategory"
 * extension.extension[=].valueCoding = urn:oid:2.16.840.1.113883.6.238#2106-3 "White"
 * extension.extension[+].url = "text"
@@ -16,7 +16,7 @@ Description: "Betsy Smith-Johnson's patient record, #female born on 1958-11-01."
 * identifier[0].use = #usual
 * identifier[=].type = $v2-0203#MR "Medical Record Number"
 * identifier[=].type.text = "Medical Record Number"
-* identifier[=].system = "http://hospital.smarthealthit.org"
+* identifier[=].system = "http://example.org/hospital.smarthealthit"    // mlt: changed IG version to example.org for IG publisher to ignore. Otherwise, it will errors if the url is not real.
 * identifier[=].value = "1032702"
 * identifier[+].system = "http://hl7.org/fhir/sid/us-medicare"
 * identifier[=].value = "1PA3D58WH16"

@@ -12,6 +12,7 @@ Usage: #inline
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authored = "2025-06-11T16:16:49.872Z"
 * author = Reference(RelatedPerson/relatedPerson-CharlesJohnson01) "Charles Johnson"
+
 * item[0].linkId = "mbi"
 * item[=].text = "What is this patient's Medicare Beneficiary Identifier (MBI)?"
 * item[=].answer.valueString = "1PA3D58WH16"

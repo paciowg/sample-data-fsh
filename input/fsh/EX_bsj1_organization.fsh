@@ -68,7 +68,8 @@ Description: "Motor City Skilled Nursing Facility Endpoint"
 * status = #active
 * connectionType = $endpoint-connection-type#hl7-fhir-rest
 * payloadType[0] = $endpoint-payload-type#Bundle
-* address = "https://actualmeds.com/fhir"
+// * address = "https://actualmeds.com/fhir"
+* address = "https://example.org/actualmeds/fhir"   // mlt: added example.org to bypass IG Publisher validation limitations.
 
 Instance: org-Motor-City-Skilled-Nursing-Facility
 InstanceOf: Organization
