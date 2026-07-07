@@ -414,7 +414,6 @@ On July 14, 2026, during a routine home health wound care visit, the nurse obser
 * [Organization: org-Motor-City-Skilled-Nursing-Facility](Organization-org-Motor-City-Skilled-Nursing-Facility.html)
 * [Organization: org-Motown-Home-Health](Organization-org-Motown-Home-Health.html)
 * [Organization: org-Neuro-Care-Inc](Organization-org-Neuro-Care-Inc.html)
-* [Organization: org-PC-Primary-Care-Michigan](Organization-org-PC-Primary-Care-Michigan.html)
 * [Organization: org-PSC-Prism-General-Hospital](Organization-org-PSC-Prism-General-Hospital.html)
 * [Organization: org-Renaissance-Pharmacy](Organization-org-Renaissance-Pharmacy.html)
 * [Organization: org-The-Vernon-Center](Organization-org-The-Vernon-Center.html)

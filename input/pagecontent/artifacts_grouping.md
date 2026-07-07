@@ -12,7 +12,7 @@
   * [Priya Sarkar, MD](Practitioner-Practitioner-PriyaSarkar.html), [Emergency Medicine Physician](PractitionerRole-PractitionerRole-Physician-PriyaSarkar.html)
   * [David Albahari, MD](Practitioner-Practitioner-DavidAlbahari.html), [Neurology Physician](PractitionerRole-PractitionerRole-Neuro-DavidAlbahari.html)
 
-* [Michigan Primary Health Care Associates](Organization-org-PC-Primary-Care-Michigan.html)
+* [Michigan Primary Health Care Associates](Organization-org-Michigan-Primary-Health-Care-A.html)
   * [Anita Chu, MD](Practitioner-Practitioner-AnitaChu-01.html), [Primary Care Physician](PractitionerRole-Role-IMMD-AnitaChu.html)
 
 #### SNF01: Detroit Post-acute Care Providers
@@ -153,7 +153,6 @@
 
 ### Organizations
 * [Neuro Care Inc.](Organization-org-Neuro-Care-Inc.html)
-* [Michigan Primary Health Care Associates](Organization-org-PC-Primary-Care-Michigan.html)
 * [Metro Hospital Emergency Department](Organization-org-ED-Metro-Hospital.html)
 * [Motor City Skilled Nursing Facility](Organization-org-Motor-City-Skilled-Nursing-Facility.html)
 * [Motown Home Health](Organization-org-Motown-Home-Health.html)
