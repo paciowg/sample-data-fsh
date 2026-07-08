@@ -224,7 +224,6 @@ Data is prepared and final reports are created by the SNF for Betsy. This includ
 * [MedicationStatement: bsj1-smp-medstmt-sertraline-2-5](MedicationStatement-bsj1-smp-medstmt-sertraline-2-5.html)
 * [NutritionOrder: betsysmith-johnson01-NutritionOrder-SNFAdmissionDiet](NutritionOrder-betsysmith-johnson01-NutritionOrder-SNFAdmissionDiet.html)
 * [NutritionOrder: betsysmith-johnson01-SNFDischargeDiet](NutritionOrder-betsysmith-johnson01-SNFDischargeDiet.html)
-* [Questionnaire: 44249-1](Questionnaire-44249-1.html)
 * [Questionnaire: Questionnaire-Brief-Interview-for-Mental-Status](Questionnaire-Questionnaire-Brief-Interview-for-Mental-Status.html)
 * [Questionnaire: Questionnaire-MDS-Nursing-Home-Comprehensive-Item-Set](Questionnaire-Questionnaire-MDS-Nursing-Home-Comprehensive-Item-Set.html)
 * [QuestionnaireResponse: betsysmith-johnson01-qr-bims-snf-admission-01](QuestionnaireResponse-betsysmith-johnson01-qr-bims-snf-admission-01.html)

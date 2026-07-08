@@ -116,7 +116,7 @@ Description: "Example PHQ-9 depression assessment"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 * item[+].linkId = "phq9-6"
-* item[=].text = "Feeling bad about yourself-or that you are a failure or have let yourself or your family down"
+* item[=].text = "Feeling bad about yourself — or that you are a failure or have let yourself or your family down"
 * item[=].answer.valueCoding = $loinc#LA6570-1 "More than half the days"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
@@ -126,7 +126,7 @@ Description: "Example PHQ-9 depression assessment"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 3
 * item[+].linkId = "phq9-8"
-* item[=].text = "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you were moving around a lot more than usual"
+* item[=].text = "Moving or speaking so slowly that other people could have noticed? Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual"
 * item[=].answer.valueCoding = $loinc#LA6571-9 "Nearly every day"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 3
@@ -175,7 +175,7 @@ Description: "Example PHQ-9 depression assessment"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 * item[+].linkId = "phq9-6"
-* item[=].text = "Feeling bad about yourself-or that you are a failure or have let yourself or your family down"
+* item[=].text = "Feeling bad about yourself — or that you are a failure or have let yourself or your family down"
 * item[=].answer.valueCoding = $loinc#LA6570-1 "More than half the days"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
@@ -185,7 +185,7 @@ Description: "Example PHQ-9 depression assessment"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 * item[+].linkId = "phq9-8"
-* item[=].text = "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you were moving around a lot more than usual"
+* item[=].text = "Moving or speaking so slowly that other people could have noticed? Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual"
 * item[=].answer.valueCoding = $loinc#LA6570-1 "More than half the days"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2

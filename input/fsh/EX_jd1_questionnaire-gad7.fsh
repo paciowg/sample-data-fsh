@@ -255,8 +255,6 @@ Description: "Example GAD-7 anxiety assessment for the BH track"
 
 //-----------------------------------------------------------------------------
 
-// WHODAS 2.0 12-item Questionnaire
-
 Instance: GAD7Example2
 InstanceOf: USCoreQuestionnaireResponse
 Usage: #example

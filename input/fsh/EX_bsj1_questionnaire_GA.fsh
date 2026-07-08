@@ -2,144 +2,146 @@ Alias: $loinc = http://loinc.org
 Alias: $questionnaire-item-control = http://hl7.org/fhir/questionnaire-item-control
 Alias: $sdc-calculatedExpression = http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-calculatedExpression
 
-Instance: 46349c26-30b3-4f36-94a6-f9ddfe4b7426
-InstanceOf: Bundle
-Usage: #example
-* meta.lastUpdated = "2025-06-20T16:47:25.389+00:00"
-* type = #searchset
-* total = 3
-* link.relation = "self"
-* link.url = "https://gw.interop.community/cmspqrs/open/Questionnaire"
-* entry[0].fullUrl = "https://gw.interop.community/cmspqrs/open/Questionnaire/44249-1"
-* entry[=].resource = 44249-1
-* entry[=].search.mode = #match
-* entry[+].fullUrl = "https://gw.interop.community/cmspqrs/open/Questionnaire/52"
-* entry[=].resource = 52
-* entry[=].search.mode = #match
-* entry[+].fullUrl = "https://gw.interop.community/cmspqrs/open/Questionnaire/questionnaire-ZBI22"
-* entry[=].resource = questionnaire-ZBI22
-* entry[=].search.mode = #match
+// Commenting out because this bundle only contains the duplicate PHQ-9 questionnaire commented out directly below
+// Instance: 46349c26-30b3-4f36-94a6-f9ddfe4b7426
+// InstanceOf: Bundle
+// Usage: #example
+// * meta.lastUpdated = "2025-06-20T16:47:25.389+00:00"
+// * type = #searchset
+// * total = 3
+// * link.relation = "self"
+// * link.url = "https://gw.interop.community/cmspqrs/open/Questionnaire"
+// * entry[0].fullUrl = "https://gw.interop.community/cmspqrs/open/Questionnaire/44249-1"
+// * entry[=].resource = 44249-1
+// * entry[=].search.mode = #match
+// * entry[+].fullUrl = "https://gw.interop.community/cmspqrs/open/Questionnaire/52"
+// * entry[=].resource = 52
+// * entry[=].search.mode = #match
+// * entry[+].fullUrl = "https://gw.interop.community/cmspqrs/open/Questionnaire/questionnaire-ZBI22"
+// * entry[=].resource = questionnaire-ZBI22
+// * entry[=].search.mode = #match
 
-Instance: 44249-1
-InstanceOf: Questionnaire
-Usage: #example
-* meta.versionId = "1"
-* meta.lastUpdated = "2025-05-28T18:06:29.000+00:00"
-* meta.source = "#aLYUC2N4J9eLQ33k"
-* url = "http://loinc.org/q/44249-1"
-* name = "PHQ_quick_depression_assessment_panel"
-* title = "PHQ-9 quick depression assessment panel"
-* status = #draft
-* subjectType = #Patient
-* publisher = "Regenstrief Institute, Inc."
-* contact.name = "Regenstrief Institute, Inc."
-* contact.telecom.system = #url
-* contact.telecom.value = "http://loinc.org"
-* copyright = "This content from LOINC® is copyright © 1995 Regenstrief Institute, Inc. and the LOINC Committee, and available at no cost under the license at https://loinc.org/license/\r\nCopyright © Pfizer Inc. All rights reserved. Developed by Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke and colleagues, with an educational grant from Pfizer Inc. No permission required to reproduce, translate, display or distribute."
-* code = $loinc#44249-1 "PHQ-9 quick depression assessment panel [Reported.PHQ]"
-* item[0].linkId = "14363"
-* item[=].code = $loinc#44250-9 "Little interest or pleasure in doing things in last 2 weeks"
-* item[=].prefix = "PHQ-9.1"
-* item[=].text = "Little interest or pleasure in doing things"
-* item[=].type = #choice
-* item[=].required = true
-* item[=].repeats = false
-* item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
-* item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
-* item[+].linkId = "14364"
-* item[=].code = $loinc#44255-8 "Feeling down, depressed, or hopeless in last 2 weeks"
-* item[=].prefix = "PHQ-9.2"
-* item[=].text = "Feeling down, depressed, or hopeless"
-* item[=].type = #choice
-* item[=].required = true
-* item[=].repeats = false
-* item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
-* item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
-* item[+].linkId = "14365"
-* item[=].code = $loinc#44259-0 "Trouble falling or staying asleep, or sleeping too much in last 2 weeks [Reported.PHQ]"
-* item[=].text = "Trouble falling or staying asleep, or sleeping too much"
-* item[=].type = #choice
-* item[=].required = true
-* item[=].repeats = false
-* item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
-* item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
-* item[+].linkId = "14366"
-* item[=].code = $loinc#44254-1 "Feeling tired or having little energy in last 2 weeks [Reported.PHQ]"
-* item[=].text = "Feeling tired or having little energy"
-* item[=].type = #choice
-* item[=].required = true
-* item[=].repeats = false
-* item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
-* item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
-* item[+].linkId = "14367"
-* item[=].code = $loinc#44251-7 "Poor appetite or overeating in last 2 weeks [Reported.PHQ]"
-* item[=].text = "Poor appetite or overeating"
-* item[=].type = #choice
-* item[=].required = true
-* item[=].repeats = false
-* item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
-* item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
-* item[+].linkId = "14368"
-* item[=].code = $loinc#44258-2 "Feeling bad about yourself - or that you are a failure or have let yourself or your family down in last 2 weeks [Reported.PHQ]"
-* item[=].text = "Feeling bad about yourself-or that you are a failure or have let yourself or your family down"
-* item[=].type = #choice
-* item[=].required = true
-* item[=].repeats = false
-* item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
-* item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
-* item[+].linkId = "14369"
-* item[=].code = $loinc#44252-5 "Trouble concentrating on things, such as reading the newspaper or watching television in last 2 weeks [Reported.PHQ]"
-* item[=].text = "Trouble concentrating on things, such as reading the newspaper or watching television"
-* item[=].type = #choice
-* item[=].required = true
-* item[=].repeats = false
-* item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
-* item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
-* item[+].linkId = "14370"
-* item[=].code = $loinc#44253-3 "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual in last 2 weeks [Reported.PHQ]"
-* item[=].text = "Moving or speaking so slowly that other people could have noticed. Or the opposite-being so fidgety or restless that you have been moving around a lot more than usual"
-* item[=].type = #choice
-* item[=].required = true
-* item[=].repeats = false
-* item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
-* item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
-* item[+].linkId = "14371"
-* item[=].code = $loinc#44260-8 "Thoughts that you would be better off dead, or of hurting yourself in some way in last 2 weeks [Reported.PHQ]"
-* item[=].text = "Thoughts that you would be better off dead, or of hurting yourself in some way"
-* item[=].type = #choice
-* item[=].repeats = false
-* item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
-* item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
-* item[+].linkId = "57492"
-* item[=].code = $loinc#69722-7 "How difficult have these made it for you to do your work, take care of things at home, or get along with other people [Reported.PHQ]"
-* item[=].text = "How difficult have these problems made it for you to do your work, take care of things at home, or get along with other people?"
-* item[=].type = #choice
-* item[=].repeats = false
-* item[=].answerOption[0].valueCoding = $loinc#LA6572-7 "Not difficult at all"
-* item[=].answerOption[+].valueCoding = $loinc#LA6573-5 "Somewhat difficult"
-* item[=].answerOption[+].valueCoding = $loinc#LA6575-0 "Very difficult"
-* item[=].answerOption[+].valueCoding = $loinc#LA6574-3 "Extremely difficult"
-* item[+].linkId = "14372"
-* item[=].text = "Patient health questionnaire 9 item total score"
-* item[=].type = #decimal
+// We have another, more recent, PHQ9 questionnaire in EX_jd1_questionnaire-phq9.fsh
+// Instance: 44249-1
+// InstanceOf: Questionnaire
+// Usage: #example
+// * meta.versionId = "1"
+// * meta.lastUpdated = "2025-05-28T18:06:29.000+00:00"
+// * meta.source = "#aLYUC2N4J9eLQ33k"
+// * url = "http://loinc.org/q/44249-1"
+// * name = "PHQ_quick_depression_assessment_panel"
+// * title = "PHQ-9 quick depression assessment panel"
+// * status = #draft
+// * subjectType = #Patient
+// * publisher = "Regenstrief Institute, Inc."
+// * contact.name = "Regenstrief Institute, Inc."
+// * contact.telecom.system = #url
+// * contact.telecom.value = "http://loinc.org"
+// * copyright = "This content from LOINC® is copyright © 1995 Regenstrief Institute, Inc. and the LOINC Committee, and available at no cost under the license at https://loinc.org/license/\r\nCopyright © Pfizer Inc. All rights reserved. Developed by Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke and colleagues, with an educational grant from Pfizer Inc. No permission required to reproduce, translate, display or distribute."
+// * code = $loinc#44249-1 "PHQ-9 quick depression assessment panel [Reported.PHQ]"
+// * item[0].linkId = "14363"
+// * item[=].code = $loinc#44250-9 "Little interest or pleasure in doing things in last 2 weeks"
+// * item[=].prefix = "PHQ-9.1"
+// * item[=].text = "Little interest or pleasure in doing things"
+// * item[=].type = #choice
+// * item[=].required = true
+// * item[=].repeats = false
+// * item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
+// * item[+].linkId = "14364"
+// * item[=].code = $loinc#44255-8 "Feeling down, depressed, or hopeless in last 2 weeks"
+// * item[=].prefix = "PHQ-9.2"
+// * item[=].text = "Feeling down, depressed, or hopeless"
+// * item[=].type = #choice
+// * item[=].required = true
+// * item[=].repeats = false
+// * item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
+// * item[+].linkId = "14365"
+// * item[=].code = $loinc#44259-0 "Trouble falling or staying asleep, or sleeping too much in last 2 weeks [Reported.PHQ]"
+// * item[=].text = "Trouble falling or staying asleep, or sleeping too much"
+// * item[=].type = #choice
+// * item[=].required = true
+// * item[=].repeats = false
+// * item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
+// * item[+].linkId = "14366"
+// * item[=].code = $loinc#44254-1 "Feeling tired or having little energy in last 2 weeks [Reported.PHQ]"
+// * item[=].text = "Feeling tired or having little energy"
+// * item[=].type = #choice
+// * item[=].required = true
+// * item[=].repeats = false
+// * item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
+// * item[+].linkId = "14367"
+// * item[=].code = $loinc#44251-7 "Poor appetite or overeating in last 2 weeks [Reported.PHQ]"
+// * item[=].text = "Poor appetite or overeating"
+// * item[=].type = #choice
+// * item[=].required = true
+// * item[=].repeats = false
+// * item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
+// * item[+].linkId = "14368"
+// * item[=].code = $loinc#44258-2 "Feeling bad about yourself - or that you are a failure or have let yourself or your family down in last 2 weeks [Reported.PHQ]"
+// * item[=].text = "Feeling bad about yourself-or that you are a failure or have let yourself or your family down"
+// * item[=].type = #choice
+// * item[=].required = true
+// * item[=].repeats = false
+// * item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
+// * item[+].linkId = "14369"
+// * item[=].code = $loinc#44252-5 "Trouble concentrating on things, such as reading the newspaper or watching television in last 2 weeks [Reported.PHQ]"
+// * item[=].text = "Trouble concentrating on things, such as reading the newspaper or watching television"
+// * item[=].type = #choice
+// * item[=].required = true
+// * item[=].repeats = false
+// * item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
+// * item[+].linkId = "14370"
+// * item[=].code = $loinc#44253-3 "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual in last 2 weeks [Reported.PHQ]"
+// * item[=].text = "Moving or speaking so slowly that other people could have noticed. Or the opposite-being so fidgety or restless that you have been moving around a lot more than usual"
+// * item[=].type = #choice
+// * item[=].required = true
+// * item[=].repeats = false
+// * item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
+// * item[+].linkId = "14371"
+// * item[=].code = $loinc#44260-8 "Thoughts that you would be better off dead, or of hurting yourself in some way in last 2 weeks [Reported.PHQ]"
+// * item[=].text = "Thoughts that you would be better off dead, or of hurting yourself in some way"
+// * item[=].type = #choice
+// * item[=].repeats = false
+// * item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
+// * item[+].linkId = "57492"
+// * item[=].code = $loinc#69722-7 "How difficult have these made it for you to do your work, take care of things at home, or get along with other people [Reported.PHQ]"
+// * item[=].text = "How difficult have these problems made it for you to do your work, take care of things at home, or get along with other people?"
+// * item[=].type = #choice
+// * item[=].repeats = false
+// * item[=].answerOption[0].valueCoding = $loinc#LA6572-7 "Not difficult at all"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6573-5 "Somewhat difficult"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6575-0 "Very difficult"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6574-3 "Extremely difficult"
+// * item[+].linkId = "14372"
+// * item[=].text = "Patient health questionnaire 9 item total score"
+// * item[=].type = #decimal
 
 Instance: 52
 InstanceOf: Questionnaire

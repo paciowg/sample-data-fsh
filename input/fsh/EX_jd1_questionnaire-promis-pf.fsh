@@ -378,6 +378,9 @@ Description: "Questionnaire for PROMIS Physical Function CAT score reporting"
 * url = "http://example.org/fhir/Questionnaire/PROMISPhysicalFunctionCATQuestionnaire"
 * code = $LNC#91722-9 "PROMIS item bank - physical function - version 2.0"
 * subjectType[+] = #Patient
+* version = "0.1.0"
+* extension[+].url = "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm"
+* extension[=].valueString = "semver"
 
 * item[+].linkId = "pf-cat-1"
 * item[=].text = "Does your health now limit you in doing two hours of physical labor?"

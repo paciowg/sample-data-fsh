@@ -380,6 +380,9 @@ Description: "Questionnaire for PROMIS Pain Interference CAT score reporting"
 * url = "http://example.org/fhir/Questionnaire/PROMISPainInterferenceCATQuestionnaire"
 * code = $LNC#89923-7 "PROMIS item bank - pain interference - version 1.1"
 * subjectType[+] = #Patient
+* version = "0.1.0"
+* extension[+].url = "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm"
+* extension[=].valueString = "semver"
 
 * item[+].linkId = "pi-cat-1"
 * item[=].text = "In the past 7 days: How much did pain interfere with your day to day activities?"
