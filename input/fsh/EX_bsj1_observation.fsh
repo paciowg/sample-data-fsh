@@ -489,7 +489,7 @@ Description: "Betsy Smith-Johnson Observation: Elevated blood pressure of 150/90
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * effectiveDateTime = "2024-09-19T14:30:00-04:00"
 * performer = Reference(PractitionerRole/Role-OT-JenCadbury)
-* valueCodeableConcept = $loinc#LA28870-6 "Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as person completes activity. Assistance may be provided throughout the activity or intermittently."
+* valueCodeableConcept = $loinc#LA30911-4 "Supervision or touching assistance - Helper provides verbal cues and/or touching/steadying and/or contact guard assistance as person completes activity. Assistance may be provided throughout the activity or intermittently."
 * extension.url = "http://hl7.org/fhir/StructureDefinition/event-location"
 * extension.valueReference = Reference(Location/org-Loc-SNF-Happy-Nursing-Facility)
 
