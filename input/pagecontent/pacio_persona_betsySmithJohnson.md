@@ -351,6 +351,7 @@ A wound management plan was developed that included wound assessment and the use
 * [MedicationStatement: bsj1-smp-medstmt-jardiance-5-1](MedicationStatement-bsj1-smp-medstmt-jardiance-5-1.html)
 * [MedicationStatement: bsj1-smp-medstmt-sertraline-5-2](MedicationStatement-bsj1-smp-medstmt-sertraline-5-2.html)
 * [MedicationStatement: bsj1-smp-medstmt-lipitor-5-3](MedicationStatement-bsj1-smp-medstmt-lipitor-5-3.html)
+* [List: bsj1-smp-medListNew-5](List-bsj1-smp-medListNew-5.html)
 * [Observation: betsysmith-johnson01-A1C-05](Observation-betsysmith-johnson01-A1C-05.html)
 * [Observation: betsysmith-johnson01-A1C-06](Observation-betsysmith-johnson01-A1C-06.html)
 * [Observation: betsysmith-johnson01-A1C-07](Observation-betsysmith-johnson01-A1C-07.html)
