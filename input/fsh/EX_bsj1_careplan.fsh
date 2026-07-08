@@ -10,6 +10,7 @@ Description: "Betsy Smith-Johnson's SNF Discharge Care Plan"
 // * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan|9.0.0"
 * status = #active
 * intent = #plan
+* title = "SNF Discharge Care Plan"
 * created = "2025-07-03T13:00:00.000+00:00"
 * category[0] = $sct#736055001
 * category[AssessPlan] = $careplan-category#assess-plan
@@ -40,6 +41,7 @@ Description: "Betsy Smith-Johnson care plan created during the 2025-07-16 visit.
 // * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan|9.0.0"
 * status = #active
 * intent = #plan
+* title = "Care plan created during 2025-07-16 visit (PROMIS-10 follow up)"
 * created = "2025-07-16T10:30:00.123Z"
 * category[0] = $sct#736271009 "Outpatient care plan (record artifact)"
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
@@ -63,6 +65,7 @@ Description: "Betsy Smith-Johnson inpatient discharge care plan dated 2026-02-26
 // * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan|9.0.0"
 * status = #active
 * intent = #plan
+* title = "Inpatient discharge care plan from SNF to Home Health"
 * created = "2026-02-26T12:00:00-05:00"
 * category[0] = $sct#736271009 "Outpatient care plan (record artifact)"
 * category[AssessPlan] = $careplan-category#assess-plan
@@ -88,6 +91,7 @@ Description: "Betsy Smith-Johnson HHA discharge care plan update dated 2026-04-1
 // * meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-careplan|9.0.0"
 * status = #active
 * intent = #plan
+* title = "Discharge care plan update with wound care addition"
 * created = "2026-04-15T10:00:00-04:00"
 * category[0] = $sct#736271009 "Outpatient care plan (record artifact)"
 * category[AssessPlan] = $careplan-category#assess-plan
