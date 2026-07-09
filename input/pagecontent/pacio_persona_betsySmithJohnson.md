@@ -86,7 +86,7 @@ At 2:00pm on May 3, 2025, Betsy’s son Charles finds her sitting on the floor a
 Betsy arrives at the ED at 2:30pm on May 3, 2025 following a suspected fall, via ambulance with Charles following in his car. During admission to the ED, Betsy’s prior records from her primary care provider and PMO are accessed from the electronic health record (EHR) as part of a transition of care (TOC) bundle (which will not be demonstrated during this 
 Connectathon) to inform Betsy’s care. The PMO indicates that Betsy wants full treatment.
 
-After assessments (ED MD, Neuro, Psych, PT, OT), labs, and CT imaging, she’s diagnosed with an ischemic stroke. Symptoms that are documented are trouble swallowing (dysphasia), weakness/numbness in the right arm (her dominant arm), trouble understanding, and balance issues (ataxia). It is found that she does not have delirium, her mental health is unchanged, and she is not at an elevated bleeding risk. Betsy is reassessed, including repeated labs, throughout the day following a stroke protocol.     
+After assessments (ED MD, Neuro, Psych, PT, OT), labs, and CT imaging, she’s diagnosed with an ischemic stroke. Symptoms that are documented are weakness/numbness in the right arm (her dominant arm), trouble understanding, and balance issues (ataxia). It is found that she does not have delirium, her mental health is unchanged, and she is not at an elevated bleeding risk. Betsy is reassessed, including repeated labs, throughout the day following a stroke protocol.     
 
 Betsy stays in the ED overnight for observation (Charles returns home to sleep knowing his mom is receiving the care she wants and needs). The following morning, she undergoes repeat assessments, including labs and an MRI/MRA, and the conclusion is made that Betsy is stable enough to transfer her to a SNF in their referral network. 
 
@@ -99,7 +99,6 @@ Betsy is discharged from the ED at 3pm on May 4, 2025. Charles accompanies Betsy
 * [Composition: BSJ1-composition-CCDA-dischargeSummary-01](Composition-BSJ1-composition-CCDA-dischargeSummary-01.html)
 * [Condition: betsysmith-johnson01-condition-alteredCognition-01](Condition-betsysmith-johnson01-condition-alteredCognition-01.html)
 * [Condition: betsysmith-johnson01-condition-ataxiaVertigo-01](Condition-betsysmith-johnson01-condition-ataxiaVertigo-01.html)
-* [Condition: betsysmith-johnson01-Condition-Dysphagia-01](Condition-betsysmith-johnson01-Condition-Dysphagia-01.html)
 * [Condition: betsysmith-johnson01-Condition-Hemiparesis-01](Condition-betsysmith-johnson01-Condition-Hemiparesis-01.html)
 * [Condition: betsysmith-johnson01-condition-IschemicStrokeDiagnosis-01](Condition-betsysmith-johnson01-condition-IschemicStrokeDiagnosis-01.html)
 * [Condition: betsysmith-johnson01-Condition-Stroke-01](Condition-betsysmith-johnson01-Condition-Stroke-01.html)

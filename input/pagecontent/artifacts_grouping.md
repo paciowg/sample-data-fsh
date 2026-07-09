@@ -124,7 +124,6 @@
 * [Composition for TOC from SNF to HHA](Composition-betsysmith-johnson01-TOC-SNF-to-HHA-01.html)
 
 ### Conditions
-* [Dysphagia](Condition-betsysmith-johnson01-Condition-Dysphagia-01.html)
 * [Ischemic Stroke](Condition-betsysmith-johnson01-condition-IschemicStrokeDiagnosis-01.html)
 * [Altered cognition](Condition-betsysmith-johnson01-condition-alteredCognition-01.html)
 * [Ataxia](Condition-betsysmith-johnson01-condition-ataxiaVertigo-01.html)

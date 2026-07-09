@@ -383,21 +383,21 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a health c
 * recordedDate = "2024-09-20"
 * asserter = Reference(PractitionerRole/Role-SNFDoc-GeraldPark)
 
-Instance: betsysmith-johnson01-Condition-Dysphagia-01
-InstanceOf: Condition
-Usage: #example
-Description: "Betsy Smith-Johnson's condition FHIR resource indicates a health concern dysphagia."
-* clinicalStatus = $condition-clinical#active "Active"
-* clinicalStatus.text = "Active"
-* verificationStatus = $condition-ver-status#confirmed "Confirmed"
-* verificationStatus.text = "Confirmed"
-* category = $condition-category#problem-list-item "Problem List Item"
-* category.text = "Health Concern: Dysphagia"
-* code = $sct#40739000 "Dysphagia (disorder)"
-* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* recordedDate = "2025-05-03"
-* asserter = Reference(PractitionerRole-Physician-PriyaSarkar)
-* recorder = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
+// Instance: betsysmith-johnson01-Condition-Dysphagia-01
+// InstanceOf: Condition
+// Usage: #example
+// Description: "Betsy Smith-Johnson's condition FHIR resource indicates a health concern dysphagia."
+// * clinicalStatus = $condition-clinical#active "Active"
+// * clinicalStatus.text = "Active"
+// * verificationStatus = $condition-ver-status#confirmed "Confirmed"
+// * verificationStatus.text = "Confirmed"
+// * category = $condition-category#problem-list-item "Problem List Item"
+// * category.text = "Health Concern: Dysphagia"
+// * code = $sct#40739000 "Dysphagia (disorder)"
+// * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
+// * recordedDate = "2025-05-03"
+// * asserter = Reference(PractitionerRole-Physician-PriyaSarkar)
+// * recorder = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
 
 Instance: betsysmith-johnson01-condition-IschemicStrokeDiagnosis-01
 InstanceOf: Condition
