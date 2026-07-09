@@ -33,6 +33,7 @@ The automation is handled by a single Python script, `build_site.py`, which is e
 ### Code Organization
 
 -   `build_site.py`: The main orchestrator script that manages the entire build process. It consolidates all logic for version identification, processing, and site generation.
+-   `validate_pagecontent_resource_links.py`: A validation utility that scans `input/fsh/*.fsh` for adjacent `Instance:` / `InstanceOf:` pairs, derives the generated FHIR resource HTML filenames, and verifies that `input/pagecontent/artifacts_grouping.md` and `input/pagecontent/pacio_persona_betsySmithJohnson.md` each link to every generated resource and do not contain links to non-existent generated resource pages. The script ignores links inside HTML comment blocks, prints a plain text report to stdout, warns about duplicate generated HTML filenames, and exits nonzero if missing or invalid links are found.
 -   `static/`: A directory containing the static front-end assets.
     -   `static/index.html`: The HTML structure for the site.
     -   `static/app.js`: The JavaScript logic to fetch the manifest and dynamically render the content.
@@ -75,6 +76,31 @@ The script executes the following high-level functions:
 4.  **Generate Index Page**:
     -   Copies the `index.html` and `app.js` files from the `scripts/static/` directory into the `_site` directory to create the site's front end.
 
+### `validate_pagecontent_resource_links.py` Logic
+
+The validation script executes the following high-level functions:
+
+1.  **Identify Generated Resource HTML Filenames**:
+    -   Scans all `.fsh` files in `input/fsh/`.
+    -   Looks for adjacent lines of the form `Instance: ...` followed immediately by `InstanceOf: ...`.
+    -   Derives the generated HTML filename as `{normalized-instance-type}-{instance-name}.html`.
+    -   Normalizes `InstanceOf` values by stripping a leading `USCore` or `SDC` prefix when present.
+    -   Warns if multiple FSH definitions produce the same generated HTML filename.
+
+2.  **Validate Page Content Files**:
+    -   Reads:
+        -   `input/pagecontent/artifacts_grouping.md`
+        -   `input/pagecontent/pacio_persona_betsySmithJohnson.md`
+    -   Removes HTML comment blocks before link extraction.
+    -   Extracts markdown links that look like generated FHIR resource HTML pages.
+    -   Reports, for each markdown file:
+        -   generated resource pages that are not linked
+        -   linked resource pages that do not correspond to any generated resource
+
+3.  **Exit Status**:
+    -   Exits with status code `0` when no missing or invalid links are found.
+    -   Exits with status code `1` when any missing or invalid links are found.
+
 ### Local Testing
 
 To test the site generation locally before pushing changes, follow these steps:
@@ -93,6 +119,16 @@ To test the site generation locally before pushing changes, follow these steps:
     ```
 
 3.  **View the site:** Open a web browser and go to `http://localhost:8000` to see the generated site.
+
+### Running the Page Content Validation Script
+
+To validate the resource links in the page content files, run the validation script from the root of the repository:
+
+```bash
+python3 scripts/validate_pagecontent_resource_links.py
+```
+
+The script prints a plain text report to stdout. It exits with a nonzero status code if any missing or invalid links are found, making it suitable for local checks or CI use.
 
 ## 3. Future Considerations
 
