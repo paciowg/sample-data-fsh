@@ -111,7 +111,7 @@ Usage: #example
 * status = #completed
 * authored = "2025-04-16T14:36:50.241Z"
 * author = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* item[0].answer.valueString = "7A34C75DE12"
+* item[0].answer.valueString = "1PA3D58WH16"
 * item[=].linkId = "mbi"
 * item[=].text = "What is this patient's Medicare Beneficiary Identifier (MBI)?"
 * item[+].answer.valueDate = "2025-04-16"
@@ -190,7 +190,7 @@ Usage: #example
 * status = #completed
 * authored = "2025-07-16T10:15:30.123Z"
 * author = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* item[0].answer.valueString = "7A34C75DE12"
+* item[0].answer.valueString = "1PA3D58WH16"
 * item[=].linkId = "mbi"
 * item[=].text = "What is this patient's Medicare Beneficiary Identifier (MBI)?"
 * item[+].answer.valueDate = "2025-07-16"
@@ -269,7 +269,7 @@ Usage: #example
 * status = #completed
 * authored = "2025-10-16T11:22:40.456Z"
 * author = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* item[0].answer.valueString = "7A34C75DE12"
+* item[0].answer.valueString = "1PA3D58WH16"
 * item[=].linkId = "mbi"
 * item[=].text = "What is this patient's Medicare Beneficiary Identifier (MBI)?"
 * item[+].answer.valueDate = "2025-10-16"
@@ -348,7 +348,7 @@ Usage: #example
 * status = #completed
 * authored = "2026-01-20T13:45:20.789Z"
 * author = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* item[0].answer.valueString = "7A34C75DE12"
+* item[0].answer.valueString = "1PA3D58WH16"
 * item[=].linkId = "mbi"
 * item[=].text = "What is this patient's Medicare Beneficiary Identifier (MBI)?"
 * item[+].answer.valueDate = "2026-01-20"
@@ -427,7 +427,7 @@ Usage: #example
 * status = #completed
 * authored = "2026-04-16T09:30:15.321Z"
 * author = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* item[0].answer.valueString = "7A34C75DE12"
+* item[0].answer.valueString = "1PA3D58WH16"
 * item[=].linkId = "mbi"
 * item[=].text = "What is this patient's Medicare Beneficiary Identifier (MBI)?"
 * item[+].answer.valueDate = "2026-04-16"
