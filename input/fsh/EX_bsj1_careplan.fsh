@@ -73,7 +73,7 @@ Description: "Betsy Smith-Johnson inpatient discharge care plan dated 2026-02-26
 * goal = Reference(Goal/bsj1-goal-attend-wedding-20260226)
 * activity[0].detail.kind = #ServiceRequest
 * activity[=].detail.status = #scheduled
-* activity[=].detail.code = $sct#225323000 "Smoking cessation advice"
+* activity[=].detail.code = $sct#741768003 "Management of fall prevention (procedure)"
 * activity[=].detail.description = "Safety measures to prevent falls."
 * activity[+].detail.kind = #ServiceRequest
 * activity[=].detail.status = #scheduled
