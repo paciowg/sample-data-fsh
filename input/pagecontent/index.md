@@ -1,24 +1,55 @@
+## PACIO Sample Data Depot
+
+The PACIO Sample Data Depot provides reusable synthetic FHIR sample data for PACIO implementation guide testing, Connectathon participation, and example development. The data is organized around synthetic personas, reusable resource groups, and topic-specific examples that can support multiple testing scenarios over time.
+
+Use this site to understand the synthetic personas, find related FHIR resources, review sample data conventions, and access generated artifacts.
+
+> **Contributor note:** Before creating or updating sample data, review the [Examples Style Guide](style_guide.html), [Synthetic Persona Overview](synthetic_personas.html), and [AI-Assisted Contributor Guidance](ai_assisted_contributor_guidance.html) if appropriate. Contributors should make minimal changes to existing sample data and avoid broad cleanup, unrelated renaming, reformatting, duplicate narrative content, or clinical rewrites to existing data unless specifically requested.
+
+### Start Here
+
+- [Synthetic Persona Overview](synthetic_personas.html) - see the active personas, persona keys, resource ids, and synthetic identifiers.
+- [Betsy Smith-Johnson Home Health to Emergency Department Scenario](pacio_persona_betsySmithJohnson.html) - review the primary home health to emergency department scenario.
+- [Sample Data Resource Map](artifacts_grouping.html) - find related resources by persona, topic, and resource family.
+- [Artifact Index](artifacts.html) - browse the generated list of all examples and artifacts.
+- [Examples Style Guide](style_guide.html) - review naming, identifier, and formatting conventions.
+- [AI-Assisted Contributor Guidance](ai_assisted_contributor_guidance.html) - review contributor expectations for AI-assisted updates.
+- [PROMIS-10 QR to Observation Conversion](promis10_qr_observation_conversion.html) - review a worked example of a QuestionnaireResponse converted into derived Observations.
+- [Downloads](downloads.html) - access the downloadable IG package, example resources, definitions, and generated build artifacts.
+
+### Choose Your Path
+
+- I want to **understand the people in the data**: start with the [Synthetic Persona Overview](synthetic_personas.html).
+- I want to **understand the clinical story**: start with the [Betsy Smith-Johnson](pacio_persona_betsySmithJohnson.html) persona page.
+- I want to **find FHIR examples**: use the [Sample Data Resource Map](artifacts_grouping.html) or the [Artifact Index](artifacts.html).
+- I want to **understand how examples are structured**: review the [PROMIS-10 QR to Observation Conversion](promis10_qr_observation_conversion.html) worked example.
+- I want to **add or update sample data**: review the [Examples Style Guide](style_guide.html) and [AI-Assisted Contributor Guidance](ai_assisted_contributor_guidance.html).
+- I want to **download generated content**: go to [Downloads](downloads.html) for the IG package, example resources, definitions, and generated build artifacts.
+
+
 
 ### Background
 
-This is a workbook project to create and manage sample data used in PACIO Connectathons. Prior PACIO Connectathons created sample data by manually crafting FHIR resources in JSON and pushed to a GitHub directory named `sample data` (https://github.com/paciowg/sample-data) that acted as a data store for these files, organized by each Connectathon. This method proved cumbersome to create and maintain. Furthermore, it was less readable by participants that wanted a quick and easy way to inspect the content. 
+The PACIO Sample Data Depot was created to improve how PACIO sample data is authored, reviewed, validated, and maintained. Earlier PACIO Connectathons used manually crafted FHIR JSON examples stored by Connectathon event. That approach was difficult to maintain and less readable for participants.
 
-The PACIO content team proposed a new way to create and maintain FHIR sample data to address these limitations by authoring them in FHIR Shorthand (FSH) using the "SUSHI Unshortens Short Hand Inputs" (SUSHI) FSH authoring reference implementation. This provided several benefits over the original method:
-* auto-generated human-readable FHIR resource examples with a generated narrative.
-* ability to link examples with a storyboard and persona.
-* FHIR resource validation using the FHIR IG Publisher which generates higher-quality data conformant with its tested FHIR implementation guide (IG).
+The current depot provides examples in FHIR Shorthand (FSH) using SUSHI and the FHIR IG Publisher. This supports human-readable generated examples, links between examples and persona/story context, and validation against relevant FHIR implementation guide dependencies.
 
-### Assumptions and Caveats
+### Sample Data Notes
 
-* All examples are based in FHIR 4.0.1 and share the same IG dependencies.
-* The initial version of this release were based on the following Connectathon sample data:
-  * September 2024 Connectathon 37 PACIO Standardized Medication Profile (SMP) and Personal Functioning Engagement (PFE) Track
-  * January 2025 Connectathon 38 Transitions of Care (TOC) Track
-* Many of the previously created FHIR examples used in past Connectathons contained syntax and semantic errors that were not validated. In some cases, the examples needed to be modified in order to pass validation.  
+* All examples are based on FHIR R4, version 4.0.1, and are validated using the IG dependencies listed below.
+* Some sample data originated from prior PACIO Connectathon examples and has been revised over time to improve validation, consistency, readability, and reuse.
+* Examples are synthetic and are intended for testing, demonstration, and implementation guidance. They should not be interpreted as complete clinical records.
+* Details about prior source material and notable updates should be maintained in the [Release Notes](release_notes.html).
 
 ### Credits
 
-* PACIO Project team
+This sample data is maintained by the PACIO Project team.
+
+Contributing groups include:
+- PACIO Project
+- Abt Global
+- Lantana Counsulting Group
+- The MITRE Corporation
 
 
 ### Dependencies

@@ -1,195 +1,135 @@
-## Persona: Betsy Smith-Johnson
+## Sample Data Resource Map
 
-### Examples by Actors and Locations
+<!--
+Developer note: This page is intended to replace the previous reader-facing purpose of artifacts_grouping.md / "Artifacts by Group" with the Sample Data Resource Map concept. Keep the source filename and generated URL unless the team intentionally decides to rename them.
+-->
 
-#### HOME: Betsy Smith-Johnson Home
-* [Betsy Smith-Johnson: Patient](Patient-patient-betsysmith-johnson01.html)
-* [Charles Johnson, Betsy Smith-Johnson's son and healthcare agent](RelatedPerson-relatedPerson-CharlesJohnson01.html)
-* [Lisa Johnson, Betsy Smith-Johnson's daughter in-law, Charles' wife](RelatedPerson-relatedPerson-LisaJohnson01.html)
+This page provides a quick map of PACIO sample data resources by persona, topic, and resource family. For clinical context and scenario narrative, use the related persona pages.
 
-#### PCP01: Detroit Primary Care Providers
-* [Metro Emergency Department and Hospital](Organization-org-ED-Metro-Hospital.html)
-  * [Priya Sarkar, MD](Practitioner-Practitioner-PriyaSarkar.html), [Emergency Medicine Physician](PractitionerRole-PractitionerRole-Physician-PriyaSarkar.html)
-  * [David Albahari, MD](Practitioner-Practitioner-DavidAlbahari.html), [Neurology Physician](PractitionerRole-PractitionerRole-Neuro-DavidAlbahari.html)
+> **Contributor note:** Before creating or updating sample data, review the [Examples Style Guide](style_guide.html), [Synthetic Persona Overview](synthetic_personas.html), and [AI-Assisted Contributor Guidance](ai_assisted_contributor_guidance.html) if appropriate. Contributors should make minimal changes to existing sample data and avoid broad cleanup, unrelated renaming, reformatting, duplicate narrative content, or clinical rewrites to existing data unless specifically requested. Resource map updates should stay brief and link-oriented; clinical narrative belongs on persona pages.
 
-* [Michigan Primary Health Care Associates](Organization-org-Michigan-Primary-Health-Care-A.html)
-  * [Anita Chu, MD](Practitioner-Practitioner-AnitaChu-01.html), [Primary Care Physician](PractitionerRole-Role-IMMD-AnitaChu.html)
+### How to Use This Page
 
-#### SNF01: Detroit Post-acute Care Providers
-* [Motor City Nursing Facility](Location-org-Loc-Motor-City-Skilled-Nursing-Facility.html)
-  * [Hema Onko, MD](Practitioner-Practitioner-HemaOnko.html), [Physician](PractitionerRole-PractitionerRole-MD-HemaOnko.html)
-  * [Margaret Q. Reynolds, MSW](Practitioner-Practitioner-MargaretReynolds.html), [Social Worker](PractitionerRole-PractitionerRole-MSW-MargaretReynolds.html)
+Use this page to find related resources, identify existing examples before creating new ones, and understand which resource families support each sample data area. This page should be brief and link-oriented. It should not duplicate full clinical narratives from persona pages or duplicate the generated Artifact Index.
 
-#### HH01: Detroit Home Health
-* [Motown Home Health](Organization-org-Motown-Home-Health.html)
-  * [Judy Salas, DNP](Practitioner-Practitioner-JudySalas.html), [Nurse Practitioner](PractitionerRole-PractitionerRole-DNP-JudySalas.html)
+The links below intentionally point to authored context pages, worked examples, and the generated Artifact Index rather than attempting to reproduce every generated resource page.
 
-#### OTHER: Vernon Center
-* [Howard Thompson, advance healthcare directive witness](RelatedPerson-relatedPerson-HowardThompson-01.html)
-* [Tanya Williams, advance healthcare directive witness](RelatedPerson-relatedPerson-TanyaWilliams-01.html)
+### Persona-Based Resource Groups
 
-<br/>
-<br/>
+#### Betsy Smith-Johnson Resources
 
-### Examples by FHIR Resource Type
+Resources supporting the Betsy Smith-Johnson Home Health to Emergency Department Scenario.
 
-### Practitioners
-* [Gerald Park](Practitioner-Practitioner-GeraldPark.html)
-* [Alexander Kuikhoff](Practitioner-Practitioner-AlexanderKuikhoff.html)
-* [George McDuff](Practitioner-Practitioner-GeorgeMcDuff.html)
-* [Ginese Comeau](Practitioner-Practitioner-GineseComeau.html)
-* [Deyonte Darden](Practitioner-Practitioner-DeyonteDarden.html)
-* [Hema Onko](Practitioner-Practitioner-HemaOnko.html)
-* [Joe Bukoski](Practitioner-Practitioner-JoeBukoski.html)
-* [Margaret Q. Reynolds](Practitioner-Practitioner-MargaretReynolds.html)
-* [Sasha Ahmed](Practitioner-Practitioner-SashaAhmed.html)
-* [Sonja Valdez](Practitioner-Practitioner-SonjaValdez.html)
-* [Treyvor Clark](Practitioner-Practitioner-TreyvorClark.html)
-* [Jen Cadbury](Practitioner-Practitioner-JenCadbury.html)
-* [Luna Baskin](Practitioner-Practitioner-LunaBaskins.html)
-* [Nura Mekel](Practitioner-Practitioner-NuraMekel.html)
-* [David Albahari](Practitioner-Practitioner-DavidAlbahari.html)
-* [Richard Risto](Practitioner-Practitioner-RichardRisto.html)
-* [Paul Zawawi](Practitioner-Practitioner-PaulZawawi.html)
-* [Priya Sarkar](Practitioner-Practitioner-PriyaSarkar.html)
-* [Sonya Nguyen](Practitioner-Practitioner-SonyaNguyen.html)
-* [Alex Markos](Practitioner-Practitioner-AlexMarkos.html)
-* [Deangelo Montes](Practitioner-Practitioner-DeangeloMontes.html)
-* [Ina Krause](Practitioner-Practitioner-InaKrause.html)
-* [Judy Salas](Practitioner-Practitioner-JudySalas.html)
-* [Mia Rinaldi](Practitioner-Practitioner-MiaRinaldi.html)
-* [Kevin James](Practitioner-Practitioner-KevinJames.html)
+Related links:
 
-### Practitioner role
-* [Role for Anita M. Chu, Internal Medicine Physician](PractitionerRole-Role-IMMD-AnitaChu.html)
-* [Role for George McDuff, Registered Nurse](PractitionerRole-Role-RN-GeorgeMcDuff.html)
-* [Role for Ginese Comeau, Psychiatrist](PractitionerRole-Role-Psych-GineseComeau.html)
-* [Role for Richard Risto, Registered Nurse](PractitionerRole-PractitionerRole-RN-RichardRisto.html)
-* [Role for Paul Zawawi, Radiologist](PractitionerRole-PractitionerRole-Radiologist-PaulZawawi.html)
-* [Role for Priya Sarkar, Emergency Medicine Physician](PractitionerRole-PractitionerRole-Physician-PriyaSarkar.html)
-* [Role for Sonya Nguyen, Pharmacist](PractitionerRole-PractitionerRole-Pharm-SonyaNguyen.html)
-* [Role for Alex Markos, Pharmacist](PractitionerRole-PractitionerRole-Pharm-AlexMarkos.html)
-* [Role for Deangelo Montes, Physical Therapist](PractitionerRole-PractitionerRole-PT-DeangeloMontes.html)
-* [Role for Ina Krause, Occupational Therapist](PractitionerRole-PractitionerRole-OT-InaKrause.html)
-* [Role for Judy Salas, Nurse Practitioner](PractitionerRole-PractitionerRole-DNP-JudySalas.html)
-* [Role for Mia Rinaldi, Speech-Language Pathologist](PractitionerRole-PractitionerRole-SLP-MiaRinaldi.html)
-* [Role for Deyonte Darden, Physical Therapist](PractitionerRole-PractitionerRole-PT-DeyonteDarden.html)
-* [Role for Hema Onko, Internal Medicine Physician](PractitionerRole-PractitionerRole-MD-HemaOnko.html)
-* [Role for Joe Bukoski, Speech-Language Pathologist](PractitionerRole-PractitionerRole-SLP-JoeBukoski.html)
-* [Role for Margaret A. Reynolds, Social Worker](PractitionerRole-PractitionerRole-MSW-MargaretReynolds.html)
-* [Role for Sasha Ahmed, Pharmacist](PractitionerRole-PractitionerRole-Pharm-SashaAhmed.html)
-* [Role for Sonja Valdez, Occupational Therapist](PractitionerRole-PractitionerRole-OT-SonjaValdez.html)
-* [Role for Treyvor Clark, Registered Nurse](PractitionerRole-PractitionerRole-RN-TreyvorClark.html)
-* [Role for Jen Cadbury, Occupational Therapist](PractitionerRole-Role-OT-JenCadbury.html)
-* [Role for Luna Baskins, Physical Therapist](PractitionerRole-Role-PT-LunaBaskins.html)
-* [Role for Kevin James, Pharmacist](PractitionerRole-PractitionerRole-Pharm-KevinJames.html)
+- [Betsy Smith-Johnson Home Health to Emergency Department Scenario](pacio_persona_betsySmithJohnson.html)
+- [Synthetic Persona Overview](synthetic_personas.html)
+- [Artifact Index](artifacts.html)
 
-### Conditions
-* [Anemia](Condition-betsysmith-johnson01-Condition-Anemia-01.html)
-* [Bipolar I Disorder](Condition-betsysmith-johnson01-Condition-Bipolar-01.html)
-* [Breast Cancer](Condition-betsysmith-johnson01-Condition-BreastCancer-01.html)
-* [Constipation](Condition-betsysmith-johnson01-Condition-Constipation-01.html)
-* [Depression](Condition-betsysmith-johnson01-Condition-Depression-01.html)
-* [Diabetes](Condition-betsysmith-johnson01-Condition-Diabetes-01.html)
-* [Dressing Concern](Condition-betsysmith-johnson01-Condition-DressingConcern-01.html)
-* [Heart Disease](Condition-betsysmith-johnson01-Condition-HeartDisease-01.html)
-* [Hemiparesis](Condition-betsysmith-johnson01-Condition-Hemiparesis-01.html)
-* [Hyperlipidemia](Condition-betsysmith-johnson01-Condition-Hyperlipidemia-01.html)
-* [Hypertension](Condition-betsysmith-johnson01-Condition-Hypertension-01.html)
-* [Kidney Disease](Condition-betsysmith-johnson01-Condition-KidneyDisease-01.html)
-* [Nausea and Vomiting](Condition-betsysmith-johnson01-Condition-NauseaAndVomiting-01.html)
-* [Osteoarthritis](Condition-betsysmith-johnson01-Condition-Osteoarthritis-01.html)
-* [Osteopenia](Condition-betsysmith-johnson01-Condition-Osteopenia-01.html)
-* [Stroke](Condition-betsysmith-johnson01-Condition-Stroke-01.html)
-* [Undressing Concern](Condition-betsysmith-johnson01-Condition-UndressingConcern-01.html)
-* [Physical Deconditioning](Condition-betsysmith-johnson01-Condition-OTProblemListDecondition-01.html)
-* [Right-sided Weakness](Condition-betsysmith-johnson01-Condition-OTProblemListRightWeak-01.html)
-* [Complex Regime Health Concern](Condition-betsysmith-johnson01-Condition-ComplexRegime-01.html)
+Primary resource families:
 
-### Allergies and Intolerances
-* [Allergy to ACE inhibitors](AllergyIntolerance-betsysmith-johnson01-AllergyACE.html)
+- Core persona resources: `Patient`, related person, care team, and demographic context.
+- Transition of care resources: `DocumentReference`, `Composition`, `Bundle`, `CarePlan`, and `ServiceRequest`.
+- Assessment and questionnaire resources: `Questionnaire`, `QuestionnaireResponse`, and `Observation`.
+- Medication resources: `MedicationRequest`, `MedicationStatement`, `MedicationAdministration`, and medication lists.
+- Pressure ulcer and wound care resources: `Condition`, `Observation`, `DeviceRequest`, and wound-care planning resources.
+- Documents and bundles: exchange-ready document and bundle examples.
 
+### Topic-Based Resource Groups
 
-### Care plan
-* [SNF discharge care plan](CarePlan-betsysmith-johnson01-SNFDischargeCarePlan.html)
+#### Questionnaires and Assessments
+
+Questionnaire and questionnaire response examples used to support assessment-driven workflows.
+
+Related links:
+
+- [Artifact Index](artifacts.html)
+- [PROMIS-10 QR to Observation Conversion](promis10_qr_observation_conversion.html)
+
+Related resources may include:
+
+- `Questionnaire`
+- `QuestionnaireResponse`
+- `Observation`
+
+#### PROMIS-10 QR to Observation Conversion
+
+Worked example showing how a PROMIS-10 `QuestionnaireResponse` is represented as a set of derived `Observation` resources.
+
+Related links:
+
+- [PROMIS-10 QR to Observation Conversion](promis10_qr_observation_conversion.html)
+- [Artifact Index](artifacts.html)
+
+Related resources may include:
+
+- `Questionnaire`
+- `QuestionnaireResponse`
+- `Observation`
+- `Bundle`
+
+#### Medication Resources
+
+Medication-related examples used to support medication list, medication request, medication statement, and medication risk workflows.
+
+Related links:
+
+- [Artifact Index](artifacts.html)
+- [Betsy Smith-Johnson Home Health to Emergency Department Scenario](pacio_persona_betsySmithJohnson.html)
+
+Related resources may include:
+
+- `MedicationRequest`
+- `MedicationStatement`
+- `MedicationAdministration`
+- `List`
+
+#### Transition of Care Resources
+
+Transition of care examples used to represent patient movement and exchange of supporting clinical information across care settings.
+
+Related links:
+
+- [Artifact Index](artifacts.html)
+- [Betsy Smith-Johnson Home Health to Emergency Department Scenario](pacio_persona_betsySmithJohnson.html)
+
+Related resources may include:
+
+- `DocumentReference`
+- `Composition`
+- `Bundle`
+- `CarePlan`
+- `ServiceRequest`
+
+#### Shared Infrastructure Resources
+
+Reusable organizations, locations, practitioners, and practitioner roles used across sample data personas and scenarios.
+
+Related links:
+
+- [Artifact Index](artifacts.html)
+- [Examples Style Guide: Shared Infrastructure Resource Files](style_guide.html#shared-infrastructure-resource-files)
+- [Synthetic Persona Overview](synthetic_personas.html)
 
 
-### Care team
-* [Care Team - post discharge to home care](CareTeam-BSJ1-CareTeam-SNFDischargeToHHA.html)
+Related resources may include:
 
+- `Organization`
+- `Location`
+- `Practitioner`
+- `PractitionerRole`
 
-### Compositions
-* [Discharge summary for transfer from hospital to SNF](Composition-BSJ1-composition-CCDA-dischargeSummary-01.html)
-* [Composition for TOC from ED to SNF](Composition-betsysmith-johnson01-TOC-Hosp-to-SNF-01.html)
-* [Composition for TOC from SNF to HHA](Composition-betsysmith-johnson01-TOC-SNF-to-HHA-01.html)
+#### Documents and Bundles
 
-### Conditions
-* [Ischemic Stroke](Condition-betsysmith-johnson01-condition-IschemicStrokeDiagnosis-01.html)
-* [Altered cognition](Condition-betsysmith-johnson01-condition-alteredCognition-01.html)
-* [Ataxia](Condition-betsysmith-johnson01-condition-ataxiaVertigo-01.html)
+Document and bundle examples used to package or reference clinical information for exchange.
 
-### Diagnostic reports
-* [CT scan #1](DiagnosticReport-betsysmith-johnson01-diagnosticReport-CTScan-01.html)
-* [MRI/MRA](DiagnosticReport-betsysmith-johnson01-diagnosticReport-MRI-01.html)
+Related links:
 
-### Document references
-* [Discharge summary document from hospital](DocumentReference-BSJ1-documentReference-ED-dischargeSummary-01.html)
-* [Discharge summary document from SNF](DocumentReference-BSJ1-documentReference-SNF-dischargeSummary-01.html)
+- [Artifact Index](artifacts.html)
+- [Betsy Smith-Johnson Home Health to Emergency Department Scenario](pacio_persona_betsySmithJohnson.html)
 
-### Locations
-* [Metro Hospital Emergency Department](Location-org-Loc-ED-Metro-Hospital.html)
-* [Motor City Nursing Facility](Location-org-Loc-Motor-City-Skilled-Nursing-Facility.html)
-* [Motown Home Health](Location-org-Loc-Motown-Home-Health.html)
-* [Michigan Primary Health Care Associates](Location-org-Loc-Michigan-Primary-Health-Care-A.html)
-* [Renaissance Pharmacy](Location-org-Loc-Renaissance-Pharmacy.html)
-* [The Vernon Center](Location-org-Loc-The-Vernon-Center.html)
+Related resources may include:
 
-### Nutrition order
-* [Nutrition order - SNF discharge diet](NutritionOrder-betsysmith-johnson01-SNFDischargeDiet.html)
-
-### Observations
-* [Hemoglobin](Observation-betsysmith-johnson01-Lab-Hemoglobin-01.html)
-
-### Organizations
-* [Neuro Care Inc.](Organization-org-Neuro-Care-Inc.html)
-* [Metro Hospital Emergency Department](Organization-org-ED-Metro-Hospital.html)
-* [Motor City Skilled Nursing Facility](Organization-org-Motor-City-Skilled-Nursing-Facility.html)
-* [Motown Home Health](Organization-org-Motown-Home-Health.html)
-* [Michigan Primary Health Care Associates](Organization-org-Michigan-Primary-Health-Care-A.html)
-* [The Vernon Center](Organization-org-The-Vernon-Center.html)
-
-### Questionnaire
-<!-- * [Zarit Burden Interview](Questionnaire-questionnaire-ZBI22.html) --> 
-
-
-### Questionnaire response
-<!-- * [Zarit Burden Interview responses](QuestionnaireResponse-BSJ1-QuestionnaireResponse-GlobalAlliant-01.html) -->
-* [Stroke scale responses](QuestionnaireResponse-betsysmith-johnson01-qr-strokescale-01.html)
-
-### Related persons
-* [Charles Johnson, Betsy Smith-Johnson's son and healthcare agent](RelatedPerson-relatedPerson-CharlesJohnson01.html)
-* [Lisa Johnson, Betsy Smith-Johnson's daughter in-law, Charles' wife](RelatedPerson-relatedPerson-LisaJohnson01.html)
-* [Howard Thompson, witness](RelatedPerson-relatedPerson-HowardThompson-01.html)
-* [Tanya Williams, witness](RelatedPerson-relatedPerson-TanyaWilliams-01.html)
-
-### Service requests
-* [Request for medication reconciliation at SNF](ServiceRequest-betsysmith-johnson01-MedRecOrder.html)
-* [Request for follow-up visit with primary care provider](ServiceRequest-betsysmith-johnson01-PCPFollowUp.html)
-* [Request for occupational therapy assessment for SNF discharge](ServiceRequest-betsysmith-johnson01-SNFDischargeCallOTRefer.html)
-* [Request for SNF discharge order by physician](ServiceRequest-betsysmith-johnson01-SNFDischargeCallOrder.html)
-* [Request for speech therapy assessment for SNF discharge](ServiceRequest-betsysmith-johnson01-SNFDischargeCallSLPRefer.html)
-* [Request for blood chemistry for SNF discharge](ServiceRequest-betsysmith-johnson01-SNFDischargeLabOrderBMP.html)
-* [Request for complete blood count without differential for SNF discharge](ServiceRequest-betsysmith-johnson01-SNFDischargeLabOrderCBC.html)
-* [Request for physical therapy assessment for SNF discharge](ServiceRequest-betsysmith-johnson01-SNFDischargePTRefer.html)
-* [Request for consulting clinical pharmacist for medication reconciliation at SNF](ServiceRequest-betsysmith-johnson01-ServiceRequest-med-rec-order-01.html)
-
-### Vital signs
-* [Panel of vital signs collected](Observation-betsysmith-johnson01-vital-signs-01.html)
-* [Body weight](Observation-betsysmith-johnson01-observation-bodyweight-01.html)
-* [Body height](Observation-betsysmith-johnson01-observation-bodyheight-01.html)
-* [Body mass index](Observation-betsysmith-johnson01-observation-bmi-01.html)
-* [Blood pressure](Observation-betsysmith-johnson01-observation-bp-01.html)
-* [Heart rate](Observation-betsysmith-johnson01-observation-heartrate-01.html)
-* [Respiratory rate](Observation-betsysmith-johnson01-observation-respirationrate-01.html)
-* [Body temperature](Observation-betsysmith-johnson01-observation-bodytemp-01.html)
-* [Pulse oximetry](Observation-betsysmith-johnson01-observation-oxygensat-01.html)
+- `DocumentReference`
+- `Composition`
+- `Bundle`

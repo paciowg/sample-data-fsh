@@ -51,34 +51,45 @@ parameters:
    pin-canonicals: pin-multiples
 menu:
   Home: index.html
-  Artifacts: 
-    Artifacts by Group: artifacts_grouping.html
+  Style Guide: style_guide.html
+  Artifacts:
     Artifact Index: artifacts.html
+    Sample Data Resource Map: artifacts_grouping.html
+    Table of Contents: toc.html
   Storyboard:
     Betsy Smith-Johnson: pacio_persona_betsySmithJohnson.html
-  Style Guide: style_guide.html
+  Guidance and Examples:
+    Synthetic Persona Overview: synthetic_personas.html
+    PROMIS-10 QR to Observation Conversion: promis10_qr_observation_conversion.html
+    AI-Assisted Contributor Guidance: ai_assisted_contributor_guidance.html
   Release Notes: release_notes.html
   Downloads: downloads.html
 
 pages:
   artifacts_grouping.md:
-    title: Artifacts by Group Categories
+    title: Sample Data Resource Map
   index.md:
     title: PACIO Sample Data Repository
   style_guide.md:
     title: Examples Style Guide
+  synthetic_personas.md:
+    title: Synthetic Persona Overview
+  promis10_qr_observation_conversion.md:
+    title: PROMIS-10 QR to Observation Conversion
+  ai_assisted_contributor_guidance.md:
+    title: AI-Assisted Contributor Guidance
   pacio_persona_betsySmithJohnson.md:
-    title: Betsy Smith-Johnson - Stroke Use Case
+    title: Betsy Smith-Johnson - Home Health to Emergency Department
   release_notes.md:
     title: Release Notes
   downloads.md:
     title: Downloads
 
 contact:
-  - name: May Terry
+  - name: Pete Krautscheid
     telecom:
       - system: email # phone | fax | email | pager | url | sms | other
-        value: mayT@mitre.org
+        value: pete@mitre.org 
         use: work
 
 instanceOptions:
