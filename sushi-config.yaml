@@ -51,7 +51,6 @@ parameters:
    pin-canonicals: pin-multiples
 menu:
   Home: index.html
-  Style Guide: style_guide.html
   Artifacts:
     Artifact Index: artifacts.html
     Sample Data Resource Map: artifacts_grouping.html
@@ -62,6 +61,7 @@ menu:
     Synthetic Persona Overview: synthetic_personas.html
     PROMIS-10 QR to Observation Conversion: promis10_qr_observation_conversion.html
     AI-Assisted Contributor Guidance: ai_assisted_contributor_guidance.html
+  Style Guide: style_guide.html
   Release Notes: release_notes.html
   Downloads: downloads.html
 
