@@ -1,4 +1,3 @@
-## Sample Data Resource Map
 
 <!--
 Developer note: This page is intended to replace the previous reader-facing purpose of artifacts_grouping.md / "Artifacts by Group" with the Sample Data Resource Map concept. Keep the source filename and generated URL unless the team intentionally decides to rename them.

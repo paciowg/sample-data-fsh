@@ -1,4 +1,3 @@
-## PACIO Sample Data Depot
 
 The PACIO Sample Data Depot provides reusable synthetic FHIR sample data for PACIO implementation guide testing, Connectathon participation, and example development. The data is organized around synthetic personas, reusable resource groups, and topic-specific examples that can support multiple testing scenarios over time.
 

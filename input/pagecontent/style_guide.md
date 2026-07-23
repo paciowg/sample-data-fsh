@@ -1,4 +1,3 @@
-## Examples Style Guide
 
 This guide defines naming, identifier, and formatting conventions for PACIO sample data. These conventions help keep FHIR Shorthand files, generated examples, synthetic personas, and references consistent across the Sample Data Depot.
 

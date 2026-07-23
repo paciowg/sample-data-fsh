@@ -1,4 +1,3 @@
-## PROMIS-10 QR 4805 Observation Conversion Example
 
 This page shows how one PROMIS-10 QuestionnaireResponse (QR) is represented as a set of derived FHIR Observation resources in the PACIO sample data. The example uses `QuestionnaireResponse/4805` for Betsy Smith-Johnson.
 

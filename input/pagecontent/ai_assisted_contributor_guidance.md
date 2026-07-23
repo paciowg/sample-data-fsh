@@ -1,5 +1,3 @@
-## AI-Assisted Contributor Guidance
-
 ### Purpose
 
 This guide provides expectations for contributors using AI-assisted coding tools to create or update PACIO sample data. It is intended to reduce naming drift, prevent broad unintended edits, and preserve the clinical meaning of existing examples.
@@ -124,9 +122,9 @@ When prompting an AI coding tool, contributors should provide clear constraints,
 
 Suggested prompt language:
 
-```text
-Make the smallest necessary changes to support this update. Do not reformat unrelated content, do not rename unrelated resources, and do not change clinical facts outside the requested scope. Follow the PACIO Sample Data Style Guidance and update references only when required by the requested change.
-```
+> Make the smallest necessary changes to support this update. Do not reformat unrelated content, do not rename unrelated resources, and do not change clinical facts outside the requested scope.
+>
+> Follow the PACIO Sample Data Style Guidance and update references only when required by the requested change.
 
 ### Review Checklist
 
