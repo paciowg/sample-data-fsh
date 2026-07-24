@@ -53,8 +53,8 @@ menu:
   Home: index.html
   Artifacts:
     Artifact Index: artifacts.html
-    Sample Data Resource Map: artifacts_grouping.html
     Table of Contents: toc.html
+    Sample Data Resource Map: artifacts_grouping.html
   Storyboard:
     Betsy Smith-Johnson: pacio_persona_betsySmithJohnson.html
   Guidance and Examples:
@@ -66,20 +66,20 @@ menu:
   Downloads: downloads.html
 
 pages:
-  artifacts_grouping.md:
-    title: Sample Data Resource Map
   index.md:
     title: PACIO Sample Data Repository
-  style_guide.md:
-    title: Examples Style Guide
+  artifacts_grouping.md:
+    title: Sample Data Resource Map
+  pacio_persona_betsySmithJohnson.md:
+    title: Betsy Smith-Johnson - Home Health to Emergency Department
   synthetic_personas.md:
     title: Synthetic Persona Overview
   promis10_qr_observation_conversion.md:
     title: PROMIS-10 QR to Observation Conversion
   ai_assisted_contributor_guidance.md:
     title: AI-Assisted Contributor Guidance
-  pacio_persona_betsySmithJohnson.md:
-    title: Betsy Smith-Johnson - Home Health to Emergency Department
+  style_guide.md:
+    title: Examples Style Guide
   release_notes.md:
     title: Release Notes
   downloads.md:
