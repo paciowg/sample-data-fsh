@@ -1,0 +1,14 @@
+.bordered-table table {
+  border-collapse: collapse;
+}
+
+.bordered-table table,
+.bordered-table th,
+.bordered-table td {
+  border: 1px solid #ccc;
+}
+
+.bordered-table th,
+.bordered-table td {
+  padding: 6px 10px;
+}

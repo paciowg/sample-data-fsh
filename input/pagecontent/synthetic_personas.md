@@ -35,6 +35,7 @@ The tables below intentionally preserves current sample data decisions and flags
 
 
 ### Patients and Other Non-Practitioner People
+<div class="bordered-table">
 
 | Display Name        | Resource Type | Current Resource Id               | Persona Key | Identifiers                                                | Notes                                                                                                                                            |
 | ------------------- | ------------- | --------------------------------- | ----------- | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -44,8 +45,11 @@ The tables below intentionally preserves current sample data decisions and flags
 | Howard Thompson     | RelatedPerson | `relatedPerson-HowardThompson-01` | `ht01`      |                                                            | Witness only. Current FSH appears to use `name.family = "Howard"` and `name.given = "Thompson"`; review name order if this record is cleaned up. |
 | Tanya Williams      | RelatedPerson | `relatedPerson-TanyaWilliams-01`  | `tw01`      |                                                            | Witness only.                                                                                                                                    |
 
+</div>
+
 
 ### Practitioners
+<div class="bordered-table">
 
 | Display Name         | Current Practitioner Id          | Persona Key | Identifiers              | Role / Organization Context                                         | Notes                                                                                                                                                                             |
 | -------------------- | -------------------------------- | ----------- | ------------------------ | ------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -77,3 +81,5 @@ The tables below intentionally preserves current sample data decisions and flags
 | Mia Rinaldi          | `Practitioner-MiaRinaldi`        | `mr01`      | `MI license: 7201018594` | Speech-language pathologist at Motown Home Health Agency            |                                                                                                                                                                                   |
 | Nichelle Lorna       | `Practitioner-NichelleLorna`     | `nl01`      | `MI license: 98954`      | Registered nurse at Motown Home Health Agency                       |                                                                                                                                                                                   |
 | Kevin James          | `Practitioner-KevinJames`        | `kj01`      | `MI license: 4804289999` | Pharmacist at Renaissance Pharmacy                                  |                                                                                                                                                                                   |
+
+</div>
