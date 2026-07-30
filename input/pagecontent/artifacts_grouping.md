@@ -12,7 +12,7 @@
   * [Priya Sarkar, MD](Practitioner-Practitioner-PriyaSarkar.html), [Emergency Medicine Physician](PractitionerRole-PractitionerRole-Physician-PriyaSarkar.html)
   * [David Albahari, MD](Practitioner-Practitioner-DavidAlbahari.html), [Neurology Physician](PractitionerRole-PractitionerRole-Neuro-DavidAlbahari.html)
 
-* [Michigan Primary Health Care Associates](Organization-org-PC-Primary-Care-Michigan.html)
+* [Michigan Primary Health Care Associates](Organization-org-Michigan-Primary-Health-Care-A.html)
   * [Anita Chu, MD](Practitioner-Practitioner-AnitaChu-01.html), [Primary Care Physician](PractitionerRole-Role-IMMD-AnitaChu.html)
 
 #### SNF01: Detroit Post-acute Care Providers
@@ -120,11 +120,10 @@
 
 ### Compositions
 * [Discharge summary for transfer from hospital to SNF](Composition-BSJ1-composition-CCDA-dischargeSummary-01.html)
-* [Transition of care bundle for hospital from ED to SNF](Composition-betsysmith-johnson01-TOC-Hosp-to-SNF-01.html)
-
+* [Composition for TOC from ED to SNF](Composition-betsysmith-johnson01-TOC-Hosp-to-SNF-01.html)
+* [Composition for TOC from SNF to HHA](Composition-betsysmith-johnson01-TOC-SNF-to-HHA-01.html)
 
 ### Conditions
-* [Dysphagia](Condition-betsysmith-johnson01-Condition-Dysphagia-01.html)
 * [Ischemic Stroke](Condition-betsysmith-johnson01-condition-IschemicStrokeDiagnosis-01.html)
 * [Altered cognition](Condition-betsysmith-johnson01-condition-alteredCognition-01.html)
 * [Ataxia](Condition-betsysmith-johnson01-condition-ataxiaVertigo-01.html)
@@ -153,7 +152,6 @@
 
 ### Organizations
 * [Neuro Care Inc.](Organization-org-Neuro-Care-Inc.html)
-* [Michigan Primary Health Care Associates](Organization-org-PC-Primary-Care-Michigan.html)
 * [Metro Hospital Emergency Department](Organization-org-ED-Metro-Hospital.html)
 * [Motor City Skilled Nursing Facility](Organization-org-Motor-City-Skilled-Nursing-Facility.html)
 * [Motown Home Health](Organization-org-Motown-Home-Health.html)
@@ -161,10 +159,11 @@
 * [The Vernon Center](Organization-org-The-Vernon-Center.html)
 
 ### Questionnaire
-* [Zarit Burden Interview](Questionnaire-questionnaire-ZBI22.html)
+<!-- * [Zarit Burden Interview](Questionnaire-questionnaire-ZBI22.html) --> 
+
 
 ### Questionnaire response
-* [Zarit Burden Interview responses](QuestionnaireResponse-BSJ1-QuestionnaireResponse-GlobalAlliant-01.html)
+<!-- * [Zarit Burden Interview responses](QuestionnaireResponse-BSJ1-QuestionnaireResponse-GlobalAlliant-01.html) -->
 * [Stroke scale responses](QuestionnaireResponse-betsysmith-johnson01-qr-strokescale-01.html)
 
 ### Related persons

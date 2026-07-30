@@ -11,7 +11,7 @@ Description: "MedicationRequest for glipizide - stopped order on 2025-04-22 by R
 * authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#310489 "24 HR glipiZIDE 2.5 MG Extended Release Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#52817-385-10
+// * medicationCodeableConcept[0].coding[1] = $NDC#52817-385-10  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medrx-acetaminophen-0-2
 InstanceOf: MedicationRequest
@@ -35,7 +35,7 @@ Description: "MedicationRequest for calcium - stopped order on 2025-04-22 by Rol
 * authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#282465 "calcium carbonate 1250 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#63629-2600-1
+// * medicationCodeableConcept[0].coding[1] = $NDC#63629-2600-1  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medrx-calcium-0-4
 InstanceOf: MedicationRequest
@@ -47,7 +47,7 @@ Description: "MedicationRequest for calcium - stopped order on 2025-04-22 by Rol
 * authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#1310948 "calcium carbonate 1500 MG / cholecalciferol 800 UNT Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#10939-535-44
+// * medicationCodeableConcept[0].coding[1] = $NDC#10939-535-44  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medrx-carvedilol-0-5
 InstanceOf: MedicationRequest
@@ -82,8 +82,8 @@ Description: "MedicationRequest for colace - stopped order on 2025-04-22 by Role
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#1247756 "docusate sodium 100 MG Oral Capsule"
-* medicationCodeableConcept[0].coding[1] = $NDC#68788-8658-1
+* medicationCodeableConcept[0].coding[0] = $rxnorm#1247756 "docusate sodium 100 MG Oral Capsule [Colace]"
+// * medicationCodeableConcept[0].coding[1] = $NDC#68788-8658-1  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medrx-ferrous-0-8
 InstanceOf: MedicationRequest
@@ -95,7 +95,7 @@ Description: "MedicationRequest for ferrous gluconate - active order on 2025-04-
 * authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#242590 "ferrous gluconate 240 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#11845-137-51
+// * medicationCodeableConcept[0].coding[1] = $NDC#11845-137-51  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medrx-ferrous-0-9
 InstanceOf: MedicationRequest
@@ -107,7 +107,7 @@ Description: "MedicationRequest for ferrous gluconate - stopped order on 2025-04
 * authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#310325 "ferrous sulfate 325 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#10135-243-13
+// * medicationCodeableConcept[0].coding[1] = $NDC#10135-243-13  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medrx-jardiance-0-10
 InstanceOf: MedicationRequest
@@ -118,7 +118,7 @@ Description: "MedicationRequest for jardiance - active order on 2025-04-22 by Ro
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "empagliflozin 10 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "empagliflozin 10 MG Oral Tablet [Jardiance]"
 * medicationCodeableConcept[0].coding[1] = $NDC#0597-0152-07
 
 Instance: bsj1-smp-medrx-lipitor-0-11
@@ -130,7 +130,7 @@ Description: "MedicationRequest for lipitor - active order on 2025-04-22 by Role
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet [Lipitor]"
 * medicationCodeableConcept[0].coding[1] = $NDC#0071-0157-23
 
 Instance: bsj1-smp-medrx-metformin-0-12
@@ -167,7 +167,7 @@ Description: "MedicationRequest for polyethylene - stopped order on 2025-04-22 b
 * authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
-* medicationCodeableConcept[0].coding[1] = $NDC#63739-198-62
+// * medicationCodeableConcept[0].coding[1] = $NDC#63739-198-62  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medrx-sertraline-0-15
 InstanceOf: MedicationRequest
@@ -191,7 +191,7 @@ Description: "MedicationRequest for ondansetron - stopped order on 2025-04-22 by
 * authoredOn = "2025-04-22T09:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#198052 "ondansetron 4 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#0378-0315-53
+// * medicationCodeableConcept[0].coding[1] = $NDC#0378-0315-53  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medrx-acetaminophen-1-1
 InstanceOf: MedicationRequest
@@ -239,7 +239,7 @@ Description: "MedicationRequest for ferrous gluconate - active order on 2025-05-
 * authoredOn = "2025-05-03T14:45:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#242590 "ferrous gluconate 240 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#11845-137-51
+// * medicationCodeableConcept[0].coding[1] = $NDC#11845-137-51  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medrx-jardiance-1-5
 InstanceOf: MedicationRequest
@@ -250,7 +250,7 @@ Description: "MedicationRequest for jardiance - draft order on 2025-05-03 by Pra
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authoredOn = "2025-05-03T14:45:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "empagliflozin 10 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "empagliflozin 10 MG Oral Tablet [Jardiance]"
 * medicationCodeableConcept[0].coding[1] = $NDC#55154-0411-8
 
 Instance: bsj1-smp-medrx-lipitor-1-6
@@ -262,7 +262,7 @@ Description: "MedicationRequest for lipitor - active order on 2025-05-03 by Prac
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authoredOn = "2025-05-03T14:45:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet [Lipitor]"
 * medicationCodeableConcept[0].coding[1] = $NDC#0071-0157-23
 
 Instance: bsj1-smp-medrx-metformin-1-7
@@ -335,7 +335,7 @@ Description: "MedicationRequest for ferrous gluconate - active order on 2025-05-
 * authoredOn = "2025-05-04T15:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#242590 "ferrous gluconate 240 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#11845-137-51
+// * medicationCodeableConcept[0].coding[1] = $NDC#11845-137-51  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medrx-ferrous-1-13
 InstanceOf: MedicationRequest
@@ -347,7 +347,7 @@ Description: "MedicationRequest for ferrous gluconate - draft order on 2025-05-0
 * authoredOn = "2025-05-04T15:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-Physician-PriyaSarkar)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#242590 "ferrous gluconate 240 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#11845-137-51
+// * medicationCodeableConcept[0].coding[1] = $NDC#11845-137-51  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medrx-jardiance-2-1
 InstanceOf: MedicationRequest
@@ -358,7 +358,7 @@ Description: "MedicationRequest for jardiance - draft order on 2025-05-04 by Pra
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authoredOn = "2025-07-01T16:15:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "empagliflozin 10 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "empagliflozin 10 MG Oral Tablet [Jardiance]"
 * medicationCodeableConcept[0].coding[1] = $NDC#55154-0411-8
 
 Instance: bsj1-smp-medrx-lipitor-2-2
@@ -370,7 +370,7 @@ Description: "MedicationRequest for lipitor - active order on 2025-05-04 by Prac
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authoredOn = "2025-07-01T16:15:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet [Lipitor]"
 * medicationCodeableConcept[0].coding[1] = $NDC#0071-0157-23
 
 Instance: bsj1-smp-medrx-metformin-2-3
@@ -395,7 +395,7 @@ Description: "MedicationRequest for polyethylene - active order on 2025-05-04 by
 * authoredOn = "2025-07-01T16:15:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
-* medicationCodeableConcept[0].coding[1] = $NDC#63739-198-62
+// * medicationCodeableConcept[0].coding[1] = $NDC#63739-198-62  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medrx-sertraline-2-5
 InstanceOf: MedicationRequest
@@ -455,7 +455,7 @@ Description: "MedicationRequest for ferrous gluconate - stopped order on 2025-07
 * authoredOn = "2025-07-02T13:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#242590 "ferrous gluconate 240 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#11845-137-51
+// * medicationCodeableConcept[0].coding[1] = $NDC#11845-137-51  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medrx-ferrous-2-10
 InstanceOf: MedicationRequest
@@ -467,7 +467,7 @@ Description: "MedicationRequest for ferrous gluconate - active order on 2025-07-
 * authoredOn = "2025-07-02T13:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#702249 "ferrous sulfate 44 MG/ML Oral Solution"
-* medicationCodeableConcept[0].coding[1] = $NDC#0536-1400-85
+// * medicationCodeableConcept[0].coding[1] = $NDC#0536-1400-85  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medrx-insulin-2-11
 InstanceOf: MedicationRequest
@@ -490,7 +490,7 @@ Description: "MedicationRequest for jardiance - stopped order on 2025-07-02 by P
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authoredOn = "2025-07-02T13:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "empagliflozin 10 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "empagliflozin 10 MG Oral Tablet [Jardiance]"
 * medicationCodeableConcept[0].coding[1] = $NDC#55154-0411-8
 
 Instance: bsj1-smp-medrx-lipitor-2-13
@@ -502,7 +502,7 @@ Description: "MedicationRequest for lipitor - active order on 2025-07-02 by Prac
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authoredOn = "2025-07-02T13:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-MD-HemaOnko)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet [Lipitor]"
 * medicationCodeableConcept[0].coding[1] = $NDC#0071-0157-23
 
 Instance: bsj1-smp-medrx-lipitor-3-1
@@ -514,7 +514,7 @@ Description: "MedicationRequest for lipitor - draft order on 2025-07-03 by Pract
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authoredOn = "2025-07-03T09:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-DNP-JudySalas)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet [Lipitor]"
 * medicationCodeableConcept[0].coding[1] = $NDC#0071-0157-23
 
 Instance: bsj1-smp-medrx-metformin-3-2
@@ -551,7 +551,7 @@ Description: "MedicationRequest for polyethylene - stopped order on 2025-07-02 b
 * authoredOn = "2025-07-03T09:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-DNP-JudySalas)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#876193 "polyethylene glycol 3350 17000 MG Powder for Oral Solution"
-* medicationCodeableConcept[0].coding[1] = $NDC#63739-198-62
+// * medicationCodeableConcept[0].coding[1] = $NDC#63739-198-62  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medrx-sertraline-3-5
 InstanceOf: MedicationRequest
@@ -575,7 +575,7 @@ Description: "MedicationRequest for sitagliptin - active order on 2025-07-02 by 
 * authoredOn = "2025-07-03T09:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-DNP-JudySalas)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#665042 "sitagliptin 50 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#70710-1900-9
+// * medicationCodeableConcept[0].coding[1] = $NDC#70710-1900-9  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medrx-sitagliptin-3-7
 InstanceOf: MedicationRequest
@@ -587,7 +587,7 @@ Description: "MedicationRequest for sitagliptin - active order on 2025-07-02 by 
 * authoredOn = "2025-07-03T09:00:00-08:00"
 * requester = Reference(PractitionerRole/PractitionerRole-DNP-JudySalas)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#665042 "sitagliptin 50 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#70710-1900-9
+// * medicationCodeableConcept[0].coding[1] = $NDC#70710-1900-9  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medrx-acetaminophen-4-1
 InstanceOf: MedicationRequest
@@ -623,7 +623,7 @@ Description: "MedicationRequest for ferrous gluconate - active order on 2025-07-
 * authoredOn = "2025-07-16T11:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#702249 "ferrous sulfate 44 MG/ML Oral Solution"
-* medicationCodeableConcept[0].coding[1] = $NDC#0536-1400-85
+// * medicationCodeableConcept[0].coding[1] = $NDC#0536-1400-85  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medrx-insulin-4-4
 InstanceOf: MedicationRequest
@@ -646,7 +646,7 @@ Description: "MedicationRequest for lipitor - stopped order on 2025-07-16 by Rol
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authoredOn = "2025-07-16T11:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet [Lipitor]"
 * medicationCodeableConcept[0].coding[1] = $NDC#0071-0157-23
 
 Instance: bsj1-smp-medrx-metformin-4-6
@@ -671,7 +671,7 @@ Description: "MedicationRequest for pitavastatin - active order on 2025-07-16 by
 * authoredOn = "2025-07-16T11:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#861652 "pitavastatin calcium 4 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#72603-480-01
+// * medicationCodeableConcept[0].coding[1] = $NDC#72603-480-01  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
 
 Instance: bsj1-smp-medrx-sitagliptin-4-8
 InstanceOf: MedicationRequest
@@ -683,4 +683,40 @@ Description: "MedicationRequest for sitagliptin - active order on 2025-07-16 by 
 * authoredOn = "2025-07-16T11:30:00-08:00"
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#665042 "sitagliptin 50 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#70710-1900-9
+// * medicationCodeableConcept[0].coding[1] = $NDC#70710-1900-9  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
+
+Instance: bsj1-smp-medrx-jardiance-5-1
+InstanceOf: MedicationRequest
+Usage: #example
+Description: "MedicationRequest for jardiance - active order on 2025-10-16 by Role-IMMD-AnitaChu"
+* status = #active
+* intent = #order
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
+* authoredOn = "2025-10-16T11:02:40.456Z"
+* requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
+* medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "empagliflozin 10 MG Oral Tablet [Jardiance]"
+* medicationCodeableConcept[0].coding[1] = $NDC#55154-0411-8
+
+Instance: bsj1-smp-medrx-sertraline-5-2
+InstanceOf: MedicationRequest
+Usage: #example
+Description: "MedicationRequest for sertraline - active order on 2025-10-16 by Role-IMMD-AnitaChu"
+* status = #active
+* intent = #order
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
+* authoredOn = "2025-10-16T11:02:40.456Z"
+* requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
+* medicationCodeableConcept[0].coding[0] = $rxnorm#312940 "sertraline 25 MG Oral Tablet"
+* medicationCodeableConcept[0].coding[1] = $NDC#0143-9656-09
+
+Instance: bsj1-smp-medrx-lipitor-5-3
+InstanceOf: MedicationRequest
+Usage: #example
+Description: "MedicationRequest for lipitor - active order on 2025-10-16 by Role-IMMD-AnitaChu"
+* status = #active
+* intent = #order
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
+* authoredOn = "2025-10-16T11:02:40.456Z"
+* requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
+* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet [Lipitor]"
+* medicationCodeableConcept[0].coding[1] = $NDC#0071-0157-23

@@ -83,59 +83,120 @@ Usage: #example
 Instance: betsysmith-johnson01-qr-phq9-snf-admission-01
 InstanceOf: QuestionnaireResponse
 Usage: #example
-* questionnaire = "https://gw.interop.community/paciosandbox/open/Questionnaire/44249-1"
+Title: "PHQ-9 QuestionnaireResponse Example"
+Description: "Example PHQ-9 depression assessment"
+* questionnaire = "http://example.org/fhir/Questionnaire/PHQ9Questionnaire"
 * status = #completed
 * authored = "2025-05-04T16:30:00.000Z"
 * subject = Reference(Patient/patient-betsysmith-johnson01)
 * author = Reference(PractitionerRole/PractitionerRole-RN-TreyvorClark)
-* item[0].linkId = "/44250-9"
+* item[0].linkId = "phq9-1"
 * item[=].text = "Little interest or pleasure in doing things"
 * item[=].answer.valueCoding = $loinc#LA6570-1 "More than half the days"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
-* item[+].linkId = "/44255-8"
+* item[+].linkId = "phq9-2"
 * item[=].text = "Feeling down, depressed, or hopeless"
 * item[=].answer.valueCoding = $loinc#LA6571-9 "Nearly every day"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 3
-* item[+].linkId = "/44259-0"
+* item[+].linkId = "phq9-3"
 * item[=].text = "Trouble falling or staying asleep, or sleeping too much"
 * item[=].answer.valueCoding = $loinc#LA6570-1 "More than half the days"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
-* item[+].linkId = "/44254-1"
+* item[+].linkId = "phq9-4"
 * item[=].text = "Feeling tired or having little energy"
 * item[=].answer.valueCoding = $loinc#LA6571-9 "Nearly every day"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 3
-* item[+].linkId = "/44251-7"
+* item[+].linkId = "phq9-5"
 * item[=].text = "Poor appetite or overeating"
 * item[=].answer.valueCoding = $loinc#LA6570-1 "More than half the days"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
-* item[+].linkId = "/44258-2"
-* item[=].text = "Feeling bad about yourself-or that you are a failure or have let yourself or your family down"
+* item[+].linkId = "phq9-6"
+* item[=].text = "Feeling bad about yourself — or that you are a failure or have let yourself or your family down"
 * item[=].answer.valueCoding = $loinc#LA6570-1 "More than half the days"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
-* item[+].linkId = "/44252-5"
+* item[+].linkId = "phq9-7"
 * item[=].text = "Trouble concentrating on things, such as reading the newspaper or watching television"
 * item[=].answer.valueCoding = $loinc#LA6571-9 "Nearly every day"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 3
-* item[+].linkId = "/44253-3"
-* item[=].text = "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you were moving around a lot more than usual"
+* item[+].linkId = "phq9-8"
+* item[=].text = "Moving or speaking so slowly that other people could have noticed? Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual"
 * item[=].answer.valueCoding = $loinc#LA6571-9 "Nearly every day"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 3
-* item[+].linkId = "/44260-8"
+* item[+].linkId = "phq9-9"
 * item[=].text = "Thoughts that you would be better off dead, or of hurting yourself in some way"
 * item[=].answer.valueCoding = $loinc#LA6571-9 "Nearly every day"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 3
-* item[+].linkId = "/44261-6"
+* item[+].linkId = "total-score"
 * item[=].text = "Patient Health Questionnaire 9 item (PHQ-9) total score [Reported]"
 * item[=].answer.valueDecimal = 23
+
+Instance: betsysmith-johnson01-qr-phq9-snf-discharge-01
+InstanceOf: QuestionnaireResponse
+Usage: #example
+Title: "PHQ-9 QuestionnaireResponse Example"
+Description: "Example PHQ-9 depression assessment"
+* questionnaire = "http://example.org/fhir/Questionnaire/PHQ9Questionnaire"
+* status = #completed
+* authored = "2026-02-20T16:30:00.000Z"
+* subject = Reference(Patient/patient-betsysmith-johnson01)
+* author = Reference(PractitionerRole/PractitionerRole-RN-TreyvorClark)
+* item[0].linkId = "phq9-1"
+* item[=].text = "Little interest or pleasure in doing things"
+* item[=].answer.valueCoding = $loinc#LA6570-1 "More than half the days"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 2
+* item[+].linkId = "phq9-2"
+* item[=].text = "Feeling down, depressed, or hopeless"
+* item[=].answer.valueCoding = $loinc#LA6570-1 "More than half the days"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 2
+* item[+].linkId = "phq9-3"
+* item[=].text = "Trouble falling or staying asleep, or sleeping too much"
+* item[=].answer.valueCoding = $loinc#LA6570-1 "More than half the days"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 2
+* item[+].linkId = "phq9-4"
+* item[=].text = "Feeling tired or having little energy"
+* item[=].answer.valueCoding = $loinc#LA6570-1 "More than half the days"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 2
+* item[+].linkId = "phq9-5"
+* item[=].text = "Poor appetite or overeating"
+* item[=].answer.valueCoding = $loinc#LA6570-1 "More than half the days"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 2
+* item[+].linkId = "phq9-6"
+* item[=].text = "Feeling bad about yourself — or that you are a failure or have let yourself or your family down"
+* item[=].answer.valueCoding = $loinc#LA6570-1 "More than half the days"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 2
+* item[+].linkId = "phq9-7"
+* item[=].text = "Trouble concentrating on things, such as reading the newspaper or watching television"
+* item[=].answer.valueCoding = $loinc#LA6570-1 "More than half the days"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 2
+* item[+].linkId = "phq9-8"
+* item[=].text = "Moving or speaking so slowly that other people could have noticed? Or the opposite — being so fidgety or restless that you have been moving around a lot more than usual"
+* item[=].answer.valueCoding = $loinc#LA6570-1 "More than half the days"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 2
+* item[+].linkId = "phq9-9"
+* item[=].text = "Thoughts that you would be better off dead, or of hurting yourself in some way"
+* item[=].answer.valueCoding = $loinc#LA6570-1 "More than half the days"
+* item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
+* item[=].answer.valueCoding.extension.valueDecimal = 2
+* item[+].linkId = "total-score"
+* item[=].text = "Patient Health Questionnaire 9 item (PHQ-9) total score [Reported]"
+* item[=].answer.valueDecimal = 18
 
 Instance: betsysmith-johnson01-qr-bims-snf-admission-01
 InstanceOf: QuestionnaireResponse
@@ -439,7 +500,7 @@ Usage: #example
 * item[=].answer.valueCoding.extension.valueDecimal = 04
 * item[+].linkId = "/89402-2"
 * item[=].text = "Picking up object"
-* item[=].answer.valueCoding = $loinc#LA27994-5 "Dependent - Helper does all of the effort. Resident does none of the effort to complete the activity. Or, the assistance of 2 or more helpers is required for the resident to complete the activity."
+* item[=].answer.valueCoding = $loinc#LA27994-5 "Setup or clean-up assistance - Helper sets up or cleans up; resident completes activity. Helper assists only prior to or following the activity."
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 05
 * item[+].linkId = "/95738-1"

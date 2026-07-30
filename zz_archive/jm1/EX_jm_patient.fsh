@@ -17,7 +17,7 @@ Description: "Example Patient: Jenny Mosley"
 * identifier[0].use = #usual
 * identifier[=].type = $v2-0203#MR "Medical Record Number"
 * identifier[=].type.text = "Medical Record Number"
-* identifier[=].system = "http://hospital.smarthealthit.org"
+* identifier[=].system = "http://example.org/hospital.smarthealthit"    // mlt: changed IG version to example.org for IG publisher to ignore. Otherwise, it will errors if the url is not real.
 * identifier[=].value = "1072702"
 * identifier[+].system = "http://hl7.org/fhir/sid/us-medicare"
 * identifier[=].value = "1EG4-TE5-MK73"

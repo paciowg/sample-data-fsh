@@ -6,7 +6,7 @@ Instance: BSJ1-composition-CCDA-dischargeSummary-01
 InstanceOf: Composition
 Description: "Betsy Smith-Johnson's CCDA on FHIR Discharge Summary. Includes a list of allergies, chief complaint, reason for visit, admission diagnosis, past medical history, and more."
 Usage: #example
-* meta.profile = "http://hl7.org/fhir/us/ccda/StructureDefinition/Discharge-Summary|2.0.0-ballot"
+* meta.profile = "http://hl7.org/fhir/us/ccda/StructureDefinition/Discharge-Summary"
 * language = #en-US
 * identifier.system = "urn:ietf:rfc:3986"
 * identifier.value = "urn:uuid:03d0f89e-b0ac-482b-a400-c436df8055e3"
@@ -44,7 +44,7 @@ Usage: #example
 * section[=].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Medications on admission for Betsy Smith Johnson</div>"
 * section[+].title = "Past Medical History Section"
-* section[=].code = $loinc#11348-0 "History of Past illness Narrative"
+* section[=].code = $loinc#11348-0 "History of Past illness note"
 * section[=].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Past Medical History for Betsy Smith Johnson</div>"
 * section[=].entry = Reference(Condition/betsysmith-johnson01-Condition-BreastCancer-01) "Breast Cancer"
@@ -57,11 +57,11 @@ Usage: #example
 * section[=].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Review of systems for Betsy Smith Johnson</div>"
 * section[+].title = "Family History Section"
-* section[=].code = $loinc#10157-6 "History of family member diseases Narrative"
+* section[=].code = $loinc#10157-6 "History of family member diseases note"
 * section[=].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Family history for Betsy Smith Johnson</div>"
 * section[+].title = "Social History Section"
-* section[=].code = $loinc#29762-2 "Social history Narrative"
+* section[=].code = $loinc#29762-2 "Social history note"
 * section[=].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Social history for Betsy Smith Johnson</div>"
 * section[+].title = "Functional Status Section"
@@ -69,7 +69,7 @@ Usage: #example
 * section[=].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Functional status assessment for Betsy Smith Johnson</div>"
 * section[+].title = "Hospital Course Section"
-* section[=].code = $loinc#8648-8 "Hospital course"
+* section[=].code = $loinc#8648-8 "Hospital course note"
 * section[=].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Hospital course for Betsy Smith Johnson</div>"
 * section[+].title = "Hospital Consultations Section"
@@ -99,7 +99,7 @@ Usage: #example
 * section[=].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Procedures for Betsy Smith Johnson</div>"
 * section[+].title = "Discharge Diagnosis Section"
-* section[=].code = $loinc#11535-2 "Hospital discharge Dx Narrative"
+* section[=].code = $loinc#11535-2 "Hospital discharge diagnosis note"
 * section[=].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Discharge diagnosis for Betsy Smith Johnson</div>"
 * section[+].title = "Discharge Medications Section (entries required)"
@@ -119,7 +119,7 @@ Usage: #example
 * section[=].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Hospital discharge studies for Betsy Smith Johnson</div>"
 * section[+].title = "Immunizations Section"
-* section[=].code = $loinc#11369-6 "History of Immunization Narrative"
+* section[=].code = $loinc#11369-6 "History of Immunization note"
 * section[=].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Immunizations for Betsy Smith Johnson</div>"
 * section[+].title = "Nutrition Section"
@@ -127,7 +127,7 @@ Usage: #example
 * section[=].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Nutrition for Betsy Smith Johnson</div>"
 * section[+].title = "Vital Signs Section"
-* section[=].code = $loinc#8716-3 "Vital signs"
+* section[=].code = $loinc#8716-3 "Vital signs note"
 * section[=].text.status = #additional
 * section[=].text.div = "<div xmlns=\"http://www.w3.org/1999/xhtml\">Vital signs for Betsy Smith Johnson</div>"
 * section[=].entry[0] = Reference(Observation/betsysmith-johnson01-observation-bodyweight-01)

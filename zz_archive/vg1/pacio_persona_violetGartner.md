@@ -2,7 +2,7 @@
 
 This use case was used to test a REMS scenario using Transitions of Care (ToC) and Standardized Medication Profile (SMP) IGs.
 
-### Scene 5: Violet Gartner Vignette
+### Scene 7: Violet Gartner Vignette
 
 The REMS program is a critical part of medication safety in the US. The REMS drug safety program
 required by the United States Food and Drug Administration (FDA) is for medications with serious
@@ -36,7 +36,7 @@ to fill Violet’s medications.
 
 <br />
 
-#### Scene 5 FHIR Resources
+#### Scene 7 FHIR Resources
 
 * [Bundle: VioletGartner01-SMP-Bundle-ED-01](Bundle-VioletGartner01-SMP-Bundle-ED-01.html)
 * [Bundle: VioletGartner01-SMP-Bundle-Home-01](Bundle-VioletGartner01-SMP-Bundle-Home-01.html)

@@ -109,6 +109,35 @@ Description: "Betsy Smith-Johnson vital signs panel during pre-discharge assessm
 * hasMember[6] = Reference(betsysmith-johnson01-observation-bodytemp-05)
 * hasMember[7] = Reference(betsysmith-johnson01-observation-oxygensat-05)
 
+// The final two vital signs just have body temperarture
+
+Instance: bsj1-vital-signs-20260707
+InstanceOf: http://hl7.org/fhir/us/core/StructureDefinition/us-core-vital-signs
+Usage: #example
+Title: "Betsy Smith-Johnson vital signs panel - 2026-07-07"
+Description: "Betsy Smith-Johnson vital signs panel on 2026-07-07 with normal temperature"
+* status = #final
+* category[VSCat] = $observation-category#vital-signs "Vital Signs"
+* code = $loinc#29274-8 "Vital signs measurements"
+* subject = Reference(Patient/patient-betsysmith-johnson01)
+* effectiveDateTime = "2026-07-07T10:00:00-04:00"
+* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
+* hasMember[0] = Reference(bsj1-body-temperature-20260707)
+
+Instance: bsj1-vital-signs-20260714
+InstanceOf: http://hl7.org/fhir/us/core/StructureDefinition/us-core-vital-signs
+Usage: #example
+Title: "Betsy Smith-Johnson vital signs panel - 2026-07-14"
+Description: "Betsy Smith-Johnson vital signs panel on 2026-07-14 with elevated temperature"
+* status = #final
+* category[VSCat] = $observation-category#vital-signs "Vital Signs"
+* code = $loinc#29274-8 "Vital signs measurements"
+* subject = Reference(Patient/patient-betsysmith-johnson01)
+* effectiveDateTime = "2026-07-14T10:00:00-04:00"
+* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
+* hasMember[0] = Reference(bsj1-body-temperature-20260714)
+
+
 // ============================================================================
 // BODY WEIGHT OBSERVATIONS - Chronological Order
 // ============================================================================
@@ -641,6 +670,32 @@ Description: "Betsy Smith-Johnson body temperature during pre-discharge assessme
 * effectiveDateTime = "2025-09-20T11:00:00-05:00"
 * performer = Reference(PractitionerRole/PractitionerRole-RN-RichardRisto)
 * valueQuantity = 98.5 '[degF]' "degrees Fahrenheit"
+
+Instance: bsj1-body-temperature-20260707
+InstanceOf: http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-temperature
+Usage: #example
+Title: "Betsy Smith-Johnson body temperature - 2026-07-07"
+Description: "Betsy Smith-Johnson body temperature observation on 2026-07-07"
+* status = #final
+* category[VSCat] = $observation-category#vital-signs "Vital Signs"
+* code = $loinc#8310-5 "Body temperature"
+* subject = Reference(Patient/patient-betsysmith-johnson01)
+* effectiveDateTime = "2026-07-07T10:00:00-04:00"
+* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
+* valueQuantity = 98.6 '[degF]' "degrees Fahrenheit"
+
+Instance: bsj1-body-temperature-20260714
+InstanceOf: http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-temperature
+Usage: #example
+Title: "Betsy Smith-Johnson body temperature - 2026-07-14"
+Description: "Betsy Smith-Johnson body temperature observation on 2026-07-14"
+* status = #final
+* category[VSCat] = $observation-category#vital-signs "Vital Signs"
+* code = $loinc#8310-5 "Body temperature"
+* subject = Reference(Patient/patient-betsysmith-johnson01)
+* effectiveDateTime = "2026-07-14T10:00:00-04:00"
+* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
+* valueQuantity = 101.7 '[degF]' "degrees Fahrenheit"
 
 // ============================================================================
 // OXYGEN SATURATION OBSERVATIONS - Chronological Order

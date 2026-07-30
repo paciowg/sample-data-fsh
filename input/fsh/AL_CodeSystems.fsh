@@ -15,6 +15,8 @@ Alias:   $HGNC = http://www.genenames.org
 Alias:   $HGVS = http://varnomen.hgvs.org
 Alias:   $ATC = http://www.whocc.no/atc
 Alias:   $NDC = http://hl7.org/fhir/sid/ndc
+Alias:   $ICF = http://hl7.org/fhir/sid/icf
+Alias:   $HCPCS = http://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets // mlt: added per https://terminology.hl7.org/en/external_code_systems.html
 
 Alias:  $v2-0203 = http://terminology.hl7.org/CodeSystem/v2-0203
 Alias:  $v3-MaritalStatus = http://terminology.hl7.org/CodeSystem/v3-MaritalStatus

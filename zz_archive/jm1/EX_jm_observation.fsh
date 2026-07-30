@@ -2,7 +2,7 @@
 
 Alias: $observation-category = http://terminology.hl7.org/CodeSystem/observation-category
 Alias: $us-core-category = http://hl7.org/fhir/us/core/CodeSystem/us-core-category
-Alias: $pfe-category-cs = http://hl7.org/fhir/us/pacio-pfe/CodeSystem/pfe-category-cs
+Alias: $pfe-category-cs = http://terminology.hl7.org/CodeSystem/observation-category
 Alias: $loinc = http://loinc.org
 
 Instance: JM-FCM-Rec-ContHigh

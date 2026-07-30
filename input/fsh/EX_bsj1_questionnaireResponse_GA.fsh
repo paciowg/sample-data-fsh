@@ -12,6 +12,7 @@ Usage: #inline
 * subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * authored = "2025-06-11T16:16:49.872Z"
 * author = Reference(RelatedPerson/relatedPerson-CharlesJohnson01) "Charles Johnson"
+
 * item[0].linkId = "mbi"
 * item[=].text = "What is this patient's Medicare Beneficiary Identifier (MBI)?"
 * item[=].answer.valueString = "1PA3D58WH16"
@@ -31,8 +32,8 @@ Usage: #inline
 * item[=].text = "What is the primary caregiver's last name?"
 * item[=].answer.valueString = "Johnson"
 * item[+].linkId = "assessment_date"
-* item[=].text = "Please report the date this assessment was complete."
-* item[=].answer.valueDate = "2025-07-16"
+* item[=].text = "Please report the date this assessment was completed."
+* item[=].answer.valueDate = "2025-06-11"
 * item[+].linkId = "ask_more"
 * item[=].text = "Do you feel that your relative asks for more help than he/she needs?"
 * item[=].answer.valueCoding = #2 "Sometimes"
@@ -100,20 +101,20 @@ Usage: #inline
 * item[=].text = "Overall, how burdened do you feel in caring for your relative?"
 * item[=].answer.valueCoding = #1 "A little bit"
 
-Instance: promis-10-assessment-betsy-july
+Instance: promis-10-assessment-betsy-april
 InstanceOf: QuestionnaireResponse
 Usage: #example
 * meta.versionId = "1"
-* meta.lastUpdated = "2025-07-15T14:36:50.241Z"
+* meta.lastUpdated = "2025-04-16T14:36:50.241Z"
 * questionnaire = "https://globalalliantinc.com/fhir/Questionnaire/questionnaire-PROMIS10"
-* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * status = #completed
-* authored = "2025-07-15T14:36:50.241Z"
-* author = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
-* item[0].answer.valueString = "7A34C75DE12"
+* authored = "2025-04-16T14:36:50.241Z"
+* author = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
+* item[0].answer.valueString = "1PA3D58WH16"
 * item[=].linkId = "mbi"
 * item[=].text = "What is this patient's Medicare Beneficiary Identifier (MBI)?"
-* item[+].answer.valueDate = "2025-07-15"
+* item[+].answer.valueDate = "2025-04-16"
 * item[=].linkId = "assessment_date"
 * item[=].text = "Please report the date this assessment was completed."
 * item[+].answer.valueCoding = $loinc#LA8967-7 "Good"
@@ -168,10 +169,10 @@ Usage: #example
 * item[=].text = "On a scale of 0-10, with 10 being the worst pain imaginable and 0 being no pain, how would you rate your pain on average?"
 * item[+].answer.valueDecimal = 9
 * item[=].linkId = "physical_health_score"
-* item[=].text = "Physical Health Score (Raw Score)"
+* item[=].text = "PROMIS-10 Global Physical Health (Raw Score)"
 * item[+].answer.valueDecimal = 9
 * item[=].linkId = "mental_health_score"
-* item[=].text = "Mental Health Score (Raw Score)"
+* item[=].text = "PROMIS-10 Global Mental Health (Raw Score)"
 * item[+].answer.valueDecimal = 32.4
 * item[=].linkId = "physical_health_tscore"
 * item[=].text = "PROMIS Global Physical Health v1.2 T-Score"
@@ -179,20 +180,20 @@ Usage: #example
 * item[=].linkId = "mental_health_tscore"
 * item[=].text = "PROMIS Global Mental Health v1.2 T-Score"
 
-Instance: promis-10-assessment-betsy-august
+Instance: promis-10-assessment-betsy-july
 InstanceOf: QuestionnaireResponse
 Usage: #example
 * meta.versionId = "1"
-* meta.lastUpdated = "2025-08-20T10:15:30.123Z"
+* meta.lastUpdated = "2025-07-16T10:15:30.123Z"
 * questionnaire = "https://globalalliantinc.com/fhir/Questionnaire/questionnaire-PROMIS10"
-* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * status = #completed
-* authored = "2025-08-20T10:15:30.123Z"
-* author = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
-* item[0].answer.valueString = "7A34C75DE12"
+* authored = "2025-07-16T10:15:30.123Z"
+* author = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
+* item[0].answer.valueString = "1PA3D58WH16"
 * item[=].linkId = "mbi"
 * item[=].text = "What is this patient's Medicare Beneficiary Identifier (MBI)?"
-* item[+].answer.valueDate = "2025-08-20"
+* item[+].answer.valueDate = "2025-07-16"
 * item[=].linkId = "assessment_date"
 * item[=].text = "Please report the date this assessment was completed."
 * item[+].answer.valueCoding = $loinc#LA8967-7 "Good"
@@ -247,10 +248,10 @@ Usage: #example
 * item[=].text = "On a scale of 0-10, with 10 being the worst pain imaginable and 0 being no pain, how would you rate your pain on average?"
 * item[+].answer.valueDecimal = 12
 * item[=].linkId = "physical_health_score"
-* item[=].text = "Physical Health Score (Raw Score)"
+* item[=].text = "PROMIS-10 Global Physical Health (Raw Score)"
 * item[+].answer.valueDecimal = 11
 * item[=].linkId = "mental_health_score"
-* item[=].text = "Mental Health Score (Raw Score)"
+* item[=].text = "PROMIS-10 Global Mental Health (Raw Score)"
 * item[+].answer.valueDecimal = 39.8
 * item[=].linkId = "physical_health_tscore"
 * item[=].text = "PROMIS Global Physical Health v1.2 T-Score"
@@ -258,20 +259,20 @@ Usage: #example
 * item[=].linkId = "mental_health_tscore"
 * item[=].text = "PROMIS Global Mental Health v1.2 T-Score"
 
-Instance: promis-10-assessment-betsy-september
+Instance: promis-10-assessment-betsy-october
 InstanceOf: QuestionnaireResponse
 Usage: #example
 * meta.versionId = "1"
-* meta.lastUpdated = "2025-09-25T11:22:40.456Z"
+* meta.lastUpdated = "2025-10-16T11:22:40.456Z"
 * questionnaire = "https://globalalliantinc.com/fhir/Questionnaire/questionnaire-PROMIS10"
-* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * status = #completed
-* authored = "2025-09-25T11:22:40.456Z"
-* author = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
-* item[0].answer.valueString = "7A34C75DE12"
+* authored = "2025-10-16T11:22:40.456Z"
+* author = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
+* item[0].answer.valueString = "1PA3D58WH16"
 * item[=].linkId = "mbi"
 * item[=].text = "What is this patient's Medicare Beneficiary Identifier (MBI)?"
-* item[+].answer.valueDate = "2025-09-25"
+* item[+].answer.valueDate = "2025-10-16"
 * item[=].linkId = "assessment_date"
 * item[=].text = "Please report the date this assessment was completed."
 * item[+].answer.valueCoding = $loinc#LA13913-1 "Very Good"
@@ -326,10 +327,10 @@ Usage: #example
 * item[=].text = "On a scale of 0-10, with 10 being the worst pain imaginable and 0 being no pain, how would you rate your pain on average?"
 * item[+].answer.valueDecimal = 15
 * item[=].linkId = "physical_health_score"
-* item[=].text = "Physical Health Score (Raw Score)"
+* item[=].text = "PROMIS-10 Global Physical Health (Raw Score)"
 * item[+].answer.valueDecimal = 12
 * item[=].linkId = "mental_health_score"
-* item[=].text = "Mental Health Score (Raw Score)"
+* item[=].text = "PROMIS-10 Global Mental Health (Raw Score)"
 * item[+].answer.valueDecimal = 47.7
 * item[=].linkId = "physical_health_tscore"
 * item[=].text = "PROMIS Global Physical Health v1.2 T-Score"
@@ -337,20 +338,20 @@ Usage: #example
 * item[=].linkId = "mental_health_tscore"
 * item[=].text = "PROMIS Global Mental Health v1.2 T-Score"
 
-Instance: promis-10-assessment-betsy-november
+Instance: promis-10-assessment-betsy-january
 InstanceOf: QuestionnaireResponse
 Usage: #example
 * meta.versionId = "1"
-* meta.lastUpdated = "2025-11-10T13:45:20.789Z"
+* meta.lastUpdated = "2026-01-20T13:45:20.789Z"
 * questionnaire = "https://globalalliantinc.com/fhir/Questionnaire/questionnaire-PROMIS10"
-* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * status = #completed
-* authored = "2025-11-10T13:45:20.789Z"
-* author = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
-* item[0].answer.valueString = "7A34C75DE12"
+* authored = "2026-01-20T13:45:20.789Z"
+* author = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
+* item[0].answer.valueString = "1PA3D58WH16"
 * item[=].linkId = "mbi"
 * item[=].text = "What is this patient's Medicare Beneficiary Identifier (MBI)?"
-* item[+].answer.valueDate = "2025-11-10"
+* item[+].answer.valueDate = "2026-01-20"
 * item[=].linkId = "assessment_date"
 * item[=].text = "Please report the date this assessment was completed."
 * item[+].answer.valueCoding = $loinc#LA13913-1 "Very Good"
@@ -405,10 +406,10 @@ Usage: #example
 * item[=].text = "On a scale of 0-10, with 10 being the worst pain imaginable and 0 being no pain, how would you rate your pain on average?"
 * item[+].answer.valueDecimal = 18
 * item[=].linkId = "physical_health_score"
-* item[=].text = "Physical Health Score (Raw Score)"
+* item[=].text = "PROMIS-10 Global Physical Health (Raw Score)"
 * item[+].answer.valueDecimal = 15
 * item[=].linkId = "mental_health_score"
-* item[=].text = "Mental Health Score (Raw Score)"
+* item[=].text = "PROMIS-10 Global Mental Health (Raw Score)"
 * item[+].answer.valueDecimal = 57.7
 * item[=].linkId = "physical_health_tscore"
 * item[=].text = "PROMIS Global Physical Health v1.2 T-Score"
@@ -416,20 +417,20 @@ Usage: #example
 * item[=].linkId = "mental_health_tscore"
 * item[=].text = "PROMIS Global Mental Health v1.2 T-Score"
 
-Instance: promis-10-assessment-betsy-december
+Instance: promis-10-assessment-betsy-april-2026
 InstanceOf: QuestionnaireResponse
 Usage: #example
 * meta.versionId = "1"
-* meta.lastUpdated = "2025-12-18T09:30:15.321Z"
+* meta.lastUpdated = "2026-04-16T09:30:15.321Z"
 * questionnaire = "https://globalalliantinc.com/fhir/Questionnaire/questionnaire-PROMIS10"
-* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
 * status = #completed
-* authored = "2025-12-18T09:30:15.321Z"
-* author = Reference(Patient/patient-betsysmith-johnson01) "Betsy Johnson"
-* item[0].answer.valueString = "7A34C75DE12"
+* authored = "2026-04-16T09:30:15.321Z"
+* author = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
+* item[0].answer.valueString = "1PA3D58WH16"
 * item[=].linkId = "mbi"
 * item[=].text = "What is this patient's Medicare Beneficiary Identifier (MBI)?"
-* item[+].answer.valueDate = "2025-12-18"
+* item[+].answer.valueDate = "2026-04-16"
 * item[=].linkId = "assessment_date"
 * item[=].text = "Please report the date this assessment was completed."
 * item[+].answer.valueCoding = $loinc#LA9206-9 "Excellent"
@@ -477,17 +478,17 @@ Usage: #example
 * item[=].answer.valueCoding.extension.valueDecimal = 5
 * item[=].linkId = "fatigue"
 * item[=].text = "In the past 7 days, how would you rate your fatigue on average?"
-* item[+].answer.valueCoding = $loinc#LA6113-0 "2"
+* item[+].answer.valueCoding = $loinc#LA6113-0 "2 or more"
 * item[=].answer.valueCoding.extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answer.valueCoding.extension.valueDecimal = 2
 * item[=].linkId = "pain"
 * item[=].text = "On a scale of 0-10, with 10 being the worst pain imaginable and 0 being no pain, how would you rate your pain on average?"
 * item[+].answer.valueDecimal = 18
 * item[=].linkId = "physical_health_score"
-* item[=].text = "Physical Health Score (Raw Score)"
+* item[=].text = "PROMIS-10 Global Physical Health (Raw Score)"
 * item[+].answer.valueDecimal = 17
 * item[=].linkId = "mental_health_score"
-* item[=].text = "Mental Health Score (Raw Score)"
+* item[=].text = "PROMIS-10 Global Mental Health (Raw Score)"
 * item[+].answer.valueDecimal = 57.7
 * item[=].linkId = "physical_health_tscore"
 * item[=].text = "PROMIS Global Physical Health v1.2 T-Score"

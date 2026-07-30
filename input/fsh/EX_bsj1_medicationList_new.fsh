@@ -165,3 +165,18 @@ Description: "Betsy Smith-Johnson MedicationList for scene 4 - Primary Care - 8 
 * entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-metformin-4-6) "metFORMIN hydrochloride 500 MG Oral Tablet"
 * entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-pitavastatin-4-7) "pitavastatin calcium 4 MG Oral Tablet"
 * entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-sitagliptin-4-8) "sitagliptin 50 MG Oral Tablet"
+
+Instance: bsj1-smp-medListNew-5
+InstanceOf: List
+Usage: #example
+Description: "Betsy Smith-Johnson MedicationList for scene 5 - Primary Care - 3 medications"
+* status = #current
+* mode = #working
+* title = "Home Health Medication List"
+* code = $loinc#104203-5 "Reconciled medication list [Identifier] Episode Pharmacy"
+* date = "2025-10-16T11:02:40.456Z"
+* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
+* source = Reference(PractitionerRole/Role-IMMD-AnitaChu)
+* entry[0].item = Reference(MedicationStatement/bsj1-smp-medstmt-jardiance-5-1) "Jardiance 10 MG Oral Tablet"
+* entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-sertraline-5-2) "sertraline 25 MG Oral Tablet"
+* entry[+].item = Reference(MedicationStatement/bsj1-smp-medstmt-lipitor-5-3) "Lipitor 40 MG Oral Tablet"

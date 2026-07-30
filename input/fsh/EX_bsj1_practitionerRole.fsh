@@ -6,7 +6,7 @@ Description: "Dr. Anita M. Chu's role at Michigan Primary Health Care Associates
 * active = true
 * code = $SCT_US#453231000124104 "Primary care provider (occupation)"
 * practitioner = Reference(Practitioner/Practitioner-AnitaChu) "Dr. Anita M. Chu"
-* organization = Reference(Organization/org-PC-Primary-Care-Michigan) "Michigan Primary Health Care Associates"
+* organization = Reference(Organization/org-Michigan-Primary-Health-Care-A) "Michigan Primary Health Care Associates"
 * location = Reference(Location/org-Loc-Michigan-Primary-Health-Care-A)
 * specialty = $taxonomy#207R00000X "Internal Medicine Physician"
 
@@ -17,7 +17,7 @@ Description: "George McDuff's role at Michigan Primary Health Care Associates."
 * active = true
 * code = $taxonomy#163W00000X "Registered Nurse"
 * practitioner = Reference(Practitioner/Practitioner-GeorgeMcDuff) "George McDuff"
-* organization = Reference(Organization/org-PC-Primary-Care-Michigan) "Michigan Primary Health Care Associates"
+* organization = Reference(Organization/org-Michigan-Primary-Health-Care-A) "Michigan Primary Health Care Associates"
 * location = Reference(Location/org-Loc-Michigan-Primary-Health-Care-A)
 
 Instance: Role-Psych-GineseComeau
@@ -27,7 +27,7 @@ Description: "Ginese Comeau's role at Michigan Primary Health Care Associates."
 * active = true
 * code = $SCT_US#80584001 "Psychiatrist (occupation)" // modified for the US Core specified Care Team Function value set 2.16.840.1.113762.1.4.1099.30
 * practitioner = Reference(Practitioner/Practitioner-GineseComeau) "Ginese Comeau"
-* organization = Reference(Organization/org-PC-Primary-Care-Michigan) "Michigan Primary Health Care Associates"
+* organization = Reference(Organization/org-Michigan-Primary-Health-Care-A) "Michigan Primary Health Care Associates"
 * location = Reference(Location/org-Loc-Michigan-Primary-Health-Care-A)
 // * specialty = $taxonomy#2084P0800X "Psychiatry Physician"
 
@@ -138,6 +138,16 @@ Description: "Mia Rinaldi's role at the Motown Home Health Agency"
 * active = true
 * code = $taxonomy#235Z00000X "Speech-Language Pathologist"
 * practitioner = Reference(Practitioner/Practitioner-MiaRinaldi) "Mia Rinaldi"
+* organization = Reference(Organization/org-Motown-Home-Health) "Motown Home Health Agency"
+* location = Reference(Location/org-Loc-Motown-Home-Health)
+
+Instance: PractitionerRole-RN-NichelleLorna
+InstanceOf: PractitionerRole
+Usage: #example
+Description: "Nichelle Lorna's role at the Motown Home Health Agency"
+* active = true
+* code = $taxonomy#163W00000X "Registered Nurse"
+* practitioner = Reference(Practitioner/Practitioner-NichelleLorna) "Nichelle Lorna"
 * organization = Reference(Organization/org-Motown-Home-Health) "Motown Home Health Agency"
 * location = Reference(Location/org-Loc-Motown-Home-Health)
 

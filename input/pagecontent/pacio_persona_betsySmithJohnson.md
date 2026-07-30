@@ -10,7 +10,7 @@ This use case was used to test a preliminary version of Transitions of Care (ToC
 
 * [Storyboard Scene Descriptions](https://docs.google.com/document/d/1R6CasL3Y8aqHx8_ipeZXtgMagZLcU4yS/edit)
 
-### Scene 0: Background
+### Scene 0: Betsy Smith-Johnson Background
 
 Patient background information: [Betsy Smith-Johnson](Patient-patient-betsysmith-johnson01.html) is a female over 65 years old, date of birth 11/15/1950, and eligible for Medicare.  She lives in Michigan with her son, Charles Johnson, and his family. Betsy has a history of [hypertension](Condition-betsysmith-johnson01-Condition-Hypertension-01.html), [hyperlipidemia](Condition-betsysmith-johnson01-Condition-Hyperlipidemia-01.html), cataracts, osteoarthritis, *etc...*
 
@@ -86,7 +86,7 @@ At 2:00pm on May 3, 2025, Betsy’s son Charles finds her sitting on the floor a
 Betsy arrives at the ED at 2:30pm on May 3, 2025 following a suspected fall, via ambulance with Charles following in his car. During admission to the ED, Betsy’s prior records from her primary care provider and PMO are accessed from the electronic health record (EHR) as part of a transition of care (TOC) bundle (which will not be demonstrated during this 
 Connectathon) to inform Betsy’s care. The PMO indicates that Betsy wants full treatment.
 
-After assessments (ED MD, Neuro, Psych, PT, OT), labs, and CT imaging, she’s diagnosed with an ischemic stroke. Symptoms that are documented are trouble swallowing (dysphasia), weakness/numbness in the right arm (her dominant arm), trouble understanding, and balance issues (ataxia). It is found that she does not have delirium, her mental health is unchanged, and she is not at an elevated bleeding risk. Betsy is reassessed, including repeated labs, throughout the day following a stroke protocol.     
+After assessments (ED MD, Neuro, Psych, PT, OT), labs, and CT imaging, she’s diagnosed with an ischemic stroke. Symptoms that are documented are weakness/numbness in the right arm (her dominant arm), trouble understanding, and balance issues (ataxia). It is found that she does not have delirium, her mental health is unchanged, and she is not at an elevated bleeding risk. Betsy is reassessed, including repeated labs, throughout the day following a stroke protocol.     
 
 Betsy stays in the ED overnight for observation (Charles returns home to sleep knowing his mom is receiving the care she wants and needs). The following morning, she undergoes repeat assessments, including labs and an MRI/MRA, and the conclusion is made that Betsy is stable enough to transfer her to a SNF in their referral network. 
 
@@ -99,7 +99,6 @@ Betsy is discharged from the ED at 3pm on May 4, 2025. Charles accompanies Betsy
 * [Composition: BSJ1-composition-CCDA-dischargeSummary-01](Composition-BSJ1-composition-CCDA-dischargeSummary-01.html)
 * [Condition: betsysmith-johnson01-condition-alteredCognition-01](Condition-betsysmith-johnson01-condition-alteredCognition-01.html)
 * [Condition: betsysmith-johnson01-condition-ataxiaVertigo-01](Condition-betsysmith-johnson01-condition-ataxiaVertigo-01.html)
-* [Condition: betsysmith-johnson01-Condition-Dysphagia-01](Condition-betsysmith-johnson01-Condition-Dysphagia-01.html)
 * [Condition: betsysmith-johnson01-Condition-Hemiparesis-01](Condition-betsysmith-johnson01-Condition-Hemiparesis-01.html)
 * [Condition: betsysmith-johnson01-condition-IschemicStrokeDiagnosis-01](Condition-betsysmith-johnson01-condition-IschemicStrokeDiagnosis-01.html)
 * [Condition: betsysmith-johnson01-Condition-Stroke-01](Condition-betsysmith-johnson01-Condition-Stroke-01.html)
@@ -224,7 +223,6 @@ Data is prepared and final reports are created by the SNF for Betsy. This includ
 * [MedicationStatement: bsj1-smp-medstmt-sertraline-2-5](MedicationStatement-bsj1-smp-medstmt-sertraline-2-5.html)
 * [NutritionOrder: betsysmith-johnson01-NutritionOrder-SNFAdmissionDiet](NutritionOrder-betsysmith-johnson01-NutritionOrder-SNFAdmissionDiet.html)
 * [NutritionOrder: betsysmith-johnson01-SNFDischargeDiet](NutritionOrder-betsysmith-johnson01-SNFDischargeDiet.html)
-* [Questionnaire: 44249-1](Questionnaire-44249-1.html)
 * [Questionnaire: Questionnaire-Brief-Interview-for-Mental-Status](Questionnaire-Questionnaire-Brief-Interview-for-Mental-Status.html)
 * [Questionnaire: Questionnaire-MDS-Nursing-Home-Comprehensive-Item-Set](Questionnaire-Questionnaire-MDS-Nursing-Home-Comprehensive-Item-Set.html)
 * [QuestionnaireResponse: betsysmith-johnson01-qr-bims-snf-admission-01](QuestionnaireResponse-betsysmith-johnson01-qr-bims-snf-admission-01.html)
@@ -296,6 +294,9 @@ Although Betsy receives some services through a HHA, the family would benefit fr
 Charles agrees and is given information on how to complete the ZBI (Zarit Burden Interview). That same day on July 16, 2025, on his own in the waiting room, Charles securely submits the results to CMS on a tablet powered by a web-based SMART-on-FHIR app.
 
 Betsy’s PCP receives an immediate response from CMS that Betsy is eligible and is enrolled in the program, enabling her to begin receiving the services she needs with no delay. Betsy’s PCP also shares the results of the ZBI with Betsy’s mental health provider to promote more coordinated care that includes addressing the mental health impact Betsy may experience if she perceives that she is a burden on her family.
+
+At the care appointment Betsy also completes a PROMIS-10 assessment, and her primary care provider develops a CarePlan with a Goal of living independently based on her responses.
+
 <br />
 
 #### Scene 4 FHIR Resources
@@ -317,6 +318,84 @@ Betsy’s PCP receives an immediate response from CMS that Betsy is eligible and
 * [MedicationStatement: bsj1-smp-medstmt-metformin-4-6](MedicationStatement-bsj1-smp-medstmt-metformin-4-6.html)
 * [MedicationStatement: bsj1-smp-medstmt-pitavastatin-4-7](MedicationStatement-bsj1-smp-medstmt-pitavastatin-4-7.html)
 * [MedicationStatement: bsj1-smp-medstmt-sitagliptin-4-8](MedicationStatement-bsj1-smp-medstmt-sitagliptin-4-8.html)
+* [Goal: bsj1-goal-live-independently-20250716](Goal-bsj1-goal-live-independently-20250716.html)
+* [CarePlan: bsj1-careplan-promis-followup-20250716](CarePlan-bsj1-careplan-promis-followup-20250716.html)
+
+<br />
+
+### Scene 5: Betsy Receives Pressure Ulcer Care
+
+On October 16, 2025, Betsy’s primary care provider updates her medication regimen and restarts Jardiance, Sertraline, and Lipitor after they had previously been stopped in earlier care transitions.
+
+Betsy was previously admitted to a skilled nursing facility for medical management of a stroke. During her stay, Betsy established a personal goal to attend her daughter’s wedding in late August. The nurse also set a goal for Betsy to demonstrate knowledge of safety measures to prevent falls so she could continue to live at home. When she was ready to be discharged from the SNF planning accounted for the fact that her son travels for work approximately four days a week and is not always available to help her, and includes a home health aide two times per week.
+
+When Betsy returned home she began receiving Home Health Agency (HHA) services on February 27, 2026. During her start of care assessment, the home health nurse performed a Braden risk assessment. At this time Betsy’s Braden total score was [17](Observation-bsj1-Braden-TotalScore-20260227.html), indicating mild/low risk for pressure ulcer development.
+
+At home, Betsy ambulates short distances with a walker and primarily relies on a manual wheelchair for mobility outside the home. Over the past several weeks, she has increased her wheelchair use at home because of instability and fear of falling. This decline in mobility contributed to the development of a Stage II pressure ulcer on her right hip. The change in condition was discovered and documented by the home health nurse. With this change in condition, the nurse performed another Braden risk assessment on April 15, 2026. At that time, Betsy’s Braden total score had decreased to [11](Observation-bsj1-Braden-TotalScore-20260415.html), indicating high risk for pressure ulcer development.
+
+A wound management plan was developed that included wound assessment and the use of negative pressure wound therapy with dressing changes every three days. The careplan was updated to include registered nurse wound care checks every three days beginning when wound care became necessary on April 15, 2026.
+
+#### Scene 5 FHIR Resources
+
+* [Goal: bsj1-goal-attend-wedding-20260226](Goal-bsj1-goal-attend-wedding-20260226.html)
+* [CarePlan: bsj1-careplan-discharge-20260226](CarePlan-bsj1-careplan-discharge-20260226.html)
+* [CarePlan: bsj1-careplan-discharge-update-20260415](CarePlan-bsj1-careplan-discharge-update-20260415.html)
+* [Condition: betsysmith-johnson01-Condition-PressureUlcer-Stage2-20260415](Condition-betsysmith-johnson01-Condition-PressureUlcer-Stage2-20260415.html)
+* [DeviceRequest: bsj1-deviceRequest-walker-20260226](DeviceRequest-bsj1-deviceRequest-walker-20260226.html)
+* [DeviceRequest: bsj1-deviceRequest-wheelchair-20260226](DeviceRequest-bsj1-deviceRequest-wheelchair-20260226.html)
+* [DeviceRequest: bsj1-deviceRequest-negativePressureWoundPump-20260415](DeviceRequest-bsj1-deviceRequest-negativePressureWoundPump-20260415.html)
+* [MedicationRequest: bsj1-smp-medrx-jardiance-5-1](MedicationRequest-bsj1-smp-medrx-jardiance-5-1.html)
+* [MedicationRequest: bsj1-smp-medrx-sertraline-5-2](MedicationRequest-bsj1-smp-medrx-sertraline-5-2.html)
+* [MedicationRequest: bsj1-smp-medrx-lipitor-5-3](MedicationRequest-bsj1-smp-medrx-lipitor-5-3.html)
+* [MedicationStatement: bsj1-smp-medstmt-jardiance-5-1](MedicationStatement-bsj1-smp-medstmt-jardiance-5-1.html)
+* [MedicationStatement: bsj1-smp-medstmt-sertraline-5-2](MedicationStatement-bsj1-smp-medstmt-sertraline-5-2.html)
+* [MedicationStatement: bsj1-smp-medstmt-lipitor-5-3](MedicationStatement-bsj1-smp-medstmt-lipitor-5-3.html)
+* [List: bsj1-smp-medListNew-5](List-bsj1-smp-medListNew-5.html)
+* [Observation: betsysmith-johnson01-A1C-05](Observation-betsysmith-johnson01-A1C-05.html)
+* [Observation: betsysmith-johnson01-A1C-06](Observation-betsysmith-johnson01-A1C-06.html)
+* [Observation: betsysmith-johnson01-A1C-07](Observation-betsysmith-johnson01-A1C-07.html)
+* [Observation: bsj1-Braden-Assessment-20260227](Observation-bsj1-Braden-Assessment-20260227.html)
+* [Observation: bsj1-Braden-SensoryPerception-20260227](Observation-bsj1-Braden-SensoryPerception-20260227.html)
+* [Observation: bsj1-Braden-Moisture-20260227](Observation-bsj1-Braden-Moisture-20260227.html)
+* [Observation: bsj1-Braden-Activity-20260227](Observation-bsj1-Braden-Activity-20260227.html)
+* [Observation: bsj1-Braden-Mobility-20260227](Observation-bsj1-Braden-Mobility-20260227.html)
+* [Observation: bsj1-Braden-Nutrition-20260227](Observation-bsj1-Braden-Nutrition-20260227.html)
+* [Observation: bsj1-Braden-FrictionShear-20260227](Observation-bsj1-Braden-FrictionShear-20260227.html)
+* [Observation: bsj1-Braden-TotalScore-20260227](Observation-bsj1-Braden-TotalScore-20260227.html)
+* [Observation: bsj1-Braden-Assessment-20260415](Observation-bsj1-Braden-Assessment-20260415.html)
+* [Observation: bsj1-Braden-SensoryPerception-20260415](Observation-bsj1-Braden-SensoryPerception-20260415.html)
+* [Observation: bsj1-Braden-Moisture-20260415](Observation-bsj1-Braden-Moisture-20260415.html)
+* [Observation: bsj1-Braden-Activity-20260415](Observation-bsj1-Braden-Activity-20260415.html)
+* [Observation: bsj1-Braden-Mobility-20260415](Observation-bsj1-Braden-Mobility-20260415.html)
+* [Observation: bsj1-Braden-Nutrition-20260415](Observation-bsj1-Braden-Nutrition-20260415.html)
+* [Observation: bsj1-Braden-FrictionShear-20260415](Observation-bsj1-Braden-FrictionShear-20260415.html)
+* [Observation: bsj1-Braden-TotalScore-20260415](Observation-bsj1-Braden-TotalScore-20260415.html)
+* [QuestionnaireResponse: betsysmith-johnson01-qr-phq9-snf-discharge-01](QuestionnaireResponse-betsysmith-johnson01-qr-phq9-snf-discharge-01.html)
+* [Observation: betsysmith-johnson01-qr-phq9-snf-discharge-01-44250-9](Observation-betsysmith-johnson01-qr-phq9-snf-discharge-01-44250-9.html)
+* [Observation: betsysmith-johnson01-qr-phq9-snf-discharge-01-44255-8](Observation-betsysmith-johnson01-qr-phq9-snf-discharge-01-44255-8.html)
+* [Observation: betsysmith-johnson01-qr-phq9-snf-discharge-01-44259-0](Observation-betsysmith-johnson01-qr-phq9-snf-discharge-01-44259-0.html)
+* [Observation: betsysmith-johnson01-qr-phq9-snf-discharge-01-44254-1](Observation-betsysmith-johnson01-qr-phq9-snf-discharge-01-44254-1.html)
+* [Observation: betsysmith-johnson01-qr-phq9-snf-discharge-01-44251-7](Observation-betsysmith-johnson01-qr-phq9-snf-discharge-01-44251-7.html)
+* [Observation: betsysmith-johnson01-qr-phq9-snf-discharge-01-44258-2](Observation-betsysmith-johnson01-qr-phq9-snf-discharge-01-44258-2.html)
+* [Observation: betsysmith-johnson01-qr-phq9-snf-discharge-01-44252-5](Observation-betsysmith-johnson01-qr-phq9-snf-discharge-01-44252-5.html)
+* [Observation: betsysmith-johnson01-qr-phq9-snf-discharge-01-44253-3](Observation-betsysmith-johnson01-qr-phq9-snf-discharge-01-44253-3.html)
+* [Observation: betsysmith-johnson01-qr-phq9-snf-discharge-01-44260-8](Observation-betsysmith-johnson01-qr-phq9-snf-discharge-01-44260-8.html)
+* [Observation: betsysmith-johnson01-qr-phq9-snf-discharge-01-44261-6](Observation-betsysmith-johnson01-qr-phq9-snf-discharge-01-44261-6.html)
+* [Observation: betsysmith-johnson01-qr-phq9-snf-discharge-01-c650aa67](Observation-betsysmith-johnson01-qr-phq9-snf-discharge-01-c650aa67.html)
+
+<br />
+
+### Scene 6: Betsy is sent from Home Health to the Emergency Department
+
+On July 14, 2026, during a routine home health wound care visit, the nurse observes erythema and edema of the skin surrounding the pressure ulcer, greenish-yellow drainage, foul odor from the wound, and a low-grade fever. Betsy reports poor appetite and increased pain in the right hip around the wound area. Based on these findings, the nurse suspects a wound infection and consults Betsy’s primary care provider, who recommends that she be evaluated in the emergency department.
+
+#### Scene 6 FHIR Resources
+
+* [Condition: betsysmith-johnson01-Condition-InfectedSkinUlcer-20260714](Condition-betsysmith-johnson01-Condition-InfectedSkinUlcer-20260714.html)
+* [Observation: bsj1-vital-signs-20260707](Observation-bsj1-vital-signs-20260707.html)
+* [Observation: bsj1-vital-signs-20260714](Observation-bsj1-vital-signs-20260714.html)
+* [Observation: bsj1-body-temperature-20260707](Observation-bsj1-body-temperature-20260707.html)
+* [Observation: bsj1-body-temperature-20260714](Observation-bsj1-body-temperature-20260714.html)
 
 <br />
 
@@ -334,7 +413,6 @@ Betsy’s PCP receives an immediate response from CMS that Betsy is eligible and
 * [Organization: org-Motor-City-Skilled-Nursing-Facility](Organization-org-Motor-City-Skilled-Nursing-Facility.html)
 * [Organization: org-Motown-Home-Health](Organization-org-Motown-Home-Health.html)
 * [Organization: org-Neuro-Care-Inc](Organization-org-Neuro-Care-Inc.html)
-* [Organization: org-PC-Primary-Care-Michigan](Organization-org-PC-Primary-Care-Michigan.html)
 * [Organization: org-PSC-Prism-General-Hospital](Organization-org-PSC-Prism-General-Hospital.html)
 * [Organization: org-Renaissance-Pharmacy](Organization-org-Renaissance-Pharmacy.html)
 * [Organization: org-The-Vernon-Center](Organization-org-The-Vernon-Center.html)
@@ -358,6 +436,7 @@ Betsy’s PCP receives an immediate response from CMS that Betsy is eligible and
 * [Practitioner: Practitioner-LunaBaskins](Practitioner-Practitioner-LunaBaskins.html)
 * [Practitioner: Practitioner-MargaretReynolds](Practitioner-Practitioner-MargaretReynolds.html)
 * [Practitioner: Practitioner-MiaRinaldi](Practitioner-Practitioner-MiaRinaldi.html)
+* [Practitioner: Practitioner-NichelleLorna](Practitioner-Practitioner-NichelleLorna.html)
 * [Practitioner: Practitioner-NuraMekel](Practitioner-Practitioner-NuraMekel.html)
 * [Practitioner: Practitioner-PaulZawawi](Practitioner-Practitioner-PaulZawawi.html)
 * [Practitioner: Practitioner-PriyaSarkar](Practitioner-Practitioner-PriyaSarkar.html)
@@ -384,6 +463,7 @@ Betsy’s PCP receives an immediate response from CMS that Betsy is eligible and
 * [PractitionerRole: PractitionerRole-RN-TreyvorClark](PractitionerRole-PractitionerRole-RN-TreyvorClark.html)
 * [PractitionerRole: PractitionerRole-SLP-JoeBukoski](PractitionerRole-PractitionerRole-SLP-JoeBukoski.html)
 * [PractitionerRole: PractitionerRole-SLP-MiaRinaldi](PractitionerRole-PractitionerRole-SLP-MiaRinaldi.html)
+* [PractitionerRole: PractitionerRole-RN-NichelleLorna](PractitionerRole-PractitionerRole-RN-NichelleLorna.html)
 * [PractitionerRole: Role-IMMD-AnitaChu](PractitionerRole-Role-IMMD-AnitaChu.html)
 * [PractitionerRole: Role-Neuro-NuraMekel](PractitionerRole-Role-Neuro-NuraMekel.html)
 * [PractitionerRole: Role-OT-JenCadbury](PractitionerRole-Role-OT-JenCadbury.html)

@@ -22,32 +22,33 @@ publisher:
 
 dependencies:
   hl7.fhir.us.core: 6.1.0
-  hl7.fhir.uv.extensions: 1.0.0
-  hl7.terminology: 5.4.0
+  hl7.fhir.uv.sdc: 4.0.0
+  # hl7.fhir.uv.extensions: 1.0.0
+  hl7.terminology: 5.5.0
   us.nlm.vsac:
     uri: 'http://fhir.org/packages/us.nlm.vsac/ImplementationGuide/us.nlm.vsac'
-    version: 0.22.0
+    version: 0.24.0
     id: vsac
   hl7.fhir.us.smp:
     id: smp
     uri: http://hl7.org/fhir/us/smp/ImplementationGuide/hl7.fhir.us.smp
-    version: 1.0.0
-  hl7.fhir.us.mcode:
-    id: mcode
-    uri: http://hl7.org/fhir/us/mcode/ImplementationGuide/hl7.fhir.us.mcode
-    version: 4.0.0
+    version: current
   hl7.fhir.us.pacio-pfe:
     id: pfe
     uri: http://hl7.org/fhir/us/pacio-pfe/ImplementationGuide/hl7.fhir.us.pacio-pfe
-    version: 2.0.0
+    version: current
   hl7.fhir.us.pacio-toc:
     id: toc
     uri: http://hl7.org/fhir/us/pacio-toc/ImplementationGuide/hl7.fhir.us.pacio-toc
-    version: 1.0.0-ballot
+    version: 1.0.0
+  hl7.fhir.us.pco:
+    id: pco
+    uri: http://hl7.org/fhir/us/pco/ImplementationGuide/hl7.fhir.us.pco
+    version: 1.0.0
 
 parameters:
    excludettl: true
-
+   pin-canonicals: pin-multiples
 menu:
   Home: index.html
   Artifacts: 
@@ -55,7 +56,6 @@ menu:
     Artifact Index: artifacts.html
   Storyboard:
     Betsy Smith-Johnson: pacio_persona_betsySmithJohnson.html
-    Violet Gartner: pacio_persona_violetGartner.html
   Style Guide: style_guide.html
   Release Notes: release_notes.html
   Downloads: downloads.html
@@ -69,8 +69,6 @@ pages:
     title: Examples Style Guide
   pacio_persona_betsySmithJohnson.md:
     title: Betsy Smith-Johnson - Stroke Use Case
-  pacio_persona_violetGartner.md:
-    title: Violet Gartner - Medication Risk Evaluation Use Case
   release_notes.md:
     title: Release Notes
   downloads.md:

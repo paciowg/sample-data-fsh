@@ -2,144 +2,146 @@ Alias: $loinc = http://loinc.org
 Alias: $questionnaire-item-control = http://hl7.org/fhir/questionnaire-item-control
 Alias: $sdc-calculatedExpression = http://hl7.org/fhir/uv/sdc/StructureDefinition/sdc-questionnaire-calculatedExpression
 
-Instance: 46349c26-30b3-4f36-94a6-f9ddfe4b7426
-InstanceOf: Bundle
-Usage: #example
-* meta.lastUpdated = "2025-06-20T16:47:25.389+00:00"
-* type = #searchset
-* total = 3
-* link.relation = "self"
-* link.url = "https://gw.interop.community/cmspqrs/open/Questionnaire"
-* entry[0].fullUrl = "https://gw.interop.community/cmspqrs/open/Questionnaire/44249-1"
-* entry[=].resource = 44249-1
-* entry[=].search.mode = #match
-* entry[+].fullUrl = "https://gw.interop.community/cmspqrs/open/Questionnaire/52"
-* entry[=].resource = 52
-* entry[=].search.mode = #match
-* entry[+].fullUrl = "https://gw.interop.community/cmspqrs/open/Questionnaire/questionnaire-ZBI22"
-* entry[=].resource = questionnaire-ZBI22
-* entry[=].search.mode = #match
+// Commenting out because this bundle only contains the duplicate PHQ-9 questionnaire commented out directly below
+// Instance: 46349c26-30b3-4f36-94a6-f9ddfe4b7426
+// InstanceOf: Bundle
+// Usage: #example
+// * meta.lastUpdated = "2025-06-20T16:47:25.389+00:00"
+// * type = #searchset
+// * total = 3
+// * link.relation = "self"
+// * link.url = "https://gw.interop.community/cmspqrs/open/Questionnaire"
+// * entry[0].fullUrl = "https://gw.interop.community/cmspqrs/open/Questionnaire/44249-1"
+// * entry[=].resource = 44249-1
+// * entry[=].search.mode = #match
+// * entry[+].fullUrl = "https://gw.interop.community/cmspqrs/open/Questionnaire/52"
+// * entry[=].resource = 52
+// * entry[=].search.mode = #match
+// * entry[+].fullUrl = "https://gw.interop.community/cmspqrs/open/Questionnaire/questionnaire-ZBI22"
+// * entry[=].resource = questionnaire-ZBI22
+// * entry[=].search.mode = #match
 
-Instance: 44249-1
-InstanceOf: Questionnaire
-Usage: #example
-* meta.versionId = "1"
-* meta.lastUpdated = "2025-05-28T18:06:29.000+00:00"
-* meta.source = "#aLYUC2N4J9eLQ33k"
-* url = "http://loinc.org/q/44249-1"
-* name = "PHQ_quick_depression_assessment_panel"
-* title = "PHQ-9 quick depression assessment panel"
-* status = #draft
-* subjectType = #Patient
-* publisher = "Regenstrief Institute, Inc."
-* contact.name = "Regenstrief Institute, Inc."
-* contact.telecom.system = #url
-* contact.telecom.value = "http://loinc.org"
-* copyright = "This content from LOINC® is copyright © 1995 Regenstrief Institute, Inc. and the LOINC Committee, and available at no cost under the license at https://loinc.org/license/\r\nCopyright © Pfizer Inc. All rights reserved. Developed by Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke and colleagues, with an educational grant from Pfizer Inc. No permission required to reproduce, translate, display or distribute."
-* code = $loinc#44249-1 "PHQ-9 quick depression assessment panel [Reported.PHQ]"
-* item[0].linkId = "14363"
-* item[=].code = $loinc#44250-9 "Little interest or pleasure in doing things in last 2 weeks"
-* item[=].prefix = "PHQ-9.1"
-* item[=].text = "Little interest or pleasure in doing things"
-* item[=].type = #choice
-* item[=].required = true
-* item[=].repeats = false
-* item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
-* item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
-* item[+].linkId = "14364"
-* item[=].code = $loinc#44255-8 "Feeling down, depressed, or hopeless in last 2 weeks"
-* item[=].prefix = "PHQ-9.2"
-* item[=].text = "Feeling down, depressed, or hopeless"
-* item[=].type = #choice
-* item[=].required = true
-* item[=].repeats = false
-* item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
-* item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
-* item[+].linkId = "14365"
-* item[=].code = $loinc#44259-0 "Trouble falling or staying asleep, or sleeping too much in last 2 weeks [Reported.PHQ]"
-* item[=].text = "Trouble falling or staying asleep, or sleeping too much"
-* item[=].type = #choice
-* item[=].required = true
-* item[=].repeats = false
-* item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
-* item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
-* item[+].linkId = "14366"
-* item[=].code = $loinc#44254-1 "Feeling tired or having little energy in last 2 weeks [Reported.PHQ]"
-* item[=].text = "Feeling tired or having little energy"
-* item[=].type = #choice
-* item[=].required = true
-* item[=].repeats = false
-* item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
-* item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
-* item[+].linkId = "14367"
-* item[=].code = $loinc#44251-7 "Poor appetite or overeating in last 2 weeks [Reported.PHQ]"
-* item[=].text = "Poor appetite or overeating"
-* item[=].type = #choice
-* item[=].required = true
-* item[=].repeats = false
-* item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
-* item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
-* item[+].linkId = "14368"
-* item[=].code = $loinc#44258-2 "Feeling bad about yourself - or that you are a failure or have let yourself or your family down in last 2 weeks [Reported.PHQ]"
-* item[=].text = "Feeling bad about yourself-or that you are a failure or have let yourself or your family down"
-* item[=].type = #choice
-* item[=].required = true
-* item[=].repeats = false
-* item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
-* item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
-* item[+].linkId = "14369"
-* item[=].code = $loinc#44252-5 "Trouble concentrating on things, such as reading the newspaper or watching television in last 2 weeks [Reported.PHQ]"
-* item[=].text = "Trouble concentrating on things, such as reading the newspaper or watching television"
-* item[=].type = #choice
-* item[=].required = true
-* item[=].repeats = false
-* item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
-* item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
-* item[+].linkId = "14370"
-* item[=].code = $loinc#44253-3 "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual in last 2 weeks [Reported.PHQ]"
-* item[=].text = "Moving or speaking so slowly that other people could have noticed. Or the opposite-being so fidgety or restless that you have been moving around a lot more than usual"
-* item[=].type = #choice
-* item[=].required = true
-* item[=].repeats = false
-* item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
-* item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
-* item[+].linkId = "14371"
-* item[=].code = $loinc#44260-8 "Thoughts that you would be better off dead, or of hurting yourself in some way in last 2 weeks [Reported.PHQ]"
-* item[=].text = "Thoughts that you would be better off dead, or of hurting yourself in some way"
-* item[=].type = #choice
-* item[=].repeats = false
-* item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
-* item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
-* item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
-* item[+].linkId = "57492"
-* item[=].code = $loinc#69722-7 "How difficult have these made it for you to do your work, take care of things at home, or get along with other people [Reported.PHQ]"
-* item[=].text = "How difficult have these problems made it for you to do your work, take care of things at home, or get along with other people?"
-* item[=].type = #choice
-* item[=].repeats = false
-* item[=].answerOption[0].valueCoding = $loinc#LA6572-7 "Not difficult at all"
-* item[=].answerOption[+].valueCoding = $loinc#LA6573-5 "Somewhat difficult"
-* item[=].answerOption[+].valueCoding = $loinc#LA6575-0 "Very difficult"
-* item[=].answerOption[+].valueCoding = $loinc#LA6574-3 "Extremely difficult"
-* item[+].linkId = "14372"
-* item[=].text = "Patient health questionnaire 9 item total score"
-* item[=].type = #decimal
+// We have another, more recent, PHQ9 questionnaire in EX_jd1_questionnaire-phq9.fsh
+// Instance: 44249-1
+// InstanceOf: Questionnaire
+// Usage: #example
+// * meta.versionId = "1"
+// * meta.lastUpdated = "2025-05-28T18:06:29.000+00:00"
+// * meta.source = "#aLYUC2N4J9eLQ33k"
+// * url = "http://loinc.org/q/44249-1"
+// * name = "PHQ_quick_depression_assessment_panel"
+// * title = "PHQ-9 quick depression assessment panel"
+// * status = #draft
+// * subjectType = #Patient
+// * publisher = "Regenstrief Institute, Inc."
+// * contact.name = "Regenstrief Institute, Inc."
+// * contact.telecom.system = #url
+// * contact.telecom.value = "http://loinc.org"
+// * copyright = "This content from LOINC® is copyright © 1995 Regenstrief Institute, Inc. and the LOINC Committee, and available at no cost under the license at https://loinc.org/license/\r\nCopyright © Pfizer Inc. All rights reserved. Developed by Drs. Robert L. Spitzer, Janet B.W. Williams, Kurt Kroenke and colleagues, with an educational grant from Pfizer Inc. No permission required to reproduce, translate, display or distribute."
+// * code = $loinc#44249-1 "PHQ-9 quick depression assessment panel [Reported.PHQ]"
+// * item[0].linkId = "14363"
+// * item[=].code = $loinc#44250-9 "Little interest or pleasure in doing things in last 2 weeks"
+// * item[=].prefix = "PHQ-9.1"
+// * item[=].text = "Little interest or pleasure in doing things"
+// * item[=].type = #choice
+// * item[=].required = true
+// * item[=].repeats = false
+// * item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
+// * item[+].linkId = "14364"
+// * item[=].code = $loinc#44255-8 "Feeling down, depressed, or hopeless in last 2 weeks"
+// * item[=].prefix = "PHQ-9.2"
+// * item[=].text = "Feeling down, depressed, or hopeless"
+// * item[=].type = #choice
+// * item[=].required = true
+// * item[=].repeats = false
+// * item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
+// * item[+].linkId = "14365"
+// * item[=].code = $loinc#44259-0 "Trouble falling or staying asleep, or sleeping too much in last 2 weeks [Reported.PHQ]"
+// * item[=].text = "Trouble falling or staying asleep, or sleeping too much"
+// * item[=].type = #choice
+// * item[=].required = true
+// * item[=].repeats = false
+// * item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
+// * item[+].linkId = "14366"
+// * item[=].code = $loinc#44254-1 "Feeling tired or having little energy in last 2 weeks [Reported.PHQ]"
+// * item[=].text = "Feeling tired or having little energy"
+// * item[=].type = #choice
+// * item[=].required = true
+// * item[=].repeats = false
+// * item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
+// * item[+].linkId = "14367"
+// * item[=].code = $loinc#44251-7 "Poor appetite or overeating in last 2 weeks [Reported.PHQ]"
+// * item[=].text = "Poor appetite or overeating"
+// * item[=].type = #choice
+// * item[=].required = true
+// * item[=].repeats = false
+// * item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
+// * item[+].linkId = "14368"
+// * item[=].code = $loinc#44258-2 "Feeling bad about yourself - or that you are a failure or have let yourself or your family down in last 2 weeks [Reported.PHQ]"
+// * item[=].text = "Feeling bad about yourself-or that you are a failure or have let yourself or your family down"
+// * item[=].type = #choice
+// * item[=].required = true
+// * item[=].repeats = false
+// * item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
+// * item[+].linkId = "14369"
+// * item[=].code = $loinc#44252-5 "Trouble concentrating on things, such as reading the newspaper or watching television in last 2 weeks [Reported.PHQ]"
+// * item[=].text = "Trouble concentrating on things, such as reading the newspaper or watching television"
+// * item[=].type = #choice
+// * item[=].required = true
+// * item[=].repeats = false
+// * item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
+// * item[+].linkId = "14370"
+// * item[=].code = $loinc#44253-3 "Moving or speaking so slowly that other people could have noticed. Or the opposite - being so fidgety or restless that you have been moving around a lot more than usual in last 2 weeks [Reported.PHQ]"
+// * item[=].text = "Moving or speaking so slowly that other people could have noticed. Or the opposite-being so fidgety or restless that you have been moving around a lot more than usual"
+// * item[=].type = #choice
+// * item[=].required = true
+// * item[=].repeats = false
+// * item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
+// * item[+].linkId = "14371"
+// * item[=].code = $loinc#44260-8 "Thoughts that you would be better off dead, or of hurting yourself in some way in last 2 weeks [Reported.PHQ]"
+// * item[=].text = "Thoughts that you would be better off dead, or of hurting yourself in some way"
+// * item[=].type = #choice
+// * item[=].repeats = false
+// * item[=].answerOption[0].valueCoding = $loinc#LA6568-5 "Not at all"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6569-3 "Several days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6570-1 "More than half the days"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6571-9 "Nearly every day"
+// * item[+].linkId = "57492"
+// * item[=].code = $loinc#69722-7 "How difficult have these made it for you to do your work, take care of things at home, or get along with other people [Reported.PHQ]"
+// * item[=].text = "How difficult have these problems made it for you to do your work, take care of things at home, or get along with other people?"
+// * item[=].type = #choice
+// * item[=].repeats = false
+// * item[=].answerOption[0].valueCoding = $loinc#LA6572-7 "Not difficult at all"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6573-5 "Somewhat difficult"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6575-0 "Very difficult"
+// * item[=].answerOption[+].valueCoding = $loinc#LA6574-3 "Extremely difficult"
+// * item[+].linkId = "14372"
+// * item[=].text = "Patient health questionnaire 9 item total score"
+// * item[=].type = #decimal
 
 Instance: 52
 InstanceOf: Questionnaire
@@ -194,7 +196,7 @@ Usage: #inline
 * item[=].repeats = false
 * item[=].maxLength = 100
 * item[+].linkId = "assessment_date"
-* item[=].text = "Please report the date this assessment was complete."
+* item[=].text = "Please report the date this assessment was completed."
 * item[=].type = #date
 * item[=].required = true
 * item[=].repeats = false
@@ -547,7 +549,7 @@ Usage: #inline
 * item[=].repeats = false
 * item[=].maxLength = 100
 * item[+].linkId = "assessment_date"
-* item[=].text = "Please report the date this assessment was complete."
+* item[=].text = "Please report the date this assessment was completed."
 * item[=].type = #date
 * item[=].required = true
 * item[=].repeats = false
@@ -859,9 +861,9 @@ Usage: #example
 * item[+].type = #date
 * item[=].required = true
 * item[=].linkId = "assessment_date"
-* item[=].text = "Please report the date this assessment was complete."
+* item[=].text = "Please report the date this assessment was completed."
 * item[+].type = #choice
-* item[=].code = $loinc#61577-3 "In general, would you say your health is..."
+* item[=].code = $loinc#61577-3 "In general, would you say your health is"
 * item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].extension.valueCodeableConcept.text = "Drop down"
@@ -884,7 +886,7 @@ Usage: #example
 * item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answerOption[=].extension.valueDecimal = 1
 * item[+].type = #choice
-* item[=].code = $loinc#61578-1 "In general, would you say your quality of life is..."
+* item[=].code = $loinc#61578-1 "In general, would you say your quality of life is [PROMIS]"
 * item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].extension.valueCodeableConcept.text = "Drop down"
@@ -907,7 +909,7 @@ Usage: #example
 * item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answerOption[=].extension.valueDecimal = 1
 * item[+].type = #choice
-* item[=].code = $loinc#61579-9 "In general, how would you rate your physical health?"
+* item[=].code = $loinc#61579-9 "In general, how would you rate your physical health [PROMIS]"
 * item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].extension.valueCodeableConcept.text = "Drop down"
@@ -930,7 +932,7 @@ Usage: #example
 * item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answerOption[=].extension.valueDecimal = 1
 * item[+].type = #choice
-* item[=].code = $loinc#61580-7 "In general, how would you rate your mental health, including your mood and your ability  to think?"
+* item[=].code = $loinc#61580-7 "In general, how would you rate your mental health, including your mood and your ability to think [PROMIS]"
 * item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].extension.valueCodeableConcept.text = "Drop down"
@@ -953,7 +955,7 @@ Usage: #example
 * item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answerOption[=].extension.valueDecimal = 1
 * item[+].type = #choice
-* item[=].code = $loinc#61581-5 "In general, how would you rate your satisfaction with your social activities and relationships?"
+* item[=].code = $loinc#61581-5 "In general, how would you rate your satisfaction with you social activities and relationships [PROMIS]"
 * item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].extension.valueCodeableConcept.text = "Drop down"
@@ -976,7 +978,7 @@ Usage: #example
 * item[=].answerOption[=].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answerOption[=].extension.valueDecimal = 1
 * item[+].type = #choice
-* item[=].code = $loinc#61585-6 "In general, please rate how well you carry out  your usual social activities and roles. (This includes activities at home, at work and in your community, and responsibilities as a parent, child, spouse, employee, friend, etc.)"
+* item[=].code = $loinc#61585-6 "In general, please rate how well you carry out your usual social activities and roles [PROMIS]"
 * item[=].extension.url = "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
 * item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].extension.valueCodeableConcept.text = "Drop down"
@@ -1003,7 +1005,7 @@ Usage: #example
 * item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].extension.valueCodeableConcept.text = "Drop down"
 * item[=].linkId = "physical_activities"
-* item[=].code = $loinc#61582-3 "In the past 7 days, to what extent are you able to carry out your everyday physical activities such as walking, climbing stairs, carrying groceries, or moving a chair?"
+* item[=].code = $loinc#61582-3 "To what extent are you able to carry out your everyday physical activities such as walking, climbing stairs, carrying groceries, or moving a chair [PROMIS]"
 * item[=].text = "In the past 7 days, to what extent are you able to carry out your everyday physical activities such as walking, climbing stairs, carrying groceries, or moving a chair?"
 * item[=].required = true
 * item[=].answerOption[0].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
@@ -1026,7 +1028,7 @@ Usage: #example
 * item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].extension.valueCodeableConcept.text = "Drop down"
 * item[=].linkId = "emotional"
-* item[=].code = $loinc#61586-4 "In the past 7 days, how often have you been bothered by emotional problems such as feeling anxious, depressed or irritable?"
+* item[=].code = $loinc#61586-4 "How often have you been bothered by emotional problems such as feeling anxious, depressed or irritable in past 7 days [PROMIS]"
 * item[=].text = "In the past 7 days, how often have you been bothered by emotional problems such as feeling anxious, depressed or irritable?"
 * item[=].required = true
 * item[=].answerOption[0].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
@@ -1049,7 +1051,7 @@ Usage: #example
 * item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].extension.valueCodeableConcept.text = "Drop down"
 * item[=].linkId = "fatigue"
-* item[=].code = $loinc#61584-9 "In the past 7 days, how would you rate your fatigue on average?"
+* item[=].code = $loinc#61584-9 "How would you rate your fatigue on average in past 7 days [PROMIS]"
 * item[=].text = "In the past 7 days, how would you rate your fatigue on average?"
 * item[=].required = true
 * item[=].answerOption[0].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
@@ -1072,18 +1074,18 @@ Usage: #example
 * item[=].extension.valueCodeableConcept = $questionnaire-item-control#drop-down "Drop down"
 * item[=].extension.valueCodeableConcept.text = "Drop down"
 * item[=].linkId = "pain"
-* item[=].code = $loinc#61583-1 "On a scale of 0-10, with 10 being the worst pain imaginable and 0 being no pain, how would you rate your pain on average?"
+* item[=].code = $loinc#61583-1 "How would you rate your pain on average in past 7 days [PROMIS]"
 * item[=].text = "On a scale of 0-10, with 10 being the worst pain imaginable and 0 being no pain, how would you rate your pain on average?"
 * item[=].required = true
 * item[=].answerOption[0].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answerOption[=].extension.valueDecimal = 0
-* item[=].answerOption[=].valueCoding = $loinc#LA26951-6 "0 - No Pain"
+* item[=].answerOption[=].valueCoding = $loinc#LA26951-6 "0:\"No pain"
 * item[=].answerOption[+].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answerOption[=].extension.valueDecimal = 1
 * item[=].answerOption[=].valueCoding = $loinc#LA6112-2 "1"
 * item[=].answerOption[+].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answerOption[=].extension.valueDecimal = 2
-* item[=].answerOption[=].valueCoding = $loinc#LA6113-0 "2"
+* item[=].answerOption[=].valueCoding = $loinc#LA6113-0 "2 or more"
 * item[=].answerOption[+].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answerOption[=].extension.valueDecimal = 3
 * item[=].answerOption[=].valueCoding = $loinc#LA6114-8 "3"
@@ -1107,11 +1109,11 @@ Usage: #example
 * item[=].answerOption[=].valueCoding = $loinc#LA10141-2 "9"
 * item[=].answerOption[+].extension.url = "http://hl7.org/fhir/StructureDefinition/ordinalValue"
 * item[=].answerOption[=].extension.valueDecimal = 10
-* item[=].answerOption[=].valueCoding = $loinc#LA26952-4 "10 - Worst Pain Imaginable"
+* item[=].answerOption[=].valueCoding = $loinc#LA26952-4 "10: \"Worst pain imaginable"
 * item[+].type = #decimal
 * item[=].linkId = "physical_health_score"
 * item[=].code = $loinc#71972-4 "PROMIS-10 Global Physical Health (GPH) score"
-* item[=].text = "PROMIS-10 Global Health, GPH, raw score"
+* item[=].text = "PROMIS-10 Global Physical Health (Raw Score)"
 * item[=].readOnly = true
 * item[=].extension.url = $sdc-calculatedExpression
 * item[=].extension.valueExpression.language = #text/fhirpath
@@ -1119,7 +1121,7 @@ Usage: #example
 * item[+].type = #decimal
 * item[=].linkId = "mental_health_score"
 * item[=].code = $loinc#71970-8 "PROMIS-10 Global Mental Health (GMH) score"
-* item[=].text = "PROMIS-10 Global Health, GMH raw score"
+* item[=].text = "PROMIS-10 Global Mental Health (Raw Score)"
 * item[=].readOnly = true
 * item[=].extension.url = $sdc-calculatedExpression
 * item[=].extension.valueExpression.language = #text/fhirpath
