@@ -25,59 +25,9 @@ The QR is converted into one parent collection Observation and 16 member Observa
 
 ### Conversion Diagram
 
-```mermaid
-%%{init: {"themeVariables": {"primaryTextColor": "#000000", "secondaryTextColor": "#000000", "tertiaryTextColor": "#000000", "clusterTextColor": "#000000", "lineColor": "#000000", "edgeLabelBackground": "#ffffff"}}}%%
-flowchart TD
-  subgraph CompletedAnswers["Completed Questionnaire Answers"]
-    QR["QuestionnaireResponse/4805"]
-  end
-
-  subgraph ParentObservation["PFE Collection - PROMIS-10 collection - LOINC 85524-7"]
-    Collection["Observation/4805-6e8b117c"]
-  end
-
-  QR -->|"derivedFrom"| Collection
-
-  subgraph SingleObservations["PFE Single Observations"]
-    direction TB
-
-    subgraph QuestionnaireItems["Questionnaire Items (12)"]
-      direction TB
-
-      subgraph Metadata["Metadata (2)"]
-        direction LR
-        Mbi["Observation/4805-Mbi"]
-        AssessmentDate["Observation/4805-AssessmentDate"]
-      end
-
-      subgraph Questions["Questions (10)"]
-        direction LR
-        Health["Observation/4805-Health"]
-        QuestionEllipsis["Observation/4805-..."]
-        Pain["Observation/4805-Pain"]
-      end
-    end
-
-    subgraph Scores["Scores (4)"]
-      direction LR
-      PhysicalHealthScore["Observation/4805-PhysicalHealthScore"]
-      ScoreEllipsis["Observation/4805-...Score"]
-      MentalHealthTscore["Observation/4805-MentalHealthTscore"]
-    end
-  end
-
-  Collection -->|"hasMember"| Metadata
-  Collection -->|"hasMember"| Questions
-  Collection -->|"hasMember"| Scores
-
-  style CompletedAnswers fill:#eef6ff,stroke:#4f7cac,stroke-width:1.5px,color:#000000
-  style ParentObservation fill:#eefaf1,stroke:#4f9b63,stroke-width:1.5px,color:#000000
-  style SingleObservations fill:#fff7e6,stroke:#c58a1e,stroke-width:1.5px,color:#000000
-  style QuestionnaireItems fill:#f7f4ff,stroke:#7b61b8,stroke-width:1.5px,color:#000000
-  style Metadata fill:#f2fbff,stroke:#4a90a4,stroke-width:1.5px,color:#000000
-  style Questions fill:#f9f9f9,stroke:#6b7280,stroke-width:1.5px,color:#000000
-  style Scores fill:#fff0f0,stroke:#b85b5b,stroke-width:1.5px,color:#000000
-```
+<p align="center">
+    <img src="./promis10_qr_observation_diagram.png" alt="PROMIS-10 QuestionnaireResponse-to-Observation diagram" style="width: 100%; float: none; vertical-align: middle;"/>
+</p>
 
 ### Questionnaire
 

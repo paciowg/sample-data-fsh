@@ -1,14 +1,28 @@
-.bordered-table table {
+
+/* PACIO authored-page table styling */
+table {
   border-collapse: collapse;
+  margin: 1rem 0;
+  width: auto;
+  max-width: 100%;
 }
 
-.bordered-table table,
-.bordered-table th,
-.bordered-table td {
+table,
+table th,
+table td {
   border: 1px solid #ccc;
 }
 
-.bordered-table th,
-.bordered-table td {
+table th,
+table td {
   padding: 6px 10px;
+  vertical-align: top;
+}
+
+table th {
+  font-weight: 600;
+}
+
+table code {
+  white-space: nowrap;
 }

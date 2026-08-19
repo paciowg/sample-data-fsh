@@ -36,7 +36,7 @@ For any name-derived segment used in a file name, `Instance:` name, or resource 
 
 Examples:
 
-| Source Name | Name Segment | Persona Key |
+| Source Name | Concatenated Name | Persona Key |
 |---|---|---|
 | Betsy Smith-Johnson | `betsySmith-Johnson` | `bsj01` |
 | Wilma Marina | `wilmaMarina` | `wm01` |
@@ -249,7 +249,12 @@ Rules:
 
 ### Unique Identifiers
 
-Identifiers used in sample data should be synthetic, structurally valid for the identifier type, consistent across related examples for the same persona, and documented for review. Do not use identifiers known to belong to a real person or organization.
+To date, the sample data includes only a limited set of identifier types. Additional identifier types and type-specific guidance may be added as needed.
+Identifiers used in sample data should be synthetic, structurally valid for the identifier type, consistent across related examples for the same persona, and documented for review. Do not use identifiers known to belong to a real person or organization. 
+
+#### Synthetic Persona Overview
+
+The active list of synthetic personas, persona keys, and assigned synthetic identifiers should be maintained on the [Synthetic Persona Overview](synthetic_personas.html). Update that page whenever a new synthetic persona or synthetic identifier is added to the sample data.
 
 #### Social Security Number (SSN)
 
@@ -274,24 +279,6 @@ Source note: SSA guidance identifies SSNs with all zeros in any digit group, are
 
 Invalid SSNs, including 900-series values, may be used only for negative testing or when a participating system explicitly requires non-validating synthetic identifiers.
 
-#### National Provider Identifier (NPI)
-
-NPIs used in PACIO sample data SHALL be structurally valid synthetic 10-digit NPIs. Generated NPIs SHALL pass the NPI check digit calculation. PACIO synthetic NPIs SHALL begin with `123000`; the next three digits may vary, and the final digit SHALL be the calculated NPI check digit.
-
-Pattern:
-
-`123000###C`
-
-Where `C` is the calculated check digit.
-
-Examples:
-
-- `1230004560`
-- `1230007892`
-- `1230001231`
-
-Source note: CMS describes the NPI as nine numeric digits followed by one numeric check digit, with the check digit calculated using the Luhn formula. See [CMS Requirements for NPI and NPI Check Digit](https://www.cms.gov/regulations-and-guidance/administrative-simplification/nationalprovidentstand/downloads/npicheckdigit.pdf).
-
 #### Medicare Beneficiary Identifier (MBI)
 
 MBIs used in PACIO sample data SHALL be structurally valid synthetic 11-character MBIs. PACIO synthetic MBIs SHALL begin with the literal characters `1X00XX`. The remaining five characters SHALL follow the MBI format rules and validate using the PACIO identifier generation tool.
@@ -302,8 +289,8 @@ Pattern:
 
 Where:
 
-- `#` represents a numeric digit.
-- `A` represents an allowed uppercase MBI letter.
+- `#` represents numeric 0 thru 9.
+- `A` represents alphabetic character (A...Z); excluding characters (S, L, O, I, B, Z).
 - The MBI excluded letters are `S`, `L`, `O`, `I`, `B`, and `Z`.
 
 Examples:
@@ -312,8 +299,34 @@ Examples:
 - `1X00XX3DE45`
 - `1X00XX4FG56`
 
-Source note: CMS states that MBIs have 11 characters, do not use dashes, use position-specific character classes, and exclude the letters `S`, `L`, `O`, `I`, `B`, and `Z`. See [CMS Understanding the MBI Format](https://www.cms.gov/medicare/new-medicare-card/understanding-the-mbi-with-format.pdf).
+Source note: CMS states that MBIs have 11 characters, do not use dashes, use position-specific character classes, and exclude the letters `S`, `L`, `O`, `I`, `B`, and `Z`. See [CMS Understanding the MBI Format](https://www.cms.gov/medicare/new-medicare-card/understanding-the-mbi-with-format.pdf) for full details of the character positions.
 
-### Synthetic Persona Overview
+#### National Provider Identifier (NPI)
 
-The active list of synthetic personas, persona keys, and assigned synthetic identifiers should be maintained on the [Synthetic Persona Overview](synthetic_personas.html). Update that page whenever a new synthetic persona or synthetic identifier is added to the sample data.
+NPIs used in PACIO sample data SHALL be structurally valid synthetic 10-digit NPIs. Generated NPIs SHALL pass the NPI check digit calculation. PACIO synthetic NPIs SHALL begin with `123000`; the next three digits may vary, and the final digit SHALL be the calculated NPI check digit.
+
+Pattern:
+
+`123000###C`
+
+Where `#` is numeric and `C` is the calculated check digit.
+
+Examples:
+
+- `1230004560`
+- `1230007894`
+- `1230001236`
+
+NPPES Registry Check
+
+Before a proposed synthetic NPI is included in PACIO sample data, it SHALL be checked in the NPPES NPI Registry. If the lookup returns a record for an individual or organization, the NPI SHALL not be used.
+
+For automated checks, query the NPPES Read API using:
+
+https://npiregistry.cms.hhs.gov/api/?version=2.1&number=<NPI>
+
+Replace <NPI> with the proposed 10-digit NPI.
+
+Source notes: CMS describes the NPI as nine numeric digits followed by one numeric check digit, with the check digit calculated using the Luhn formula. See CMS Requirements for NPI and NPI Check Digit. The NPPES Registry is the authoritative public lookup service; it confirms public NPI records but does not validate a provider’s licensure or credentials. See the NPPES API documentation.
+
+Source note: CMS describes the NPI as nine numeric digits followed by one numeric check digit, with the check digit calculated using the Luhn formula. See [CMS Requirements for NPI and NPI Check Digit](https://www.cms.gov/regulations-and-guidance/administrative-simplification/nationalprovidentstand/downloads/npicheckdigit.pdf).

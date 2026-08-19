@@ -107,7 +107,7 @@ When creating or materially updating FSH examples:
 - Check that all renamed resources have updated references.
 - Preserve existing clinical facts unless the change explicitly requires an update.
 - Use official codes and systems when a coded value is required.
-- Do not fabricate clinical details, dates, medications, codes, or identifiers to fill gaps without review.
+- AI agents SHALL not fabricate clinical details, dates, medications, codes, or identifiers to fill gaps without review. All such details must originate with the human operators or at minimum be reviewed by them prior to inclusion in the sample data.
 
 ### AI Tool Guardrails
 

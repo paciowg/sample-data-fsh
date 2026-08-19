@@ -18,16 +18,17 @@ Updates include:
 - Keep the Storyboard menu focused on Betsy Smith-Johnson for this branch; Wilma Marina and Violet Gartner are not included as standalone persona pages in the current build.
 - Review and update IG dependencies and point-of-contact information in `sushi-config.yaml`.
 
-### Source Material and Provenance
+### Connectathon Contributions and Sample Data History
 
-Some sample data originated from prior PACIO Connectathon examples and has been revised over time to improve validation, consistency, readability, and reuse.
+The Sample Data Depot incorporates and extends sample data and related testing artifacts contributed through PACIO Connectathons. The following Connectathons contributed source examples:
 
-Initial source material included examples from:
-
+- [CMS July 2026 FHIR Connectathon 7 PACIO Quality Measures & Implementation Guide Testing](https://confluence.hl7.org/x/dR8OGw)
 - [September 2024 Connectathon 37 PACIO Standardized Medication Profile (SMP) and Personal Functioning Engagement (PFE) Track](https://confluence.hl7.org/x/TgCzDw).
 - [January 2025 Connectathon 38 Transitions of Care (ToC) Track](https://confluence.hl7.org/x/K4ErEQ).
 
-Earlier PACIO sample data was maintained as manually crafted FHIR JSON examples in the [Github paciowg/sample-data repo](https://github.com/paciowg/sample-data). The Sample Data Depot moved this work into FHIR Shorthand (FSH), SUSHI, and the FHIR IG Publisher to improve readability, maintainability, generated narrative, and validation.
+Sample data from these efforts has been revised over time to improve validation, consistency, readability, and reuse.
+
+Earlier PACIO sample data was maintained as manually crafted FHIR JSON examples in the [Github paciowg/sample-data repo](https://github.com/paciowg/sample-data). The Sample Data Depot now maintains this work in FHIR Shorthand (FSH), using SUSHI and the FHIR IG Publisher to support improved readability, maintainability, generated narrative, and validation.
 
 ### Notes for Future Release Entries
 
