@@ -684,39 +684,3 @@ Description: "MedicationRequest for sitagliptin - active order on 2025-07-16 by 
 * requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 * medicationCodeableConcept[0].coding[0] = $rxnorm#665042 "sitagliptin 50 MG Oral Tablet"
 // * medicationCodeableConcept[0].coding[1] = $NDC#70710-1900-9  // "mlt_cmt: the following NDC code is active as of 7/1/26 and was incorrectly flagged as an error due to an outdated IG publisher version of NDC."
-
-Instance: bsj1-smp-medrx-jardiance-5-1
-InstanceOf: MedicationRequest
-Usage: #example
-Description: "MedicationRequest for jardiance - active order on 2025-10-16 by Role-IMMD-AnitaChu"
-* status = #active
-* intent = #order
-* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-10-16T11:02:40.456Z"
-* requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#1545664 "empagliflozin 10 MG Oral Tablet [Jardiance]"
-* medicationCodeableConcept[0].coding[1] = $NDC#55154-0411-8
-
-Instance: bsj1-smp-medrx-sertraline-5-2
-InstanceOf: MedicationRequest
-Usage: #example
-Description: "MedicationRequest for sertraline - active order on 2025-10-16 by Role-IMMD-AnitaChu"
-* status = #active
-* intent = #order
-* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-10-16T11:02:40.456Z"
-* requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#312940 "sertraline 25 MG Oral Tablet"
-* medicationCodeableConcept[0].coding[1] = $NDC#0143-9656-09
-
-Instance: bsj1-smp-medrx-lipitor-5-3
-InstanceOf: MedicationRequest
-Usage: #example
-Description: "MedicationRequest for lipitor - active order on 2025-10-16 by Role-IMMD-AnitaChu"
-* status = #active
-* intent = #order
-* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* authoredOn = "2025-10-16T11:02:40.456Z"
-* requester = Reference(PractitionerRole/Role-IMMD-AnitaChu)
-* medicationCodeableConcept[0].coding[0] = $rxnorm#617320 "atorvastatin 40 MG Oral Tablet [Lipitor]"
-* medicationCodeableConcept[0].coding[1] = $NDC#0071-0157-23

@@ -1,0 +1,61 @@
+Alias: $v3-NullFlavor = http://terminology.hl7.org/CodeSystem/v3-NullFlavor
+Alias: $v3-RoleCode = http://terminology.hl7.org/CodeSystem/v3-RoleCode
+
+Instance: patient-wilmamarina01
+InstanceOf: Patient
+Usage: #example
+Description: "Wilma Marina's patient record"
+* meta.lastUpdated = "2021-03-29T14:25:34.001-05:00"
+* meta.profile = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient"
+* language = #en-US
+* extension.extension[0].url = "ombCategory"
+* extension.extension[=].valueCoding = urn:oid:2.16.840.1.113883.6.238#2106-3 "White"
+* extension.extension[+].url = "text"
+* extension.extension[=].valueString = "White"
+* extension.url = "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race"
+* identifier[0].use = #usual
+* identifier[=].type = $v2-0203#MR "Medical Record Number"
+* identifier[=].type.text = "Medical Record Number"
+* identifier[=].system = "http://hospital.smarthealthit.org"
+* identifier[=].value = "1032703"
+* identifier[+].system = "http://hl7.org/fhir/sid/us-medicare"
+* identifier[=].value = "1PA3D58WH17"
+* identifier[=].assigner.display = "Medicare"
+* identifier[+].type = $v2-0203#SS "Social Security Number"
+* identifier[=].type.text = "Social Security Number"
+* identifier[=].system = "http://hl7.org/fhir/sid/us-ssn"
+* identifier[=].value = "123-00-0001"
+
+* active = true
+* name.use = #usual
+* name.text = "Marina, Wilma"
+* name.family = "Marina"
+* name.given = "Wilma"
+* gender = #female
+* birthDate = "1950-11-15"
+* telecom[0].system = #phone
+* telecom[=].use = #mobile
+* telecom[=].value = "555-555-1111"
+* address.line = "17040 E Warren Avenue"
+* address.city = "Detroit"
+* address.state = "MI"
+* address.postalCode = "48224"
+* address.country = "US"
+* address.period.start = "2016-12-06"
+* address.text = "17040 E Warren Avenue, Detroit, MI 48224"
+* maritalStatus = $v3-NullFlavor#UNK
+* contact[0].relationship = $v3-RoleCode#SONC
+* contact[=].name.text = "Charles Marina"
+* contact[=].address.text = "17040 E Warren Avenue, Detroit, MI 48224"
+* contact[=].telecom.system = #phone
+* telecom[=].use = #mobile
+* contact[=].telecom.value = "(555) 555-2222"
+* contact[+].relationship = $v3-RoleCode#DAUINLAW
+* contact[=].name.text = "Lisa Marina"
+* contact[=].telecom.system = #phone
+* telecom[=].use = #mobile
+* contact[=].telecom.value = "(555) 555-3333"
+* contact[=].address.text = "17040 E Warren Avenue, Detroit, MI 48224"
+* communication.language = urn:ietf:bcp:47#en "English"
+* communication.preferred = true
+

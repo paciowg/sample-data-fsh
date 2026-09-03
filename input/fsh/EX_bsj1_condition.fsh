@@ -56,7 +56,6 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * abatementDateTime = "2023-07-16"
 * recordedDate = "2022-10-12T14:15:07-04:00"
 
-
 Instance: betsysmith-johnson01-Condition-Constipation-01
 InstanceOf: Condition
 Usage: #example
@@ -279,7 +278,6 @@ Description: "Betsy Smith-Johnson's condition FHIR resource indicates a diagnosi
 * extension.valueDateTime = "2015-01"
 * asserter = Reference(PractitionerRole/Role-IMMD-AnitaChu)
 
-
 Instance: betsysmith-johnson01-Condition-Stroke-01
 InstanceOf: Condition
 Usage: #example
@@ -471,38 +469,3 @@ Description: "A list of Betsy Smith-Johnson's problems, conditions, and health c
 * entry[+].item = Reference(Condition/betsysmith-johnson01-Condition-BreastCancer-01)
 * entry[+].item = Reference(Condition/betsysmith-johnson01-Condition-Depression-01)
 * entry[+].item = Reference(Condition/betsysmith-johnson01-Condition-Bipolar-01)
-
-Instance: betsysmith-johnson01-Condition-PressureUlcer-Stage2-20260415
-InstanceOf: Condition
-Usage: #example
-Description: "Betsy Smith-Johnson's condition FHIR resource indicates a stage II pressure ulcer diagnosed on 2026-04-15."
-* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
-* clinicalStatus = $condition-clinical#active
-* verificationStatus = $condition-ver-status#confirmed
-* code = $sct#420324007 "Pressure ulcer stage 2"
-* code.text = "Stage II pressure ulcer"
-* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* recordedDate = "2026-04-15"
-* category[0] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
-* bodySite = $sct#787204008 "Structure of skin of right hip"
-* extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
-* extension.valueDateTime = "2026-04-15"
-* asserter = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
-
-Instance: betsysmith-johnson01-Condition-InfectedSkinUlcer-20260714
-InstanceOf: Condition
-Usage: #example
-Description: "Betsy Smith-Johnson's condition FHIR resource indicates nursing documentation of wound-related findings consistent with infected skin ulcer on 2026-07-14."
-* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-condition-encounter-diagnosis"
-* clinicalStatus = $condition-clinical#active
-* verificationStatus = $condition-ver-status#confirmed
-* code = $sct#2622007 "Infected ulcer of skin"
-* code.text = "Infected ulcer of skin"
-* subject = Reference(Patient/patient-betsysmith-johnson01) "Betsy Smith-Johnson"
-* recordedDate = "2026-07-14"
-* category[0] = $condition-category#encounter-diagnosis "Encounter Diagnosis"
-* bodySite = $sct#787204008 "Structure of skin of right hip"
-* extension.url = "http://hl7.org/fhir/StructureDefinition/condition-assertedDate"
-* extension.valueDateTime = "2026-07-14"
-* asserter = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
-* note.text = "During an assessment of the patient's Stage II pressure ulcer on her right hip, there were indications of an infection at the ulcer site, with erythema and edema of the skin surrounding the pressure ulcer, greenish-yellow drainage, foul odor coming from the wound. The patient also has a low grade fever, reports no appetite, and reports increased pain in the right hip around the wound area."
