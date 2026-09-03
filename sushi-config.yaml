@@ -56,6 +56,7 @@ menu:
     Artifact Index: artifacts.html
   Storyboard:
     Betsy Smith-Johnson: pacio_persona_betsySmithJohnson.html
+    Wilma Marina: pacio_persona_wilmaMarina.html
   Style Guide: style_guide.html
   Release Notes: release_notes.html
   Downloads: downloads.html
@@ -69,6 +70,8 @@ pages:
     title: Examples Style Guide
   pacio_persona_betsySmithJohnson.md:
     title: Betsy Smith-Johnson - Stroke Use Case
+  pacio_persona_wilmaMarina.md:
+    title: Wilma Marina - Pressure Ulcer Use Case
   release_notes.md:
     title: Release Notes
   downloads.md:
