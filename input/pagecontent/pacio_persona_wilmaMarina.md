@@ -6,8 +6,6 @@ This use case introduces a new sample patient, Wilma Marina, to support transiti
 
 [Wilma Marina](Patient-patient-wilmamarina01.html) is a 75-year-old female who lives in Detroit, Michigan with her son, [Charles Marina](RelatedPerson-relatedPerson-CharlesMarina01.html). Wilma’s past medical history is significant for [type 2 diabetes mellitus in nonobese](Condition-wilmamarina01-Condition-Diabetes-01.html), [hyperlipidemia](Condition-wilmamarina01-Condition-Hyperlipidemia-01.html), and [depressive disorder](Condition-wilmamarina01-Condition-Depression-01.html).
 
-Her current medications include [sertraline](MedicationRequest-wm1-smp-medrx-sertraline-0-15.html) / Zoloft 25 mg by mouth daily for depression, [empagliflozin](MedicationRequest-wm1-smp-medrx-jardiance-0-10.html) / Jardiance 10 mg by mouth daily for diabetes management, and [atorvastatin](MedicationRequest-wm1-smp-medrx-lipitor-0-11.html) / Lipitor 40 mg oral tablet for hyperlipidemia. Her medication list is captured in a home medication bundle and reconciled medication list. Wilma’s allergy list includes [ACE inhibitors](AllergyIntolerance-wilmamarina01-AllergyACE.html), which is relevant to medication review and treatment planning.
-
 Wilma was admitted to a skilled nursing facility. A PHQ-9 assessment completed at SNF admission on May 4, 2025 had a total score of [23](Observation-wilmamarina01-qr-phq9-snf-admission-01-44261-6.html). Her A1C was [6.2% on July 16, 2025](Observation-wilmamarina01-A1C-01.html), [7.3% on October 16, 2025](Observation-wilmamarina01-A1C-02.html), and [6.7% on January 20, 2026](Observation-wilmamarina01-A1C-03.html). On October 16, 2025, her primary care provider renewed her prescriptions for Jardiance, Sertraline, and Lipitor. A second PHQ-9 assessment completed at SNF discharge on February 20, 2026 had a total score of [18](Observation-wilmamarina01-qr-phq9-snf-discharge-01-44261-6.html).
 
 During her stay, Wilma established a personal goal to attend her daughter’s wedding in late August. The nurse also set a goal for Wilma to demonstrate knowledge of safety measures to prevent falls so she could continue to live at home. Her discharge planning accounted for the fact that her son travels for work approximately four days a week and is not always available to help her.
@@ -72,12 +70,6 @@ Wilma’s home health observations were performed by [Nichelle Lorna](Practition
 
 * [Bundle: wilmamarina01-SMP-Bundle-0-HomeMeds](Bundle-wilmamarina01-SMP-Bundle-0-HomeMeds.html)
 * [List: wm1-smp-medListNew-0](List-wm1-smp-medListNew-0.html)
-* [MedicationRequest: wm1-smp-medrx-sertraline-0-15](MedicationRequest-wm1-smp-medrx-sertraline-0-15.html)
-* [MedicationRequest: wm1-smp-medrx-jardiance-0-10](MedicationRequest-wm1-smp-medrx-jardiance-0-10.html)
-* [MedicationRequest: wm1-smp-medrx-lipitor-0-11](MedicationRequest-wm1-smp-medrx-lipitor-0-11.html)
-* [MedicationStatement: wm1-smp-medstmt-sertraline-0-15](MedicationStatement-wm1-smp-medstmt-sertraline-0-15.html)
-* [MedicationStatement: wm1-smp-medstmt-jardiance-0-10](MedicationStatement-wm1-smp-medstmt-jardiance-0-10.html)
-* [MedicationStatement: wm1-smp-medstmt-lipitor-0-11](MedicationStatement-wm1-smp-medstmt-lipitor-0-11.html)
 * [MedicationRequest: wm1-smp-medrx-jardiance-5-1](MedicationRequest-wm1-smp-medrx-jardiance-5-1.html)
 * [MedicationRequest: wm1-smp-medrx-sertraline-5-2](MedicationRequest-wm1-smp-medrx-sertraline-5-2.html)
 * [MedicationRequest: wm1-smp-medrx-lipitor-5-3](MedicationRequest-wm1-smp-medrx-lipitor-5-3.html)

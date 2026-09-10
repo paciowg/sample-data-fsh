@@ -22,6 +22,105 @@ Description: "Wilma Marina Braden Scale assessment collection on 2026-02-27."
 * hasMember[+] = Reference(wm1-Braden-FrictionShear-20260227)
 * hasMember[+] = Reference(wm1-Braden-TotalScore-20260227)
 
+Instance: wm1-Braden-SensoryPerception-20260227
+InstanceOf: Observation
+Usage: #example
+Description: "Wilma Marina Braden Scale sensory perception subscale on 2026-02-27."
+* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
+* status = #final
+* category[0] = $observation-category#survey "Survey"
+* category[+] = $us-core-category#functional-status "Functional Status"
+* code = $loinc#38222-6 "Sensory perception Braden scale"
+* subject = Reference(Patient/patient-wilmamarina01)
+* effectiveDateTime = "2026-02-27T10:00:00-05:00"
+* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
+* valueInteger = 3
+
+Instance: wm1-Braden-Moisture-20260227
+InstanceOf: Observation
+Usage: #example
+Description: "Wilma Marina Braden Scale moisture subscale on 2026-02-27."
+* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
+* status = #final
+* category[0] = $observation-category#survey "Survey"
+* category[+] = $us-core-category#functional-status "Functional Status"
+* code = $loinc#38229-1 "Moisture exposure Braden scale"
+* subject = Reference(Patient/patient-wilmamarina01)
+* effectiveDateTime = "2026-02-27T10:00:00-05:00"
+* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
+* valueInteger = 3
+
+Instance: wm1-Braden-Activity-20260227
+InstanceOf: Observation
+Usage: #example
+Description: "Wilma Marina Braden Scale activity subscale on 2026-02-27."
+* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
+* status = #final
+* category[0] = $observation-category#survey "Survey"
+* category[+] = $us-core-category#functional-status "Functional Status"
+* code = $loinc#38223-4 "Physical activity Braden scale"
+* subject = Reference(Patient/patient-wilmamarina01)
+* effectiveDateTime = "2026-02-27T10:00:00-05:00"
+* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
+* valueInteger = 2
+
+Instance: wm1-Braden-Mobility-20260227
+InstanceOf: Observation
+Usage: #example
+Description: "Wilma Marina Braden Scale mobility subscale on 2026-02-27."
+* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
+* status = #final
+* category[0] = $observation-category#survey "Survey"
+* category[+] = $us-core-category#functional-status "Functional Status"
+* code = $loinc#38224-2 "Physical mobility Braden scale"
+* subject = Reference(Patient/patient-wilmamarina01)
+* effectiveDateTime = "2026-02-27T10:00:00-05:00"
+* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
+* valueInteger = 3
+
+Instance: wm1-Braden-Nutrition-20260227
+InstanceOf: Observation
+Usage: #example
+Description: "Wilma Marina Braden Scale nutrition subscale on 2026-02-27."
+* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
+* status = #final
+* category[0] = $observation-category#survey "Survey"
+* category[+] = $us-core-category#functional-status "Functional Status"
+* code = $loinc#38225-9 "Nutrition intake pattern Braden scale"
+* subject = Reference(Patient/patient-wilmamarina01)
+* effectiveDateTime = "2026-02-27T10:00:00-05:00"
+* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
+* valueInteger = 3
+
+Instance: wm1-Braden-FrictionShear-20260227
+InstanceOf: Observation
+Usage: #example
+Description: "Wilma Marina Braden Scale friction and shear subscale on 2026-02-27."
+* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
+* status = #final
+* category[0] = $observation-category#survey "Survey"
+* category[+] = $us-core-category#functional-status "Functional Status"
+* code = $loinc#38226-7 "Friction and shear Braden scale"
+* subject = Reference(Patient/patient-wilmamarina01)
+* effectiveDateTime = "2026-02-27T10:00:00-05:00"
+* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
+* valueInteger = 3
+
+Instance: wm1-Braden-TotalScore-20260227
+InstanceOf: Observation
+Usage: #example
+Description: "Wilma Marina total Braden Scale score on 2026-02-27."
+* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
+* status = #final
+* category[0] = $observation-category#survey "Survey"
+* category[+] = $us-core-category#functional-status "Functional Status"
+* code = $loinc#38227-5 "Braden scale total score"
+* subject = Reference(Patient/patient-wilmamarina01)
+* effectiveDateTime = "2026-02-27T10:00:00-05:00"
+* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
+* valueInteger = 17
+* note.text = "Braden total score 17, indicating mild/low risk for pressure ulcer development."
+
 Instance: wm1-Braden-Assessment-20260415
 InstanceOf: Observation
 Usage: #example
@@ -42,20 +141,6 @@ Description: "Wilma Marina Braden Scale assessment collection on 2026-04-15."
 * hasMember[+] = Reference(wm1-Braden-FrictionShear-20260415)
 * hasMember[+] = Reference(wm1-Braden-TotalScore-20260415)
 
-Instance: wm1-Braden-SensoryPerception-20260227
-InstanceOf: Observation
-Usage: #example
-Description: "Wilma Marina Braden Scale sensory perception subscale on 2026-02-27."
-* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
-* status = #final
-* category[0] = $observation-category#survey "Survey"
-* category[+] = $us-core-category#functional-status "Functional Status"
-* code = $loinc#38222-6 "Sensory perception Braden scale"
-* subject = Reference(Patient/patient-wilmamarina01)
-* effectiveDateTime = "2026-02-27T10:00:00-05:00"
-* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
-* valueInteger = 3
-
 Instance: wm1-Braden-SensoryPerception-20260415
 InstanceOf: Observation
 Usage: #example
@@ -70,20 +155,6 @@ Description: "Wilma Marina Braden Scale sensory perception subscale on 2026-04-1
 * performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
 * valueInteger = 2
 
-Instance: wm1-Braden-Moisture-20260227
-InstanceOf: Observation
-Usage: #example
-Description: "Wilma Marina Braden Scale moisture subscale on 2026-02-27."
-* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
-* status = #final
-* category[0] = $observation-category#survey "Survey"
-* category[+] = $us-core-category#functional-status "Functional Status"
-* code = $loinc#38229-1 "Moisture exposure Braden scale"
-* subject = Reference(Patient/patient-wilmamarina01)
-* effectiveDateTime = "2026-02-27T10:00:00-05:00"
-* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
-* valueInteger = 3
-
 Instance: wm1-Braden-Moisture-20260415
 InstanceOf: Observation
 Usage: #example
@@ -95,20 +166,6 @@ Description: "Wilma Marina Braden Scale moisture subscale on 2026-04-15."
 * code = $loinc#38229-1 "Moisture exposure Braden scale"
 * subject = Reference(Patient/patient-wilmamarina01)
 * effectiveDateTime = "2026-04-15T10:00:00-04:00"
-* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
-* valueInteger = 2
-
-Instance: wm1-Braden-Activity-20260227
-InstanceOf: Observation
-Usage: #example
-Description: "Wilma Marina Braden Scale activity subscale on 2026-02-27."
-* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
-* status = #final
-* category[0] = $observation-category#survey "Survey"
-* category[+] = $us-core-category#functional-status "Functional Status"
-* code = $loinc#38223-4 "Physical activity Braden scale"
-* subject = Reference(Patient/patient-wilmamarina01)
-* effectiveDateTime = "2026-02-27T10:00:00-05:00"
 * performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
 * valueInteger = 2
 
@@ -126,20 +183,6 @@ Description: "Wilma Marina Braden Scale activity subscale on 2026-04-15."
 * performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
 * valueInteger = 1
 
-Instance: wm1-Braden-Mobility-20260227
-InstanceOf: Observation
-Usage: #example
-Description: "Wilma Marina Braden Scale mobility subscale on 2026-02-27."
-* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
-* status = #final
-* category[0] = $observation-category#survey "Survey"
-* category[+] = $us-core-category#functional-status "Functional Status"
-* code = $loinc#38224-2 "Physical mobility Braden scale"
-* subject = Reference(Patient/patient-wilmamarina01)
-* effectiveDateTime = "2026-02-27T10:00:00-05:00"
-* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
-* valueInteger = 3
-
 Instance: wm1-Braden-Mobility-20260415
 InstanceOf: Observation
 Usage: #example
@@ -153,20 +196,6 @@ Description: "Wilma Marina Braden Scale mobility subscale on 2026-04-15."
 * effectiveDateTime = "2026-04-15T10:00:00-04:00"
 * performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
 * valueInteger = 2
-
-Instance: wm1-Braden-Nutrition-20260227
-InstanceOf: Observation
-Usage: #example
-Description: "Wilma Marina Braden Scale nutrition subscale on 2026-02-27."
-* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
-* status = #final
-* category[0] = $observation-category#survey "Survey"
-* category[+] = $us-core-category#functional-status "Functional Status"
-* code = $loinc#38225-9 "Nutrition intake pattern Braden scale"
-* subject = Reference(Patient/patient-wilmamarina01)
-* effectiveDateTime = "2026-02-27T10:00:00-05:00"
-* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
-* valueInteger = 3
 
 Instance: wm1-Braden-Nutrition-20260415
 InstanceOf: Observation
@@ -182,20 +211,6 @@ Description: "Wilma Marina Braden Scale nutrition subscale on 2026-04-15."
 * performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
 * valueInteger = 2
 
-Instance: wm1-Braden-FrictionShear-20260227
-InstanceOf: Observation
-Usage: #example
-Description: "Wilma Marina Braden Scale friction and shear subscale on 2026-02-27."
-* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
-* status = #final
-* category[0] = $observation-category#survey "Survey"
-* category[+] = $us-core-category#functional-status "Functional Status"
-* code = $loinc#38226-7 "Friction and shear Braden scale"
-* subject = Reference(Patient/patient-wilmamarina01)
-* effectiveDateTime = "2026-02-27T10:00:00-05:00"
-* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
-* valueInteger = 3
-
 Instance: wm1-Braden-FrictionShear-20260415
 InstanceOf: Observation
 Usage: #example
@@ -209,21 +224,6 @@ Description: "Wilma Marina Braden Scale friction and shear subscale on 2026-04-1
 * effectiveDateTime = "2026-04-15T10:00:00-04:00"
 * performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
 * valueInteger = 2
-
-Instance: wm1-Braden-TotalScore-20260227
-InstanceOf: Observation
-Usage: #example
-Description: "Wilma Marina total Braden Scale score on 2026-02-27."
-* meta.profile = "http://hl7.org/fhir/us/pacio-pfe/StructureDefinition/pfe-observation-single"
-* status = #final
-* category[0] = $observation-category#survey "Survey"
-* category[+] = $us-core-category#functional-status "Functional Status"
-* code = $loinc#38227-5 "Braden scale total score"
-* subject = Reference(Patient/patient-wilmamarina01)
-* effectiveDateTime = "2026-02-27T10:00:00-05:00"
-* performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
-* valueInteger = 17
-* note.text = "Braden total score 17, indicating mild/low risk for pressure ulcer development."
 
 Instance: wm1-Braden-TotalScore-20260415
 InstanceOf: Observation
