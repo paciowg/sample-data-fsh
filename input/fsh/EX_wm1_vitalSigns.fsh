@@ -40,13 +40,6 @@ Description: "Wilma Marina vital signs panel on 2026-07-14 with elevated tempera
 * performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
 * hasMember[0] = Reference(wm1-body-temperature-20260714)
 
-
-// ============================================================================
-// BODY WEIGHT OBSERVATIONS - Chronological Order
-// ============================================================================
-
-// May 3, 2025 - ED Admission (Stroke Event)
-
 Instance: wm1-body-temperature-20260714
 InstanceOf: http://hl7.org/fhir/us/core/StructureDefinition/us-core-body-temperature
 Usage: #example
@@ -58,10 +51,4 @@ Description: "Wilma Marina body temperature observation on 2026-07-14"
 * subject = Reference(Patient/patient-wilmamarina01)
 * effectiveDateTime = "2026-07-14T10:00:00-04:00"
 * performer = Reference(PractitionerRole/PractitionerRole-RN-NichelleLorna)
-* valueQuantity = 101.7 '[degF]' "degrees Fahrenheit"
-
-// ============================================================================
-// OXYGEN SATURATION OBSERVATIONS - Chronological Order
-// ============================================================================
-
-// May 3, 2025 - ED Admission (Stroke Event) - Slightly low due to stress
+* valueQuantity = 102.7 '[degF]' "degrees Fahrenheit"
