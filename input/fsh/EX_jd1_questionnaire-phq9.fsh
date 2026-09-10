@@ -6,6 +6,7 @@ Title: "PHQ-9 Questionnaire"
 Description: "Patient Health Questionnaire-9 for depression screening"
 
 * status = #active
+* title = "Patient Health Questionnaire-9 (PHQ-9)"
 * url = "http://example.org/fhir/Questionnaire/PHQ9Questionnaire"
 * code = $LNC#44249-1 "PHQ-9 quick depression assessment panel [Reported.PHQ]"
 * subjectType[+] = #Patient

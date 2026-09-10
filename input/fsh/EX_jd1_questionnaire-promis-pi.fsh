@@ -7,6 +7,7 @@ Title: "PROMIS Pain Interference Short Form 6a Questionnaire"
 Description: "Questionnaire for PROMIS Pain Interference Short Form 6a score reporting"
 
 * status = #active
+* title = "PROMIS Pain Interference Short Form 6a"
 * url = "http://example.org/fhir/Questionnaire/PROMISPainInterferenceSFQuestionnaire"
 * code = $LNC#90973-9 "PROMIS short form - pain interference 6a - version 1.0"
 * subjectType[+] = #Patient
@@ -377,6 +378,7 @@ Title: "PROMIS Pain Interference CAT Questionnaire"
 Description: "Questionnaire for PROMIS Pain Interference CAT score reporting"
 
 * status = #active
+* title = "PROMIS Pain Interference Computerized Adaptive Test (CAT)"
 * url = "http://example.org/fhir/Questionnaire/PROMISPainInterferenceCATQuestionnaire"
 * code = $LNC#89923-7 "PROMIS item bank - pain interference - version 1.1"
 * subjectType[+] = #Patient

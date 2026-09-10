@@ -6,6 +6,7 @@ Title: "KOOS JR Questionnaire"
 Description: "Questionnaire for KOOS JR score reporting"
 
 * status = #active
+* title = "Knee Injury and Osteoarthritis Outcome Score for Joint Replacement (KOOS JR)"
 * url = "http://example.org/fhir/Questionnaire/KOOSJRQuestionnaire"
 * code = $LNC#82324-5 "Knee injury and osteoarthritis outcome score for joint replacement [KOOSJR]"
 * subjectType[+] = #Patient

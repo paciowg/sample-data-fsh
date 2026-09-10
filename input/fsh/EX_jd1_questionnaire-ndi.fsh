@@ -6,6 +6,7 @@ Title: "Neck Disability Index Questionnaire"
 Description: "Questionnaire for Neck Disability Index (NDI) score reporting"
 
 * status = #active
+* title = "Neck Disability Index (NDI)"
 * url = "http://example.org/fhir/Questionnaire/NeckDisabilityIndexQuestionnaire"
 * code = $LNC#82226-2 "Neck Disability Index [NDI]"
 * version = "0.1.0" // mlt_cmt: added version based on error Constraint failed: sdc-2

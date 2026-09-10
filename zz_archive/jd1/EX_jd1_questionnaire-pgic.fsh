@@ -6,6 +6,7 @@ Title: "Musculoskeletal PGIC Questionnaire"
 Description: "Questionnaire for Musculoskeletal Patient Global Impression of Change (PGIC) reporting"
 
 * status = #active
+* title = "Musculoskeletal Patient Global Impression of Change (PGIC)"
 * url = "http://example.org/fhir/Questionnaire/MSKPGICQuestionnaire"
 * version = "0.1.0" // mlt_cmt: added version based on error Constraint failed: sdc-2
 * extension[+].url = "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm"
@@ -47,6 +48,7 @@ Title: "Behavioral Health PGIC Questionnaire"
 Description: "Behavioral Health Patient Global Impression of Change"
 
 * status = #active
+* title = "Behavioral Health Patient Global Impression of Change (PGIC)"
 * url = "http://example.org/fhir/Questionnaire/BHPGICQuestionnaire"
 * version = "0.1.0" // mlt_cmt: added version based on error Constraint failed: sdc-2
 * extension[+].url = "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm"

@@ -6,6 +6,7 @@ Title: "PROMIS Pain Intensity NRS Questionnaire"
 Description: "Questionnaire for PROMIS Pain Intensity NRS v1.0 score reporting"
 
 * status = #active
+* title = "PROMIS Pain Intensity Numeric Rating Scale (NRS)"
 * url = "http://example.org/fhir/Questionnaire/PROMISNRSQuestionnaire"
 * code = $LNC#72514-3 "Pain severity - 0-10 verbal numeric rating [Score] - Reported"
 * subjectType[+] = #Patient

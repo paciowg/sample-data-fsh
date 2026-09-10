@@ -10,6 +10,7 @@ Title: "Oswestry Disability Index Questionnaire"
 Description: "Questionnaire for Oswestry Disability Index (ODI) score reporting"
 
 * status = #active
+* title = "Oswestry Disability Index (ODI)"
 * url = "http://example.org/fhir/Questionnaire/OswestryDisabilityIndexQuestionnaire"
 * code = $LNC#97908-8 "Oswestry Disability Index"
 * subjectType[+] = #Patient

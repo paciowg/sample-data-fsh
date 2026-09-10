@@ -6,6 +6,7 @@ Title: "HOOS JR Questionnaire"
 Description: "Questionnaire for HOOS JR score reporting"
 
 * status = #active
+* title = "Hip Disability and Osteoarthritis Outcome Score for Joint Replacement (HOOS JR)"
 * url = "http://example.org/fhir/Questionnaire/HOOSJRQuestionnaire"
 * code = $LNC#82316-1 "Hip dysfunction and osteoarthritis outcome score for joint replacement [HOOSJR]"
 * version = "0.1.0" // mlt_cmt: added version based on error Constraint failed: sdc-2

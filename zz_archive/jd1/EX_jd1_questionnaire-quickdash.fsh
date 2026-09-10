@@ -6,6 +6,7 @@ Title: "QuickDASH Questionnaire"
 Description: "Questionnaire for QuickDASH score reporting"
 
 * status = #active
+* title = "Quick Disabilities of the Arm, Shoulder and Hand (QuickDASH)"
 * url = "http://example.org/fhir/Questionnaire/QuickDASHQuestionnaire"
 * subjectType[+] = #Patient
 * version = "0.1.0"

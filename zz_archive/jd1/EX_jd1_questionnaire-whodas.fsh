@@ -6,6 +6,7 @@ Title: "WHODAS 2.0 12-item Questionnaire"
 Description: "World Health Organization Disability Assessment Schedule 2.0 (12-item)"
 
 * status = #active
+* title = "World Health Organization Disability Assessment Schedule 2.0 (WHODAS 2.0), 12-item"
 * url = "http://example.org/fhir/Questionnaire/WHODASQuestionnaire"
 * subjectType[+] = #Patient
 * version = "0.1.0"

@@ -7,6 +7,7 @@ Title: "PROMIS Physical Function Short Form 6b Questionnaire"
 Description: "Questionnaire for PROMIS Physical Function Short Form 6b score reporting"
 
 * status = #active
+* title = "PROMIS Physical Function Short Form 6b"
 * url = "http://example.org/fhir/Questionnaire/PROMISPhysicalFunctionQuestionnaire"
 * code = $LNC#76804-4 "PROMIS short form - physical function 6b - version 1.2"
 * subjectType[+] = #Patient
@@ -375,6 +376,7 @@ Title: "PROMIS Physical Function CAT Questionnaire"
 Description: "Questionnaire for PROMIS Physical Function CAT score reporting"
 
 * status = #active
+* title = "PROMIS Physical Function Computerized Adaptive Test (CAT)"
 * url = "http://example.org/fhir/Questionnaire/PROMISPhysicalFunctionCATQuestionnaire"
 * code = $LNC#91722-9 "PROMIS item bank - physical function - version 2.0"
 * subjectType[+] = #Patient
