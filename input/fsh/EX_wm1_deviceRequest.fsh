@@ -7,7 +7,7 @@ Usage: #example
 Description: "Wilma Marina home health order for walker dated 2026-02-26."
 * status = #active
 * intent = #order
-* codeCodeableConcept = $HCPCS#E0143 "Walker, folding, wheeled, adjustable or fixed height"
+* codeReference = Reference(wm1-device-walker-20260226)
 * subject = Reference(Patient/patient-wilmamarina01) "Wilma Marina"
 * authoredOn = "2026-02-26"
 * requester = Reference(PractitionerRole/PractitionerRole-PT-DeangeloMontes)
@@ -19,7 +19,7 @@ Usage: #example
 Description: "Wilma Marina home health order for wheelchair dated 2026-02-26."
 * status = #active
 * intent = #order
-* codeCodeableConcept = $HCPCS#K0001 "Standard wheelchair"
+* codeReference = Reference(wm1-device-wheelchair-20260226)
 * subject = Reference(Patient/patient-wilmamarina01) "Wilma Marina"
 * authoredOn = "2026-02-26"
 * requester = Reference(PractitionerRole/PractitionerRole-PT-DeangeloMontes)
@@ -31,7 +31,7 @@ Usage: #example
 Description: "Wilma Marina home health order for negative pressure wound pump dated 2026-04-15."
 * status = #active
 * intent = #order
-* codeCodeableConcept = $HCPCS#E2402 "Negative pressure wound therapy electrical pump, stationary or portable"
+* codeReference = Reference(wm1-device-negativePressureWoundPump-20260415)
 * subject = Reference(Patient/patient-wilmamarina01) "Wilma Marina"
 * authoredOn = "2026-04-15"
 * requester = Reference(PractitionerRole/PractitionerRole-DNP-JudySalas)
